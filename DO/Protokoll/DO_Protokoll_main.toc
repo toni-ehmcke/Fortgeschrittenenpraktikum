@@ -1,6 +1,14 @@
 \select@language {german}
-\contentsline {chapter}{\numberline {1}Einf\begingroup \let \relax \relax \endgroup [Pleaseinsert\PrerenderUnicode {ü}intopreamble]hrung}{2}
+\contentsline {chapter}{\numberline {1}Einf\IeC {\"u}hrung}{2}
 \contentsline {chapter}{\numberline {2}Aufgabenstellung}{3}
-\contentsline {chapter}{\numberline {3}Physikalischer Hintergrund}{4}
-\contentsline {chapter}{\numberline {4}Durchf\IeC {\"u}hrung}{5}
-\contentsline {chapter}{\numberline {5}Auswertung}{6}
+\contentsline {section}{\numberline {2.1}Strahlenschutzkontrollmessungen}{3}
+\contentsline {section}{\numberline {2.2}Ionisationskammer}{3}
+\contentsline {section}{\numberline {2.3}Absch\IeC {\"a}tzung der Dosisleistung f\IeC {\"u}r $\gamma $-Strahler}{3}
+\contentsline {section}{\numberline {2.4}OSL-Dosimetrie}{4}
+\contentsline {chapter}{\numberline {3}Physikalischer Hintergrund}{5}
+\contentsline {section}{\numberline {3.1}Strahlungsfeldgr\IeC {\"o}\IeC {\ss }en}{5}
+\contentsline {section}{\numberline {3.2}Dosisgr\IeC {\"o}\IeC {\ss }en}{6}
+\contentsline {section}{\numberline {3.3}Aktivit\IeC {\"a}tsgr\IeC {\"o}\IeC {\ss }en}{6}
+\contentsline {section}{\numberline {3.4}Messprinzip: Ionisationskammer}{6}
+\contentsline {chapter}{\numberline {4}Durchf\IeC {\"u}hrung}{8}
+\contentsline {chapter}{\numberline {5}Auswertung}{9}

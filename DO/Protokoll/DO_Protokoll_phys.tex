@@ -1,0 +1,72 @@
+\chapter{Physikalischer Hintergrund}
+\section{Strahlungsfeldgrößen}
+Zunächst definieren wir einige Größen zur Charakterisierung  von Strahlungsfeldern.
+
+\begin{definition}[Teilchenbezogene Größen]
+Die \underline{Teilchenflussdichte} $\varphi$ ist defininiert als:
+\begin{equation*}
+	\varphi = \frac{\mathrm{d}^2N}{\mathrm{d}A_{\perp} \cdot \mathrm{d}t},\ [\varphi] = 1/m^2s
+\end{equation*}
+Sie gibt damit die Zahl $\mathrm{d}^2N$ aller Teilchen an, die im Zeitintervall $\mathrm{d}t$ senkrecht die Großkreisfläche $\mathrm{d}A_{\perp}$ passieren.\\
+Integriert man die Teilchenflussdichte über ein endliches Zeitintervall $[t_1,t_2]$ erhält man die \underline{Teilchenfluenz} $\Phi$:
+\begin{equation*}
+	\Phi = \frac{\mathrm{d}N}{\mathrm{d}A_{\perp}} = \int\limits_{t_1}^{t2} \varphi \ \mathrm{d}t,\ [\Phi] = 1/m^2
+\end{equation*}
+\end{definition}
+
+\begin{definition}[Energiebezogene Größen].\\
+	Die \underline{Energieflussdichte} $\psi$ ist defininiert als:
+\begin{equation*}
+	\psi = \frac{\mathrm{d}^2W}{\mathrm{d}A_{\perp} \cdot \mathrm{d}t},\ [\varphi] = J/m^2s
+\end{equation*}
+Sie gibt die Summe $\mathrm{d}^2N$ aller Energien(ohne Ruheenergien)an, die im Zeitintervall $\mathrm{d}t$ senkrecht die Großkreisfläche $\mathrm{d}A_{\perp}$ passieren.\\
+Analog definiert man die \underline{Energiefluenz} $\Psi$:
+\begin{equation*}
+	\Psi = \frac{\mathrm{d}N}{\mathrm{d}A_{\perp}} = \int\limits_{t_1}^{t2} \psi \ \mathrm{d}t,\ 			[\Phi] = J/m^2
+\end{equation*}
+\end{definition}
+
+\section{Dosisgrößen}
+Wir definieren nun die wesentlichen Größen zur Charakterisierung der Wechselwirkung/Schädigung von Materie mit ionisierender Strahlung.
+
+\begin{definition}[Dosisgrößen].\\
+	Die \underline{Dosis D} ist ein Maß des Energieübertrags $\mathrm{d}E$ ionisierender Strahlung 		auf ein Materie-Massenelement $\mathrm{d}m$:
+\begin{equation}\label{eq:dosis}
+	D = \frac{\mathrm{d}E}{\mathrm{d}m},\ [D] = J/kg \equiv Gy\ \textrm{(Gray)}
+\end{equation}
+Die zeitliche Änderung der Dosis $\dot{D}$ nennt man \underline{Dosisleistung}.\\
+Will man berücksichtigen, dass die Schädigung biologischen Gewebes sowohl von der Strahlungsart R als auch von der Gewebeart T abhängt, führt man die Wichtungsfaktoren $w_R$ und $w_T$ ein, um die für den Strahlenschutz wesentliche Messgröße der \underline{effektiven (Äquivalent-)Dosis $H_E$} zu definieren:
+\begin{equation}
+	H_E = \sum_{R,T} w_R \cdot w_T \cdot D_{R,T},\ [H_E]=J/kg \equiv Sv\ \textrm{(Sievert)}
+\end{equation}
+\end{definition}
+
+\section{Aktivitätsgrößen}
+Um die Dosisleistung für die gegebenen $\gamma$-Strahler in Aufgabe 2.3 abzuschätzen, benötigen wir die \underline{Aktivität A} als Maß für die Anzahl der spontanen Kernumwandlungen pro Zeiteinheit. Mit dem exponentiellen Zerfallsgesetz erhalten wir:
+\begin{equation}
+	A(t)=A(t=0) \cdot \left(\frac{1}{2}\right)^{\frac{t}{T_{1/2}}}, [A] = 1/s \equiv Bq \textrm{(Bequerel)}
+\end{equation}
+Hier bei ist $T_{1/2}$ die Halbwertszeit des gegebenen Isotops.
+
+\section{Messprinzip: Ionisationskammer}
+Grob gesprochen ist eine Ionisationskammer ein (beliebig geformter) Kondensator, dessen Dielektrikum gasförmig (in unserem Fall Luft) vorliegt. Tritt ionisierende Strahlung in das Kammervolumen, so entstehen durch Wechselwirkung mit den Gasteilchen Elektronen-Ionen-Paare (Primärteilchen). Die dabei herausgelösten Ladungsträger gelangen nun im Idealfall durch Coulomb-Wechselwirkung zu einer Kondensatorplatte, wo sie nun als Stromfluss I nachgewiesen werden können. Wie wir später sehen werden ist der Stromfluss proportional zu unserer zu ermittelnden Dosis.\\ 
+Ist die Kondensatorspannung (und somit auch die Feldstärke) zu niedrig, bewegen sich die geladenen Teilchen zu langsam und die Rekombinations-Wahrscheinlichkeit steigt. Ist sie andererseits zu groß, werden die Primärteilchen zu stark beschleunigt, sodass sie lawinenartig weitere Ionisationen auslösen und Sekundärladungsträger erzeugen. Beide Fälle würden die Messung verfälschen, wodurch man eine Kompromisslösung im sogenannten Sättigungsbereich finden muss.\\
+Bezeichnen wir den mittleren Energieaufwand pro Ionisation mit w, den Gesamtenergieaufwand mit E und die Anzahl der Ionisationen mit N, erhalten wir mit Definition \eqref{eq:dosis} die für Aufgabe 2.2 entscheidende Formel:
+\begin{equation}
+	w = E / N
+\end{equation}
+\begin{equation}
+	D = \frac{\textrm{d}E}{\textrm{d}m}=\frac{E}{m}=\frac{w \cdot N}{\rho \cdot V}
+\end{equation}
+\begin{equation}
+	I = e \cdot \dot{N}: \dot{D} = \frac{w}{e \cdot \rho \cdot V} \cdot I
+\end{equation}
+Das heißt für näherungsweise konstante Dosisleistungen im Zeitintervall $\Delta t$ erhalten wir die Proportialität zwischen dem Stromfluss und der Dosis:
+\begin{equation}
+	D = \int \limits_{t_1}^{t_2} \dot{D}(t)\ \mathrm{d}t \approx \frac{w \cdot \Delta t}{e \cdot \rho \cdot V} \cdot I
+\end{equation}
+Nun wollen wir noch die Abhängigkeit des Ergebnisses vom Druck p und der Temperatur T berücksichtigen:
+\begin{equation}
+	\rho = 1,20 \cdot \frac{T_0}{T} \cdot \frac{p}{p_0} \frac{kg}{m^3},
+	\ T_0 = 293,15\ K,\ p_0 = 101,3\ kPa
+\end{equation}
