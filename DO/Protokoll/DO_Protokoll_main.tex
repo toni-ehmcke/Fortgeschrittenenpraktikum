@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper]{report}
+\documentclass[11pt,a4paper]{article}
 \usepackage{ucs}
 \usepackage[T1]{fontenc}
 \usepackage[utf8x]{inputenc}
@@ -11,8 +11,8 @@
 
 \newshadetheorem{sdefinition}{Definition}
 \newenvironment{definition}[1][]{%
-  \definecolor{shadethmcolor}{rgb}{.9,.9,.9}%
-  \definecolor{shaderulecolor}{rgb}{1.0,0.0,0.0}%
+  \definecolor{shadethmcolor}{rgb}{1.0,1.0,1.0}%{.9,.9,.9}%
+  \definecolor{shaderulecolor}{rgb}{0.0,0.0,0.0}%
   \setlength{\shadeboxrule}{1pt}%
   \begin{sdefinition}[#1]%
 }{\end{sdefinition}}
@@ -23,7 +23,7 @@
 
 \tableofcontents
 
-\input{DO_Protokoll_einf} 		% Einführung
+\include{DO_Protokoll_einf} 		% Einführung
 \input{DO_Protokoll_aufg}		% Aufgabenstellung
 \input{DO_Protokoll_phys}		% Physikalischer Hintergrund
 \input{DO_Protokoll_df}			% Durchführung
