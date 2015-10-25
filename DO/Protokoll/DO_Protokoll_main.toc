@@ -19,5 +19,9 @@
 \contentsline {subsection}{\numberline {4.3}Absch\IeC {\"a}tzung der Dosisleistung f\IeC {\"u}r $\gamma $-Strahler}{6}
 \contentsline {subsection}{\numberline {4.4}OSL-Dosimetrie}{6}
 \contentsline {subsection}{\numberline {4.5}Winkelabh\IeC {\"a}ngigkeit der kollimierten Quelle}{6}
-\contentsline {section}{\numberline {5}Auswertung}{6}
-\contentsline {section}{\numberline {6}Literaturverzeichnis}{7}
+\contentsline {subsection}{\numberline {4.6}Vermessung der Dosis am Arbeitsplatz}{7}
+\contentsline {subsection}{\numberline {4.7}Messung der Winkelabh\IeC {\"a}ngigkeit einer Ionisationskammer}{7}
+\contentsline {subsection}{\numberline {4.8}Vermessung der Dosis mittels des BeO$max$-Systems}{8}
+\contentsline {subsection}{\numberline {4.9}Vermessung der Strahlaufweitung der Quelle mithilfe des BeO$max$-Systems}{9}
+\contentsline {section}{\numberline {5}Auswertung}{10}
+\contentsline {section}{\numberline {6}Literaturverzeichnis}{11}
