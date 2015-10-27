@@ -15,9 +15,9 @@
 \contentsline {subsection}{\numberline {3.6}Messprinzip: BeOMax-Dosimetriesystem}{6}
 \contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung}{6}
 \contentsline {subsection}{\numberline {4.1}Strahlenschutzkontrollmessungen}{6}
-\contentsline {subsection}{\numberline {4.2}Winkelabh\IeC {\"a}ngigkeit einer Ionisationskammer}{7}
-\contentsline {subsection}{\numberline {4.3}Absch\IeC {\"a}tzung der Dosisleistung f\IeC {\"u}r $\gamma $-Strahler}{8}
-\contentsline {subsection}{\numberline {4.4}Dosismessung mit BeO$max$ und Abstandsquadratsgesetz}{8}
-\contentsline {subsection}{\numberline {4.5}Winkelabh\IeC {\"a}ngigkeit der kollimierten Quelle}{9}
-\contentsline {section}{\numberline {5}Auswertung}{10}
-\contentsline {section}{\numberline {6}Literaturverzeichnis}{11}
+\contentsline {subsection}{\numberline {4.2}Strahlenschutzkontrollmessungen}{7}
+\contentsline {subsection}{\numberline {4.3}Winkelabh\IeC {\"a}ngigkeit einer Ionisationskammer}{8}
+\contentsline {subsection}{\numberline {4.4}Absch\IeC {\"a}tzung der Dosisleistung f\IeC {\"u}r $\gamma $-Strahler}{8}
+\contentsline {subsection}{\numberline {4.5}Absch\IeC {\"a}tzung der Dosisleistung f\IeC {\"u}r $\gamma $-Strahler}{9}
+\contentsline {subsection}{\numberline {4.6}OSL-Dosimetrie}{9}
+\contentsline {subsection}{\numberline {4.7}Dosismessung mit BeO$max$ und Abstandsquadratsgesetz}{9}
