@@ -8,6 +8,7 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{shadethm}
+\usepackage{caption}
 
 \newshadetheorem{sdefinition}{Definition}
 \newenvironment{definition}[1][]{%
@@ -17,17 +18,19 @@
   \begin{sdefinition}[#1]%
 }{\end{sdefinition}}
 
+\newcommand{\minipanf}{\begin{minipage}{\linewidth}}
+\newcommand{\minipend}{\end{minipage}}
+
 \begin{document}
 
 \include{DO_Protokoll_title} 	% Titelseite
 
 \tableofcontents
 
-\include{DO_Protokoll_einf} 	% Einführung
+\include{DO_Protokoll_einf} 		% Einführung
 \input{DO_Protokoll_aufg}		% Aufgabenstellung
 \input{DO_Protokoll_phys}		% Physikalischer Hintergrund
 \input{DO_Protokoll_df}			% Durchführung
 \input{DO_Protokoll_ausw}		% Auswertung
-\include{DO_Protokoll_lit}
 
 \end{document}
