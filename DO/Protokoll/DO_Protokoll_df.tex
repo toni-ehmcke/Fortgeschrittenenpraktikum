@@ -1,17 +1,5 @@
 \section{Durchführung}
-<<<<<<< HEAD
 \subsection{Strahlenschutzkontrollmessungen}
-
-\subsection{Ionisationskammer}
-
-\subsection{Abschätzung der Dosisleistung für $\gamma$-Strahler}
-
-\subsection{OSL-Dosimetrie}
-
-\subsection{Winkelabhängigkeit der kollimierten Quelle}
-=======
-
-\subsection{Vermessung der Dosis am Arbeitsplatz}
 Im Ersten Arbeitsschritt haben wir die Dosen an verschiedenen Stellen im Versuchsraum vermessen. Dabei ist zu beachten, dass das verwendete Dosimeter Messwerte über einen bestimmten Zeitraum (ca. 30 Sekunden) mittelt. Außerdem handelt es sich um die Dosen, welche am morgen zum Arbeitsbeginn gemessen wurden. %\ref{dft:Arbeitsplatz}
 Im Zweiten Schritt haben wir mittels vier der BeO-Sonden, die von der Betreuerin am 21.10.2015 um 16:30 Uhr im Raum verteilt deponiert wurden, am Nachmittag des Versuchstages (23.10.15) um 15 Uhr ausgelesen.  %\ref{dft:BeOSonden} \\
 
@@ -44,7 +32,7 @@ Im Zweiten Schritt haben wir mittels vier der BeO-Sonden, die von der Betreuerin
 	
 Die BeO-Nummer ist die Identifikationsnummer des Sensors. Dadurch lassen sich alle Daten nochmals zurückverfolgen, da sich die Auswertesoftware die Nummern und die Verwendung der Sensoren merkt. LS bedeutet hier das gemessene Lichtsignal.
 		
-\subsection{Messung der Winkelabhängigkeit einer Ionisationskammer}
+\subsection{Winkelabhängigkeit einer Ionisationskammer} \label{sec:Ionkammer}
 
 Nun wenden wir uns der Messungen bezüglich der Winkelabhängigkeit der Ionisationskammer zu. Es handelt sich um eine ... Ionisationskammer. Die Messung startet bei 180\textdegree. Eine Messung dauert jeweils 60 Sekunden.
 
@@ -68,10 +56,14 @@ Nun wenden wir uns der Messungen bezüglich der Winkelabhängigkeit der Ionisati
 	\end{center}
 				
 
-\subsection{Vermessung der Dosis mittels des BeO$max$-Systems}
+\subsection{Abschätzung der Dosisleistung für $\gamma$-Strahler}
 
 Als nächstes widmeten wir uns der Messung der Dosis in verschiedenen Abständen. Dieses Mal verwendeten wir das BeO$max$-System. Wir verwenden immer vier der Beo-Chips in einer nahezu quadratischen Anordnung zwischen zwei verschieden dicken Plexiglas-Platten. Die dickere Platte zeigt stets von der Quelle weg.
-Die BeO's müssen immer mit 120 $\mu$Gy bestrahlt werden, was bei verschiedenen Abständen zu verschiedenen Messzeitintervallen führt. Mittels der gewonnenen Messergebnisse kann das Abstandsquadratgesetz nachgewiesen werden. 
+Die BeO's müssen immer mit etwa $\Delta D = 120\ \mu$Gy bestrahlt werden, was bei verschiedenen Abständen $d$ zu verschiedenen Messzeitintervallen führt. Unter Verwendung von (\ref{eq:dosisleistung}) und (\ref{eq:aktivitaet}) erhalten wir als Abschätzung für die Bestrahlzeit:
+\begin{equation}
+		\Delta t 	= \frac{d^2 \cdot \Delta D}{A(t) \cdot \Gamma} 
+					= 2^{\frac{t}{T_{1/2}}} \cdot \frac{d^2 \cdot \Delta D}{A_0 \cdot \Gamma} 
+\end{equation}
 
 \begin{table}
 	\begin{center}
@@ -90,10 +82,36 @@ Die BeO's müssen immer mit 120 $\mu$Gy bestrahlt werden, was bei verschiedenen 
 	\end{center}
 \end{table}
 
+\subsection{Dosismessung mit BeO$max$ und Abstandsquadratsgesetz}
+Zunächst führen wir eine Kalibrationsmessung durch, um das Ansprechvermögen $\epsilon = (LS - LS_0)/D_{ref}$ zu bestimmen.In Abschnitt \ref{sec:Ionkammer} haben wir dafür die Dosisleistung bei $d=0,5\ m$ und $\alpha = 180$ \textdegree  mit $\dot{D}_{ref} = (0,309 \pm 0.001)\mu Gy /s$ bestimmt. Es ergibt sich durch die längere Messzeit von $\Delta t = 292,8\ s$ eine Dosis von $D_{ref} = \dot{D}_{ref} \cdot \Delta t = (90,5 \pm 0,4)\mu Gy$. Wobei ein systematischer Fehler bei der Zeitmessung von $\Delta(\Delta t) = 0,5s$ als Reaktionszeit angenommen wurde. Wir wiederholen nun die Messung mit dem Beo\textit{max}-System und bestimmen das Ansprechvermögen:\\
+	\begin{center}	
+		\begin{tabular}{c|c|c|c|c}
+					\textbf{d} [m] & BeO-Nr. & \textbf{LS$_0$} [mVs] & \textbf{LS} [mVs] & \textbf{$\epsilon$} [$\frac{mVs}{\mu Gy}$] \\
+			\hline  
+								& 003305 & 0,66 & 2,84 & 0.024\\
+						0,5		& 003398 & 0,85 & 3,68 & 0.031\\
+								& 003372 & 0,77 & 3,34 & 0,028\\
+								& 003312 & 0,81 & 3,18 & 0,026\\								
+		\end{tabular}
+	\end{center}
+
+Damit können wir nun das gemessene Lichtsignal für alle unbekannten Dosen umrechnen. Dies sei hier examplarisch für die Messung bei $d=0,6\ m$ vorgeführt:
+	\begin{center}	
+		\begin{tabular}{c|c|c|c|c}
+					\textbf{d} [m] & BeO-Nr. & \textbf{LS$_0$} [mVs] & \textbf{LS} [mVs] & \textbf{$\epsilon$} [$\frac{mVs}{\mu Gy}$] \\
+			\hline  
+								& 003305 & 0,66 & 2,84 & 0.024\\
+						0,6		& 003398 & 0,85 & 3,68 & 0.031\\
+								& 003372 & 0,77 & 3,34 & 0,028\\
+								& 003312 & 0,81 & 3,18 & 0,026\\
+								
+		\end{tabular}
+	\end{center}
+	
 %\begin{table}
 	\begin{center}	
 		\begin{tabular}{c|c|c|c|c}
-					\textbf{d} [m] & BeO-Nr. & \textbf{LS0} [mVs] & \textbf{LS} [mVs] & \textbf{D} [mGy] \\
+					\textbf{d} [m] & BeO-Nr. & \textbf{LS$_0$} [mVs] & \textbf{LS} [mVs] & \textbf{D} [mGy] \\
 			\hline  
 								& 003305 & 0,65 & 1,99 & 0,0853\\
 						0,3		& 003398 & 0,86 & 2,52 & 0,0863\\
@@ -129,7 +147,7 @@ Die BeO's müssen immer mit 120 $\mu$Gy bestrahlt werden, was bei verschiedenen 
 	\end{center}
 %\end{table}
 
-\subsection{Vermessung der Strahlaufweitung der Quelle mithilfe des BeO$max$-Systems}
+\subsection{Winkelabhängigkeit der kollimierten Quelle}
 
 Zuletzt interessiert uns die Strahlaufweitung unserer Quelle. Dafür nahmen acht BeO-Sonden, die wir nebeneinander in einer Reihe auf die 16cm breite Plexiglas-Halterung legten. Die Sonden diesmal nicht zentriert, sondern von Zentrum rechtsseitig versetzt worden. Der Abstand zum Sensor um Zentrum des Strahls beträgt $d = 0,3$m. Daraus ergibt sich eine ungefähre Bestrahldauer von $\Delta t = 5$min. Die Zeit ist größer als bei den Abstandsmessungen zuvor, da sich die Abstände mit wachsendem Winkel verändert.
 
@@ -146,4 +164,3 @@ Zuletzt interessiert uns die Strahlaufweitung unserer Quelle. Dafür nahmen acht
 				003376 & 15 & 0,59 & 0,74 & 0,0260 \\
 		\end{tabular}
 	\end{center} 
->>>>>>> ec133926091a6b1e6bc6fa580f36e20707496a3c
