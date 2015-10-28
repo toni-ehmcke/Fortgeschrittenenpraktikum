@@ -3,25 +3,30 @@ Im Experiment werden wir die folgenden Aufgabenstellungen bearbeiten:
 \subsection{Strahlenschutzkontrollmessungen}
 Zunächst bestimmen wir die Dosisleistung in den Bestrahlungsräumen bei geschlossener und geöffneter Quelle an Positionen, an denen später gemessen wird und an denen wir uns häufig aufhalten werden. Dies hat den Zweck der Überwachung der durch die Experimentatoren aufgenommenen Dosis und des Strahlungshintergrundes, welcher die spätere Dosismessung beeinflussen kann. Es soll eine Skizze des Messraumes mit den entsprechenden Dosiswerten entstehen.
 
-\subsection{Ionisationskammer}
-Mit Hilfe einer Ionisationskammer sollen die absoluten Dosiswerte an Referenzpunkten gemessen werden, an denen wir später die OSL-Dosimeter kalibrieren werden. Weiterhin untersuchen wir die Richtungsabhängigkeit der Ionisationskammer. Dafür nutzen wir eine Kugelkammer ($V_K = 27,9\ cm^3$) und eine Stielkammer ($V_S = 30,0\ cm^3$).
+\subsection{Winkelabhängigkeit einer Ionisationskammer}
+Mit Hilfe einer Stielkammer ($V = 30,0\ cm^3$) soll die Richtungsabhängigkeit der Ionisationskammer bei einem festem Abstand ($d=0.5\ m$) und variablem Azimutalwinkel $\phi$ untersucht werden.
+Dies dient der Ermittlung der optimalen Ausrichtung der Kammer zur Bestimmung der Referenzdosisleistung für die spätere OSL-Dosimetrie.
 
 \subsection{Abschätzung der Dosisleistung für $\gamma$-Strahler}
-Für vorgegebene Nuklide ($^{241}Am,\ ^{60}Co,\ ^{137}Cs$) soll die Dosisleistung
-\begin{equation}
+Für eine $^{137}Cs$-Quelle soll die Dosisleistung für festen Abstand ($d=0.5\ m$) und unter dem oben ermittelten Winkel $\phi$ als Referenzdosis bestimmt werden. Dabei kann
+
+\begin{equation} \label{eq:dosisleistung}
 	\dot{D}=\frac{A \cdot \Gamma}{d^2}
 \end{equation}
 abgeschätzt werden. Dabei sind:
 \begin{center}
-\begin{minipage}{.9\textwidth}
-d: Abstand zur Quelle\\
-	A: Aktivität der Quelle am Versuchstag(22.10.2015), \\
-	Referenzwert $A(27.02.2008) = 5,0\ GBq$\\
-	$\Gamma$: Dosisleistungskonstante
+	\begin{minipage}{.9\textwidth}
+		d: Abstand zur Quelle\\
+		A: Aktivität der Quelle am Versuchstag(22.10.2015), \\
+		Referenzwert $A(27.02.2008) = 5,0\ GBq \equiv A_0$\\
+		$\Gamma$: Dosisleistungskonstante
 	
 	%----------------------------------------Tabelle einfügen---------------------------------
-\end{minipage}
+	\end{minipage}
 \end{center}
 
-\subsection{OSL-Dosimetrie}
-Wir werden anschließend mit Hilfe des BeO\textit{max}-OSL-Dosimetriesystems eine Dosismessung vornehmen. Da dieses Messsystem ein relatives Vorgehen verlangt, wird die Messung in zwei Schritten vorgenommen: 1) der Kalibrierung mit einer bekannten Dosis (siehe 2.2) und 2) der Dosisbestimmung einer unbekannten Dosis.
+\subsection{Dosismessung mit BeO$max$ und Abstandsquadratsgesetz}
+Wir werden anschließend mit Hilfe des BeO\textit{max}-OSL-Dosimetriesystems eine Dosismessung vornehmen. Da dieses Messsystem ein relatives Vorgehen verlangt, wird die Messung in zwei Schritten vorgenommen: 1) der Kalibrierung mit einer bekannten Dosis ($d=0.5\ m$) durch Ermittlung des Ansprechvermögens $\epsilon$ und 2) der Dosisbestimmung einer unbekannten Dosis ($d$ variabel). Dabei untersuchen wir gleichzeitig die Gültigkeit des Abstandsquadratsgesetzes.
+
+\subsection{Winkelabhängigkeit der kollimierten Quelle}
+Wir haben bei diesem Versuch eine kollimierte $^{137}Cs$-Quelle verwendet. Dabei werden wir die Abhängigkeit der Dosisleistung vom senkrechten Abstand zum Strahlmittelpunkt bestimmen.
