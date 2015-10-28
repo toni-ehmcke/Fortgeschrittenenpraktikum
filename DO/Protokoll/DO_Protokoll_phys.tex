@@ -1,31 +1,4 @@
 \section{Physikalischer Hintergrund}
-\subsection{Strahlungsfeldgrößen}
-Zunächst definieren wir einige Größen zur Charakterisierung  von Strahlungsfeldern.
-
-\begin{definition}[Teilchenbezogene Größen].\\
-Die \underline{Teilchenflussdichte} $\varphi$ ist definiert als:
-\begin{equation*}
-	\varphi = \frac{\mathrm{d}^2N}{\mathrm{d}A_{\perp} \cdot \mathrm{d}t},\ [\varphi] = 1/m^2s
-\end{equation*}
-Sie gibt damit die Zahl $\mathrm{d}^2N$ aller Teilchen an, die im Zeitintervall $\mathrm{d}t$ senkrecht die Großkreisfläche $\mathrm{d}A_{\perp}$ passieren.\\
-Integriert man die Teilchenflussdichte über ein endliches Zeitintervall $[t_1,t_2]$ erhält man die \underline{Teilchenfluenz} $\Phi$:
-\begin{equation*}
-	\Phi = \frac{\mathrm{d}N}{\mathrm{d}A_{\perp}} = \int\limits_{t_1}^{t2} \varphi \ \mathrm{d}t,\ [\Phi] = 1/m^2
-\end{equation*}
-\end{definition}
-
-\begin{definition}[Energiebezogene Größen].\\
-	Die \underline{Energieflussdichte} $\psi$ ist defininiert als:
-\begin{equation*}
-	\psi = \frac{\mathrm{d}^2W}{\mathrm{d}A_{\perp} \cdot \mathrm{d}t},\ [\varphi] = J/m^2s
-\end{equation*}
-Sie gibt die Summe $\mathrm{d}^2N$ aller Energien(ohne Ruheenergien)an, die im Zeitintervall $\mathrm{d}t$ senkrecht die Großkreisfläche $\mathrm{d}A_{\perp}$ passieren.\\
-Analog definiert man die \underline{Energiefluenz} $\Psi$:
-\begin{equation*}
-	\Psi = \frac{\mathrm{d}N}{\mathrm{d}A_{\perp}} = \int\limits_{t_1}^{t2} \psi \ \mathrm{d}t,\ 			[\Phi] = J/m^2
-\end{equation*}
-\end{definition}
-
 \subsection{Dosisgrößen}
 Wir definieren nun die wesentlichen Größen zur Charakterisierung der Wechselwirkung/Schädigung von Materie mit ionisierender Strahlung.
 
@@ -68,8 +41,8 @@ Das heißt für näherungsweise konstante Dosisleistungen im Zeitintervall $\Del
 \end{equation}
 Nun wollen wir noch die Abhängigkeit des Ergebnisses vom Druck p und der Temperatur T berücksichtigen:
 \begin{equation}
-	\rho = 1,20 \cdot \frac{T_0}{T} \cdot \frac{p}{p_0} \frac{kg}{m^3},
-	\ T_0 = 293,15\ K,\ p_0 = 101,3\ kPa
+	\rho = \rho_0 \cdot \frac{T_0}{T} \cdot \frac{p}{p_0} ,
+	\ T_0 = 293,15\ K,\ p_0 = 101,3\ kPa, \rho_0 =1,20 \frac{kg}{m^3}
 \end{equation}
 
 \subsection{Dosimetrie vermittels optisch stimulierter Lumineszenz}
