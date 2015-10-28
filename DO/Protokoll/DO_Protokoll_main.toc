@@ -10,14 +10,16 @@
 \contentsline {subsection}{\numberline {3.1}Strahlungsfeldgr\IeC {\"o}\IeC {\ss }en}{4}
 \contentsline {subsection}{\numberline {3.2}Dosisgr\IeC {\"o}\IeC {\ss }en}{4}
 \contentsline {subsection}{\numberline {3.3}Aktivit\IeC {\"a}t}{5}
-\contentsline {subsection}{\numberline {3.4}Abstandsquadratsgesetz}{5}
-\contentsline {subsection}{\numberline {3.5}Messprinzip: Ionisationskammer}{5}
-\contentsline {subsection}{\numberline {3.6}Messprinzip: BeOMax-Dosimetriesystem}{6}
+\contentsline {subsection}{\numberline {3.4}Messprinzip: Ionisationskammer}{5}
+\contentsline {subsection}{\numberline {3.5}Dosimetrie vermittels optisch stimulierter Lumineszenz}{6}
+\contentsline {subsection}{\numberline {3.6}BeO$max$-Funktionsprinzip}{6}
 \contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung}{6}
 \contentsline {subsection}{\numberline {4.1}Strahlenschutzkontrollmessungen}{6}
-\contentsline {subsection}{\numberline {4.2}Strahlenschutzkontrollmessungen}{7}
-\contentsline {subsection}{\numberline {4.3}Winkelabh\IeC {\"a}ngigkeit einer Ionisationskammer}{8}
-\contentsline {subsection}{\numberline {4.4}Absch\IeC {\"a}tzung der Dosisleistung f\IeC {\"u}r $\gamma $-Strahler}{8}
-\contentsline {subsection}{\numberline {4.5}Absch\IeC {\"a}tzung der Dosisleistung f\IeC {\"u}r $\gamma $-Strahler}{9}
-\contentsline {subsection}{\numberline {4.6}OSL-Dosimetrie}{9}
-\contentsline {subsection}{\numberline {4.7}Dosismessung mit BeO$max$ und Abstandsquadratsgesetz}{9}
+\contentsline {subsection}{\numberline {4.2}Winkelabh\IeC {\"a}ngigkeit einer Ionisationskammer}{7}
+\contentsline {subsection}{\numberline {4.3}Absch\IeC {\"a}tzung der Dosisleistung f\IeC {\"u}r $\gamma $-Strahler}{8}
+\contentsline {subsection}{\numberline {4.4}Dosismessung mit BeO$max$ und Abstandsquadratsgesetz}{9}
+\contentsline {subsection}{\numberline {4.5}Winkelabh\IeC {\"a}ngigkeit der kollimierten Quelle}{11}
+\contentsline {section}{\numberline {5}Auswertung}{11}
+\contentsline {subsection}{\numberline {5.1}Strahlenschutzmessung}{11}
+\contentsline {subsubsection}{\numberline {5.1.1}Strahlungswerte im Labor am Anfang des Versuchstages}{12}
+\contentsline {subsubsection}{\numberline {5.1.2}Strahlendosis im Labor \IeC {\"u}ber 2 Tage}{13}
