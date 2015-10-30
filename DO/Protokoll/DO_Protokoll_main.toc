@@ -18,8 +18,9 @@
 \contentsline {subsection}{\numberline {4.3}Absch\IeC {\"a}tzung der Dosisleistung f\IeC {\"u}r $\gamma $-Strahler}{7}
 \contentsline {subsection}{\numberline {4.4}Dosismessung mit BeO$max$ und Abstandsquadratsgesetz}{8}
 \contentsline {subsection}{\numberline {4.5}Winkelabh\IeC {\"a}ngigkeit der kollimierten Quelle}{10}
-\contentsline {section}{\numberline {5}Auswertung}{10}
-\contentsline {subsection}{\numberline {5.1}Strahlenschutzmessung}{10}
+\contentsline {section}{\numberline {5}Auswertung}{11}
+\contentsline {subsection}{\numberline {5.1}Strahlenschutzmessung}{11}
 \contentsline {subsubsection}{\numberline {5.1.1}Strahlungswerte im Labor am Anfang des Versuchstages}{11}
 \contentsline {subsubsection}{\numberline {5.1.2}Strahlendosis im Labor \IeC {\"u}ber 2 Tage}{12}
-\contentsline {subsection}{\numberline {5.2}Winkelabh\IeC {\"a}ngigkeit einer Ionisationskammer}{12}
+\contentsline {subsection}{\numberline {5.2}Abstandsquadratgesetz}{13}
+\contentsline {subsection}{\numberline {5.3}Winkelabh\IeC {\"a}ngigkeit der kollimierten Quelle}{13}

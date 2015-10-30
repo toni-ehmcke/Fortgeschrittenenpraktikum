@@ -101,8 +101,9 @@ Die BeO's müssen immer mit etwa $\Delta D = 120\ \mu$Gy bestrahlt werden, was b
 Diese Zeiten wurden nur als grobe Orientierungspunkte verwendet und sind aufgrund verschiedener Faktoren nicht genau eingehalten worden.
 
 \subsection{Dosismessung mit BeO$max$ und Abstandsquadratsgesetz}
-Nun widmen wir uns den Messergebnissen verschiedener Abstände. Verwendet wurden pro vier in der Mitte einer Plexisglas-Platte aufgebrachte BeO-Sensoren. Diese wurden für die in Tabelle \ref{dft:Zeiten} genannten Zeiten bestrahlt. Weiterhin haben wir vier von ihnen von Hand kalibriert.
-Zunächst führen wir eine Kalibrationsmessung durch, um das Ansprechvermögen $\epsilon = (LS - LS_0)/D_{ref}$ zu bestimmen.In Abschnitt \ref{sec:Ionkammer} haben wir dafür die Dosisleistung bei $d=0,5\ m$ und $\alpha = 180$ \textdegree  mit $\dot{D}_{ref} = (0,309 \pm 0.001)\mu Gy /s$ bestimmt. Es ergibt sich durch die längere Messzeit von $\Delta t = 292,8\ s$ eine Dosis von $D_{ref} = \dot{D}_{ref} \cdot \Delta t = (90,5 \pm 0,4)\mu Gy$. Wobei ein systematischer Fehler bei der Zeitmessung von $\Delta(\Delta t) = 0,5s$ als Reaktionszeit angenommen wurde. Wir wiederholen nun die Messung mit dem Beo\textit{max}-System und bestimmen das Ansprechvermögen:\\
+Nun kommen wir zu den Messergebnissen für verschiedene Abstände. Verwendet wurden vier in der Mitte einer Plexisglas-Platte aufgebrachte BeO-Sensoren. Diese wurden für die in Tabelle \ref{dft:Zeiten} genannten Zeiten bestrahlt.\\ 
+Zunächst führen wir für 4 BeOs eine Kalibrationsmessung durch, indem wir das Ansprechvermögen $\epsilon = (LS - LS_0)/D_{ref}$ bestimmen.
+In Abschnitt \ref{sec:Ionkammer} haben wir dafür die Dosisleistung bei $d=0,5\ m$ und $\alpha =$ 180\textdegree \ mit $\dot{D}_{ref} = (0,309 \pm 0.001)\mu Gy /s$ bestimmt. Es ergibt sich durch die längere Messzeit von $\Delta t = 292,8\ s$ eine Dosis von $D_{ref} = \dot{D}_{ref} \cdot \Delta t = (90,5 \pm 0,4)\mu Gy$. Wobei ein systematischer Fehler bei der Zeitmessung von $\Delta(\Delta t) = 0,5s$ als Reaktionszeit angenommen wurde. Wir wiederholen nun die Messung mit dem Beo\textit{max}-System und bestimmen das Ansprechvermögen:\\
 
 \minipanf
 	\begin{center}	
@@ -134,10 +135,10 @@ Zunächst führen wir eine Kalibrationsmessung durch, um das Ansprechvermögen $
 								& 003395 & 1,04 & 2,09 & 0,0870\\
 								& 003325 & 2,16 & 2,99 & 0,1415\\
 			\hline  
-                                & 003305 & 0,66 & 2,84 & 0,0908\\
-                        0,5     & 003398 & 0,85 & 3,86 & 0,0913\\
-                                & 003312 & 0,82 & 3,18 & 0,0912\\
-                                & 003372 & 0,77 & 3,34 & 0,0918\\
+                                & 003305 & 0,66 & 2,84 & 0,0955\\
+                        0,5     & 003398 & 0,85 & 3,86 & 0,0933\\
+                                & 003312 & 0,82 & 3,18 & 0,1029\\
+                                & 003372 & 0,77 & 3,34 & 0,0956\\
             \hline
                                 & 003397 & 0,68 & 2,01 & 0,0954\\
                         0,6     & 003364 & 0,80 & 2,92 & 0,0957\\
@@ -171,8 +172,36 @@ Zunächst führen wir eine Kalibrationsmessung durch, um das Ansprechvermögen $
 \minipend
 \vspace{5mm}
 
-Die Dosiswerte der beiden Abstände $d = 0,5m$ und $d = 0,6m$ wurden leider nicht vermessen. Wir haben diese allerdings von Hand über die vom PC bekannten Ansprechnvermögen $\epsilon$ nachträglich ausgerechnet.
-Die Ansprechvermögen der Detektoren wurden sogar einzeln von Hand ausgerechnet. Dazu kommen wir in der Auswertung.
+Die Dosiswerte der beiden Abstände $d = 0,5m$ und $d = 0,6m$ wurden leider nicht vermessen. Wir haben diese allerdings von Hand über die vom PC bekannten Ansprechnvermögen $\epsilon$ nachträglich ausgerechnet. \\
+Damit haben wir nun die Dosisleistung für die einzelnen Abstände bestimmt, um das Abstandsquadratsgesetz zu überprüfen:
+
+\minipanf
+	\begin{center}	
+		\begin{tabular}{c|c|c|c|c|c|c}
+					d [m] & $\overline{D}$ [$\mu Gy$] & $\Delta D_{sys}$ [$\mu Gy$] & $\sigma(\overline{D})$ [$\mu Gy$] & $\Delta t$ [s] & $\dot{D}$ [$\mu Gy / s$] & $\Delta\dot{D}$ [$\mu Gy / s$] \\
+		\hline	0.3 & 85 & 2.6 & 0.36 & 112 & 0.437 & 0.016 \\
+				0.4	& 88 & 2.6 & 0.84 & 195 & 0.453 & 0.018 \\
+				0.5 & 97 & 2.8 & 2.08 & 293 & 0.331 & 0.017 \\
+			    0.6	& 99 & 2.8 & 4.69 & 422 & 0.236 & 0.018 \\
+			    0.7 & 101 & 2.8 & 0.51 & 576 & 0.175 & 0.006 \\
+			    0.8	& 103 & 2.8 & 1.67 & 750 & 0.137 & 0.006 \\
+				0.9 & 103 & 2.8 & 1.64 & 975 & 0.106 & 0.005 \\
+				1.0 & 97 & 2.8 & 6.26 & 1170 & 0.083 & 0.008				
+		\end{tabular}
+		\captionof{table}{Dosisleistung in Abhängigkeit vom Abstand}
+		\label{dft:Abstandsquadrat}
+	\end{center}
+\minipend
+\vspace{3mm}
+
+Dabei wurden folgende Relationen verwendet:
+\begin{equation*}
+	\Delta D_{sys} = 1,5 \mu Gy + 0,013 \cdot D \\
+\end{equation*}
+\begin{equation*}
+	\Delta \dot{D} = \dot{D} \cdot \sqrt{\left(\frac{\Delta (\Delta t)}			{\Delta t}\right)^2 + \left(\frac{\Delta D}{D} \right)^2} + \dot{D} 			\cdot \frac{\sigma(\overline{D})}{D}
+\end{equation*}
+Wobei $\Delta t = 1\ s$ als Reaktionszeit, um den Stopfen auf die Quelle zu packen, großzügig abgeschätzt wurde. Es wurden die Stoppuhrzeiten notiert - die vorher theoretisch berechneten Zeiten dienten nur als grobe Orientierung.
 
 \subsection{Winkelabhängigkeit der kollimierten Quelle}
 
@@ -181,20 +210,22 @@ Zuletzt interessiert uns die Strahlaufweitung unserer Quelle. Dafür nahmen acht
 \vspace{5mm}
 \minipanf
 	\begin{center}
-		\begin{tabular}{c|c|c|c|c}
-				\textbf{BeO-Nr.}& \textbf{s} [cm] & \textbf{LS$_0$} [mVs] & \textbf{LS} [mVs] & \textbf{D} [mGy] \\
-		 \hline 003338 &  1 & 0,62 & 6,17 & 0,2289 \\
-				003302 &  3 & 0,92 & 5,43 & 0,2292 \\
-				003337 &  5 & 0,48 & 6,36 & 0,2252 \\
-				003364 &  7 & 0,74 & 4,98 & 0,2250 \\
-				003353 &  9 & 0,44 & 5,10 & 0,1731 \\
-				003388 & 11	& 0,68 & 2,15 & 0,0808 \\
-				003332 & 13 & 0,73 & 1,37 & 0,0475 \\
-				003376 & 15 & 0,59 & 0,74 & 0,0260 \\
+		\begin{tabular}{c|c|c|c|c|c}
+				\textbf{BeO-Nr.}& \textbf{s} [m] & \textbf{LS$_0$} [mVs] & \textbf{LS} [mVs] & \textbf{D} [$\mu Gy$] & $\Delta$ \textbf{D} [$\mu Gy$] \\
+		 \hline 003338 &  0.01 & 0,62 & 6,17 & 229 & 4,5 \\
+				003302 &  0.03 & 0,92 & 5,43 & 229 & 4,5 \\
+				003337 &  0.05 & 0,48 & 6,36 & 225 & 4,4 \\
+				003364 &  0.07 & 0,74 & 4,98 & 225 & 4,4 \\
+				003353 &  0.09 & 0,44 & 5,10 & 173 & 3,8 \\
+				003388 & 0.11	& 0,68 & 2,15 & 81 & 2,6 \\
+				003332 & 0.13 & 0,73 & 1,37 & 48 & 2,1 \\
+				003376 & 0.15 & 0,59 & 0,74 & 26 & 1,8 \\
 		\end{tabular}
 		\captionof{table}{Messung der Strahlaufweitung der Quelle durch den Kollimator}
         \label{dft:Aufweitung}
 	\end{center} 
 \minipend
 \vspace{5mm}
+
+Die Fit-Parameter haben wir mit 
 
