@@ -189,6 +189,7 @@ Damit haben wir nun die Dosisleistung für die einzelnen Abstände bestimmt, um 
 				1.0 & 97 & 2.8 & 6.26 & 1170 & 0.083 & 0.008				
 		\end{tabular}
 		\captionof{table}{Dosisleistung in Abhängigkeit vom Abstand}
+		\label{dft:Abstandsquadrat}
 	\end{center}
 \minipend
 \vspace{3mm}
@@ -200,7 +201,7 @@ Dabei wurden folgende Relationen verwendet:
 \begin{equation*}
 	\Delta \dot{D} = \dot{D} \cdot \sqrt{\left(\frac{\Delta (\Delta t)}			{\Delta t}\right)^2 + \left(\frac{\Delta D}{D} \right)^2} + \dot{D} 			\cdot \frac{\sigma(\overline{D})}{D}
 \end{equation*}
-Wobei $\Delta t = 1\ s$ als Reaktionszeit, um den Stopfen auf die Quelle zu packen, großzügig abgeschätzt wurde. Es wurden die Stoppuhrzeiten notiert - die vorher theoretisch berechneten dienten nur als grobe Orientierung.  
+Wobei $\Delta t = 1\ s$ als Reaktionszeit, um den Stopfen auf die Quelle zu packen, großzügig abgeschätzt wurde. Es wurden die Stoppuhrzeiten notiert - die vorher theoretisch berechneten Zeiten dienten nur als grobe Orientierung.
 
 \subsection{Winkelabhängigkeit der kollimierten Quelle}
 
@@ -209,20 +210,22 @@ Zuletzt interessiert uns die Strahlaufweitung unserer Quelle. Dafür nahmen acht
 \vspace{5mm}
 \minipanf
 	\begin{center}
-		\begin{tabular}{c|c|c|c|c}
-				\textbf{BeO-Nr.}& \textbf{s} [cm] & \textbf{LS$_0$} [mVs] & \textbf{LS} [mVs] & \textbf{D} [mGy] \\
-		 \hline 003338 &  1 & 0,62 & 6,17 & 0,2289 \\
-				003302 &  3 & 0,92 & 5,43 & 0,2292 \\
-				003337 &  5 & 0,48 & 6,36 & 0,2252 \\
-				003364 &  7 & 0,74 & 4,98 & 0,2250 \\
-				003353 &  9 & 0,44 & 5,10 & 0,1731 \\
-				003388 & 11	& 0,68 & 2,15 & 0,0808 \\
-				003332 & 13 & 0,73 & 1,37 & 0,0475 \\
-				003376 & 15 & 0,59 & 0,74 & 0,0260 \\
+		\begin{tabular}{c|c|c|c|c|c}
+				\textbf{BeO-Nr.}& \textbf{s} [m] & \textbf{LS$_0$} [mVs] & \textbf{LS} [mVs] & \textbf{D} [$\mu Gy$] & $\Delta$ \textbf{D} [$\mu Gy$] \\
+		 \hline 003338 &  0.01 & 0,62 & 6,17 & 229 & 4,5 \\
+				003302 &  0.03 & 0,92 & 5,43 & 229 & 4,5 \\
+				003337 &  0.05 & 0,48 & 6,36 & 225 & 4,4 \\
+				003364 &  0.07 & 0,74 & 4,98 & 225 & 4,4 \\
+				003353 &  0.09 & 0,44 & 5,10 & 173 & 3,8 \\
+				003388 & 0.11	& 0,68 & 2,15 & 81 & 2,6 \\
+				003332 & 0.13 & 0,73 & 1,37 & 48 & 2,1 \\
+				003376 & 0.15 & 0,59 & 0,74 & 26 & 1,8 \\
 		\end{tabular}
 		\captionof{table}{Messung der Strahlaufweitung der Quelle durch den Kollimator}
         \label{dft:Aufweitung}
 	\end{center} 
 \minipend
 \vspace{5mm}
+
+Die Fit-Parameter haben wir mit 
 
