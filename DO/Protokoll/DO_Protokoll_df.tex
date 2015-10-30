@@ -101,24 +101,24 @@ Die BeO's müssen immer mit etwa $\Delta D = 120\ \mu$Gy bestrahlt werden, was b
 Diese Zeiten wurden nur als grobe Orientierungspunkte verwendet und sind aufgrund verschiedener Faktoren nicht genau eingehalten worden.
 
 \subsection{Dosismessung mit BeO$max$ und Abstandsquadratsgesetz}
-Nun kommen wir zu den Messergebnissen für verschiedene Abstände. Verwendet wurden vier in der Mitte einer Plexisglas-Platte aufgebrachte BeO-Sensoren. Diese wurden für die in Tabelle \ref{dft:Zeiten} genannten Zeiten bestrahlt.\\ 
-Zunächst führen wir für 4 BeOs eine Kalibrationsmessung durch, indem wir das Ansprechvermögen $\epsilon = (LS - LS_0)/D_{ref}$ bestimmen.
-In Abschnitt \ref{sec:Ionkammer} haben wir dafür die Dosisleistung bei $d=0,5\ m$ und $\alpha =$ 180\textdegree \ mit $\dot{D}_{ref} = (0,309 \pm 0.001)\mu Gy /s$ bestimmt. Es ergibt sich durch die längere Messzeit von $\Delta t = 292,8\ s$ eine Dosis von $D_{ref} = \dot{D}_{ref} \cdot \Delta t = (90,5 \pm 0,4)\mu Gy$. Wobei ein systematischer Fehler bei der Zeitmessung von $\Delta(\Delta t) = 0,5s$ als Reaktionszeit angenommen wurde. Wir wiederholen nun die Messung mit dem Beo\textit{max}-System und bestimmen das Ansprechvermögen:\\
+Zunächst führen wir für 4 BeOs eine Kalibrationsmessung durch, indem wir das Ansprechvermögen $\epsilon = (LS - LS_0)/D_{ref}$ bestimmen. In Abschnitt \ref{sec:Ionkammer} haben wir dafür die Dosisleistung bei $d=0,5\ m$ und $\alpha =$ 180\textdegree \ mit $\dot{D}_{ref} = (0,309 \pm 0.002)\mu Gy /s$ bestimmt. Es ergibt sich durch die längere Messzeit von $\Delta t = 292,8\ s$ eine Dosis von $D_{ref} = \dot{D}_{ref} \cdot \Delta t = (90,5 \pm 0,6)\mu Gy$. Wobei ein systematischer Fehler bei der Zeitmessung von $\Delta(\Delta t) = 0,5s$ als Reaktionszeit angenommen wurde. Wir wiederholen nun die Messung mit dem Beo\textit{max}-System und bestimmen das Ansprechvermögen:\\
 
 \minipanf
 	\begin{center}	
-		\begin{tabular}{c|c|c|c|c}
-					\textbf{d} [m] & BeO-Nr. & \textbf{LS$_0$} [mVs] & \textbf{LS} [mVs] & \textbf{$\epsilon$} [$\frac{mVs}{\mu Gy}$] \\
+		\begin{tabular}{c|c|c|c|c|c}
+					\textbf{d} [m] & BeO-Nr. & \textbf{LS$_0$} [mVs] & \textbf{LS} [mVs] & \textbf{$\epsilon$} [$\frac{mVs}{mGy}$] & $\Delta \epsilon$ [$\frac{mVs}{mGy}$]  \\
 			\hline  
-								& 003305 & 0,66 & 2,84 & 0.024\\
-						0,5		& 003398 & 0,85 & 3,68 & 0.031\\
-								& 003372 & 0,77 & 3,34 & 0,028\\
-								& 003312 & 0,81 & 3,18 & 0,026\\								
+								& 003305 & 0,66 & 2,84 & 24,1 & 0,1\\
+						0,5		& 003398 & 0,85 & 3,68 & 31,3 & 0,2\\
+								& 003372 & 0,77 & 3,34 & 28,4 & 0,2\\
+								& 003312 & 0,81 & 3,18 & 26,2 & 0,2\\								
 		\end{tabular}
 		\captionof{table}{Bestimmung des Ansprechvermögens}
 	\end{center}
 \minipend
 \vspace{3mm}
+
+Nun kommen wir zu den Messergebnissen für verschiedene Abstände. Verwendet wurden vier in der Mitte einer Plexisglas-Platte aufgebrachte BeO-Sensoren. Diese wurden für die in Tabelle \ref{dft:Zeiten} genannten Zeiten bestrahlt: 
 
 \minipanf
 	\begin{center}	
@@ -172,7 +172,7 @@ In Abschnitt \ref{sec:Ionkammer} haben wir dafür die Dosisleistung bei $d=0,5\ 
 \minipend
 \vspace{5mm}
 
-Die Dosiswerte der beiden Abstände $d = 0,5m$ und $d = 0,6m$ wurden leider nicht vermessen. Wir haben diese allerdings von Hand über die vom PC bekannten Ansprechnvermögen $\epsilon$ nachträglich ausgerechnet. \\
+Die Dosiswerte der beiden Abstände $d = 0,5m$ und $d = 0,6m$ wurden leider nicht mit bereits kalibrierten BeO's vermessen. Wir haben diese allerdings von Hand über die vom PC bekannten Ansprechvermögen $\epsilon$ nachträglich ausgerechnet. \\
 Damit haben wir nun die Dosisleistung für die einzelnen Abstände bestimmt, um das Abstandsquadratsgesetz zu überprüfen:
 
 \minipanf
@@ -226,6 +226,3 @@ Zuletzt interessiert uns die Strahlaufweitung unserer Quelle. Dafür nahmen acht
 	\end{center} 
 \minipend
 \vspace{5mm}
-
-Die Fit-Parameter haben wir mit 
-

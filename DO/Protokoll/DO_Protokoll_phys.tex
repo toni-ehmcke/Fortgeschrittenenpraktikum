@@ -1,9 +1,7 @@
 \section{Physikalischer Hintergrund}
 \subsection{Dosisgrößen}
-Wir definieren nun die wesentlichen Größen zur Charakterisierung der Wechselwirkung/Schädigung von Materie mit ionisierender Strahlung.
-
-\begin{definition}[Dosisgrößen].\\
-	Die \underline{Dosis D} ist ein Maß des Energieübertrags $\mathrm{d}E$ ionisierender Strahlung 		auf ein Materie-Massenelement $\mathrm{d}m$:
+Wir definieren nun die wesentlichen Größen zur Charakterisierung der Wechselwirkung/Schädigung von Materie mit ionisierender Strahlung:\\
+Die \underline{Dosis D} ist ein Maß des Energieübertrags $\mathrm{d}E$ ionisierender Strahlung auf ein Materie-Massenelement $\mathrm{d}m$:
 \begin{equation}\label{eq:dosis}
 	D = \frac{\mathrm{d}E}{\mathrm{d}m},\ [D] = J/kg \equiv Gy\ \textrm{(Gray)}
 \end{equation}
@@ -12,7 +10,11 @@ Will man berücksichtigen, dass die Schädigung biologischen Gewebes sowohl von 
 \begin{equation}
 	H_E = \sum_{R,T} w_R \cdot w_T \cdot D_{R,T},\ [H_E]=J/kg \equiv Sv\ \textrm{(Sievert)}
 \end{equation}
-\end{definition}
+Dabei findet man, dass die Dosisleistung einer Punktquelle mit dem Quadrat des Abstandes zu dieser fällt:
+\begin{equation*}
+		\dot{D} \propto \frac{1}{d^2}
+\end{equation*}
+Diesen Zusammenhang nennt man \textbf{Abstandsquadratgesetz}.
 
 \subsection{Aktivität}
 Um die Dosisleistung für die gegebenen $\gamma$-Strahler in Aufgabe 2.3 abzuschätzen, benötigen wir die \underline{Aktivität A} als Maß für die Anzahl der spontanen Kernumwandlungen pro Zeiteinheit. Mit dem exponentiellen Zerfallsgesetz erhalten wir:
@@ -22,28 +24,20 @@ Um die Dosisleistung für die gegebenen $\gamma$-Strahler in Aufgabe 2.3 abzusch
 Hier bei ist $T_{1/2}$ die Halbwertszeit des gegebenen Isotops.
 
 \subsection{Messprinzip: Ionisationskammer}
-Grob gesprochen ist eine Ionisationskammer ein (beliebig geformter) Kondensator, dessen Dielektrikum gasförmig (in unserem Fall Luft) vorliegt. Tritt ionisierende Strahlung in das Kammervolumen, so entstehen durch Wechselwirkung mit den Gasteilchen Elektronen-Ionen-Paare (Primärteilchen). Die dabei herausgelösten Ladungsträger gelangen nun im Idealfall durch Coulomb-Wechselwirkung zu einer Kondensatorplatte, wo sie nun als Stromfluss I nachgewiesen werden können. Wie wir später sehen werden ist der Stromfluss proportional zu unserer zu ermittelnden Dosis.\\ 
-Ist die Kondensatorspannung (und somit auch die Feldstärke) zu niedrig, bewegen sich die geladenen Teilchen zu langsam und die Rekombinations-Wahrscheinlichkeit steigt. Ist sie andererseits zu groß, werden die Primärteilchen zu stark beschleunigt, sodass sie lawinenartig weitere Ionisationen auslösen und Sekundärladungsträger erzeugen. Beide Fälle würden die Messung verfälschen, wodurch man eine Kompromisslösung im sogenannten Sättigungsbereich finden muss.\\
-Bezeichnen wir den mittleren Energieaufwand pro Ionisation mit w, den Gesamtenergieaufwand mit E und die Anzahl der Ionisationen mit N, erhalten wir mit Definition \eqref{eq:dosis} die für Aufgabe 2.2 entscheidende Formel:
-\begin{equation}
-	w = E / N
-\end{equation}
-\begin{equation}
-	D = \frac{\textrm{d}E}{\textrm{d}m}=\frac{E}{m}=\frac{w \cdot N}{\rho \cdot V}
-\end{equation}
+Grob gesprochen ist eine Ionisationskammer ein (beliebig geformter) Kondensator, dessen Dielektrikum gasförmig (in unserem Fall Luft) vorliegt. Tritt ionisierende Strahlung in das Kammervolumen, so entstehen durch Wechselwirkung mit den Gasteilchen Elektronen-Ionen-Paare (Primärteilchen). Die dabei herausgelösten Ladungsträger gelangen nun im Idealfall durch Coulomb-Wechselwirkung zu einer Kondensatorplatte, wo sie nun als Stromfluss I nachgewiesen werden können. Für näherungsweise konstante Dosisleistungen im Zeitintervall $\Delta t$ erhalten wir die Proportialität zwischen dem Stromfluss und der Dosis:\\ 
 
-\begin{equation}
-	I = e \cdot \dot{N}: \dot{D} = \frac{w}{e \cdot \rho \cdot V} \cdot I
-\end{equation}
-Das heißt für näherungsweise konstante Dosisleistungen im Zeitintervall $\Delta t$ erhalten wir die Proportialität zwischen dem Stromfluss und der Dosis:
-\begin{equation}
+\begin{equation} \label{eq:Ionenkammer}
 	D(t) = D(t_0) + \int \limits_{t_0}^{t} \dot{D}(\tau) \mathrm{d}\tau \approx \frac{w \cdot \Delta t}{e \cdot \rho \cdot V} \cdot I
 \end{equation}
-Nun wollen wir noch die Abhängigkeit des Ergebnisses vom Druck p und der Temperatur T berücksichtigen:
+
+Ist die Kondensatorspannung (und somit auch die Feldstärke) zu niedrig, bewegen sich die geladenen Teilchen zu langsam und die Rekombinations-Wahrscheinlichkeit steigt. Ist sie andererseits zu groß, werden die Primärteilchen zu stark beschleunigt, sodass sie lawinenartig weitere Ionisationen auslösen und Sekundärladungsträger erzeugen. Beide Fälle würden die Messung verfälschen, wodurch man eine Kompromisslösung im sogenannten Sättigungsbereich finden muss.\\ 
+
+In Gleichung \ref{eq:Ionenkammer} sehen wir die Abhängigkeit der Dosis von der Dichte des Dielektrikums $\rho$. Da die Dichte der Luft in unserem Detektor vom Druck p, der Temperatur T und der Luftfeuchte f abhängt, müssen wir diese Einflüsse eventuell korrigieren:
 \begin{equation}
 	\rho = \rho_0 \cdot \frac{T_0}{T} \cdot \frac{p}{p_0} ,
 	\ T_0 = 293,15\ K,\ p_0 = 101,3\ kPa, \rho_0 =1,20 \frac{kg}{m^3}
 \end{equation}
+Wobei $\rho_0$ der Dichte von Luft bei Normbedingungen entspricht. Den Einfluss der Luftfeuchte wollen wir an dieser Stelle vernachlässigen.
 
 \subsection{Dosimetrie vermittels optisch stimulierter Lumineszenz}
 
