@@ -31,9 +31,8 @@ Die Maximaldauer ergibt sich aus der durchschnittlichen Tagesdosis folgendermaß
 \begin{equation*}
     t_{max} = \frac{0,0164 mSv}{\dot D} 
 \end{equation*}
-\ \\
+\vspace{2mm}
 Dabei trägt \.D die Einheit mSv/h\\
-
 Bezüglich der Messergegbnisse kann man noch weitere Fehlerquellen erwähnen. Das verwendete Dosimeter  ist nicht nur einer Unsicherheit durch den Haltenden ausgesetzt, sondern wurde auch bemerkt, dass zu verschiedenen Zeitpunkten die Messwerte sprungartig in die Höhe schnellten und sich nach ca. zwei Minuten senkten, was in etwa der Zeit für die Mittelung des Gerätes entspricht.
 
 \subsubsection{Strahlendosis im Labor über 2 Tage}
@@ -43,6 +42,20 @@ etwa 0,5mSv gemessen hat. Dies entspricht etwa der Hälfte von dem, was eine Sta
 künstlicher Strahlenzufuhr erfahren darf. Fraglich ist allerdings, ob dieser Wert nicht ein Ergebnis von Störungen, 
 die andere Experimente verursacht haben, ist, da auch mit dem tragbaren Dosimeter zwischenzeitlich einzelne Peaks gemessen wurden.
 Man erkennt allerdings gut, dass der BeO-Sensor, der hinter der Quelle lag, eine deutlich geringere Strahlendosis maß als jene, die auf der Steckerleiste 1,8m vor und auf der Steckerleiste neben der Quelle lagen. Dies bestätigt die Vermutung, die Abschirmung hinter der Quelle sei stärker als jene an den Seiten.
+
+\subsection{Winkelabhängigkeit einer Ionisationskammer}
+    Die Aufgabe hier bestand im Nachweis einer bevorzugten Messausrichtung der uns zur Verfügung gestellten Ionisationskammer. In Tabelle \ref{dft:Winkel} haben wir die Messdaten sowie die luftdruck- und temperaturkorrigierten Dosisleistungen notiert.
+    Diese wurden in folgendem Diagramm aufgetragen.
+
+    \begin{center}
+        \minipanf
+                \makebox[\textwidth]{\input{GrafikIonisationskammer}} %Grafik für die Winkelabhängigkeit der Ionisationskammer, von qtiplot exportiert
+                \captionof{figure}{Messung der Vorzugsrichtung}
+                \label{auswd:Winkel}
+        \minipend
+    \end{center}
+    \vspace{3mm}
+    Bei 180° kann man deutlich ein Maximum des Ansprechvermögens bei konstant angenommener Aktivität der Quelle erkennen. Dies entspricht der uns durch einen grünen Strich vorgegebenen Vorzugsrichtung. Ebenfalls deutet sich eine asymmetrische Empfindlichkeit über den Winkel $\alpha$ an. 
 
 
 \subsection{Abstandsquadratgesetz}

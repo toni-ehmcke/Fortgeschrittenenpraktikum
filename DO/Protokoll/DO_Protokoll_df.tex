@@ -40,7 +40,7 @@ Die BeO-Nummer ist die Identifikationsnummer des Sensors. Dadurch lassen sich al
 		
 \subsection{Winkelabhängigkeit einer Ionisationskammer} \label{sec:Ionkammer}
 
-Nun wenden wir uns der Messungen bezüglich der Winkelabhängigkeit einer zylindischren Ionenstrahlkammer zu. Die Messung startet bei 180\textdegree und dauert pro Winkel jeweils 60 Sekunden.
+Nun wenden wir uns der Messungen bezüglich der Winkelabhängigkeit einer zylindrischen Ionenstrahlkammer zu. Die Messung startet bei 180\textdegree und dauert pro Winkel jeweils 60 Sekunden.
 Es handelt sich hier um eine aktive Sonde, die über ein Leichtleiterkabel an ein Anzeigegerät, welches alle gemessenen Werte innerhalb des Messzeitintervalls einer Messung automatisch aufsummiert, angeschlossen wurde.
 
 \vspace{5mm}
@@ -66,7 +66,26 @@ Es handelt sich hier um eine aktive Sonde, die über ein Leichtleiterkabel an ei
 	\end{center}
 \vspace{5mm}				
 
-Die Drehung der zylindrischen Ionenstrahlkammer wurde um die z-Achse vorgenommen. Dabei sind 180\textdegree gerade die Vorzugsrichtung, in der die Kammer Richtung Quelle zeigt. Dies wurde am Gerät durch eine eine grüne Strichmarkierung angezeigt. Während der Messungen betrugen die Temperatur im Raum $T = 294,75K$, der Druck $p = 100,52kPa$ und die Luftfeuchtigkeit 54\%.
+Die Drehung der zylindrischen Ionenstrahlkammer wurde um die z-Achse vorgenommen. Dabei sind 180\textdegree gerade die vorgegebene Vorzugsrichtung, in der die Kammer Richtung Quelle zeigt. Dies wurde am Gerät durch eine eine grüne Strichmarkierung angezeigt. Während der Messungen betrugen die Temperatur im Raum $T = (294,75\pm 0,3)K$, der Druck $p = (100,52 \pm 0,01)kPa$ und die Luftfeuchtigkeit 54\%. Dabei sind die Fehler für Temperatur und Druck abgeschätzt. Während die Temperatur im Raum Schwankungen unterworfen war, konnte der Luftdruck nahezu erhalten bleiben. Bezüglich D$_0$ schätzen wir aufgrund des statistischen Charakters während der Messungen inklusive des Digits einen Fehler von 0,03$\mu$Gy ab\\
+\.D bezeichnet die Luftdruck-Temperatur-korrigierte Dosisleistung. Sie ergibt sich folgendermaßen aus Formel (\ref{formel:kappa}):
+
+\begin{equation*}
+        \dot D = \kappa D_0 \ \text{ mit } \ \kappa = \frac{\rho}{\rho_0} = \frac{T}{T_0} \frac{p_0}{p}
+\end{equation*}
+
+Dies führt uns auf folgenden Fehler $\Delta$\.D:
+
+\begin{equation*}
+    \Delta \dot D = \dot D \sqrt{\left(\frac{\Delta \kappa}{\kappa}\right)^2 + \left( \frac{\Delta \dot D_0}{\dot D_0}\right)^2} \text{ wobei } \Delta \kappa = \kappa \sqrt{\left(\frac{\Delta T}{T}\right)^2 + \left(\frac{\Delta p}{p}\right)^2}
+\end{equation*}
+
+Da wir die Temperatur als nahezu konstant annahmen ist $\frac{\Delta \kappa}{\kappa}$ eine Konstante. $\frac{\Delta \dot D}{\dot D}$ scheint zunächst unbekannt. Es ergibt sich jedoch aus einer nahezu fehlerfreien Zeitmessung und $\dot D = D/(\Delta t)$:
+
+\begin{equation*}
+    \frac{\Delta \dot D}{\dot D} =  \frac{\Delta D}{D}
+\end{equation*}
+
+Da sich das Zeitintervall $\Delta t$ herauskürzt.
 
 \subsection{Abschätzung der Dosisleistung für $\gamma$-Strahler}
 

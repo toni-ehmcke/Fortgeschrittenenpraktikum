@@ -10,17 +10,18 @@
 \contentsline {subsection}{\numberline {3.1}Dosisgr\IeC {\"o}\IeC {\ss }en}{4}
 \contentsline {subsection}{\numberline {3.2}Aktivit\IeC {\"a}t}{4}
 \contentsline {subsection}{\numberline {3.3}Messprinzip: Ionisationskammer}{4}
-\contentsline {subsection}{\numberline {3.4}Dosimetrie vermittels optisch stimulierter Lumineszenz}{5}
-\contentsline {subsection}{\numberline {3.5}BeO$max$-Funktionsprinzip}{5}
-\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung}{6}
-\contentsline {subsection}{\numberline {4.1}Strahlenschutzkontrollmessungen}{6}
-\contentsline {subsection}{\numberline {4.2}Winkelabh\IeC {\"a}ngigkeit einer Ionisationskammer}{7}
-\contentsline {subsection}{\numberline {4.3}Absch\IeC {\"a}tzung der Dosisleistung f\IeC {\"u}r $\gamma $-Strahler}{7}
-\contentsline {subsection}{\numberline {4.4}Dosismessung mit BeO$max$ und Abstandsquadratsgesetz}{8}
-\contentsline {subsection}{\numberline {4.5}Winkelabh\IeC {\"a}ngigkeit der kollimierten Quelle}{10}
-\contentsline {section}{\numberline {5}Auswertung}{11}
-\contentsline {subsection}{\numberline {5.1}Strahlenschutzmessung}{11}
-\contentsline {subsubsection}{\numberline {5.1.1}Strahlungswerte im Labor am Anfang des Versuchstages}{11}
-\contentsline {subsubsection}{\numberline {5.1.2}Strahlendosis im Labor \IeC {\"u}ber 2 Tage}{12}
-\contentsline {subsection}{\numberline {5.2}Abstandsquadratgesetz}{13}
-\contentsline {subsection}{\numberline {5.3}Winkelabh\IeC {\"a}ngigkeit der kollimierten Quelle}{13}
+\contentsline {subsection}{\numberline {3.4}Optisch stimulierte Lumineszenz}{5}
+\contentsline {subsection}{\numberline {3.5}BeO$max$-Funktionsprinzip}{6}
+\contentsline {section}{\numberline {4}Durchf\IeC {\"u}hrung}{7}
+\contentsline {subsection}{\numberline {4.1}Strahlenschutzkontrollmessungen}{7}
+\contentsline {subsection}{\numberline {4.2}Winkelabh\IeC {\"a}ngigkeit einer Ionisationskammer}{8}
+\contentsline {subsection}{\numberline {4.3}Absch\IeC {\"a}tzung der Dosisleistung f\IeC {\"u}r $\gamma $-Strahler}{10}
+\contentsline {subsection}{\numberline {4.4}Dosismessung mit BeO$max$ und Abstandsquadratsgesetz}{10}
+\contentsline {subsection}{\numberline {4.5}Winkelabh\IeC {\"a}ngigkeit der kollimierten Quelle}{13}
+\contentsline {section}{\numberline {5}Auswertung}{14}
+\contentsline {subsection}{\numberline {5.1}Strahlenschutzmessung}{14}
+\contentsline {subsubsection}{\numberline {5.1.1}Strahlungswerte im Labor am Anfang des Versuchstages}{14}
+\contentsline {subsubsection}{\numberline {5.1.2}Strahlendosis im Labor \IeC {\"u}ber 2 Tage}{15}
+\contentsline {subsection}{\numberline {5.2}Winkelabh\IeC {\"a}ngigkeit einer Ionisationskammer}{16}
+\contentsline {subsection}{\numberline {5.3}Abstandsquadratgesetz}{16}
+\contentsline {subsection}{\numberline {5.4}Winkelabh\IeC {\"a}ngigkeit der kollimierten Quelle}{17}
