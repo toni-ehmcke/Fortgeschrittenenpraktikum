@@ -64,28 +64,23 @@ Es handelt sich hier um eine aktive Sonde, die über ein Leichtleiterkabel an ei
 		\captionof{table}{Messwerte aus der Winkelabhängigkeit der Zylinderkammer}
 		\label{dft:Winkel}
 	\end{center}
-\vspace{5mm}				
-
-Die Drehung der zylindrischen Ionenstrahlkammer wurde um die z-Achse vorgenommen. Dabei sind 180\textdegree gerade die vorgegebene Vorzugsrichtung, in der die Kammer Richtung Quelle zeigt. Dies wurde am Gerät durch eine eine grüne Strichmarkierung angezeigt. Während der Messungen betrugen die Temperatur im Raum $T = (294,75\pm 0,3)K$, der Druck $p = (100,52 \pm 0,01)kPa$ und die Luftfeuchtigkeit 54\%. Dabei sind die Fehler für Temperatur und Druck abgeschätzt. Während die Temperatur im Raum Schwankungen unterworfen war, konnte der Luftdruck nahezu erhalten bleiben. Bezüglich D$_0$ schätzen wir aufgrund des statistischen Charakters während der Messungen inklusive des Digits einen Fehler von 0,03$\mu$Gy ab\\
+Die Drehung der zylindrischen Ionenstrahlkammer wurde um die z-Achse vorgenommen. Dabei sind 180\textdegree gerade die vorgegebene Vorzugsrichtung, in der die Kammer Richtung Quelle zeigt. Dies wurde am Gerät durch eine eine grüne Strichmarkierung angezeigt. Während der Messungen betrugen die Temperatur im Raum $T = (294,75\pm 0,3)K$, der Druck $p = (100,52 \pm 0,01)kPa$ und die Luftfeuchtigkeit 54\%. Dabei sind die Fehler für Temperatur und Druck abgeschätzt. Während die Temperatur im Raum Schwankungen unterworfen war, konnte der Luftdruck nahezu erhalten bleiben. Bezüglich D$_0$ schätzen wir aufgrund des statistischen Charakters während der Messungen inklusive des Digits einen Fehler von $\Delta \dot{D} = 0,03\mu$Gy ab\\
 \.D bezeichnet die Luftdruck-Temperatur-korrigierte Dosisleistung. Sie ergibt sich folgendermaßen aus Formel (\ref{formel:kappa}):
 
 \begin{equation*}
         \dot D = \kappa D_0 \ \text{ mit } \ \kappa = \frac{\rho}{\rho_0} = \frac{T}{T_0} \frac{p_0}{p}
 \end{equation*}
-
-Dies führt uns auf folgenden Fehler $\Delta$\.D:
-
+\ \\
+Dies führt uns auf folgenden Fehler:
 \begin{equation*}
     \Delta \dot D = \dot D \sqrt{\left(\frac{\Delta \kappa}{\kappa}\right)^2 + \left( \frac{\Delta \dot D_0}{\dot D_0}\right)^2} \text{ wobei } \Delta \kappa = \kappa \sqrt{\left(\frac{\Delta T}{T}\right)^2 + \left(\frac{\Delta p}{p}\right)^2}
 \end{equation*}
-
-Da wir die Temperatur als nahezu konstant annahmen ist $\frac{\Delta \kappa}{\kappa}$ eine Konstante. $\frac{\Delta \dot D}{\dot D}$ scheint zunächst unbekannt. Es ergibt sich jedoch aus einer nahezu fehlerfreien Zeitmessung und $\dot D = D/(\Delta t)$:
+\ \\
+Da wir die Temperatur als nahezu konstant annahmen ist $\Delta \kappa / \kappa = 0,17\%$ auch eine Konstante. $\Delta \dot D / \dot D$ scheint zunächst unbekannt. Es ergibt sich jedoch aus einer nahezu fehlerfreien Zeitmessung (computergesteuert) und $\dot D = D/\Delta t$:
 
 \begin{equation*}
     \frac{\Delta \dot D}{\dot D} =  \frac{\Delta D}{D}
 \end{equation*}
-
-Da sich das Zeitintervall $\Delta t$ herauskürzt.
 
 \subsection{Abschätzung der Dosisleistung für $\gamma$-Strahler}
 
@@ -116,16 +111,16 @@ Die BeO's müssen immer mit etwa $\Delta D = 120\ \mu$Gy bestrahlt werden, was b
 	\end{center}
 \minipend
 \vspace{5mm}
-
+\ \\
 Diese Zeiten wurden nur als grobe Orientierungspunkte verwendet und sind aufgrund verschiedener Faktoren nicht genau eingehalten worden.
 
 \subsection{Dosismessung mit BeO$max$ und Abstandsquadratsgesetz}
-Zunächst führen wir für 4 BeOs eine Kalibrationsmessung durch, indem wir das Ansprechvermögen $\epsilon = (LS - LS_0)/D_{ref}$ bestimmen. In Abschnitt \ref{sec:Ionkammer} haben wir dafür die Dosisleistung bei $d=0,5\ m$ und $\alpha =$ 180\textdegree \ mit $\dot{D}_{ref} = (0,309 \pm 0.002)\mu Gy /s$ bestimmt. Es ergibt sich durch die längere Messzeit von $\Delta t = 292,8\ s$ eine Dosis von $D_{ref} = \dot{D}_{ref} \cdot \Delta t = (90,5 \pm 0,6)\mu Gy$. Wobei ein systematischer Fehler bei der Zeitmessung von $\Delta(\Delta t) = 0,5s$ als Reaktionszeit angenommen wurde. Wir wiederholen nun die Messung mit dem Beo\textit{max}-System und bestimmen das Ansprechvermögen:\\
+Zunächst führen wir für 4 BeOs eine Kalibrationsmessung durch, indem wir das Ansprechvermögen $\epsilon$ nach Gleichung (\ref{eq:ansprechvermoegen}) bestimmen. In Abschnitt \ref{sec:Ionkammer} haben wir dafür die Dosisleistung bei $d=0,5\ m$ und $\alpha =$ 180\textdegree \ mit $\dot{D}_{ref} = (0,309 \pm 0.002)\mu Gy /s$ bestimmt. Es ergibt sich durch die längere Messzeit von $\Delta t = 292,8\ s$ eine Dosis von $D_{ref} = \dot{D}_{ref} \cdot \Delta t = (90,5 \pm 0,6)\mu Gy$. Wobei ein systematischer Fehler bei der Zeitmessung von $\Delta(\Delta t) = 0,5s$ als Reaktionszeit angenommen wurde. Wir wiederholen nun die Messung mit dem Beo\textit{max}-System und bestimmen das Ansprechvermögen:\\
 
 \minipanf
 	\begin{center}	
 		\begin{tabular}{c|c|c|c|c|c}
-					\textbf{d} [m] & BeO-Nr. & \textbf{LS$_0$} [mVs] & \textbf{LS} [mVs] & \textbf{$\epsilon$} [$\frac{mVs}{mGy}$] & $\Delta \epsilon$ [$\frac{mVs}{mGy}$]  \\
+					\textbf{d} [m] & BeO-Nr. & \textbf{LS$_0$} [mVs] & \textbf{LS} [mVs] & \textbf{$\epsilon$} [$\frac{Vs}{Gy}$] & $\Delta \epsilon$ [$\frac{Vs}{Gy}$]  \\
 			\hline  
 								& 003305 & 0,66 & 2,84 & 24,1 & 0,1\\
 						0,5		& 003398 & 0,85 & 3,68 & 31,3 & 0,2\\
@@ -137,8 +132,10 @@ Zunächst führen wir für 4 BeOs eine Kalibrationsmessung durch, indem wir das 
 \minipend
 \vspace{3mm}
 
-Nun kommen wir zu den Messergebnissen für verschiedene Abstände. Verwendet wurden vier in der Mitte einer Plexisglas-Platte aufgebrachte BeO-Sensoren. Diese wurden für die in Tabelle \ref{dft:Zeiten} genannten Zeiten bestrahlt: 
-
+\ \\
+Nun kommen wir zu den Messergebnissen für verschiedene Abstände. Verwendet wurden vier in der Mitte einer Plexisglas-Platte aufgebrachte BeO-Sensoren. Diese wurden für die in Tabelle \ref{dft:Zeiten} genannten Zeiten bestrahlt. 
+Die Dosiswerte der beiden Abstände $d = 0,5m$ und $d = 0,6m$ wurden leider nicht mit bereits kalibrierten BeO's vermessen. Wir haben diese allerdings von Hand über die vom PC bekannten Ansprechvermögen $\epsilon$ nachträglich ausgerechnet:
+ 
 \minipanf
 	\begin{center}	
 		\begin{tabular}{c|c|c|c|c}
@@ -190,12 +187,11 @@ Nun kommen wir zu den Messergebnissen für verschiedene Abstände. Verwendet wur
 	\end{center}
 \minipend
 \vspace{5mm}
-
-Die Dosiswerte der beiden Abstände $d = 0,5m$ und $d = 0,6m$ wurden leider nicht mit bereits kalibrierten BeO's vermessen. Wir haben diese allerdings von Hand über die vom PC bekannten Ansprechvermögen $\epsilon$ nachträglich ausgerechnet. \\
+\newpage
+\ \\
 Damit haben wir nun die Dosisleistung für die einzelnen Abstände bestimmt, um das Abstandsquadratsgesetz zu überprüfen:
-
-\minipanf
-	\begin{center}	
+\begin{center}	
+	\minipanf
 		\begin{tabular}{c|c|c|c|c|c|c}
 					d [m] & $\overline{D}$ [$\mu Gy$] & $\Delta D_{sys}$ [$\mu Gy$] & $\sigma(\overline{D})$ [$\mu Gy$] & $\Delta t$ [s] & $\dot{D}$ [$\mu Gy / s$] & $\Delta\dot{D}$ [$\mu Gy / s$] \\
 		\hline	0.3 & 85 & 2.6 & 0.36 & 112 & 0.437 & 0.016 \\
@@ -209,9 +205,9 @@ Damit haben wir nun die Dosisleistung für die einzelnen Abstände bestimmt, um 
 		\end{tabular}
 		\captionof{table}{Dosisleistung in Abhängigkeit vom Abstand}
 		\label{dft:Abstandsquadrat}
-	\end{center}
-\minipend
-\vspace{3mm}
+	\minipend
+	\vspace{3mm}
+\end{center}
 
 Dabei wurden folgende Relationen verwendet:
 \begin{equation*}
