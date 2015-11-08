@@ -11,6 +11,6 @@
        \minipend
        \vspace{2mm}
        \minipanf 
-        \makebox[\textwidth]{\scalebox{0.4}{\input{../2015_10_29/qtiplots/Diagramm_tex/T_M_dia}}}
+        \makebox[\textwidth]{\scalebox{0.5}{\input{../2015_10_29/qtiplots/Diagramm_tex/T_M_dia}}}
        \minipend
     \subsubsection{Messung bei Positionen direkt an den Detektoren}
