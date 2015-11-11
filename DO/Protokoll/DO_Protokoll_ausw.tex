@@ -59,7 +59,7 @@ Man erkennt allerdings gut, dass der BeO-Sensor, der hinter der Quelle lag, eine
 
 
 \subsection{Abstandsquadratgesetz}
-Wir haben durch unsere Messung mit dem Beo\textit{max}-System das Abstandsquadratgesetz bestätigt. Dafür haben wir die Werte aus Tabelle \ref{dft:Abstandsquadrat} geplottet und einen Fit der Form $\dot{D} = c/(d-d_0)^2$ gemacht, welcher unter Betrachtung der Fehlerintervalle sehr gut passt. Da die am Boden befindliche Messskala, an der wir den Abstand $d$ abgelesen haben, bündig mit der Öffnung des Kollimators begonnen hat, die Quelle sich aber tatsächlich in einem Abstand $d' = d + d_0$ vom Messpunkt befand, haben wir den zusätzlichen Verschiebungsparameter $d_0$ eingeführt, um zusätzlich die wahre Position der Quelle zu bestimmen.
+Wir haben durch unsere Messung mit dem Beo\textit{max}-System das Abstandsquadratgesetz bestätigt. Dafür haben wir die Werte aus Tabelle \ref{dft:Abstandsquadrat} geplottet und einen Fit der Form $\dot{D} = c/(d+d_0)^2$ gemacht, welcher unter Betrachtung der Fehlerintervalle sehr gut passt. Da die am Boden befindliche Messskala, an der wir den Abstand $d$ abgelesen haben, bündig mit der Öffnung des Kollimators begonnen hat, die Quelle sich aber tatsächlich in einem Abstand $d' = d + d_0$ vom Messpunkt befand, haben wir den zusätzlichen Verschiebungsparameter $d_0$ eingeführt, um zusätzlich die wahre Position der Quelle zu bestimmen.
 
 \begin{center}
 	\minipanf    
@@ -72,13 +72,13 @@ Wir haben durch unsere Messung mit dem Beo\textit{max}-System das Abstandsquadra
 \ \\
 Wir haben die Fit-Parameter, und somit die wahre Position der Quelle, (mit ihren Standardabweichungen) wiefolgt bestimmt:
 \begin{equation*}
-		c = (0.109 \pm 0.008)\ \mu Gy \cdot m^2/s
+		c = (0,068 \pm 0,009)\ \unit{\mu Gy m^2/s}
 \end{equation*}
 \begin{equation*}
-		d_0 = (0.087 \pm 0.019) m
+		d_0 = (0,103 \pm 0,004)\ \unit{m}
 \end{equation*}
 \ \\
-Dabei ist anzumerken, dass wir den Messwert für $d=0,2\ m$ beim Fitten nicht mit einbezogen haben, da sich dieser - vermutlich aufgrund einer zu kurzen Bestrahlungszeit - nicht gut in die anderen Messwerte einreiht.
+Dabei ist anzumerken, dass wir den Messwert für $d=0,3\ \unit{m}$ beim Fitten nicht mit einbezogen haben, da sich dieser - vermutlich aufgrund einer zu kurzen Bestrahlungszeit - nicht gut in die anderen Messwerte einreiht.
 
 \subsection{Winkelabhängigkeit der kollimierten Quelle}
 Wir haben in Tabelle \ref{dft:Aufweitung} den Zusammenhang zwischen dem transversalem Abstand zur Öffnung des Kollimators und der Dosisleistung bestimmt. Folgende Graphik veranschaulicht unsere Ergebnisse:
@@ -93,4 +93,4 @@ Wir haben in Tabelle \ref{dft:Aufweitung} den Zusammenhang zwischen dem transver
     \minipend
     \vspace{5mm}
 \end{center}
-Man sieht, dass sich die Dosisleistung bis zu einem Abstand $d=0.07\ m$ nicht ändert, da dies der Bereich ist, auf dem die aus der Kollimatoröffnung austretenden Photonen entweder direkt oder durch Beugung an der Öffnung auftreffen. Für größere Abstände fällt die Dosis - wie erwartet - rapide ab, da dann ausschließlich wenige gebeugte oder reflektierte Photonen in diese Bereiche geraten beziehungsweise die meisten $\gamma$-Quanten durch die Abschirmung gestoppt werden.
+Man sieht, dass sich die Dosisleistung bis zu einem Abstand $d=0,07\ \unit{m}$ nicht ändert, da dies der Bereich ist, auf dem die aus der Kollimatoröffnung austretenden Photonen entweder direkt oder durch Beugung an der Öffnung auftreffen. Für größere Abstände fällt die Dosis - wie erwartet - rapide ab, da dann ausschließlich wenige gebeugte oder reflektierte Photonen in diese Bereiche geraten beziehungsweise die meisten $\gamma$-Quanten durch die Abschirmung gestoppt werden.

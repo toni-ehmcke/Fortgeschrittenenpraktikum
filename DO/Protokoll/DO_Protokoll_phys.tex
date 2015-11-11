@@ -24,14 +24,15 @@ Um die Dosisleistung für die gegebenen $\gamma$-Strahler in Aufgabe 2.3 abzusch
 Hier bei ist $T_{1/2}$ die Halbwertszeit des gegebenen Isotops.\cite{PA_RM1}
 
 \subsection{Messprinzip: Ionisationskammer}
-Grob gesprochen ist eine Ionisationskammer ein (beliebig geformter) Kondensator, dessen Dielektrikum gasförmig (in unserem Fall Luft) vorliegt. Tritt ionisierende Strahlung in das Kammervolumen, so entstehen durch Wechselwirkung mit den Gasteilchen Elektronen-Ionen-Paare (Primärteilchen). Die dabei herausgelösten Ladungsträger gelangen nun im Idealfall durch Coulomb-Wechselwirkung zu einer Kondensatorplatte, wo sie nun als Stromfluss I nachgewiesen werden können. Für näherungsweise konstante Dosisleistungen im Zeitintervall $\Delta t$ erhalten wir die Proportialität zwischen dem Stromfluss und der Dosis:
+Grob gesprochen ist eine Ionisationskammer ein (beliebig geformter) Kondensator, dessen Dielektrikum gasförmig (in unserem Fall Luft) vorliegt. Tritt ionisierende Strahlung (Primärteilchen) in das Kammervolumen, so entstehen durch Wechselwirkung - in unserem Falle durch inkohärente Streuung und Photoeffekt - mit den Gasteilchen Elektronen-Ionen-Paare (Sekundärteilchen), indem die Elektronen aus der Atomhülle des bindenden Atoms herausgeschlagen werden. Diese Ladungsträger gelangen nun im Idealfall durch Coulomb-Wechselwirkung zu einer Kondensatorplatte, wo sie nun als Stromfluss I nachgewiesen werden können. Für näherungsweise konstante Dosisleistungen im Zeitintervall $\Delta t$ erhalten wir die Proportionalität zwischen dem Stromfluss und der Dosis:
 
 \begin{equation} \label{eq:Ionenkammer}
-	D(t) = D(t_0) + \int \limits_{t_0}^{t} \dot{D}(\tau) \mathrm{d}\tau \approx \frac{w \cdot \Delta t}{e \cdot \rho \cdot V} \cdot I
+	D(t) = D(t_0) + \int \limits_{t_0}^{t} \dot{D}(\tau) \mathrm{d}\tau \propto I
 \end{equation}
+\ \\
+Ist die Kondensatorspannung (und somit auch die Feldstärke) zu niedrig, bewegen sich die geladenen Teilchen zu langsam und die Rekombinations-Wahrscheinlichkeit steigt. Ist sie andererseits zu groß, werden die Primärteilchen zu stark beschleunigt, sodass sie lawinenartig weitere Ionisationen auslösen und Sekundärladungsträger erzeugen. Beide Fälle würden die Messung verfälschen, wodurch man eine Kompromisslösung im sogenannten Sättigungsbereich finden muss.
 
-Ist die Kondensatorspannung (und somit auch die Feldstärke) zu niedrig, bewegen sich die geladenen Teilchen zu langsam und die Rekombinations-Wahrscheinlichkeit steigt. Ist sie andererseits zu groß, werden die Primärteilchen zu stark beschleunigt, sodass sie lawinenartig weitere Ionisationen auslösen und Sekundärladungsträger erzeugen. Beide Fälle würden die Messung verfälschen, wodurch man eine Kompromisslösung im sogenannten Sättigungsbereich finden muss.\\ 
-
+\ \\
 In Gleichung \ref{eq:Ionenkammer} sehen wir die Abhängigkeit der Dosis von der Dichte des Dielektrikums $\rho$. Da die Dichte der Luft in unserem Detektor vom Druck p, der Temperatur T und der Luftfeuchte f abhängt, müssen wir diese Einflüsse eventuell korrigieren:
 \begin{equation}
 	\rho = \rho_0 \cdot \frac{T_0}{T} \cdot \frac{p}{p_0} ,
