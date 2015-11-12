@@ -9,6 +9,6 @@
 \contentsline {subsection}{\numberline {3.3}Tomografische Messungen}{4}
 \contentsline {subsubsection}{\numberline {3.3.1}Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}{4}
 \contentsline {subsubsection}{\numberline {3.3.2}Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}{5}
-\contentsline {subsubsection}{\numberline {3.3.3}Messung mit einer Punktquelle, Phantom an-/insotroper Dichteverteilung}{7}
-\contentsline {section}{\numberline {4}Auswertung}{7}
-\contentsline {section}{\numberline {5}Literatur}{8}
+\contentsline {subsubsection}{\numberline {3.3.3}Messung mit einer Punktquelle, Phantom an-/insotroper Dichteverteilung}{6}
+\contentsline {section}{\numberline {4}Auswertung}{6}
+\contentsline {section}{\numberline {5}Literatur}{7}
