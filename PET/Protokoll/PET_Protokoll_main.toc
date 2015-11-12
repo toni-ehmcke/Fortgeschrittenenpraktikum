@@ -6,16 +6,9 @@
 \contentsline {subsection}{\numberline {3.2}Kalibriermessungen}{2}
 \contentsline {subsubsection}{\numberline {3.2.1}Messung einer Quelle bekannter Aktivit\IeC {\"a}t bei mittiger Quellposition}{2}
 \contentsline {subsubsection}{\numberline {3.2.2}Messung bei Positionen direkt an den Detektoren}{3}
-<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.3}Tomografische Messungen}{4}
 \contentsline {subsubsection}{\numberline {3.3.1}Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}{4}
-\contentsline {subsubsection}{\numberline {3.3.2}Messung mit einer Punktquelle, Phantom an-/insotroper Dichteverteilung}{4}
-\contentsline {section}{\numberline {4}Auswertung}{4}
-\contentsline {section}{\numberline {5}Literatur}{5}
-=======
-\contentsline {subsection}{\numberline {3.3}Tomografische Messungen}{3}
-\contentsline {subsubsection}{\numberline {3.3.1}Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}{3}
-\contentsline {subsubsection}{\numberline {3.3.2}Messung mit einer Punktquelle, Phantom an-/insotroper Dichteverteilung}{5}
-\contentsline {section}{\numberline {4}Auswertung}{5}
-\contentsline {section}{\numberline {5}Literatur}{6}
->>>>>>> 35d422318a0774fae4c2c6c1a6b443ccd4f4bd97
+\contentsline {subsubsection}{\numberline {3.3.2}Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}{5}
+\contentsline {subsubsection}{\numberline {3.3.3}Messung mit einer Punktquelle, Phantom an-/insotroper Dichteverteilung}{7}
+\contentsline {section}{\numberline {4}Auswertung}{7}
+\contentsline {section}{\numberline {5}Literatur}{8}

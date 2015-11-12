@@ -60,7 +60,6 @@
         \captionof{figure}{Gegenüberstellung der Messungen mit der Quelle an Det. A (links) und Det. B (rechts)} 
         
     \subsection{Tomografische Messungen}
-<<<<<<< HEAD
     	\subsubsection{Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}
             \textbf{Hauptversuch}\\
             \begin{tabular}{p{6cm}p{6cm}l}
@@ -81,18 +80,30 @@
             \begin{tabular}{p{6cm}p{6cm}c}
                             \minipanf 
                                 \makebox[\linewidth]{\includegraphics[width=2\textwidth, height=0.225\textheight]{pic/3dPlotTomographRamp.png}}
-                                %\label{dfd:Ramp}
+                                \label{dfd:Ramp}
                             \minipend
                             &
                             \hspace{3mm} 
                             \minipanf
                                 \includegraphics[width=2.2\textwidth, height=0.25\textheight]{pic/3dPlotTomographUngef.png}
-                                %\label{dfd:Ungefil}
+                                \label{dfd:Ungefil}
                             \minipend \\               
              \end{tabular}
              \captionof{figure}{Gefilterte und Ungefilterte Rückprojektion der Aktivitätsverteilung}
             
-=======
+            
+            \textbf{Quantitative Auswertung}
+            \begin{tabular}{cc}
+                Zunächst wird die Position der 3 Quellen im verschlossenen Plastikbehältnis bestimmt. Dafür verwenden wir die in Abbildung (\ref{dfd:Ramp}) visualisierte Rückprojektion. 1 BIN des Rekonstruktionsrasters entspricht $3,375\ \unit{mm}$. Die Position der Quellen werden mit Hilfe der lokalen Maxima identifiziert.\\
+                Anschließend quantifiziert man die Aktivität der Quellen, indem man über einen kleinen Bereich der rückprojizierten Verteilung um die Peaks mittelt. Es wurde in dieser Auswertung ein quadratischer Bereich um den Peak gewählt, in welchem Werte anzutreffen waren, die in der Nähe des FWHM (=Full Width Half Maximum) lagen. Dieses Vorgehen wird durch Abbildung (\ref{dfd:Mittelung}) visualisiert.
+                &
+                \hspace{3mm} 
+                \minipanf
+                	\includegraphics[width=2.2\textwidth, height=0.25\textheight]{pic/Skizze_Mittelung.png}
+                	\label{dfd:Mittelung}
+                \minipend \\               
+            \end{tabular}
+            
         \subsubsection{Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}
           \textbf{Hauptversuch}\\
              \ \\
@@ -119,5 +130,5 @@
           \minipend\\ \ \\
             \textbf{Untersuchung des Einflusses verschiedener Filter}\\
             
->>>>>>> 35d422318a0774fae4c2c6c1a6b443ccd4f4bd97
+            
         \subsubsection{Messung mit einer Punktquelle, Phantom an-/insotroper Dichteverteilung}
