@@ -21,7 +21,7 @@
                    \includegraphics[width=0.7\textwidth, height=0.3\textheight]{pic/T_M_dia.png}
                    \label{dfd:T_M}}\\                        
        \end{tabular}
-       \captionof{table}{Kalibrationsmessung bei Quelle mittig zwischen den Detektoren A und B}
+       \captionof{figure}{Kalibrationsmessung bei Quelle mittig zwischen den Detektoren A und B}
 
 
     \subsubsection{Messung bei Positionen direkt an den Detektoren}
@@ -80,29 +80,49 @@
             \begin{tabular}{p{6cm}p{6cm}c}
                             \minipanf 
                                 \makebox[\linewidth]{\includegraphics[width=2\textwidth, height=0.225\textheight]{pic/3dPlotTomographRamp.png}}
-                                \label{dfd:Ramp}
+                                
                             \minipend
                             &
                             \hspace{3mm} 
                             \minipanf
                                 \includegraphics[width=2.2\textwidth, height=0.25\textheight]{pic/3dPlotTomographUngef.png}
-                                \label{dfd:Ungefil}
                             \minipend \\               
-             \end{tabular}
-             \captionof{figure}{Gefilterte und Ungefilterte Rückprojektion der Aktivitätsverteilung}
-            
+             
+             \end{tabular} 
+            \captionof{figure}{Gefilterte und Ungefilterte Rückprojektion der Aktivitätsverteilung}
+            \label{dfd:AKV}
+            \ \\
             
             \textbf{Quantitative Auswertung}
-            \begin{tabular}{cc}
-                Zunächst wird die Position der 3 Quellen im verschlossenen Plastikbehältnis bestimmt. Dafür verwenden wir die in Abbildung (\ref{dfd:Ramp}) visualisierte Rückprojektion. 1 BIN des Rekonstruktionsrasters entspricht $3,375\ \unit{mm}$. Die Position der Quellen werden mit Hilfe der lokalen Maxima identifiziert.\\
-                Anschließend quantifiziert man die Aktivität der Quellen, indem man über einen kleinen Bereich der rückprojizierten Verteilung um die Peaks mittelt. Es wurde in dieser Auswertung ein quadratischer Bereich um den Peak gewählt, in welchem Werte anzutreffen waren, die in der Nähe des FWHM (=Full Width Half Maximum) lagen. Dieses Vorgehen wird durch Abbildung (\ref{dfd:Mittelung}) visualisiert.
-                &
-                \hspace{3mm} 
-                \minipanf
-                	\includegraphics[width=2.2\textwidth, height=0.25\textheight]{pic/Skizze_Mittelung.png}
-                	\label{dfd:Mittelung}
-                \minipend \\               
+            
+            \begin{tabular}{p{12cm}	p{0.5\textwidth}}            	
+            	\minipanf
+            		Zunächst werden die Positionen $(x_i,y_i) (i = 1,2,3)$ der 3 Quellen im verschlossenen Plastikbehältnis bestimmt. Dafür wird die in Abbildung (\ref{dfd:AKV}) visualisierte Rückprojektion $N(x,y)$ verwendet, die durch Auslesen der in \texttt{Matrix\_reco.txt} enthaltenen Messwertmatrix entstanden ist. Der erste Eintrag sei als Koordinatenursprung gewählt. 1 BIN des Rekonstruktionsrasters entspricht $3,375\ \unit{mm}$. Die Positionen der Quellen werden mit den lokalen Maxima $N(x_i,y_i)$ der Aktivitätsverteilung identifiziert.\\
+            		Anschließend quantifiziert man die Aktivität jeder einzelnen Quelle, indem man die rückprojizierten Verteilung über einen kleinen Bereich um die Peaks mittelt. Bezeichne diesen Mittelwert mit $\bar{N}(x_i,y_i)$. Im Rahmen dieser Auswertung wurde ein quadratischer Bereich gewählt, in welchem Werte anzutreffen waren, die in der Nähe des FWHM (=Full Width Half Maximum) lagen. Dieses Vorgehen wird durch die nebenstehende Abbildung visualisiert.
+            	\minipend            
+            	&
+            	\begin{minipage}[c]{\textwidth}
+                	\includegraphics[width=0.35\textwidth, height=0.3\textheight]{pic/Skizze_Mittelung.png}
+                \end{minipage}
             \end{tabular}
+            
+            Mittels einfacher Verhältnisbildung können unter Vorgabe einer Referenzaktivität $A_{ref}$ nun unbekannte Aktivitäten innerhalb der Verteilung berechnet werden. Dabei wurde die stärkste Aktivität mit $A_0 \equiv A(t_0 = \textrm{01.02.2010}) = (363 \pm 11)\ \unit{kBq}$ angegeben. Mit dem Aktivitätsgesetz kann man nun berechnen:
+            
+            \begin{equation}
+            	A_{ref} \equiv A(t =\textrm{29.10.2015}) = A_0 \cdot \left( \frac{1}{2}\right)^{\frac{t-t_0}{T_{1/2}}} = (79 \pm 3)\ \unit{kBq}
+            \end{equation}\\
+            Wobei die Halbwertszeit $T_{1/2}(^{22}\textrm{Na}) = (2,6027 \pm 0,0010)\ \unit{a}$ verwendet wurde, sowie folgende Fehlerformel:
+            \begin{equation}
+                \left(\frac{\Delta A_{ref}}{A_{ref}}\right)^2 = \left(\frac{\Delta A_0}{A_0}\right)^2 + \left(\ln(2) \cdot \frac{\Delta T_{1/2}}{T_{1/2}}\right)^2
+            \end{equation}\\   
+            Bezeichnet man $A_{ref} \propto \bar{N}_{ref} \equiv \bar{N}(x_1,y_1)$ als rückprojizierte Aktivität der Referenzquelle, so erhält man für die unbekannten Aktivitäten $A_i \propto \bar{N}(x_i,y_i)$:
+            \begin{equation}
+            	A_i = A_{ref} \cdot \frac{\bar{N}(x_i,y_i)}{\bar{N}_{ref}}
+            \end{equation}    
+            \begin{equation}
+                 \left(\frac{\Delta A_i}{A_i}\right)^2 = \left(\frac{\Delta A_{ref}}{A_{ref}}\right)^2 + \left(\frac{\Delta \bar{N}(x_i,y_i)}{\bar{N}(x_i,y_i)}\right)^2 + \left(\frac{\Delta \bar{N}_{ref}}{\bar{N}_{ref}}\right)^2
+             \end{equation}\\   
+             Hierbei wurden die Fehler der rückprojizierten Aktivitäten als Standardabweichungen des Mittelwertes gesetzt, die sich beim obigen Mittelvorgang ergab: $\Delta \bar{N}(x_i,y_i) = \sigma(\bar{N})$. Die systematischen Fehler des PET-Scanners waren leider nicht bekannt. Zusammenfassend ergeben sich folgende Resultate:  
             
         \subsubsection{Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}
           \textbf{Hauptversuch}\\
