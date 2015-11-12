@@ -87,7 +87,7 @@ numbersFont	Noto Sans	9	50	0
 xAxisLabelFont	Noto Sans	9	50	0
 yAxisLabelFont	Noto Sans	9	50	0
 zAxisLabelFont	Noto Sans	9	50	0
-rotation	32	0	-336
+rotation	31	0	21
 zoom	104.668
 scaling	0.00779727	0.00779727	1.17716
 shift	0	0	0

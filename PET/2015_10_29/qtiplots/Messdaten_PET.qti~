@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	22
+<windows>	63
 <table>
 EdetB_M	15001	5	29.10.15 17:17
-geometry	1372	859	744	648	minimized	
+geometry	0	859	445	220	minimized	
 header	Häufigkeit[Y]	Kanal[X]	Energie[X]	2[Y]	3[xEr]
 ColWidth	100	100	100	100	157	
 <com>
@@ -15028,7 +15028,7 @@ WindowLabel	/media/csiegel/MYLINUXLIVE/2015_10_29/EdetB_M.txt	2
 </table>
 <table>
 EdetA_A	15001	4	29.10.15 17:17
-geometry	784	859	485	812	minimized	
+geometry	196	859	445	220	minimized	
 header	Kanal[X]	Häufigkeit[Y]	Energie[X]	1[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -30044,7 +30044,7 @@ WindowLabel	/media/csiegel/MYLINUXLIVE/2015_10_29/EdetA_A.txt	2
 </table>
 <table>
 T_A	5001	4	29.10.15 17:17
-geometry	1176	829	489	828	minimized	
+geometry	392	859	445	220	minimized	
 header	2[X]	Häufigkeit[Y]	Zeit[X]	1[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -35063,7 +35063,7 @@ WindowLabel	/media/csiegel/MYLINUXLIVE/2015_10_29/T_A.txt	2
 </table>
 <table>
 EdetB_B	15001	4	29.10.15 17:17
-geometry	392	829	486	826	minimized	
+geometry	588	859	445	220	minimized	
 header	Energie[X]	Häufigkeit[Y]	Kanal[X]	haeufigkeit[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -50082,7 +50082,7 @@ WindowLabel	/media/csiegel/MYLINUXLIVE/2015_10_29/EdetB_B.txt	2
 </table>
 <table>
 T_M	5001	5	29.10.15 17:18
-geometry	588	829	445	220	minimized	
+geometry	784	859	445	220	minimized	
 header	Häufigkeit[Y]	kanal[X]	zeit[X]	1[Y]	zeitfehler[xEr]
 ColWidth	59	78	80	55	131	
 <com>
@@ -55104,7 +55104,7 @@ WindowLabel	/media/csiegel/MYLINUXLIVE/2015_10_29/T_M.txt	2
 </table>
 <table>
 EdetA_M	15001	5	29.10.15 17:18
-geometry	392	859	445	220	minimized	
+geometry	980	859	445	220	minimized	
 header	Kanal[X]	Häufigkeit[Y]	Energie[X]	1[Y]	EnergieAfehler[xEr]
 ColWidth	100	106	100	100	107	
 <com>
@@ -70126,7 +70126,7 @@ WindowLabel	/media/csiegel/MYLINUXLIVE/2015_10_29/EdetA_M.txt	2
 </table>
 <table>
 EdetB_A	15001	4	29.10.15 17:18
-geometry	0	829	509	815	minimized	
+geometry	1176	859	445	220	minimized	
 header	Energie[X]	Häufigkeit[Y]	Kanal[X]	1[Y]
 ColWidth	106	100	100	100	
 <com>
@@ -85142,7 +85142,7 @@ WindowLabel	/media/csiegel/MYLINUXLIVE/2015_10_29/EdetB_A.txt	2
 </table>
 <table>
 T_B	5001	4	29.10.15 17:18
-geometry	980	829	475	829	minimized	
+geometry	1372	859	445	220	minimized	
 header	3[X]	Häufigkeit[Y]	Zeit[X]	1[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -90161,7 +90161,7 @@ WindowLabel	/media/csiegel/MYLINUXLIVE/2015_10_29/T_B.txt	2
 </table>
 <table>
 EdetA_B	15001	4	29.10.15 17:18
-geometry	1176	859	486	830	minimized	
+geometry	1568	859	445	220	minimized	
 header	Kanal[X]	Häufigkeit[Y]	Energie[X]	1[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -155239,7 +155239,7 @@ WindowLabel	Nichtlinearer Fit von EdetA_M_Häufigkeit	2
 </table>
 <multiLayer>
 T_M_dia	1	1	06.11.15 11:27
-geometry	784	829	1222	829	minimized	
+geometry	0	829	995	766	minimized	
 WindowLabel	Zeitfenster bei Quelle in mittiger Position	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -155248,9 +155248,9 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	41	-17	1167	797
-<PageGeometry>0.0337727	-0.0219355	0.961285	1.02839</PageGeometry>
-PlotTitle	Zeitfenster bei Quelle in mittiger Position	#000000	4228
+ggeometry	47	22	899	687
+<PageGeometry>0.0921569	0.0536585	1.76275	1.67561</PageGeometry>
+PlotTitle	Zeitfenster bei Quelle in mittiger Position	#000000	4
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
@@ -155263,18 +155263,18 @@ grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
 AxesTitles	Kanal	Häufigkeit	Zeit [ns]		
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	4	5124	4	5124
+AxesTitleAlignment	4	4	4	4
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	35	75	0	0	0
-ScaleFont0	Cantarell	31	75	0	0	0
-ScaleFont1	Cantarell	31	75	0	0	0
-ScaleFont2	Cantarell	31	75	0	0	0
-ScaleFont3	Cantarell	31	75	0	0	0
-AxisFont0	Cantarell	31	50	0	0	0
-AxisFont1	Cantarell	31	50	0	0	0
-AxisFont2	Cantarell	31	50	0	0	0
-AxisFont3	Cantarell	31	50	0	0	0
+TitleFont	Monospace	10	50	0	0	0
+ScaleFont0	Monospace	10	50	0	0	0
+ScaleFont1	Monospace	10	50	0	0	0
+ScaleFont2	Monospace	10	50	0	0	0
+ScaleFont3	Monospace	10	50	0	0	0
+AxisFont0	Monospace	10	50	0	0	0
+AxisFont1	Cantarell	10	50	0	0	0
+AxisFont2	Cantarell	10	50	0	0	0
+AxisFont3	Monospace	10	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
@@ -155284,8 +155284,8 @@ curve	T_M_zeit	T_M_1	1	0	#000000	0	1	3	0	#000000	#ffffff	0	#000000	14	1	3	0	0	50
 curve	Nichtlinear2_1	Nichtlinear2_2	0	1	#ff0000	0	1	0	0	#000000	#a0a0a4	0	#000000	14	0	2	0	0	5000	1
 scale	0	0	3500	700	6	9	0	0
 scale	1	0	3500	700	6	9	0	0
-scale	2	1	5001	1000	6	9	0	0
-scale	3	0.0343	241.5343	40	7	9	0	0
+scale	2	1	2500	500	5	9	0	0
+scale	3	0.0343	120.736	20	7	9	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -155299,31 +155299,13 @@ LabelsSuffix
 TickLabelsSpace	4	4	4	4
 ShowTicksPolicy	0	0	0	0
 EnabledTickLabels	1	1	1	1
-<Rectangle>
-<Frame>0</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>952.95928338762</x>
-<y>3518.1818181818</y>
-<right>1637.13517915309</right>
-<bottom>9.09090909090909</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Background>#ffff00</Background>
-<Alpha>76</Alpha>
-<BrushColor>#ffffff</BrushColor>
-<BrushStyle>14</BrushStyle>
-<LinkedLayer>-1</LinkedLayer>
-</Rectangle>
 </graph>
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 <multiLayer>
 Efenster_DetB_M	1	1	06.11.15 14:27
-geometry	0	859	958	716	minimized	
+geometry	196	829	958	716	minimized	
 WindowLabel	Energiefenster an Detektor B bei mittiger Quellposition	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -155333,8 +155315,8 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	937	642
-<PageGeometry>0.00996016	0.0132979	1.86653	1.70745</PageGeometry>
-PlotTitle	Energiefenster an Detektor B bei mittiger Quellposition	#000000	4228
+<PageGeometry>0.00980392	0.0121951	1.83725	1.56585</PageGeometry>
+PlotTitle	Energiefenster an Detektor B bei mittiger Quellposition	#000000	4
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
@@ -155347,18 +155329,18 @@ grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
 AxesTitles	Kanal	Häufigkeit	Energie [keV]		
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleAlignment	4	4	4	4
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	20	75	0	0	0
-ScaleFont0	Cantarell	17	75	0	0	0
-ScaleFont1	Cantarell	17	75	0	0	0
-ScaleFont2	Cantarell	17	75	0	0	0
-ScaleFont3	Cantarell	17	75	0	0	0
-AxisFont0	Cantarell	17	50	0	0	0
-AxisFont1	Cantarell	17	50	0	0	0
-AxisFont2	Cantarell	17	50	0	0	0
-AxisFont3	Cantarell	17	50	0	0	0
+TitleFont	Monospace	14	50	1	0	0
+ScaleFont0	Monospace	12	75	0	0	0
+ScaleFont1	Monospace	10	50	0	0	0
+ScaleFont2	Monospace	12	75	0	0	0
+ScaleFont3	Monospace	12	75	0	0	0
+AxisFont0	Monospace	10	50	0	0	0
+AxisFont1	Monospace	10	50	0	0	0
+AxisFont2	Monospace	10	50	0	0	0
+AxisFont3	Monospace	10	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
@@ -155368,8 +155350,8 @@ curve	EdetB_M_Energie	EdetB_M_2	1	0	#000000	0	1	3	0	#000000	#ffffff	0	#000000	14
 curve	Nichtlinear3_1	Nichtlinear3_2	0	1	#ff0000	0	1	0	0	#000000	#a0a0a4	0	#000000	14	0	2	0	0	15000	1
 scale	0	0	600	0	7	5	0	0
 scale	1	0	600	0	7	5	0	0
-scale	2	0	15001	3000	7	5	0	0
-scale	3	100	3400.22	0	7	5	0	0
+scale	2	0	9000	1000	10	5	0	0
+scale	3	100	2080	200	11	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -155383,31 +155365,13 @@ LabelsSuffix
 TickLabelsSpace	4	4	4	4
 ShowTicksPolicy	0	0	0	0
 EnabledTickLabels	1	1	1	1
-<Rectangle>
-<Frame>0</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>974.5872611465</x>
-<y>601.35440180587</y>
-<right>2828.21401273885</right>
-<bottom>1.35440180586907</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Background>#ffff00</Background>
-<Alpha>76</Alpha>
-<BrushColor>#ffff00</BrushColor>
-<BrushStyle>14</BrushStyle>
-<LinkedLayer>-1</LinkedLayer>
-</Rectangle>
 </graph>
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 <multiLayer>
 Efenster_DetA_M	1	1	06.11.15 15:28
-geometry	196	859	1099	697	minimized	
+geometry	392	829	1099	724	minimized	
 WindowLabel	Energiefenster bei Detektor A bei mittiger Quellposition	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -155416,9 +155380,9 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	3	1073	650
-<PageGeometry>0.00996016	0.00797872	2.13745	1.72872</PageGeometry>
-PlotTitle	Energie an Detektor A bei mittiger Quellposition	#000000	4228
+ggeometry	5	3	1074	643
+<PageGeometry>0.00980392	0.00731707	2.10588	1.56829</PageGeometry>
+PlotTitle	Energie an Detektor A bei mittiger Quellposition	#000000	4
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
@@ -155431,18 +155395,18 @@ grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
 AxesTitles	Kanal	Häufigkeit	Enrgie [keV]		
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleAlignment	4	4	4	4
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	19	75	0	0	0
-ScaleFont0	Cantarell	16	75	0	0	0
-ScaleFont1	Cantarell	16	75	0	0	0
-ScaleFont2	Cantarell	16	75	0	0	0
-ScaleFont3	Cantarell	16	75	0	0	0
-AxisFont0	Cantarell	16	50	0	0	0
-AxisFont1	Cantarell	16	50	0	0	0
-AxisFont2	Cantarell	16	50	0	0	0
-AxisFont3	Cantarell	16	50	0	0	0
+TitleFont	Monospace	15	50	1	0	0
+ScaleFont0	Monospace	13	75	0	0	0
+ScaleFont1	Monospace	10	50	0	0	0
+ScaleFont2	Monospace	13	75	0	0	0
+ScaleFont3	Monospace	13	75	0	0	0
+AxisFont0	Monospace	10	50	0	0	0
+AxisFont1	Monospace	10	50	0	0	0
+AxisFont2	Monospace	10	50	0	0	0
+AxisFont3	Monospace	10	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#000000	#000000	#000000	#000000
 AxesBaseline	0	0	0	0	
@@ -155450,10 +155414,10 @@ CanvasBackground	#ffffff	0
 curve	EdetA_M_Kanal	EdetA_M_Häufigkeit	0	4	#000000	3	1	3	0	#000000	#ffffff	0	#000000	14	1	2	0	0	15000	1
 curve	EdetA_M_Energie	EdetA_M_1	0	4	#000000	2	1	3	0	#000000	#ffffff	0	#000000	14	1	3	0	0	15000	1
 curve	Nichtlinear4_1	Nichtlinear4_2	0	1	#ff0000	0	1	0	0	#000000	#a0a0a4	0	#000000	14	0	2	0	0	15000	1
-scale	0	0	400	0	9	5	0	0
-scale	1	0	400	0	9	5	0	0
-scale	2	0	15001	3000	7	5	0	0
-scale	3	81	2766.179	0	6	5	0	0
+scale	0	0	600	0	7	5	0	0
+scale	1	0	600	0	7	5	0	0
+scale	2	0	9000	1000	10	5	0	0
+scale	3	81	1692	150	12	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -155485,31 +155449,13 @@ EnabledTickLabels	1	1	1	1
 <BrushStyle>14</BrushStyle>
 <LinkedLayer>-1</LinkedLayer>
 </Rectangle>
-<Rectangle>
-<Frame>0</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>1532.3602150538</x>
-<y>400</y>
-<right>3742.18494623656</right>
-<bottom>0</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Background>#ffff00</Background>
-<Alpha>64</Alpha>
-<BrushColor>#ffffff</BrushColor>
-<BrushStyle>14</BrushStyle>
-<LinkedLayer>-1</LinkedLayer>
-</Rectangle>
 </graph>
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 <multiLayer>
 EfensterDetA_A	1	1	08.11.15 16:15
-geometry	588	859	1217	814	minimized	
+geometry	588	829	1217	814	minimized	
 WindowLabel	Energie am Detektor A bei am Detektor A positionierter Quelle	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -155519,8 +155465,8 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1199	744
-<PageGeometry>0.00413565	0.00657895	0.991729	0.978947</PageGeometry>
-PlotTitle	Energie am Detektor A bei an A positionierter Quelle	#000000	4228
+<PageGeometry>0.00980392	0.0121951	2.35098	1.81463</PageGeometry>
+PlotTitle	Energie am Detektor A bei an A positionierter Quelle	#000000	4
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
@@ -155533,28 +155479,28 @@ grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
 AxesTitles	Kanal	Häufigkeit	Energie [keV]		
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleAlignment	4	4	4	4
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	23	75	0	0	0
-ScaleFont0	Cantarell	19	75	0	0	0
-ScaleFont1	Cantarell	19	75	0	0	0
-ScaleFont2	Cantarell	19	75	0	0	0
-ScaleFont3	Cantarell	19	75	0	0	0
-AxisFont0	Cantarell	19	50	0	0	0
-AxisFont1	Cantarell	19	50	0	0	0
-AxisFont2	Cantarell	19	50	0	0	0
-AxisFont3	Cantarell	19	50	0	0	0
+TitleFont	Monospace	14	50	1	0	0
+ScaleFont0	Monospace	12	75	0	0	0
+ScaleFont1	Monospace	10	50	0	0	0
+ScaleFont2	Monospace	12	75	0	0	0
+ScaleFont3	Monospace	12	75	0	0	0
+AxisFont0	Monospace	10	50	0	0	0
+AxisFont1	Monospace	10	50	0	0	0
+AxisFont2	Monospace	10	50	0	0	0
+AxisFont3	Monospace	10	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
 curve	EdetA_A_Energie	EdetA_A_1	0	4	#000000	2	1	7	0	#000000	#000000	0	#000000	14	1	3	0	0	15000	1
 curve	EdetA_A_Kanal	EdetA_A_Häufigkeit	0	4	#000000	2	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	15000	1
-scale	0	-20	140	0	9	5	0	0
-scale	1	-20	140	0	9	5	0	0
-scale	2	0	15001	3000	7	5	0	0
-scale	3	81	2766.179	0	6	5	0	0
+scale	0	0	160	0	9	5	0	0
+scale	1	0	160	0	9	5	0	0
+scale	2	0	9000	1000	10	5	0	0
+scale	3	81	1692	150	12	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -155574,7 +155520,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Efenster_DetA_B	1	1	08.11.15 16:38
-geometry	980	859	1217	814	minimized	
+geometry	784	829	1217	814	minimized	
 WindowLabel	Energie an Detektor A bei an B positionierter Quelle	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -155584,8 +155530,8 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	8	8	1185	733
-<PageGeometry>0.00661704	0.0105263	0.980149	0.964474</PageGeometry>
-PlotTitle	Energie an Detektor A bei an B positionierter Quelle	#000000	4228
+<PageGeometry>0.0156863	0.0195122	2.32353	1.7878</PageGeometry>
+PlotTitle	Energie an Detektor A bei an B positionierter Quelle	#000000	4
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
@@ -155598,18 +155544,18 @@ grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
 AxesTitles	Kanal	Häufigkeit	Energie [keV]		
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleAlignment	4	4	4	4
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	23	75	0	0	0
-ScaleFont0	Cantarell	19	75	0	0	0
-ScaleFont1	Cantarell	19	75	0	0	0
-ScaleFont2	Cantarell	19	75	0	0	0
-ScaleFont3	Cantarell	19	75	0	0	0
-AxisFont0	Cantarell	19	50	0	0	0
-AxisFont1	Cantarell	19	50	0	0	0
-AxisFont2	Cantarell	19	50	0	0	0
-AxisFont3	Cantarell	19	50	0	0	0
+TitleFont	Monospace	14	50	1	0	0
+ScaleFont0	Monospace	12	75	0	0	0
+ScaleFont1	Monospace	10	50	0	0	0
+ScaleFont2	Monospace	12	75	0	0	0
+ScaleFont3	Monospace	12	75	0	0	0
+AxisFont0	Monospace	10	50	0	0	0
+AxisFont1	Monospace	10	50	0	0	0
+AxisFont2	Monospace	10	50	0	0	0
+AxisFont3	Monospace	10	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
@@ -155618,8 +155564,8 @@ curve	EdetA_B_Energie	EdetA_B_1	0	4	#000000	2	1	7	0	#000000	#000000	0	#000000	14
 curve	EdetA_B_Kanal	EdetA_B_Häufigkeit	0	4	#000000	2	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	15000	1
 scale	0	0	250	0	6	5	0	0
 scale	1	0	250	0	6	5	0	0
-scale	2	0	15001	3000	7	5	0	0
-scale	3	81	2766.179	0	6	5	0	0
+scale	2	0	9000	1000	10	5	0	0
+scale	3	81	1692	150	12	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -155640,8 +155586,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>-1548.8721804511</x>
 <y>239.96655518395</y>
-<right>2917.29323308271</right>
-<bottom>210.869565217391</bottom>
+<right>931.623931623932</right>
+<bottom>233.108108108108</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>0</visible>
@@ -155663,7 +155609,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Efenster_DetB_A	1	1	08.11.15 18:30
-geometry	1568	859	1197	814	minimized	
+geometry	1568	829	1197	814	minimized	active
 WindowLabel	Energie an Detektor B bei Quelle an A	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -155674,7 +155620,7 @@ Alignement	0	0
 <graph>
 ggeometry	10	5	1167	733
 <PageGeometry>0.00841043	0.00657895	0.981497	0.964474</PageGeometry>
-PlotTitle	Energie an Detektor B bei Quelle an A	#000000	4228
+PlotTitle	Energie an Detektor B bei Quelle an A	#000000	4
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
@@ -155687,18 +155633,18 @@ grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
 AxesTitles	Kanal	Häufigkeit	Energie [keV]		
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleAlignment	4	4	4	4
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	23	75	0	0	0
-ScaleFont0	Cantarell	19	75	0	0	0
-ScaleFont1	Cantarell	19	75	0	0	0
-ScaleFont2	Cantarell	19	75	0	0	0
-ScaleFont3	Cantarell	19	75	0	0	0
-AxisFont0	Cantarell	19	50	0	0	0
-AxisFont1	Cantarell	19	50	0	0	0
-AxisFont2	Cantarell	19	50	0	0	0
-AxisFont3	Cantarell	19	50	0	0	0
+TitleFont	Monospace	14	50	1	0	0
+ScaleFont0	Monospace	12	75	0	0	0
+ScaleFont1	Monospace	10	50	0	0	0
+ScaleFont2	Monospace	12	75	0	0	0
+ScaleFont3	Monospace	12	75	0	0	0
+AxisFont0	Monospace	10	50	0	0	0
+AxisFont1	Monospace	10	75	0	0	0
+AxisFont2	Monospace	10	50	0	0	0
+AxisFont3	Monospace	10	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
@@ -155707,8 +155653,8 @@ curve	EdetB_A_Kanal	EdetB_A_1	0	4	#000000	2	1	7	0	#000000	#000000	0	#000000	14	1
 curve	EdetB_A_Energie	EdetB_A_Häufigkeit	0	4	#000000	2	1	7	0	#ff0000	#ff0000	0	#000000	14	1	3	0	0	15000	1
 scale	0	0	300	0	7	5	0	0
 scale	1	0	300	0	7	5	0	0
-scale	2	0	15001	3000	7	5	0	0
-scale	3	100	3400.22	0	7	5	0	0
+scale	2	0	9000	1000	10	5	0	0
+scale	3	100	2080	200	11	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -155728,7 +155674,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Efenster_DetB_B	1	1	08.11.15 18:39
-geometry	196	829	1206	828	minimized	
+geometry	980	829	1206	828	minimized	
 WindowLabel	Energie an Detektor B bei Quelle an B	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -155738,8 +155684,8 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	8	5	1177	753
-<PageGeometry>0.0066778	0.00645995	0.982471	0.972868</PageGeometry>
-PlotTitle	Energie an Detektor B bei Quelle an B	#000000	4228
+<PageGeometry>0.0156863	0.0121951	2.30784	1.83659</PageGeometry>
+PlotTitle	Energie an Detektor B bei Quelle an B	#000000	4
 <Antialiasing>1</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
@@ -155752,18 +155698,18 @@ grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
 AxesTitles	Kanal	Häufigkeit	Energie [keV]		
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleAlignment	4	4	4	4
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	23	75	0	0	0
-ScaleFont0	Cantarell	19	75	0	0	0
-ScaleFont1	Cantarell	19	75	0	0	0
-ScaleFont2	Cantarell	19	75	0	0	0
-ScaleFont3	Cantarell	19	75	0	0	0
-AxisFont0	Cantarell	19	50	0	0	0
-AxisFont1	Cantarell	19	50	0	0	0
-AxisFont2	Cantarell	19	50	0	0	0
-AxisFont3	Cantarell	19	50	0	0	0
+TitleFont	Monospace	14	50	1	0	0
+ScaleFont0	Monospace	12	75	0	0	0
+ScaleFont1	Monospace	10	50	0	0	0
+ScaleFont2	Monospace	12	75	0	0	0
+ScaleFont3	Monospace	14	75	0	0	0
+AxisFont0	Monospace	10	50	0	0	0
+AxisFont1	Monospace	10	50	0	0	0
+AxisFont2	Monospace	10	50	0	0	0
+AxisFont3	Monospace	10	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
@@ -155772,8 +155718,8 @@ curve	EdetB_B_Kanal	EdetB_B_haeufigkeit	0	4	#000000	2	1	7	0	#000000	#000000	0	#0
 curve	EdetB_B_Energie	EdetB_B_Häufigkeit	0	4	#000000	2	1	7	0	#ff0000	#ff0000	0	#000000	14	1	3	0	0	15000	1
 scale	0	0	160	0	9	5	0	0
 scale	1	0	160	0	9	5	0	0
-scale	2	0	15001	0	5	5	0	0
-scale	3	100	3400.22	0	7	5	0	0
+scale	2	0	9000	1000	10	5	0	0
+scale	3	100	2080	200	11	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -155794,8 +155740,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>-1548.8721804511</x>
 <y>153.97993311037</y>
-<right>2917.29323308271</right>
-<bottom>136.521739130435</bottom>
+<right>938.755980861244</right>
+<bottom>149.542483660131</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>0</visible>
@@ -155826,9 +155772,9 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	11	5	1197	751
-<PageGeometry>0.0090535	0.00646831	0.985185	0.971539</PageGeometry>
-PlotTitle	Zeitfenster bei Quelle an Detektor B	#000000	4228
+ggeometry	19	-26	1188	786
+<PageGeometry>0.0156379	-0.0336352	0.977778	1.01682</PageGeometry>
+PlotTitle	Zeitfenster bei Quelle an Detektor B	#000000	4
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
@@ -155841,18 +155787,18 @@ grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
 AxesTitles	Kanal	Häufigkeit	Zeit [ns]		
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleAlignment	4	4	4	4
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	23	75	0	0	0
-ScaleFont0	Cantarell	19	75	0	0	0
-ScaleFont1	Cantarell	19	75	0	0	0
-ScaleFont2	Cantarell	19	75	0	0	0
-ScaleFont3	Cantarell	19	75	0	0	0
-AxisFont0	Cantarell	19	50	0	0	0
-AxisFont1	Cantarell	19	50	0	0	0
-AxisFont2	Cantarell	19	50	0	0	0
-AxisFont3	Cantarell	19	50	0	0	0
+TitleFont	Monospace	16	50	1	0	0
+ScaleFont0	Monospace	16	75	0	0	0
+ScaleFont1	Monospace	11	50	0	0	0
+ScaleFont2	Monospace	16	75	0	0	0
+ScaleFont3	Monospace	16	75	0	0	0
+AxisFont0	Monospace	11	50	0	0	0
+AxisFont1	Monospace	11	50	0	0	0
+AxisFont2	Monospace	11	50	0	0	0
+AxisFont3	Monospace	11	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
@@ -155861,8 +155807,8 @@ curve	T_B_Zeit	T_B_1	0	4	#000000	2	1	7	0	#000000	#000000	0	#000000	14	1	3	0	0	50
 curve	T_B_3	T_B_Häufigkeit	0	4	#000000	2	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	5000	1
 scale	0	0	1500	300	6	5	0	0
 scale	1	0	1500	300	6	5	0	0
-scale	2	1	5001	1000	6	5	0	0
-scale	3	0.343	241.5343	40	7	5	0	0
+scale	2	1	2500	500	5	5	0	0
+scale	3	0.343	120.736	20	7	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -155882,7 +155828,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 T_A_dia	1	1	08.11.15 19:59
-geometry	1568	829	1112	814	minimized	active
+geometry	1176	829	1112	814	minimized	
 WindowLabel	Zeitfenster bei Quelle an Detektor A	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -155891,9 +155837,9 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	1085	736
-<PageGeometry>0.00452899	0.00657895	0.98279	0.968421</PageGeometry>
-PlotTitle	Zeitfenster bei Quelle an Detektor A	#000000	4228
+ggeometry	6	5	1081	736
+<PageGeometry>0.00543478	0.00657895	0.979167	0.968421</PageGeometry>
+PlotTitle	Zeitfenster bei Quelle an Detektor A	#000000	4
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
@@ -155906,18 +155852,18 @@ grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
 AxesTitles	Kanal	Häufigkeit	Zeit [ns]		
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleAlignment	4	4	4	4
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	23	75	0	0	0
-ScaleFont0	Cantarell	19	75	0	0	0
-ScaleFont1	Cantarell	19	75	0	0	0
-ScaleFont2	Cantarell	19	75	0	0	0
-ScaleFont3	Cantarell	19	75	0	0	0
-AxisFont0	Cantarell	19	50	0	0	0
-AxisFont1	Cantarell	19	50	0	0	0
-AxisFont2	Cantarell	19	50	0	0	0
-AxisFont3	Cantarell	19	50	0	0	0
+TitleFont	Monospace	14	50	1	0	0
+ScaleFont0	Monospace	14	75	0	0	0
+ScaleFont1	Monospace	10	50	0	0	0
+ScaleFont2	Monospace	14	75	0	0	0
+ScaleFont3	Monospace	14	75	0	0	0
+AxisFont0	Monospace	10	50	0	0	0
+AxisFont1	Monospace	10	50	0	0	0
+AxisFont2	Monospace	10	50	0	0	0
+AxisFont3	Monospace	10	50	1	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
@@ -155926,8 +155872,8 @@ curve	T_A_Zeit	T_A_1	0	4	#000000	2	1	7	0	#000000	#000000	0	#000000	14	1	3	0	0	50
 curve	T_A_2	T_A_Häufigkeit	0	4	#000000	2	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	5000	1
 scale	0	0	1500	300	6	5	0	0
 scale	1	0	1500	300	6	5	0	0
-scale	2	1	5001	1000	6	5	0	0
-scale	3	0.0343	241.5343	40	7	5	0	0
+scale	2	1	2500	500	5	5	0	0
+scale	3	0.0343	120.736	20	7	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -155945,6 +155891,5756 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
+<folder>	smarti	12.11.15 12:00	
+<open>1</open>
+<table>
+Tabelle2	90	7	11.11.15 19:31
+geometry	392	674	-1	-1	minimized	
+header	theta[X]	hauf[Y]	1[X]	2[Y]	3[X]	4[Y]	5[Y]
+ColWidth	100	100	100	198	100	100	169	
+<com>
+<col nr="3">
+1300*gauss_pdf(col("theta")-98, 14)
+</col>
+<col nr="5">
+col("hauf")+col("2")
+</col>
+<col nr="6">
+wm1(col("theta")-90)
+</col>
+</com>
+ColType	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/8	0;0/14
+ReadOnlyColumn	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0
+Comments	Winkel [°]	Häufigkeit				Einpassung		
+WindowLabel		2
+<data>
+0	2	73	2	2.2823039472772e-09	2	73	-1
+1	4	66	4	6.016906104288e-09	4	66	-1
+2	6	55	6	1.5542104848165e-08	6	55	-1
+3	8	60	8	3.9335373828732e-08	8	60	-1
+4	10	71	10	9.7542431358955e-08	10	71	-1
+5	12	56	12	2.3699583776326e-07	12	56	-1
+6	14	61	14	5.6418912176931e-07	14	61.000001	-1
+7	16	53	16	1.3159686548339e-06	16	53.000001	-1
+8	18	65	18	3.0074833309244e-06	18	65.000003	-1
+9	20	64	20	6.7343821962532e-06	20	64.000007	-1
+10	22	58	22	1.4775056111874e-05	22	58.000015	-1
+11	24	73	24	3.1761233808274e-05	24	73.000032	-1
+12	26	59	26	6.6896352413163e-05	26	59.000067	-1
+13	28	79	28	0.00013805252636818	28	79.000138	-1
+14	30	59	30	0.00027914067640353	30	59.000279	-1
+15	32	65	32	0.00055301733080075	32	65.000553	-1
+16	34	59	34	0.0010734731944368	34	59.001073	-1
+17	36	56	36	0.0020416463376266	36	56.002042	-1
+18	38	45	38	0.0038045795665838	38	45.003805	-1
+19	40	78	40	0.0069465581490047	40	78.006947	-1
+20	42	66	42	0.012427092392454	42	66.012427	-1
+21	44	69	44	0.02178242494383	44	69.021782	-1
+22	46	62	46	0.03740931643495	46	62.037409	-1
+23	48	67	48	0.062949192905177	48	67.062949	-1
+24	50	50	50	0.10378567331617	50	50.103786	-1
+25	52	66	52	0.16765692459533	52	66.167657	-1
+26	54	60	54	0.26536426032769	54	60.265364	-1
+27	56	59	56	0.41152878110853	56	59.411529	-1
+28	58	81	58	0.62530923698567	58	81.625309	-1
+29	60	54	60	0.93094992560036	60	54.93095	-1
+30	62	52	62	1.357983979108	62	53.357984	-1
+31	64	72	64	1.9408850663234	64	73.940885	-1
+32	66	72	66	2.7179523455649	66	74.717952	-1
+33	68	50	68	3.7292431837981	68	53.729243	-1
+34	70	51	70	5.0134468905103	70	56.013447	-1
+35	72	44	72	6.603725006273	72	50.603725	-1
+36	74	59	74	8.5227232966672	74	67.522723	-1
+37	76	33	76	10.77716779342	76	43.777168	-1
+38	78	60	78	13.352658683823	78	73.352659	-1
+39	80	34	80	16.20942832613	80	50.209428	-1
+40	82	32	82	19.279887539269	82	51.279888	-1
+41	84	30	84	22.46871013392	84	52.46871	-1
+42	86	29	86	25.655981513918	86	54.655982	-1
+43	88	45	88	28.70357386177	88	73.703574	-1
+44	90	34	90	31.464451177416	90	65.464451	0
+45	92	27	92	33.794124159295	92	60.794124	0.85260550201373
+46	94	27	94	35.563056280534	94	62.563056	1.202167873197
+47	96	36	96	36.668555850667	96	72.668556	1.4324047758983
+48	98	25	98	37.04464032299	98	62.04464	1.6058119963202
+49	100	32	100	36.668555850667	100	68.668556	1.7455280027407
+50	102	27	102	35.563056280534	102	62.563056	1.8628168644324
+51	104	28	104	33.794124159295	104	61.794124	1.9640491132495
+52	106	33	106	31.464451177416	106	64.464451	2.0531927174626
+53	108	32	108	28.70357386177	108	60.703574	2.1328926485361
+54	110	33	110	25.655981513918	110	58.655982	2.2050032780241
+55	112	32	112	22.46871013392	112	54.46871	2.270876550712
+56	114	35	114	19.279887539269	114	54.279888	2.3315293882801
+57	116	38	116	16.20942832613	116	54.209428	2.3877465027523
+58	118	41	118	13.352658683823	118	54.352659	2.4401464515459
+59	120	49	120	10.77716779342	120	59.777168	2.4892256881577
+60	122	57	122	8.5227232966672	122	65.522723	2.5353888751109
+61	124	61	124	6.603725006273	124	67.603725	2.578970309998
+62	126	62	126	5.0134468905103	126	67.013447	2.6202494248789
+63	128	61	128	3.7292431837981	128	64.729243	2.6594622274889
+64	130	72	130	2.7179523455649	130	74.717952	2.6968098986617
+65	132	62	132	1.9408850663234	132	63.940885	2.7324653558497
+66	134	61	134	1.357983979108	134	62.357984	2.7665783352952
+67	136	64	136	0.93094992560036	136	64.93095	2.7992793775815
+68	138	57	138	0.62530923698567	138	57.625309	2.8306829893702
+69	140	51	140	0.41152878110853	140	51.411529	2.8608901779822
+70	142	56	142	0.26536426032769	142	56.265364	2.8899905027189
+71	144	67	144	0.16765692459533	144	67.167657	2.9180637496624
+72	146	51	146	0.10378567331617	146	51.103786	2.9451813101207
+73	148	63	148	0.062949192905177	148	63.062949	2.9714073236236
+74	150	54	150	0.03740931643495	150	54.037409	2.996799632234
+75	152	65	152	0.02178242494383	152	65.021782	3.0214105824311
+76	154	51	154	0.012427092392454	154	51.012427	3.0452877029377
+77	156	67	156	0.0069465581490047	156	67.006947	3.068474280875
+78	158	63	158	0.0038045795665838	158	63.003805	3.09100985405
+79	160	63	160	0.0020416463376266	160	63.002042	3.1129306336395
+80	162	75	162	0.0010734731944368	162	75.001073	3.1342698687775
+81	164	62	164	0.00055301733080075	164	62.000553	3.1550581623915
+82	166	64	166	0.00027914067640353	166	64.000279	3.1753237459208
+83	168	70	168	0.00013805252636818	168	70.000138	3.1950927191903
+84	170	59	170	6.6896352413163e-05	170	59.000067	3.214389260622
+85	172	63	172	3.1761233808274e-05	172	63.000032	3.2332358120878
+86	174	76	174	1.4775056111874e-05	174	76.000015	3.2516532419957
+87	176	64	176	6.7343821962532e-06	176	64.000007	3.2696609896183
+88	178	66	178	3.0074833309244e-06	178	66.000003	3.287277193202
+89	180	59	180	1.3159686548339e-06	180	59.000001	3.3045188039969
+</data>
+</table>
+<table>
+Fit1	90	2	11.11.15 20:14
+geometry	871	491	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Gauß-Fit Fit von Tabelle1_2	2
+<data>
+0	2	9.8285393234497e-07
+1	4	2.1298144955908e-06
+2	6	4.5339284255335e-06
+3	8	9.4817203328843e-06
+4	10	1.9479554054352e-05
+5	12	3.9314265919367e-05
+6	14	7.7947210815978e-05
+7	16	0.00015182042953768
+8	18	0.00029049527339756
+9	20	0.00054604337056525
+10	22	0.0010083107991001
+11	24	0.0018291145679768
+12	26	0.00325961725907
+13	28	0.005706522291899
+14	30	0.0098142165627306
+15	32	0.016581314822859
+16	34	0.027520828412472
+17	36	0.044872808214744
+18	38	0.071876050499767
+19	40	0.11310045973403
+20	42	0.17483313477979
+21	44	0.2654986567267
+22	46	0.39607745329233
+23	48	0.58046644942258
+24	50	0.83570564174833
+25	52	1.1819762616697
+26	54	1.6422655549561
+27	56	2.2415953800444
+28	58	3.0057321099809
+29	60	3.9593375442968
+30	62	5.1235855785284
+31	64	6.513353813303
+32	66	8.1341945431514
+33	68	9.979382043557
+34	70	12.027405476228
+35	72	14.240310698757
+36	74	16.563274014243
+37	76	18.925707232891
+38	78	21.244047202496
+39	80	23.426187071627
+40	82	25.377285499629
+41	84	27.006476955566
+42	86	28.233837470364
+43	88	28.996868331616
+44	90	29.255767229428
+45	92	28.996868331616
+46	94	28.233837470364
+47	96	27.006476955566
+48	98	25.377285499629
+49	100	23.426187071627
+50	102	21.244047202496
+51	104	18.925707232891
+52	106	16.563274014243
+53	108	14.240310698757
+54	110	12.027405476228
+55	112	9.9793820435568
+56	114	8.1341945431512
+57	116	6.5133538133028
+58	118	5.1235855785282
+59	120	3.9593375442966
+60	122	3.0057321099808
+61	124	2.2415953800444
+62	126	1.642265554956
+63	128	1.1819762616697
+64	130	0.8357056417483
+65	132	0.58046644942256
+66	134	0.39607745329232
+67	136	0.26549865672669
+68	138	0.17483313477978
+69	140	0.11310045973402
+70	142	0.071876050499763
+71	144	0.044872808214741
+72	146	0.02752082841247
+73	148	0.016581314822858
+74	150	0.00981421656273
+75	152	0.0057065222918986
+76	154	0.0032596172590698
+77	156	0.0018291145679767
+78	158	0.0010083107991
+79	160	0.00054604337056521
+80	162	0.00029049527339754
+81	164	0.00015182042953767
+82	166	7.7947210815972e-05
+83	168	3.9314265919364e-05
+84	170	1.947955405435e-05
+85	172	9.4817203328835e-06
+86	174	4.5339284255331e-06
+87	176	2.1298144955906e-06
+88	178	9.8285393234488e-07
+89	180	4.455714677995e-07
+</data>
+</table>
+<table>
+Nichtlinear1	90	2	11.11.15 20:25
+geometry	1475	290	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle1_2	2
+<data>
+0	2	9.8284720721622e-07
+1	4	2.1298077708453e-06
+2	6	4.5339217015515e-06
+3	8	9.4817136103939e-06
+4	10	1.9479547334718e-05
+5	12	3.9314259205096e-05
+6	14	7.7947204111574e-05
+7	16	0.00015182042285106
+8	18	0.00029049526674237
+9	20	0.00054604336396443
+10	22	0.0010083107925914
+11	24	0.001829114561621
+12	26	0.0032596172529624
+13	28	0.0057065222861859
+14	30	0.0098142165576309
+15	32	0.016581314818691
+16	34	0.027520828409689
+17	36	0.044872808213971
+18	38	0.071876050501842
+19	40	0.11310045974004
+20	42	0.1748331347911
+21	44	0.26549865674495
+22	46	0.39607745331941
+23	48	0.58046644946058
+24	50	0.83570564179936
+25	52	1.1819762617358
+26	54	1.6422655550387
+27	56	2.2415953801445
+28	58	3.0057321100981
+29	60	3.9593375444294
+30	62	5.1235855786732
+31	64	6.5133538134547
+32	66	8.134194543303
+33	68	9.9793820436998
+34	70	12.027405476353
+35	72	14.240310698852
+36	74	16.5632740143
+37	76	18.925707232902
+38	78	21.244047202454
+39	80	23.42618707153
+40	82	25.377285499479
+41	84	27.006476955368
+42	86	28.233837470128
+43	88	28.996868331356
+44	90	29.255767229158
+45	92	28.996868331352
+46	94	28.23383747012
+47	96	27.006476955356
+48	98	25.377285499464
+49	100	23.426187071513
+50	102	21.244047202435
+51	104	18.925707232882
+52	106	16.56327401428
+53	108	14.240310698833
+54	110	12.027405476335
+55	112	9.9793820436834
+56	114	8.1341945432885
+57	116	6.5133538134421
+58	118	5.1235855786625
+59	120	3.9593375444206
+60	122	3.0057321100909
+61	124	2.2415953801388
+62	126	1.6422655550343
+63	128	1.1819762617324
+64	130	0.83570564179687
+65	132	0.58046644945875
+66	134	0.39607745331811
+67	136	0.26549865674404
+68	138	0.17483313479047
+69	140	0.11310045973961
+70	142	0.071876050501563
+71	144	0.04487280821379
+72	146	0.027520828409574
+73	148	0.016581314818619
+74	150	0.0098142165575869
+75	152	0.0057065222861595
+76	154	0.0032596172529468
+77	156	0.0018291145616119
+78	158	0.0010083107925863
+79	160	0.00054604336396157
+80	162	0.0002904952667408
+81	164	0.00015182042285022
+82	166	7.7947204111132e-05
+83	168	3.9314259204867e-05
+84	170	1.9479547334602e-05
+85	172	9.4817136103359e-06
+86	174	4.533921701523e-06
+87	176	2.1298077708316e-06
+88	178	9.8284720720977e-07
+89	180	4.4556474247921e-07
+</data>
+</table>
+<table>
+Tabelle3	90	2	11.11.15 20:25
+geometry	871	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle1_2	2
+<data>
+0	2	9.8284720687546e-07
+1	4	2.1298077701408e-06
+2	6	4.5339217001224e-06
+3	8	9.4817136075495e-06
+4	10	1.9479547329164e-05
+5	12	3.9314259194455e-05
+6	14	7.7947204091576e-05
+7	16	0.0001518204228142
+8	18	0.00029049526667572
+9	20	0.00054604336384626
+10	22	0.001008310792386
+11	24	0.0018291145612708
+12	26	0.0032596172523772
+13	28	0.0057065222852275
+14	30	0.0098142165560924
+15	32	0.016581314816271
+16	34	0.027520828405962
+17	36	0.044872808208346
+18	38	0.071876050493532
+19	40	0.11310045972802
+20	42	0.1748331347741
+21	44	0.26549865672143
+22	46	0.39607745328761
+23	48	0.58046644941855
+24	50	0.83570564174518
+25	52	1.1819762616676
+26	54	1.6422655549552
+27	56	2.241595380045
+28	58	3.005732109983
+29	60	3.9593375443005
+30	62	5.1235855785339
+31	64	6.5133538133102
+32	66	8.1341945431602
+33	68	9.9793820435672
+34	70	12.02740547624
+35	72	14.240310698769
+36	74	16.563274014256
+37	76	18.925707232904
+38	78	21.244047202509
+39	80	23.426187071639
+40	82	25.377285499641
+41	84	27.006476955577
+42	86	28.233837470374
+43	88	28.996868331627
+44	90	29.255767229438
+45	92	28.996868331627
+46	94	28.233837470374
+47	96	27.006476955577
+48	98	25.377285499641
+49	100	23.426187071639
+50	102	21.244047202509
+51	104	18.925707232904
+52	106	16.563274014256
+53	108	14.240310698769
+54	110	12.02740547624
+55	112	9.9793820435672
+56	114	8.1341945431602
+57	116	6.5133538133102
+58	118	5.1235855785339
+59	120	3.9593375443005
+60	122	3.005732109983
+61	124	2.241595380045
+62	126	1.6422655549552
+63	128	1.1819762616676
+64	130	0.83570564174518
+65	132	0.58046644941855
+66	134	0.39607745328761
+67	136	0.26549865672143
+68	138	0.1748331347741
+69	140	0.11310045972802
+70	142	0.071876050493532
+71	144	0.044872808208346
+72	146	0.027520828405962
+73	148	0.016581314816271
+74	150	0.0098142165560924
+75	152	0.0057065222852275
+76	154	0.0032596172523772
+77	156	0.0018291145612708
+78	158	0.001008310792386
+79	160	0.00054604336384626
+80	162	0.00029049526667572
+81	164	0.0001518204228142
+82	166	7.7947204091576e-05
+83	168	3.9314259194455e-05
+84	170	1.9479547329164e-05
+85	172	9.4817136075495e-06
+86	174	4.5339217001224e-06
+87	176	2.1298077701408e-06
+88	178	9.8284720687546e-07
+89	180	4.4556474232046e-07
+</data>
+</table>
+<table>
+Tabelle4	90	2	11.11.15 21:12
+geometry	784	674	445	836	minimized	active
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+<col nr="0">
+2*i
+</col>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	2	64
+1	4	65
+2	6	63
+3	8	63
+4	10	72
+5	12	55
+6	14	69
+7	16	62
+8	18	73
+9	20	72
+10	22	52
+11	24	72
+12	26	70
+13	28	64
+14	30	57
+15	32	51
+16	34	63
+17	36	61
+18	38	46
+19	40	79
+20	42	78
+21	44	58
+22	46	59
+23	48	63
+24	50	68
+25	52	63
+26	54	63
+27	56	75
+28	58	72
+29	60	69
+30	62	52
+31	64	64
+32	66	66
+33	68	56
+34	70	66
+35	72	59
+36	74	60
+37	76	71
+38	78	60
+39	80	46
+40	82	55
+41	84	61
+42	86	57
+43	88	67
+44	90	55
+45	92	62
+46	94	59
+47	96	62
+48	98	67
+49	100	57
+50	102	75
+51	104	72
+52	106	57
+53	108	61
+54	110	60
+55	112	58
+56	114	63
+57	116	52
+58	118	58
+59	120	62
+60	122	58
+61	124	72
+62	126	67
+63	128	68
+64	130	57
+65	132	67
+66	134	58
+67	136	61
+68	138	75
+69	140	71
+70	142	63
+71	144	75
+72	146	59
+73	148	67
+74	150	78
+75	152	67
+76	154	63
+77	156	57
+78	158	60
+79	160	55
+80	162	74
+81	164	52
+82	166	67
+83	168	53
+84	170	64
+85	172	64
+86	174	57
+87	176	69
+88	178	73
+89	180	53
+</data>
+</table>
+<table>
+Linear1	90	2	11.11.15 21:16
+geometry	1475	669	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Lineare Regression von Tabelle2_2	2
+<data>
+0	2	56.410500610501
+1	4	56.385295852712
+2	6	56.360091094923
+3	8	56.334886337134
+4	10	56.309681579344
+5	12	56.284476821555
+6	14	56.259272063766
+7	16	56.234067305977
+8	18	56.208862548188
+9	20	56.183657790399
+10	22	56.15845303261
+11	24	56.133248274821
+12	26	56.108043517032
+13	28	56.082838759243
+14	30	56.057634001454
+15	32	56.032429243665
+16	34	56.007224485876
+17	36	55.982019728087
+18	38	55.956814970298
+19	40	55.931610212509
+20	42	55.90640545472
+21	44	55.881200696931
+22	46	55.855995939142
+23	48	55.830791181353
+24	50	55.805586423564
+25	52	55.780381665775
+26	54	55.755176907986
+27	56	55.729972150197
+28	58	55.704767392408
+29	60	55.679562634619
+30	62	55.65435787683
+31	64	55.629153119041
+32	66	55.603948361252
+33	68	55.578743603463
+34	70	55.553538845674
+35	72	55.528334087885
+36	74	55.503129330096
+37	76	55.477924572307
+38	78	55.452719814518
+39	80	55.427515056729
+40	82	55.40231029894
+41	84	55.37710554115
+42	86	55.351900783361
+43	88	55.326696025572
+44	90	55.301491267783
+45	92	55.276286509994
+46	94	55.251081752205
+47	96	55.225876994416
+48	98	55.200672236627
+49	100	55.175467478838
+50	102	55.150262721049
+51	104	55.12505796326
+52	106	55.099853205471
+53	108	55.074648447682
+54	110	55.049443689893
+55	112	55.024238932104
+56	114	54.999034174315
+57	116	54.973829416526
+58	118	54.948624658737
+59	120	54.923419900948
+60	122	54.898215143159
+61	124	54.87301038537
+62	126	54.847805627581
+63	128	54.822600869792
+64	130	54.797396112003
+65	132	54.772191354214
+66	134	54.746986596425
+67	136	54.721781838636
+68	138	54.696577080847
+69	140	54.671372323058
+70	142	54.646167565269
+71	144	54.62096280748
+72	146	54.595758049691
+73	148	54.570553291902
+74	150	54.545348534113
+75	152	54.520143776324
+76	154	54.494939018535
+77	156	54.469734260745
+78	158	54.444529502956
+79	160	54.419324745167
+80	162	54.394119987378
+81	164	54.368915229589
+82	166	54.3437104718
+83	168	54.318505714011
+84	170	54.293300956222
+85	172	54.268096198433
+86	174	54.242891440644
+87	176	54.217686682855
+88	178	54.192481925066
+89	180	54.167277167277
+</data>
+</table>
+<table>
+Linear2	90	2	11.11.15 21:34
+geometry	0	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Lineare Regression von Tabelle2_2	2
+<data>
+0	2	63.591208791209
+1	4	63.581668518747
+2	6	63.572128246286
+3	8	63.562587973824
+4	10	63.553047701362
+5	12	63.543507428901
+6	14	63.533967156439
+7	16	63.524426883977
+8	18	63.514886611516
+9	20	63.505346339054
+10	22	63.495806066593
+11	24	63.486265794131
+12	26	63.476725521669
+13	28	63.467185249208
+14	30	63.457644976746
+15	32	63.448104704284
+16	34	63.438564431823
+17	36	63.429024159361
+18	38	63.4194838869
+19	40	63.409943614438
+20	42	63.400403341976
+21	44	63.390863069515
+22	46	63.381322797053
+23	48	63.371782524592
+24	50	63.36224225213
+25	52	63.352701979668
+26	54	63.343161707207
+27	56	63.333621434745
+28	58	63.324081162283
+29	60	63.314540889822
+30	62	63.30500061736
+31	64	63.295460344899
+32	66	63.285920072437
+33	68	63.276379799975
+34	70	63.266839527514
+35	72	63.257299255052
+36	74	63.24775898259
+37	76	63.238218710129
+38	78	63.228678437667
+39	80	63.219138165206
+40	82	63.209597892744
+41	84	63.200057620282
+42	86	63.190517347821
+43	88	63.180977075359
+44	90	63.171436802897
+45	92	63.161896530436
+46	94	63.152356257974
+47	96	63.142815985513
+48	98	63.133275713051
+49	100	63.123735440589
+50	102	63.114195168128
+51	104	63.104654895666
+52	106	63.095114623205
+53	108	63.085574350743
+54	110	63.076034078281
+55	112	63.06649380582
+56	114	63.056953533358
+57	116	63.047413260896
+58	118	63.037872988435
+59	120	63.028332715973
+60	122	63.018792443512
+61	124	63.00925217105
+62	126	62.999711898588
+63	128	62.990171626127
+64	130	62.980631353665
+65	132	62.971091081203
+66	134	62.961550808742
+67	136	62.95201053628
+68	138	62.942470263819
+69	140	62.932929991357
+70	142	62.923389718895
+71	144	62.913849446434
+72	146	62.904309173972
+73	148	62.89476890151
+74	150	62.885228629049
+75	152	62.875688356587
+76	154	62.866148084126
+77	156	62.856607811664
+78	158	62.847067539202
+79	160	62.837527266741
+80	162	62.827986994279
+81	164	62.818446721818
+82	166	62.808906449356
+83	168	62.799366176894
+84	170	62.789825904433
+85	172	62.780285631971
+86	174	62.770745359509
+87	176	62.761205087048
+88	178	62.751664814586
+89	180	62.742124542125
+</data>
+</table>
+<table>
+LinearInt1	1000	2	11.11.15 23:05
+geometry	1475	669	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Linear Interpolation von Tabelle1_4	2
+<data>
+0	2	73
+1	2.1781781781782	72.376376376376
+2	2.3563563563564	71.752752752753
+3	2.5345345345345	71.129129129129
+4	2.7127127127127	70.505505505506
+5	2.8908908908909	69.881881881882
+6	3.0690690690691	69.258258258258
+7	3.2472472472472	68.634634634635
+8	3.4254254254254	68.011011011011
+9	3.6036036036036	67.387387387387
+10	3.7817817817818	66.763763763764
+11	3.95995995996	66.14014014014
+12	4.1381381381381	65.24024024024
+13	4.3163163163163	64.26026026026
+14	4.4944944944945	63.28028028028
+15	4.6726726726727	62.3003003003
+16	4.8508508508509	61.32032032032
+17	5.029029029029	60.34034034034
+18	5.2072072072072	59.36036036036
+19	5.3853853853854	58.38038038038
+20	5.5635635635636	57.4004004004
+21	5.7417417417417	56.42042042042
+22	5.9199199199199	55.44044044044
+23	6.0980980980981	55.245245245245
+24	6.2762762762763	55.690690690691
+25	6.4544544544545	56.136136136136
+26	6.6326326326326	56.581581581582
+27	6.8108108108108	57.027027027027
+28	6.988988988989	57.472472472472
+29	7.1671671671672	57.917917917918
+30	7.3453453453453	58.363363363363
+31	7.5235235235235	58.808808808809
+32	7.7017017017017	59.254254254254
+33	7.8798798798799	59.6996996997
+34	8.0580580580581	60.319319319319
+35	8.2362362362362	61.299299299299
+36	8.4144144144144	62.279279279279
+37	8.5925925925926	63.259259259259
+38	8.7707707707708	64.239239239239
+39	8.9489489489489	65.219219219219
+40	9.1271271271271	66.199199199199
+41	9.3053053053053	67.179179179179
+42	9.4834834834835	68.159159159159
+43	9.6616616616617	69.139139139139
+44	9.8398398398398	70.119119119119
+45	10.018018018018	70.864864864865
+46	10.196196196196	69.528528528529
+47	10.374374374374	68.192192192192
+48	10.552552552553	66.855855855856
+49	10.730730730731	65.51951951952
+50	10.908908908909	64.183183183183
+51	11.087087087087	62.846846846847
+52	11.265265265265	61.510510510511
+53	11.443443443443	60.174174174174
+54	11.621621621622	58.837837837838
+55	11.7997997998	57.501501501502
+56	11.977977977978	56.165165165165
+57	12.156156156156	56.390390468468
+58	12.334334334334	56.835836003003
+59	12.512512512513	57.281281537538
+60	12.690690690691	57.726727072072
+61	12.868868868869	58.172172606607
+62	13.047047047047	58.617618141141
+63	13.225225225225	59.063063675676
+64	13.403403403403	59.50850921021
+65	13.581581581582	59.953954744745
+66	13.75975975976	60.399400279279
+67	13.937937937938	60.844845813814
+68	14.116116116116	60.535536535536
+69	14.294294294294	59.822823822823
+70	14.472472472472	59.11011111011
+71	14.650650650651	58.397398397397
+72	14.828828828829	57.684685684685
+73	15.007007007007	56.971972971972
+74	15.185185185185	56.259260259259
+75	15.363363363363	55.546547546547
+76	15.541541541542	54.833834833834
+77	15.71971971972	54.121122121121
+78	15.897897897898	53.408409408408
+79	16.076076076076	53.456457532533
+80	16.254254254254	54.52552677978
+81	16.432432432432	55.594596027027
+82	16.610610610611	56.663665274274
+83	16.788788788789	57.732734521522
+84	16.966966966967	58.801803768769
+85	17.145145145145	59.870873016016
+86	17.323323323323	60.939942263263
+87	17.501501501502	62.009011510511
+88	17.67967967968	63.078080757758
+89	17.857857857858	64.147150005005
+90	18.036036036036	64.981985054054
+91	18.214214214214	64.892896321321
+92	18.392392392392	64.803807588589
+93	18.570570570571	64.714718855856
+94	18.748748748749	64.625630123123
+95	18.926926926927	64.53654139039
+96	19.105105105105	64.447452657658
+97	19.283283283283	64.358363924925
+98	19.461461461461	64.269275192192
+99	19.63963963964	64.180186459459
+100	19.817817817818	64.091097726727
+101	19.995995995996	64.002008993994
+102	20.174174174174	63.477485174174
+103	20.352352352352	62.942951352352
+104	20.530530530531	62.408417530531
+105	20.708708708709	61.873883708709
+106	20.886886886887	61.339349886887
+107	21.065065065065	60.804816065065
+108	21.243243243243	60.270282243243
+109	21.421421421421	59.735748421421
+110	21.5995995996	59.2012145996
+111	21.777777777778	58.666680777778
+112	21.955955955956	58.132146955956
+113	22.134134134134	59.006022146146
+114	22.312312312312	60.342359996997
+115	22.49049049049	61.678697847848
+116	22.668668668669	63.015035698699
+117	22.846846846847	64.35137354955
+118	23.025025025025	65.6877114004
+119	23.203203203203	67.024049251251
+120	23.381381381381	68.360387102102
+121	23.55955955956	69.696724952953
+122	23.737737737738	71.033062803804
+123	23.915915915916	72.369400654655
+124	24.094094094094	72.341374987988
+125	24.272272272272	71.094130858859
+126	24.45045045045	69.84688672973
+127	24.628628628629	68.599642600601
+128	24.806806806807	67.352398471471
+129	24.984984984985	66.105154342342
+130	25.163163163163	64.857910213213
+131	25.341341341341	63.610666084084
+132	25.51951951952	62.363421954955
+133	25.697697697698	61.116177825826
+134	25.875875875876	59.868933696697
+135	26.054054054054	59.540609459459
+136	26.232232232232	61.322397566567
+137	26.41041041041	63.104185673674
+138	26.588588588589	64.885973780781
+139	26.766766766767	66.667761887888
+140	26.944944944945	68.449549994995
+141	27.123123123123	70.231338102102
+142	27.301301301301	72.013126209209
+143	27.479479479479	73.794914316316
+144	27.657657657658	75.576702423423
+145	27.835835835836	77.358490530531
+146	28.014014014014	78.859998847848
+147	28.192192192192	77.078229627628
+148	28.37037037037	75.296460407407
+149	28.548548548549	73.514691187187
+150	28.726726726727	71.732921966967
+151	28.904904904905	69.951152746747
+152	29.083083083083	68.169383526527
+153	29.261261261261	66.387614306306
+154	29.439439439439	64.605845086086
+155	29.617617617618	62.824075865866
+156	29.795795795796	61.042306645646
+157	29.973973973974	59.260537425425
+158	30.152152152152	59.456756301301
+159	30.33033033033	59.991315246246
+160	30.508508508509	60.525874191191
+161	30.686686686687	61.060433136136
+162	30.864864864865	61.594992081081
+163	31.043043043043	62.129551026026
+164	31.221221221221	62.664109970971
+165	31.399399399399	63.198668915916
+166	31.577577577578	63.733227860861
+167	31.755755755756	64.267786805806
+168	31.933933933934	64.802345750751
+169	32.112112112112	64.664245812813
+170	32.29029029029	64.129757604605
+171	32.468468468468	63.595269396396
+172	32.646646646647	63.060781188188
+173	32.824824824825	62.52629297998
+174	33.003003003003	61.991804771772
+175	33.181181181181	61.457316563564
+176	33.359359359359	60.922828355355
+177	33.537537537538	60.388340147147
+178	33.715715715716	59.853851938939
+179	33.893893893894	59.319363730731
+180	34.072072072072	58.892999810811
+181	34.25025025025	58.625818870871
+182	34.428428428428	58.358637930931
+183	34.606606606607	58.091456990991
+184	34.784784784785	57.824276051051
+185	34.962962962963	57.557095111111
+186	35.141141141141	57.289914171171
+187	35.319319319319	57.022733231231
+188	35.497497497497	56.755552291291
+189	35.675675675676	56.488371351351
+190	35.853853853854	56.221190411411
+191	36.032032032032	55.82589406006
+192	36.21021021021	54.846071144144
+193	36.388388388388	53.866248228228
+194	36.566566566567	52.886425312312
+195	36.744744744745	51.906602396396
+196	36.922922922923	50.92677948048
+197	37.101101101101	49.946956564565
+198	37.279279279279	48.967133648649
+199	37.457457457457	47.987310732733
+200	37.635635635636	47.007487816817
+201	37.813813813814	46.027664900901
+202	37.991991991992	45.047841984985
+203	38.17017017017	47.811880145145
+204	38.348348348348	50.752100003003
+205	38.526526526527	53.692319860861
+206	38.704704704705	56.632539718719
+207	38.882882882883	59.572759576577
+208	39.061061061061	62.512979434434
+209	39.239239239239	65.453199292292
+210	39.417417417417	68.39341915015
+211	39.595595595596	71.333639008008
+212	39.773773773774	74.273858865866
+213	39.951951951952	77.214078723724
+214	40.13013013013	77.226522775776
+215	40.308308308308	76.157941914915
+216	40.486486486486	75.089361054054
+217	40.664664664665	74.020780193193
+218	40.842842842843	72.952199332332
+219	41.021021021021	71.883618471471
+220	41.199199199199	70.815037610611
+221	41.377377377377	69.74645674975
+222	41.555555555556	68.677875888889
+223	41.733733733734	67.609295028028
+224	41.911911911912	66.540714167167
+225	42.09009009009	66.147983531532
+226	42.268268268268	66.416084227227
+227	42.446446446446	66.684184922923
+228	42.624624624625	66.952285618619
+229	42.802802802803	67.220386314314
+230	42.980980980981	67.48848701001
+231	43.159159159159	67.756587705706
+232	43.337337337337	68.024688401401
+233	43.515515515516	68.292789097097
+234	43.693693693694	68.560889792793
+235	43.871871871872	68.828990488489
+236	44.05005005005	68.846997890891
+237	44.228228228228	68.224766462462
+238	44.406406406406	67.602535034034
+239	44.584584584585	66.980303605606
+240	44.762762762763	66.358072177177
+241	44.940940940941	65.735840748749
+242	45.119119119119	65.11360932032
+243	45.297297297297	64.491377891892
+244	45.475475475475	63.869146463463
+245	45.653653653654	63.246915035035
+246	45.831831831832	62.624683606607
+247	46.01001001001	62.062561852853
+248	46.188188188188	62.510282633634
+249	46.366366366366	62.958003414414
+250	46.544544544545	63.405724195195
+251	46.722722722723	63.853444975976
+252	46.900900900901	64.301165756757
+253	47.079079079079	64.748886537538
+254	47.257257257257	65.196607318318
+255	47.435435435435	65.644328099099
+256	47.613613613614	66.09204887988
+257	47.791791791792	66.539769660661
+258	47.96996996997	66.987490441441
+259	48.148148148148	65.806714703704
+260	48.326326326326	64.29583832032
+261	48.504504504505	62.784961936937
+262	48.682682682683	61.274085553554
+263	48.860860860861	59.76320917017
+264	49.039039039039	58.252332786787
+265	49.217217217217	56.741456403403
+266	49.395395395395	55.23058002002
+267	49.573573573574	53.719703636637
+268	49.751751751752	52.208827253253
+269	49.92992992993	50.69795086987
+270	50.108108108108	50.972103351351
+271	50.286286286286	52.403218985986
+272	50.464464464464	53.834334620621
+273	50.642642642643	55.265450255255
+274	50.820820820821	56.69656588989
+275	50.998998998999	58.127681524525
+276	51.177177177177	59.558797159159
+277	51.355355355355	60.989912793794
+278	51.533533533534	62.421028428428
+279	51.711711711712	63.852144063063
+280	51.88988988989	65.283259697698
+281	52.068068068068	65.966778159159
+282	52.246246246246	65.440948252252
+283	52.424424424424	64.915118345345
+284	52.602602602603	64.389288438438
+285	52.780780780781	63.863458531532
+286	52.958958958959	63.337628624625
+287	53.137137137137	62.811798717718
+288	53.315315315315	62.285968810811
+289	53.493493493493	61.760138903904
+290	53.671671671672	61.234308996997
+291	53.84984984985	60.70847909009
+292	54.028028028028	60.253398344344
+293	54.206206206206	60.177330961962
+294	54.384384384384	60.10126357958
+295	54.562562562563	60.025196197197
+296	54.740740740741	59.949128814815
+297	54.918918918919	59.873061432432
+298	55.097097097097	59.79699405005
+299	55.275275275275	59.720926667668
+300	55.453453453453	59.644859285285
+301	55.631631631632	59.568791902903
+302	55.80980980981	59.492724520521
+303	55.987987987988	59.416657138138
+304	56.166166166166	61.257118329329
+305	56.344344344344	63.236123754755
+306	56.522522522523	65.21512918018
+307	56.700700700701	67.194134605606
+308	56.878878878879	69.173140031031
+309	57.057057057057	71.152145456456
+310	57.235235235235	73.131150881882
+311	57.413413413413	75.110156307307
+312	57.591591591592	77.089161732733
+313	57.76976976977	79.068167158158
+314	57.947947947948	81.047172583584
+315	58.126126126126	79.941880954955
+316	58.304304304304	77.563704827828
+317	58.482482482482	75.185528700701
+318	58.660660660661	72.807352573574
+319	58.838838838839	70.429176446446
+320	59.017017017017	68.051000319319
+321	59.195195195195	65.672824192192
+322	59.373373373373	63.294648065065
+323	59.551551551552	60.916471937938
+324	59.72972972973	58.538295810811
+325	59.907907907908	56.160119683684
+326	60.086086086086	54.863244756757
+327	60.264264264264	54.723110648649
+328	60.442442442442	54.582976540541
+329	60.620620620621	54.442842432432
+330	60.798798798799	54.302708324324
+331	60.976976976977	54.162574216216
+332	61.155155155155	54.022440108108
+333	61.333333333333	53.882306
+334	61.511511511512	53.742171891892
+335	61.68968968969	53.602037783784
+336	61.867867867868	53.461903675676
+337	62.046046046046	53.831864603604
+338	62.224224224224	55.665576504505
+339	62.402402402402	57.499288405405
+340	62.580580580581	59.333000306306
+341	62.758758758759	61.166712207207
+342	62.936936936937	63.000424108108
+343	63.115115115115	64.834136009009
+344	63.293293293293	66.66784790991
+345	63.471471471471	68.501559810811
+346	63.64964964965	70.335271711712
+347	63.827827827828	72.168983612613
+348	64.006006006006	73.943218534535
+349	64.184184184184	74.012446725726
+350	64.362362362362	74.081674916917
+351	64.540540540541	74.150903108108
+352	64.718718718719	74.220131299299
+353	64.896896896897	74.28935949049
+354	65.075075075075	74.358587681682
+355	65.253253253253	74.427815872873
+356	65.431431431431	74.497044064064
+357	65.60960960961	74.566272255255
+358	65.787787787788	74.635500446446
+359	65.965965965966	74.704728637638
+360	66.144144144144	73.205252252252
+361	66.322322322322	71.335387286286
+362	66.500500500501	69.46552232032
+363	66.678678678679	67.595657354354
+364	66.856856856857	65.725792388388
+365	67.035035035035	63.855927422422
+366	67.213213213213	61.986062456456
+367	67.391391391391	60.11619749049
+368	67.56956956957	58.246332524525
+369	67.747747747748	56.376467558559
+370	67.925925925926	54.506602592593
+371	68.104104104104	53.848140505506
+372	68.282282282282	54.051638159159
+373	68.46046046046	54.255135812813
+374	68.638638638639	54.458633466466
+375	68.816816816817	54.66213112012
+376	68.994994994995	54.865628773774
+377	69.173173173173	55.069126427427
+378	69.351351351351	55.272624081081
+379	69.52952952953	55.476121734735
+380	69.707707707708	55.679619388388
+381	69.885885885886	55.883117042042
+382	70.064064064064	55.840162611612
+383	70.242242242242	55.358215406406
+384	70.42042042042	54.876268201201
+385	70.598598598599	54.394320995996
+386	70.776776776777	53.912373790791
+387	70.954954954955	53.430426585586
+388	71.133133133133	52.94847938038
+389	71.311311311311	52.466532175175
+390	71.489489489489	51.98458496997
+391	71.667667667668	51.502637764765
+392	71.845845845846	51.02069055956
+393	72.024024024024	50.806956207207
+394	72.202202202202	52.314254327327
+395	72.38038038038	53.821552447448
+396	72.558558558559	55.328850567568
+397	72.736736736737	56.836148687688
+398	72.914914914915	58.343446807808
+399	73.093093093093	59.850744927928
+400	73.271271271271	61.358043048048
+401	73.449449449449	62.865341168168
+402	73.627627627628	64.372639288288
+403	73.805805805806	65.879937408408
+404	73.983983983984	67.387235528529
+405	74.162162162162	65.59740772973
+406	74.34034034034	63.481937864865
+407	74.518518518519	61.366468
+408	74.696696696697	59.250998135135
+409	74.874874874875	57.13552827027
+410	75.053053053053	55.020058405405
+411	75.231231231231	52.904588540541
+412	75.409409409409	50.789118675676
+413	75.587587587588	48.673648810811
+414	75.765765765766	46.558178945946
+415	75.943943943944	44.442709081081
+416	76.122122122122	45.583078861862
+417	76.3003003003	48.217932414415
+418	76.478478478478	50.852785966967
+419	76.656656656657	53.48763951952
+420	76.834834834835	56.122493072072
+421	77.013013013013	58.757346624625
+422	77.191191191191	61.392200177177
+423	77.369369369369	64.02705372973
+424	77.547547547548	66.661907282282
+425	77.725725725726	69.296760834835
+426	77.903903903904	71.931614387387
+427	78.082082082082	72.402836706707
+428	78.26026026026	70.341027338338
+429	78.438438438438	68.27921796997
+430	78.616616616617	66.217408601602
+431	78.794794794795	64.155599233233
+432	78.972972972973	62.093789864865
+433	79.151151151151	60.031980496496
+434	79.329329329329	57.970171128128
+435	79.507507507508	55.90836175976
+436	79.685685685686	53.846552391391
+437	79.863863863864	51.784743023023
+438	80.042042042042	50.231930162162
+439	80.22022022022	50.327296468468
+440	80.398398398398	50.422662774775
+441	80.576576576577	50.518029081081
+442	80.754754754755	50.613395387387
+443	80.932932932933	50.708761693694
+444	81.111111111111	50.804128
+445	81.289289289289	50.899494306306
+446	81.467467467467	50.994860612613
+447	81.645645645646	51.090226918919
+448	81.823823823824	51.185593225225
+449	82.002002002002	51.281078012012
+450	82.18018018018	51.386989081081
+451	82.358358358358	51.49290015015
+452	82.536536536537	51.598811219219
+453	82.714714714715	51.704722288288
+454	82.892892892893	51.810633357357
+455	83.071071071071	51.916544426426
+456	83.249249249249	52.022455495495
+457	83.427427427427	52.128366564565
+458	83.605605605606	52.234277633634
+459	83.783783783784	52.340188702703
+460	83.961961961962	52.446099771772
+461	84.14014014014	52.621972302302
+462	84.318318318318	52.816834372372
+463	84.496496496497	53.011696442442
+464	84.674674674675	53.206558512513
+465	84.852852852853	53.401420582583
+466	85.031031031031	53.596282652653
+467	85.209209209209	53.791144722723
+468	85.387387387387	53.986006792793
+469	85.565565565566	54.180868862863
+470	85.743743743744	54.375730932933
+471	85.921921921922	54.570593003003
+472	86.1001001001	55.609314932933
+473	86.278278278278	57.306247553554
+474	86.456456456456	59.003180174174
+475	86.634634634635	60.700112794795
+476	86.812812812813	62.397045415416
+477	86.990990990991	64.093978036036
+478	87.169169169169	65.790910656657
+479	87.347347347347	67.487843277277
+480	87.525525525526	69.184775897898
+481	87.703703703704	70.881708518519
+482	87.881881881882	72.578641139139
+483	88.06006006006	73.456152888889
+484	88.238238238238	72.722136925926
+485	88.416416416416	71.988120962963
+486	88.594594594595	71.254105
+487	88.772772772773	70.520089037037
+488	88.950950950951	69.786073074074
+489	89.129129129129	69.052057111111
+490	89.307307307307	68.318041148148
+491	89.485485485485	67.584025185185
+492	89.663663663664	66.850009222222
+493	89.841841841842	66.115993259259
+494	90.02002002002	65.41770097998
+495	90.198198198198	65.001625801802
+496	90.376376376376	64.585550623624
+497	90.554554554555	64.169475445445
+498	90.732732732733	63.753400267267
+499	90.910910910911	63.337325089089
+500	91.089089089089	62.921249910911
+501	91.267267267267	62.505174732733
+502	91.445445445445	62.089099554555
+503	91.623623623624	61.673024376376
+504	91.801801801802	61.256949198198
+505	91.97997997998	60.84087402002
+506	92.158158158158	60.934009513514
+507	92.336336336336	61.091602054054
+508	92.514514514515	61.249194594595
+509	92.692692692693	61.406787135135
+510	92.870870870871	61.564379675676
+511	93.049049049049	61.721972216216
+512	93.227227227227	61.879564756757
+513	93.405405405405	62.037157297297
+514	93.583583583584	62.194749837838
+515	93.761761761762	62.352342378378
+516	93.93993993994	62.509934918919
+517	94.118118118118	63.159877321321
+518	94.296296296296	64.060167111111
+519	94.474474474474	64.960456900901
+520	94.652652652653	65.860746690691
+521	94.830830830831	66.76103648048
+522	95.009009009009	67.66132627027
+523	95.187187187187	68.56161606006
+524	95.365365365365	69.46190584985
+525	95.543543543544	70.36219563964
+526	95.721721721722	71.262485429429
+527	95.8998998999	72.162775219219
+528	96.078078078078	72.253808528529
+529	96.256256256256	71.307333529529
+530	96.434434434434	70.360858530531
+531	96.612612612613	69.414383531531
+532	96.790790790791	68.467908532533
+533	96.968968968969	67.521433533533
+534	97.147147147147	66.574958534535
+535	97.325325325325	65.628483535536
+536	97.503503503504	64.682008536537
+537	97.681681681682	63.735533537538
+538	97.85985985986	62.789058538538
+539	98.038038038038	62.170620384384
+540	98.216216216216	62.760739027027
+541	98.394394394394	63.35085766967
+542	98.572572572573	63.940976312312
+543	98.750750750751	64.531094954955
+544	98.928928928929	65.121213597598
+545	99.107107107107	65.71133224024
+546	99.285285285285	66.301450882883
+547	99.463463463463	66.891569525526
+548	99.641641641642	67.481688168168
+549	99.81981981982	68.071806810811
+550	99.997997997998	68.661925453453
+551	100.17617617618	68.130734178178
+552	100.35435435435	67.586800744745
+553	100.53253253253	67.042867311311
+554	100.71071071071	66.498933877878
+555	100.88888888889	65.955000444444
+556	101.06706706707	65.411067011011
+557	101.24524524525	64.867133577578
+558	101.42342342342	64.323200144144
+559	101.6016016016	63.779266710711
+560	101.77977977978	63.235333277277
+561	101.95795795796	62.691399843844
+562	102.13613613614	62.510716284284
+563	102.31431431431	62.442212832833
+564	102.49249249249	62.373709381381
+565	102.67067067067	62.30520592993
+566	102.84884884885	62.236702478478
+567	103.02702702703	62.168199027027
+568	103.20520520521	62.099695575576
+569	103.38338338338	62.031192124124
+570	103.56156156156	61.962688672673
+571	103.73973973974	61.894185221221
+572	103.91791791792	61.82568176977
+573	104.0960960961	61.922428
+574	104.27427427427	62.160325
+575	104.45245245245	62.398222
+576	104.63063063063	62.636119
+577	104.80880880881	62.874016
+578	104.98698698699	63.111913
+579	105.16516516517	63.34981
+580	105.34334334334	63.587707
+581	105.52152152152	63.825604
+582	105.6996996997	64.063501
+583	105.87787787788	64.301398
+584	106.05605605606	64.359041034034
+585	106.23423423423	64.023987927928
+586	106.41241241241	63.688934821822
+587	106.59059059059	63.353881715716
+588	106.76876876877	63.01882860961
+589	106.94694694695	62.683775503503
+590	107.12512512513	62.348722397397
+591	107.3033033033	62.013669291291
+592	107.48148148148	61.678616185185
+593	107.65965965966	61.343563079079
+594	107.83783783784	61.008509972973
+595	108.01601601602	60.687176866867
+596	108.19419419419	60.504758760761
+597	108.37237237237	60.322340654655
+598	108.55055055055	60.139922548549
+599	108.72872872873	59.957504442442
+600	108.90690690691	59.775086336336
+601	109.08508508509	59.59266823023
+602	109.26326326326	59.410250124124
+603	109.44144144144	59.227832018018
+604	109.61961961962	59.045413911912
+605	109.7977977978	58.862995805806
+606	109.97597597598	58.6805776997
+607	110.15415415415	58.333239313313
+608	110.33233233233	57.960199065065
+609	110.51051051051	57.587158816817
+610	110.68868868869	57.214118568569
+611	110.86686686687	56.84107832032
+612	111.04504504505	56.468038072072
+613	111.22322322322	56.094997823824
+614	111.4014014014	55.721957575576
+615	111.57957957958	55.348917327327
+616	111.75775775776	54.975877079079
+617	111.93593593594	54.602836830831
+618	112.11411411411	54.457936372372
+619	112.29229229229	54.441114392392
+620	112.47047047047	54.424292412412
+621	112.64864864865	54.407470432432
+622	112.82682682683	54.390648452452
+623	113.00500500501	54.373826472472
+624	113.18318318318	54.357004492492
+625	113.36136136136	54.340182512513
+626	113.53953953954	54.323360532533
+627	113.71771771772	54.306538552553
+628	113.8958958959	54.289716572573
+629	114.07407407407	54.27727837037
+630	114.25225225225	54.271001153153
+631	114.43043043043	54.264723935936
+632	114.60860860861	54.258446718719
+633	114.78678678679	54.252169501502
+634	114.96496496496	54.245892284284
+635	115.14314314314	54.239615067067
+636	115.32132132132	54.23333784985
+637	115.4994994995	54.227060632633
+638	115.67767767768	54.220783415415
+639	115.85585585586	54.214506198198
+640	116.03403403403	54.211865364364
+641	116.21221221221	54.224625683684
+642	116.39039039039	54.237386003003
+643	116.56856856857	54.250146322322
+644	116.74674674675	54.262906641642
+645	116.92492492492	54.275666960961
+646	117.1031031031	54.28842728028
+647	117.28128128128	54.3011875996
+648	117.45945945946	54.313947918919
+649	117.63763763764	54.326708238238
+650	117.81581581582	54.339468557558
+651	117.99399399399	54.352228876877
+652	118.17217217217	54.819633748749
+653	118.35035035035	55.302898314314
+654	118.52852852853	55.78616287988
+655	118.70670670671	56.269427445445
+656	118.88488488488	56.752692011011
+657	119.06306306306	57.235956576577
+658	119.24124124124	57.719221142142
+659	119.41941941942	58.202485707708
+660	119.5975975976	58.685750273273
+661	119.77577577578	59.169014838839
+662	119.95395395395	59.652279404404
+663	120.13213213213	60.156754216216
+664	120.31031031031	60.668620477477
+665	120.48848848849	61.180486738739
+666	120.66666666667	61.692353
+667	120.84484484484	62.204219261261
+668	121.02302302302	62.716085522523
+669	121.2012012012	63.227951783784
+670	121.37937937938	63.739818045045
+671	121.55755755756	64.251684306306
+672	121.73573573574	64.763550567568
+673	121.91391391391	65.275416828829
+674	122.09209209209	65.618544913914
+675	122.27027027027	65.803939486486
+676	122.44844844845	65.989334059059
+677	122.62662662663	66.174728631632
+678	122.8048048048	66.360123204204
+679	122.98298298298	66.545517776777
+680	123.16116116116	66.730912349349
+681	123.33933933934	66.916306921922
+682	123.51751751752	67.101701494494
+683	123.6956956957	67.287096067067
+684	123.87387387387	67.47249063964
+685	124.05205205205	67.588362409409
+686	124.23023023023	67.53577508008
+687	124.40840840841	67.483187750751
+688	124.58658658659	67.430600421421
+689	124.76476476476	67.378013092092
+690	124.94294294294	67.325425762763
+691	125.12112112112	67.272838433433
+692	125.2992992993	67.220251104104
+693	125.47747747748	67.167663774775
+694	125.65565565566	67.115076445445
+695	125.83383383383	67.062489116116
+696	126.01201201201	66.999728057057
+697	126.19019019019	66.796230403403
+698	126.36836836837	66.59273274975
+699	126.54654654655	66.389235096096
+700	126.72472472472	66.185737442442
+701	126.9029029029	65.982239788789
+702	127.08108108108	65.778742135135
+703	127.25925925926	65.575244481481
+704	127.43743743744	65.371746827828
+705	127.61561561562	65.168249174174
+706	127.79379379379	64.964751520521
+707	127.97197197197	64.761253866867
+708	128.15015015015	65.479146078078
+709	128.32832832833	66.369031064064
+710	128.50650650651	67.25891605005
+711	128.68468468468	68.148801036036
+712	128.86286286286	69.038686022022
+713	129.04104104104	69.928571008008
+714	129.21921921922	70.818455993994
+715	129.3973973974	71.70834097998
+716	129.57557557558	72.598225965966
+717	129.75375375375	73.488110951952
+718	129.93193193193	74.377995937938
+719	130.11011011011	74.124619982983
+720	130.28828828829	73.164500900901
+721	130.46646646647	72.204381818819
+722	130.64464464464	71.244262736737
+723	130.82282282282	70.284143654655
+724	131.001001001	69.324024572572
+725	131.17917917918	68.36390549049
+726	131.35735735736	67.403786408408
+727	131.53553553554	66.443667326326
+728	131.71371371371	65.483548244244
+729	131.89189189189	64.523429162162
+730	132.07007007007	63.885428008008
+731	132.24824824825	63.7444087998
+732	132.42642642643	63.603389591592
+733	132.6046046046	63.462370383383
+734	132.78278278278	63.321351175175
+735	132.96096096096	63.180331966967
+736	133.13913913914	63.039312758759
+737	133.31731731732	62.898293550551
+738	133.4954954955	62.757274342342
+739	133.67367367367	62.616255134134
+740	133.85185185185	62.475235925926
+741	134.03003003003	62.396617123123
+742	134.20820820821	62.62584032032
+743	134.38638638639	62.855063517518
+744	134.56456456456	63.084286714715
+745	134.74274274274	63.313509911912
+746	134.92092092092	63.542733109109
+747	135.0990990991	63.771956306306
+748	135.27727727728	64.001179503504
+749	135.45545545546	64.230402700701
+750	135.63363363363	64.459625897898
+751	135.81181181181	64.688849095095
+752	135.98998998999	64.918072292292
+753	136.16816816817	64.316661867868
+754	136.34634634635	63.665808965966
+755	136.52452452452	63.014956064064
+756	136.7027027027	62.364103162162
+757	136.88088088088	61.71325026026
+758	137.05905905906	61.062397358358
+759	137.23723723724	60.411544456456
+760	137.41541541542	59.760691554555
+761	137.59359359359	59.109838652653
+762	137.77177177177	58.458985750751
+763	137.94994994995	57.808132848849
+764	138.12812812813	57.227229
+765	138.30630630631	56.673649
+766	138.48448448448	56.120069
+767	138.66266266266	55.566489
+768	138.84084084084	55.012909
+769	139.01901901902	54.459329
+770	139.1971971972	53.905749
+771	139.37537537538	53.352169
+772	139.55355355355	52.798589
+773	139.73173173173	52.245009
+774	139.90990990991	51.691429
+775	140.08808808809	51.625311522523
+776	140.26626626627	52.057735261261
+777	140.44444444444	52.490159
+778	140.62262262262	52.922582738739
+779	140.8008008008	53.355006477477
+780	140.97897897898	53.787430216216
+781	141.15715715716	54.219853954955
+782	141.33533533534	54.652277693694
+783	141.51351351351	55.084701432432
+784	141.69169169169	55.517125171171
+785	141.86986986987	55.94954890991
+786	142.04804804805	56.527280948949
+787	142.22622622623	57.498556301301
+788	142.4044044044	58.469831653654
+789	142.58258258258	59.441107006006
+790	142.76076076076	60.412382358358
+791	142.93893893894	61.383657710711
+792	143.11711711712	62.354933063063
+793	143.2952952953	63.326208415415
+794	143.47347347347	64.297483767768
+795	143.65165165165	65.26875912012
+796	143.82982982983	66.240034472473
+797	144.00800800801	67.103337196196
+798	144.18618618619	65.672221561561
+799	144.36436436436	64.241105926927
+800	144.54254254254	62.809990292292
+801	144.72072072072	61.378874657658
+802	144.8988988989	59.947759023023
+803	145.07707707708	58.516643388388
+804	145.25525525526	57.085527753754
+805	145.43343343343	55.654412119119
+806	145.61161161161	54.223296484485
+807	145.78978978979	52.79218084985
+808	145.96796796797	51.361065215215
+809	146.14614614615	51.977678791792
+810	146.32432432432	53.04310972973
+811	146.5025025025	54.108540667668
+812	146.68068068068	55.173971605606
+813	146.85885885886	56.239402543544
+814	147.03703703704	57.304833481481
+815	147.21521521522	58.370264419419
+816	147.39339339339	59.435695357357
+817	147.57157157157	60.501126295295
+818	147.74974974975	61.566557233233
+819	147.92792792793	62.631988171171
+820	148.10610610611	62.584116547547
+821	148.28428428428	61.78003941041
+822	148.46246246246	60.975962273273
+823	148.64064064064	60.171885136136
+824	148.81881881882	59.367807998999
+825	148.996996997	58.563730861862
+826	149.17517517518	57.759653724725
+827	149.35335335335	56.955576587588
+828	149.53153153153	56.15149945045
+829	149.70970970971	55.347422313313
+830	149.88788788789	54.543345176176
+831	150.06606606607	54.400256156156
+832	150.24424424424	55.378843940941
+833	150.42242242242	56.357431725726
+834	150.6006006006	57.336019510511
+835	150.77877877878	58.314607295295
+836	150.95695695696	59.29319508008
+837	151.13513513514	60.271782864865
+838	151.31331331331	61.25037064965
+839	151.49149149149	62.228958434434
+840	151.66966966967	63.207546219219
+841	151.84784784785	64.186134004004
+842	152.02602602603	64.839478081081
+843	152.2042042042	63.591397405405
+844	152.38238238238	62.34331672973
+845	152.56056056056	61.095236054054
+846	152.73873873874	59.847155378378
+847	152.91691691692	58.599074702703
+848	153.0950950951	57.350994027027
+849	153.27327327327	56.102913351351
+850	153.45145145145	54.854832675676
+851	153.62962962963	53.606752
+852	153.80780780781	52.358671324324
+853	153.98598598599	51.110590648649
+854	154.16416416416	52.325290503503
+855	154.34234234234	53.750227720721
+856	154.52052052052	55.175164937938
+857	154.6986986987	56.600102155155
+858	154.87687687688	58.025039372372
+859	155.05505505506	59.44997658959
+860	155.23323323323	60.874913806807
+861	155.41141141141	62.299851024024
+862	155.58958958959	63.724788241241
+863	155.76776776777	65.149725458458
+864	155.94594594595	66.574662675676
+865	156.12412412412	66.758503752753
+866	156.3023023023	66.401867478478
+867	156.48048048048	66.045231204204
+868	156.65865865866	65.68859492993
+869	156.83683683684	65.331958655656
+870	157.01501501502	64.975322381381
+871	157.19319319319	64.618686107107
+872	157.37137137137	64.262049832833
+873	157.54954954955	63.905413558559
+874	157.72772772773	63.548777284284
+875	157.90590590591	63.19214101001
+876	158.08408408408	63.00373087988
+877	158.26226226226	63.003573815816
+878	158.44044044044	63.003416751752
+879	158.61861861862	63.003259687688
+880	158.7967967968	63.003102623624
+881	158.97497497497	63.00294555956
+882	159.15315315315	63.002788495495
+883	159.33133133133	63.002631431431
+884	159.50950950951	63.002474367367
+885	159.68768768769	63.002317303303
+886	159.86586586587	63.002160239239
+887	160.04404404404	63.266284924925
+888	160.22222222222	64.335267666667
+889	160.4004004004	65.404250408408
+890	160.57857857858	66.47323315015
+891	160.75675675676	67.542215891892
+892	160.93493493493	68.611198633634
+893	161.11311311311	69.680181375375
+894	161.29129129129	70.749164117117
+895	161.46946946947	71.818146858859
+896	161.64764764765	72.887129600601
+897	161.82582582583	73.956112342342
+898	162.004004004	74.975045932933
+899	162.18218218218	73.816841448448
+900	162.36036036036	72.658636963964
+901	162.53853853854	71.500432479479
+902	162.71671671672	70.342227994995
+903	162.89489489489	69.184023510511
+904	163.07307307307	68.025819026026
+905	163.25125125125	66.867614541541
+906	163.42942942943	65.709410057057
+907	163.60760760761	64.551205572573
+908	163.78578578579	63.393001088088
+909	163.96396396396	62.234796603604
+910	164.14214214214	62.142675668669
+911	164.32032032032	62.320829436436
+912	164.4984984985	62.498983204204
+913	164.67667667668	62.677136971972
+914	164.85485485485	62.85529073974
+915	165.03303303303	63.033444507508
+916	165.21121121121	63.211598275275
+917	165.38938938939	63.389752043043
+918	165.56756756757	63.567905810811
+919	165.74574574575	63.746059578579
+920	165.92392392392	63.924213346346
+921	166.1021021021	64.306578108108
+922	166.28028028028	64.841100081081
+923	166.45845845846	65.375622054054
+924	166.63663663664	65.910144027027
+925	166.81481481481	66.444666
+926	166.99299299299	66.979187972973
+927	167.17117117117	67.513709945946
+928	167.34934934935	68.048231918919
+929	167.52752752753	68.582753891892
+930	167.70570570571	69.117275864865
+931	167.88388388388	69.651797837838
+932	168.06206206206	69.658794455455
+933	168.24024024024	68.67880815015
+934	168.41841841842	67.698821844845
+935	168.5965965966	66.718835539539
+936	168.77477477477	65.738849234234
+937	168.95295295295	64.758862928929
+938	169.13113113113	63.778876623624
+939	169.30930930931	62.798890318318
+940	169.48748748749	61.818904013013
+941	169.66566566567	60.838917707708
+942	169.84384384384	59.858931402402
+943	170.02202202202	59.044110658659
+944	170.2002002002	59.400463896897
+945	170.37837837838	59.756817135135
+946	170.55655655656	60.113170373373
+947	170.73473473473	60.469523611612
+948	170.91291291291	60.82587684985
+949	171.09109109109	61.182230088088
+950	171.26926926927	61.538583326326
+951	171.44744744745	61.894936564565
+952	171.62562562563	62.251289802803
+953	171.8038038038	62.607643041041
+954	171.98198198198	62.963996279279
+955	172.16016016016	64.04107167968
+956	172.33833833834	65.199228323323
+957	172.51651651652	66.357384966967
+958	172.69469469469	67.515541610611
+959	172.87287287287	68.673698254254
+960	173.05105105105	69.831854897898
+961	173.22922922923	70.990011541542
+962	173.40740740741	72.148168185185
+963	173.58558558559	73.306324828829
+964	173.76376376376	74.464481472472
+965	173.94194194194	75.622638116116
+966	174.12012012012	75.279293798799
+967	174.2982982983	74.210224017017
+968	174.47647647648	73.141154235235
+969	174.65465465465	72.072084453453
+970	174.83283283283	71.003014671672
+971	175.01101101101	69.93394488989
+972	175.18918918919	68.864875108108
+973	175.36736736737	67.795805326326
+974	175.54554554555	66.726735544544
+975	175.72372372372	65.657665762763
+976	175.9019019019	64.588595980981
+977	176.08008008008	64.08008691992
+978	176.25825825826	64.258264741742
+979	176.43643643644	64.436442563564
+980	176.61461461461	64.614620385385
+981	176.79279279279	64.792798207207
+982	176.97097097097	64.970976029029
+983	177.14914914915	65.149153850851
+984	177.32732732733	65.327331672673
+985	177.50550550551	65.505509494495
+986	177.68368368368	65.683687316316
+987	177.86186186186	65.861865138138
+988	178.04004004004	65.85986281982
+989	178.21821821822	65.236239018018
+990	178.3963963964	64.612615216216
+991	178.57457457457	63.988991414414
+992	178.75275275275	63.365367612613
+993	178.93093093093	62.741743810811
+994	179.10910910911	62.118120009009
+995	179.28728728729	61.494496207207
+996	179.46546546547	60.870872405405
+997	179.64364364364	60.247248603604
+998	179.82182182182	59.623624801802
+999	180	59.000001
+</data>
+</table>
+<table>
+Polynom1	90	2	11.11.15 23:06
+geometry	1475	669	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Polynom-Fit von Tabelle1_hauf	2
+<data>
+0	2	74.762175505654
+1	4	73.497531990888
+2	6	72.260836224515
+3	8	71.052088206534
+4	10	69.871287936945
+5	12	68.718435415749
+6	14	67.593530642945
+7	16	66.496573618533
+8	18	65.427564342513
+9	20	64.386502814886
+10	22	63.373389035651
+11	24	62.388223004808
+12	26	61.431004722358
+13	28	60.5017341883
+14	30	59.600411402634
+15	32	58.727036365361
+16	34	57.88160907648
+17	36	57.064129535991
+18	38	56.274597743894
+19	40	55.51301370019
+20	42	54.779377404878
+21	44	54.073688857959
+22	46	53.395948059431
+23	48	52.746155009296
+24	50	52.124309707554
+25	52	51.530412154203
+26	54	50.964462349245
+27	56	50.426460292679
+28	58	49.916405984506
+29	60	49.434299424724
+30	62	48.980140613336
+31	64	48.553929550339
+32	66	48.155666235735
+33	68	47.785350669523
+34	70	47.442982851703
+35	72	47.128562782276
+36	74	46.84209046124
+37	76	46.583565888598
+38	78	46.352989064347
+39	80	46.150359988489
+40	82	45.975678661023
+41	84	45.82894508195
+42	86	45.710159251268
+43	88	45.619321168979
+44	90	45.556430835083
+45	92	45.521488249578
+46	94	45.514493412466
+47	96	45.535446323746
+48	98	45.584346983419
+49	100	45.661195391484
+50	102	45.765991547941
+51	104	45.89873545279
+52	106	46.059427106032
+53	108	46.248066507666
+54	110	46.464653657692
+55	112	46.709188556111
+56	114	46.981671202922
+57	116	47.282101598125
+58	118	47.610479741721
+59	120	47.966805633708
+60	122	48.351079274089
+61	124	48.763300662861
+62	126	49.203469800026
+63	128	49.671586685583
+64	130	50.167651319532
+65	132	50.691663701874
+66	134	51.243623832608
+67	136	51.823531711734
+68	138	52.431387339253
+69	140	53.067190715163
+70	142	53.730941839467
+71	144	54.422640712162
+72	146	55.14228733325
+73	148	55.88988170273
+74	150	56.665423820602
+75	152	57.468913686867
+76	154	58.300351301524
+77	156	59.159736664573
+78	158	60.047069776015
+79	160	60.962350635848
+80	162	61.905579244075
+81	164	62.876755600693
+82	166	63.875879705704
+83	168	64.902951559107
+84	170	65.957971160902
+85	172	67.04093851109
+86	174	68.15185360967
+87	176	69.290716456642
+88	178	70.457527052007
+89	180	71.652285395764
+</data>
+</table>
+<table>
+Polynom2	90	2	11.11.15 23:07
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Polynom-Fit von Tabelle1_hauf	2
+<data>
+0	2	74.762175505654
+1	4	73.497531990888
+2	6	72.260836224515
+3	8	71.052088206534
+4	10	69.871287936945
+5	12	68.718435415749
+6	14	67.593530642945
+7	16	66.496573618533
+8	18	65.427564342513
+9	20	64.386502814886
+10	22	63.373389035651
+11	24	62.388223004808
+12	26	61.431004722358
+13	28	60.5017341883
+14	30	59.600411402634
+15	32	58.727036365361
+16	34	57.88160907648
+17	36	57.064129535991
+18	38	56.274597743894
+19	40	55.51301370019
+20	42	54.779377404878
+21	44	54.073688857959
+22	46	53.395948059431
+23	48	52.746155009296
+24	50	52.124309707554
+25	52	51.530412154203
+26	54	50.964462349245
+27	56	50.426460292679
+28	58	49.916405984506
+29	60	49.434299424724
+30	62	48.980140613336
+31	64	48.553929550339
+32	66	48.155666235735
+33	68	47.785350669523
+34	70	47.442982851703
+35	72	47.128562782276
+36	74	46.84209046124
+37	76	46.583565888598
+38	78	46.352989064347
+39	80	46.150359988489
+40	82	45.975678661023
+41	84	45.82894508195
+42	86	45.710159251268
+43	88	45.619321168979
+44	90	45.556430835083
+45	92	45.521488249578
+46	94	45.514493412466
+47	96	45.535446323746
+48	98	45.584346983419
+49	100	45.661195391484
+50	102	45.765991547941
+51	104	45.89873545279
+52	106	46.059427106032
+53	108	46.248066507666
+54	110	46.464653657692
+55	112	46.709188556111
+56	114	46.981671202922
+57	116	47.282101598125
+58	118	47.610479741721
+59	120	47.966805633708
+60	122	48.351079274089
+61	124	48.763300662861
+62	126	49.203469800026
+63	128	49.671586685583
+64	130	50.167651319532
+65	132	50.691663701874
+66	134	51.243623832608
+67	136	51.823531711734
+68	138	52.431387339253
+69	140	53.067190715163
+70	142	53.730941839467
+71	144	54.422640712162
+72	146	55.14228733325
+73	148	55.88988170273
+74	150	56.665423820602
+75	152	57.468913686867
+76	154	58.300351301524
+77	156	59.159736664573
+78	158	60.047069776015
+79	160	60.962350635848
+80	162	61.905579244075
+81	164	62.876755600693
+82	166	63.875879705704
+83	168	64.902951559107
+84	170	65.957971160902
+85	172	67.04093851109
+86	174	68.15185360967
+87	176	69.290716456642
+88	178	70.457527052007
+89	180	71.652285395764
+</data>
+</table>
+<table>
+Polynom3	90	2	11.11.15 23:07
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Polynom-Fit von Tabelle1_hauf	2
+<data>
+0	2	53.45572313853
+1	4	56.464027798019
+2	6	59.098389050566
+3	8	61.379018877379
+4	10	63.32568267985
+5	12	64.957699279552
+6	14	66.293940918242
+7	16	67.35283325786
+8	18	68.15235538053
+9	20	68.710039788557
+10	22	69.042972404431
+11	24	69.167792570823
+12	26	69.10069305059
+13	28	68.857420026769
+14	30	68.453273102582
+15	32	67.903105301433
+16	34	67.221323066909
+17	36	66.421886262782
+18	38	65.518308173005
+19	40	64.523655501713
+20	42	63.450548373228
+21	44	62.311160332051
+22	46	61.117218342868
+23	48	59.880002790548
+24	50	58.610347480144
+25	52	57.318639636888
+26	54	56.014819906201
+27	56	54.708382353682
+28	58	53.408374465115
+29	60	52.123397146468
+30	62	50.861604723891
+31	64	49.630704943716
+32	66	48.43795897246
+33	68	47.290181396823
+34	70	46.193740223686
+35	72	45.154556880114
+36	74	44.178106213356
+37	76	43.269416490844
+38	78	42.433069400192
+39	80	41.673200049197
+40	82	40.99349696584
+41	84	40.397202098285
+42	86	39.887110814877
+43	88	39.465571904147
+44	90	39.134487574808
+45	92	38.895313455755
+46	94	38.749058596067
+47	96	38.696285465005
+48	98	38.737109952016
+49	100	38.871201366726
+50	102	39.097782438947
+51	104	39.415629318672
+52	106	39.823071576079
+53	108	40.317992201528
+54	110	40.897827605562
+55	112	41.559567618907
+56	114	42.299755492472
+57	116	43.114487897351
+58	118	43.999414924817
+59	120	44.94974008633
+60	122	45.96022031353
+61	124	47.025165958243
+62	126	48.138440792476
+63	128	49.29346200842
+64	130	50.483200218447
+65	132	51.700179455115
+66	134	52.936477171164
+67	136	54.183724239516
+68	138	55.433104953276
+69	140	56.675357025735
+70	142	57.900771590363
+71	144	59.099193200815
+72	146	60.260019830931
+73	148	61.372202874729
+74	150	62.424247146415
+75	152	63.404210880376
+76	154	64.299705731183
+77	156	65.097896773587
+78	158	65.785502502525
+79	160	66.348794833116
+80	162	66.773599100665
+81	164	67.045294060654
+82	166	67.148811888753
+83	168	67.068638180812
+84	170	66.788811952868
+85	172	66.292925641137
+86	174	65.564125102019
+87	176	64.5851096121
+88	178	63.338131868144
+89	180	61.804997987102
+</data>
+</table>
+<table>
+Polynom4	90	2	11.11.15 23:07
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Polynom-Fit von Tabelle1_hauf	2
+<data>
+0	2	60.298942635749
+1	4	61.000544093927
+2	6	61.695177654463
+3	8	62.369310424146
+4	10	63.010728650123
+5	12	63.608496173537
+6	14	64.152912883176
+7	16	64.635473169111
+8	18	65.048824376342
+9	20	65.386725258441
+10	22	65.644004431191
+11	24	65.816518826236
+12	26	65.901112144717
+13	28	65.895573310918
+14	30	65.798594925911
+15	32	65.609731721196
+16	34	65.329359012344
+17	36	64.958631152642
+18	38	64.499439986735
+19	40	63.954373304269
+20	42	63.326673293531
+21	44	62.6201949951
+22	46	61.839364755481
+23	48	60.989138680753
+24	50	60.074961090211
+25	52	59.102722970008
+26	54	58.0787204268
+27	56	57.009613141388
+28	58	55.90238282236
+29	60	54.764291659733
+30	62	53.602840778601
+31	64	52.425728692774
+32	66	51.24080975842
+33	68	50.056052627711
+34	70	48.879498702464
+35	72	47.719220587787
+36	74	46.583280545715
+37	76	45.479688948864
+38	78	44.416362734061
+39	80	43.401083855999
+40	82	42.441457740871
+41	84	41.54487174002
+42	86	40.718453583574
+43	88	39.969029834099
+44	90	39.303084340232
+45	92	38.726716690332
+46	94	38.245600666116
+47	96	37.864942696309
+48	98	37.589440310282
+49	100	37.423240591696
+50	102	37.369898632146
+51	104	37.432335984804
+52	106	37.612799118061
+53	108	37.91281786917
+54	110	38.33316389789
+55	112	38.873809140129
+56	114	39.533884261585
+57	116	40.311637111392
+58	118	41.20439117576
+59	120	42.20850403162
+60	122	43.319325800267
+61	124	44.531157601
+62	126	45.837210004771
+63	128	47.229561487821
+64	130	48.699116885329
+65	132	50.235565845049
+66	134	51.82734128096
+67	136	53.461577826904
+68	138	55.124070290228
+69	140	56.799232105432
+70	142	58.470053787808
+71	144	60.118061387085
+72	146	61.723274941071
+73	148	63.264166929295
+74	150	64.717620726653
+75	152	66.058889057048
+76	154	67.261552447033
+77	156	68.29747767946
+78	158	69.136776247112
+79	160	69.747762806356
+80	162	70.09691363078
+81	164	70.14882506484
+82	166	69.866171977501
+83	168	69.209666215877
+84	170	68.138015058882
+85	172	66.607879670862
+86	174	64.573833555251
+87	176	61.988321008201
+88	178	58.801615572233
+89	180	54.961778489881
+</data>
+</table>
+<table>
+FFT1	90	5	11.11.15 23:09
+geometry	1475	0	445	220	hidden
+header	Zeit[X]	Realteil[Y]	Imaginärteil[Y]	Amplitude[Y]	Winkel[Y]
+ColWidth	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments						
+WindowLabel	Inverse FFT von Tabelle1_hauf	2
+<data>
+0	-0.25	-0.34444444444444	7.8949192862233e-17	0.34444444444444	-2.2920733411616e-16
+1	-0.24444444444444	-0.46231163543448	-0.055834559313239	0.46567107089855	0.12019044844772
+2	-0.23888888888889	1.0145195590219	-0.82173849458006	1.305566577817	-0.68079552741073
+3	-0.23333333333333	1.7909700643982	0.7647580450556	1.9474158875412	0.40356997514505
+4	-0.22777777777778	-0.39747426033489	-0.25394682265246	0.4716723188444	0.56853336307127
+5	-0.22222222222222	0.068510082123814	0.04780667895192	0.083541067176711	0.609251301153
+6	-0.21666666666667	-0.82883443808343	0.46120855992899	0.94851455524143	-0.50778508589643
+7	-0.21111111111111	0.40702074402023	0.30306200778689	0.50745686183813	0.64002722980807
+8	-0.20555555555556	-0.44587769091201	0.20617318187461	0.49123751503456	-0.43311656268355
+9	-0.2	-0.16747721129861	-1.0979598700463	1.1106594854124	1.4194281750537
+10	-0.19444444444444	0.7209597872049	-0.47950813309283	0.86585857070812	-0.58691506757662
+11	-0.18888888888889	-0.6476569013781	-0.66925965251253	0.93132590664271	0.80180073170791
+12	-0.18333333333333	0.29435098199095	-0.70877439516135	0.7674657281178	-1.1771739081993
+13	-0.17777777777778	-0.031837368243265	0.23383633064948	0.23599374472276	-1.4354760381841
+14	-0.17222222222222	-0.24501423784631	0.40070349905279	0.46967570822915	-1.0219928026808
+15	-0.16666666666667	-1.25	-0.14433756729741	1.2583057392118	0.11496092050071
+16	-0.16111111111111	0.64005101825658	-0.34431467072145	0.72678600595038	-0.49354378607591
+17	-0.15555555555556	0.96854315960693	0.67713362433838	1.1817723119243	0.61013909038368
+18	-0.15	0.10336043539585	-0.1337883586136	0.16906420231895	-0.91300824721781
+19	-0.14444444444444	0.043567454306218	-0.67238605839002	0.67379606305765	-1.5060914816359
+20	-0.13888888888889	0.27962160158207	0.5559874806795	0.62234260559892	1.1048091629035
+21	-0.13333333333333	0.1161261246834	-0.68406470085083	0.69385141909786	-1.4026404308286
+22	-0.12777777777778	1.3956308012859	-0.65895898179945	1.5433769057466	-0.4411273968203
+23	-0.12222222222222	0.12234978226703	0.46006340779278	0.4760544174889	1.3108714261316
+24	-0.11666666666667	0.12631905420858	-0.28118878365427	0.30825903962272	-1.1485810921994
+25	-0.11111111111111	0.25145424183045	-0.17596424330232	0.30690821210173	-0.61058255331265
+26	-0.10555555555556	0.70812517513596	0.20485087844187	0.73716019022987	0.28159891872602
+27	-0.1	-0.20474501092361	-0.051605582193413	0.21114842081254	0.24690531539951
+28	-0.094444444444444	0.65970730034457	-0.23497845249719	0.70030607256106	-0.34217499804012
+29	-0.088888888888889	-0.60408278418379	0.81092272164702	1.0111931915468	-0.93054624012035
+30	-0.083333333333333	-0.16111111111111	-0.77942286340599	0.79589998751317	1.3669614176747
+31	-0.077777777777778	0.38000504268888	-0.29066312731184	0.47842333351089	-0.65296457660046
+32	-0.072222222222222	-0.1568740645136	0.1015671912615	0.18688329635836	-0.5745763722215
+33	-0.066666666666667	-0.074776425203824	0.65865731572741	0.66288835660878	-1.4577517628679
+34	-0.061111111111111	-0.90366927862197	0.32414357393381	0.96004542686674	-0.34440170867982
+35	-0.055555555555556	0.14670234271241	-0.33924097609216	0.36960251246071	-1.1626384263734
+36	-0.05	0.51330623127081	-0.68143507505795	0.85313366395933	-0.92520417253326
+37	-0.044444444444444	0.23405681929266	0.34623107362444	0.41792170439035	0.97635084290415
+38	-0.038888888888889	0.41800128112763	0.55002133265701	0.69083177214292	0.92094308569459
+39	-0.033333333333333	0.55656912501109	-0.67296161172156	0.87329635391801	-0.87978105653208
+40	-0.027777777777778	-1.2672480554536	0.68908545225856	1.4424827189833	-0.49804385401714
+41	-0.022222222222222	-0.1765426132696	1.0976992204614	1.1118052315499	-1.4113322000928
+42	-0.016666666666667	2.2081644018839	-0.65785406376022	2.3040750844869	-0.28954650064164
+43	-0.011111111111111	-3.9497783663394	1.6751557643564	4.2903258591929	-0.40111984280056
+44	-0.0055555555555556	6.9962077303896	-1.4343552674712	7.1417293171952	-0.20221679690771
+45	0	54.966666666667	0	54.966666666667	0
+46	0.0055555555555556	6.9962077303896	1.4343552674712	7.1417293171952	0.20221679690771
+47	0.011111111111111	-3.9497783663394	-1.6751557643564	4.2903258591929	0.40111984280056
+48	0.016666666666667	2.2081644018839	0.65785406376022	2.3040750844869	0.28954650064164
+49	0.022222222222222	-0.1765426132696	-1.0976992204614	1.1118052315499	1.4113322000928
+50	0.027777777777778	-1.2672480554536	-0.68908545225856	1.4424827189833	0.49804385401714
+51	0.033333333333333	0.55656912501109	0.67296161172156	0.87329635391801	0.87978105653208
+52	0.038888888888889	0.41800128112763	-0.55002133265701	0.69083177214292	-0.92094308569459
+53	0.044444444444444	0.23405681929266	-0.34623107362444	0.41792170439035	-0.97635084290415
+54	0.05	0.51330623127081	0.68143507505795	0.85313366395933	0.92520417253326
+55	0.055555555555556	0.14670234271241	0.33924097609216	0.36960251246071	1.1626384263734
+56	0.061111111111111	-0.90366927862197	-0.32414357393381	0.96004542686674	0.34440170867982
+57	0.066666666666667	-0.074776425203824	-0.65865731572741	0.66288835660878	1.4577517628679
+58	0.072222222222222	-0.1568740645136	-0.1015671912615	0.18688329635836	0.5745763722215
+59	0.077777777777778	0.38000504268888	0.29066312731184	0.47842333351089	0.65296457660046
+60	0.083333333333333	-0.16111111111111	0.77942286340599	0.79589998751317	-1.3669614176747
+61	0.088888888888889	-0.60408278418379	-0.81092272164702	1.0111931915468	0.93054624012034
+62	0.094444444444444	0.65970730034457	0.23497845249719	0.70030607256106	0.34217499804012
+63	0.1	-0.20474501092361	0.051605582193413	0.21114842081254	-0.24690531539951
+64	0.10555555555556	0.70812517513596	-0.20485087844187	0.73716019022987	-0.28159891872602
+65	0.11111111111111	0.25145424183045	0.17596424330232	0.30690821210173	0.61058255331265
+66	0.11666666666667	0.12631905420858	0.28118878365427	0.30825903962272	1.1485810921994
+67	0.12222222222222	0.12234978226703	-0.46006340779278	0.4760544174889	-1.3108714261316
+68	0.12777777777778	1.3956308012859	0.65895898179945	1.5433769057466	0.44112739682029
+69	0.13333333333333	0.1161261246834	0.68406470085083	0.69385141909786	1.4026404308286
+70	0.13888888888889	0.27962160158207	-0.5559874806795	0.62234260559892	-1.1048091629035
+71	0.14444444444444	0.043567454306218	0.67238605839002	0.67379606305765	1.5060914816359
+72	0.15	0.10336043539585	0.1337883586136	0.16906420231895	0.91300824721781
+73	0.15555555555556	0.96854315960693	-0.67713362433838	1.1817723119243	-0.61013909038368
+74	0.16111111111111	0.64005101825658	0.34431467072145	0.72678600595038	0.49354378607591
+75	0.16666666666667	-1.25	0.14433756729741	1.2583057392118	-0.11496092050071
+76	0.17222222222222	-0.2450142378463	-0.40070349905279	0.46967570822915	1.0219928026808
+77	0.17777777777778	-0.031837368243265	-0.23383633064948	0.23599374472276	1.4354760381841
+78	0.18333333333333	0.29435098199095	0.70877439516135	0.7674657281178	1.1771739081993
+79	0.18888888888889	-0.6476569013781	0.66925965251253	0.93132590664271	-0.80180073170791
+80	0.19444444444444	0.7209597872049	0.47950813309284	0.86585857070812	0.58691506757662
+81	0.2	-0.16747721129861	1.0979598700463	1.1106594854124	-1.4194281750537
+82	0.20555555555556	-0.44587769091201	-0.20617318187461	0.49123751503456	0.43311656268355
+83	0.21111111111111	0.40702074402023	-0.30306200778689	0.50745686183813	-0.64002722980807
+84	0.21666666666667	-0.82883443808343	-0.46120855992899	0.94851455524143	0.50778508589643
+85	0.22222222222222	0.068510082123814	-0.04780667895192	0.083541067176711	-0.609251301153
+86	0.22777777777778	-0.3974742603349	0.25394682265246	0.4716723188444	-0.56853336307127
+87	0.23333333333333	1.7909700643982	-0.7647580450556	1.9474158875412	-0.40356997514505
+88	0.23888888888889	1.0145195590219	0.82173849458006	1.305566577817	0.68079552741074
+89	0.24444444444444	-0.46231163543448	0.055834559313239	0.46567107089855	-0.12019044844772
+</data>
+</table>
+<table>
+Boltzmann1	90	2	11.11.15 23:10
+geometry	1475	484	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Boltzmann (Sigmoidal) Fit von Tabelle1_hauf	2
+<data>
+0	2	63.180361810021
+1	4	63.180361810021
+2	6	63.180361810021
+3	8	63.180361810021
+4	10	63.180361810021
+5	12	63.180361810021
+6	14	63.180361810021
+7	16	63.180361810021
+8	18	63.180361810021
+9	20	63.180361810021
+10	22	63.180361810021
+11	24	63.180361810021
+12	26	63.180361810021
+13	28	63.180361810021
+14	30	63.180361810021
+15	32	63.180361810021
+16	34	63.180361810021
+17	36	63.180361810021
+18	38	63.180361810021
+19	40	63.180361810021
+20	42	63.180361810021
+21	44	63.180361810021
+22	46	63.180361810021
+23	48	63.180361810021
+24	50	63.180361810021
+25	52	63.180361810021
+26	54	63.180361810021
+27	56	63.180361810021
+28	58	63.180361810021
+29	60	63.180361810021
+30	62	63.180361810021
+31	64	63.180361810021
+32	66	63.180361801052
+33	68	50.240846323806
+34	70	50.214491166105
+35	72	50.214491166105
+36	74	50.214491166105
+37	76	50.214491166105
+38	78	50.214491166105
+39	80	50.214491166105
+40	82	50.214491166105
+41	84	50.214491166105
+42	86	50.214491166105
+43	88	50.214491166105
+44	90	50.214491166105
+45	92	50.214491166105
+46	94	50.214491166105
+47	96	50.214491166105
+48	98	50.214491166105
+49	100	50.214491166105
+50	102	50.214491166105
+51	104	50.214491166105
+52	106	50.214491166105
+53	108	50.214491166105
+54	110	50.214491166105
+55	112	50.214491166105
+56	114	50.214491166105
+57	116	50.214491166105
+58	118	50.214491166105
+59	120	50.214491166105
+60	122	50.214491166105
+61	124	50.214491166105
+62	126	50.214491166105
+63	128	50.214491166105
+64	130	50.214491166105
+65	132	50.214491166105
+66	134	50.214491166105
+67	136	50.214491166105
+68	138	50.214491166105
+69	140	50.214491166105
+70	142	50.214491166105
+71	144	50.214491166105
+72	146	50.214491166105
+73	148	50.214491166105
+74	150	50.214491166105
+75	152	50.214491166105
+76	154	50.214491166105
+77	156	50.214491166105
+78	158	50.214491166105
+79	160	50.214491166105
+80	162	50.214491166105
+81	164	50.214491166105
+82	166	50.214491166105
+83	168	50.214491166105
+84	170	50.214491166105
+85	172	50.214491166105
+86	174	50.214491166105
+87	176	50.214491166105
+88	178	50.214491166105
+89	180	50.214491166105
+</data>
+</table>
+<table>
+Fit2	90	2	11.11.15 23:10
+geometry	1475	484	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Lorentz-Fit Fit von Tabelle1_hauf	2
+<data>
+0	2	57.002632793949
+1	4	57.613233134702
+2	6	58.29488474505
+3	8	59.05023871216
+4	10	59.877954860919
+5	12	60.770315002068
+6	14	61.710305331314
+7	16	62.668622300586
+8	18	63.60160391033
+9	20	64.451674049116
+10	22	65.152058529214
+11	24	65.636621433153
+12	26	65.853362690456
+13	28	65.777305273089
+14	30	65.417336888263
+15	32	64.813728774363
+16	34	64.027547874716
+17	36	63.126782608424
+18	38	62.174368521159
+19	40	61.220986528016
+20	42	60.302746508482
+21	44	59.44226522492
+22	46	58.651376420456
+23	48	57.934172103407
+24	50	57.289675926009
+25	52	56.713902101585
+26	54	56.201305990659
+27	56	55.745736613088
+28	58	55.341021915703
+29	60	54.981301469457
+30	62	54.661194498718
+31	64	54.375865574689
+32	66	54.121029911713
+33	68	53.892925373519
+34	70	53.688268102321
+35	72	53.504201944897
+36	74	53.338247526938
+37	76	53.188254125896
+38	78	53.052355849209
+39	80	52.928932655953
+40	82	52.816576212968
+41	84	52.714060288056
+42	86	52.620315249279
+43	88	52.534406195952
+44	90	52.455514253511
+45	92	52.382920596942
+46	94	52.315992811389
+47	96	52.254173245816
+48	98	52.196969061458
+49	100	52.143943719183
+50	102	52.09470968765
+51	104	52.048922187211
+52	106	52.006273813014
+53	108	51.966489905077
+54	110	51.929324553755
+55	112	51.894557146466
+56	114	51.861989376226
+57	116	51.831442644869
+58	118	51.802755804214
+59	120	51.775783187154
+60	122	51.750392887912
+61	124	51.726465256901
+62	126	51.703891580757
+63	128	51.682572922476
+64	130	51.662419100258
+65	132	51.643347786754
+66	134	51.625283713022
+67	136	51.608157963742
+68	138	51.591907352095
+69	140	51.576473864326
+70	142	51.561804165379
+71	144	51.547849158146
+72	146	51.53456358986
+73	148	51.521905700035
+74	150	51.50983690507
+75	152	51.498321515255
+76	154	51.487326480485
+77	156	51.476821161418
+78	158	51.466777123252
+79	160	51.457167949608
+80	162	51.447969074352
+81	164	51.439157629398
+82	166	51.430712306811
+83	168	51.42261323371
+84	170	51.414841858619
+85	172	51.407380848127
+86	174	51.400213992773
+87	176	51.393326121263
+88	178	51.386703022178
+89	180	51.380331372437
+</data>
+</table>
+<table>
+Nichtlinear5	90	2	12.11.15 12:23
+geometry	1475	669	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	6.655227137073e-08
+1	4	3.4011553712398e-09
+2	6	1.3105357893748e-10
+3	8	3.8074141845228e-12
+4	10	8.3400794075145e-14
+5	12	1.377428523268e-15
+6	14	1.7152474502104e-17
+7	16	1.6104354316387e-19
+8	18	1.1400362890689e-21
+9	20	6.0848917808059e-24
+10	22	2.4487579889186e-26
+11	24	7.4301519802702e-29
+12	26	1.699841205144e-31
+13	28	2.9320936148478e-34
+14	30	3.8133453295325e-37
+15	32	3.7393254373892e-40
+16	34	2.7646440022778e-43
+17	36	1.5411467411132e-46
+18	38	6.4775025511047e-50
+19	40	2.0527214347795e-53
+20	42	4.9046866455652e-57
+21	44	8.8359111263187e-61
+22	46	1.2001906416348e-64
+23	48	1.2291586940326e-68
+24	50	9.4912738184247e-73
+25	52	5.5258599319638e-77
+26	54	2.425683120397e-81
+27	56	8.0283645389851e-86
+28	58	2.0034519275713e-90
+29	60	3.7695507298044e-95
+30	62	5.3476020701482e-100
+31	64	5.7198863177631e-105
+32	66	4.6129052696481e-110
+33	68	2.8049201281262e-115
+34	70	1.2859535628254e-120
+35	72	4.4451753488662e-126
+36	74	1.1585407995762e-131
+37	76	2.2766307224355e-137
+38	78	3.3731268682867e-143
+39	80	3.7681795112524e-149
+40	82	3.1738713270789e-155
+41	84	2.0156070658194e-161
+42	86	9.6511985999633e-168
+43	88	3.4842993272755e-174
+44	90	9.4843699486713e-181
+45	92	1.9465265810991e-187
+46	94	3.0121113024539e-194
+47	96	3.5143136303184e-201
+48	98	3.0914970919304e-208
+49	100	2.050482144624e-215
+50	102	1.0254204292582e-222
+51	104	3.8663998335091e-230
+52	106	1.0991839681229e-237
+53	108	2.3560951846262e-245
+54	110	3.8077997589324e-253
+55	112	4.6399595720573e-261
+56	114	4.2629782343808e-269
+57	116	2.9530503928491e-277
+58	118	1.5423659364149e-285
+59	120	6.0738325736854e-294
+60	122	1.8034206228232e-302
+61	124	4.0372911634709e-311
+62	126	6.8146474530883e-320
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear6	90	2	12.11.15 12:24
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	4.3444335024224
+1	4	3.6359891839975
+2	6	2.9156828171019
+3	8	2.1941305025586
+4	10	1.4829693060676
+5	12	0.79457016995233
+6	14	0.14169681873827
+7	16	-0.46287717681331
+8	18	-1.0067777315593
+9	20	-1.4784480011578
+10	22	-1.8675550479401
+11	24	-2.1653655205008
+12	26	-2.3650713080801
+13	28	-2.4620482238053
+14	30	-2.4540339939434
+15	32	-2.3412159868007
+16	34	-2.1262239307412
+17	36	-1.8140280165115
+18	38	-1.4117478972721
+19	40	-0.9283828353974
+20	42	-0.37447727550943
+21	44	0.23826081516347
+22	46	0.89736958860551
+23	48	1.5900510224888
+24	50	2.3035773418184
+25	52	3.0256685092531
+26	54	3.744825795588
+27	56	4.4506098144038
+28	58	5.1338552146054
+29	60	5.7868181826264
+30	62	6.4032567364082
+31	64	6.9784472540233
+32	66	7.5091435795786
+33	68	7.9934872572973
+34	70	8.4308788956674
+35	72	8.8218213542008
+36	74	9.1677454279063
+37	76	9.4708280754525
+38	78	9.7338121231483
+39	80	9.9598349215792
+40	82	10.152271780941
+41	84	10.314598301582
+42	86	10.450274066495
+43	88	10.562648666486
+44	90	10.654889753209
+45	92	10.729931799008
+46	94	10.790443499286
+47	96	10.838811274732
+48	98	10.877136092504
+49	100	10.907240791415
+50	102	10.93068522371
+51	104	10.948786771436
+52	106	10.962644116292
+53	108	10.973162501093
+54	110	10.981079087289
+55	112	10.986987362542
+56	114	10.991359868336
+57	116	10.994568789606
+58	118	10.996904171922
+59	120	10.998589706535
+60	122	10.999796152676
+61	124	11.000652555239
+62	126	11.001255470582
+63	128	11.001676440578
+64	130	11.001967961656
+65	132	11.002168187402
+66	134	11.00230458532
+67	136	11.002396744745
+68	138	11.00245850683
+69	140	11.002499561253
+70	142	11.002526629438
+71	144	11.002544331528
+72	146	11.002555814677
+73	148	11.002563203461
+74	150	11.002567919365
+75	152	11.002570905028
+76	154	11.002572780043
+77	156	11.00257394809
+78	158	11.00257466988
+79	160	11.002575112326
+80	162	11.002575381362
+81	164	11.002575543643
+82	166	11.002575640746
+83	168	11.002575698383
+84	170	11.002575732322
+85	172	11.002575752146
+86	174	11.002575763633
+87	176	11.002575770237
+88	178	11.002575774002
+89	180	11.002575776132
+</data>
+</table>
+<table>
+Nichtlinear7	90	2	12.11.15 12:24
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	0
+1	4	0
+2	6	0
+3	8	0
+4	10	0
+5	12	0
+6	14	0
+7	16	0
+8	18	0
+9	20	0
+10	22	0
+11	24	-1.0092470461524e-253
+12	26	-1.9525802724766e-21
+13	28	-5.5773889259504e-44
+14	30	-2.3418711612875e-321
+15	32	0
+16	34	0
+17	36	0
+18	38	0
+19	40	0
+20	42	0
+21	44	0
+22	46	0
+23	48	0
+24	50	0
+25	52	0
+26	54	0
+27	56	0
+28	58	0
+29	60	0
+30	62	0
+31	64	0
+32	66	0
+33	68	0
+34	70	0
+35	72	0
+36	74	0
+37	76	0
+38	78	0
+39	80	0
+40	82	0
+41	84	0
+42	86	0
+43	88	0
+44	90	0
+45	92	0
+46	94	0
+47	96	0
+48	98	0
+49	100	0
+50	102	0
+51	104	0
+52	106	0
+53	108	0
+54	110	0
+55	112	0
+56	114	0
+57	116	0
+58	118	0
+59	120	0
+60	122	0
+61	124	0
+62	126	0
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear8	90	2	12.11.15 12:43
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	6.655227137073e-08
+1	4	3.4011553712398e-09
+2	6	1.3105357893748e-10
+3	8	3.8074141845228e-12
+4	10	8.3400794075145e-14
+5	12	1.377428523268e-15
+6	14	1.7152474502104e-17
+7	16	1.6104354316387e-19
+8	18	1.1400362890689e-21
+9	20	6.0848917808059e-24
+10	22	2.4487579889186e-26
+11	24	7.4301519802702e-29
+12	26	1.699841205144e-31
+13	28	2.9320936148478e-34
+14	30	3.8133453295325e-37
+15	32	3.7393254373892e-40
+16	34	2.7646440022778e-43
+17	36	1.5411467411132e-46
+18	38	6.4775025511047e-50
+19	40	2.0527214347795e-53
+20	42	4.9046866455652e-57
+21	44	8.8359111263187e-61
+22	46	1.2001906416348e-64
+23	48	1.2291586940326e-68
+24	50	9.4912738184247e-73
+25	52	5.5258599319638e-77
+26	54	2.425683120397e-81
+27	56	8.0283645389851e-86
+28	58	2.0034519275713e-90
+29	60	3.7695507298044e-95
+30	62	5.3476020701482e-100
+31	64	5.7198863177631e-105
+32	66	4.6129052696481e-110
+33	68	2.8049201281262e-115
+34	70	1.2859535628254e-120
+35	72	4.4451753488662e-126
+36	74	1.1585407995762e-131
+37	76	2.2766307224355e-137
+38	78	3.3731268682867e-143
+39	80	3.7681795112524e-149
+40	82	3.1738713270789e-155
+41	84	2.0156070658194e-161
+42	86	9.6511985999633e-168
+43	88	3.4842993272755e-174
+44	90	9.4843699486713e-181
+45	92	1.9465265810991e-187
+46	94	3.0121113024539e-194
+47	96	3.5143136303184e-201
+48	98	3.0914970919304e-208
+49	100	2.050482144624e-215
+50	102	1.0254204292582e-222
+51	104	3.8663998335091e-230
+52	106	1.0991839681229e-237
+53	108	2.3560951846262e-245
+54	110	3.8077997589324e-253
+55	112	4.6399595720573e-261
+56	114	4.2629782343808e-269
+57	116	2.9530503928491e-277
+58	118	1.5423659364149e-285
+59	120	6.0738325736854e-294
+60	122	1.8034206228232e-302
+61	124	4.0372911634709e-311
+62	126	6.8146474530883e-320
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear9	90	2	12.11.15 12:43
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	4.3444335024224
+1	4	3.6359891839975
+2	6	2.9156828171019
+3	8	2.1941305025586
+4	10	1.4829693060676
+5	12	0.79457016995233
+6	14	0.14169681873827
+7	16	-0.46287717681331
+8	18	-1.0067777315593
+9	20	-1.4784480011578
+10	22	-1.8675550479401
+11	24	-2.1653655205008
+12	26	-2.3650713080801
+13	28	-2.4620482238053
+14	30	-2.4540339939434
+15	32	-2.3412159868007
+16	34	-2.1262239307412
+17	36	-1.8140280165115
+18	38	-1.4117478972721
+19	40	-0.9283828353974
+20	42	-0.37447727550943
+21	44	0.23826081516347
+22	46	0.89736958860551
+23	48	1.5900510224888
+24	50	2.3035773418184
+25	52	3.0256685092531
+26	54	3.744825795588
+27	56	4.4506098144038
+28	58	5.1338552146054
+29	60	5.7868181826264
+30	62	6.4032567364082
+31	64	6.9784472540233
+32	66	7.5091435795786
+33	68	7.9934872572973
+34	70	8.4308788956674
+35	72	8.8218213542008
+36	74	9.1677454279063
+37	76	9.4708280754525
+38	78	9.7338121231483
+39	80	9.9598349215792
+40	82	10.152271780941
+41	84	10.314598301582
+42	86	10.450274066495
+43	88	10.562648666486
+44	90	10.654889753209
+45	92	10.729931799008
+46	94	10.790443499286
+47	96	10.838811274732
+48	98	10.877136092504
+49	100	10.907240791415
+50	102	10.93068522371
+51	104	10.948786771436
+52	106	10.962644116292
+53	108	10.973162501093
+54	110	10.981079087289
+55	112	10.986987362542
+56	114	10.991359868336
+57	116	10.994568789606
+58	118	10.996904171922
+59	120	10.998589706535
+60	122	10.999796152676
+61	124	11.000652555239
+62	126	11.001255470582
+63	128	11.001676440578
+64	130	11.001967961656
+65	132	11.002168187402
+66	134	11.00230458532
+67	136	11.002396744745
+68	138	11.00245850683
+69	140	11.002499561253
+70	142	11.002526629438
+71	144	11.002544331528
+72	146	11.002555814677
+73	148	11.002563203461
+74	150	11.002567919365
+75	152	11.002570905028
+76	154	11.002572780043
+77	156	11.00257394809
+78	158	11.00257466988
+79	160	11.002575112326
+80	162	11.002575381362
+81	164	11.002575543643
+82	166	11.002575640746
+83	168	11.002575698383
+84	170	11.002575732322
+85	172	11.002575752146
+86	174	11.002575763633
+87	176	11.002575770237
+88	178	11.002575774002
+89	180	11.002575776132
+</data>
+</table>
+<table>
+Fit3	90	2	12.11.15 12:46
+geometry	1475	669	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Gauß-Fit Fit von Tabelle2_2	2
+<data>
+0	2	2.3137623794282e-09
+1	4	6.0483645327358e-09
+2	6	1.5573563267587e-08
+3	8	3.9366832226633e-08
+4	10	9.7573889706658e-08
+5	12	2.3702729599645e-07
+6	14	5.6422057974699e-07
+7	16	1.3160001122541e-06
+8	18	3.0075147871552e-06
+9	20	6.7344136500029e-06
+10	22	1.4775087560565e-05
+11	24	3.1761265246881e-05
+12	26	6.6896383832131e-05
+13	28	0.00013805255774978
+14	30	0.00027914070771563
+15	32	0.0005530173619867
+16	34	0.0010734732253991
+17	36	0.0020416463682018
+18	38	0.0038045795965054
+19	40	0.0069465581778496
+20	42	0.012427092419569
+21	44	0.02178242496824
+22	46	0.037409316455233
+23	48	0.062949192919339
+24	50	0.1037856733215
+25	52	0.16765692458828
+26	54	0.26536426030381
+27	56	0.41152878106248
+28	58	0.62530923691139
+29	60	0.93094992549146
+30	62	1.3579839789583
+31	64	1.9408850661278
+32	66	2.7179523453206
+33	68	3.7292431835055
+34	70	5.0134468901744
+35	72	6.6037250059042
+36	74	8.5227232962821
+37	76	10.777167793041
+38	78	13.352658683478
+39	80	16.209428325849
+40	82	19.279887539082
+41	84	22.468710133856
+42	86	25.655981513996
+43	88	28.703573862002
+44	90	31.4644511778
+45	92	33.794124159815
+46	94	35.563056281163
+47	96	36.668555851366
+48	98	37.044640323713
+49	100	36.668555851365
+50	102	35.563056281162
+51	104	33.794124159813
+52	106	31.464451177797
+53	108	28.703573861999
+54	110	25.655981513993
+55	112	22.468710133852
+56	114	19.279887539079
+57	116	16.209428325846
+58	118	13.352658683475
+59	120	10.777167793038
+60	122	8.5227232962799
+61	124	6.6037250059023
+62	126	5.0134468901729
+63	128	3.7292431835043
+64	130	2.7179523453197
+65	132	1.9408850661271
+66	134	1.3579839789578
+67	136	0.93094992549108
+68	138	0.62530923691112
+69	140	0.41152878106229
+70	142	0.26536426030368
+71	144	0.1676569245882
+72	146	0.10378567332145
+73	148	0.062949192919306
+74	150	0.037409316455212
+75	152	0.021782424968227
+76	154	0.012427092419562
+77	156	0.0069465581778453
+78	158	0.0038045795965029
+79	160	0.0020416463682004
+80	162	0.0010734732253983
+81	164	0.00055301736198631
+82	166	0.00027914070771543
+83	168	0.00013805255774967
+84	170	6.6896383832079e-05
+85	172	3.1761265246856e-05
+86	174	1.4775087560553e-05
+87	176	6.7344136499972e-06
+88	178	3.0075147871526e-06
+89	180	1.3160001122529e-06
+</data>
+</table>
+<table>
+Nichtlinear10	90	2	12.11.15 12:49
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	0
+1	4	0
+2	6	0
+3	8	0
+4	10	0
+5	12	0
+6	14	0
+7	16	0
+8	18	0
+9	20	0
+10	22	0
+11	24	0
+12	26	0
+13	28	0
+14	30	0
+15	32	0
+16	34	0
+17	36	0
+18	38	0
+19	40	0
+20	42	0
+21	44	0
+22	46	0
+23	48	0
+24	50	0
+25	52	0
+26	54	0
+27	56	0
+28	58	0
+29	60	0
+30	62	0
+31	64	0
+32	66	0
+33	68	0
+34	70	0
+35	72	0
+36	74	0
+37	76	0
+38	78	0
+39	80	0
+40	82	0
+41	84	0
+42	86	0
+43	88	0
+44	90	0
+45	92	0
+46	94	0
+47	96	0
+48	98	0
+49	100	0
+50	102	0
+51	104	0
+52	106	0
+53	108	0
+54	110	0
+55	112	0
+56	114	0
+57	116	0
+58	118	0
+59	120	0
+60	122	0
+61	124	0
+62	126	0
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear11	90	2	12.11.15 12:49
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	0
+1	4	0
+2	6	0
+3	8	0
+4	10	0
+5	12	0
+6	14	0
+7	16	0
+8	18	0
+9	20	0
+10	22	0
+11	24	0
+12	26	0
+13	28	0
+14	30	0
+15	32	0
+16	34	0
+17	36	0
+18	38	0
+19	40	0
+20	42	0
+21	44	0
+22	46	0
+23	48	0
+24	50	0
+25	52	0
+26	54	0
+27	56	0
+28	58	0
+29	60	0
+30	62	0
+31	64	0
+32	66	0
+33	68	0
+34	70	0
+35	72	0
+36	74	0
+37	76	0
+38	78	0
+39	80	0
+40	82	0
+41	84	0
+42	86	0
+43	88	0
+44	90	0
+45	92	0
+46	94	0
+47	96	0
+48	98	0
+49	100	0
+50	102	0
+51	104	0
+52	106	0
+53	108	0
+54	110	0
+55	112	0
+56	114	0
+57	116	0
+58	118	0
+59	120	0
+60	122	0
+61	124	0
+62	126	0
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear12	90	2	12.11.15 12:49
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	0
+1	4	0
+2	6	0
+3	8	0
+4	10	0
+5	12	0
+6	14	0
+7	16	0
+8	18	0
+9	20	0
+10	22	0
+11	24	0
+12	26	0
+13	28	0
+14	30	0
+15	32	0
+16	34	0
+17	36	0
+18	38	0
+19	40	0
+20	42	0
+21	44	0
+22	46	0
+23	48	0
+24	50	0
+25	52	0
+26	54	0
+27	56	0
+28	58	0
+29	60	0
+30	62	0
+31	64	0
+32	66	0
+33	68	0
+34	70	0
+35	72	0
+36	74	0
+37	76	0
+38	78	0
+39	80	0
+40	82	0
+41	84	0
+42	86	0
+43	88	0
+44	90	0
+45	92	0
+46	94	0
+47	96	0
+48	98	0
+49	100	0
+50	102	0
+51	104	0
+52	106	0
+53	108	0
+54	110	0
+55	112	0
+56	114	0
+57	116	0
+58	118	0
+59	120	0
+60	122	0
+61	124	0
+62	126	0
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear13	90	2	12.11.15 12:49
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	0
+1	4	0
+2	6	0
+3	8	0
+4	10	0
+5	12	0
+6	14	0
+7	16	0
+8	18	0
+9	20	0
+10	22	0
+11	24	0
+12	26	0
+13	28	0
+14	30	0
+15	32	0
+16	34	0
+17	36	0
+18	38	0
+19	40	0
+20	42	0
+21	44	0
+22	46	0
+23	48	0
+24	50	0
+25	52	0
+26	54	0
+27	56	0
+28	58	0
+29	60	0
+30	62	0
+31	64	0
+32	66	0
+33	68	0
+34	70	0
+35	72	0
+36	74	0
+37	76	0
+38	78	0
+39	80	0
+40	82	0
+41	84	0
+42	86	0
+43	88	0
+44	90	0
+45	92	0
+46	94	0
+47	96	0
+48	98	0
+49	100	0
+50	102	0
+51	104	0
+52	106	0
+53	108	0
+54	110	0
+55	112	0
+56	114	0
+57	116	0
+58	118	0
+59	120	0
+60	122	0
+61	124	0
+62	126	0
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear14	90	2	12.11.15 12:49
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	0
+1	4	0
+2	6	0
+3	8	0
+4	10	0
+5	12	0
+6	14	0
+7	16	0
+8	18	0
+9	20	0
+10	22	0
+11	24	0
+12	26	0
+13	28	0
+14	30	0
+15	32	0
+16	34	0
+17	36	0
+18	38	0
+19	40	0
+20	42	0
+21	44	0
+22	46	0
+23	48	0
+24	50	0
+25	52	0
+26	54	0
+27	56	0
+28	58	0
+29	60	0
+30	62	0
+31	64	0
+32	66	0
+33	68	0
+34	70	0
+35	72	0
+36	74	0
+37	76	0
+38	78	0
+39	80	0
+40	82	0
+41	84	0
+42	86	0
+43	88	0
+44	90	0
+45	92	0
+46	94	0
+47	96	0
+48	98	0
+49	100	0
+50	102	0
+51	104	0
+52	106	0
+53	108	0
+54	110	0
+55	112	0
+56	114	0
+57	116	0
+58	118	0
+59	120	0
+60	122	0
+61	124	0
+62	126	0
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear15	90	2	12.11.15 12:49
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	0
+1	4	0
+2	6	0
+3	8	0
+4	10	0
+5	12	0
+6	14	0
+7	16	0
+8	18	0
+9	20	0
+10	22	0
+11	24	0
+12	26	0
+13	28	0
+14	30	0
+15	32	0
+16	34	0
+17	36	0
+18	38	0
+19	40	0
+20	42	0
+21	44	0
+22	46	0
+23	48	0
+24	50	0
+25	52	0
+26	54	0
+27	56	0
+28	58	0
+29	60	0
+30	62	0
+31	64	0
+32	66	0
+33	68	0
+34	70	0
+35	72	0
+36	74	0
+37	76	0
+38	78	0
+39	80	0
+40	82	0
+41	84	0
+42	86	0
+43	88	0
+44	90	0
+45	92	0
+46	94	0
+47	96	0
+48	98	0
+49	100	0
+50	102	0
+51	104	0
+52	106	0
+53	108	0
+54	110	0
+55	112	0
+56	114	0
+57	116	0
+58	118	0
+59	120	0
+60	122	0
+61	124	0
+62	126	0
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear16	90	2	12.11.15 12:49
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	0
+1	4	0
+2	6	0
+3	8	0
+4	10	0
+5	12	0
+6	14	0
+7	16	0
+8	18	0
+9	20	0
+10	22	0
+11	24	0
+12	26	0
+13	28	0
+14	30	0
+15	32	0
+16	34	0
+17	36	0
+18	38	0
+19	40	0
+20	42	0
+21	44	0
+22	46	0
+23	48	0
+24	50	0
+25	52	0
+26	54	0
+27	56	0
+28	58	0
+29	60	0
+30	62	0
+31	64	0
+32	66	0
+33	68	0
+34	70	0
+35	72	0
+36	74	0
+37	76	0
+38	78	0
+39	80	0
+40	82	0
+41	84	0
+42	86	0
+43	88	0
+44	90	0
+45	92	0
+46	94	0
+47	96	0
+48	98	0
+49	100	0
+50	102	0
+51	104	0
+52	106	0
+53	108	0
+54	110	0
+55	112	0
+56	114	0
+57	116	0
+58	118	0
+59	120	0
+60	122	0
+61	124	0
+62	126	0
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear17	90	2	12.11.15 12:49
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	0
+1	4	0
+2	6	0
+3	8	0
+4	10	0
+5	12	0
+6	14	0
+7	16	0
+8	18	0
+9	20	0
+10	22	0
+11	24	0
+12	26	0
+13	28	0
+14	30	0
+15	32	0
+16	34	0
+17	36	0
+18	38	0
+19	40	0
+20	42	0
+21	44	0
+22	46	0
+23	48	0
+24	50	0
+25	52	0
+26	54	0
+27	56	0
+28	58	0
+29	60	0
+30	62	0
+31	64	0
+32	66	0
+33	68	0
+34	70	0
+35	72	0
+36	74	0
+37	76	0
+38	78	0
+39	80	0
+40	82	0
+41	84	0
+42	86	0
+43	88	0
+44	90	0
+45	92	0
+46	94	0
+47	96	0
+48	98	0
+49	100	0
+50	102	0
+51	104	0
+52	106	0
+53	108	0
+54	110	0
+55	112	0
+56	114	0
+57	116	0
+58	118	0
+59	120	0
+60	122	0
+61	124	0
+62	126	0
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear18	90	2	12.11.15 12:49
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	0
+1	4	0
+2	6	0
+3	8	0
+4	10	0
+5	12	0
+6	14	0
+7	16	0
+8	18	0
+9	20	0
+10	22	0
+11	24	0
+12	26	0
+13	28	0
+14	30	0
+15	32	0
+16	34	0
+17	36	0
+18	38	0
+19	40	0
+20	42	0
+21	44	0
+22	46	0
+23	48	0
+24	50	0
+25	52	0
+26	54	0
+27	56	0
+28	58	0
+29	60	0
+30	62	0
+31	64	0
+32	66	0
+33	68	0
+34	70	0
+35	72	0
+36	74	0
+37	76	0
+38	78	0
+39	80	0
+40	82	0
+41	84	0
+42	86	0
+43	88	0
+44	90	0
+45	92	0
+46	94	0
+47	96	0
+48	98	0
+49	100	0
+50	102	0
+51	104	0
+52	106	0
+53	108	0
+54	110	0
+55	112	0
+56	114	0
+57	116	0
+58	118	0
+59	120	0
+60	122	0
+61	124	0
+62	126	0
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear19	90	2	12.11.15 12:49
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	0
+1	4	0
+2	6	0
+3	8	0
+4	10	0
+5	12	0
+6	14	0
+7	16	0
+8	18	0
+9	20	0
+10	22	0
+11	24	0
+12	26	0
+13	28	0
+14	30	0
+15	32	0
+16	34	0
+17	36	0
+18	38	0
+19	40	0
+20	42	0
+21	44	0
+22	46	0
+23	48	0
+24	50	0
+25	52	0
+26	54	0
+27	56	0
+28	58	0
+29	60	0
+30	62	0
+31	64	0
+32	66	0
+33	68	0
+34	70	0
+35	72	0
+36	74	0
+37	76	0
+38	78	0
+39	80	0
+40	82	0
+41	84	0
+42	86	0
+43	88	0
+44	90	0
+45	92	0
+46	94	0
+47	96	0
+48	98	0
+49	100	0
+50	102	0
+51	104	0
+52	106	0
+53	108	0
+54	110	0
+55	112	0
+56	114	0
+57	116	0
+58	118	0
+59	120	0
+60	122	0
+61	124	0
+62	126	0
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear20	90	2	12.11.15 12:49
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	0
+1	4	0
+2	6	0
+3	8	0
+4	10	0
+5	12	0
+6	14	0
+7	16	0
+8	18	0
+9	20	0
+10	22	0
+11	24	0
+12	26	0
+13	28	0
+14	30	0
+15	32	0
+16	34	0
+17	36	0
+18	38	0
+19	40	0
+20	42	0
+21	44	0
+22	46	0
+23	48	0
+24	50	0
+25	52	0
+26	54	0
+27	56	0
+28	58	0
+29	60	0
+30	62	0
+31	64	0
+32	66	0
+33	68	0
+34	70	0
+35	72	0
+36	74	0
+37	76	0
+38	78	0
+39	80	0
+40	82	0
+41	84	0
+42	86	0
+43	88	0
+44	90	0
+45	92	0
+46	94	0
+47	96	0
+48	98	0
+49	100	0
+50	102	0
+51	104	0
+52	106	0
+53	108	0
+54	110	0
+55	112	0
+56	114	0
+57	116	0
+58	118	0
+59	120	0
+60	122	0
+61	124	0
+62	126	0
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Nichtlinear21	90	2	12.11.15 12:54
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_4	2
+<data>
+0	2	62.07552847822
+1	4	62.078071989069
+2	6	62.080615586841
+3	8	62.083159271537
+4	10	62.08570304316
+5	12	62.088246901713
+6	14	62.090790847197
+7	16	62.093334879614
+8	18	62.095878998967
+9	20	62.098423205257
+10	22	62.100967498487
+11	24	62.103511878659
+12	26	62.106056345776
+13	28	62.108600899838
+14	30	62.111145540849
+15	32	62.113690268811
+16	34	62.116235083725
+17	36	62.118779985594
+18	38	62.12132497442
+19	40	62.123870050205
+20	42	62.126415212952
+21	44	62.128960462662
+22	46	62.131505799337
+23	48	62.13405122298
+24	50	62.136596733593
+25	52	62.139142331178
+26	54	62.141688015737
+27	56	62.144233787273
+28	58	62.146779645787
+29	60	62.149325591281
+30	62	62.151871623758
+31	64	62.15441774322
+32	66	62.156963949669
+33	68	62.159510243107
+34	70	62.162056623537
+35	72	62.16460309096
+36	74	62.167149645378
+37	76	62.169696286794
+38	78	62.172243015211
+39	80	62.174789830629
+40	82	62.177336733051
+41	84	62.179883722479
+42	86	62.182430798917
+43	88	62.184977962364
+44	90	62.187525212825
+45	92	62.1900725503
+46	94	62.192619974792
+47	96	62.195167486304
+48	98	62.197715084836
+49	100	62.200262770393
+50	102	62.202810542975
+51	104	62.205358402584
+52	106	62.207906349224
+53	108	62.210454382895
+54	110	62.213002503601
+55	112	62.215550711343
+56	114	62.218099006124
+57	116	62.220647387945
+58	118	62.223195856809
+59	120	62.225744412718
+60	122	62.228293055674
+61	124	62.230841785679
+62	126	62.233390602736
+63	128	62.235939506846
+64	130	62.238488498012
+65	132	62.241037576235
+66	134	62.243586741519
+67	136	62.246135993864
+68	138	62.248685333274
+69	140	62.25123475975
+70	142	62.253784273295
+71	144	62.25633387391
+72	146	62.258883561598
+73	148	62.261433336361
+74	150	62.263983198201
+75	152	62.266533147121
+76	154	62.269083183121
+77	156	62.271633306206
+78	158	62.274183516376
+79	160	62.276733813634
+80	162	62.279284197981
+81	164	62.281834669421
+82	166	62.284385227955
+83	168	62.286935873586
+84	170	62.289486606315
+85	172	62.292037426145
+86	174	62.294588333077
+87	176	62.297139327115
+88	178	62.29969040826
+89	180	62.302241576514
+</data>
+</table>
+<table>
+Nichtlinear22	90	2	12.11.15 12:54
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	-3.0722123798423e-98
+1	4	-3.0721073524822e-98
+2	6	-3.0720023287051e-98
+3	8	-3.0718973085107e-98
+4	10	-3.0717922918991e-98
+5	12	-3.07168727887e-98
+6	14	-3.0715822694234e-98
+7	16	-3.0714772635589e-98
+8	18	-3.0713722612768e-98
+9	20	-3.0712672625767e-98
+10	22	-3.0711622674587e-98
+11	24	-3.0710572759224e-98
+12	26	-3.0709522879678e-98
+13	28	-3.0708473035948e-98
+14	30	-3.0707423228034e-98
+15	32	-3.0706373455933e-98
+16	34	-3.0705323719643e-98
+17	36	-3.0704274019165e-98
+18	38	-3.0703224354497e-98
+19	40	-3.0702174725637e-98
+20	42	-3.0701125132585e-98
+21	44	-3.0700075575339e-98
+22	46	-3.0699026053898e-98
+23	48	-3.069797656826e-98
+24	50	-3.0696927118425e-98
+25	52	-3.0695877704391e-98
+26	54	-3.0694828326157e-98
+27	56	-3.0693778983723e-98
+28	58	-3.0692729677085e-98
+29	60	-3.0691680406244e-98
+30	62	-3.0690631171199e-98
+31	64	-3.0689581971947e-98
+32	66	-3.0688532808487e-98
+33	68	-3.0687483680819e-98
+34	70	-3.0686434588942e-98
+35	72	-3.0685385532854e-98
+36	74	-3.0684336512554e-98
+37	76	-3.068328752804e-98
+38	78	-3.0682238579312e-98
+39	80	-3.0681189666368e-98
+40	82	-3.0680140789207e-98
+41	84	-3.0679091947828e-98
+42	86	-3.0678043142229e-98
+43	88	-3.067699437241e-98
+44	90	-3.0675945638369e-98
+45	92	-3.0674896940105e-98
+46	94	-3.0673848277617e-98
+47	96	-3.0672799650902e-98
+48	98	-3.0671751059962e-98
+49	100	-3.0670702504793e-98
+50	102	-3.0669653985395e-98
+51	104	-3.0668605501767e-98
+52	106	-3.0667557053907e-98
+53	108	-3.0666508641814e-98
+54	110	-3.0665460265487e-98
+55	112	-3.0664411924925e-98
+56	114	-3.0663363620126e-98
+57	116	-3.0662315351089e-98
+58	118	-3.0661267117814e-98
+59	120	-3.0660218920298e-98
+60	122	-3.0659170758542e-98
+61	124	-3.0658122632542e-98
+62	126	-3.06570745423e-98
+63	128	-3.0656026487812e-98
+64	130	-3.0654978469077e-98
+65	132	-3.0653930486095e-98
+66	134	-3.0652882538865e-98
+67	136	-3.0651834627385e-98
+68	138	-3.0650786751653e-98
+69	140	-3.064973891167e-98
+70	142	-3.0648691107432e-98
+71	144	-3.064764333894e-98
+72	146	-3.0646595606192e-98
+73	148	-3.0645547909188e-98
+74	150	-3.0644500247924e-98
+75	152	-3.0643452622401e-98
+76	154	-3.0642405032617e-98
+77	156	-3.0641357478571e-98
+78	158	-3.0640309960261e-98
+79	160	-3.0639262477688e-98
+80	162	-3.0638215030849e-98
+81	164	-3.0637167619742e-98
+82	166	-3.0636120244367e-98
+83	168	-3.0635072904722e-98
+84	170	-3.0634025600809e-98
+85	172	-3.0632978332622e-98
+86	174	-3.0631931100163e-98
+87	176	-3.063088390343e-98
+88	178	-3.0629836742421e-98
+89	180	-3.0628789617135e-98
+</data>
+</table>
+<table>
+Nichtlinear23	90	2	12.11.15 12:57
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_4	2
+<data>
+0	2	62.07552847822
+1	4	62.078071989069
+2	6	62.080615586841
+3	8	62.083159271537
+4	10	62.08570304316
+5	12	62.088246901713
+6	14	62.090790847197
+7	16	62.093334879614
+8	18	62.095878998967
+9	20	62.098423205257
+10	22	62.100967498487
+11	24	62.103511878659
+12	26	62.106056345776
+13	28	62.108600899838
+14	30	62.111145540849
+15	32	62.113690268811
+16	34	62.116235083725
+17	36	62.118779985594
+18	38	62.12132497442
+19	40	62.123870050205
+20	42	62.126415212952
+21	44	62.128960462662
+22	46	62.131505799337
+23	48	62.13405122298
+24	50	62.136596733593
+25	52	62.139142331178
+26	54	62.141688015737
+27	56	62.144233787273
+28	58	62.146779645787
+29	60	62.149325591281
+30	62	62.151871623758
+31	64	62.15441774322
+32	66	62.156963949669
+33	68	62.159510243107
+34	70	62.162056623537
+35	72	62.16460309096
+36	74	62.167149645378
+37	76	62.169696286794
+38	78	62.172243015211
+39	80	62.174789830629
+40	82	62.177336733051
+41	84	62.179883722479
+42	86	62.182430798917
+43	88	62.184977962364
+44	90	62.187525212825
+45	92	62.1900725503
+46	94	62.192619974792
+47	96	62.195167486304
+48	98	62.197715084836
+49	100	62.200262770393
+50	102	62.202810542975
+51	104	62.205358402584
+52	106	62.207906349224
+53	108	62.210454382895
+54	110	62.213002503601
+55	112	62.215550711343
+56	114	62.218099006124
+57	116	62.220647387945
+58	118	62.223195856809
+59	120	62.225744412718
+60	122	62.228293055674
+61	124	62.230841785679
+62	126	62.233390602736
+63	128	62.235939506846
+64	130	62.238488498012
+65	132	62.241037576235
+66	134	62.243586741519
+67	136	62.246135993864
+68	138	62.248685333274
+69	140	62.25123475975
+70	142	62.253784273295
+71	144	62.25633387391
+72	146	62.258883561598
+73	148	62.261433336361
+74	150	62.263983198201
+75	152	62.266533147121
+76	154	62.269083183121
+77	156	62.271633306206
+78	158	62.274183516376
+79	160	62.276733813634
+80	162	62.279284197981
+81	164	62.281834669421
+82	166	62.284385227955
+83	168	62.286935873586
+84	170	62.289486606315
+85	172	62.292037426145
+86	174	62.294588333077
+87	176	62.297139327115
+88	178	62.29969040826
+89	180	62.302241576514
+</data>
+</table>
+<table>
+Nichtlinear24	90	2	12.11.15 12:57
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_2	2
+<data>
+0	2	-3.0722123798423e-98
+1	4	-3.0721073524822e-98
+2	6	-3.0720023287051e-98
+3	8	-3.0718973085107e-98
+4	10	-3.0717922918991e-98
+5	12	-3.07168727887e-98
+6	14	-3.0715822694234e-98
+7	16	-3.0714772635589e-98
+8	18	-3.0713722612768e-98
+9	20	-3.0712672625767e-98
+10	22	-3.0711622674587e-98
+11	24	-3.0710572759224e-98
+12	26	-3.0709522879678e-98
+13	28	-3.0708473035948e-98
+14	30	-3.0707423228034e-98
+15	32	-3.0706373455933e-98
+16	34	-3.0705323719643e-98
+17	36	-3.0704274019165e-98
+18	38	-3.0703224354497e-98
+19	40	-3.0702174725637e-98
+20	42	-3.0701125132585e-98
+21	44	-3.0700075575339e-98
+22	46	-3.0699026053898e-98
+23	48	-3.069797656826e-98
+24	50	-3.0696927118425e-98
+25	52	-3.0695877704391e-98
+26	54	-3.0694828326157e-98
+27	56	-3.0693778983723e-98
+28	58	-3.0692729677085e-98
+29	60	-3.0691680406244e-98
+30	62	-3.0690631171199e-98
+31	64	-3.0689581971947e-98
+32	66	-3.0688532808487e-98
+33	68	-3.0687483680819e-98
+34	70	-3.0686434588942e-98
+35	72	-3.0685385532854e-98
+36	74	-3.0684336512554e-98
+37	76	-3.068328752804e-98
+38	78	-3.0682238579312e-98
+39	80	-3.0681189666368e-98
+40	82	-3.0680140789207e-98
+41	84	-3.0679091947828e-98
+42	86	-3.0678043142229e-98
+43	88	-3.067699437241e-98
+44	90	-3.0675945638369e-98
+45	92	-3.0674896940105e-98
+46	94	-3.0673848277617e-98
+47	96	-3.0672799650902e-98
+48	98	-3.0671751059962e-98
+49	100	-3.0670702504793e-98
+50	102	-3.0669653985395e-98
+51	104	-3.0668605501767e-98
+52	106	-3.0667557053907e-98
+53	108	-3.0666508641814e-98
+54	110	-3.0665460265487e-98
+55	112	-3.0664411924925e-98
+56	114	-3.0663363620126e-98
+57	116	-3.0662315351089e-98
+58	118	-3.0661267117814e-98
+59	120	-3.0660218920298e-98
+60	122	-3.0659170758542e-98
+61	124	-3.0658122632542e-98
+62	126	-3.06570745423e-98
+63	128	-3.0656026487812e-98
+64	130	-3.0654978469077e-98
+65	132	-3.0653930486095e-98
+66	134	-3.0652882538865e-98
+67	136	-3.0651834627385e-98
+68	138	-3.0650786751653e-98
+69	140	-3.064973891167e-98
+70	142	-3.0648691107432e-98
+71	144	-3.064764333894e-98
+72	146	-3.0646595606192e-98
+73	148	-3.0645547909188e-98
+74	150	-3.0644500247924e-98
+75	152	-3.0643452622401e-98
+76	154	-3.0642405032617e-98
+77	156	-3.0641357478571e-98
+78	158	-3.0640309960261e-98
+79	160	-3.0639262477688e-98
+80	162	-3.0638215030849e-98
+81	164	-3.0637167619742e-98
+82	166	-3.0636120244367e-98
+83	168	-3.0635072904722e-98
+84	170	-3.0634025600809e-98
+85	172	-3.0632978332622e-98
+86	174	-3.0631931100163e-98
+87	176	-3.063088390343e-98
+88	178	-3.0629836742421e-98
+89	180	-3.0628789617135e-98
+</data>
+</table>
+<table>
+Nichtlinear25	90	2	12.11.15 13:07
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Nichtlinearer Fit von Tabelle2_4	2
+<data>
+0	2	0
+1	4	0
+2	6	0
+3	8	0
+4	10	0
+5	12	0
+6	14	0
+7	16	0
+8	18	0
+9	20	0
+10	22	0
+11	24	0
+12	26	0
+13	28	0
+14	30	0
+15	32	0
+16	34	0
+17	36	0
+18	38	0
+19	40	0
+20	42	0
+21	44	0
+22	46	0
+23	48	0
+24	50	0
+25	52	0
+26	54	0
+27	56	0
+28	58	0
+29	60	0
+30	62	0
+31	64	0
+32	66	0
+33	68	0
+34	70	0
+35	72	0
+36	74	0
+37	76	0
+38	78	0
+39	80	0
+40	82	0
+41	84	0
+42	86	0
+43	88	0
+44	90	0
+45	92	0
+46	94	0
+47	96	0
+48	98	0
+49	100	0
+50	102	0
+51	104	0
+52	106	0
+53	108	0
+54	110	0
+55	112	0
+56	114	0
+57	116	0
+58	118	0
+59	120	0
+60	122	0
+61	124	0
+62	126	0
+63	128	0
+64	130	0
+65	132	0
+66	134	0
+67	136	0
+68	138	0
+69	140	0
+70	142	0
+71	144	0
+72	146	0
+73	148	0
+74	150	0
+75	152	0
+76	154	0
+77	156	0
+78	158	0
+79	160	0
+80	162	0
+81	164	0
+82	166	0
+83	168	0
+84	170	0
+85	172	0
+86	174	0
+87	176	0
+88	178	0
+89	180	0
+</data>
+</table>
+<table>
+Fit4	90	2	12.11.15 13:07
+geometry	1475	0	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Gauß-Fit Fit von Tabelle2_2	2
+<data>
+0	2	2.3137623794282e-09
+1	4	6.0483645327358e-09
+2	6	1.5573563267587e-08
+3	8	3.9366832226633e-08
+4	10	9.7573889706658e-08
+5	12	2.3702729599645e-07
+6	14	5.6422057974699e-07
+7	16	1.3160001122541e-06
+8	18	3.0075147871552e-06
+9	20	6.7344136500029e-06
+10	22	1.4775087560565e-05
+11	24	3.1761265246881e-05
+12	26	6.6896383832131e-05
+13	28	0.00013805255774978
+14	30	0.00027914070771563
+15	32	0.0005530173619867
+16	34	0.0010734732253991
+17	36	0.0020416463682018
+18	38	0.0038045795965054
+19	40	0.0069465581778496
+20	42	0.012427092419569
+21	44	0.02178242496824
+22	46	0.037409316455233
+23	48	0.062949192919339
+24	50	0.1037856733215
+25	52	0.16765692458828
+26	54	0.26536426030381
+27	56	0.41152878106248
+28	58	0.62530923691139
+29	60	0.93094992549146
+30	62	1.3579839789583
+31	64	1.9408850661278
+32	66	2.7179523453206
+33	68	3.7292431835055
+34	70	5.0134468901744
+35	72	6.6037250059042
+36	74	8.5227232962821
+37	76	10.777167793041
+38	78	13.352658683478
+39	80	16.209428325849
+40	82	19.279887539082
+41	84	22.468710133856
+42	86	25.655981513996
+43	88	28.703573862002
+44	90	31.4644511778
+45	92	33.794124159815
+46	94	35.563056281163
+47	96	36.668555851366
+48	98	37.044640323713
+49	100	36.668555851365
+50	102	35.563056281162
+51	104	33.794124159813
+52	106	31.464451177797
+53	108	28.703573861999
+54	110	25.655981513993
+55	112	22.468710133852
+56	114	19.279887539079
+57	116	16.209428325846
+58	118	13.352658683475
+59	120	10.777167793038
+60	122	8.5227232962799
+61	124	6.6037250059023
+62	126	5.0134468901729
+63	128	3.7292431835043
+64	130	2.7179523453197
+65	132	1.9408850661271
+66	134	1.3579839789578
+67	136	0.93094992549108
+68	138	0.62530923691112
+69	140	0.41152878106229
+70	142	0.26536426030368
+71	144	0.1676569245882
+72	146	0.10378567332145
+73	148	0.062949192919306
+74	150	0.037409316455212
+75	152	0.021782424968227
+76	154	0.012427092419562
+77	156	0.0069465581778453
+78	158	0.0038045795965029
+79	160	0.0020416463682004
+80	162	0.0010734732253983
+81	164	0.00055301736198631
+82	166	0.00027914070771543
+83	168	0.00013805255774967
+84	170	6.6896383832079e-05
+85	172	3.1761265246856e-05
+86	174	1.4775087560553e-05
+87	176	6.7344136499972e-06
+88	178	3.0075147871526e-06
+89	180	1.3160001122529e-06
+</data>
+</table>
+<multiLayer>
+Grafik2	1	1	11.11.15 21:13
+geometry	196	674	1453	886	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	1445	796
+<PageGeometry>0.00980392	0.0121951	2.83333	1.94146</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Winkel θ [°]	Häufigkeit			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	25	75	0	0	0
+ScaleFont0	Cantarell	21	75	0	0	0
+ScaleFont1	Cantarell	21	75	0	0	0
+ScaleFont2	Cantarell	21	50	0	0	0
+ScaleFont3	Cantarell	21	75	0	0	0
+AxisFont0	Cantarell	21	50	0	0	0
+AxisFont1	Cantarell	21	50	0	0	0
+AxisFont2	Cantarell	21	50	0	0	0
+AxisFont3	Cantarell	21	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Nichtlinear2_1	Nichtlinear2_2	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	89	1
+scale	0	0	80	0	9	5	0	0
+scale	1	0	80	0	9	5	0	0
+scale	2	0	180	0	10	5	0	0
+scale	3	0	180	0	10	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+KorrekturderAnisotropie	1	1	11.11.15 21:55
+geometry	0	674	1364	861	minimized	
+WindowLabel	Gemmessene Kurve, Korrekturfunktion, korrigierte Messkurve	2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	7	5	1345	787
+<PageGeometry>0.0137255	0.0121951	2.63725	1.91951</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Winkel θ [°]	Häufigkeit			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	4	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	24	75	0	0	0
+ScaleFont0	Cantarell	20	75	0	0	0
+ScaleFont1	Cantarell	20	75	0	0	0
+ScaleFont2	Cantarell	20	50	0	0	0
+ScaleFont3	Cantarell	20	75	0	0	0
+AxisFont0	Cantarell	20	50	0	0	0
+AxisFont1	Cantarell	20	50	0	0	0
+AxisFont2	Cantarell	20	50	0	0	0
+AxisFont3	Cantarell	20	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Tabelle2_3	Tabelle2_4	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	89	1
+curve	Tabelle2_1	Tabelle2_2	2	1	#0000a0	0	1	7	2	#0000a0	#0000a0	0	#000000	14	1	2	0	0	89	1
+curve	Tabelle2_theta	Tabelle2_hauf	2	1	#ff8000	1	1	7	3	#ff8000	#ff8000	0	#000000	14	1	2	0	0	89	1
+curve	Nichtlinear25_1	Nichtlinear25_2	0	1	#0000a0	0	1	0	0	#000000	#a0a0a4	0	#000000	14	0	2	0	0	89	1
+curve	Fit4_1	Fit4_2	0	1	#ff0000	0	1	0	0	#000000	#a0a0a4	0	#000000	14	0	2	0	0	89	1
+scale	0	-20	100	0	7	5	0	0
+scale	1	-20	100	0	7	5	0	0
+scale	2	0	200	0	11	5	0	0
+scale	3	0	200	0	11	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Grafik3	1	1	12.11.15 12:12
+geometry	588	674	1435	491	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	1404	422
+<PageGeometry>0.00980392	0.0121951	2.75294	1.02927</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Winkel θ [°]	Häufigkeit			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	13	75	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Tabelle4_1	Tabelle4_2	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	89	1
+scale	0	0	80	0	9	5	0	0
+scale	1	0	80	0	9	5	0	0
+scale	2	0	182	0	5	5	0	0
+scale	3	0	182	0	5	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<log>
+[12.11.15 12:23	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 9,8473939366930e-02 +/- 5,8141951643208e+11
+w = 3,7636046675042e+00 +/- 7,1074782610773e+11
+xc = -1,8062035675636e+01 +/- 7,9573255064048e+12
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:24	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = -1,3474092106615e+01 +/- 3,3371105170041e+00
+w = -2,2611078837213e+01 +/- 8,4048288816927e+00
+xc = 2,8847801834920e+01 +/- 6,9099780926761e+00
+y0 = 1,1002575778797e+01 +/- 1,5904990779881e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1776932216691e+02
+R^2 = 0,1787083262479
+Angepasstes R^2 = 0,1400593063066
+RMSE (Standardabweichung) = 10,85215748904
+RSS (Summe der quadrierten Restwerte) = 10.128,16170635
+---------------------------------------------------------------------------------------
+Iterationen = 39
+Status = success
+---------------------------------------------------------------------------------------
+[12.11.15 12:24	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = -7,4059239409770e+00 +/- inf
+w = -8,2565041124724e-02 +/- inf
+xc = 2,6823065509296e+01 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = cannot reach the specified tolerance in gradient
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:39	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = -1,3472951536500e+01 +/- 3,3371312791262e+00
+w = -2,2610690740962e+01 +/- 8,4054024731977e+00
+xc = 2,8847583996395e+01 +/- 6,9104608617988e+00
+y0 = 1,1001699761191e+01 +/- 1,5904884540821e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1776932247783e+02
+R^2 = 0,1787083240796
+Angepasstes R^2 = 0,1400593040362
+RMSE (Standardabweichung) = 10,85215750336
+RSS (Summe der quadrierten Restwerte) = 10.128,16173309
+---------------------------------------------------------------------------------------
+Iterationen = 31
+Status = success
+---------------------------------------------------------------------------------------
+[12.11.15 12:39	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = -7,4054057965697e+00 +/- 2,9729397248296e+49
+w = -7,8660142733793e-02 +/- 1,1295197654881e+44
+xc = 2,6822148543425e+01 +/- 2,9032614500289e+46
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = cannot reach the specified tolerance in gradient
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:42	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_4, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 0,0000000000000e+00 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,0636047159460e+03
+R^2 = -63,72130483948
+Angepasstes R^2 = -65,97902477574
+RMSE (Standardabweichung) = 63,74640943572
+RSS (Summe der quadrierten Restwerte) = 353.533,6102873
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:42	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_4, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 0,0000000000000e+00 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,0636047159460e+03
+R^2 = -63,72130483948
+Angepasstes R^2 = -65,97902477574
+RMSE (Standardabweichung) = 63,74640943572
+RSS (Summe der quadrierten Restwerte) = 353.533,6102873
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:42	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_4, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 0,0000000000000e+00 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,0636047159460e+03
+R^2 = -63,72130483948
+Angepasstes R^2 = -65,97902477574
+RMSE (Standardabweichung) = 63,74640943572
+RSS (Summe der quadrierten Restwerte) = 353.533,6102873
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:43	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 9,8473939366930e-02 +/- 5,8141951643208e+11
+w = 3,7636046675042e+00 +/- 7,1074782610773e+11
+xc = -1,8062035675636e+01 +/- 7,9573255064048e+12
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:43	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = -1,3474092106615e+01 +/- 3,3371105170041e+00
+w = -2,2611078837213e+01 +/- 8,4048288816927e+00
+xc = 2,8847801834920e+01 +/- 6,9099780926761e+00
+y0 = 1,1002575778797e+01 +/- 1,5904990779881e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1776932216691e+02
+R^2 = 0,1787083262479
+Angepasstes R^2 = 0,1400593063066
+RMSE (Standardabweichung) = 10,85215748904
+RSS (Summe der quadrierten Restwerte) = 10.128,16170635
+---------------------------------------------------------------------------------------
+Iterationen = 39
+Status = success
+---------------------------------------------------------------------------------------
+[12.11.15 12:46	Diagramm: ''KorrekturderAnisotropie'']
+Gauß-Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A (Fläche) = 1,2999999999943e+03 +/- 3,9545763198163e-09
+xc (Mitte) = 9,7999999999999e+01 +/- 3,7658339326338e-11
+w (Breite) = 2,7999999999355e+01 +/- 8,3702560123413e-11
+y0 (Offset) = 3,1458434578276e-11 +/- 3,4162653457172e-11
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,1597062706631e-20
+R^2 = 1
+Angepasstes R^2 = 1
+RMSE (Standardabweichung) = 2,481875555032e-10
+RSS (Summe der quadrierten Restwerte) = 5,29734739277e-18
+---------------------------------------------------------------------------------------
+Iterationen = 8
+Status = success
+---------------------------------------------------------------------------------------
+[12.11.15 12:49	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 3,0000000000000e+01 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:49	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 3,0000000000000e+01 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:49	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 3,0000000000000e+01 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:49	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 3,0000000000000e+01 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:49	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 3,0000000000000e+01 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:49	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 3,0000000000000e+01 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:49	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 3,0000000000000e+01 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:49	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 3,0000000000000e+01 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:49	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 3,0000000000000e+01 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:49	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 3,0000000000000e+01 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:49	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 3,0000000000000e+01 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+y0 = 0 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 12:54	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_4, unter Verwendung der Funktion: A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 1,2630066215423e+03 +/- 6,0666201018089e+08
+w = 1,1982060208647e+05 +/- 9,5569929776470e+09
+xc = 2,9413161022676e+05 +/- 4,6905845576051e+10
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,2781739784503e+01
+R^2 = 7,101994917014e-05
+Angepasstes R^2 = -0,03481022354098
+RMSE (Standardabweichung) = 7,923492903039
+RSS (Summe der quadrierten Restwerte) = 5.462,011361252
+---------------------------------------------------------------------------------------
+Iterationen = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[12.11.15 12:54	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = -4,4074120310452e+05 +/- 2,5800631487116e+112
+w = -1,2750963537854e+06 +/- 1,5712932093348e+110
+xc = -2,7791667376258e+07 +/- 6,8494144388149e+111
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[12.11.15 12:57	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_4, unter Verwendung der Funktion: A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 1,2630066215423e+03 +/- 6,0666201018089e+08
+w = 1,1982060208647e+05 +/- 9,5569929776470e+09
+xc = 2,9413161022676e+05 +/- 4,6905845576051e+10
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,2781739784503e+01
+R^2 = 7,101994917014e-05
+Angepasstes R^2 = -0,03481022354098
+RMSE (Standardabweichung) = 7,923492903039
+RSS (Summe der quadrierten Restwerte) = 5.462,011361252
+---------------------------------------------------------------------------------------
+Iterationen = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[12.11.15 12:57	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = -4,4074120310452e+05 +/- 2,5800631487116e+112
+w = -1,2750963537854e+06 +/- 1,5712932093348e+110
+xc = -2,7791667376258e+07 +/- 6,8494144388149e+111
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[12.11.15 13:00	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 9,8473939366930e-02 +/- 5,8141951643208e+11
+w = 3,7636046675042e+00 +/- 7,1074782610773e+11
+xc = -1,8062035675636e+01 +/- 7,9573255064048e+12
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[12.11.15 13:00	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 9,8473939366930e-02 +/- 5,8141953104650e+11
+w = 3,7636046675040e+00 +/- 7,1074785981678e+11
+xc = -1,8062035675640e+01 +/- 7,9573257951293e+12
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[12.11.15 13:06	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_4, unter Verwendung der Funktion: A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 1,2719433090662e+03 +/- 6,1850941947938e+08
+w = 1,2002691555589e+05 +/- 9,6691848497623e+09
+xc = 2,9498256168502e+05 +/- 4,7512024563043e+10
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,2781739751492e+01
+R^2 = 7,102047494612e-05
+Angepasstes R^2 = -0,03481022299686
+RMSE (Standardabweichung) = 7,923492900955
+RSS (Summe der quadrierten Restwerte) = 5.462,01135838
+---------------------------------------------------------------------------------------
+Iterationen = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[12.11.15 13:07	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = -4,4661133740687e+05 +/- 1,0640344122824e+149
+w = -1,0880586509550e+06 +/- 4,0254847639371e+146
+xc = -2,7611628756501e+07 +/- 2,0430462258281e+148
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[12.11.15 13:07	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A = 0,0000000000000e+00 +/- 0,0000000000000e+00
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9570615685462e+02
+R^2 = -0,3806720543623
+Angepasstes R^2 = -0,4288350330029
+RMSE (Standardabweichung) = 13,9895016657
+RSS (Summe der quadrierten Restwerte) = 17.026,43564635
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[12.11.15 13:07	Diagramm: ''KorrekturderAnisotropie'']
+Nichtlinearer Fit von Datensatz: Tabelle2_4, unter Verwendung der Funktion: A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+w = 0,0000000000000e+00 +/- 0,0000000000000e+00
+xc = 0,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,0174273896285e+03
+R^2 = -63,72130483948
+Angepasstes R^2 = -65,20915092774
+RMSE (Standardabweichung) = 63,3831790748
+RSS (Summe der quadrierten Restwerte) = 353.533,6102873
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+A = 30 (Konstante)
+---------------------------------------------------------------------------------------
+[12.11.15 13:07	Diagramm: ''KorrekturderAnisotropie'']
+Gauß-Fit von Datensatz: Tabelle2_2, unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+00 bis x = 1,8000000000000e+02
+A (Fläche) = 1,2999999999943e+03 +/- 3,9545763198163e-09
+xc (Mitte) = 9,7999999999999e+01 +/- 3,7658339326338e-11
+w (Breite) = 2,7999999999355e+01 +/- 8,3702560123413e-11
+y0 (Offset) = 3,1458434578276e-11 +/- 3,4162653457172e-11
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,1597062706631e-20
+R^2 = 1
+Angepasstes R^2 = 1
+RMSE (Standardabweichung) = 2,481875555032e-10
+RSS (Summe der quadrierten Restwerte) = 5,29734739277e-18
+---------------------------------------------------------------------------------------
+Iterationen = 8
+Status = success
+---------------------------------------------------------------------------------------
+
+</log>
+</folder>
 <open>1</open>
 <log>
 [02.11.15 19:16	Diagramm: ''Grafik1'']
@@ -156245,6 +161941,10 @@ A = 316.279,94734 (Konstante)
 w = 762,42726 (Konstante)
 xc = 2.658,61071 (Konstante)
 ---------------------------------------------------------------------------------------
+
+
+
+
 
 
 </log>
