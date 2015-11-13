@@ -6,7 +6,7 @@
        Zunächst haben wir eine Quelle in mittigem Abstand zu den beiden Detektoren vermessen. Die Quelle hatte am 29.10.2015 eine Aktivitiät $A = \unit[1,02]{MBq}$.\\
        \vspace{2mm}
         
-       \begin{tabular}{p{6cm}p{6cm}l}
+       \begin{longtable}{p{6cm}p{6cm}l}
                \minipanf 
                    \includegraphics[width=1.2\textwidth, height=0.225\textheight]{pic/Efenster_DetA_M.png}
                    \label{dfd:EdetA_M}
@@ -20,12 +20,12 @@
                \multicolumn{2}{c}{\hspace{1.5cm}
                    \includegraphics[width=0.7\textwidth, height=0.3\textheight]{pic/T_M_dia.png}
                    \label{dfd:T_M}}\\                        
-       \end{tabular}
+       \end{longtable}
        \captionof{table}{Kalibrationsmessung bei Quelle mittig zwischen den Detektoren A und B}
 
 
     \subsubsection{Messung bei Positionen direkt an den Detektoren}
-        \begin{tabular}{p{6cm}p{6cm}l}
+        \begin{longtable}{p{6cm}p{6cm}l}
             \minipanf 
                 \includegraphics[width=1.2\textwidth, height=0.225\textheight]{pic/T_A_dia.png}
                 \label{dfd:T_A}
@@ -56,8 +56,26 @@
                 \includegraphics[width=1.2\textwidth, height=0.225\textheight]{pic/Efenster_DetB_B.png}
                 \label{dfd:EdetBB}
             \minipend \\            
-        \end{tabular}
-        \captionof{figure}{Gegenüberstellung der Messungen mit der Quelle an Det. A (links) und Det. B (rechts)} 
+        \end{longtable}
+        \captionof{figure}{Gegenüberstellung der Messungen mit der Quelle an Det. A (links) und Det. B (rechts)}
+        
+    \subsubsection{Schwerpunktsdiagramme}
+    Als nächstes sind die Schwerpunktsdiagramme zu betrachen. Es wurden drei von Detektor A erstellt. Einmal als die Quelle an Detektor B positioniert wurde, danach an Detektor A und einmal mittig zwischen beiden.\\
+    In Abbildung \ref{dfp:SPDdetB} kann gegenüber \ref{dfp:SPDMitte} ein schwächeres Muster. Gegenüber Abbildung \ref{dfp:SPDMitte} ist sogar deutlich, die Kristallstruktur erkennbar.
+    
+    \begin{tabular}{p{5cm}p{5cm}p{5cm}c}
+        \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/fenster_DetAanB.png}
+        \captionof{figure}{Messung bei Quelle an Detektor B}
+        \label{dfp:SPDdetB}
+        &
+        \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/fenster_DetAMitte.png}
+        \captionof{figure}{Messung bei Quelle in der Mitte}
+        \label{dfp:SPDdetA}
+        &
+        \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/fenster_DetAanA.png}
+        \captionof{figure}{Messung bei Quelle an Detektor A}
+        \label{dfp:SPDMitte}
+    \end{tabular}
         
     \subsection{Tomografische Messungen}
     	\subsubsection{Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}
@@ -95,10 +113,9 @@
         \subsubsection{Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}
           \textbf{Hauptversuch}\\
           Als nächsten wurde eine Messung mit unbekannter Quellverteilung gestartet. Die Energie- und das Zeitfenster entsprechen den oben bestimmten Intervallen.\\ \ \\
-          \minipanf  
-            \begin{center}
-            \begin{tabular}{p{7cm}p{7cm}c}
-                \textbf{ungefilterter Projektion} & \textbf{gefilterte Rückprpjektion}\\
+
+            \begin{longtable}{p{7cm}p{7cm}c}
+                \textbf{ungefilterter Projektion} & \textbf{gefilterte Rückprpjektion} \endhead
                 \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek1_einf_prj.png}
                 & 
                 \includegraphics[width=.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek1gef_prj.png}\\
@@ -110,44 +127,101 @@
                 \includegraphics[width=.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek3gef_prj.png}\\               
                 \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek4einf_prj.png}
                 & 
-                \includegraphics[width=.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek4gef_prj.png} \pagebreak
-            \end{tabular}
+                \includegraphics[width=.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek4gef_prj.png} \\
+            \end{longtable}
             \captionof{figure}{Screenshots der Bildenstehung der gefilterten (rechts) und ungefilterten (links) Rückprojektion}
-            \end{center}
-          \minipend\\
+            \ \\
           Test, Test %Notiz, bitte entfernen
             \textbf{Untersuchung des Einflusses verschiedener Filter}\\
-          \minipanf  
+            \begin{center}
               \begin{tabular}{p{4.5cm}p{4.5cm}p{4.5cm}c}
                   \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_einf_prj.png}
-                  \captionof{figure}{ungefilterten Rückprojektion}
+                  \captionof*{figure}{ungefilterten Rückprojektion}
                   & 
                   \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_ramp.png}
-                  \captionof{figure}{Rampf-Filter}
+                  \captionof*{figure}{Rampf-Filter}
                   &
                   \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_hanning_weighted.png}
-                  \captionof{figure}{Hanning-weighted-Filter}\\
+                  \captionof*{figure}{Hanning-weighted-Filter}\\
                   \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_middle.png} 
-                  \captionof{figure}{Middle-Filter}
+                  \captionof*{figure}{Middle-Filter}
                   &
                   \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch3.png}
-                  \captionof{figure}{Rauschfilter bei Dimension 3}
+                  \captionof*{figure}{Rauschfilter bei Dimension 3}
                   & 
                   \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch13.png}               
-                  \captionof{figure}{Rauschfilter bei Dimension 13} \pagebreak[2] 
+                  \captionof*{figure}{Rauschfilter bei Dimension 13} \pagebreak[2] 
                   \\
                   \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch25.png}
-                  \captionof{figure}{Rauschfilter bei Dimension 25}
+                  \captionof*{figure}{Rauschfilter bei Dimension 25}
                   &
                   \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch36.png} 
-                  \captionof{figure}{Rauschfilter bei Dimension 36}
+                  \captionof*{figure}{Rauschfilter bei Dimension 36}
                   &
                   \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_shepp-logan.png}
-                  \captionof{figure}{Shepp-Logan-Filter}
+                  \captionof*{figure}{Shepp-Logan-Filter} %* unterdrückt wie so häufig die Numerierung
                 \end{tabular}\\
-                Die Abbildungen drei bis elf zeigen die Anwendung verschiedener Filter auf die ungefilterte Rückprojektion, wobei der Standardwert der Dimension 13 ist
-            
-            \minipend\\ \ \\            
-            
-            
+            \end{center}
+                Die Abbildungen drei bis elf zeigen die Anwendung verschiedener Filter auf die ungefilterte Rückprojektion, wobei der Standardwert der Dimension 13 ist.     
+                   
         \subsubsection{Messung mit einer Punktquelle, Phantom an-/insotroper Dichteverteilung}
+        
+        \textbf{Qualitative Gegenüberstellung an-/isotroper Dichteverteilung}\\
+ 
+              \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm}c} 
+                  \multicolumn{2}{c}{\textbf{anisotrope Dichteverteilung}} & \multicolumn{2}{c}{\textbf{isotrope Dichteverteilung}}\endhead
+                  gefiltert & ungefiltert & gefiltert & ungefiltert \endfoot
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/inhomogene_Messung/inhomo1einf_prj.png}
+                  & 
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/inhomogene_Messung/inhomo1gef_prj.png}
+                  &
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/isotrope_Messung/iso1einf_rueckprj.png}
+                  & 
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/isotrope_Messung/iso1gef_prj.png}\\
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/inhomogene_Messung/inhomo2einf_rueckprj.png}
+                  & 
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/inhomogene_Messung/inhomo2gef_prj.png}
+                  &
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/isotrope_Messung/iso2einf_rueckprj.png}
+                  & 
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/isotrope_Messung/iso2gef_prj.png}\\
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/inhomogene_Messung/inhomo3einf_rueckprj.png}
+                  & 
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/inhomogene_Messung/inhomo3gef_prj.png}
+                  &
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/isotrope_Messung/iso3einf_rueckprj.png}
+                  & 
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/isotrope_Messung/iso3gef_prj.png}\\
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/inhomogene_Messung/inhomo4einf_rueckprj.png}
+                  & 
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/inhomogene_Messung/inhomo4gef_prj.png}
+                  &
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/isotrope_Messung/iso4einf_prj.png}
+                  & 
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/isotrope_Messung/iso4gef_prj.png}\\
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/inhomogene_Messung/inhomo5einf_rueckprj.png}
+                  & 
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/inhomogene_Messung/inhomo5gef_prj.png}
+                  &
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/isotrope_Messung/iso6einf_prj.png}
+                  & 
+                  \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/isotrope_Messung/iso6gef_prj.png}\\
+                  \multicolumn{2}{c}{\includegraphics[width=.2\textwidth, height=0.25\textheight]{pic/Einzelfenster_Bilder/inhomogene_Messung/inhomo5sino.png}}
+                  &
+                  \multicolumn{2}{c}{\includegraphics[width=.2\textwidth, height=0.25\textheight]{pic/Einzelfenster_Bilder/isotrope_Messung/iso6sino.png}}
+           \end{longtable}
+        
+        \textbf{Gegenüberstellung der registrierten Ereigniszahlen und Ermittlung einer Korrekturfunktion}\\
+        
+        \centering \includegraphics[width=.72\textwidth, height=0.225\textheight]{pic/isotropie.png}
+        \captionof{figure}{Plot der registrierten Ereigniszahlen}
+        \centering \includegraphics[width=.75\textwidth, height=0.25\textheight]{pic/KorrekturderAnisotropie.png}
+        \captionof{figure}{registrierte Ereignisse (gelb), korrigierte Ereigniszahlen (schwarz) und Korrekturfunktion (blau)}
+        \flushleft
+        Die Korrekturfunktion, die man sich anhand der gelben Kurve ausdenken könnte, ist eine Gauß-Funktion, die ihr Maximum gerade im Minimum der erfassten Daten hat.
+        Sie sieht folgendermaßen aus:
+        \begin{equation*}
+            K(\theta) = \frac{A}{\sqrt{2\pi}\sigma} e^{-\frac{1}{2}\left(\frac{\theta - \Delta \theta}{\sigma}\right)^2} \text{ mit folgenden Parametern } \sigma=\unit[14]{\textdegree}, A=\unit[1300]{\textdegree} \text{ und } \Delta \theta = \unit[98]{\textdegree}
+        \end{equation*}
+        
+        

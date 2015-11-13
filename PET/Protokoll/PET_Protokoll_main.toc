@@ -5,10 +5,11 @@
 \contentsline {subsection}{\numberline {3.1}Theoretischer Teil}{2}
 \contentsline {subsection}{\numberline {3.2}Kalibriermessungen}{2}
 \contentsline {subsubsection}{\numberline {3.2.1}Messung einer Quelle bekannter Aktivit\IeC {\"a}t bei mittiger Quellposition}{2}
-\contentsline {subsubsection}{\numberline {3.2.2}Messung bei Positionen direkt an den Detektoren}{3}
+\contentsline {subsubsection}{\numberline {3.2.2}Messung bei Positionen direkt an den Detektoren}{2}
+\contentsline {subsubsection}{\numberline {3.2.3}Schwerpunktsdiagramme}{3}
 \contentsline {subsection}{\numberline {3.3}Tomografische Messungen}{4}
 \contentsline {subsubsection}{\numberline {3.3.1}Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}{4}
 \contentsline {subsubsection}{\numberline {3.3.2}Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}{5}
-\contentsline {subsubsection}{\numberline {3.3.3}Messung mit einer Punktquelle, Phantom an-/insotroper Dichteverteilung}{6}
-\contentsline {section}{\numberline {4}Auswertung}{6}
-\contentsline {section}{\numberline {5}Literatur}{7}
+\contentsline {subsubsection}{\numberline {3.3.3}Messung mit einer Punktquelle, Phantom an-/insotroper Dichteverteilung}{7}
+\contentsline {section}{\numberline {4}Auswertung}{9}
+\contentsline {section}{\numberline {5}Literatur}{10}
