@@ -85,19 +85,21 @@
             
             \begin{tabular}{p{6cm}p{6cm}c}
                             \minipanf 
-                                \makebox[\linewidth]{\includegraphics[width=2\textwidth, height=0.225\textheight]{pic/3dPlotTomographRamp.png}}
+                                \makebox[\linewidth]{\includegraphics[width=1.5\textwidth, height=0.3\textheight]{pic/3dPlotTomographRamp.png}}
                                 
                             \minipend
                             &
-                            \hspace{3mm} 
+                            \hspace{5mm} 
                             \minipanf
-                                \includegraphics[width=2.2\textwidth, height=0.25\textheight]{pic/3dPlotTomographUngef.png}
+                                \includegraphics[width=1.5\textwidth, height=0.3\textheight]{pic/3dPlotTomographUngef.png}
                             \minipend \\               
              
              \end{tabular} 
             \captionof{figure}{Gefilterte und Ungefilterte Rückprojektion der Aktivitätsverteilung}
             \label{dfd:AKV}
             \ \\
+            
+            Der verwendete Rampfilter kann als eine Faltung des Sinogramms $p(s,\theta)$ mit einer Filterfunktion $h(s)$ zu einem festen Winkel $\theta$ dargestellt werden. Das heißt man addiert zu einem festen Wert von $p(s,\theta)$ die umliegenden Funktionswerte innerhalb eines Bereiches von 13 BINs mit einem (negativen) Gewicht. Weitere Eigenschaften dieses Filters werden im Abschnitt (\ref{dfs:Radon}) dargestellt. Man beobachtet, dass durch diese Faltung im Vergleich zur ungefilterten Rückprojektion ein höheres Untergrundrauschen in Bereichen mit geringer Aktivität entsteht, da insbesondere auch die Skala einen kleineren Bereich ($N_{ramp}(x,y) \in [-0,14,\ 0,7],\ N_{u}(x,y) \in [0,18,\ 8,13] $) abdeckt. Allerdings fallen die Peaks durch die Faltung beim Rampfilter deutlich schneller ab (negative Bereiche um Maximum), wodurch man sie besser lokalisieren kann. Aus diesem Grund wird im Folgenden der gefilterte Datensatz für die quantitative Auswertung verwendet.\\
             
             \textbf{Quantitative Auswertung}
             
@@ -128,7 +130,32 @@
             \begin{equation}
                  \left(\frac{\Delta A_i}{A_i}\right)^2 = \left(\frac{\Delta A_{ref}}{A_{ref}}\right)^2 + \left(\frac{\Delta \bar{N}(x_i,y_i)}{\bar{N}(x_i,y_i)}\right)^2 + \left(\frac{\Delta \bar{N}_{ref}}{\bar{N}_{ref}}\right)^2
              \end{equation}\\   
-             Hierbei wurden die Fehler der rückprojizierten Aktivitäten als Standardabweichungen des Mittelwertes gesetzt, die sich beim obigen Mittelvorgang ergab: $\Delta \bar{N}(x_i,y_i) = \sigma(\bar{N})$. Die systematischen Fehler des PET-Scanners waren leider nicht bekannt. Zusammenfassend ergeben sich folgende Resultate:  
+             Hierbei wurden die Fehler der rückprojizierten Aktivitäten als Standardabweichungen des Mittelwertes gesetzt, die sich beim obigen Mittelvorgang ergab: $\Delta \bar{N}(x_i,y_i) = \sigma(\bar{N})$. Die systematischen Fehler des PET-Scanners waren leider nicht bekannt. Zusammenfassend ergeben sich folgende Resultate:\\
+             
+             \begin{tabular}{c|c|c|c|c|c}
+             				Peak \# $i$ 	& 	$x_i$ [mm] 	& 	$y_i$ [mm] 	& Peakmaximum $N(x_i, y_i)$ & Peakmittel $\bar{N}(x_i,y_i)$ & $A_i$ [kBq]\\
+             	\hline		$1$				&	$37 \pm 3,4$& $64 \pm 3,4$&	$0,705$					& $0,50 \pm 0,05$				& $79 \pm 2,4$\\
+             				$2$				&	$64 \pm 3,4$& $94 \pm 3,4$&	$0,4933$				& $0,36 \pm 0,03$				& $57 \pm 7,4$\\
+             				$3$				&	$91 \pm 3,4$& $64 \pm 3,4$&	$0,2837$				& $0.20 \pm 0,02$				& $31 \pm 4,1$\\
+             \end{tabular}
+             \caption{Aktivitäts- und Positionsbestimmung der unbekannten Quellverteilung}
+             \vspace{3mm}  
+                      
+             Da die Peaks eine gewisse Breite haben, die sich in der gefilterten Darstellung über etwa drei BINs erstreckt, wurde ein Ortsfehler von einem BIN angenommen. Diese Ortsunbestimmtheit in Verbindung mit den diskreten Messwerten führt zu einer Begrenzung der Ortsauflösung. Das heißt, dass es einen minimalen Abstand $d_{min}$ zwischen zwei Peaks gibt, unterhalb dessen man sie nicht mehr unterscheiden kann. In der Optik bestimmt man Auflösungen mit Hilfe des heuristischen \textit{Rayleigh-Kriteriums}, das besagt, dass der Mindestabstand zweier Lichtquellen gleich dem Abstand des Minimums erster Ordnung vom Zentrum des Beugungsmusters ist. Dieses Kriterium ist hier nicht anwendbar, da wir nicht zwangsläufig klar identifiziertbare Minima haben. Aus diesem Grund wurde die oben erläuterte Variante mit der Halbwertsbreite hier erneut angewendet: Der minimale Abstand zwischen zwei (identischen) Maxima entspricht der doppelten Distanz der Peakmitte zur Position der Halbwertsbreite. Folgende Abbildung verdeutlicht dies:\\
+             
+             \begin{tabular}{p{4.5cm}p{4.5cm}p{4.5cm}c}
+                                          \includegraphics[width=0.375\textwidth, height=0.2\textheight]{pic/3dplotAufloes3.png}
+                                         & 
+                                          \includegraphics[width=0.375\textwidth, height=0.2\textheight]{pic/3dplotAufloes2.png}
+                                         &
+                                          \includegraphics[width=0.375\textwidth, height=0.2\textheight]{pic/3dplotAufloes1.png} \\               
+                          
+             \end{tabular}
+             \captionof{figure}{Kriterium zur Unterscheidung zweier Peaks}
+             \label{dfd:Auflösung}
+             \vspace{3mm}
+             
+             In der ungefilterten Darstellung war die Halbwertsbreite bereits innerhalb von einem BIN erreicht, wodurch sich eine Ortsauflösung von ungefähr $d_{min} = 2\ \unit{BIN} = 6,75\ \unit{mm}$ ergibt.
             
         \subsubsection{Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}
           \textbf{Hauptversuch}\\
@@ -244,4 +271,15 @@
             K(\theta) = \frac{A}{\sqrt{2\pi}\sigma} e^{-\frac{1}{2}\left(\frac{\theta - \Delta \theta}{\sigma}\right)^2} \text{ mit folgenden Parametern } \sigma=\unit[14]{\textdegree}, A=\unit[1300]{\textdegree} \text{ und } \Delta \theta = \unit[98]{\textdegree}
         \end{equation*}
         
+        \subsubsection{Radon-Transformation als Rekonstruktionsverfahren: Ein Rechenbeispiel} \label{dfs:Radon}
+        \begin{tabular}{p{5.3cm}p{5.3cm}p{5.3cm}}
+                	\includegraphics[width=0.36\textwidth, height=0.2\textheight]{pic/radonInp.png}
+                    & 
+                    \includegraphics[width=0.36\textwidth, height=0.2\textheight]{pic/radonGef.png}
+                    &
+                  	\includegraphics[width=0.355\textwidth, height=0.19\textheight]{pic/radonUngef.png}                                     
+         \end{tabular}
+         \captionof{figure}{Theoretisches Beispiel für Radon-Transformation}
+         \label{dfd:Radon}
+         \vspace{3mm}  
         

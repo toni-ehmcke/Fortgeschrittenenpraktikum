@@ -1,6 +1,6 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	11
+<windows>	13
 <matrix>
 Matrix1	39	39	11/12/15 2:45 PM
 geometry	226	107	695	536	
@@ -10,7 +10,7 @@ ColWidth	100
 </formula>
 TextFormat	f	13
 WindowLabel		2
-Coordinates	1	39	1	39
+Coordinates	0	128.25	0	128.25
 ViewType	0
 HeaderViewType	0
 ColorPolicy	1
@@ -56,54 +56,16 @@ ColorPolicy	1
 38	0.023	0.0256	0.0103	-0.0076	-0.0247	-0.0211	0.0002	0.0326	0.0327	0.0268	0.0269	0.0197	0.012	0.0101	0.0098	0.0005	0.0034	0.0173	0.016	-0.0026	0.0042	0.0226	0.042	0.0504	0.038	0.021	0.0151	0.0324	0.0569	0.0558	0.0454	0.0231	0.003	-0.0041	-0.0009	0.0022	0.0023	0.009599999999999999	0.0126
 </data>
 </matrix>
-<SurfacePlot>
-Graph1	11/12/15 2:46 PM
-geometry	782	-1	815	688	
-SurfaceFunction	matrix<Matrix1>	1	39	1	39	-0.1445	0.705
-Style	frame	nofloor	bars	0.007	1	1
-grids	0
-title	Rampgefilterte Rückprojektion	#000000	Noto Sans	19	50	0
-colors	#000000	#000000	#000000	#000000	#ffffff	#000000	#0000ff	#000000	1	
-axesLabels	x-Position [mm]	y-Position [mm]	Gefilterte Rückprojektion
-tics	5	5	5	5	5	5
-tickLengths	3.8	2.28	3.8	2.28	3.8	2.28
-options	1	1	0
-numbersFont	Noto Sans	16	50	0
-xAxisLabelFont	Noto Sans	16	50	0
-yAxisLabelFont	Noto Sans	16	50	0
-zAxisLabelFont	Noto Sans	16	50	0
-rotation	29	0	18
-zoom	31.0307
-scaling	0.0263158	0.0263158	1.17716
-shift	0	0	0
-LineWidth	1
-WindowLabel		2
-Orthogonal	0
-<ColorMap>
-	<Mode>1</Mode>
-	<MinColor>#0000ff</MinColor>
-	<MaxColor>#000000</MaxColor>
-	<Range>-0.1445	0.705</Range>
-	<ColorStops>1</ColorStops>
-	<Stop>0	#ffffff</Stop>
-</ColorMap>
-axisType	0	0	0
-<Grid>
-	<Major>1	#0000ff	0	1</Major>
-	<Minor>1	#c0c0c0	1	0.8</Minor>
-</Grid>
-<AxesNumberFormat>0	6	0	6	0	6	</AxesNumberFormat>
-</SurfacePlot>
 <matrix>
 Matrix2	39	39	11/12/15 4:31 PM
-geometry	3	-1	708	535	
+geometry	maximized
 ColWidth	100
 <formula>
 
 </formula>
 TextFormat	f	13
 WindowLabel		2
-Coordinates	1	39	1	39
+Coordinates	0	128.25	0	128.25
 ViewType	0
 HeaderViewType	0
 ColorPolicy	1
@@ -149,25 +111,279 @@ ColorPolicy	1
 38	0.61	0.65	0.61	0.43	0.5	0.51	0.59	0.84	1.09	0.92	0.77	0.66	0.6899999999999999	0.73	0.78	0.86	0.65	0.76	0.96	0.73	0.8100000000000001	0.87	0.64	0.99	0.78	0.67	0.48	0.83	1.01	0.95	0.91	0.64	0.53	0.71	0.63	0.54	0.42	0.46	0.71
 </data>
 </matrix>
+<table>
+Horizontal	39	2	11/12/15 6:36 PM
+geometry	196	485	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	0	0.0556
+1	3.375	0.0518
+2	6.75	0.0355
+3	10.125	0.0305
+4	13.5	0.0149
+5	16.875	-0.0068
+6	20.25	-0.0203
+7	23.625	-0.0235
+8	27	-0.0193
+9	30.375	-0.0232
+10	33.75	-0.0277
+11	37.125	-0.0185
+12	40.5	-0.0026
+13	43.875	0.0144
+14	47.25	0.0071
+15	50.625	0.0211
+16	54	0.0315
+17	57.375	0.0428
+18	60.75	0.0245
+19	64.125	0.0282
+20	67.5	0.0402
+21	70.875	0.0402
+22	74.25	0.0094
+23	77.625	-0.0052
+24	81	-0.0042
+25	84.375	0.0084
+26	87.75	0.0104
+27	91.125	0.0091
+28	94.5	0.0023
+29	97.875	0.0036
+30	101.25	0.0121
+31	104.625	0.0045
+32	108	0.0001
+33	111.375	0.004
+34	114.75	0.0103
+35	118.125	0.01
+36	121.5	0.0125
+37	124.875	0.0121
+38	128.25	0.0153
+</data>
+</table>
+<table>
+Vertical	39	2	11/12/15 6:36 PM
+geometry	196	485	445	220	hidden
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	0	-0.0223
+1	3.375	-0.0148
+2	6.75	-0.0038
+3	10.125	-0.0019
+4	13.5	-0.0014
+5	16.875	-0.0011
+6	20.25	-0.0119
+7	23.625	-0.0174
+8	27	-0.0203
+9	30.375	-0.0135
+10	33.75	0.0049
+11	37.125	0.0192
+12	40.5	0.0353
+13	43.875	0.0446
+14	47.25	0.0599
+15	50.625	0.0755
+16	54	0.0857
+17	57.375	0.1028
+18	60.75	0.134
+19	64.125	0.1325
+20	67.5	0.0955
+21	70.875	0.0656
+22	74.25	0.0372
+23	77.625	0.0269
+24	81	0.0222
+25	84.375	0.0288
+26	87.75	0.0222
+27	91.125	0.0153
+28	94.5	-0.0043
+29	97.875	-0.0093
+30	101.25	-0.0069
+31	104.625	-0.0037
+32	108	-0.0108
+33	111.375	-0.0073
+34	114.75	-0.0013
+35	118.125	-0.013
+36	121.5	-0.0244
+37	124.875	-0.0182
+38	128.25	0.0002
+</data>
+</table>
+<table>
+Table1	39	2	11/12/15 6:38 PM
+geometry	0	0	445	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	0	0.54
+1	3.375	0.73
+2	6.75	0.78
+3	10.125	0.68
+4	13.5	0.53
+5	16.875	0.45
+6	20.25	0.71
+7	23.625	0.65
+8	27	0.63
+9	30.375	0.58
+10	33.75	0.59
+11	37.125	0.57
+12	40.5	0.88
+13	43.875	0.92
+14	47.25	0.95
+15	50.625	1.09
+16	54	0.83
+17	57.375	0.89
+18	60.75	1.01
+19	64.125	0.87
+20	67.5	0.69
+21	70.875	0.72
+22	74.25	0.9
+23	77.625	0.76
+24	81	0.52
+25	84.375	0.43
+26	87.75	0.59
+27	91.125	0.84
+28	94.5	0.66
+29	97.875	0.51
+30	101.25	0.47
+31	104.625	0.41
+32	108	0.59
+33	111.375	0.34
+34	114.75	0.33
+35	118.125	0.42
+36	121.5	0.45
+37	124.875	0.36
+38	128.25	0.38
+</data>
+</table>
+<table>
+Table2	39	2	11/12/15 6:38 PM
+geometry	0	0	445	220	
+header	1[X]	2[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	0	0.6
+1	3.375	0.63
+2	6.75	0.62
+3	10.125	0.5
+4	13.5	0.53
+5	16.875	0.71
+6	20.25	0.59
+7	23.625	0.51
+8	27	0.52
+9	30.375	0.63
+10	33.75	0.8
+11	37.125	1
+12	40.5	1.29
+13	43.875	1.49
+14	47.25	1.46
+15	50.625	1.41
+16	54	1.45
+17	57.375	1.36
+18	60.75	1.69
+19	64.125	1.81
+20	67.5	1.73
+21	70.875	1.55
+22	74.25	1.3
+23	77.625	1.29
+24	81	1.19
+25	84.375	1.37
+26	87.75	1.48
+27	91.125	1.3
+28	94.5	1.31
+29	97.875	1.12
+30	101.25	1.05
+31	104.625	1.1
+32	108	1.23
+33	111.375	0.97
+34	114.75	0.8
+35	118.125	0.67
+36	121.5	0.49
+37	124.875	0.48
+38	128.25	0.59
+</data>
+</table>
+<SurfacePlot>
+Graph1	11/12/15 2:46 PM
+geometry	782	-1	815	688	
+SurfaceFunction	matrix<Matrix1>	0	128.25	0	128.25	-0.1445	0.705
+Style	frame	nofloor	bars	0.007	1	1
+grids	0
+title	Rampgefilterte Rückprojektion	#000000	Noto Sans [unknown]	20	50	0
+colors	#000000	#000000	#000000	#000000	#ffffff	#000000	#0000ff	#000000	1	
+axesLabels	x [mm]	y [mm]	N_{ramp}(x,y)
+tics	5	5	5	5	5	5
+tickLengths	12.825	7.695	12.825	7.695	12.825	7.695
+options	1	1	0
+numbersFont	Noto Sans	16	50	0
+xAxisLabelFont	Noto Sans [unknown]	16	50	0
+yAxisLabelFont	Noto Sans [unknown]	16	50	0
+zAxisLabelFont	Noto Sans [unknown]	16	50	0
+rotation	12	0	23
+zoom	104.717
+scaling	0.00779727	0.00779727	1.17716
+shift	0	0	0
+LineWidth	1
+WindowLabel		2
+Orthogonal	0
+<ColorMap>
+	<Mode>1</Mode>
+	<MinColor>#0000ff</MinColor>
+	<MaxColor>#000000</MaxColor>
+	<Range>-0.1445	0.705</Range>
+	<ColorStops>1</ColorStops>
+	<Stop>0	#ffffff</Stop>
+</ColorMap>
+axisType	0	0	0
+<Grid>
+	<Major>1	#0000ff	0	1</Major>
+	<Minor>1	#c0c0c0	1	0.8</Minor>
+</Grid>
+<AxesNumberFormat>0	6	0	6	0	6	</AxesNumberFormat>
+</SurfacePlot>
 <SurfacePlot>
 Graph2	11/12/15 4:53 PM
-geometry	0	667	784	692	minimized	
-SurfaceFunction	matrix<Matrix1>	1	39	1	39	-0.1445	0.705
+geometry	0	0	784	692	
+SurfaceFunction	matrix<Matrix1>	0	128.25	0	128.25	-0.1445	0.705
 Style	frame	nofloor	bars	0.007	1	1
 grids	0
 title	Ungefilterte Rückprojektion	#000000	Noto Sans	20	50	0
 colors	#000000	#000000	#000000	#000000	#ffffff	#000000	#0000ff	#000000	1	
 axesLabels	x-Position [mm]	y-Position [mm]	Ungefilterte Rückprojektion
 tics	5	5	5	5	5	5
-tickLengths	3.8	2.28	3.8	2.28	3.8	2.28
+tickLengths	12.825	7.695	12.825	7.695	12.825	7.695
 options	1	1	0
 numbersFont	Noto Sans	16	50	0
 xAxisLabelFont	Noto Sans	13	50	0
 yAxisLabelFont	Noto Sans	13	50	0
 zAxisLabelFont	Noto Sans	13	50	0
 rotation	24	0	30
-zoom	31.0307
-scaling	0.0263158	0.0263158	1.17716
+zoom	104.717
+scaling	0.00779727	0.00779727	1.17716
 shift	0	0	0
 LineWidth	1
 WindowLabel		2
@@ -189,23 +405,23 @@ axisType	0	0	0
 </SurfacePlot>
 <SurfacePlot>
 Graph3	11/12/15 5:10 PM
-geometry	196	667	772	587	minimized	
-SurfaceFunction	matrix<Matrix2>	1	39	1	39	0.18	8.13
+geometry	0	0	772	587	
+SurfaceFunction	matrix<Matrix2>	0	128.25	0	128.25	0.18	8.13
 Style	frame	nofloor	bars	0.007	1	1
 grids	0
-title	Ungefilterte Rückprojektion	#000000	Noto Sans	16	50	0
+title	Ungefilterte Rückprojektion	#000000	Noto Sans [unknown]	20	50	0
 colors	#000000	#000000	#000000	#000000	#ffffff	#000000	#000000	#000000	1	
-axesLabels	x-Position [mm]	y-Position [mm]	Ungefilterte Rückprojektion
+axesLabels	x [mm]	y [mm]	N_{u}(x,y)
 tics	5	5	5	5	5	5
-tickLengths	3.8	2.28	3.8	2.28	3.8	2.28
+tickLengths	12.825	7.695	12.825	7.695	12.825	7.695
 options	1	1	0
 numbersFont	Noto Sans	13	50	0
-xAxisLabelFont	Noto Sans	13	50	0
-yAxisLabelFont	Noto Sans	13	50	0
-zAxisLabelFont	Noto Sans	13	50	0
-rotation	27	0	22
-zoom	31.3645
-scaling	0.0263158	0.0263158	0.125786
+xAxisLabelFont	Noto Sans [unknown]	16	50	0
+yAxisLabelFont	Noto Sans [unknown]	16	50	0
+zAxisLabelFont	Noto Sans [unknown]	16	50	0
+rotation	15	0	28
+zoom	125.779
+scaling	0.00779727	0.00779727	0.125786
 shift	0	0	0
 LineWidth	1
 WindowLabel		2
@@ -281,10 +497,10 @@ CanvasBackground	#ffffff	255
 	</ColorBar>
 	<Visible>1</Visible>
 </spectrogram>
-scale	0	1	39	0	4	5	0	1
+scale	0	0	128.25	0	4	5	0	1
 scale	1	-0.1445	0.705	0	5	5	0	0
 scale	2	1	39	0	4	5	0	0
-scale	3	1	39	0	4	5	0	0
+scale	3	0	128.25	0	4	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -336,8 +552,8 @@ CanvasBackground	#ffffff	255
 curve	Horizontal_1	Horizontal_2	0	1	#000000	0	1	3	0	#000000	#000000	0	#000000	14	1	2	0	0	38	1
 scale	0	-1	1	0	5	5	0	0
 scale	1	-1	1	0	5	5	0	0
-scale	2	1	39	0	4	5	0	0
-scale	3	1	39	0	4	5	0	0
+scale	2	0	128.25	0	4	5	0	0
+scale	3	0	128.25	0	4	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -385,8 +601,8 @@ AxesNumberColors	#212121	#212121	#212121	#212121
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
 curve	Vertical_2	Vertical_1	0	1	#000000	0	1	3	0	#000000	#000000	0	#000000	14	1	3	0	0	38	1
-scale	0	1	39	0	4	5	0	1
-scale	1	0	1000	0	6	5	0	0
+scale	0	0	128.25	0	4	5	0	1
+scale	1	0	128.25	0	4	5	0	1
 scale	2	-1	1	0	5	5	0	0
 scale	3	-1	1	0	5	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
@@ -406,117 +622,9 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
-<table>
-Horizontal	39	2	11/12/15 6:36 PM
-geometry	196	485	445	220	hidden
-header	1[X]	2[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/13	0;0/13
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
-WindowLabel		2
-<data>
-0	1	0.0143
-1	2	0.0222
-2	3	0.0308
-3	4	0.0331
-4	5	0.024
-5	6	0.0042
-6	7	-0.0043
-7	8	-0.0164
-8	9	-0.0364
-9	10	-0.0475
-10	11	-0.0597
-11	12	-0.0585
-12	13	-0.0686
-13	14	-0.0707
-14	15	-0.0817
-15	16	-0.0996
-16	17	-0.0463
-17	18	0.1293
-18	19	0.3933
-19	20	0.4933
-20	21	0.2865
-21	22	0.0081
-22	23	-0.0902
-23	24	-0.0841
-24	25	-0.0686
-25	26	-0.0582
-26	27	-0.0377
-27	28	-0.0256
-28	29	-0.0369
-29	30	-0.0417
-30	31	-0.0345
-31	32	-0.0216
-32	33	-0.0111
-33	34	0.002
-34	35	0.0207
-35	36	0.0368
-36	37	0.0292
-37	38	0.0224
-38	39	0.0168
-</data>
-</table>
-<table>
-Vertical	39	2	11/12/15 6:36 PM
-geometry	196	485	445	220	hidden
-header	1[X]	2[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/13	0;0/13
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
-WindowLabel		2
-<data>
-0	1	-0.0006
-1	2	0.011
-2	3	0.0155
-3	4	0.0103
-4	5	0.0001
-5	6	0.0024
-6	7	0.018
-7	8	0.0345
-8	9	0.0402
-9	10	0.0453
-10	11	0.0426
-11	12	0.0375
-12	13	0.0205
-13	14	0.0079
-14	15	-0.0014
-15	16	0.0106
-16	17	-0.0048
-17	18	-0.0108
-18	19	-0.0188
-19	20	-0.0214
-20	21	-0.0141
-21	22	0
-22	23	0.0048
-23	24	0.001
-24	25	-0.0049
-25	26	0.0126
-26	27	0.1452
-27	28	0.2629
-28	29	0.2865
-29	30	0.2493
-30	31	0.2026
-31	32	0.1572
-32	33	0.1251
-33	34	0.0991
-34	35	0.0641
-35	36	0.0345
-36	37	0.0201
-37	38	0.0143
-38	39	0.0042
-</data>
-</table>
 <multiLayer>
 Profiles2	1	1	11/12/15 6:38 PM
-geometry	71	-19	650	600	active
+geometry	71	-19	650	600	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -570,10 +678,10 @@ CanvasBackground	#ffffff	255
 	</ColorBar>
 	<Visible>1</Visible>
 </spectrogram>
-scale	0	1	39	0	4	5	0	1
+scale	0	0	128.25	0	4	5	0	1
 scale	1	0.18	8.13	0	9	5	0	0
 scale	2	1	39	0	4	5	0	0
-scale	3	1	39	0	4	5	0	0
+scale	3	0	128.25	0	4	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -625,8 +733,8 @@ CanvasBackground	#ffffff	255
 curve	Table1_1	Table1_2	0	1	#000000	0	1	3	0	#000000	#000000	0	#000000	14	1	2	0	0	38	1
 scale	0	0	9	0	6	5	0	0
 scale	1	0	9	0	6	5	0	0
-scale	2	1	39	0	4	5	0	0
-scale	3	1	39	0	4	5	0	0
+scale	2	0	128.25	0	4	5	0	0
+scale	3	0	128.25	0	4	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -674,8 +782,8 @@ AxesNumberColors	#212121	#212121	#212121	#212121
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	255
 curve	Table2_2	Table2_1	0	1	#000000	0	1	3	0	#000000	#000000	0	#000000	14	1	3	0	0	38	1
-scale	0	1	39	0	4	5	0	1
-scale	1	0	1000	0	6	5	0	0
+scale	0	0	128.25	0	4	5	0	1
+scale	1	0	128.25	0	4	5	0	1
 scale	2	0	9	0	6	5	0	0
 scale	3	0	9	0	6	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
@@ -695,112 +803,66 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
-<table>
-Table1	39	2	11/12/15 6:38 PM
-geometry	0	0	445	220	hidden
-header	1[X]	2[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/13	0;0/13
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
+<matrix>
+Matrix3	10	11	11/13/15 11:56 AM
+geometry	451	92	538	446	
+ColWidth	100
+<formula>
+
+</formula>
+TextFormat	f	13
 WindowLabel		2
+Coordinates	1	10	1	10
+ViewType	0
+HeaderViewType	0
+ColorPolicy	0
 <data>
-0	1	0.84
-1	2	0.88
-2	3	0.91
-3	4	0.99
-4	5	1.26
-5	6	1.53
-6	7	1.81
-7	8	2.23
-8	9	2.87
-9	10	4.46
-10	11	7.18
-11	12	8.13
-12	13	4.61
-13	14	2.82
-14	15	2.09
-15	16	1.75
-16	17	1.52
-17	18	1.54
-18	19	1.4
-19	20	1.26
-20	21	1.23
-21	22	1.33
-22	23	1.41
-23	24	1.54
-24	25	1.49
-25	26	1.79
-26	27	2.34
-27	28	3.68
-28	29	3.3
-29	30	2.03
-30	31	1.38
-31	32	1.28
-32	33	1.3
-33	34	1.21
-34	35	1.06
-35	36	0.99
-36	37	0.91
-37	38	0.81
-38	39	0.79
+0	0	0	0	0	0	0	0	0	0	0	0
+1	0	0	0	0	0	0	0	0	0	0	0
+2	0	2.5	2.5	2.5	2.5	2.5	2.5	0	0	0	0
+3	0	2.5	5	5	5	5	2.5	0	0	0	0
+4	0	2.5	5	10	10	5	2.5	0	0	0	0
+5	0	2.5	5	5	5	5	2.5	0	0	0	0
+6	0	2.5	2.5	2.5	2.5	2.5	2.5	0	0	0	0
+7	0	0	0	0	0	0	0	0	0	0	0
+8	0	0	0	0	0	0	0	0	0	0	0
+9	0	0	0	0	0	0	0	0	0	0	0
 </data>
-</table>
-<table>
-Table2	39	2	11/12/15 6:38 PM
-geometry	0	0	445	220	hidden
-header	1[X]	2[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/13	0;0/13
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
+</matrix>
+<SurfacePlot>
+Graph4	11/13/15 11:59 AM
+geometry	911	136	500	400	active
+SurfaceFunction	matrix<Matrix3>	1	10	1	10	0	10
+Style	box	nofloor	filledmesh
+grids	0
+title		#000000	Noto Sans	11	50	0
+colors	#000000	#000000	#000000	#000000	#ffffff	#000000	#0000ff	#ff0000	1	
+axesLabels	X axis	Y axis	Z axis
+tics	5	5	5	5	5	5
+tickLengths	0.9	0.54	0.9	0.54	0.9	0.54
+options	0	1	0
+numbersFont	Noto Sans	9	50	0
+xAxisLabelFont	Noto Sans	9	50	0
+yAxisLabelFont	Noto Sans	9	50	0
+zAxisLabelFont	Noto Sans	9	50	0
+rotation	27	0	22
+zoom	9.34523
+scaling	0.111111	0.111111	0.1
+shift	0	0	0
+LineWidth	1
 WindowLabel		2
-<data>
-0	1	0.73
-1	2	0.77
-2	3	0.64
-3	4	0.51
-4	5	0.53
-5	6	0.69
-6	7	0.56
-7	8	0.79
-8	9	0.92
-9	10	0.72
-10	11	0.73
-11	12	1.12
-12	13	0.92
-13	14	0.79
-14	15	0.93
-15	16	1.19
-16	17	1.05
-17	18	1.16
-18	19	1.14
-19	20	1.23
-20	21	1.21
-21	22	1.33
-22	23	1.59
-23	24	1.5
-24	25	1.77
-25	26	2
-26	27	2.54
-27	28	3.58
-28	29	4.94
-29	30	3.83
-30	31	2.43
-31	32	1.73
-32	33	1.61
-33	34	1.56
-34	35	1.22
-35	36	0.95
-36	37	0.96
-37	38	0.9
-38	39	0.81
-</data>
-</table>
+Orthogonal	0
+<ColorMap>
+	<Mode>1</Mode>
+	<MinColor>#0000ff</MinColor>
+	<MaxColor>#ff0000</MaxColor>
+	<ColorStops>0</ColorStops>
+</ColorMap>
+axisType	0	0	0
+<Grid>
+	<Major>1	#0000ff	0	1</Major>
+	<Minor>1	#c0c0c0	1	0.8</Minor>
+</Grid>
+<AxesNumberFormat>0	6	0	6	0	6	</AxesNumberFormat>
+</SurfacePlot>
 <open>1</open>

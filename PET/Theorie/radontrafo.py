@@ -12,8 +12,8 @@ import matplotlib.cm as cm
 N = 5                                                  # Dimension
 BIN = 1                                                # bin width of filter
 inp = np.zeros(shape=(N,N))                            # input matrix
-inp[0,2] = 1
-inp[2,0] = 3
+inp[0,2] = 3
+inp[2,0] = 1
 inp[3,3] = 7
 
 filt = np.zeros(2*BIN+1)
@@ -130,9 +130,9 @@ outUnfilt = Backproj0 + 0.5 * Backproj45 + Backproj90 \
 outFilt = Backproj0Filt + 0.5 * Backproj45Filt \
                 + Backproj90Filt + 0.5 * Backproj135Filt # unfiltered output
 
-print outFilt
 
-fig = plt.figure("Radon-Transformation", figsize=(15,9))
+
+fig = plt.figure("Radon-Transformation", figsize=(15,10))
 
 axInp = fig.add_subplot(221)
 axInp.set_xlabel("location x")
@@ -149,7 +149,12 @@ axOutFilt.set_xlabel("location x")
 axOutFilt.set_ylabel("location y")
 axOutFilt.set_title("Gefilterte Rueckprojektion")
 
+print "Input"
 print inp
+print "Gefilterte Rückprojektion"
+print outFilt
+print "Ungefilterte Rückprojektion"
+print outUnfilt
 plotInp = axInp.imshow(inp,interpolation='None', cmap = cm.Greys,
                        extent = [0,N,0,N])
 fig.colorbar(plotInp, ax=axInp)
