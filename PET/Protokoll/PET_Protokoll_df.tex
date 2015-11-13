@@ -44,12 +44,42 @@
        $$ \Delta(\Delta t) = \unit[0,03]{ns} ; \Delta E_A = \unit[44,84]{keV}; \Delta E_A = \unit[44,00]{keV} $$
        Um Messungen vorzunehmen, müssen jetzt die Fenster für Energie und Koninzidenzzeit bestimmt werden. Dies geschieht über Gauß-Fits in den Diagrammen von Tabelle \ref{dft:kalim}.
        Dann bestimmt man das FWHM und zieht es von den Maxmumpositionen ab. Damit ergeben sich die Fenster zu:
-       $$ E_A \in \left[ 2217, 3101\right], E_B \in \left[ 1629, 2264 \right], \Delta t \in \left[x\right] $$ 
-       Daraus ergibt sich eine Koinzidenzauflösungszeit von $\tau = \unit[4,77]{ns}$, welche auf eine Abschätzung der zufälligen Koinzidenzen führt. Diese können mit verschiedenen
-       Gedankengängen abgeschätzt werden. Wir haben die Wahrscheinlichkeit, dass beim Zerfall der $^{22}\unit{Na}$ Positronen emittiert werden gegeben. 
-
+       $$ K_A \in \left[ 2217, 3101\right], K_B \in \left[ 1629, 2264 \right],  K_t \in \left[1252, 1351\right] $$ 
+       $$ E_A \in \left[478 , 636\right] \unit{keV}, E_B \in \left[ 458, 598\right] \unit{keV},  \Delta t \in \left[60, 65\right]\unit{ns} $$ 
+       Daraus ergibt sich eine Koinzidenzauflösungszeit von $\tau = \unit[(4,77 \pm 0,02)]{ns}$, welche auf eine Abschätzung der zufälligen Koinzidenzen führt. Mithilfe der gegebenen Positronenemissionswahrscheinlichkeit
+       für $\unit[^{22}]{Na}$ können wir die Zahl der Zerfälle berechnen, die keine Positronen emittieren. Im schlimmsten Fall würden alle diese Zerfälle einen Beitrag zufälliger Koinzidenzen beisteuern, was 
+       zehn Prozent der gemessenen Ereignisse ausmacht. Bei $\unit[^{22}]{Na}$ bestehen diese restlichen Prozesse aus $\gamma\unit{-Quanten}$ mit einer Energie von 1275 keV. Diese kann man vor allem in den späteren
+       Messungen, die direkt an den Detektoren gemacht wurden, erkennen. (Siehe Abbildung \ref{dft:kaliAB}) Einen Großteil dieser Ereignisse schließen wir jedoch durch die Kalibrierung und die Setzung der Zeitfenster
+       aus, sodass der Einfluss keine 10\% mehr ausmacht. Deshalb ist die Zahl der zufälligen Koinzidenzen besser abschätzbar über die Standardabweichung im Zusammenhang mit dem Anteil der Prozesse, die beim Zerfall 
+       keine Positronen emittieren. Hierfür ergibt sich die Zahl der zufälligen Koinzidenzen zu $N = 147$.\\
+       
+       \textbf{Koinzidenznachweiseffektivität}\\
+       Mit diesen Informationen lassen sich nun die Koinzidenznachweiseffektivitätem der verwendeten Detektoren A und B berechnen. Gegeben sind zunächst folgende Formeln für die Zählrate wahrer Koinzidenzen:
+       \begin{gather}
+           \dot N_K = \left( \frac{\Omega _{min}}{2\pi} \right) A P_\beta \varepsilon_A \varepsilon_B
+           \label{dff:NK}\\
+           \dot N_Z = \left( \frac{2\tau A\Omega _{min}}{\pi} \right)\dot N_K
+           \label{dff:NZ}
+       \end{gather}
+       
+       Dabei sind $\varepsilon_{A/B}$ die Nachweiseffektivitäten der Detektoren, $P_\beta$ die Positronenemissionswahrscheinlichkeit und $\Omega_{min}$ der Raumwinkel des Detektors, der am weitesten von der Quelle entfernt
+       ist. $\dot N_Z$ ist die Zählrate zufälliger Koinzidenzen. Setzt man die Gleichungen \ref{dff:NK} und \ref{dff:NZ} ineinander ein, erhält man folgende Gleichung für die Nachweiseffektivitäten:
+       $$ \varepsilon_A \varepsilon_B = \frac{\pi^2 \dot N_Z}{A^2 P_\beta \tau \Omega^2_{min}} \text{ mit } \Omega_{min} = \frac{4a^2}{\left(D-b\right)^2 } \text{ und } \dot N_Z = \frac{N_Z}{\tau}$$
+       Da die Nachweiseffektivität pro Detektor zu bestimmen ist, kann man $ \varepsilon_A \simeq \varepsilon_B $ annehmen und erhält:
+       $$ \varepsilon_{A/B} = \frac{\pi (D-b)^2}{4Aa^2} \frac{1}{\tau} \sqrt{\frac{N_{Z,A/B}}{P_\beta}}$$ 
+       Für den Fehler erhält man bei fehlerlos angenommenen b, D, a und A folgendes:
+       $$ \varepsilon_{A/B} = \frac{\pi (D-b)^2 N^{1/2}_Z}{8a^2A\tau P_\beta{1/2}} \cdot \sqrt{\left(\frac{\Delta N_Z}{N_Z}\right)^2 + \left(\frac{2\Delta \tau}{\tau}\right)^2 + \left(\frac{\Delta P_\beta}{P_\beta}\right)^2}$$
+       Die übrigen Daten können aus der Arbeitsanweisung extrahiert werden:
+       $$ D = \unit[386]{mm}, b = \unit[25]{mm}, a = \unit[54]{mm}, P_\beta = 0,90382 \pm 0,00021$$
+       Damit erhalten wir für die Detektoren folgende Nachweiseffektivitäten:
+       $$ \varepsilon_A = 2, \varepsilon_B = 1$$
 
     \subsubsection{Messung bei Positionen direkt an den Detektoren}
+        Als nächstes soll der Abstand der beiden Detektoren zueinander bestimmt werden. Hierfür erfolgen Messungen, bei denen die Kalibrierquelle direkt an den Detektoren positioniert wird.
+        Wie oben angedeutet, sieht man in den nachfolgenden Diagramme auch die Detektionen von den Photenen der Zerfallsreihe mit nur 10\% Wahrscheinlichkeit, eben jenen Prozessen, die nicht
+        die gewollte Positronenemission erzeugen. Besonders gut fällt dies dort auf, wo die Quelle wirklich direkt am Detektor liegt nicht und nicht am gegenüberliegenden.
+        Am gegenüberliegenden Detektor sieht man jeweils zwei große Peaks von denen einer im niedrigeren Energiebereich als dem erwarteten liegen.
+        Dies ist auch nachvollziehbar, da alle gestreuten und durch Bremsstrahlung erzeugten Photonen mitgezählt werden.
         \begin{longtable}{p{6cm}p{6cm}l}
             \minipanf 
                 \includegraphics[width=1.2\textwidth, height=0.225\textheight]{pic/T_A_dia.png}
@@ -83,11 +113,19 @@
             \minipend \\            
         \end{longtable}
         \captionof{figure}{Gegenüberstellung der Messungen mit der Quelle an Det. A (links) und Det. B (rechts)}
+        \label{dft:kaliAB}
+    Aus den Zeitdiagrammen, die auf den ersten Blick sehr ähnlich sind, kann man über einen Gauß-Fit die Peak-Positionen, das heißt, die Maxima, bestimmen.
+    Diese wird verwendet, um die Laufzeitdifferenz und damit letztlich den Abstand zwischen den Detektoren A und B zu bestimmen.
+    Die Zeitpeaks liegen bei $ \Delta t_A = \unit[63,35]{ns}$ und $\Delta t_B = \unit[61,80]{ns}$. Mit der Formel $l = c\cdot \Delta T$
+    ergibt sich $l = \unit[46,5]{cm}$ Dieser Wert ist größer als der, der uns in der Aufgabenstellung verraten wurde und weicht um 20\% ab. Dies liegt daran, 
+    dass das Delay des Detektors A nicht bestimmt wurde. Rechnet man dieses heraus, kann man sicher auf den von 38,6cm gelangen.
+
         
     \subsubsection{Schwerpunktsdiagramme}
     Als nächstes sind die Schwerpunktsdiagramme zu betrachen. Es wurden drei von Detektor A erstellt. Einmal als die Quelle an Detektor B positioniert wurde, danach an Detektor A und einmal mittig zwischen beiden.\\
-    In Abbildung \ref{dfp:SPDdetB} kann gegenüber \ref{dfp:SPDMitte} ein schwächeres Muster. Gegenüber Abbildung \ref{dfp:SPDMitte} ist sogar deutlich, die Kristallstruktur erkennbar.
-    
+    In Abbildung \ref{dfp:SPDdetB} kann gegenüber \ref{dfp:SPDMitte} ein schwächeres Muster erkannt werden. Gegenüber Abbildung \ref{dfp:SPDMitte} ist in beiden deutlich die Kristallstruktur erkennbar.
+    Diese stellt sich durch die vielen Maximumflecken dar. Gekennzeichnet werden die Kristalle durch ein rotes Gitter, welches vom PC über die Bilder gelegt wurde. Dieses kennzeichnet die 8x8-Matrix.\\
+        
     \begin{tabular}{p{5cm}p{5cm}p{5cm}c}
         \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/fenster_DetAanB.png}
         \captionof{figure}{Messung bei Quelle an Detektor B}
@@ -100,7 +138,13 @@
         \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/fenster_DetAanA.png}
         \captionof{figure}{Messung bei Quelle an Detektor A}
         \label{dfp:SPDMitte}
-    \end{tabular}
+    \end{tabular}\\
+    
+    Bei der Messung an Quelle A zeigt sich auch deutlich, wie die Kristalle geschnitten wurden. So finden hier an den Einschnitten keine Reflexionen statt und die Strahlung kann sich kugelförmig ausbreiten und als großer
+    kreisförmiger Hotspot detektiert werden. Es können allerdings auch vier Dreiecke beobachtet werden, welche durch die Kristallstruktur erzeugt wurden.
+    Im Bild der Messung des Detektors A während sich die Quelle an Detektor B befand ist weiterhin erkennbar, dass widererwartend die Intensität in der oberen Bildhälfte schwächer ist als in der unteren. Die Schwächung
+    sollte normalerweise in der unteren Hälfte auftreten, da hier eine Glasplatte Strahlung abschirmt. Das heißt, das Bild muss um 180° gedreht sein. 
+    Sehr schön sind in den Abbildungen \ref{dfp:SPDdetB} und \ref{dfp:SPDMitte} auch die Verzerrungen sichtbar, die durch die Projektion der kugelförmigen Ausbreitung der Strahlung auf eine ungekrümmte Ebene entstehen.
         
     \subsection{Tomografische Messungen}
     	\subsubsection{Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}
@@ -110,19 +154,21 @@
             
             \begin{tabular}{p{6cm}p{6cm}c}
                             \minipanf 
-                                \makebox[\linewidth]{\includegraphics[width=2\textwidth, height=0.225\textheight]{pic/3dPlotTomographRamp.png}}
+                                \makebox[\linewidth]{\includegraphics[width=1.5\textwidth, height=0.3\textheight]{pic/3dPlotTomographRamp.png}}
                                 
                             \minipend
                             &
-                            \hspace{3mm} 
+                            \hspace{5mm} 
                             \minipanf
-                                \includegraphics[width=2.2\textwidth, height=0.25\textheight]{pic/3dPlotTomographUngef.png}
+                                \includegraphics[width=1.5\textwidth, height=0.3\textheight]{pic/3dPlotTomographUngef.png}
                             \minipend \\               
              
              \end{tabular} 
             \captionof{figure}{Gefilterte und Ungefilterte Rückprojektion der Aktivitätsverteilung}
             \label{dfd:AKV}
             \ \\
+            
+            Der verwendete Rampfilter kann als eine Faltung des Sinogramms $p(s,\theta)$ mit einer Filterfunktion $h(s)$ zu einem festen Winkel $\theta$ dargestellt werden. Das heißt man addiert zu einem festen Wert von $p(s,\theta)$ die umliegenden Funktionswerte innerhalb eines Bereiches von 13 BINs mit einem (negativen) Gewicht. Weitere Eigenschaften dieses Filters werden im Abschnitt (\ref{dfs:Radon}) dargestellt. Man beobachtet, dass durch diese Faltung im Vergleich zur ungefilterten Rückprojektion ein höheres Untergrundrauschen in Bereichen mit geringer Aktivität entsteht, da insbesondere auch die Skala einen kleineren Bereich ($N_{ramp}(x,y) \in [-0,14,\ 0,7],\ N_{u}(x,y) \in [0,18,\ 8,13] $) abdeckt. Allerdings fallen die Peaks durch die Faltung beim Rampfilter deutlich schneller ab (negative Bereiche um Maximum), wodurch man sie besser lokalisieren kann. Aus diesem Grund wird im Folgenden der gefilterte Datensatz für die quantitative Auswertung verwendet.\\
             
             \textbf{Quantitative Auswertung}
             
@@ -153,7 +199,32 @@
             \begin{equation}
                  \left(\frac{\Delta A_i}{A_i}\right)^2 = \left(\frac{\Delta A_{ref}}{A_{ref}}\right)^2 + \left(\frac{\Delta \bar{N}(x_i,y_i)}{\bar{N}(x_i,y_i)}\right)^2 + \left(\frac{\Delta \bar{N}_{ref}}{\bar{N}_{ref}}\right)^2
              \end{equation}\\   
-             Hierbei wurden die Fehler der rückprojizierten Aktivitäten als Standardabweichungen des Mittelwertes gesetzt, die sich beim obigen Mittelvorgang ergab: $\Delta \bar{N}(x_i,y_i) = \sigma(\bar{N})$. Die systematischen Fehler des PET-Scanners waren leider nicht bekannt. Zusammenfassend ergeben sich folgende Resultate:  
+             Hierbei wurden die Fehler der rückprojizierten Aktivitäten als Standardabweichungen des Mittelwertes gesetzt, die sich beim obigen Mittelvorgang ergab: $\Delta \bar{N}(x_i,y_i) = \sigma(\bar{N})$. Die systematischen Fehler des PET-Scanners waren leider nicht bekannt. Zusammenfassend ergeben sich folgende Resultate:\\
+             
+             \begin{tabular}{c|c|c|c|c|c}
+             				Peak \# $i$ 	& 	$x_i$ [mm] 	& 	$y_i$ [mm] 	& Peakmaximum $N(x_i, y_i)$ & Peakmittel $\bar{N}(x_i,y_i)$ & $A_i$ [kBq]\\
+             	\hline		$1$				&	$37 \pm 3,4$& $64 \pm 3,4$&	$0,705$					& $0,50 \pm 0,05$				& $79 \pm 2,4$\\
+             				$2$				&	$64 \pm 3,4$& $94 \pm 3,4$&	$0,4933$				& $0,36 \pm 0,03$				& $57 \pm 7,4$\\
+             				$3$				&	$91 \pm 3,4$& $64 \pm 3,4$&	$0,2837$				& $0.20 \pm 0,02$				& $31 \pm 4,1$\\
+             \end{tabular}
+             \caption{Aktivitäts- und Positionsbestimmung der unbekannten Quellverteilung}
+             \vspace{3mm}  
+                      
+             Da die Peaks eine gewisse Breite haben, die sich in der gefilterten Darstellung über etwa drei BINs erstreckt, wurde ein Ortsfehler von einem BIN angenommen. Diese Ortsunbestimmtheit in Verbindung mit den diskreten Messwerten führt zu einer Begrenzung der Ortsauflösung. Das heißt, dass es einen minimalen Abstand $d_{min}$ zwischen zwei Peaks gibt, unterhalb dessen man sie nicht mehr unterscheiden kann. In der Optik bestimmt man Auflösungen mit Hilfe des heuristischen \textit{Rayleigh-Kriteriums}, das besagt, dass der Mindestabstand zweier Lichtquellen gleich dem Abstand des Minimums erster Ordnung vom Zentrum des Beugungsmusters ist. Dieses Kriterium ist hier nicht anwendbar, da wir nicht zwangsläufig klar identifiziertbare Minima haben. Aus diesem Grund wurde die oben erläuterte Variante mit der Halbwertsbreite hier erneut angewendet: Der minimale Abstand zwischen zwei (identischen) Maxima entspricht der doppelten Distanz der Peakmitte zur Position der Halbwertsbreite. Folgende Abbildung verdeutlicht dies:\\
+             
+             \begin{tabular}{p{4.5cm}p{4.5cm}p{4.5cm}c}
+                                          \includegraphics[width=0.375\textwidth, height=0.2\textheight]{pic/3dplotAufloes3.png}
+                                         & 
+                                          \includegraphics[width=0.375\textwidth, height=0.2\textheight]{pic/3dplotAufloes2.png}
+                                         &
+                                          \includegraphics[width=0.375\textwidth, height=0.2\textheight]{pic/3dplotAufloes1.png} \\               
+                          
+             \end{tabular}
+             \captionof{figure}{Kriterium zur Unterscheidung zweier Peaks}
+             \label{dfd:Auflösung}
+             \vspace{3mm}
+             
+             In der ungefilterten Darstellung war die Halbwertsbreite bereits innerhalb von einem BIN erreicht, wodurch sich eine Ortsauflösung von ungefähr $d_{min} = 2\ \unit{BIN} = 6,75\ \unit{mm}$ ergibt.
             
         \subsubsection{Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}
           \textbf{Hauptversuch}\\
@@ -211,6 +282,10 @@
         \subsubsection{Messung mit einer Punktquelle, Phantom an-/insotroper Dichteverteilung}
         
         \textbf{Qualitative Gegenüberstellung an-/isotroper Dichteverteilung}\\
+        Nun sollen eine isotrope und eine anisotrope Dichteverteilung des Quellbehältnisses untersucht werden. In der nachstehenden Tabelle ist die Entwicklung der Rückprojektionen
+        protokolliert. Man kann hier früh erkennen, dass die gefilterten Bilder die Quelle schärfer abbilden als die ungefilterten. Besonders sind allerdings die Screenshots 
+        der abgeschlossenen Messung und  die fertigen Sinogramme. Bei der isotropen Messung kann man klar die isotrope erkennen. Die Intensität im Sinogramm ist kontinuierlich gleich,
+        ebenso ist in der gefilterten Rückprojektion kein Schatten mehr erkennbar. 
  
               \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm}c} 
                   \multicolumn{2}{c}{\textbf{anisotrope Dichteverteilung}} & \multicolumn{2}{c}{\textbf{isotrope Dichteverteilung}}\endhead
@@ -254,18 +329,39 @@
                   &
                   \multicolumn{2}{c}{\includegraphics[width=.2\textwidth, height=0.25\textheight]{pic/Einzelfenster_Bilder/isotrope_Messung/iso6sino.png}}
            \end{longtable}
+           \ \\
+           Demgegenüber stehen die Bilder der anisotropen Messung. Man erkennt hier in der Mitte des Sinogramms eine dunklere Stelle und in den abgeschlossenen Rückprojektionen sieht man rechts und
+           linksdunklere Stellen, die das Halo unterbrechen. Uns wurde bekanntgegeben, dass nur auf einer Seite eine Anisotropie eingesetzt wurde. Wir sehen diese Unterbrechung jedoch sowohl links als 
+           auch rechts. Das bedeutet, dass man in der Praxis nicht mit Sicherheit sagen, wo sich ein festerer Stoff wie zum Beispiel ein Knochen befindet.\\ \ \\
         
         \textbf{Gegenüberstellung der registrierten Ereigniszahlen und Ermittlung einer Korrekturfunktion}\\
+        Als nächstes schaut man sich die registrierten und auch tatsächlich für die Rückprojektion verwendeten Ereignisdaten an. Zunächst folgt in Abbildung \ref{dfd:iso} die Darstellung der Ereignisszahlen
+        über den Winkel. Man sieht, wie sich die Werte um eine gedachte, konstante Linie herum verteilen und damit die Isotropie. In der nachfolgenden Abbildung \ref{dfd:aniso} sieht man im Gegenteil dazu 
+        deutlich die Anisotropie, gekennzeichnet durch eine Mulde, die demnach auszeichnet, dass die Dichte des Materials hier größer war, da weniger Ereignisse gezählt werden. 
         
         \centering \includegraphics[width=.72\textwidth, height=0.225\textheight]{pic/isotropie.png}
         \captionof{figure}{Plot der registrierten Ereigniszahlen}
+        \label{dfd:iso}
         \centering \includegraphics[width=.75\textwidth, height=0.25\textheight]{pic/KorrekturderAnisotropie.png}
         \captionof{figure}{registrierte Ereignisse (gelb), korrigierte Ereigniszahlen (schwarz) und Korrekturfunktion (blau)}
+        \label{dfd:aniso}
         \flushleft
-        Die Korrekturfunktion, die man sich anhand der gelben Kurve ausdenken könnte, ist eine Gauß-Funktion, die ihr Maximum gerade im Minimum der erfassten Daten hat.
-        Sie sieht folgendermaßen aus:
+        Diese Mulde, die wie eine Art Tal irgendwie gaußförmig aussieht, kann man durch eine Korrekturfunktion auf das konstante Niveau anheben. So hat jedes Material seine eigene Korrekturfunktion.
+        In Abbildung \ref{dfd:aniso} erkennt man, dass die schwarze Kurve wieder ungefähr um eine konstante Kurve verteilt.
+        Die Korrekturfunktion und insbesondere ihre Parameter sind durch ausprobieren entstanden. Die Funktion sieht folgendermaßen aus: 
         \begin{equation*}
             K(\theta) = \frac{A}{\sqrt{2\pi}\sigma} e^{-\frac{1}{2}\left(\frac{\theta - \Delta \theta}{\sigma}\right)^2} \text{ mit folgenden Parametern } \sigma=\unit[14]{°}, A=\unit[1300]{°} \text{ und } \Delta \theta = \unit[98]{°}
         \end{equation*}
         
+        \subsubsection{Radon-Transformation als Rekonstruktionsverfahren: Ein Rechenbeispiel} \label{dfs:Radon}
+        \begin{tabular}{p{5.3cm}p{5.3cm}p{5.3cm}}
+                	\includegraphics[width=0.36\textwidth, height=0.2\textheight]{pic/radonInp.png}
+                    & 
+                    \includegraphics[width=0.36\textwidth, height=0.2\textheight]{pic/radonGef.png}
+                    &
+                  	\includegraphics[width=0.355\textwidth, height=0.19\textheight]{pic/radonUngef.png}                                     
+         \end{tabular}
+         \captionof{figure}{Theoretisches Beispiel für Radon-Transformation}
+         \label{dfd:Radon}
+         \vspace{3mm}  
         
