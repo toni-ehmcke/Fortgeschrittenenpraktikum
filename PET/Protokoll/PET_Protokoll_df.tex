@@ -4,6 +4,9 @@
 \subsection{Kalibriermessungen}
     \subsubsection{Messung einer Quelle bekannter Aktivität bei mittiger Quellposition}
        Zunächst haben wir eine Quelle in mittigem Abstand zu den beiden Detektoren vermessen. Die Quelle hatte am 29.10.2015 eine Aktivitiät $A = \unit[1,02]{MBq}$.\\
+       Daraus sollten die Energiefenster der beiden Detektoren sowie das Koinzidenzzeitfenster bestimmt werden. Die Energiepeaks werden um $\unit[511]{keV}$ erwartet, was einem
+       Kanal von 2402 für Detektor A und 1868 für Detektor B entspricht. Das Zeitfenster erwarten wir aufgrund technischer Effekte (bspw. Totzeit) und einer gewollten
+       erhöhten Verzögerung im Bereich einiger zehn Nanosekunden.  
        \vspace{2mm}
         
        \begin{longtable}{p{6cm}p{6cm}l}
@@ -22,6 +25,28 @@
                    \label{dfd:T_M}}\\                        
        \end{longtable}
        \captionof{table}{Kalibrationsmessung bei Quelle mittig zwischen den Detektoren A und B}
+       \label{dft:kalim}
+       \ \\
+       Wie man an den oberen beiden Diagrammen von Tabelle \ref{dft:kalim} sieht, stimmt diese Erwartung mit einer leichten Verschiebung nach rechts gut überein. Dies kann
+       dem statistischen Charakter von Kernzerfällen und den Wegen (verändert ua. durch Compton-Streuung für Photonen, freiwerdende Bremsstrahlung für Positronen), die die 
+       Positronen und letztlich die Photonen zurücklegen zugeordnet werden. Andererseits unterliegen die Detektormessungen und die Umrechnung der Kanäle in Energien einem 
+       Fehler, da die Kanäle diskret sind und nur bestimmte Energien detektieren können, was dazu führt, dass Energien zwischen zwei Kanälen verloren gehen.
+       Die Umrechnung der Kanäle in Energien und Zeit erfolgt mittels folgender, uns gegebener Formeln des Musters $G = a + b \cdot K$, wobei K die Kanalnummer meint und a
+       bzw. b Parameter sind:
+       \begin{gather*}
+           E_A = (81\pm 31) + (0,179\pm 0,012)K_A\\
+           E_B = (100\pm 40) + (0,220\pm 0,021)K_B\\
+           \Delta t = (-0,014\pm 0,0192) + (0,0483\pm 0,00002)K_t
+       \end{gather*}
+       
+       Die Fehler für die Umrechnung von Kanälen in physikalische Einheiten lassen sich leicht über die gauß'sche Fehlerfortpflanzung bestimmten und belaufen sich betreffend 
+       der Diagramme in \ref{dft:kalim} auf:\\
+       $$ \Delta(\Delta t) = \unit[0,03]{ns} ; \Delta E_A = \unit[44,84]{keV}; \Delta E_A = \unit[44,00]{keV} $$
+       Um Messungen vorzunehmen, müssen jetzt die Fenster für Energie und Koninzidenzzeit bestimmt werden. Dies geschieht über Gauß-Fits in den Diagrammen von Tabelle \ref{dft:kalim}.
+       Dann bestimmt man das FWHM und zieht es von den Maxmumpositionen ab. Damit ergeben sich die Fenster zu:
+       $$ E_A \in \left[ 2217, 3101\right], E_B \in \left[ 1629, 2264 \right], \Delta t \in \left[x\right] $$ 
+       Daraus ergibt sich eine Koinzidenzauflösungszeit von $\tau = \unit[4,77]{ns}$, welche auf eine Abschätzung der zufälligen Koinzidenzen führt. Diese können mit verschiedenen
+       Gedankengängen abgeschätzt werden. Wir haben die Wahrscheinlichkeit, dass beim Zerfall der $^{22}\unit{Na}$ Positronen emittiert werden gegeben. 
 
 
     \subsubsection{Messung bei Positionen direkt an den Detektoren}
@@ -151,38 +176,37 @@
             \end{longtable}
             \captionof{figure}{Screenshots der Bildenstehung der gefilterten (rechts) und ungefilterten (links) Rückprojektion}
             \ \\
-          Test, Test %Notiz, bitte entfernen
             \textbf{Untersuchung des Einflusses verschiedener Filter}\\
             \begin{center}
-              \begin{tabular}{p{4.5cm}p{4.5cm}p{4.5cm}c}
+              \begin{longtable}{p{4.0cm}p{4.0cm}p{4.0cm}l}
                   \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_einf_prj.png}
-                  \captionof*{figure}{ungefilterten Rückprojektion}
+                  ungefilterte Rückprojektion
                   & 
                   \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_ramp.png}
-                  \captionof*{figure}{Rampf-Filter}
+                  Rampf-Filter
                   &
                   \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_hanning_weighted.png}
-                  \captionof*{figure}{Hanning-weighted-Filter}\\
+                  Hanning-weighted-Filter\\
                   \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_middle.png} 
-                  \captionof*{figure}{Middle-Filter}
+                  Middle-Filter
                   &
                   \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch3.png}
-                  \captionof*{figure}{Rauschfilter bei Dimension 3}
+                  Rauschfilter bei Dimension 3
                   & 
                   \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch13.png}               
-                  \captionof*{figure}{Rauschfilter bei Dimension 13} \pagebreak[2] 
-                  \\
+                  Rauschfilter bei Dimension 13\\
                   \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch25.png}
-                  \captionof*{figure}{Rauschfilter bei Dimension 25}
+                  Rauschfilter bei Dimension 25
                   &
                   \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch36.png} 
-                  \captionof*{figure}{Rauschfilter bei Dimension 36}
+                  Rauschfilter bei Dimension 36
                   &
                   \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_shepp-logan.png}
-                  \captionof*{figure}{Shepp-Logan-Filter} %* unterdrückt wie so häufig die Numerierung
-                \end{tabular}\\
+                  Shepp-Logan-Filter
+                \end{longtable}
             \end{center}
-                Die Abbildungen drei bis elf zeigen die Anwendung verschiedener Filter auf die ungefilterte Rückprojektion, wobei der Standardwert der Dimension 13 ist.     
+            \vspace{5mm}
+            Der Standardwert der Dimension ist 13.      
                    
         \subsubsection{Messung mit einer Punktquelle, Phantom an-/insotroper Dichteverteilung}
         
@@ -241,7 +265,7 @@
         Die Korrekturfunktion, die man sich anhand der gelben Kurve ausdenken könnte, ist eine Gauß-Funktion, die ihr Maximum gerade im Minimum der erfassten Daten hat.
         Sie sieht folgendermaßen aus:
         \begin{equation*}
-            K(\theta) = \frac{A}{\sqrt{2\pi}\sigma} e^{-\frac{1}{2}\left(\frac{\theta - \Delta \theta}{\sigma}\right)^2} \text{ mit folgenden Parametern } \sigma=\unit[14]{\textdegree}, A=\unit[1300]{\textdegree} \text{ und } \Delta \theta = \unit[98]{\textdegree}
+            K(\theta) = \frac{A}{\sqrt{2\pi}\sigma} e^{-\frac{1}{2}\left(\frac{\theta - \Delta \theta}{\sigma}\right)^2} \text{ mit folgenden Parametern } \sigma=\unit[14]{°}, A=\unit[1300]{°} \text{ und } \Delta \theta = \unit[98]{°}
         \end{equation*}
         
         
