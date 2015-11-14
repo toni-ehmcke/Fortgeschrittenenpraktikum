@@ -272,6 +272,20 @@
         \end{equation*}
         
         \subsubsection{Radon-Transformation als Rekonstruktionsverfahren: Ein Rechenbeispiel} \label{dfs:Radon}
+        Im Folgenden soll die durch die Auswertungssoftware durchgeführte (diskrete) Radon-Transformation anhand einer willkürlich gewählten Aktivitätsverteilung $N(x,y)$ nachvollziehbar dargestellt werden. Da der Ort $(x,y)$ technisch nicht als kontinuierliche Variable implementiert werden kann, genügt die Betrachtung der Ausgangsverteilung als eine endliche Matrix $\boldsymbol{I} \in \mathbb{R}^{5 \times 5}$, deren Einträge die Aktivität am jeweiligen Ort repräsentieren. Zunächst bestimmt man das sogenannte \textbf{Sinogramm} $p(s, \theta)$, indem man das Koordinatensystem um einen Winkel $\theta$ dreht und dann die Verteilung $N(x'(s,\theta),y'(s,\theta))$ zu einem bestimmten Ort s, welcher ohne Beschränkung der Allgemeinheit mit der x-Koordinate des gedrehten Systems identifiziert werden kann, entlang der neuen y-Achse integriert. Was wir erhalten, ist eine Projektion der Ausgangsverteilung auf die gedrehte x-Achse. Diese Konstruktion wirkt künstlich, ist ab letztlich genau das, was bei einem PET-Scan geschieht: Rotiert man einen PET-Detektor um eine Quelle, so misst man für jeden festen Winkel genau diese Projektion der Quellverteilung auf die Detektorfläche. Numerisch simulieren wir diese Hin-Transformation dadurch, dass über die einzelnen Einträge in den Spalten ($\theta = 0\ \unit{°}$), den Zeilen ($\theta = 90\ \unit{°}$) und den Diagonalen ($\theta = 90\ \unit{°},\ 135\ \unit{°}$) von $\boldsymbol{I}$ summiert wird. Da jedoch 9 Diagonaleinträge existieren, müssen die so erhaltenen Einträge durch Multiplikation einer Wichtungsmatrix $\boldsymbol{W_h} \in \mathbb{R}^{9 \times 5}$ multipliziert werden, um die unterschiedlichen "Flächenanteile" der Diagonalen an der "Gesamtfläche" der Matrix zu berücksichtigen.\\
+        Nach erfolgreicher Hintransformation wird nun der Einfluss eines \textbf{Ramp-Filters} der Dimension 1 untersucht. Dieser Filter wird durch eine Filterfunktion $h(s)$, welche im Nullpunkt einen sehr großen Wert annimmt und die für $|s|\longrightarrow \infty$ gegen 0 konvergiert, allerdings gleichzeitig der Bedingung $\forall s \in \mathbb{R}\setminus\{0\}:\ h(s) < 0$ genügt. Man findet folgenden formalen analytischen Ausdruck für h:
+        
+        \begin{equation*}
+        	h(s) = \begin{cases}
+        				- \frac{1}{2 \pi^2 s^2} & s \neq 0\\
+        				\frac{\delta(s)}{\pi^2 |s|} & s = 0\\
+        			\end{cases}
+        \end{equation*}
+        Damit erhält man das gefilterte Sinogramm $p_f(s,\theta)$ mit:
+        \begin{equation*}
+                	p_f(s,\theta) := (p(\cdot, \theta) \ast h) (s) = \int_{-\infty}^{\infty}  p(s', \theta) \cdot h(s-s') \mathrm{d}s'
+        \end{equation*}
+        
         \begin{tabular}{p{5.3cm}p{5.3cm}p{5.3cm}}
                 	\includegraphics[width=0.36\textwidth, height=0.2\textheight]{pic/radonInp.png}
                     & 
