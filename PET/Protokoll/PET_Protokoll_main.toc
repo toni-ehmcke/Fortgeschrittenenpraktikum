@@ -2,6 +2,7 @@
 \contentsline {section}{\numberline {1}Aufgabenstellung}{2}
 \contentsline {section}{\numberline {2}Physikalische Grundlagen}{2}
 \contentsline {section}{\numberline {3}Durchf\IeC {\"u}hrung}{2}
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.1}Theoretischer Teil}{2}
 \contentsline {subsection}{\numberline {3.2}Kalibriermessungen}{2}
 \contentsline {subsubsection}{\numberline {3.2.1}Messung einer Quelle bekannter Aktivit\IeC {\"a}t bei mittiger Quellposition}{2}
@@ -14,3 +15,15 @@
 \contentsline {subsubsection}{\numberline {3.3.4}Radon-Transformation als Rekonstruktionsverfahren: Ein Rechenbeispiel}{13}
 \contentsline {section}{\numberline {4}Auswertung}{13}
 \contentsline {section}{\numberline {5}Literatur}{14}
+=======
+\contentsline {subsection}{\numberline {3.1}Radon-Transformation als Rekonstruktionsverfahren: Ein Rechenbeispiel}{2}
+\contentsline {subsection}{\numberline {3.2}Kalibriermessungen}{3}
+\contentsline {subsubsection}{\numberline {3.2.1}Messung einer Quelle bekannter Aktivit\IeC {\"a}t bei mittiger Quellposition}{3}
+\contentsline {subsubsection}{\numberline {3.2.2}Messung bei Positionen direkt an den Detektoren}{6}
+\contentsline {subsubsection}{\numberline {3.2.3}Schwerpunktsdiagramme}{7}
+\contentsline {subsection}{\numberline {3.3}Tomografische Messungen}{7}
+\contentsline {subsubsection}{\numberline {3.3.1}Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}{7}
+\contentsline {subsubsection}{\numberline {3.3.2}Messung mit einer Punktquelle, Phantom an-/isotroper Dichteverteilung}{12}
+\contentsline {section}{\numberline {4}Auswertung}{14}
+\contentsline {section}{\numberline {5}Literatur}{15}
+>>>>>>> 43dbdba4af1f83e1f67f26fb2d745d9139b4c3d0

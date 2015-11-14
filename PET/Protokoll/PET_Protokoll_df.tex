@@ -1,5 +1,47 @@
 \section{Durchführung}
-\subsection{Theoretischer Teil}
+\subsection{Radon-Transformation als Rekonstruktionsverfahren: Ein Rechenbeispiel} \label{dfs:Radon}
+        Im Folgenden soll die durch die Auswertungssoftware durchgeführte (diskrete) Radon-Transformation anhand einer willkürlich gewählten Aktivitätsverteilung $N(x,y)$ nachvollziehbar dargestellt werden. Da der Ort $(x,y)$ technisch nicht als kontinuierliche Variable implementiert werden kann, genügt die Betrachtung der Ausgangsverteilung als eine Matrix $\boldsymbol{I} \in \mathbb{R}^{5 \times 5}$ mit endlichen Dimensionen, deren Einträge die Aktivität am jeweiligen Ort repräsentieren. Zunächst bestimmt man das sogenannte \textbf{Sinogramm} $p(s, \theta)$, indem man das Koordinatensystem um einen Winkel $\theta$ dreht und dann die Verteilung $N(x'(s,\theta),y'(s,\theta))$ zu einem bestimmten Ort s, welcher ohne Beschränkung der Allgemeinheit mit der x-Koordinate des gedrehten Systems identifiziert werden kann, entlang der neuen y-Achse integriert. Was wir erhalten, ist eine Projektion der Ausgangsverteilung auf die gedrehte x-Achse. Diese Konstruktion wirkt künstlich, ist aber letztlich genau das, was bei einem PET-Scan geschieht: Rotiert man die Detektoren um eine Quelle, so misst man für jeden festen Winkel genau die oben beschriebene Projektion der Quellverteilung auf die Detektorfläche.\\
+        \ \\
+         Numerisch simulieren wir diese Hin-Transformation dadurch, dass über die einzelnen Einträge in den Spalten ($\theta = 0\ \unit{°}$), den Zeilen ($\theta = 90\ \unit{°}$) und den Diagonalen ($\theta = 90\ \unit{°},\ 135\ \unit{°}$) von $\boldsymbol{I}$ summiert wird. Da die Matrix 9 Diagonalen besitzt, sie allerdings analog zu den Zeilen und Spalten in 5 Teile 'zerschnitten' werden müsste, müssen die so erhaltenen Diagonalsummen $\boldsymbol{D} \in \mathbb{R}^{1 \times 9}$  durch Multiplikation einer Wichtungsmatrix $\boldsymbol{W_{Proj}} \in \mathbb{R}^{9 \times 5}$ multipliziert werden, um die unterschiedlichen 'Flächenanteile' der Diagonalen an der 'Gesamtfläche' der Matrix zu berücksichtigen. Dadurch wird das Sinogramm insgesamt zu einer Matrix $\boldsymbol{P} \in \mathbb{R}^{4 \times 5}$, deren Zeilen die Variation des Winkels $\theta$ und deren Spalten die Änderung des Ortes $s$ repräsentieren.\\
+        \ \\
+        Nach erfolgreicher Hintransformation wird nun der Einfluss eines \textbf{Ramp-Filters} untersucht. Dieser Filter wird durch eine Filterfunktion $h(s)$ modelliert, die folgenden Eigenschaften genügt:
+        \begin{itemize}
+        		\item[(i)] $\lim\limits_{s\rightarrow 0}h(s) = \infty$
+        		\item[(ii)] $\lim\limits_{|s|\rightarrow \infty}h(s) = 0$
+        		\item[(iii)] $\forall s \in \mathbb{R}\setminus\{0\}:\ h(s) < 0$
+        		\item[(iv)] $h$ ist symmetrisch
+        \end{itemize}
+        Man findet folgenden formalen analytischen Ausdruck für h\cite{Ramp}
+        
+        \begin{equation*}
+        	h(s) = \begin{cases}
+        				- \frac{1}{2 \pi^2 s^2} & s \neq 0\\
+        				\frac{\delta(s)}{\pi^2 |s|} & s = 0\\
+        			\end{cases}
+        \end{equation*}\\
+        Damit erhält man das gefilterte Sinogramm $p_f(s,\theta)$ durch die Faltung der Filterfunktion mit dem ermittelten Sinogramm:
+        \begin{equation}\label{dfe:Faltung}
+                	p_f(s,\theta) := (p(\cdot, \theta) \ast h) (s) = \int_{-\infty}^{\infty}  p(s', \theta) \cdot h(s-s') \mathrm{d}s'
+        \end{equation}\\
+        Da die mathematischen Objekte im vorliegenden Fall von diskreter Natur sind, wird die Filterfunktion durch einen Vektor:
+        \begin{equation*}
+        		\boldsymbol{H} = (0, \dots , 0, -b_d,-b_{d-1}, \dots, -b_1,a,-b_1, \dots, -b_{d-1}, -b_d,0, \dots, 0) \in \mathbb{R}^{5 \times 1},\ \forall j = 1,\dots, d: b_j, a > 0
+        \end{equation*}\\  
+        modelliert, der offenbar den Eigenschaften (ii) - (iv) genügt. Dabei wird $d$ die \textbf{Dimension} des Filters genannt, die anschaulich angibt, wie viele linke und rechte Nachbarn eines Eintrages der Sinogrammmatrix man zu diesem gewichtet dazuaddiert. Diese Operation entspricht der Faltung in (\ref{dfe:Faltung}) und kann durch eine geeignete Matrixmultiplikation von $\boldsymbol{P}$ mit $\boldsymbol{H}$  dargestellt werden. Wobei $\boldsymbol{P}$ noch mit $d$ Nullspalten links und rechts erweitert werden muss (analog $\boldsymbol{H}$), damit die Einträge am Rand der Matrix 'Nullnachbarn' erhalten. Das liefert uns die gefilterte Matrix $\boldsymbol{P_f} \in \mathbb{R}^{4\times 5}$.\\
+        \ \\
+        Nach der Filterprozedur wird jetzt die inverse Transformation durchgeführt. Das heißt, man iteriere jetzt durch die Zeilen von $\boldsymbol{P}$ bzw. $\boldsymbol{P_f}$, die die Sinogrammwerte zu den verschiedenen Winkeln $\theta$ repräsentieren, und verteile diese gleichmäßig(!) auf die Zeilen, Spalten und Diagonalen. Erneut sind die Diagonalen gesondert zu behandeln, indem man die betreffenden Zeilen mit einer Wichtungsmatrix $\boldsymbol{W_{InvProj}} \in \mathbb{R}^{5 \times 9}$ multipliziert. Die Rückprojektion erhält man nun durch Addition der so entstandenen 4 Matrizen, wobei die Diagonalmatrizen nur mit einem Wichtungsfaktor von $0,5$ eingehen. Das Ergebnis der gefilterten und ungefilterten Rückprojektion anhand eines vorgegebenen Beispiels mit einem Rampfilter der Dimension $d=1$ wird im Folgenden dargestellt:\\
+        \begin{tabular}{p{5.3cm}p{5.3cm}p{5.3cm}}
+                	\includegraphics[width=0.36\textwidth, height=0.2\textheight]{pic/radonInp.png}
+                    & 
+                    \includegraphics[width=0.36\textwidth, height=0.2\textheight]{pic/radonGef.png}
+                    &
+                  	\includegraphics[width=0.355\textwidth, height=0.19\textheight]{pic/radonUngef.png}                                     
+         \end{tabular}
+         \captionof{figure}{Theoretisches Beispiel für Radon-Transformation}
+         \label{dfd:Radon}
+         \vspace{3mm}  
+        
+        Die Berechnung und Darstellung erfolgte über ein selbst geschriebenes \texttt{python}-Skript, das den oben beschriebenen Algorithmus realisiert. Wir sehen, dass trotz der Einfachheit des Beispiels enorme Abweichungen zwischen Ausgangsverteilung und Rückprojektion entstehen: Bis auf den größten Peak bei $(x = 3,\ y = 1)$ alle Maxima leicht versetzt rückprojiziert wurden. Dies liegt zum einen an der Diskretisierung des Problems und zum anderen besitzt selbst die über das Fourier-Scheiben-Theorem durchgeführte Rücktransformation keine exakte Lösung, da ein divergentes Integral darin auftritt, das auf einen endlichen Integrationsbereich heruntergebrochen werden muss.\cite{PA} Der Ramp-Filter führt dazu, dass die Peaks schneller abfallen und somit besser lokalisiert werden können, was sich bei der späteren quantitativen Auswertung noch als nützlich erweisen wird.
 
 \subsection{Kalibriermessungen}
     \subsubsection{Messung einer Quelle bekannter Aktivität bei mittiger Quellposition}
@@ -149,10 +191,59 @@
         
     \subsection{Tomografische Messungen}
     	\subsubsection{Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}
-            \textbf{Hauptversuch}\\
-            
-            \textbf{Untersuchung des Einflusses verschiedener Filter}\\
-            
+    	          \textbf{Hauptversuch}\\
+    	          Als nächsten wurde eine Messung mit unbekannter Quellverteilung gestartet. Die Energie- und das Zeitfenster entsprechen den oben bestimmten Intervallen.\\ \ \\
+    	
+    	            \begin{longtable}{p{7cm}p{7cm}c}
+    	                \textbf{ungefilterter Projektion} & \textbf{gefilterte Rückprpjektion} \endhead
+    	                \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek1_einf_prj.png}
+    	                & 
+    	                \includegraphics[width=.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek1gef_prj.png}\\
+    	                \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek2einf_prj.png}
+    	                & 
+    	                \includegraphics[width=.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek2gef_prj.png}\\ 
+    	                \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek3einf_prj.png}
+    	                & 
+    	                \includegraphics[width=.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek3gef_prj.png}\\               
+    	                \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek4einf_prj.png}
+    	                & 
+    	                \includegraphics[width=.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek4gef_prj.png} \\
+    	            \end{longtable}
+    	            \captionof{figure}{Screenshots der Bildenstehung der gefilterten (rechts) und ungefilterten (links) Rückprojektion}
+    	            \ \\
+    	            \textbf{Untersuchung des Einflusses verschiedener Filter}\\
+    	            \begin{center}
+    	              \begin{longtable}{p{4.0cm}p{4.0cm}p{4.0cm}l}
+    	                  \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_einf_prj.png}
+    	                  ungefilterte Rückprojektion
+    	                  & 
+    	                  \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_ramp.png}
+    	                  Rampf-Filter
+    	                  &
+    	                  \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_hanning_weighted.png}
+    	                  Hanning-weighted-Filter\\
+    	                  \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_middle.png} 
+    	                  Middle-Filter
+    	                  &
+    	                  \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch3.png}
+    	                  Rauschfilter bei Dimension 3
+    	                  & 
+    	                  \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch13.png}               
+    	                  Rauschfilter bei Dimension 13\\
+    	                  \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch25.png}
+    	                  Rauschfilter bei Dimension 25
+    	                  &
+    	                  \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch36.png} 
+    	                  Rauschfilter bei Dimension 36
+    	                  &
+    	                  \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_shepp-logan.png}
+    	                  Shepp-Logan-Filter
+    	                \end{longtable}
+    	            \end{center}
+    	            \vspace{5mm}
+    	            Der Standardwert der Dimension ist 13.\\
+            \ \\
+            Im Folgenden werden die Messdaten des Rampfilters mit denen der ungefilterten Variante verglichen:
             \begin{tabular}{p{6cm}p{6cm}c}
                             \minipanf 
                                 \makebox[\linewidth]{\includegraphics[width=1.5\textwidth, height=0.3\textheight]{pic/3dPlotTomographRamp.png}}
@@ -162,16 +253,15 @@
                             \hspace{5mm} 
                             \minipanf
                                 \includegraphics[width=1.5\textwidth, height=0.3\textheight]{pic/3dPlotTomographUngef.png}
-                            \minipend \\               
-             
+                            \minipend \\              
              \end{tabular} 
             \captionof{figure}{Gefilterte und Ungefilterte Rückprojektion der Aktivitätsverteilung}
             \label{dfd:AKV}
             \ \\
             
-            Der verwendete Rampfilter kann als eine Faltung des Sinogramms $p(s,\theta)$ mit einer Filterfunktion $h(s)$ zu einem festen Winkel $\theta$ dargestellt werden. Das heißt man addiert zu einem festen Wert von $p(s,\theta)$ die umliegenden Funktionswerte innerhalb eines Bereiches von 13 BINs mit einem (negativen) Gewicht. Weitere Eigenschaften dieses Filters werden im Abschnitt (\ref{dfs:Radon}) dargestellt. Man beobachtet, dass durch diese Faltung im Vergleich zur ungefilterten Rückprojektion ein höheres Untergrundrauschen in Bereichen mit geringer Aktivität entsteht, da insbesondere auch die Skala einen kleineren Bereich ($N_{ramp}(x,y) \in [-0,14,\ 0,7],\ N_{u}(x,y) \in [0,18,\ 8,13] $) abdeckt. Allerdings fallen die Peaks durch die Faltung beim Rampfilter deutlich schneller ab (negative Bereiche um Maximum), wodurch man sie besser lokalisieren kann. Aus diesem Grund wird im Folgenden der gefilterte Datensatz für die quantitative Auswertung verwendet.\\
+            Der verwendete Rampfilter kann, wie im Abschnitt (\ref{dfd:Radon}) bereits ausführlich aufgeführt, als eine Faltung des Sinogramms $p(s,\theta)$ mit einer Filterfunktion $h(s)$ zu einem festen Winkel $\theta$ dargestellt werden. Das heißt man addiert zu einem festen Wert von $p(s,\theta)$ die umliegenden Funktionswerte innerhalb eines Bereiches von $d$ = 13 BINs mit einem (negativen) Gewicht. Man beobachtet, dass durch diese Faltung im Vergleich zur ungefilterten Rückprojektion ein höheres Untergrundrauschen in Bereichen mit geringer Aktivität entsteht, da insbesondere auch die Skala einen kleineren Bereich ($N_{ramp}(x,y) \in [-0,14,\ 0,7],\ N_{u}(x,y) \in [0,18,\ 8,13] $) abdeckt. Allerdings fallen die Peaks durch die Faltung beim Rampfilter deutlich schneller ab (negative Bereiche um Maximum), wodurch man sie besser lokalisieren kann. Aus diesem Grund wird im Folgenden der gefilterte Datensatz für die quantitative Auswertung verwendet.\\
             
-            \textbf{Quantitative Auswertung}
+            \textbf{Quantitative Auswertung}\\
             
             \begin{tabular}{p{12cm}	p{0.5\textwidth}}            	
             	\minipanf
@@ -227,60 +317,9 @@
              
              In der ungefilterten Darstellung war die Halbwertsbreite bereits innerhalb von einem BIN erreicht, wodurch sich eine Ortsauflösung von ungefähr $d_{min} = 2\ \unit{BIN} = 6,75\ \unit{mm}$ ergibt.
             
-        \subsubsection{Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}
-          \textbf{Hauptversuch}\\
-          Als nächsten wurde eine Messung mit unbekannter Quellverteilung gestartet. Die Energie- und das Zeitfenster entsprechen den oben bestimmten Intervallen.\\ \ \\
-
-            \begin{longtable}{p{7cm}p{7cm}c}
-                \textbf{ungefilterter Projektion} & \textbf{gefilterte Rückprpjektion} \endhead
-                \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek1_einf_prj.png}
-                & 
-                \includegraphics[width=.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek1gef_prj.png}\\
-                \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek2einf_prj.png}
-                & 
-                \includegraphics[width=.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek2gef_prj.png}\\ 
-                \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek3einf_prj.png}
-                & 
-                \includegraphics[width=.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek3gef_prj.png}\\               
-                \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek4einf_prj.png}
-                & 
-                \includegraphics[width=.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek4gef_prj.png} \\
-            \end{longtable}
-            \captionof{figure}{Screenshots der Bildenstehung der gefilterten (rechts) und ungefilterten (links) Rückprojektion}
-            \ \\
-            \textbf{Untersuchung des Einflusses verschiedener Filter}\\
-            \begin{center}
-              \begin{longtable}{p{4.0cm}p{4.0cm}p{4.0cm}l}
-                  \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_einf_prj.png}
-                  ungefilterte Rückprojektion
-                  & 
-                  \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_ramp.png}
-                  Rampf-Filter
-                  &
-                  \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_hanning_weighted.png}
-                  Hanning-weighted-Filter\\
-                  \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_middle.png} 
-                  Middle-Filter
-                  &
-                  \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch3.png}
-                  Rauschfilter bei Dimension 3
-                  & 
-                  \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch13.png}               
-                  Rauschfilter bei Dimension 13\\
-                  \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch25.png}
-                  Rauschfilter bei Dimension 25
-                  &
-                  \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_rausch36.png} 
-                  Rauschfilter bei Dimension 36
-                  &
-                  \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_shepp-logan.png}
-                  Shepp-Logan-Filter
-                \end{longtable}
-            \end{center}
-            \vspace{5mm}
-            Der Standardwert der Dimension ist 13.      
+              
                    
-        \subsubsection{Messung mit einer Punktquelle, Phantom an-/insotroper Dichteverteilung}
+        \subsubsection{Messung mit einer Punktquelle, Phantom an-/isotroper Dichteverteilung}
         
         \textbf{Qualitative Gegenüberstellung an-/isotroper Dichteverteilung}\\
         Nun sollen eine isotrope und eine anisotrope Dichteverteilung des Quellbehältnisses untersucht werden. In der nachstehenden Tabelle ist die Entwicklung der Rückprojektionen
@@ -354,15 +393,4 @@
             K(\theta) = \frac{A}{\sqrt{2\pi}\sigma} e^{-\frac{1}{2}\left(\frac{\theta - \Delta \theta}{\sigma}\right)^2} \text{ mit folgenden Parametern } \sigma=\unit[14]{°}, A=\unit[1300]{°} \text{ und } \Delta \theta = \unit[98]{°}
         \end{equation*}
         
-        \subsubsection{Radon-Transformation als Rekonstruktionsverfahren: Ein Rechenbeispiel} \label{dfs:Radon}
-        \begin{tabular}{p{5.3cm}p{5.3cm}p{5.3cm}}
-                	\includegraphics[width=0.36\textwidth, height=0.2\textheight]{pic/radonInp.png}
-                    & 
-                    \includegraphics[width=0.36\textwidth, height=0.2\textheight]{pic/radonGef.png}
-                    &
-                  	\includegraphics[width=0.355\textwidth, height=0.19\textheight]{pic/radonUngef.png}                                     
-         \end{tabular}
-         \captionof{figure}{Theoretisches Beispiel für Radon-Transformation}
-         \label{dfd:Radon}
-         \vspace{3mm}  
         
