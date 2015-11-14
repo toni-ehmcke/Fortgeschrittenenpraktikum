@@ -190,10 +190,31 @@
         
     \subsection{Tomografische Messungen}
     	\subsubsection{Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}
-    	          \textbf{Hauptversuch}\\
-    	          Als nächsten wurde eine Messung mit unbekannter Quellverteilung gestartet. Die Energie- und das Zeitfenster entsprechen den oben bestimmten Intervallen.\\ \ \\
-    	
-    	            \begin{longtable}{p{7cm}p{7cm}c}
+    	        \textbf{Hauptversuch}\\
+    	        
+    	        Als nächsten wurde eine Messung mit unbekannter Quellverteilung gestartet. Die Energie- und das Zeitfenster entsprechen den oben bestimmten Intervallen. Der Detektor fährt dann unter gewissen Winkeln $\theta$ die $30\ \unit{BIN} = 101,25\ \unit{mm}$ breite s-Achse mit einer Geschwingigkeit von $22\ \unit{mm/s}$ ab. Dabei wird für gewisse Positionen die Anzahl der Konzidenzereignisse in Abhängigkeit der s-Koordinate aufgenommen. Dies wird für alle Winkel im Abstand von $2\unit{°}$ Schritten wiederholt, wodurch das Sinogramm entsteht, welches in folgender Abbildung dargestellt wird:\\ 
+    				
+    			\begin{tabular}{p{6cm}p{6cm}}
+    				  \minipanf 
+    				      	\begin{center}
+    				      	
+    				      		\makebox[\linewidth]{\includegraphics[width=1.\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek_festerWinkel.png}}  
+    				      		\caption*{\footnotesize{Koinzidenzereigniszahl zu festem Winkel}}   
+    				      	
+    				      	\end{center}             
+    				   \minipend
+    				   &
+    				   \hspace{10mm} 
+    				   \minipanf
+    				   		\begin{center}
+    				       		 	\includegraphics[width=1.\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek_sino.png}
+    				        		\caption*{\footnotesize{Sinogramm - horizontal: s; vertikal: $\theta$;\\ Helligkeit: Ereigniszahl}} 
+    				        \end{center}
+    				   \minipend \\              
+    			\end{tabular}\\
+    			\ \\
+    			Dabei entspricht jeder Graph der linken Art einer in Graustufen dargestellte Linie im Sinogramm. Die so erhaltenen Daten können nun genutzt werden, um eine inverse Radon-Transformation auf sie anzuwenden, um die ursprüngliche Quellverteilung zu erhalten. Aus jeder 'Zeile' des Sinogramms können wir nun analog zum Vorgehen im Abschnitt (\ref{dfd:Radon}) eine rückprojizierte Matrix extrahieren, die man zur Gesamtrückprojektion aufsummiert. Je mehr Winkel der Detektor abfährt, desto mehr Summanden enthält die Rückprojektion und desto klarer wird das Bild. Bevor man die inverse Transformation durchführt, kann noch ein Filter auf das Sinogramm angewendet werden. Im konkreten Experiment lag eine Verteilung, die aus drei Punktquellen bestand, vor, welche in der folgenden Bilderserie schrittweise rekonstruiert wurde. Weiterhin wurde ein Ramp-Filter mit Dimension $d=13$ verwendet, um einen direkten Vergleich zu haben:\\
+    	        \begin{longtable}{p{7cm}p{7cm}c}
     	                \textbf{ungefilterter Projektion} & \textbf{gefilterte Rückprpjektion} \endhead
     	                \includegraphics[width=0.3\textwidth, height=0.2\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek1_einf_prj.png}
     	                & 
@@ -210,14 +231,17 @@
     	            \end{longtable}
     	            \captionof{figure}{Screenshots der Bildenstehung der gefilterten (rechts) und ungefilterten (links) Rückprojektion}
     	            \ \\
+    	            
     	            \textbf{Untersuchung des Einflusses verschiedener Filter}\\
+    	            
+    	            Wie man in der zuvorgehenden Rekonstruktion bereits gesehen hat, haben Filter einen Einfluss auf den Kontrast und die Lokalisierung der hellen Peaks in der Rückprojektion. Deshalb wurde in einer Offline-Nachbearbeitung die Anwendung verschiedenster Filter getestet:
     	            \begin{center}
     	              \begin{longtable}{p{4.0cm}p{4.0cm}p{4.0cm}l}
     	                  \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_einf_prj.png}
     	                  ungefilterte Rückprojektion
     	                  & 
     	                  \includegraphics[width=.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_ramp.png}
-    	                  Rampf-Filter
+    	                  Ramp-Filter
     	                  &
     	                  \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_hanning_weighted.png}
     	                  Hanning-weighted-Filter\\
@@ -240,13 +264,14 @@
     	                \end{longtable}
     	            \end{center}
     	            \vspace{5mm}
-    	            Der Standardwert der Dimension ist 13.\\
-            \ \\
-            Im Folgenden werden die Messdaten des Rampfilters mit denen der ungefilterten Variante verglichen:
-            \begin{tabular}{p{6cm}p{6cm}c}
+    	            Der Hanning-Weighted-, der Middle- und der Rauschfilter heben allesamt die strahlförmigen Strukturen, die von den Quellen ausgehen hervor und lassen die Quellen selbst etwas 'verwaschener' wirken. Dadurch heben sie sich zwar besser vom Untergrund ab, lassen sich allerdings schwerer lokalisieren. Außerdem bilden sich dunkle Bereiche um die Peaks. Dadurch könnte ihre Anwendung in der Praxis dann von Bedeutung sein, wenn es darum geht, kompliziertere Quellverteilungen zu analysieren, bei denen eine exakte Lokalisierung der Peaks nicht vordergründig ist. Weiterhin wurde der Einfluss der Dimension beim Rauschfilter untersucht: Je größer diese wurde, desto verwaschener wurde das Bild bis zur vollkommenen Unkenntlichkeit.\\
+    	            
+    	            Ganz im Gegensatz zum Ramp-Filter und dem Shepp-Logan-Filter: Sie erzeugen beide ein recht scharfes Bild der Peaks. Um dies besser zu analysieren betrachten wir die Messwerte des Ramp-Filters verglichen mit der ungefilterten Variante in einer 3D-Darstellung:\\
+    	            
+           \minipanf
+           \begin{tabular}{p{6cm}p{6cm}c}
                             \minipanf 
-                                \makebox[\linewidth]{\includegraphics[width=1.5\textwidth, height=0.3\textheight]{pic/3dPlotTomographRamp.png}}
-                                
+                                \makebox[\linewidth]{\includegraphics[width=1.5\textwidth, height=0.3\textheight]{pic/3dPlotTomographRamp.png}} 
                             \minipend
                             &
                             \hspace{5mm} 
@@ -256,9 +281,10 @@
              \end{tabular} 
             \captionof{figure}{Gefilterte und Ungefilterte Rückprojektion der Aktivitätsverteilung}
             \label{dfd:AKV}
+            \minipend
             \ \\
             
-            Der verwendete Rampfilter kann, wie im Abschnitt (\ref{dfd:Radon}) bereits ausführlich aufgeführt, als eine Faltung des Sinogramms $p(s,\theta)$ mit einer Filterfunktion $h(s)$ zu einem festen Winkel $\theta$ dargestellt werden. Das heißt man addiert zu einem festen Wert von $p(s,\theta)$ die umliegenden Funktionswerte innerhalb eines Bereiches von $d$ = 13 BINs mit einem (negativen) Gewicht. Man beobachtet, dass durch diese Faltung im Vergleich zur ungefilterten Rückprojektion ein höheres Untergrundrauschen in Bereichen mit geringer Aktivität entsteht, da insbesondere auch die Skala einen kleineren Bereich ($N_{ramp}(x,y) \in [-0,14,\ 0,7],\ N_{u}(x,y) \in [0,18,\ 8,13] $) abdeckt. Allerdings fallen die Peaks durch die Faltung beim Rampfilter deutlich schneller ab (negative Bereiche um Maximum), wodurch man sie besser lokalisieren kann. Aus diesem Grund wird im Folgenden der gefilterte Datensatz für die quantitative Auswertung verwendet.\\
+            Der verwendete Rampfilter kann, wie im Abschnitt (\ref{dfd:Radon}) bereits ausführlich aufgeführt, als eine Faltung des Sinogramms $p(s,\theta)$ mit einer Filterfunktion $h(s)$ zu einem festen Winkel $\theta$ dargestellt werden. Das heißt man addiert zu einem festen Wert von $p(s,\theta)$ die umliegenden Funktionswerte innerhalb eines Bereiches von $d$ = 13 BINs mit einem (negativen) Gewicht. Man beobachtet, dass durch diese Faltung im Vergleich zur ungefilterten Rückprojektion ein höheres Untergrundrauschen in Bereichen mit geringer Aktivität entsteht, da insbesondere auch die Skala einen kleineren Bereich ($N_{ramp}(x,y) \in [-0,14,\ 0,7],\ N_{u}(x,y) \in [0,18,\ 8,13] $) abdeckt. Allerdings fallen die Peaks deutlich schneller ab (negative Bereiche um Maximum), wodurch man sie besser lokalisieren kann. Aus diesem Grund wird im Folgenden der gefilterte Datensatz für die quantitative Auswertung verwendet.\\
             
             \textbf{Quantitative Auswertung}\\
             
