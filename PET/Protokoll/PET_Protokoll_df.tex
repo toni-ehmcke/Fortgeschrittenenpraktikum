@@ -64,15 +64,16 @@
        
        Dabei sind $\varepsilon_{A/B}$ die Nachweiseffektivitäten der Detektoren, $P_\beta$ die Positronenemissionswahrscheinlichkeit und $\Omega_{min}$ der Raumwinkel des Detektors, der am weitesten von der Quelle entfernt
        ist. $\dot N_Z$ ist die Zählrate zufälliger Koinzidenzen. Setzt man die Gleichungen \ref{dff:NK} und \ref{dff:NZ} ineinander ein, erhält man folgende Gleichung für die Nachweiseffektivitäten:
-       $$ \varepsilon_A \varepsilon_B = \frac{\pi^2 \dot N_Z}{A^2 P_\beta \tau \Omega^2_{min}} \text{ mit } \Omega_{min} = \frac{4a^2}{\left(D-b\right)^2 } \text{ und } \dot N_Z = \frac{N_Z}{\tau}$$
+       $$ \varepsilon_A \varepsilon_B = \frac{\pi^2 \dot N_Z}{A^2 P_\beta \tau \Omega^2_{min}} \text{ mit } \Omega_{min} = \frac{4a}{\left(D-b\right)^2 } \text{ und } \dot N_Z = \frac{N_Z}{\tilde t}$$
        Da die Nachweiseffektivität pro Detektor zu bestimmen ist, kann man $ \varepsilon_A \simeq \varepsilon_B $ annehmen und erhält:
-       $$ \varepsilon_{A/B} = \frac{\pi (D-b)^2}{4Aa^2} \frac{1}{\tau} \sqrt{\frac{N_{Z,A/B}}{P_\beta}}$$ 
-       Für den Fehler erhält man bei fehlerlos angenommenen b, D, a und A folgendes:
-       $$ \varepsilon_{A/B} = \frac{\pi (D-b)^2 N^{1/2}_Z}{8a^2A\tau P_\beta{1/2}} \cdot \sqrt{\left(\frac{\Delta N_Z}{N_Z}\right)^2 + \left(\frac{2\Delta \tau}{\tau}\right)^2 + \left(\frac{\Delta P_\beta}{P_\beta}\right)^2}$$
-       Die übrigen Daten können aus der Arbeitsanweisung extrahiert werden:
-       $$ D = \unit[386]{mm}, b = \unit[25]{mm}, a = \unit[54]{mm}, P_\beta = 0,90382 \pm 0,00021$$
+       $$ \varepsilon_{A/B} = \sqrt{\frac{\pi^2 N_Z}{A^2 \Omega^2_{min} P_\beta \tau \tilde t_{A/B}}}$$ 
+       Für den Fehler erhält man bei fehlerlos angenommenen b, D, und a folgendes:
+       $$ \varepsilon_{A/B} = \varepsilon_{A/B} \cdot\sqrt{\left(\frac{\Delta P_\beta}{P_\beta}\right)^2+ \left(\frac{2\Delta A}{A}\right)^2 + \left(\frac{\Delta \tau}{\tau}\right)^2+ \left(\frac{\Delta \tilde t_{A/B}}{\tilde t_{A/B}}\right)^2}$$
+       Die verwendeten Daten sind folgende:
+       $$ D = \unit[386]{mm}, b = \unit[25]{mm}, a = \unit[54]{mm}, P_\beta = 0,90382 \pm 0,00021, \tilde t_B = \unit[(230,4 \pm 0,1)]{s} , \tilde t_A = \unit[(314\pm7)]{s}$$
        Damit erhalten wir für die Detektoren folgende Nachweiseffektivitäten:
-       $$ \varepsilon_A = 2, \varepsilon_B = 1$$
+       $$ \varepsilon_A = \unit[(46,4\pm 3)]{\%}, \varepsilon_B = \unit[(54,2\pm 3)]{\%}$$
+       Diese Nachweiseffektivität ist für einen Versuchsplatz angemessen gut, im Vergleich zu in Krankenhäusern verwendeten Geräten, welche mit einer Effektivität von 80\% arbeiten.
 
     \subsubsection{Messung bei Positionen direkt an den Detektoren}
         Als nächstes soll der Abstand der beiden Detektoren zueinander bestimmt werden. Hierfür erfolgen Messungen, bei denen die Kalibrierquelle direkt an den Detektoren positioniert wird.
