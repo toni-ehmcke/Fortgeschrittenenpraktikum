@@ -22,5 +22,5 @@
 \contentsline {subsection}{\numberline {3.3}Tomografische Messungen}{11}
 \contentsline {subsubsection}{\numberline {3.3.1}Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}{11}
 \contentsline {subsubsection}{\numberline {3.3.2}Messung mit einer Punktquelle, Phantom an-/isotroper Dichteverteilung}{17}
-\contentsline {section}{\numberline {4}Auswertung}{19}
-\contentsline {section}{\numberline {5}Literatur}{20}
+\contentsline {section}{\numberline {4}Zusammenfassung}{19}
+\contentsline {section}{\numberline {5}Literatur}{21}

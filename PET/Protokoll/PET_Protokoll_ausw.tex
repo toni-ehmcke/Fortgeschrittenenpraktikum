@@ -1,1 +1,26 @@
-\section{Auswertung}
+\section{Zusammenfassung}
+In diesem Versuch waren vier Aufgaben zu erledigen. Zunächst sollte man sich damit beschäftigen, wie ein PET-Detektor theoretisch arbeitet. Dies
+geschah anhand eines Rechenbeispiels, indem gezeigt und erklärt wird, wie ein Computer aus den gemessenen Signalen anhand von Matrizen eine Projektion
+erzeugt. Dies geschah am Beispiel zunächst für die einfache und danach für die Bestimmung der gefilterten Rückprojektion. In Abbildung 4 sind die drei
+signifikanten Schritte zu sehen. \\
+Auf diesen theoretischen Aspekt folgt die Detektorkalibrierung. Diese erfolgt in drei Schritten. Der erste Schritt ist die Vermessung einer Quelle 
+mit bekannter Aktivität genau mittig zwischen den beiden Detektoren. Daraus erhält man drei Datensätze, die für die Kalibrierung wichtig sind. Dies ist zum
+einen das Zeitspektrum, aus welchem man das Koinzidenzzeitspektrum und die Koinzidenzauflösungszeit ermitteln, damit für die Rekonstruktion der Messdaten nur 
+die zeitlich korrelierten Ereignisse verwendet werden. Für Detektor A und B erhält man jeweils Energiespektren, die man dazu verwendet, weitere Ereignisse 
+herauszufiltern, die beispielsweise zu oft gestreut wurden oder schlichtweg aus der Umgebungsstrahlung oder anderer Zerfallsarten der Quelle herrühren.
+Man erhält weiterhin ein Schwerpunktsdiagramm, auf dem man die Kristallstruktur des Detektors und damit die 8x8-Matrix erkennt. 
+Danach finden Messungen statt, deren Quellposition direkt an beiden Detektoren ist. So ermittelt man den Detektorabstand aus der Differenz der gemessenen
+Zeitunterschiede und kann erkennen, dass an dem gegenüberliegen Detektor jeweils die noch ein Peak mit geringeren Energien erscheint, der eventuell durch 
+Streuprozesse und Bremsstrahlung erzeugt wurde. Die Grafiken, die für die Messungen stehen, an denen die Münze am Detektor liegt. Hier kann man vor allem auch 
+den Prozess erkennen, der neben dem $\beta+$-Zerfall stattfindet. Über die erhaltenen Schwerpunktsdiagramme, die der Messplatz gleich mit erstellt und die eine Verteilung der Ereignisse über die Detektorfläche darstellen,
+kann man weitere Eigenschaften der Detektoren bestimmten und den Abstand der beiden Detektoren voneinander zu bestimmen, sowie ein Gefühl für die Arbeitsweise
+und die Messdaten der Detektoren zu erhalten. ($\varepsilon_A = \unit[(46\pm 3)]{\%},\ \varepsilon_B = \unit[(54\pm 3)]{\%}, \ L = (46,5\pm4,3)\unit{cm}$)
+Dabei sind die Daten, welche aus Fits eines Datenanalysetools extrahiert wurden, alle mit Fehlern behaftet. Die Software selbst berechnet die Fehler dabei so, dass
+sie möglichst klein sind und gegenüber der Größe auch tatsächlich vernachlässigbar scheinen. Nach einigen Tests von verschiedenen Funktionen in der Software QtiPlot
+kann davon ausgegangen werden, dass die Fit-Funktionen solcher Software wesentlich fehlerbehafteter sind als hier für die Berechnung angenommen wurde.\\
+Nach der Kalibrierung erfolgt der Hauptversuch: Es wird eine unbekannte Quellverteilung vermessen. Später wird die Wirkung unterschiedlicher Filter auf diese Messung untersucht
+Es zeigt sich, dass die gegebenen Filter unterschiedliche Qualitäten haben. So zeigen sich Unterschiede in puncto Schärfe, Kontrast und Rauscheffekte, sowohl über das Bild als auch direkt an den Quellen.
+Von Interesse ist hier auch das Sinogramm, welches bei mehreren Quellen auch mehrere Streifen zeigt. 
+Danach schaut man sich die Unterschiede von isotroper und anisotropen Abschirmungen an. Man erfährt, dass Anisotropien stets gespiegelt aufgenommen werden, jedoch durch eine 
+Korrekturfunktion, die es günstig zu erraten gilt, ausgeglichen werden können. 
+In diesem Protokoll wurde als Korrektur eine Gauß-Funktion angewendet. ---
