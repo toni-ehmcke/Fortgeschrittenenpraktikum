@@ -44,7 +44,7 @@
         Die Berechnung und Darstellung erfolgte über ein selbst geschriebenes \texttt{python}-Skript, das den oben beschriebenen Algorithmus realisiert. Wir sehen, dass trotz der Einfachheit des Beispiels enorme Abweichungen zwischen Ausgangsverteilung und Rückprojektion entstehen: Bis auf den größten Peak bei $(x = 3,\ y = 1)$ alle Maxima leicht versetzt rückprojiziert wurden. Dies liegt zum einen an der Diskretisierung des Problems und zum anderen besitzt selbst die über das Fourier-Scheiben-Theorem durchgeführte Rücktransformation keine exakte Lösung, da ein divergentes Integral darin auftritt, das auf einen endlichen Integrationsbereich heruntergebrochen werden muss.\cite{PA} Der Ramp-Filter führt dazu, dass die Peaks schneller abfallen und somit besser lokalisiert werden können, was sich bei der späteren quantitativen Auswertung noch als nützlich erweisen wird.
 
 \subsection{Kalibriermessungen}
-    \subsubsection{Messung einer Quelle bekannter Aktivität bei mittiger Quellposition}
+    \subsubsection{Messung einer Quelle bekannter Aktivität bei mittiger Quellposition} \label{dft:kalib_mitte}
        Zunächst haben wir eine Quelle in mittigem Abstand zu den beiden Detektoren vermessen. Die Quelle hatte am 29.10.2015 eine Aktivitiät $A = \unit[1,02]{MBq}$.\\
        Daraus sollten die Energiefenster der beiden Detektoren sowie das Koinzidenzzeitfenster bestimmt werden. Die Energiepeaks werden um $\unit[511]{keV}$ erwartet, was einem
        Kanal von 2402 für Detektor A und 1868 für Detektor B entspricht. Das Zeitfenster erwarten wir aufgrund technischer Effekte (bspw. Totzeit) und einer gewollten
@@ -110,7 +110,7 @@
        Da die Nachweiseffektivität pro Detektor zu bestimmen ist, kann man $ \varepsilon_A \simeq \varepsilon_B $ annehmen und erhält:
        $$ \varepsilon_{A/B} = \sqrt{\frac{\pi^2 N_Z}{A^2 \Omega^2_{min} P_\beta \tau \tilde t_{A/B}}}$$ 
        Für den Fehler erhält man bei fehlerlos angenommenen b, D, und a folgendes:
-       $$ \varepsilon_{A/B} = \varepsilon_{A/B} \cdot\sqrt{\left(\frac{\Delta P_\beta}{P_\beta}\right)^2+ \left(\frac{2\Delta A}{A}\right)^2 + \left(\frac{\Delta \tau}{\tau}\right)^2+ \left(\frac{\Delta \tilde t_{A/B}}{\tilde t_{A/B}}\right)^2}$$
+       $$ \Delta\varepsilon_{A/B} = \varepsilon_{A/B} \cdot\sqrt{\left(\frac{\Delta P_\beta}{P_\beta}\right)^2+ \left(\frac{2\Delta A}{A}\right)^2 + \left(\frac{\Delta \tau}{\tau}\right)^2+ \left(\frac{\Delta \tilde t_{A/B}}{\tilde t_{A/B}}\right)^2}$$
        Die verwendeten Daten sind folgende:
        $$ D = \unit[386]{mm}, b = \unit[25]{mm}, a = \unit[54]{mm}, P_\beta = 0,90382 \pm 0,00021, \tilde t_B = \unit[(230,4 \pm 0,1)]{s} , \tilde t_A = \unit[(314\pm7)]{s}$$
        Damit erhalten wir für die Detektoren folgende Nachweiseffektivitäten:
