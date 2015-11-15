@@ -1,4 +1,5 @@
 \section{Durchführung}
+Bevor wir mit der Aufnahme der Messdaten beginnen, machen wir noch einige theoretische Vorüberlegungen:
 \subsection{Radon-Transformation als Rekonstruktionsverfahren: Ein Rechenbeispiel} \label{dfs:Radon}
         Im Folgenden soll die durch die Auswertungssoftware durchgeführte (diskrete) Radon-Transformation anhand einer willkürlich gewählten Aktivitätsverteilung $N(x,y)$ nachvollziehbar dargestellt werden. Da der Ort $(x,y)$ technisch nicht als kontinuierliche Variable implementiert werden kann, genügt die Betrachtung der Ausgangsverteilung als eine Matrix $\boldsymbol{I} \in \mathbb{R}^{5 \times 5}$ mit endlichen Dimensionen, deren Einträge die Aktivität am jeweiligen Ort repräsentieren. Zunächst bestimmt man das sogenannte \textbf{Sinogramm} $p(s, \theta)$, indem man das Koordinatensystem um einen Winkel $\theta$ dreht und dann die Verteilung $N(x'(s,\theta),y'(s,\theta))$ zu einem bestimmten Ort s, welcher ohne Beschränkung der Allgemeinheit mit der x-Koordinate des gedrehten Systems identifiziert werden kann, entlang der neuen y-Achse integriert. Was wir erhalten, ist eine Projektion der Ausgangsverteilung auf die gedrehte x-Achse. Diese Konstruktion wirkt künstlich, ist aber letztlich genau das, was bei einem PET-Scan geschieht: Rotiert man die Detektoren um eine Quelle, so misst man für jeden festen Winkel genau die oben beschriebene Projektion der Quellverteilung auf die Detektorfläche.\\
         \ \\
@@ -44,6 +45,7 @@
         Die Berechnung und Darstellung erfolgte über ein selbst geschriebenes \texttt{python}-Skript, das den oben beschriebenen Algorithmus realisiert. Wir sehen, dass trotz der Einfachheit des Beispiels enorme Abweichungen zwischen Ausgangsverteilung und Rückprojektion entstehen: Bis auf den größten Peak bei $(x = 3,\ y = 1)$ alle Maxima leicht versetzt rückprojiziert wurden. Dies liegt zum einen an der Diskretisierung des Problems und zum anderen besitzt selbst die über das Fourier-Scheiben-Theorem durchgeführte Rücktransformation keine exakte Lösung, da ein divergentes Integral darin auftritt, das auf einen endlichen Integrationsbereich heruntergebrochen werden muss.\cite{PA} Der Ramp-Filter führt dazu, dass die Peaks schneller abfallen und somit besser lokalisiert werden können, was sich bei der späteren quantitativen Auswertung noch als nützlich erweisen wird.
 
 \subsection{Kalibriermessungen}
+Bevor wir die eigentlich Messdaten aufnehmen könnten, musste die Messapperatur kalibriert werden:
     \subsubsection{Messung einer Quelle bekannter Aktivität bei mittiger Quellposition} \label{dft:kalib_mitte}
        Zunächst haben wir eine Quelle in mittigem Abstand zu den beiden Detektoren vermessen. Die Quelle hatte am 29.10.2015 eine Aktivitiät $A = \unit[1,02]{MBq}$.\\
        Daraus sollten die Energiefenster der beiden Detektoren sowie das Koinzidenzzeitfenster bestimmt werden. Die Energiepeaks werden um $\unit[511]{keV}$ erwartet, was einem
@@ -190,6 +192,7 @@
     Sehr schön sind in den Abbildungen \ref{dfp:SPDdetB} und \ref{dfp:SPDMitte} auch die Verzerrungen sichtbar, die durch die Projektion der kugelförmigen Ausbreitung der Strahlung auf eine ungekrümmte Ebene entstehen.
         
     \subsection{Tomografische Messungen}
+    Kommen wir nun zur eigentlichen Messung und der Auswertung der erhaltenen Daten:
     	\subsubsection{Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}
     	        \textbf{Hauptversuch}\\
     	        
