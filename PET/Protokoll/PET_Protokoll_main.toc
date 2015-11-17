@@ -23,4 +23,6 @@
 \contentsline {subsubsection}{\numberline {3.3.1}Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}{11}
 \contentsline {subsubsection}{\numberline {3.3.2}Messung mit einer Punktquelle, Phantom an-/isotroper Dichteverteilung}{17}
 \contentsline {section}{\numberline {4}Zusammenfassung}{19}
-\contentsline {section}{\numberline {5}Literatur}{21}
+\contentsline {section}{\numberline {5}Anhang}{20}
+\contentsline {subsection}{\numberline {5.1}Messprotokoll}{20}
+\contentsline {section}{\numberline {6}Literatur}{22}
