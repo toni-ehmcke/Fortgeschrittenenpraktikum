@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	11
 <table>
 allstacks	204	4	17.11.15 17:44
-geometry	1176	820	-1	-1	minimized	
+geometry	980	820	-1	-1	minimized	
 header	index[X]	d[Y]	t[Y]	v[Y]
 ColWidth	100	100	100	120	
 <com>
@@ -224,7 +224,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/MMC/qtiplot/allstacks.txt	2
 allstacks-ColStats	allstacks	col	17.11.15 20:05
 Targets	3
 ColStatType	2	3	5	6	7	8	9	10	11	12	13	14	15
-geometry	980	820	-1	-1	minimized	
+geometry	1176	820	945	122	minimized	
 header	Col[X]	Zeilen[Y]	Mittel[Y]	Standardabweichung[Y]	Standardfehler[yEr]	Varianz[Y]	Summe[Y]	iMax[Y]	Max[Y]	iMin[Y]	Min[Y]	N[Y]	Mittelwert[Y]
 ColWidth	100	100	152	198	100	100	100	100	100	100	100	100	100	
 <com>
@@ -286,7 +286,7 @@ WindowLabel	Histogram and Probabilities for allstacks_d	2
 </table>
 <table>
 histodata_velocity	21	6	18.11.15 17:47
-geometry	196	790	643	820	minimized	active
+geometry	1372	820	643	820	minimized	
 header	BinCtr[X]	Zählen[Y]	BinEnd[Y]	Summe[Y]	probability[Y]	cumprob[Y]
 ColWidth	100	100	100	100	182	194	
 <com>
@@ -747,7 +747,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 velodist_rel	1	1	18.11.15 17:50
-geometry	0	790	976	462	minimized	
+geometry	0	790	965	806	minimized	active
 WindowLabel	velocity probability distribution	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -756,8 +756,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	958	393
-<PageGeometry>0.00516529	0.0122549	0.989669	0.963235</PageGeometry>
+ggeometry	2	4	947	736
+<PageGeometry>0.00208986	0.00531915	0.989551	0.978723</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -774,15 +774,15 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	12	75	0	0	0
-ScaleFont0	Cantarell	10	75	0	0	0
-ScaleFont1	Cantarell	10	75	0	0	0
-ScaleFont2	Cantarell	10	75	0	0	0
-ScaleFont3	Cantarell	10	75	0	0	0
-AxisFont0	Cantarell	10	50	0	0	0
-AxisFont1	Cantarell	10	50	0	0	0
-AxisFont2	Cantarell	10	50	0	0	0
-AxisFont3	Cantarell	10	50	0	0	0
+TitleFont	Cantarell	22	75	0	0	0
+ScaleFont0	Cantarell	18	75	0	0	0
+ScaleFont1	Cantarell	18	75	0	0	0
+ScaleFont2	Cantarell	18	75	0	0	0
+ScaleFont3	Cantarell	18	75	0	0	0
+AxisFont0	Cantarell	18	50	0	0	0
+AxisFont1	Cantarell	18	50	0	0	0
+AxisFont2	Cantarell	18	50	0	0	0
+AxisFont3	Cantarell	18	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
@@ -790,18 +790,38 @@ CanvasBackground	#ffffff	0
 curve	histodata_velocity_BinCtr	histodata_velocity_probability	3	1	#000000	0	1	7	0	#000000	#000000	1	#008080	0	0	0	2	0	0	20	1
 <Function>
 <Type>0</Type>
-<Title>NichtlinearFit2</Title>
-<Expression>A*exp(-(x-xc)^2/(2*w^2))</Expression>
+<Title>NichtlinearFit1</Title>
+<Expression>exp(-k*(x-xc))</Expression>
 <Variable>x</Variable>
-<Range>0	8</Range>
+<Range>0.8	8.2</Range>
 <Points>100</Points>
-<Constant>A	0.423755728300758</Constant>
-<Constant>w	0.375108386341452</Constant>
-<Constant>xc	0.801323853057735</Constant>
+<Constant>k	3.8107488855353</Constant>
+<Constant>xc	0.75773722480861</Constant>
 <Style>0</Style>
 <LineStyle>1</LineStyle>
 <Pen>
-	<Color>#ff0000</Color>
+	<Color>#0000a0</Color>
+	<Style>1</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit2</Title>
+<Expression>exp(-k*(x-xc))</Expression>
+<Variable>x</Variable>
+<Range>0.2	8.2</Range>
+<Points>100</Points>
+<Constant>k	0.73457503787247</Constant>
+<Constant>xc	-1.4655523912926</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#00ff00</Color>
 	<Style>0</Style>
 	<Width>1</Width>
 </Pen>
@@ -810,8 +830,8 @@ curve	histodata_velocity_BinCtr	histodata_velocity_probability	3	1	#000000	0	1	7
 <CurveType>0</CurveType>
 <Visible>1</Visible>
 </Function>
-scale	0	0	0.5	0	11	5	0	0
-scale	1	0	0.5	0	11	5	0	0
+scale	0	0	1	0	11	5	0	0
+scale	1	0	1	0	11	5	0	0
 scale	2	0	8	0	9	9	0	0
 scale	3	0	8	0	9	9	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
@@ -833,7 +853,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 velocumdist	1	1	18.11.15 17:57
-geometry	1372	820	972	359	minimized	
+geometry	1568	820	954	803	minimized	
 WindowLabel	cumulative probability distribution of the velocity	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -842,8 +862,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	954	290
-<PageGeometry>0.00518672	0.0163934	0.989627	0.95082</PageGeometry>
+ggeometry	5	5	936	726
+<PageGeometry>0.00528541	0.00667557	0.989429	0.969292</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -860,15 +880,15 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	9	75	0	0	0
-ScaleFont0	Cantarell	8	75	0	0	0
-ScaleFont1	Cantarell	8	75	0	0	0
-ScaleFont2	Cantarell	8	75	0	0	0
-ScaleFont3	Cantarell	8	75	0	0	0
-AxisFont0	Cantarell	8	50	0	0	0
-AxisFont1	Cantarell	8	50	0	0	0
-AxisFont2	Cantarell	8	50	0	0	0
-AxisFont3	Cantarell	8	50	0	0	0
+TitleFont	Cantarell	22	75	0	0	0
+ScaleFont0	Cantarell	20	75	0	0	0
+ScaleFont1	Cantarell	20	75	0	0	0
+ScaleFont2	Cantarell	20	75	0	0	0
+ScaleFont3	Cantarell	20	75	0	0	0
+AxisFont0	Cantarell	20	50	0	0	0
+AxisFont1	Cantarell	20	50	0	0	0
+AxisFont2	Cantarell	20	50	0	0	0
+AxisFont3	Cantarell	20	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
@@ -876,17 +896,17 @@ CanvasBackground	#ffffff	0
 curve	histodata_velocity_BinCtr	histodata_velocity_cumprob	3	1	#000000	0	1	7	0	#000000	#000000	1	#008080	0	0	0	2	0	0	20	1
 <Function>
 <Type>0</Type>
-<Title>NichtlinearFit1</Title>
-<Expression>gauss_cdf(x-xc,sigma)</Expression>
+<Title>F3</Title>
+<Expression>1-exp(-k*(x-xc))</Expression>
 <Variable>x</Variable>
-<Range>0	8.2</Range>
+<Range>0.2	8</Range>
 <Points>100</Points>
-<Constant>sigma	0.362698778563729</Constant>
-<Constant>xc	0.600078049722309</Constant>
+<Constant>k	3.8107488855353</Constant>
+<Constant>xc	0.75773722480861</Constant>
 <Style>0</Style>
 <LineStyle>1</LineStyle>
 <Pen>
-	<Color>#ff0000</Color>
+	<Color>#00ff00</Color>
 	<Style>0</Style>
 	<Width>1</Width>
 </Pen>
@@ -895,8 +915,29 @@ curve	histodata_velocity_BinCtr	histodata_velocity_cumprob	3	1	#000000	0	1	7	0	#
 <CurveType>0</CurveType>
 <Visible>1</Visible>
 </Function>
-scale	0	0	1	0	6	5	0	0
-scale	1	0	1	0	6	5	0	0
+<Function>
+<Type>0</Type>
+<Title>F1</Title>
+<Expression>1-exp(-k*(x-xc))</Expression>
+<Variable>x</Variable>
+<Range>0	8.2</Range>
+<Points>100</Points>
+<Constant>k	0.73457503787247</Constant>
+<Constant>xc	-1.4655523912926</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#0000a0</Color>
+	<Style>1</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	1	0	11	5	0	0
+scale	1	0	1	0	11	5	0	0
 scale	2	0	8	0	9	9	0	0
 scale	3	0	8	0	9	9	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
@@ -912,6 +953,42 @@ LabelsSuffix
 TickLabelsSpace	4	4	4	4
 ShowTicksPolicy	0	0	0	0
 EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1.9456384323641</x>
+<y>-1.0494037478705</y>
+<right>7.20480404551201</right>
+<bottom>-6.24531516183986</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>Datensatz</b>: histodata_velocity_cumprob
+<b>Funktion</b>: 1-exp(-k*(x-xc))
+<b>Chi^2/doF</b> = 1,1693186885001e-03
+<b>R^2</b> = 0,9747125189826
+<b>k</b> = 1,9425876380970e+00 +/- 1,4764733172096e-01
+<b>xc</b> = 1,3532870111304e-01 +/- 2,2019264326585e-02
+<b>Datensatz</b>: histodata_velocity_cumprob
+<b>Funktion</b>: 1-exp(-k*(x-xc))
+<b>Chi^2/doF</b> = 6,7640374675260e-05
+<b>R^2</b> = 0,9029233662297
+<b>k</b> = 2,9882971779715e+00 +/- 5,0482186369724e-01
+<b>xc</b> = 2,8067671202412e-01 +/- 1,3028806273595e-01
+\l(2)%(2)
+\l(3)%(3)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
 </graph>
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
@@ -2745,6 +2822,977 @@ RMSE (Standardabweichung) = 0,01097865749678
 RSS (Summe der quadrierten Restwerte) = 0,0022900874882
 ---------------------------------------------------------------------------------------
 Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+
+[18.11.15 20:05	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 6,0000000000000e-01 bis x = 8,2000000000000e+00
+A = 2,7920989856792e-01 +/- 6,7227111993622e+07
+k = 1,3784547652179e+00 +/- 4,9600526172306e-01
+xc = 8,6187252106596e-01 +/- 1,7467112791976e+08
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,3481998781099e-03
+R^2 = 0,8362329543812
+Angepasstes R^2 = 0,8055266333277
+RMSE (Standardabweichung) = 0,04845822817758
+RSS (Summe der quadrierten Restwerte) = 0,03991939792787
+---------------------------------------------------------------------------------------
+Iterationen = 22
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:05	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 6,0000000000000e-01 bis x = 8,2000000000000e+00
+A = 2,7924201083696e-01 +/- 7,5478011298116e+07
+k = 1,3784547984400e+00 +/- 2,8685342754417e-01
+xc = 8,6178909706057e-01 +/- 1,9608625975482e+08
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,3481998781099e-03
+R^2 = 0,8362329543812
+Angepasstes R^2 = 0,8055266333277
+RMSE (Standardabweichung) = 0,04845822817758
+RSS (Summe der quadrierten Restwerte) = 0,03991939792787
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:06	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 2,2780914707505e-01 +/- 4,7234820924897e+07
+k = 3,8107488235510e+00 +/- 4,0563392279563e-01
+xc = 1,1459147254969e+00 +/- 5,4410258706338e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852389195e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166619
+RSS (Summe der quadrierten Restwerte) = 6,963496382271e-05
+---------------------------------------------------------------------------------------
+Iterationen = 9
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:06	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 2,2788195258748e-01 +/- 9,2878291826577e+06
+k = 3,8107488235189e+00 +/- 1,5992791613734e-01
+xc = 1,1458308875215e+00 +/- 1,0695324430465e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388335e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166599
+RSS (Summe der quadrierten Restwerte) = 6,963496382134e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:07	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,2000000000000e+00 bis x = 8,2000000000000e+00
+A = 2,2788195258750e-01 +/- 3,5033388672213e+09
+k = 3,8107488235190e+00 +/- 9,8808097253501e+00
+xc = 1,1458308875210e+00 +/- 4,0342414794905e+09
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,8104020449072e-06
+R^2 = 0,1542736453288
+Angepasstes R^2 = -0,05715794333906
+RMSE (Standardabweichung) = 0,0019520251138
+RSS (Summe der quadrierten Restwerte) = 4,953522658379e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[18.11.15 20:07	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 2,2795476976007e-01 +/- 6,7955352713864e+07
+k = 3,8107488235199e+00 +/- 1,2327642366891e-01
+xc = 1,1457470488952e+00 +/- 7,8228438803069e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388335e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166599
+RSS (Summe der quadrierten Restwerte) = 6,963496382134e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:08	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+k = 3,8107488234851e+00 +/- 5,4376899398951e-02
+xc = 7,5773722451132e-01 +/- 3,9621379247379e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,0961743424084e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994838838759
+RMSE (Standardabweichung) = 0,002023900773854
+RSS (Summe der quadrierten Restwerte) = 6,963496382094e-05
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+A = 1 (Konstante)
+---------------------------------------------------------------------------------------
+[18.11.15 20:08	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 9,9492327510011e-01 +/- 4,4647151904269e+07
+k = 3,8107488235596e+00 +/- 5,6416320403144e-02
+xc = 7,5907282518836e-01 +/- 1,1775892827863e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388065e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166592
+RSS (Summe der quadrierten Restwerte) = 6,96349638209e-05
+---------------------------------------------------------------------------------------
+Iterationen = 9
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+k = 3,8107450754265e+00 +/- 5,4376810561223e-02
+xc = 9,9818619622087e-01 +/- 1,3412097650674e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,0961743435703e-06
+R^2 = 0,9995412301117
+Angepasstes R^2 = 0,9994838838757
+RMSE (Standardabweichung) = 0,002023900774141
+RSS (Summe der quadrierten Restwerte) = 6,963496384069e-05
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+A = 0,4 (Konstante)
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+k = 3,8107488868786e+00 +/- 5,4376901765778e-02
+xc = 9,9818621775610e-01 +/- 1,3412082618044e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,0961743424065e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994838838759
+RMSE (Standardabweichung) = 0,002023900773854
+RSS (Summe der quadrierten Restwerte) = 6,963496382091e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+A = 0,4 (Konstante)
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+k = 3,8107488235297e+00 +/- 5,4376898343165e-02
+xc = 9,3962987418319e-01 +/- 1,7364135326300e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,0961743424183e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994838838759
+RMSE (Standardabweichung) = 0,002023900773857
+RSS (Summe der quadrierten Restwerte) = 6,963496382111e-05
+---------------------------------------------------------------------------------------
+Iterationen = 3
+Status = success
+---------------------------------------------------------------------------------------
+A = 0,5 (Konstante)
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+k = 3,8107499636593e+00 +/- 5,4376927493860e-02
+xc = 1,5438639935995e+00 +/- 7,5894358227093e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,0961743425138e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994838838758
+RMSE (Standardabweichung) = 0,00202390077388
+RSS (Summe der quadrierten Restwerte) = 6,963496382274e-05
+---------------------------------------------------------------------------------------
+Iterationen = 10
+Status = success
+---------------------------------------------------------------------------------------
+A = 0,05 (Konstante)
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,0022297759711e-02 +/- 7,6567837941924e+06
+k = 3,8107488042445e+00 +/- 1,3097754831713e-01
+xc = 1,5437471275991e+00 +/- 4,0167280103164e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852389086e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166617
+RSS (Summe der quadrierten Restwerte) = 6,963496382254e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,0044590504285e-02 +/- 1,3686660661348e+07
+k = 3,8107488238358e+00 +/- 1,3110905130966e-01
+xc = 1,5436302038232e+00 +/- 7,1767866414388e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852389085e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166617
+RSS (Summe der quadrierten Restwerte) = 6,963496382254e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,1646759564818e-01 +/- 5,0005457311294e+07
+k = 3,8107488235021e+00 +/- 9,9398194209313e-02
+xc = 9,3112642489920e-01 +/- 2,5407620884288e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388126e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166594
+RSS (Summe der quadrierten Restwerte) = 6,9634963821e-05
+---------------------------------------------------------------------------------------
+Iterationen = 9
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,1641655741108e-01 +/- 7,7639285141317e+07
+k = 3,8107488235058e+00 +/- 2,7699099433896e-01
+xc = 9,3115236362589e-01 +/- 3,9452183570650e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388068e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166592
+RSS (Summe der quadrierten Restwerte) = 6,963496382091e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,1643013704336e-01 +/- 5,3341280302313e+07
+k = 3,8107488235112e+00 +/- 2,3361375130665e-01
+xc = 9,3114546445571e-01 +/- 2,7104508332587e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388065e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166592
+RSS (Summe der quadrierten Restwerte) = 6,96349638209e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,1642239607765e-01 +/- 2,3052336840171e+08
+k = 3,8107488235347e+00 +/- 1,8741677820256e-01
+xc = 9,3114939799347e-01 +/- 1,1713847457096e+08
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388065e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166592
+RSS (Summe der quadrierten Restwerte) = 6,96349638209e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,1643597459489e-01 +/- 6,8996233286608e+07
+k = 3,8107488234993e+00 +/- 1,8235342293788e-01
+xc = 9,3114249821489e-01 +/- 3,5058923004643e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388065e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166592
+RSS (Summe der quadrierten Restwerte) = 6,96349638209e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,1642239592174e-01 +/- 1,0949953919739e+08
+k = 3,8107488235376e+00 +/- 5,6826553863887e-02
+xc = 9,3114939801143e-01 +/- 5,5641252738084e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388065e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166592
+RSS (Summe der quadrierten Restwerte) = 6,96349638209e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,1640881752245e-01 +/- 8,6861522595602e+07
+k = 3,8107488235562e+00 +/- 6,2712871850760e-02
+xc = 9,3115629784993e-01 +/- 4,4139099122447e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388065e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166592
+RSS (Summe der quadrierten Restwerte) = 6,96349638209e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,1641550031914e-01 +/- 4,8321440763139e+07
+k = 3,8107488235004e+00 +/- 1,8665532014341e-01
+xc = 9,3115290204414e-01 +/- 2,4554453960937e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388065e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166592
+RSS (Summe der quadrierten Restwerte) = 6,96349638209e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,1642223942254e-01 +/- 1,6300553211713e+07
+k = 3,8107488234877e+00 +/- 1,7451956219565e-01
+xc = 9,3114947760253e-01 +/- 8,2829889558602e+06
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388065e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166592
+RSS (Summe der quadrierten Restwerte) = 6,96349638209e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,1642223942250e-01 +/- 3,5988083491577e+07
+k = 3,8107488234880e+00 +/- 5,9837983955263e-02
+xc = 9,3114947760250e-01 +/- 1,8287041833469e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388065e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166592
+RSS (Summe der quadrierten Restwerte) = 6,96349638209e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,1642223942250e-01 +/- 3,5988083491577e+07
+k = 3,8107488234880e+00 +/- 5,9837983955263e-02
+xc = 9,3114947760250e-01 +/- 1,8287041833469e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388065e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166592
+RSS (Summe der quadrierten Restwerte) = 6,96349638209e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[18.11.15 20:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,1642223942250e-01 +/- 3,5988083491577e+07
+k = 3,8107488234880e+00 +/- 5,9837983955263e-02
+xc = 9,3114947760250e-01 +/- 1,8287041833469e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388065e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166592
+RSS (Summe der quadrierten Restwerte) = 6,96349638209e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[18.11.15 20:10	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+A = 5,1642223942250e-01 +/- 3,5988083491577e+07
+k = 3,8107488234880e+00 +/- 5,9837983955263e-02
+xc = 9,3114947760250e-01 +/- 1,8287041833469e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,3521852388065e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994494761342
+RMSE (Standardabweichung) = 0,002086189166592
+RSS (Summe der quadrierten Restwerte) = 6,96349638209e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[18.11.15 20:17	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,9426294351544e+00 +/- 1,4765112326981e-01
+xc = 1,3533240245393e-01 +/- 2,2018617621826e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1693186924616e-03
+R^2 = 0,974712518897
+Angepasstes R^2 = 0,9719027987744
+RMSE (Standardabweichung) = 0,03419530219872
+RSS (Summe der quadrierten Restwerte) = 0,02221705515677
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:17	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,9425876380970e+00 +/- 1,4764733172096e-01
+xc = 1,3532870111304e-01 +/- 2,2019264326585e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1693186885001e-03
+R^2 = 0,9747125189826
+Angepasstes R^2 = 0,9719027988696
+RMSE (Standardabweichung) = 0,03419530214079
+RSS (Summe der quadrierten Restwerte) = 0,0222170550815
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:18	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+A = 1,1154231473006e+02 +/- 0,0000000000000e+00
+k = 1,2156540833674e+00 +/- 0,0000000000000e+00
+xc = -1,1033104231220e+02 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,6029465162972e-02
+R^2 = -0,1479105834425
+Angepasstes R^2 = -0,3504830393441
+RMSE (Standardabweichung) = 0,2367054396565
+RSS (Summe der quadrierten Restwerte) = 1,008530372933
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[18.11.15 20:18	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+A = 1,1154231473010e+02 +/- 0,0000000000000e+00
+k = 1,2156540833670e+00 +/- 0,0000000000000e+00
+xc = -1,1033104231220e+02 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,6029465162972e-02
+R^2 = -0,1479105834425
+Angepasstes R^2 = -0,3504830393441
+RMSE (Standardabweichung) = 0,2367054396565
+RSS (Summe der quadrierten Restwerte) = 1,008530372933
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[18.11.15 20:18	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,9426294351544e+00 +/- 1,4765112326981e-01
+xc = 1,3533240245393e-01 +/- 2,2018617621826e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1693186924616e-03
+R^2 = 0,974712518897
+Angepasstes R^2 = 0,9719027987744
+RMSE (Standardabweichung) = 0,03419530219872
+RSS (Summe der quadrierten Restwerte) = 0,02221705515677
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:19	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,9425876380970e+00 +/- 1,4764733172096e-01
+xc = 1,3532870111304e-01 +/- 2,2019264326585e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1693186885001e-03
+R^2 = 0,9747125189826
+Angepasstes R^2 = 0,9719027988696
+RMSE (Standardabweichung) = 0,03419530214079
+RSS (Summe der quadrierten Restwerte) = 0,0222170550815
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:19	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,2697460050923e-07 +/- 2,4576462780891e-01
+xc = 2,0023906227673e+07 +/- 3,8757096349812e+13
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,6241017047467e-02
+R^2 = -1,302561176697e-07
+Angepasstes R^2 = -0,1111112558401
+RMSE (Standardabweichung) = 0,2150372457214
+RSS (Summe der quadrierten Restwerte) = 0,8785793239019
+---------------------------------------------------------------------------------------
+Iterationen = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[18.11.15 20:19	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,2697460050920e-07 +/- 2,4580605289063e-01
+xc = 2,0023906227670e+07 +/- 3,8763629136325e+13
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,6241017047467e-02
+R^2 = -1,302561178917e-07
+Angepasstes R^2 = -0,1111112558401
+RMSE (Standardabweichung) = 0,2150372457214
+RSS (Summe der quadrierten Restwerte) = 0,8785793239019
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[18.11.15 20:19	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,9426294351544e+00 +/- 1,4765112326981e-01
+xc = 1,3533240245393e-01 +/- 2,2018617621826e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1693186924616e-03
+R^2 = 0,974712518897
+Angepasstes R^2 = 0,9719027987744
+RMSE (Standardabweichung) = 0,03419530219872
+RSS (Summe der quadrierten Restwerte) = 0,02221705515677
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:21	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-A*exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+A = 1,1154231473006e+02 +/- 0,0000000000000e+00
+k = 1,2156540833674e+00 +/- 0,0000000000000e+00
+xc = -1,1033104231220e+02 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,6029465162972e-02
+R^2 = -0,1479105834425
+Angepasstes R^2 = -0,3504830393441
+RMSE (Standardabweichung) = 0,2367054396565
+RSS (Summe der quadrierten Restwerte) = 1,008530372933
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[18.11.15 20:21	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,9426294351544e+00 +/- 1,4765112326981e-01
+xc = 1,3533240245393e-01 +/- 2,2018617621826e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1693186924616e-03
+R^2 = 0,974712518897
+Angepasstes R^2 = 0,9719027987744
+RMSE (Standardabweichung) = 0,03419530219872
+RSS (Summe der quadrierten Restwerte) = 0,02221705515677
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:22	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(xc-x))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,2697460050923e-07 +/- 2,4576462780891e-01
+xc = 2,0023906227673e+07 +/- 3,8757096349812e+13
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,6241017047467e-02
+R^2 = -1,302561176697e-07
+Angepasstes R^2 = -0,1111112558401
+RMSE (Standardabweichung) = 0,2150372457214
+RSS (Summe der quadrierten Restwerte) = 0,8785793239019
+---------------------------------------------------------------------------------------
+Iterationen = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[18.11.15 20:23	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,9426294351544e+00 +/- 1,4765112326981e-01
+xc = 1,3533240245393e-01 +/- 2,2018617621826e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1693186924616e-03
+R^2 = 0,974712518897
+Angepasstes R^2 = 0,9719027987744
+RMSE (Standardabweichung) = 0,03419530219872
+RSS (Summe der quadrierten Restwerte) = 0,02221705515677
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:23	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,9425876380970e+00 +/- 1,4764733172096e-01
+xc = 1,3532870111304e-01 +/- 2,2019264326585e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1693186885001e-03
+R^2 = 0,9747125189826
+Angepasstes R^2 = 0,9719027988696
+RMSE (Standardabweichung) = 0,03419530214079
+RSS (Summe der quadrierten Restwerte) = 0,0222170550815
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:29	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 7,3451434093100e-01 +/- 2,5345214904042e-01
+xc = -1,4657313502351e+00 +/- 7,8238732122811e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,6302421718398e-03
+R^2 = 0,5790719798512
+Angepasstes R^2 = 0,5323021998347
+RMSE (Standardabweichung) = 0,07503493967373
+RSS (Summe der quadrierten Restwerte) = 0,106974601265
+---------------------------------------------------------------------------------------
+Iterationen = 15
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:35	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 7,3451434093100e-01 +/- 2,5345214904042e-01
+xc = -1,4657313502351e+00 +/- 7,8238732122811e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,6302421718398e-03
+R^2 = 0,5790719798512
+Angepasstes R^2 = 0,5323021998347
+RMSE (Standardabweichung) = 0,07503493967373
+RSS (Summe der quadrierten Restwerte) = 0,106974601265
+---------------------------------------------------------------------------------------
+Iterationen = 15
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:35	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 7,3456765822999e-01 +/- 2,5347101054433e-01
+xc = -1,4655741576672e+00 +/- 7,8231603014446e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,6302421679873e-03
+R^2 = 0,5790719801392
+Angepasstes R^2 = 0,5323022001547
+RMSE (Standardabweichung) = 0,07503493964805
+RSS (Summe der quadrierten Restwerte) = 0,1069746011918
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:35	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 7,3453000133135e-01 +/- 2,5345769107130e-01
+xc = -1,4656851931064e+00 +/- 7,8236639183847e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,6302421660669e-03
+R^2 = 0,5790719802828
+Angepasstes R^2 = 0,5323022003142
+RMSE (Standardabweichung) = 0,07503493963526
+RSS (Summe der quadrierten Restwerte) = 0,1069746011553
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:35	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 7,3455660040401e-01 +/- 2,5346710035699e-01
+xc = -1,4656067689899e+00 +/- 7,8233082352129e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,6302421651086e-03
+R^2 = 0,5790719803544
+Angepasstes R^2 = 0,5323022003938
+RMSE (Standardabweichung) = 0,07503493962887
+RSS (Summe der quadrierten Restwerte) = 0,1069746011371
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:36	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 7,3453781262701e-01 +/- 2,5346045451641e-01
+xc = -1,4656621657694e+00 +/- 7,8235594898372e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,6302421646305e-03
+R^2 = 0,5790719803902
+Angepasstes R^2 = 0,5323022004335
+RMSE (Standardabweichung) = 0,07503493962569
+RSS (Summe der quadrierten Restwerte) = 0,106974601128
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:36	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+k = 3,8107451608195e+00 +/- 5,4376812042229e-02
+xc = 7,5773697136921e-01 +/- 3,9621402914219e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,0961743435190e-06
+R^2 = 0,9995412301117
+Angepasstes R^2 = 0,9994838838757
+RMSE (Standardabweichung) = 0,002023900774129
+RSS (Summe der quadrierten Restwerte) = 6,963496383982e-05
+---------------------------------------------------------------------------------------
+Iterationen = 9
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:36	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+k = 3,8107488855353e+00 +/- 5,4376901715030e-02
+xc = 7,5773722480861e-01 +/- 3,9621379903175e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,0961743424064e-06
+R^2 = 0,9995412301119
+Angepasstes R^2 = 0,9994838838759
+RMSE (Standardabweichung) = 0,002023900773854
+RSS (Summe der quadrierten Restwerte) = 6,963496382091e-05
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:36	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 7,3457503787247e-01 +/- 2,5347361887343e-01
+xc = -1,4655523912926e+00 +/- 7,8230615232020e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,6302421709791e-03
+R^2 = 0,5790719799155
+Angepasstes R^2 = 0,5323021999062
+RMSE (Standardabweichung) = 0,07503493966799
+RSS (Summe der quadrierten Restwerte) = 0,1069746012486
+---------------------------------------------------------------------------------------
+Iterationen = 16
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:42	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,9426294351544e+00 +/- 1,4765112326981e-01
+xc = 1,3533240245393e-01 +/- 2,2018617621826e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1693186924616e-03
+R^2 = 0,974712518897
+Angepasstes R^2 = 0,9719027987744
+RMSE (Standardabweichung) = 0,03419530219872
+RSS (Summe der quadrierten Restwerte) = 0,02221705515677
+---------------------------------------------------------------------------------------
+Iterationen = 7
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:42	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,9425876380970e+00 +/- 1,4764733172096e-01
+xc = 1,3532870111304e-01 +/- 2,2019264326585e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1693186885001e-03
+R^2 = 0,9747125189826
+Angepasstes R^2 = 0,9719027988696
+RMSE (Standardabweichung) = 0,03419530214079
+RSS (Summe der quadrierten Restwerte) = 0,0222170550815
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:44	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+k = 1,9425958604334e+00 +/- 1,4764807812822e-01
+xc = 1,3532942880628e-01 +/- 2,2019137154235e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,1693186883468e-03
+R^2 = 0,974712518986
+Angepasstes R^2 = 0,9719027988733
+RMSE (Standardabweichung) = 0,03419530213855
+RSS (Summe der quadrierten Restwerte) = 0,02221705507859
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:44	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+k = 2,9882678608135e+00 +/- 5,0481475366039e-01
+xc = 2,8066926027594e-01 +/- 1,3028897355400e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,7640374692030e-05
+R^2 = 0,9029233662056
+Angepasstes R^2 = 0,8907887869813
+RMSE (Standardabweichung) = 0,008224376857369
+RSS (Summe der quadrierten Restwerte) = 0,001149886369765
+---------------------------------------------------------------------------------------
+Iterationen = 9
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 20:45	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: 1-exp(-k*(x-xc))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 8,2000000000000e+00
+k = 2,9882971779715e+00 +/- 5,0482186369724e-01
+xc = 2,8067671202412e-01 +/- 1,3028806273595e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6,7640374675260e-05
+R^2 = 0,9029233662297
+Angepasstes R^2 = 0,8907887870084
+RMSE (Standardabweichung) = 0,00822437685635
+RSS (Summe der quadrierten Restwerte) = 0,001149886369479
+---------------------------------------------------------------------------------------
+Iterationen = 1
 Status = success
 ---------------------------------------------------------------------------------------
 </log>
