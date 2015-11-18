@@ -7,9 +7,9 @@
 \contentsline {section}{\numberline {2}Experimental procedure}{2}
 \contentsline {subsection}{\numberline {2.1}Making of the Kinesin-1-stepping assay}{2}
 \contentsline {subsection}{\numberline {2.2}Stream acquisition}{2}
-\contentsline {section}{\numberline {3}Data Analysis}{2}
-\contentsline {subsection}{\numberline {3.1}Data evaluation of velocity}{2}
-\contentsline {subsection}{\numberline {3.2}Data evaluation of run length}{2}
-\contentsline {section}{\numberline {4}Discussion and conclusions}{2}
-\contentsline {section}{\numberline {5}Appendix}{2}
-\contentsline {section}{\numberline {6}Literatur}{3}
+\contentsline {section}{\numberline {3}Data Analysis}{3}
+\contentsline {subsection}{\numberline {3.1}Data evaluation of velocity}{3}
+\contentsline {subsection}{\numberline {3.2}Data evaluation of run length}{3}
+\contentsline {section}{\numberline {4}Discussion and conclusions}{3}
+\contentsline {section}{\numberline {5}Appendix}{3}
+\contentsline {section}{\numberline {6}Literatur}{4}
