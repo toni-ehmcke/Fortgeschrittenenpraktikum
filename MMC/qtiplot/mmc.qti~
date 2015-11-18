@@ -1,15 +1,11 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	15
+<windows>	11
 <table>
 allstacks	204	4	17.11.15 17:44
-<<<<<<< HEAD
-geometry	392	820	539	850	minimized	
-=======
-geometry	50	50	539	850	hidden
->>>>>>> bc07e5d3a9af04704f73b1c32b1bb22e557499e5
+geometry	784	804	485	815	minimized	active
 header	index[X]	d[Y]	t[Y]	v[Y]
-ColWidth	100	100	100	100	
+ColWidth	100	100	100	120	
 <com>
 </com>
 ColType	0;0/14	0;0/14	0;0/14	0;0/14
@@ -224,437 +220,11 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/MMC/qtiplot/allstacks.txt	2
 203	37	1.630511	2.015	0.809187
 </data>
 </table>
-<<<<<<< HEAD
-<multiLayer>
-velocity	1	1	17.11.15 18:56
-geometry	196	820	1380	849	minimized	
-WindowLabel	histogram of the velocity	2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	1361	771
-<PageGeometry>0.00364431	0.00628931	0.991983	0.969811</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	velocity [µm/s]	counts			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	24	75	0	0	0
-ScaleFont0	Cantarell	20	75	0	0	0
-ScaleFont1	Cantarell	20	75	0	0	0
-ScaleFont2	Cantarell	20	75	0	0	0
-ScaleFont3	Cantarell	20	75	0	0	0
-AxisFont0	Cantarell	20	50	0	0	0
-AxisFont1	Cantarell	20	50	0	0	0
-AxisFont2	Cantarell	20	50	0	0	0
-AxisFont3	Cantarell	20	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	-	allstacks_v	9	1	#000000	0	1	3	0	#000000	#000000	1	#000000	4	10	0	0	0.25	0	8	2	0	0	203	1
-curve	Fit5_1	Fit5_2	0	1	#ff0000	0	1	0	0	#000000	#a0a0a4	0	#000000	14	0	2	0	0	32	1
-scale	0	0	70	0	8	5	0	0
-scale	1	0	70	0	8	5	0	0
-scale	2	0	8	0	5	5	0	0
-scale	3	0	8	0	5	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>11.394295302013</x>
-<y>119.42857142857</y>
-<right>15.9697986577181</right>
-<bottom>109.333333333333</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(<b>Datensatz</b>: counts for one value of velocity
-<b>Datensatz</b>: allstacks_v
-<b>Funktion</b>: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
-<b>Chi^2/doF</b> = 2,4344515376063e+00
-<b>R^2</b> = 0,9877298724748
-<b>A</b> = 4,9231829952723e+01 +/- 1,1402767694591e+00
-<b>xc</b> = 6,7868418556928e-01 +/- 8,1615702021408e-03
-<b>w</b> = 6,6825535778013e-01 +/- 1,6922480061321e-02
-<b>y0</b> = 2,0563515400313e-01 +/- 2,6610003011570e-01)
-\l(2)%(2)
-<b>Datensatz</b>: allstacks_v
-<b>Funktion</b>: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
-<b>Chi^2/doF</b> = 3,0907826437691e+00
-<b>R^2</b> = 0,9873666180185
-<b>A</b> = 4,9117850273564e+01 +/- 1,3144970937018e+00
-<b>xc</b> = 6,7872053294359e-01 +/- 9,1950146926295e-03
-<b>w</b> = 6,6717703372153e-01 +/- 1,9216132855252e-02
-<b>y0</b> = 2,6871957533763e-01 +/- 3,4224499414376e-01
-</Text>
-<Font>Cantarell	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-=======
->>>>>>> bc07e5d3a9af04704f73b1c32b1bb22e557499e5
-<table>
-Fit1	10	2	17.11.15 19:06
-geometry	1475	630	445	220	hidden
-header	1[X]	2[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/14	0;0/14
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
-WindowLabel	Gauß-Fit Fit von allstacks_v	2
-<data>
-0	0	98.999984476468
-1	0.8	99.000046394956
-2	1.6	3.9987670718665
-3	2.4	0.29039084896315
-4	3.2	0.28513542622344
-5	4	0.28513514640415
-6	4.8	0.28513514640358
-7	5.6	0.28513514640358
-8	6.4	0.28513514640358
-9	7.2	0.28513514640358
-</data>
-</table>
-<<<<<<< HEAD
-<multiLayer>
-distance	1	1	17.11.15 19:13
-geometry	980	820	1380	850	minimized	active
-WindowLabel	histogram of the distance	2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	6	5	1352	776
-<PageGeometry>0.00437318	0.00628141	0.985423	0.974874</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	distance [µm]	counts			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	24	75	0	0	0
-ScaleFont0	Cantarell	20	75	0	0	0
-ScaleFont1	Cantarell	20	75	0	0	0
-ScaleFont2	Cantarell	20	75	0	0	0
-ScaleFont3	Cantarell	20	75	0	0	0
-AxisFont0	Cantarell	20	50	0	0	0
-AxisFont1	Cantarell	20	50	0	0	0
-AxisFont2	Cantarell	20	50	0	0	0
-AxisFont3	Cantarell	20	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	-	allstacks_d	9	1	#000000	0	1	3	0	#000000	#000000	1	#000000	4	0	0	0	0.499	0	8	2	0	0	203	1
-scale	0	0	100	0	6	5	0	0
-scale	1	0	100	0	6	5	0	0
-scale	2	0	8	0	5	5	0	0
-scale	3	0	8	0	5	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>5.105663567202</x>
-<y>100.15748031496</y>
-<right>8</right>
-<bottom>68.6614173228347</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1) distance counts
-<b>Datensatz</b>: allstacks_d
-<b>Funktion</b>: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
-<b>Chi^2/doF</b> = 2,1399270064391e+01
-<b>R^2</b> = 0,9855188554107
-<b>A</b> = 1,0353626957183e+02 +/- 6,6035237060608e+00
-<b>xc</b> = 5,6547163832537e-01 +/- 2,8220751542014e-02
-<b>w</b> = 8,7527512397766e-01 +/- 4,9943482152697e-02
-<b>y0</b> = 3,4180152999753e+00 +/- 1,7872315401497e+00
-</Text>
-<Font>Cantarell	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-=======
->>>>>>> bc07e5d3a9af04704f73b1c32b1bb22e557499e5
-<table>
-Fit2	10	2	17.11.15 19:17
-geometry	1475	0	445	220	hidden
-header	1[X]	2[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/14	0;0/14
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
-WindowLabel	Gauß-Fit Fit von allstacks_d	2
-<data>
-0	0	44.377606998978
-1	0.6	97.506462060962
-2	1.2	36.40952971932
-3	1.8	5.1838639432841
-4	2.4	3.4324427630867
-5	3	3.4180332933134
-6	3.6	3.4180153034008
-7	4.2	3.4180152999754
-8	4.8	3.4180152999753
-9	5.4	3.4180152999753
-</data>
-</table>
-<table>
-Fit3	10	2	17.11.15 19:25
-geometry	0	0	445	220	hidden
-header	1[X]	2[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/14	0;0/14
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
-WindowLabel	Gauß-Fit Fit von allstacks_v	2
-<data>
-0	0	98.999984476468
-1	0.8	99.000046394956
-2	1.6	3.9987670718665
-3	2.4	0.29039084896315
-4	3.2	0.28513542622344
-5	4	0.28513514640415
-6	4.8	0.28513514640358
-7	5.6	0.28513514640358
-8	6.4	0.28513514640358
-9	7.2	0.28513514640358
-</data>
-</table>
-<table>
-Einteilungen1	10	4	17.11.15 19:42
-<<<<<<< HEAD
-geometry	0	820	1920	850	minimized	
-=======
-geometry	-510	46	1920	850	hidden
->>>>>>> bc07e5d3a9af04704f73b1c32b1bb22e557499e5
-header	Einteilungen[X]	Anzahl[Y]	Summe[Y]	Prozent[Y]
-ColWidth	100	100	100	100	
-<com>
-</com>
-ColType	0;0/14	0;0/14	0;0/14	0;0/14
-ReadOnlyColumn	0	0	0	0
-HiddenColumn	0	0	0	0
-Comments					
-WindowLabel	Histogramm und Wahrscheinlichkeiten für allstacks_v	2
-<data>
-0	0	99	99	48.529411764706
-1	0.8	99	198	97.058823529412
-2	1.6	4	202	99.019607843137
-3	2.4	0	202	99.019607843137
-4	3.2	0	202	99.019607843137
-5	4	0	202	99.019607843137
-6	4.8	0	202	99.019607843137
-7	5.6	0	202	99.019607843137
-8	6.4	1	203	99.509803921569
-9	7.2	1	204	100
-</data>
-</table>
-<table>
-Fit4	41	2	17.11.15 19:59
-geometry	1475	630	445	220	hidden
-header	1[X]	2[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/14	0;0/14
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
-WindowLabel	Gauß-Fit Fit von allstacks_v	2
-<data>
-0	0	7.675841432549
-1	0.25	26.016503671632
-2	0.5	51.155396607975
-3	0.75	57.663727615508
-4	1	37.225068357606
-5	1.25	13.831931779175
-6	1.5	3.0711022421511
-7	1.75	0.54989195043041
-8	2	0.22926381620971
-9	2.25	0.20656169631501
-10	2.5	0.20565591082662
-11	2.75	0.20563541966306
-12	3	0.20563515594563
-13	3.25	0.20563515401125
-14	3.5	0.20563515400315
-15	3.75	0.20563515400313
-16	4	0.20563515400313
-17	4.25	0.20563515400313
-18	4.5	0.20563515400313
-19	4.75	0.20563515400313
-20	5	0.20563515400313
-21	5.25	0.20563515400313
-22	5.5	0.20563515400313
-23	5.75	0.20563515400313
-24	6	0.20563515400313
-25	6.25	0.20563515400313
-26	6.5	0.20563515400313
-27	6.75	0.20563515400313
-28	7	0.20563515400313
-29	7.25	0.20563515400313
-30	7.5	0.20563515400313
-31	7.75	0.20563515400313
-32	8	0.20563515400313
-33	8.25	0.20563515400313
-34	8.5	0.20563515400313
-35	8.75	0.20563515400313
-36	9	0.20563515400313
-37	9.25	0.20563515400313
-38	9.5	0.20563515400313
-39	9.75	0.20563515400313
-40	10	0.20563515400313
-</data>
-</table>
-<table>
-Geglättet1	41	2	17.11.15 20:00
-geometry	1475	630	445	220	hidden
-header	1[X]	2[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/14	0;0/14
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
-WindowLabel	2 Punkte Savitzky-Golay-Glättung von Fit4_2	2
-<data>
-0	0	8.2634616739713
-1	0.25	27.864692458786
-2	0.5	49.688622526023
-3	0.75	54.894389791376
-4	1	37.945559379003
-5	1.25	15.54445796415
-6	1.5	3.2122178957255
-7	1.75	0.19534501231936
-8	2	0.089847262216484
-9	2.25	0.18468581290031
-10	2.5	0.2039376845521
-11	2.75	0.20556298241601
-12	3	0.20563346687652
-13	3.25	0.20563513190223
-14	3.5	0.20563515383943
-15	3.75	0.20563515400244
-16	4	0.20563515400313
-17	4.25	0.20563515400313
-18	4.5	0.20563515400313
-19	4.75	0.20563515400313
-20	5	0.20563515400313
-21	5.25	0.20563515400313
-22	5.5	0.20563515400313
-23	5.75	0.20563515400313
-24	6	0.20563515400313
-25	6.25	0.20563515400313
-26	6.5	0.20563515400313
-27	6.75	0.20563515400313
-28	7	0.20563515400313
-29	7.25	0.20563515400313
-30	7.5	0.20563515400313
-31	7.75	0.20563515400313
-32	8	0.20563515400313
-33	8.25	0.20563515400313
-34	8.5	0.20563515400313
-35	8.75	0.20563515400313
-36	9	0.20563515400313
-37	9.25	0.20563515400313
-38	9.5	0.20563515400313
-39	9.75	0.22326102434626
-40	10	0.15275754297376
-</data>
-</table>
 <TableStatistics>
 allstacks-ColStats	allstacks	col	17.11.15 20:05
 Targets	3
 ColStatType	2	3	5	6	7	8	9	10	11	12	13	14	15
-<<<<<<< HEAD
-geometry	588	820	1482	244	minimized	
-=======
-geometry	392	667	-1	-1	minimized	active
->>>>>>> bc07e5d3a9af04704f73b1c32b1bb22e557499e5
+geometry	196	804	945	289	minimized	
 header	Col[X]	Zeilen[Y]	Mittel[Y]	Standardabweichung[Y]	Standardfehler[yEr]	Varianz[Y]	Summe[Y]	iMax[Y]	Max[Y]	iMin[Y]	Min[Y]	N[Y]	Mittelwert[Y]
 ColWidth	100	100	152	198	100	100	100	100	100	100	100	100	100	
 <com>
@@ -663,17 +233,13 @@ ColType	0;0/14	1;0/13	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;
 ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
 HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
 Comments	Beinhaltete Spalten	Beinhaltete Zeilen	Mittel	Standardabweichung	Standardfehler	Varianz	Summe	Index des Maximumwerts	Maximumwert	Index des Minimumwerts	Minimumwert	Anzahl an Punkten	Mittelwert	
-WindowLabel	Column Statistics of allstacks	2
+WindowLabel	Spaltenstatistik von allstacks	2
 </TableStatistics>
 <TableStatistics>
 allstacks-ColStats	allstacks	col	17.11.15 20:05
 Targets	1
 ColStatType	2	3	5	6	7	8	9	10	11	12	13	14	15
-<<<<<<< HEAD
-geometry	784	820	945	287	minimized	
-=======
-geometry	196	667	-1	-1	minimized	
->>>>>>> bc07e5d3a9af04704f73b1c32b1bb22e557499e5
+geometry	0	804	-1	-1	minimized	
 header	Col[X]	Zeilen[Y]	Mittel[Y]	Standardabweichung[Y]	Standardfehler[yEr]	Varianz[Y]	Summe[Y]	iMax[Y]	Max[Y]	iMin[Y]	Min[Y]	N[Y]	Mittelwert[Y]
 ColWidth	100	100	179	148	100	100	100	100	100	100	100	100	100	
 <com>
@@ -682,164 +248,45 @@ ColType	0;0/14	1;0/13	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;
 ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
 HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
 Comments	Beinhaltete Spalten	Beinhaltete Zeilen	Mittel	Standardabweichung	Standardfehler	Varianz	Summe	Index des Maximumwerts	Maximumwert	Index des Minimumwerts	Minimumwert	Anzahl an Punkten	Mittelwert	
-WindowLabel	Column Statistics of allstacks	2
+WindowLabel	Spaltenstatistik von allstacks	2
 </TableStatistics>
 <table>
-Fit5	33	2	17.11.15 20:11
-geometry	0	0	445	220	
-header	1[X]	2[Y]
-ColWidth	100	100	
+histogram_data_runlength	13	6	11/18/15 1:40 PM
+geometry	588	804	1617	850	minimized	
+header	Bins[X]	Quantity[Y]	probability[Y]	Sum[Y]	Percent[Y]	cumulative prob[Y]
+ColWidth	100	100	180	100	160	300	
 <com>
+<col nr="2">
+col("Quantity") / 204
+</col>
+<col nr="5">
+col("Percent") /100
+</col>
 </com>
-ColType	0;0/14	0;0/14
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
-WindowLabel	Gauß-Fit Fit von allstacks_v	2
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel	Histogram and Probabilities for allstacks_d	2
 <data>
-0	0	7.6823798691693
-1	0.25	25.98926528998
-2	0.5	51.156163181876
-3	0.75	57.683544907136
-4	1	37.210720967108
-5	1.25	13.823726733985
-6	1.5	3.1050840731445
-7	1.75	0.60717952755366
-8	2	0.29175177917173
-9	2.25	0.26961338832439
-10	2.5	0.2687393559979
-11	2.75	0.26871982497975
-12	3	0.26871957713434
-13	3.25	0.268719575345
-14	3.5	0.26871957533764
-15	3.75	0.26871957533763
-16	4	0.26871957533763
-17	4.25	0.26871957533763
-18	4.5	0.26871957533763
-19	4.75	0.26871957533763
-20	5	0.26871957533763
-21	5.25	0.26871957533763
-22	5.5	0.26871957533763
-23	5.75	0.26871957533763
-24	6	0.26871957533763
-25	6.25	0.26871957533763
-26	6.5	0.26871957533763
-27	6.75	0.26871957533763
-28	7	0.26871957533763
-29	7.25	0.26871957533763
-30	7.5	0.26871957533763
-31	7.75	0.26871957533763
-32	8	0.26871957533763
+0	0	27	0.1323529411765	27	13.23529411765	0.1323529411765
+1	0.5	85	0.4166666666667	112	54.90196078431	0.5490196078431
+2	1	50	0.2450980392157	162	79.41176470588	0.7941176470588
+3	1.5	21	0.1029411764706	183	89.70588235294	0.8970588235294
+4	2	8	0.03921568627451	191	93.62745098039	0.9362745098039
+5	2.5	1	0.004901960784314	192	94.11764705882	0.9411764705882
+6	3	7	0.0343137254902	199	97.54901960784	0.9754901960784
+7	3.5	3	0.01470588235294	202	99.01960784314	0.9901960784314
+8	4	1	0.004901960784314	203	99.50980392157	0.9950980392157
+9	4.5	0	0	203	99.50980392157	0.9950980392157
+10	5	0	0	203	99.50980392157	0.9950980392157
+11	5.5	1	0.004901960784314	204	100	1
+12	6	0	0	204	100	1
 </data>
 </table>
 <multiLayer>
-velocity	1	1	17.11.15 18:56
-geometry	0	667	1380	849	minimized	
-WindowLabel	histogram of the velocity	2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	1361	771
-<PageGeometry>0.00980392	0.0121951	2.66863	1.88049</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	velocity [µm/s]	counts			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	24	75	0	0	0
-ScaleFont0	Cantarell	20	75	0	0	0
-ScaleFont1	Cantarell	20	75	0	0	0
-ScaleFont2	Cantarell	20	75	0	0	0
-ScaleFont3	Cantarell	20	75	0	0	0
-AxisFont0	Cantarell	20	50	0	0	0
-AxisFont1	Cantarell	20	50	0	0	0
-AxisFont2	Cantarell	20	50	0	0	0
-AxisFont3	Cantarell	20	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	-	allstacks_v	9	1	#000000	0	1	3	0	#000000	#000000	1	#000000	4	10	0	0	0.25	0	8	2	0	0	203	1
-curve	Fit5_1	Fit5_2	0	1	#ff0000	0	1	0	0	#000000	#a0a0a4	0	#000000	14	0	2	0	0	32	1
-scale	0	0	70	0	8	5	0	0
-scale	1	0	70	0	8	5	0	0
-scale	2	0	8	0	5	5	0	0
-scale	3	0	8	0	5	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>11.394295302013</x>
-<y>119.42857142857</y>
-<right>0.675784392598552</right>
-<bottom>66.6366366366366</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(<b>Datensatz</b>: counts for one value of velocity
-<b>Datensatz</b>: allstacks_v
-<b>Funktion</b>: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
-<b>Chi^2/doF</b> = 2,4344515376063e+00
-<b>R^2</b> = 0,9877298724748
-<b>A</b> = 4,9231829952723e+01 +/- 1,1402767694591e+00
-<b>xc</b> = 6,7868418556928e-01 +/- 8,1615702021408e-03
-<b>w</b> = 6,6825535778013e-01 +/- 1,6922480061321e-02
-<b>y0</b> = 2,0563515400313e-01 +/- 2,6610003011570e-01)
-\l(2)%(2)
-<b>Datensatz</b>: allstacks_v
-<b>Funktion</b>: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
-<b>Chi^2/doF</b> = 3,0907826437691e+00
-<b>R^2</b> = 0,9873666180185
-<b>A</b> = 4,9117850273564e+01 +/- 1,3144970937018e+00
-<b>xc</b> = 6,7872053294359e-01 +/- 9,1950146926295e-03
-<b>w</b> = 6,6717703372153e-01 +/- 1,9216132855252e-02
-<b>y0</b> = 2,6871957533763e-01 +/- 3,4224499414376e-01
-</Text>
-<Font>Cantarell	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
 histo_runlength_abs	1	1	17.11.15 19:13
-geometry	0	0	1380	850	hidden
+geometry	392	804	1380	850	minimized	
 WindowLabel	histogram of the distance	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -849,7 +296,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	6	6	1352	782
-<PageGeometry>0.00437318	0.0074813	0.985423	0.975062</PageGeometry>
+<PageGeometry>0.00437318	0.00753769	0.985423	0.982412</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -901,43 +348,9 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
-<table>
-histogram_data_runlength	13	6	11/18/15 1:40 PM
-geometry	863	360	445	220	hidden
-header	Bins[X]	Quantity[Y]	probability[Y]	Sum[Y]	Percent[Y]	cumulative prob[Y]
-ColWidth	100	100	127	100	100	132	
-<com>
-<col nr="2">
-col("Quantity") / 204
-</col>
-<col nr="5">
-col("Percent") /100
-</col>
-</com>
-ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
-ReadOnlyColumn	0	0	0	0	0	0
-HiddenColumn	0	0	0	0	0	0
-Comments							
-WindowLabel	Histogram and Probabilities for allstacks_d	2
-<data>
-0	0	27	0.1323529411765	27	13.23529411765	0.1323529411765
-1	0.5	85	0.4166666666667	112	54.90196078431	0.5490196078431
-2	1	50	0.2450980392157	162	79.41176470588	0.7941176470588
-3	1.5	21	0.1029411764706	183	89.70588235294	0.8970588235294
-4	2	8	0.03921568627451	191	93.62745098039	0.9362745098039
-5	2.5	1	0.004901960784314	192	94.11764705882	0.9411764705882
-6	3	7	0.0343137254902	199	97.54901960784	0.9754901960784
-7	3.5	3	0.01470588235294	202	99.01960784314	0.9901960784314
-8	4	1	0.004901960784314	203	99.50980392157	0.9950980392157
-9	4.5	0	0	203	99.50980392157	0.9950980392157
-10	5	0	0	203	99.50980392157	0.9950980392157
-11	5.5	1	0.004901960784314	204	100	1
-12	6	0	0	204	100	1
-</data>
-</table>
 <multiLayer>
 histo_runlength_rel	1	1	11/18/15 1:41 PM
-geometry	0	0	1586	691	hidden
+geometry	980	804	1586	691	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -947,7 +360,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	19	2	1569	660
-<PageGeometry>0.011875	0.00291971	0.980625	0.963504</PageGeometry>
+<PageGeometry>0.0120406	0.00313972	0.994297	1.03611</PageGeometry>
 PlotTitle	 	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -1023,8 +436,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>4.9427561837456</x>
 <y>0.49178082191781</y>
-<right>6.44028268551237</right>
-<bottom>0.359099804305284</bottom>
+<right>0.492286115007013</right>
+<bottom>0.459245283018868</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -1060,7 +473,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	6	501	406
-<PageGeometry>0.00978474	0.0142518	0.980431	0.964371</PageGeometry>
+<PageGeometry>0.00980392	0.0146341	0.982353	0.990244</PageGeometry>
 PlotTitle	 	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -1178,8 +591,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>4.8624561403509</x>
 <y>0.2578125</y>
-<right>6.34947368421053</right>
-<bottom>0.037109375</bottom>
+<right>1.96969696969697</right>
+<bottom>0.861016949152542</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -1199,6 +612,285 @@ EnabledTickLabels	1	1	1	1
 <AutoUpdate>1</AutoUpdate>
 <TeXOutput>0</TeXOutput>
 </Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Grafik1	1	1	18.11.15 16:59
+geometry	1176	804	889	815	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	871	746
+<PageGeometry>0.00567537	0.0065703	0.988649	0.980289</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	23	75	0	0	0
+ScaleFont0	Cantarell	19	75	0	0	0
+ScaleFont1	Cantarell	19	75	0	0	0
+ScaleFont2	Cantarell	19	75	0	0	0
+ScaleFont3	Cantarell	19	75	0	0	0
+AxisFont0	Cantarell	19	50	0	0	0
+AxisFont1	Cantarell	19	50	0	0	0
+AxisFont2	Cantarell	19	50	0	0	0
+AxisFont3	Cantarell	19	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	-	allstacks_v	9	1	#000000	0	1	3	0	#000000	#000000	1	#008080	0	0	50	0	0.4	0	8	2	0	0	203	1
+scale	0	0	120	0	7	5	0	0
+scale	1	0	120	0	7	5	0	0
+scale	2	0	8	0	9	9	0	0
+scale	3	0	8	0	9	9	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>5.774011299435</x>
+<y>120.19704433498</y>
+<right>7.96610169491525</right>
+<bottom>111.133004926108</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+</Text>
+<Font>Cantarell	19	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+histodata_velocity	21	6	18.11.15 17:47
+geometry	0	0	643	820	
+header	BinCtr[X]	Zählen[Y]	BinEnd[Y]	Summe[Y]	probability[Y]	cumprob[Y]
+ColWidth	100	100	100	100	182	194	
+<com>
+<col nr="4">
+col("Zählen")/204
+</col>
+<col nr="5">
+col("Summe")/204
+</col>
+</com>
+ColType	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments					probability	cumulative probability	
+WindowLabel	Frequenzzähler: allstacks_v	2
+<data>
+0	0.2	30	0.4	30	0.14705882352941	0.14705882352941
+1	0.6	69	0.8	99	0.33823529411765	0.48529411764706
+2	1	81	1.2	180	0.39705882352941	0.88235294117647
+3	1.4	18	1.6	198	0.088235294117647	0.97058823529412
+4	1.8	3	2	201	0.014705882352941	0.98529411764706
+5	2.2	1	2.4	202	0.0049019607843137	0.99019607843137
+6	2.6	0	2.8	202	0	0.99019607843137
+7	3	0	3.2	202	0	0.99019607843137
+8	3.4	0	3.6	202	0	0.99019607843137
+9	3.8	0	4	202	0	0.99019607843137
+10	4.2	0	4.4	202	0	0.99019607843137
+11	4.6	0	4.8	202	0	0.99019607843137
+12	5	0	5.2	202	0	0.99019607843137
+13	5.4	0	5.6	202	0	0.99019607843137
+14	5.8	0	6	202	0	0.99019607843137
+15	6.2	0	6.4	202	0	0.99019607843137
+16	6.6	0	6.8	202	0	0.99019607843137
+17	7	1	7.2	203	0.0049019607843137	0.99509803921569
+18	7.4	1	7.6	204	0.0049019607843137	1
+19	7.8	0	8	204	0	1
+20	8.2	0	8.4	204	0	1
+</data>
+</table>
+<multiLayer>
+velodist_rel	1	1	18.11.15 17:50
+geometry	643	0	976	462	
+WindowLabel	velocity probability distribution	2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	958	393
+<PageGeometry>0.00516529	0.0122549	0.989669	0.963235</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	velocity [µm/s]	probability			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	12	75	0	0	0
+ScaleFont0	Cantarell	10	75	0	0	0
+ScaleFont1	Cantarell	10	75	0	0	0
+ScaleFont2	Cantarell	10	75	0	0	0
+ScaleFont3	Cantarell	10	75	0	0	0
+AxisFont0	Cantarell	10	50	0	0	0
+AxisFont1	Cantarell	10	50	0	0	0
+AxisFont2	Cantarell	10	50	0	0	0
+AxisFont3	Cantarell	10	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	histodata_velocity_BinCtr	histodata_velocity_probability	3	1	#000000	0	1	7	0	#000000	#000000	1	#008080	0	0	0	2	0	0	20	1
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit2</Title>
+<Expression>A*exp(-(x-xc)^2/(2*w^2))</Expression>
+<Variable>x</Variable>
+<Range>0	8</Range>
+<Points>100</Points>
+<Constant>A	0.423755728300758</Constant>
+<Constant>w	0.375108386341452</Constant>
+<Constant>xc	0.801323853057735</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	0.5	0	11	5	0	0
+scale	1	0	0.5	0	11	5	0	0
+scale	2	0	8	0	9	9	0	0
+scale	3	0	8	0	9	9	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+velocumdist	1	1	18.11.15 17:57
+geometry	904	449	972	359	
+WindowLabel	cumulative probability distribution of the velocity	2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	954	290
+<PageGeometry>0.00518672	0.0163934	0.989627	0.95082</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	velocity [µm/s]	cumulative probability			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	9	75	0	0	0
+ScaleFont0	Cantarell	8	75	0	0	0
+ScaleFont1	Cantarell	8	75	0	0	0
+ScaleFont2	Cantarell	8	75	0	0	0
+ScaleFont3	Cantarell	8	75	0	0	0
+AxisFont0	Cantarell	8	50	0	0	0
+AxisFont1	Cantarell	8	50	0	0	0
+AxisFont2	Cantarell	8	50	0	0	0
+AxisFont3	Cantarell	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	histodata_velocity_BinCtr	histodata_velocity_cumprob	3	1	#000000	0	1	7	0	#000000	#000000	1	#008080	0	0	0	2	0	0	20	1
+scale	0	0	1	0	6	5	0	0
+scale	1	0	1.2	0	7	5	0	0
+scale	2	-2	10	0	7	5	0	0
+scale	3	-2	10	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
 </graph>
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
@@ -2803,5 +2495,217 @@ RSS (Residual Sum of Squares) = 0.001570947447388
 ---------------------------------------------------------------------------------------
 Iterations = 1
 Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+
+18.11.15 16:16	Histogramm und Wahrscheinlichkeiten für allstacks_v
+Mittelwert = 0.871324	Standardabweichung = 0.718061
+Minimum = 0	Maximum = 63	Einteilungen = 33
+-------------------------------------------------------------
+[18.11.15 17:16 "allstacks"]
+Statistiken über allstacks_v:
+Mittel = 0,86788998529412
+Standardabweichung = 0,72298590433583
+Mittelwert = 0,80809700000000
+Größe = 204
+--------------------------------------------------------------------------------------
+[18.11.15 17:46 "allstacks"]
+Statistiken über allstacks_v:
+Mittel = 0,86788998529412
+Standardabweichung = 0,72298590433583
+Mittelwert = 0,80809700000000
+Größe = 204
+--------------------------------------------------------------------------------------
+[18.11.15 18:01	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: Zählen1_probability, unter Verwendung der Funktion: A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 7,8000000000000e+00
+A = 4,2375753865338e-01 +/- 1,3901044179729e-02
+w = 3,7510519336223e-01 +/- 1,4616388569272e-02
+xc = 8,0131480352419e-01 +/- 1,4010456664797e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,0785014065834e-04
+R^2 = 0,9859649377017
+Angepasstes R^2 = 0,9833333635208
+RMSE (Standardabweichung) = 0,01441700872783
+RSS (Summe der quadrierten Restwerte) = 0,003533452391192
+---------------------------------------------------------------------------------------
+Iterationen = 8
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 18:04	Diagramm: ''velodist_rel'']
+Gauß-Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+A (Fläche) = 3,9653896282617e-01 +/- 1,4676605589436e-02
+xc (Mitte) = 8,0146310763185e-01 +/- 1,3979742204978e-02
+w (Breite) = 7,4794521111289e-01 +/- 3,0259937270261e-02
+y0 (Offset) = 9,8857483555591e-04 +/- 3,5400443335284e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,0689950212570e-04
+R^2 = 0,986160017938
+Angepasstes R^2 = 0,9827000224226
+RMSE (Standardabweichung) = 0,01438400160337
+RSS (Summe der quadrierten Restwerte) = 0,003517291536137
+---------------------------------------------------------------------------------------
+Iterationen = 11
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 18:05	Diagramm: ''velodist_rel'']
+Lorentz-Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+A (Fläche) = 5,0907157972329e-01 +/- 2,5640807846720e-02
+xc (Mitte) = 8,1710514420786e-01 +/- 9,7404218619874e-03
+w (Breite) = 6,0131206978446e-01 +/- 6,5222163291087e-02
+y0 (Offset) = -4,4923962425718e-03 +/- 4,2331080566681e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,4865872460962e-04
+R^2 = 0,9833666478035
+Angepasstes R^2 = 0,9792083097543
+RMSE (Standardabweichung) = 0,01576891640569
+RSS (Summe der quadrierten Restwerte) = 0,004227198318363
+---------------------------------------------------------------------------------------
+Iterationen = 11
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 18:09	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+A = 4,2375753865338e-01 +/- 1,3509386650020e-02
+w = 3,7510519336223e-01 +/- 1,4204576437299e-02
+xc = 8,0131480352419e-01 +/- 1,3615716472874e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,9630291062176e-04
+R^2 = 0,986096427547
+Angepasstes R^2 = 0,9836428559377
+RMSE (Standardabweichung) = 0,01401081405992
+RSS (Summe der quadrierten Restwerte) = 0,003533452391192
+---------------------------------------------------------------------------------------
+Iterationen = 8
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 18:10	Diagramm: ''velodist_rel'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: A*exp(-(x-xc)^2/(2*w^2))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 7,8000000000000e+00
+A = 4,2375572830076e-01 +/- 1,3900967537662e-02
+w = 3,7510838634145e-01 +/- 1,4616472354188e-02
+xc = 8,0132385305774e-01 +/- 1,4010579813152e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,0785013551266e-04
+R^2 = 0,9859649380492
+Angepasstes R^2 = 0,9833333639334
+RMSE (Standardabweichung) = 0,01441700854937
+RSS (Summe der quadrierten Restwerte) = 0,003533452303715
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 18:17	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: gauss_cdf(x,sigma)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 7,8000000000000e+00
+sigma = 1,2371087483678e+00 +/- 2,9629704955609e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2511859543150e-02
+R^2 = 0,7274047321501
+Angepasstes R^2 = 0,7122605506029
+RMSE (Standardabweichung) = 0,1118564237903
+RSS (Summe der quadrierten Restwerte) = 0,2377253313199
+---------------------------------------------------------------------------------------
+Iterationen = 8
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 18:17	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: gauss_cdf(x-xc,sigma)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 7,8000000000000e+00
+sigma = 3,6269877856373e-01 +/- 1,1775426692198e-02
+xc = 6,0007804972231e-01 +/- 8,1070454014731e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2722708267779e-04
+R^2 = 0,9973739987709
+Angepasstes R^2 = 0,9970650574498
+RMSE (Standardabweichung) = 0,01127949833449
+RSS (Summe der quadrierten Restwerte) = 0,0022900874882
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 18:23	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: gauss_cdf(x-xc,sigma)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+sigma = 3,6269877856373e-01 +/- 1,1461358714577e-02
+xc = 6,0007804972231e-01 +/- 7,8908185571914e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2053092043159e-04
+R^2 = 0,9973934194395
+Angepasstes R^2 = 0,9971037993773
+RMSE (Standardabweichung) = 0,01097865749678
+RSS (Summe der quadrierten Restwerte) = 0,0022900874882
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 18:24	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: gauss_cdf(x-xc,sigma)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 7,8000000000000e+00
+sigma = 3,6269877856373e-01 +/- 1,1775426692198e-02
+xc = 6,0007804972231e-01 +/- 8,1070454014731e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2722708267779e-04
+R^2 = 0,9973739987709
+Angepasstes R^2 = 0,9970650574498
+RMSE (Standardabweichung) = 0,01127949833449
+RSS (Summe der quadrierten Restwerte) = 0,0022900874882
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 18:27	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: gauss_cdf(x-xc,sigma)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+sigma = 3,6269877856373e-01 +/- 1,1461358714577e-02
+xc = 6,0007804972231e-01 +/- 7,8908185571914e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2053092043159e-04
+R^2 = 0,9973934194395
+Angepasstes R^2 = 0,9971037993773
+RMSE (Standardabweichung) = 0,01097865749678
+RSS (Summe der quadrierten Restwerte) = 0,0022900874882
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[18.11.15 18:30	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: gauss_cdf(x-xc,sigma)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+sigma = 3,6269877856373e-01 +/- 1,1461358714577e-02
+xc = 6,0007804972231e-01 +/- 7,8908185571914e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2053092043159e-04
+R^2 = 0,9973934194395
+Angepasstes R^2 = 0,9971037993773
+RMSE (Standardabweichung) = 0,01097865749678
+RSS (Summe der quadrierten Restwerte) = 0,0022900874882
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
 ---------------------------------------------------------------------------------------
 </log>
