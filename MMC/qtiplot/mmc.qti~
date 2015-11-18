@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	12
 <table>
 allstacks	204	4	17.11.15 17:44
-geometry	588	441	539	850	minimized	
+geometry	392	820	539	850	minimized	
 header	index[X]	d[Y]	t[Y]	v[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -222,7 +222,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/MMC/qtiplot/allstacks.txt	2
 </table>
 <multiLayer>
 velocity	1	1	17.11.15 18:56
-geometry	392	441	1380	849	minimized	
+geometry	196	820	1380	849	minimized	
 WindowLabel	histogram of the velocity	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -352,7 +352,7 @@ WindowLabel	Gauß-Fit Fit von allstacks_v	2
 </table>
 <multiLayer>
 distance	1	1	17.11.15 19:13
-geometry	0	441	1380	850	minimized	
+geometry	980	820	1380	850	minimized	active
 WindowLabel	histogram of the distance	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -392,12 +392,11 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	-	allstacks_d	9	1	#000000	0	1	3	0	#000000	#000000	1	#000000	4	0	0	1	0.6	0	6	2	0	0	203	1
-curve	Fit2_1	Fit2_2	0	1	#ff0000	0	1	0	0	#000000	#a0a0a4	0	#000000	14	0	2	0	0	9	1
-scale	0	0	120	0	7	5	0	0
-scale	1	0	120	0	7	5	0	0
-scale	2	0	8	0	9	5	0	0
-scale	3	0	8	0	9	5	0	0
+curve	-	allstacks_d	9	1	#000000	0	1	3	0	#000000	#000000	1	#000000	4	0	0	0	0.499	0	8	2	0	0	203	1
+scale	0	0	100	0	6	5	0	0
+scale	1	0	100	0	6	5	0	0
+scale	2	0	8	0	5	5	0	0
+scale	3	0	8	0	5	5	0	0
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -416,16 +415,15 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>5.112426035503</x>
-<y>120.18897637795</y>
-<right>8.00676246830093</right>
-<bottom>78.4251968503937</bottom>
+<x>5.105663567202</x>
+<y>100.15748031496</y>
+<right>8</right>
+<bottom>68.6614173228347</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
 <Text>
 \l(1) distance counts
-\l(2)%(2)
 <b>Datensatz</b>: allstacks_d
 <b>Funktion</b>: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
 <b>Chi^2/doF</b> = 2,1399270064391e+01
@@ -499,7 +497,7 @@ WindowLabel	Gauß-Fit Fit von allstacks_v	2
 </table>
 <table>
 Einteilungen1	10	4	17.11.15 19:42
-geometry	196	441	1920	850	minimized	
+geometry	0	820	1920	850	minimized	
 header	Einteilungen[X]	Anzahl[Y]	Summe[Y]	Prozent[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -638,7 +636,7 @@ WindowLabel	2 Punkte Savitzky-Golay-Glättung von Fit4_2	2
 velocityspaltenstatistik	allstacks	col	17.11.15 20:05
 Targets	3
 ColStatType	2	3	5	6	7	8	9	10	11	12	13	14	15
-geometry	2	0	1482	244	
+geometry	588	820	1482	244	minimized	
 header	Col[X]	Zeilen[Y]	Mittel[Y]	Standardabweichung[Y]	Standardfehler[yEr]	Varianz[Y]	Summe[Y]	iMax[Y]	Max[Y]	iMin[Y]	Min[Y]	N[Y]	Mittelwert[Y]
 ColWidth	100	100	152	198	100	100	100	100	100	100	100	100	100	
 <com>
@@ -653,7 +651,7 @@ WindowLabel	velocity	2
 distancespaltenstatistik	allstacks	col	17.11.15 20:05
 Targets	1
 ColStatType	2	3	5	6	7	8	9	10	11	12	13	14	15
-geometry	784	441	945	287	minimized	active
+geometry	784	820	945	287	minimized	
 header	Col[X]	Zeilen[Y]	Mittel[Y]	Standardabweichung[Y]	Standardfehler[yEr]	Varianz[Y]	Summe[Y]	iMax[Y]	Max[Y]	iMin[Y]	Min[Y]	N[Y]	Mittelwert[Y]
 ColWidth	100	100	179	148	100	100	100	100	100	100	100	100	100	
 <com>
