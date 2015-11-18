@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	12
+<windows>	15
 <table>
 allstacks	204	4	17.11.15 17:44
-geometry	392	820	539	850	minimized	
+geometry	50	50	539	850	hidden
 header	index[X]	d[Y]	t[Y]	v[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -220,111 +220,6 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/MMC/qtiplot/allstacks.txt	2
 203	37	1.630511	2.015	0.809187
 </data>
 </table>
-<multiLayer>
-velocity	1	1	17.11.15 18:56
-geometry	196	820	1380	849	minimized	
-WindowLabel	histogram of the velocity	2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	1361	771
-<PageGeometry>0.00364431	0.00628931	0.991983	0.969811</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	velocity [µm/s]	counts			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	24	75	0	0	0
-ScaleFont0	Cantarell	20	75	0	0	0
-ScaleFont1	Cantarell	20	75	0	0	0
-ScaleFont2	Cantarell	20	75	0	0	0
-ScaleFont3	Cantarell	20	75	0	0	0
-AxisFont0	Cantarell	20	50	0	0	0
-AxisFont1	Cantarell	20	50	0	0	0
-AxisFont2	Cantarell	20	50	0	0	0
-AxisFont3	Cantarell	20	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	-	allstacks_v	9	1	#000000	0	1	3	0	#000000	#000000	1	#000000	4	10	0	0	0.25	0	8	2	0	0	203	1
-curve	Fit5_1	Fit5_2	0	1	#ff0000	0	1	0	0	#000000	#a0a0a4	0	#000000	14	0	2	0	0	32	1
-scale	0	0	70	0	8	5	0	0
-scale	1	0	70	0	8	5	0	0
-scale	2	0	8	0	5	5	0	0
-scale	3	0	8	0	5	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>11.394295302013</x>
-<y>119.42857142857</y>
-<right>15.9697986577181</right>
-<bottom>109.333333333333</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(<b>Datensatz</b>: counts for one value of velocity
-<b>Datensatz</b>: allstacks_v
-<b>Funktion</b>: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
-<b>Chi^2/doF</b> = 2,4344515376063e+00
-<b>R^2</b> = 0,9877298724748
-<b>A</b> = 4,9231829952723e+01 +/- 1,1402767694591e+00
-<b>xc</b> = 6,7868418556928e-01 +/- 8,1615702021408e-03
-<b>w</b> = 6,6825535778013e-01 +/- 1,6922480061321e-02
-<b>y0</b> = 2,0563515400313e-01 +/- 2,6610003011570e-01)
-\l(2)%(2)
-<b>Datensatz</b>: allstacks_v
-<b>Funktion</b>: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
-<b>Chi^2/doF</b> = 3,0907826437691e+00
-<b>R^2</b> = 0,9873666180185
-<b>A</b> = 4,9117850273564e+01 +/- 1,3144970937018e+00
-<b>xc</b> = 6,7872053294359e-01 +/- 9,1950146926295e-03
-<b>w</b> = 6,6717703372153e-01 +/- 1,9216132855252e-02
-<b>y0</b> = 2,6871957533763e-01 +/- 3,4224499414376e-01
-</Text>
-<Font>Cantarell	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
 <table>
 Fit1	10	2	17.11.15 19:06
 geometry	1475	630	445	220	hidden
@@ -350,101 +245,6 @@ WindowLabel	Gauß-Fit Fit von allstacks_v	2
 9	7.2	0.28513514640358
 </data>
 </table>
-<multiLayer>
-distance	1	1	17.11.15 19:13
-geometry	980	820	1380	850	minimized	active
-WindowLabel	histogram of the distance	2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	6	5	1352	776
-<PageGeometry>0.00437318	0.00628141	0.985423	0.974874</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>1</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	distance [µm]	counts			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	24	75	0	0	0
-ScaleFont0	Cantarell	20	75	0	0	0
-ScaleFont1	Cantarell	20	75	0	0	0
-ScaleFont2	Cantarell	20	75	0	0	0
-ScaleFont3	Cantarell	20	75	0	0	0
-AxisFont0	Cantarell	20	50	0	0	0
-AxisFont1	Cantarell	20	50	0	0	0
-AxisFont2	Cantarell	20	50	0	0	0
-AxisFont3	Cantarell	20	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	-	allstacks_d	9	1	#000000	0	1	3	0	#000000	#000000	1	#000000	4	0	0	0	0.499	0	8	2	0	0	203	1
-scale	0	0	100	0	6	5	0	0
-scale	1	0	100	0	6	5	0	0
-scale	2	0	8	0	5	5	0	0
-scale	3	0	8	0	5	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>5.105663567202</x>
-<y>100.15748031496</y>
-<right>8</right>
-<bottom>68.6614173228347</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1) distance counts
-<b>Datensatz</b>: allstacks_d
-<b>Funktion</b>: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
-<b>Chi^2/doF</b> = 2,1399270064391e+01
-<b>R^2</b> = 0,9855188554107
-<b>A</b> = 1,0353626957183e+02 +/- 6,6035237060608e+00
-<b>xc</b> = 5,6547163832537e-01 +/- 2,8220751542014e-02
-<b>w</b> = 8,7527512397766e-01 +/- 4,9943482152697e-02
-<b>y0</b> = 3,4180152999753e+00 +/- 1,7872315401497e+00
-</Text>
-<Font>Cantarell	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
 <table>
 Fit2	10	2	17.11.15 19:17
 geometry	1475	0	445	220	hidden
@@ -497,7 +297,7 @@ WindowLabel	Gauß-Fit Fit von allstacks_v	2
 </table>
 <table>
 Einteilungen1	10	4	17.11.15 19:42
-geometry	0	820	1920	850	minimized	
+geometry	-510	46	1920	850	hidden
 header	Einteilungen[X]	Anzahl[Y]	Summe[Y]	Prozent[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -633,10 +433,10 @@ WindowLabel	2 Punkte Savitzky-Golay-Glättung von Fit4_2	2
 </data>
 </table>
 <TableStatistics>
-velocityspaltenstatistik	allstacks	col	17.11.15 20:05
+allstacks-ColStats	allstacks	col	17.11.15 20:05
 Targets	3
 ColStatType	2	3	5	6	7	8	9	10	11	12	13	14	15
-geometry	588	820	1482	244	minimized	
+geometry	392	667	-1	-1	minimized	active
 header	Col[X]	Zeilen[Y]	Mittel[Y]	Standardabweichung[Y]	Standardfehler[yEr]	Varianz[Y]	Summe[Y]	iMax[Y]	Max[Y]	iMin[Y]	Min[Y]	N[Y]	Mittelwert[Y]
 ColWidth	100	100	152	198	100	100	100	100	100	100	100	100	100	
 <com>
@@ -645,13 +445,13 @@ ColType	0;0/14	1;0/13	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;
 ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
 HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
 Comments	Beinhaltete Spalten	Beinhaltete Zeilen	Mittel	Standardabweichung	Standardfehler	Varianz	Summe	Index des Maximumwerts	Maximumwert	Index des Minimumwerts	Minimumwert	Anzahl an Punkten	Mittelwert	
-WindowLabel	velocity	2
+WindowLabel	Column Statistics of allstacks	2
 </TableStatistics>
 <TableStatistics>
-distancespaltenstatistik	allstacks	col	17.11.15 20:05
+allstacks-ColStats	allstacks	col	17.11.15 20:05
 Targets	1
 ColStatType	2	3	5	6	7	8	9	10	11	12	13	14	15
-geometry	784	820	945	287	minimized	
+geometry	196	667	-1	-1	minimized	
 header	Col[X]	Zeilen[Y]	Mittel[Y]	Standardabweichung[Y]	Standardfehler[yEr]	Varianz[Y]	Summe[Y]	iMax[Y]	Max[Y]	iMin[Y]	Min[Y]	N[Y]	Mittelwert[Y]
 ColWidth	100	100	179	148	100	100	100	100	100	100	100	100	100	
 <com>
@@ -660,11 +460,11 @@ ColType	0;0/14	1;0/13	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;
 ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
 HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
 Comments	Beinhaltete Spalten	Beinhaltete Zeilen	Mittel	Standardabweichung	Standardfehler	Varianz	Summe	Index des Maximumwerts	Maximumwert	Index des Minimumwerts	Minimumwert	Anzahl an Punkten	Mittelwert	
-WindowLabel	distance	2
+WindowLabel	Column Statistics of allstacks	2
 </TableStatistics>
 <table>
 Fit5	33	2	17.11.15 20:11
-geometry	0	0	445	220	hidden
+geometry	0	0	445	220	
 header	1[X]	2[Y]
 ColWidth	100	100	
 <com>
@@ -710,6 +510,477 @@ WindowLabel	Gauß-Fit Fit von allstacks_v	2
 32	8	0.26871957533763
 </data>
 </table>
+<multiLayer>
+velocity	1	1	17.11.15 18:56
+geometry	0	667	1380	849	minimized	
+WindowLabel	histogram of the velocity	2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	1361	771
+<PageGeometry>0.00980392	0.0121951	2.66863	1.88049</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	velocity [µm/s]	counts			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	24	75	0	0	0
+ScaleFont0	Cantarell	20	75	0	0	0
+ScaleFont1	Cantarell	20	75	0	0	0
+ScaleFont2	Cantarell	20	75	0	0	0
+ScaleFont3	Cantarell	20	75	0	0	0
+AxisFont0	Cantarell	20	50	0	0	0
+AxisFont1	Cantarell	20	50	0	0	0
+AxisFont2	Cantarell	20	50	0	0	0
+AxisFont3	Cantarell	20	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	-	allstacks_v	9	1	#000000	0	1	3	0	#000000	#000000	1	#000000	4	10	0	0	0.25	0	8	2	0	0	203	1
+curve	Fit5_1	Fit5_2	0	1	#ff0000	0	1	0	0	#000000	#a0a0a4	0	#000000	14	0	2	0	0	32	1
+scale	0	0	70	0	8	5	0	0
+scale	1	0	70	0	8	5	0	0
+scale	2	0	8	0	5	5	0	0
+scale	3	0	8	0	5	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>11.394295302013</x>
+<y>119.42857142857</y>
+<right>0.675784392598552</right>
+<bottom>66.6366366366366</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(<b>Datensatz</b>: counts for one value of velocity
+<b>Datensatz</b>: allstacks_v
+<b>Funktion</b>: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+<b>Chi^2/doF</b> = 2,4344515376063e+00
+<b>R^2</b> = 0,9877298724748
+<b>A</b> = 4,9231829952723e+01 +/- 1,1402767694591e+00
+<b>xc</b> = 6,7868418556928e-01 +/- 8,1615702021408e-03
+<b>w</b> = 6,6825535778013e-01 +/- 1,6922480061321e-02
+<b>y0</b> = 2,0563515400313e-01 +/- 2,6610003011570e-01)
+\l(2)%(2)
+<b>Datensatz</b>: allstacks_v
+<b>Funktion</b>: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+<b>Chi^2/doF</b> = 3,0907826437691e+00
+<b>R^2</b> = 0,9873666180185
+<b>A</b> = 4,9117850273564e+01 +/- 1,3144970937018e+00
+<b>xc</b> = 6,7872053294359e-01 +/- 9,1950146926295e-03
+<b>w</b> = 6,6717703372153e-01 +/- 1,9216132855252e-02
+<b>y0</b> = 2,6871957533763e-01 +/- 3,4224499414376e-01
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+histo_runlength_abs	1	1	17.11.15 19:13
+geometry	0	0	1380	850	hidden
+WindowLabel	histogram of the distance	2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	6	6	1352	782
+<PageGeometry>0.00437318	0.0074813	0.985423	0.975062</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	distance [µm]	counts			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	28	75	0	0	0
+ScaleFont0	Cantarell	23	75	0	0	0
+ScaleFont1	Cantarell	23	75	0	0	0
+ScaleFont2	Cantarell	23	75	0	0	0
+ScaleFont3	Cantarell	23	75	0	0	0
+AxisFont0	Cantarell	23	50	0	0	0
+AxisFont1	Cantarell	23	50	0	0	0
+AxisFont2	Cantarell	23	50	0	0	0
+AxisFont3	Cantarell	23	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	-	allstacks_d	9	1	#000000	0	1	3	0	#000000	#000000	1	#008080	0	0	50	0	0.5	0	6	2	0	0	203	1
+scale	0	0	100	0	6	5	0	0
+scale	1	0	100	0	6	5	0	0
+scale	2	0	6.5	1	8	9	0	0
+scale	3	0	6.5	1	8	9	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+histogram_data_runlength	13	6	11/18/15 1:40 PM
+geometry	863	360	445	220	hidden
+header	Bins[X]	Quantity[Y]	probability[Y]	Sum[Y]	Percent[Y]	cumulative prob[Y]
+ColWidth	100	100	127	100	100	132	
+<com>
+<col nr="2">
+col("Quantity") / 204
+</col>
+<col nr="5">
+col("Percent") /100
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel	Histogram and Probabilities for allstacks_d	2
+<data>
+0	0	27	0.1323529411765	27	13.23529411765	0.1323529411765
+1	0.5	85	0.4166666666667	112	54.90196078431	0.5490196078431
+2	1	50	0.2450980392157	162	79.41176470588	0.7941176470588
+3	1.5	21	0.1029411764706	183	89.70588235294	0.8970588235294
+4	2	8	0.03921568627451	191	93.62745098039	0.9362745098039
+5	2.5	1	0.004901960784314	192	94.11764705882	0.9411764705882
+6	3	7	0.0343137254902	199	97.54901960784	0.9754901960784
+7	3.5	3	0.01470588235294	202	99.01960784314	0.9901960784314
+8	4	1	0.004901960784314	203	99.50980392157	0.9950980392157
+9	4.5	0	0	203	99.50980392157	0.9950980392157
+10	5	0	0	203	99.50980392157	0.9950980392157
+11	5.5	1	0.004901960784314	204	100	1
+12	6	0	0	204	100	1
+</data>
+</table>
+<multiLayer>
+histo_runlength_rel	1	1	11/18/15 1:41 PM
+geometry	0	0	1586	691	hidden
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	19	2	1569	660
+<PageGeometry>0.011875	0.00291971	0.980625	0.963504</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	run length [µm]	probability		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	18	75	0	0	0
+ScaleFont0	Noto Sans	15	75	0	0	0
+ScaleFont1	Noto Sans	15	75	0	0	0
+ScaleFont2	Noto Sans	15	75	0	0	0
+ScaleFont3	Noto Sans	15	75	0	0	0
+AxisFont0	Noto Sans	15	50	0	0	0
+AxisFont1	Noto Sans	15	50	0	0	0
+AxisFont2	Noto Sans	15	50	0	0	0
+AxisFont3	Noto Sans	15	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	histogram_data_runlength_Bins	histogram_data_runlength_probability	3	1	#000000	0	1	7	0	#000000	#000000	1	#008080	0	0	50	2	0	0	12	1
+<Function>
+<Type>0</Type>
+<Title>NonLinearFit1</Title>
+<Expression>exp(-k*(x-x_0))</Expression>
+<Variable>x</Variable>
+<Range>0.5	6.5</Range>
+<Points>100</Points>
+<Constant>k	1.33974508892542</Constant>
+<Constant>x_0	-0.138207467042492</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	-0.1	0.5	0	7	5	0	0
+scale	1	0	0.5	0	6	5	0	0
+scale	2	0	6.5	0	8	1	0	0
+scale	3	0	6.5	0	8	1	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>4.9427561837456</x>
+<y>0.49178082191781</y>
+<right>6.44028268551237</right>
+<bottom>0.359099804305284</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>Dataset</b>: histogram_data_runlength_probability
+<b>Function</b>: exp(-k*(x-x_0))
+<b>Chi^2/doF</b> = 2.2555120294046e-04
+<b>R^2</b> = 0.9877783420311
+<b>k</b> = 1.3397450889254e+00 +/- 8.7514552916742e-02
+<b>x_0</b> = -1.3820746704249e-01 +/- 5.7891737401443e-02
+</Text>
+<Font>Noto Sans	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+cumulative_runlength	1	1	11/18/15 2:28 PM
+geometry	0	0	519	469	hidden
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	6	501	406
+<PageGeometry>0.00978474	0.0142518	0.980431	0.964371</PageGeometry>
+PlotTitle	 	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	run length [µm]	cumulative probability		 	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	11	75	0	0	0
+ScaleFont0	Noto Sans	9	75	0	0	0
+ScaleFont1	Noto Sans	9	75	0	0	0
+ScaleFont2	Noto Sans	9	75	0	0	0
+ScaleFont3	Noto Sans	9	75	0	0	0
+AxisFont0	Noto Sans	9	50	0	0	0
+AxisFont1	Noto Sans	9	50	0	0	0
+AxisFont2	Noto Sans	9	50	0	0	0
+AxisFont3	Noto Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	histogram_data_runlength_Bins	histogram_data_runlength_cumulative prob	3	1	#000000	0	1	7	0	#000000	#000000	1	#008080	0	0	50	2	0	0	12	1
+<Function>
+<Type>0</Type>
+<Title>ExpDecay4Fit1</Title>
+<Expression>1-exp(-k*(x-x_0))</Expression>
+<Variable>x</Variable>
+<Range>0.5	6</Range>
+<Points>100</Points>
+<Constant>k	1.37896476955806</Constant>
+<Constant>x_0	-0.0893363499197869</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>0</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>ExpDecay4Fit2</Title>
+<Expression>1-exp(-k*(x-x_0))</Expression>
+<Variable>x</Variable>
+<Range>0	6</Range>
+<Points>100</Points>
+<Constant>k	1.3574731647958</Constant>
+<Constant>x_0	-0.10376023512764</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>NonLinearFit1</Title>
+<Expression>1-exp(-k*(x-x_0))</Expression>
+<Variable>x</Variable>
+<Range>0	6.5</Range>
+<Points>100</Points>
+<Constant>k	1.357472692114</Constant>
+<Constant>x_0	-0.1037603316529</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	1	0	6	5	0	0
+scale	1	0	1	0	6	5	0	0
+scale	2	0	6.5	0	8	1	0	0
+scale	3	0	6.5	0	8	1	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>4.8624561403509</x>
+<y>0.2578125</y>
+<right>6.34947368421053</right>
+<bottom>0.037109375</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+<b>Dataset</b>: histogram_data_runlength_cumulative prob
+<b>Function</b>: 1-exp(-k*(x-x_0))
+<b>Chi^2/doF</b> = 1.4281340430797e-04
+<b>R^2</b> = 0.9979558526671
+<b>k</b> = 1.3574726921140e+00 +/- 3.4719218845997e-02
+<b>x_0</b> = -1.0376033165290e-01 +/- 1.1246169079952e-02
+</Text>
+<Font>Noto Sans	6	50	0	0	0</Font>
+<TextColor>#ffffff</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
 <open>1</open>
 <log>
 [17.11.15 19:06	Diagramm: ''Grafik1'']
@@ -810,5 +1081,1505 @@ RSS (Summe der quadrierten Restwerte) = 89,6326966693
 ---------------------------------------------------------------------------------------
 Iterationen = 15
 Status = success
+---------------------------------------------------------------------------------------
+
+11/18/15 1:31 PM	Histogram and Probabilities for allstacks_d
+Mean = 1.14951	Standard Deviation = 0.821554
+Minimum = 0	Maximum = 85	Bins = 13
+-------------------------------------------------------------
+11/18/15 1:40 PM	Histogram and Probabilities for allstacks_d
+Mean = 1.14951	Standard Deviation = 0.821554
+Minimum = 0	Maximum = 85	Bins = 13
+-------------------------------------------------------------
+11/18/15 1:47 PM	Histogram and Probabilities for allstacks_d
+Mean = 1.14951	Standard Deviation = 0.821554
+Minimum = 0	Maximum = 85	Bins = 13
+-------------------------------------------------------------
+[11/18/15 2:04 PM	Plot: ''histo_runlength_abs'']
+Non-linear Fit of dataset: allstacks_d, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 1.0000000000000e+00 +/- 2.9525930082432e+10
+k = 1.0000000000000e+00 +/- 3.4053331602097e+01
+x_0 = 5.0000000000000e-01 +/- 2.9525930094658e+10
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.0683802761516e+03
+R^2 = -0.3664302457569
+Adjusted R^2 = -0.8219069943425
+RMSE (Root Mean Squared Error) = 32.68608688956
+RSS (Residual Sum of Squares) = 10,683.80276152
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[11/18/15 2:04 PM	Plot: ''histo_runlength_abs'']
+Non-linear Fit of dataset: allstacks_d, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 1.0000000000000e+00 +/- 2.2401230464483e+10
+k = 1.1000000000000e+00 +/- 3.8796383545500e+01
+x_0 = 5.0000000000000e-01 +/- 2.0364754980770e+10
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.0684770467459e+03
+R^2 = -0.3665540127993
+Adjusted R^2 = -0.8220720170657
+RMSE (Root Mean Squared Error) = 32.68756715857
+RSS (Residual Sum of Squares) = 10,684.77046746
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[11/18/15 2:04 PM	Plot: ''histo_runlength_abs'']
+Non-linear Fit of dataset: allstacks_d, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 1.0000000000000e+00 +/- 8.8264559914563e+10
+k = 1.9000000000000e+00 +/- 8.8197807918246e+01
+x_0 = 5.0000000000000e-01 +/- 4.6455031540690e+10
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.0672163274359e+03
+R^2 = -0.364941585993
+Adjusted R^2 = -0.8199221146573
+RMSE (Root Mean Squared Error) = 32.66827708092
+RSS (Residual Sum of Squares) = 10,672.16327436
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[11/18/15 2:07 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 1.2216407297101e-01 +/- 4.9568086259848e+07
+k = 5.7429860460413e-01 +/- 2.4966256212519e-01
+x_0 = 1.4669780315294e+00 +/- 7.0651418693394e+08
+--------------------------------------------------------------------------------------
+Chi^2/doF = 8.0712988813711e-03
+R^2 = 0.5703989153111
+Adjusted R^2 = 0.4271985537481
+RMSE (Root Mean Squared Error) = 0.08984040784286
+RSS (Residual Sum of Squares) = 0.08071298881371
+---------------------------------------------------------------------------------------
+Iterations = 25
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:07 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 5.4620206011529e-01 +/- 1.0573816564958e+08
+k = 5.7429865932598e-01 +/- 2.5124092831671e-01
+x_0 = -1.1407662099342e+00 +/- 3.3708593793711e+08
+--------------------------------------------------------------------------------------
+Chi^2/doF = 8.0712988813710e-03
+R^2 = 0.5703989153111
+Adjusted R^2 = 0.4271985537481
+RMSE (Root Mean Squared Error) = 0.08984040784286
+RSS (Residual Sum of Squares) = 0.08071298881371
+---------------------------------------------------------------------------------------
+Iterations = 9
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:07 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 3.9721930277484e+00 +/- 8.2894952923864e+08
+k = 5.7429866936438e-01 +/- 2.7716501086247e-01
+x_0 = -4.5955619943349e+00 +/- 3.6337909257718e+08
+--------------------------------------------------------------------------------------
+Chi^2/doF = 8.0712988813710e-03
+R^2 = 0.5703989153111
+Adjusted R^2 = 0.4271985537481
+RMSE (Root Mean Squared Error) = 0.08984040784286
+RSS (Residual Sum of Squares) = 0.08071298881371
+---------------------------------------------------------------------------------------
+Iterations = 26
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:07 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 4.3715218097130e+00 +/- 2.4681172183177e+09
+k = 5.7429862784776e-01 +/- 3.2676409889317e-01
+x_0 = -4.7623620864825e+00 +/- 9.8309469581219e+08
+--------------------------------------------------------------------------------------
+Chi^2/doF = 8.0712988813711e-03
+R^2 = 0.5703989153111
+Adjusted R^2 = 0.4271985537481
+RMSE (Root Mean Squared Error) = 0.08984040784286
+RSS (Residual Sum of Squares) = 0.08071298881371
+---------------------------------------------------------------------------------------
+Iterations = 24
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:07 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 4.3715218097130e+00 +/- 1.5337625680850e+11
+k = 1.1742986278480e+00 +/- 3.0932709369209e+01
+x_0 = -4.7623620864820e+00 +/- 2.9877684040039e+10
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.5011225976464e-02
+R^2 = -0.3312417204235
+Adjusted R^2 = -0.7749889605647
+RMSE (Root Mean Squared Error) = 0.1581493786787
+RSS (Residual Sum of Squares) = 0.2501122597646
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[11/18/15 2:08 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+A = 2.5777463035705e+01 +/- 6.2116800026500e+09
+k = 1.3397452617665e+00 +/- 1.6550152255995e-01
+x_0 = -2.5636688875071e+00 +/- 1.7986500402986e+08
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.5061244771152e-04
+R^2 = 0.9877783420311
+Adjusted R^2 = 0.9831952202928
+RMSE (Root Mean Squared Error) = 0.01583074375105
+RSS (Residual Sum of Squares) = 0.002255512029404
+---------------------------------------------------------------------------------------
+Iterations = 19
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:09 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+A = 6.7054515084454e+01 +/- 2.0657559463864e+10
+k = 1.3397452614772e+00 +/- 1.0593420544637e-01
+x_0 = -3.2772413780654e+00 +/- 2.2994753345780e+08
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.5061244771152e-04
+R^2 = 0.9877783420311
+Adjusted R^2 = 0.9831952202928
+RMSE (Root Mean Squared Error) = 0.01583074375105
+RSS (Residual Sum of Squares) = 0.002255512029404
+---------------------------------------------------------------------------------------
+Iterations = 8
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:09 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+A = 2.4014441853438e+04 +/- inf
+k = 1.0070666315614e+00 +/- inf
+x_0 = -3.8386938855528e+02 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.7476077577004e-02
+R^2 = -0.3399303408092
+Adjusted R^2 = -0.8424042186127
+RMSE (Root Mean Squared Error) = 0.1657590950054
+RSS (Residual Sum of Squares) = 0.247284698193
+---------------------------------------------------------------------------------------
+Iterations = 2
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[11/18/15 2:09 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+A = 7.5884695590468e+08 +/- 0.0000000000000e+00
+k = -8.1125922415030e+01 +/- 0.0000000000000e+00
+x_0 = 3.0993010050000e+04 +/- 0.0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.7476077577004e-02
+R^2 = -0.3399303408092
+Adjusted R^2 = -0.8424042186127
+RMSE (Root Mean Squared Error) = 0.1657590950054
+RSS (Residual Sum of Squares) = 0.247284698193
+---------------------------------------------------------------------------------------
+Iterations = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[11/18/15 2:09 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+A = 7.5884695560470e+08 +/- 0.0000000000000e+00
+k = -8.1125922415030e+01 +/- 0.0000000000000e+00
+x_0 = 3.0993010050000e+04 +/- 0.0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.7476077577004e-02
+R^2 = -0.3399303408092
+Adjusted R^2 = -0.8424042186127
+RMSE (Root Mean Squared Error) = 0.1657590950054
+RSS (Residual Sum of Squares) = 0.247284698193
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[11/18/15 2:09 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+A = 8.2791893062081e-01 +/- 2.3430984082195e+05
+k = 1.3397452867646e+00 +/- 2.4427034314279e-01
+x_0 = 2.7448492707268e-03 +/- 2.1124224364081e+05
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.5061244771152e-04
+R^2 = 0.9877783420311
+Adjusted R^2 = 0.9831952202928
+RMSE (Root Mean Squared Error) = 0.01583074375105
+RSS (Residual Sum of Squares) = 0.002255512029404
+---------------------------------------------------------------------------------------
+Iterations = 12
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:09 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+A = 1.2083637511067e+00 +/- 7.5372979664186e+07
+k = 1.7355585182790e+00 +/- 4.2490832995409e-01
+x_0 = 7.9473490037401e-02 +/- 3.5940054128619e+07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.3401308637570e-04
+R^2 = 0.9805722509291
+Adjusted R^2 = 0.9722460727558
+RMSE (Root Mean Squared Error) = 0.01157640213433
+RSS (Residual Sum of Squares) = 0.001072104691006
+---------------------------------------------------------------------------------------
+Iterations = 9
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:09 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+A = 1.2082776199565e+00 +/- 1.9619564044471e+07
+k = 1.7355585196120e+00 +/- 3.3638229497312e-01
+x_0 = 7.9514563390948e-02 +/- 9.3558525633374e+06
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.3401308637570e-04
+R^2 = 0.9805722509291
+Adjusted R^2 = 0.9722460727558
+RMSE (Root Mean Squared Error) = 0.01157640213433
+RSS (Residual Sum of Squares) = 0.001072104691006
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:11 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+A = 1.3474201690834e+00 +/- 3.5640891827449e+06
+k = 1.7355585195216e+00 +/- 4.7697080695552e-01
+x_0 = 1.6712940622064e-02 +/- 1.5240743868951e+06
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.3401308637570e-04
+R^2 = 0.9805722509291
+Adjusted R^2 = 0.9722460727558
+RMSE (Root Mean Squared Error) = 0.01157640213433
+RSS (Residual Sum of Squares) = 0.001072104691006
+---------------------------------------------------------------------------------------
+Iterations = 9
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:13 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: y_0+A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+A = 2.1587848322320e+02 +/- 0.0000000000000e+00
+k = 1.1323937397095e+00 +/- 0.0000000000000e+00
+x_0 = -2.1464970877429e+02 +/- 0.0000000000000e+00
+y_0 = 4.0998217472966e-02 +/- 2.6770839661359e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7.8834564128692e-03
+R^2 = -4.943961906534e-17
+Adjusted R^2 = -0.6666666666667
+RMSE (Root Mean Squared Error) = 0.08878883045107
+RSS (Residual Sum of Squares) = 0.05518419489008
+---------------------------------------------------------------------------------------
+Iterations = 3
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[11/18/15 2:13 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: y_0+A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+A = 2.1587848322320e+02 +/- 0.0000000000000e+00
+k = 1.1323937397100e+00 +/- 0.0000000000000e+00
+x_0 = -2.1464970877430e+02 +/- 0.0000000000000e+00
+y_0 = 4.0998217468808e-02 +/- 2.6770839658644e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7.8834564128692e-03
+R^2 = -1.029992063861e-17
+Adjusted R^2 = -0.6666666666667
+RMSE (Root Mean Squared Error) = 0.08878883045107
+RSS (Residual Sum of Squares) = 0.05518419489008
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:13 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: y_0+A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+A = 2.1587848322320e+02 +/- 0.0000000000000e+00
+k = 1.1323937397100e+00 +/- 0.0000000000000e+00
+x_0 = -2.1464970877430e+02 +/- 0.0000000000000e+00
+y_0 = 4.0998217468810e-02 +/- 2.6770839658645e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7.8834564128692e-03
+R^2 = -1.698944804285e-16
+Adjusted R^2 = -0.6666666666667
+RMSE (Root Mean Squared Error) = 0.08878883045107
+RSS (Residual Sum of Squares) = 0.05518419489008
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[11/18/15 2:13 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: y_0+A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+A = 2.1587848322320e+02 +/- 0.0000000000000e+00
+k = 1.1323937397100e+00 +/- 0.0000000000000e+00
+x_0 = -2.1464970877430e+02 +/- 0.0000000000000e+00
+y_0 = 4.0998217468810e-02 +/- 2.6770839658645e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7.8834564128692e-03
+R^2 = -1.698944804285e-16
+Adjusted R^2 = -0.6666666666667
+RMSE (Root Mean Squared Error) = 0.08878883045107
+RSS (Residual Sum of Squares) = 0.05518419489008
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[11/18/15 2:13 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: y_0+A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+A = 2.1587848322320e+02 +/- 0.0000000000000e+00
+k = 1.1323937397100e+00 +/- 0.0000000000000e+00
+x_0 = -2.1464970877430e+02 +/- 0.0000000000000e+00
+y_0 = 4.0998217468810e-02 +/- 2.6770839658645e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7.8834564128692e-03
+R^2 = -1.698944804285e-16
+Adjusted R^2 = -0.6666666666667
+RMSE (Root Mean Squared Error) = 0.08878883045107
+RSS (Residual Sum of Squares) = 0.05518419489008
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[11/18/15 2:13 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: y_0+A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+A = 1.4471552568024e+00 +/- 1.9881277100029e+07
+k = 1.8558826391003e+00 +/- 3.8687402463938e-01
+x_0 = 3.3404549162834e-02 +/- 7.4025041508636e+06
+y_0 = 4.8123574678175e-03 +/- 4.6189865291960e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.3265201770330e-04
+R^2 = 0.9831733682847
+Adjusted R^2 = 0.9719556138078
+RMSE (Root Mean Squared Error) = 0.0115174657674
+RSS (Residual Sum of Squares) = 0.0009285641239231
+---------------------------------------------------------------------------------------
+Iterations = 11
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:15 PM	Plot: ''histo_runlength_rel'']
+Exponential decay of dataset: histogram_data_runlength_probability, using function: y0+A*exp(-x/t)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A (amplitude) = 3.3485575456374e-01 +/- 1.1094441110382e-01
+t (e-folding time) = 2.5677675681896e+00 +/- 2.3883614435989e+00
+y0 (offset) = -5.7074871838124e-02 +/- 1.2079139291357e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7.5885887747684e-03
+R^2 = 0.596091531634
+Adjusted R^2 = 0.461455375512
+RMSE (Root Mean Squared Error) = 0.08711250641996
+RSS (Residual Sum of Squares) = 0.07588588774768
+---------------------------------------------------------------------------------------
+Iterations = 21
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:19 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.4554944785166e+02 +/- 0.0000000000000e+00
+x_0 = -8.2791100475302e+01 +/- 0.0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.0181740176855e+04
+R^2 = -51.92792178872
+Adjusted R^2 = -63.68968218622
+RMSE (Root Mean Squared Error) = 100.9046092944
+RSS (Residual Sum of Squares) = 101,817.4017685
+---------------------------------------------------------------------------------------
+Iterations = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[11/18/15 2:19 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.4554944785170e+02 +/- 0.0000000000000e+00
+x_0 = -8.2791100475300e+01 +/- 0.0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.0181740176855e+04
+R^2 = -51.92792178872
+Adjusted R^2 = -63.68968218622
+RMSE (Root Mean Squared Error) = 100.9046092944
+RSS (Residual Sum of Squares) = 101,817.4017685
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[11/18/15 2:20 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.4554944785170e+02 +/- 0.0000000000000e+00
+x_0 = -8.2791100475300e+01 +/- 0.0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.0181740176855e+04
+R^2 = -51.92792178872
+Adjusted R^2 = -63.68968218622
+RMSE (Root Mean Squared Error) = 100.9046092944
+RSS (Residual Sum of Squares) = 101,817.4017685
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[11/18/15 2:20 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.4554944785170e+02 +/- 0.0000000000000e+00
+x_0 = -8.2791100475300e+01 +/- 0.0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.0181740176855e+04
+R^2 = -51.92792178872
+Adjusted R^2 = -63.68968218622
+RMSE (Root Mean Squared Error) = 100.9046092944
+RSS (Residual Sum of Squares) = 101,817.4017685
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[11/18/15 2:20 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.0100000000000e+02 +/- 0.0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.2660186991016e+03
+R^2 = -51.98448152557
+Adjusted R^2 = -57.28292967813
+RMSE (Root Mean Squared Error) = 96.26016153686
+RSS (Residual Sum of Squares) = 101,926.2056901
+---------------------------------------------------------------------------------------
+Iterations = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+x_0 = 0.5 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:20 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 5.3344882922467e+01 +/- 0.0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.2660186991017e+03
+R^2 = -51.98448152557
+Adjusted R^2 = -57.28292967813
+RMSE (Root Mean Squared Error) = 96.26016153686
+RSS (Residual Sum of Squares) = 101,926.2056901
+---------------------------------------------------------------------------------------
+Iterations = 12
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+x_0 = 0.5 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:21 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: A*(1-exp(-k*(x-x_0)))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+A = 9.5632798573975e+01 +/- 5.5736176130080e+00
+k = 8.2284589171746e+01 +/- 0.0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.4171734647511e+02
+R^2 = -0.7763553846324
+Adjusted R^2 = -1.171101025662
+RMSE (Root Mean Squared Error) = 18.48559835318
+RSS (Residual Sum of Squares) = 3,417.173464751
+---------------------------------------------------------------------------------------
+Iterations = 3
+Status = success
+---------------------------------------------------------------------------------------
+x_0 = 0.5 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:22 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: A*(1-exp(-k*(x-x_0)))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 1.0162221245137e+02 +/- 1.3902651447513e+01
+k = 9.9252003818147e-01 +/- 3.7520740421888e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.0648015596497e+03
+R^2 = -0.5240945195692
+Adjusted R^2 = -0.828913423483
+RMSE (Root Mean Squared Error) = 32.63129724129
+RSS (Residual Sum of Squares) = 11,712.81715615
+---------------------------------------------------------------------------------------
+Iterations = 42
+Status = cannot reach the specified tolerance in gradient
+---------------------------------------------------------------------------------------
+x_0 = 0.5 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:22 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: A*(1-exp(-k*(x-x_0)))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 1.1074555976286e+02 +/- 1.7763887268851e+01
+k = 7.2249939168661e-01 +/- 3.2781602008970e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.7309704281696e+02
+R^2 = -0.3928340511205
+Adjusted R^2 = -0.6714008613446
+RMSE (Root Mean Squared Error) = 31.19450340712
+RSS (Residual Sum of Squares) = 10,704.06747099
+---------------------------------------------------------------------------------------
+Iterations = 16
+Status = success
+---------------------------------------------------------------------------------------
+x_0 = 0.5 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:22 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: A*(1-exp(-k*(x-x_0)))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 1.1074160104003e+02 +/- 1.7761255237840e+01
+k = 7.2259409447115e-01 +/- 3.2783174058141e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.7309704030803e+02
+R^2 = -0.3928340475293
+Adjusted R^2 = -0.6714008570352
+RMSE (Root Mean Squared Error) = 31.19450336691
+RSS (Residual Sum of Squares) = 10,704.06744339
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+x_0 = 0.5 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:22 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: A*(1-exp(-k*(x-x_0)))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 1.1074421527849e+02 +/- 1.7762992777447e+01
+k = 7.2253157156646e-01 +/- 3.2782135950950e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.7309703921479e+02
+R^2 = -0.3928340459645
+Adjusted R^2 = -0.6714008551575
+RMSE (Root Mean Squared Error) = 31.19450334938
+RSS (Residual Sum of Squares) = 10,704.06743136
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+x_0 = 0.5 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:23 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: A*(1-exp(-k*(x-x_0)))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 9.9471908237548e+01 +/- 4.4328883874931e-01
+k = 1.3850173798549e+00 +/- 4.2059224129732e-02
+x_0 = -1.0110642446828e-01 +/- 1.1087648875125e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.3776425850105e+00
+R^2 = 0.9982073847088
+Adjusted R^2 = 0.9976098462784
+RMSE (Root Mean Squared Error) = 1.173730201115
+RSS (Residual Sum of Squares) = 13.7764258501
+---------------------------------------------------------------------------------------
+Iterations = 5
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:24 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: A*(1-exp(-k*(x-x_0)))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+A = 9.9471905579437e+01 +/- 4.4328878061426e-01
+k = 1.3850178431104e+00 +/- 4.2059238859224e-02
+x_0 = -1.0110634882474e-01 +/- 1.1087644248496e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.3776425849936e+00
+R^2 = 0.9982073847088
+Adjusted R^2 = 0.9976098462784
+RMSE (Root Mean Squared Error) = 1.173730201108
+RSS (Residual Sum of Squares) = 13.77642584994
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:24 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: A*(1-exp(-k*(x-x_0)))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+A = 9.9293131833319e+01 +/- 4.7158011823059e-01
+k = 1.4612995273232e+00 +/- 9.0814649851200e-02
+x_0 = -5.8638932152128e-02 +/- 4.3466163817357e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.4016576257579e+00
+R^2 = 0.9934423643197
+Adjusted R^2 = 0.9909832509395
+RMSE (Root Mean Squared Error) = 1.18391622413
+RSS (Residual Sum of Squares) = 12.61491863182
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:24 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: A*(1-exp(-k*(x-x_0)))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+A = 9.9293070511139e+01 +/- 4.7157735612710e-01
+k = 1.4613207397466e+00 +/- 9.0816039423959e-02
+x_0 = -5.8629633192536e-02 +/- 4.3465470402042e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.4016576161785e+00
+R^2 = 0.9934423643645
+Adjusted R^2 = 0.9909832510012
+RMSE (Root Mean Squared Error) = 1.183916220084
+RSS (Residual Sum of Squares) = 12.61491854561
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:24 PM	Plot: ''Graph2'']
+Non-linear Fit of dataset: histogram_data_runlength_Percent, using function: A*(1-exp(-k*(x-x_0)))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+A = 9.9293062616618e+01 +/- 4.7157701428787e-01
+k = 1.4613234686137e+00 +/- 9.0816222756686e-02
+x_0 = -5.8628435918934e-02 +/- 4.3465382699802e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.4016576160214e+00
+R^2 = 0.9934423643652
+Adjusted R^2 = 0.9909832510022
+RMSE (Root Mean Squared Error) = 1.183916220018
+RSS (Residual Sum of Squares) = 12.61491854419
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:31 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.3574723285334e+00 +/- 3.4719208266028e-02
+x_0 = -1.0376040592420e-01 +/- 1.1246173263889e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.4281340430935e-04
+R^2 = 0.997955852667
+Adjusted R^2 = 0.9975470232004
+RMSE (Root Mean Squared Error) = 0.01195045623854
+RSS (Residual Sum of Squares) = 0.001570947447403
+---------------------------------------------------------------------------------------
+Iterations = 6
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:32 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+k = 8.4268093756834e-01 +/- 2.5725593897373e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.2589820862795e-02
+R^2 = -0.4457560806794
+Adjusted R^2 = -0.5771884516503
+RMSE (Root Mean Squared Error) = 0.3042857552742
+RSS (Residual Sum of Squares) = 1.111077850354
+---------------------------------------------------------------------------------------
+Iterations = 15
+Status = success
+---------------------------------------------------------------------------------------
+x_0 = 0.4962395940758 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:32 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+k = 8.5993428148781e-01 +/- 8.2380157158467e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5.3187944994329e-03
+R^2 = 0.9169489754081
+Adjusted R^2 = 0.9093988822633
+RMSE (Root Mean Squared Error) = 0.07293006581262
+RSS (Residual Sum of Squares) = 0.06382553399319
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+x_0 = -0.5037604059242 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:32 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 9.7062350025640e-01 +/- 4.1709290998144e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7.8122945240969e-04
+R^2 = 0.9553281308482
+Adjusted R^2 = 0.950860943933
+RMSE (Root Mean Squared Error) = 0.02795048214986
+RSS (Residual Sum of Squares) = 0.008593523976507
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+x_0 = -0.5037604059242 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:32 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 2.9824866295389e+00 +/- 1.3272689551295e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.7184445059953e-02
+R^2 = -0.5544472484193
+Adjusted R^2 = -0.7098919732613
+RMSE (Root Mean Squared Error) = 0.1648770604419
+RSS (Residual Sum of Squares) = 0.2990288956595
+---------------------------------------------------------------------------------------
+Iterations = 9
+Status = success
+---------------------------------------------------------------------------------------
+x_0 = 0.4962395940758 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:33 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+k = 6.0549966139969e+00 +/- 7.4020169074698e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.6939001114429e-03
+R^2 = 0.5796233235305
+Adjusted R^2 = 0.5329148039228
+RMSE (Root Mean Squared Error) = 0.04115701776663
+RSS (Residual Sum of Squares) = 0.01693900111443
+---------------------------------------------------------------------------------------
+Iterations = 7
+Status = success
+---------------------------------------------------------------------------------------
+x_0 = 0.75 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:33 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3789788296170e+00 +/- 7.2493124051385e-02
+x_0 = -8.9328621578422e-02 +/- 4.3556471102950e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.5551521033592e-04
+R^2 = 0.9919158250489
+Adjusted R^2 = 0.9901193417265
+RMSE (Root Mean Squared Error) = 0.01247057377733
+RSS (Residual Sum of Squares) = 0.001555152103359
+---------------------------------------------------------------------------------------
+Iterations = 11
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:35 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3789788296170e+00 +/- 7.2492422031119e-02
+x_0 = -8.9328621578420e-02 +/- 4.3556913491883e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.5551520988980e-04
+R^2 = 0.9919158250489
+Adjusted R^2 = 0.9901193417265
+RMSE (Root Mean Squared Error) = 0.01247057377733
+RSS (Residual Sum of Squares) = 0.001555152103359
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:35 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3789788296170e+00 +/- 7.2492422031119e-02
+x_0 = -8.9328621578420e-02 +/- 4.3556913491883e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.5551520988980e-04
+R^2 = 0.9919158250489
+Adjusted R^2 = 0.9901193417265
+RMSE (Root Mean Squared Error) = 0.01247057377733
+RSS (Residual Sum of Squares) = 0.001555152103359
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:35 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3789788296170e+00 +/- 7.2492422031119e-02
+x_0 = -8.9328621578420e-02 +/- 4.3556913491883e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.5551520988980e-04
+R^2 = 0.9919158250489
+Adjusted R^2 = 0.9901193417265
+RMSE (Root Mean Squared Error) = 0.01247057377733
+RSS (Residual Sum of Squares) = 0.001555152103359
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:36 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3789788296170e+00 +/- 2.2047288779753e-01
+x_0 = 5.0000000000000e-01 +/- 1.0597659792412e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.4018820911450e-03
+R^2 = -1.158532240778
+Adjusted R^2 = -1.638206072062
+RMSE (Root Mean Squared Error) = 0.2037735700269
+RSS (Residual Sum of Squares) = 0.4152366784151
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:36 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3789788296170e+00 +/- 3.3000867257948e-01
+x_0 = 7.0000000000000e-01 +/- 1.3417295265603e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7.5432428860765e-03
+R^2 = -4.314445336654
+Adjusted R^2 = -5.495433189244
+RMSE (Root Mean Squared Error) = 0.3197404312806
+RSS (Residual Sum of Squares) = 1.022339433955
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:36 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3789655838750e+00 +/- 7.2492318945769e-02
+x_0 = -8.9335902719435e-02 +/- 4.3556977835067e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.5551520988229e-04
+R^2 = 0.9919158250725
+Adjusted R^2 = 0.9901193417553
+RMSE (Root Mean Squared Error) = 0.01247057375915
+RSS (Residual Sum of Squares) = 0.001555152098823
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:36 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3789655649246e+00 +/- 7.2492320862606e-02
+x_0 = -8.9335913203644e-02 +/- 4.3556980500135e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.5551520988229e-04
+R^2 = 0.9919158250725
+Adjusted R^2 = 0.9901193417553
+RMSE (Root Mean Squared Error) = 0.01247057375915
+RSS (Residual Sum of Squares) = 0.001555152098823
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:37 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.3574731644058e+00 +/- 3.4719232701907e-02
+x_0 = -1.0376023533160e-01 +/- 1.1246163641059e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.4281340431032e-04
+R^2 = 0.997955852667
+Adjusted R^2 = 0.9975470232004
+RMSE (Root Mean Squared Error) = 0.01195045623858
+RSS (Residual Sum of Squares) = 0.001570947447414
+---------------------------------------------------------------------------------------
+Iterations = 3
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:37 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3789593890478e+00 +/- 7.2491943396588e-02
+x_0 = -8.9339305774173e-02 +/- 4.3557215467474e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.5551520998067e-04
+R^2 = 0.9919158250674
+Adjusted R^2 = 0.990119341749
+RMSE (Root Mean Squared Error) = 0.01247057376309
+RSS (Residual Sum of Squares) = 0.001555152099807
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:38 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3789647695581e+00 +/- 7.2492272133813e-02
+x_0 = -8.9336349919787e-02 +/- 4.3557010491499e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.5551520988393e-04
+R^2 = 0.9919158250724
+Adjusted R^2 = 0.9901193417552
+RMSE (Root Mean Squared Error) = 0.01247057375921
+RSS (Residual Sum of Squares) = 0.001555152098839
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:39 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.3574731647958e+00 +/- 3.4719232833004e-02
+x_0 = -1.0376023512764e-01 +/- 1.1246163589844e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.4281340431032e-04
+R^2 = 0.997955852667
+Adjusted R^2 = 0.9975470232004
+RMSE (Root Mean Squared Error) = 0.01195045623858
+RSS (Residual Sum of Squares) = 0.001570947447414
+---------------------------------------------------------------------------------------
+Iterations = 3
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:45 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+k = 5.7431230828618e-01 +/- 2.3639471028080e-01
+x_0 = -2.1937507298321e+00 +/- 1.2173800374127e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 7.3375444411056e-03
+R^2 = 0.5703989151064
+Adjusted R^2 = 0.4844786981277
+RMSE (Root Mean Squared Error) = 0.08565946790114
+RSS (Residual Sum of Squares) = 0.08071298885216
+---------------------------------------------------------------------------------------
+Iterations = 13
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:45 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3397511435932e+00 +/- 8.7515006063340e-02
+x_0 = -1.3820377759803e-01 +/- 5.7891420497055e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.2555120305000e-04
+R^2 = 0.9877783420252
+Adjusted R^2 = 0.9850624180307
+RMSE (Root Mean Squared Error) = 0.01501836219599
+RSS (Residual Sum of Squares) = 0.0022555120305
+---------------------------------------------------------------------------------------
+Iterations = 8
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:46 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3397452621149e+00 +/- 8.7514566359688e-02
+x_0 = -1.3820736161068e-01 +/- 5.7891728788469e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.2555120294037e-04
+R^2 = 0.9877783420311
+Adjusted R^2 = 0.985062418038
+RMSE (Root Mean Squared Error) = 0.01501836219234
+RSS (Residual Sum of Squares) = 0.002255512029404
+---------------------------------------------------------------------------------------
+Iterations = 3
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:46 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.7355548977015e+00 +/- 1.5892561500923e-01
+x_0 = 1.8852417933240e-01 +/- 8.7285206607611e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1912274345137e-04
+R^2 = 0.980572250928
+Adjusted R^2 = 0.9757153136601
+RMSE (Root Mean Squared Error) = 0.01091433660152
+RSS (Residual Sum of Squares) = 0.001072104691062
+---------------------------------------------------------------------------------------
+Iterations = 6
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:47 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.7355582198169e+00 +/- 1.5892599177565e-01
+x_0 = 1.8852593696395e-01 +/- 8.7285038335686e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1912274344511e-04
+R^2 = 0.9805722509291
+Adjusted R^2 = 0.9757153136613
+RMSE (Root Mean Squared Error) = 0.01091433660124
+RSS (Residual Sum of Squares) = 0.001072104691006
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:47 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+k = 5.3320205243610e+00 +/- 4.7894613102864e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.0407855894767e-03
+R^2 = 0.8113978845665
+Adjusted R^2 = 0.7904420939627
+RMSE (Root Mean Squared Error) = 0.03226120874172
+RSS (Residual Sum of Squares) = 0.01040785589477
+---------------------------------------------------------------------------------------
+Iterations = 8
+Status = success
+---------------------------------------------------------------------------------------
+x_0 = 0.75 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:48 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+A = 1.0276357536061e+02 +/- 2.0118565635507e+58
+k = 1.1243892276728e+00 +/- 3.1999152891830e+47
+x_0 = -1.0167908713050e+02 +/- 1.7411696449185e+56
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.2091983852376e-03
+R^2 = -0.3350486897316
+Adjusted R^2 = -0.9072124139023
+RMSE (Root Mean Squared Error) = 0.09596456838457
+RSS (Residual Sum of Squares) = 0.0736735870819
+---------------------------------------------------------------------------------------
+Iterations = 2
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[11/18/15 2:48 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+A = 3.7739159654116e-01 +/- 2.6309744619981e-02
+k = 1.7355554534341e+00 +/- 1.5892567800803e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1912274344958e-04
+R^2 = 0.9805722509283
+Adjusted R^2 = 0.9757153136604
+RMSE (Root Mean Squared Error) = 0.01091433660144
+RSS (Residual Sum of Squares) = 0.001072104691046
+---------------------------------------------------------------------------------------
+Iterations = 7
+Status = success
+---------------------------------------------------------------------------------------
+x_0 = 0.75 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:48 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: A*exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+A = 3.7739200026641e-01 +/- 2.6309790989224e-02
+k = 1.7355584497381e+00 +/- 1.5892601798512e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1912274344507e-04
+R^2 = 0.9805722509291
+Adjusted R^2 = 0.9757153136613
+RMSE (Root Mean Squared Error) = 0.01091433660124
+RSS (Residual Sum of Squares) = 0.001072104691006
+---------------------------------------------------------------------------------------
+Iterations = 2
+Status = success
+---------------------------------------------------------------------------------------
+x_0 = 0.75 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:48 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.7355403952077e+00 +/- 1.5892396620548e-01
+x_0 = 1.8851651645073e-01 +/- 8.7285937416805e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1912274360296e-04
+R^2 = 0.9805722509033
+Adjusted R^2 = 0.9757153136292
+RMSE (Root Mean Squared Error) = 0.01091433660847
+RSS (Residual Sum of Squares) = 0.001072104692427
+---------------------------------------------------------------------------------------
+Iterations = 7
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:49 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3397475412219e+00 +/- 8.7514735944919e-02
+x_0 = -1.3820597371752e-01 +/- 5.7891608951467e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.2555120295683e-04
+R^2 = 0.9877783420302
+Adjusted R^2 = 0.9850624180369
+RMSE (Root Mean Squared Error) = 0.01501836219289
+RSS (Residual Sum of Squares) = 0.002255512029568
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:49 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.4560207920859e+01 +/- 7.7686798656426e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.0600805748312e-02
+R^2 = -0.3157924579451
+Adjusted R^2 = -0.4354099541219
+RMSE (Root Mean Squared Error) = 0.1435298078739
+RSS (Residual Sum of Squares) = 0.2472096689797
+---------------------------------------------------------------------------------------
+Iterations = 13
+Status = success
+---------------------------------------------------------------------------------------
+x_0 = -0.1382059737175 (constant)
+---------------------------------------------------------------------------------------
+[11/18/15 2:50 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3397485316327e+00 +/- 8.7514810796918e-02
+x_0 = -1.3820537018017e-01 +/- 5.7891557385822e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.2555120297425e-04
+R^2 = 0.9877783420293
+Adjusted R^2 = 0.9850624180358
+RMSE (Root Mean Squared Error) = 0.01501836219347
+RSS (Residual Sum of Squares) = 0.002255512029742
+---------------------------------------------------------------------------------------
+Iterations = 18
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:50 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.7355548980283e+00 +/- 1.5892561463707e-01
+x_0 = 1.8852417951611e-01 +/- 8.7285206509715e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1912274345137e-04
+R^2 = 0.980572250928
+Adjusted R^2 = 0.9757153136601
+RMSE (Root Mean Squared Error) = 0.01091433660152
+RSS (Residual Sum of Squares) = 0.001072104691062
+---------------------------------------------------------------------------------------
+Iterations = 6
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:50 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.7355582205761e+00 +/- 1.5892599120805e-01
+x_0 = 1.8852593740064e-01 +/- 8.7285038089996e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1912274344511e-04
+R^2 = 0.9805722509291
+Adjusted R^2 = 0.9757153136613
+RMSE (Root Mean Squared Error) = 0.01091433660124
+RSS (Residual Sum of Squares) = 0.001072104691006
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:50 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.7355584949620e+00 +/- 1.5892602386914e-01
+x_0 = 1.8852608257592e-01 +/- 8.7285025347565e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1912274344507e-04
+R^2 = 0.9805722509291
+Adjusted R^2 = 0.9757153136613
+RMSE (Root Mean Squared Error) = 0.01091433660124
+RSS (Residual Sum of Squares) = 0.001072104691006
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:50 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 1.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.7355585174661e+00 +/- 1.5892602562875e-01
+x_0 = 1.8852609448147e-01 +/- 8.7285023582427e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.1912274344507e-04
+R^2 = 0.9805722509291
+Adjusted R^2 = 0.9757153136613
+RMSE (Root Mean Squared Error) = 0.01091433660124
+RSS (Residual Sum of Squares) = 0.001072104691006
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:51 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3397475417721e+00 +/- 8.7514737005159e-02
+x_0 = -1.3820597339799e-01 +/- 5.7891609247701e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.2555120295684e-04
+R^2 = 0.9877783420302
+Adjusted R^2 = 0.9850624180369
+RMSE (Root Mean Squared Error) = 0.01501836219289
+RSS (Residual Sum of Squares) = 0.002255512029568
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:51 PM	Plot: ''histo_runlength_rel'']
+Non-linear Fit of dataset: histogram_data_runlength_probability, using function: exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3397450889254e+00 +/- 8.7514552916742e-02
+x_0 = -1.3820746704249e-01 +/- 5.7891737401443e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2.2555120294046e-04
+R^2 = 0.9877783420311
+Adjusted R^2 = 0.985062418038
+RMSE (Root Mean Squared Error) = 0.01501836219235
+RSS (Residual Sum of Squares) = 0.002255512029405
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:56 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.3574723285334e+00 +/- 3.4719208266028e-02
+x_0 = -1.0376040592420e-01 +/- 1.1246173263889e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.4281340430935e-04
+R^2 = 0.997955852667
+Adjusted R^2 = 0.9975470232004
+RMSE (Root Mean Squared Error) = 0.01195045623854
+RSS (Residual Sum of Squares) = 0.001570947447403
+---------------------------------------------------------------------------------------
+Iterations = 6
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:57 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.3574726815180e+00 +/- 3.4719218573748e-02
+x_0 = -1.0376033394528e-01 +/- 1.1246169233609e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.4281340430797e-04
+R^2 = 0.9979558526671
+Adjusted R^2 = 0.9975470232005
+RMSE (Root Mean Squared Error) = 0.01195045623849
+RSS (Residual Sum of Squares) = 0.001570947447388
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:57 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 5.0000000000000e-01 to x = 6.0000000000000e+00
+k = 1.3789593889996e+00 +/- 7.2491944654354e-02
+x_0 = -8.9339305771055e-02 +/- 4.3557217178844e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.5551520998068e-04
+R^2 = 0.9919158250674
+Adjusted R^2 = 0.990119341749
+RMSE (Root Mean Squared Error) = 0.01247057376309
+RSS (Residual Sum of Squares) = 0.001555152099807
+---------------------------------------------------------------------------------------
+Iterations = 4
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:57 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.3574731637592e+00 +/- 3.4719232735946e-02
+x_0 = -1.0376023560539e-01 +/- 1.1246163653347e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.4281340431031e-04
+R^2 = 0.997955852667
+Adjusted R^2 = 0.9975470232004
+RMSE (Root Mean Squared Error) = 0.01195045623858
+RSS (Residual Sum of Squares) = 0.001570947447413
+---------------------------------------------------------------------------------------
+Iterations = 3
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:57 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.3574727036150e+00 +/- 3.4719219310423e-02
+x_0 = -1.0376032946145e-01 +/- 1.1246168923612e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.4281340430798e-04
+R^2 = 0.9979558526671
+Adjusted R^2 = 0.9975470232005
+RMSE (Root Mean Squared Error) = 0.01195045623849
+RSS (Residual Sum of Squares) = 0.001570947447388
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:58 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.3574726921145e+00 +/- 3.4719218965379e-02
+x_0 = -1.0376033165294e-01 +/- 1.1246169029933e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.4281340430797e-04
+R^2 = 0.9979558526671
+Adjusted R^2 = 0.9975470232005
+RMSE (Root Mean Squared Error) = 0.01195045623849
+RSS (Residual Sum of Squares) = 0.001570947447388
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = success
+---------------------------------------------------------------------------------------
+[11/18/15 2:58 PM	Plot: ''cumulative_runlength'']
+Non-linear Fit of dataset: histogram_data_runlength_cumulative prob, using function: 1-exp(-k*(x-x_0))
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 0.0000000000000e+00 to x = 6.0000000000000e+00
+k = 1.3574726921140e+00 +/- 3.4719218845997e-02
+x_0 = -1.0376033165290e-01 +/- 1.1246169079952e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.4281340430797e-04
+R^2 = 0.9979558526671
+Adjusted R^2 = 0.9975470232005
+RMSE (Root Mean Squared Error) = 0.01195045623849
+RSS (Residual Sum of Squares) = 0.001570947447388
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = cannot reach the specified tolerance in F
 ---------------------------------------------------------------------------------------
 </log>
