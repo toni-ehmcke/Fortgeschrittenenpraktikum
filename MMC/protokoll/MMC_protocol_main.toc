@@ -9,7 +9,7 @@
 \contentsline {subsection}{\numberline {2.2}Stream acquisition}{2}
 \contentsline {section}{\numberline {3}Data Analysis}{3}
 \contentsline {subsection}{\numberline {3.1}Data evaluation of velocity}{3}
-\contentsline {subsection}{\numberline {3.2}Data evaluation of run length}{3}
-\contentsline {section}{\numberline {4}Discussion and conclusions}{3}
-\contentsline {section}{\numberline {5}Appendix}{3}
-\contentsline {section}{\numberline {6}Literatur}{4}
+\contentsline {subsection}{\numberline {3.2}Data evaluation of run length}{4}
+\contentsline {section}{\numberline {4}Discussion and conclusions}{4}
+\contentsline {section}{\numberline {5}Appendix}{4}
+\contentsline {section}{\numberline {6}Literatur}{5}
