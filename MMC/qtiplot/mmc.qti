@@ -224,7 +224,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/MMC/qtiplot/allstacks.txt	2
 allstacks-ColStats	allstacks	col	17.11.15 20:05
 Targets	3
 ColStatType	2	3	5	6	7	8	9	10	11	12	13	14	15
-geometry	1176	820	945	122	minimized	
+geometry	784	820	-1	-1	minimized	
 header	Col[X]	Zeilen[Y]	Mittel[Y]	Standardabweichung[Y]	Standardfehler[yEr]	Varianz[Y]	Summe[Y]	iMax[Y]	Max[Y]	iMin[Y]	Min[Y]	N[Y]	Mittelwert[Y]
 ColWidth	100	100	152	198	100	100	100	100	100	100	100	100	100	
 <com>
@@ -239,7 +239,7 @@ WindowLabel	Spaltenstatistik von allstacks	2
 allstacks-ColStats	allstacks	col	17.11.15 20:05
 Targets	1
 ColStatType	2	3	5	6	7	8	9	10	11	12	13	14	15
-geometry	784	820	-1	-1	minimized	
+geometry	588	820	-1	-1	minimized	
 header	Col[X]	Zeilen[Y]	Mittel[Y]	Standardabweichung[Y]	Standardfehler[yEr]	Varianz[Y]	Summe[Y]	iMax[Y]	Max[Y]	iMin[Y]	Min[Y]	N[Y]	Mittelwert[Y]
 ColWidth	100	100	179	148	100	100	100	100	100	100	100	100	100	
 <com>
@@ -252,7 +252,7 @@ WindowLabel	Spaltenstatistik von allstacks	2
 </TableStatistics>
 <table>
 histogram_data_runlength	13	6	11/18/15 1:40 PM
-geometry	588	820	-1	-1	minimized	
+geometry	392	820	-1	-1	minimized	
 header	Bins[X]	Quantity[Y]	probability[Y]	Sum[Y]	Percent[Y]	cumulative prob[Y]
 ColWidth	100	100	180	100	160	300	
 <com>
@@ -286,7 +286,7 @@ WindowLabel	Histogram and Probabilities for allstacks_d	2
 </table>
 <table>
 histodata_velocity	21	6	18.11.15 17:47
-geometry	1372	820	643	820	minimized	
+geometry	196	820	-1	-1	minimized	
 header	BinCtr[X]	Zählen[Y]	BinEnd[Y]	Summe[Y]	probability[Y]	cumprob[Y]
 ColWidth	100	100	100	100	182	194	
 <com>
@@ -328,7 +328,7 @@ WindowLabel	Frequenzzähler: allstacks_v	2
 </table>
 <multiLayer>
 histo_runlength_abs	1	1	17.11.15 19:13
-geometry	392	820	1380	850	minimized	
+geometry	0	820	1380	850	minimized	
 WindowLabel	histogram of the distance	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -392,7 +392,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 histo_runlength_rel	1	1	11/18/15 1:41 PM
-geometry	196	820	1586	691	minimized	
+geometry	1176	820	1586	691	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -660,7 +660,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Grafik1	1	1	18.11.15 16:59
-geometry	0	820	889	815	minimized	
+geometry	1372	820	889	815	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -670,7 +670,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	871	746
-<PageGeometry>0.00980392	0.0121951	1.70784	1.81951</PageGeometry>
+<PageGeometry>0.00567537	0.0065703	0.988649	0.980289</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -747,7 +747,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 velodist_rel	1	1	18.11.15 17:50
-geometry	0	790	965	806	minimized	active
+geometry	1568	820	965	806	minimized	
 WindowLabel	velocity probability distribution	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -790,40 +790,20 @@ CanvasBackground	#ffffff	0
 curve	histodata_velocity_BinCtr	histodata_velocity_probability	3	1	#000000	0	1	7	0	#000000	#000000	1	#008080	0	0	0	2	0	0	20	1
 <Function>
 <Type>0</Type>
-<Title>NichtlinearFit1</Title>
-<Expression>exp(-k*(x-xc))</Expression>
+<Title>F7</Title>
+<Expression>A*gauss_pdf(x-xc, sigma)</Expression>
 <Variable>x</Variable>
-<Range>0.8	8.2</Range>
+<Range>0	8.2</Range>
 <Points>100</Points>
-<Constant>k	3.8107488855353</Constant>
-<Constant>xc	0.75773722480861</Constant>
+<Constant>A	0.38</Constant>
+<Constant>sigma	0.362</Constant>
+<Constant>xc	0.8</Constant>
 <Style>0</Style>
 <LineStyle>1</LineStyle>
 <Pen>
-	<Color>#0000a0</Color>
-	<Style>1</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-<Function>
-<Type>0</Type>
-<Title>NichtlinearFit2</Title>
-<Expression>exp(-k*(x-xc))</Expression>
-<Variable>x</Variable>
-<Range>0.2	8.2</Range>
-<Points>100</Points>
-<Constant>k	0.73457503787247</Constant>
-<Constant>xc	-1.4655523912926</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#00ff00</Color>
+	<Color>#88d992</Color>
 	<Style>0</Style>
-	<Width>1</Width>
+	<Width>2</Width>
 </Pen>
 <xAxis>2</xAxis>
 <yAxis>0</yAxis>
@@ -847,13 +827,37 @@ LabelsSuffix
 TickLabelsSpace	4	4	4	4
 ShowTicksPolicy	0	0	0	0
 EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>5.8236024844721</x>
+<y>0.099009900990099</y>
+<right>7.97018633540373</right>
+<bottom>0.0115511551155116</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) probability distribution
+\l(2) gauss_pdf fit (σ=0,362)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
 </graph>
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 <multiLayer>
 velocumdist	1	1	18.11.15 17:57
-geometry	1568	820	954	803	minimized	
+geometry	0	790	954	803	minimized	active
 WindowLabel	cumulative probability distribution of the velocity	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -862,8 +866,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	936	726
-<PageGeometry>0.00528541	0.00667557	0.989429	0.969292</PageGeometry>
+ggeometry	6	5	936	726
+<PageGeometry>0.00634249	0.00667557	0.989429	0.969292</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -896,40 +900,19 @@ CanvasBackground	#ffffff	0
 curve	histodata_velocity_BinCtr	histodata_velocity_cumprob	3	1	#000000	0	1	7	0	#000000	#000000	1	#008080	0	0	0	2	0	0	20	1
 <Function>
 <Type>0</Type>
-<Title>F3</Title>
-<Expression>1-exp(-k*(x-xc))</Expression>
-<Variable>x</Variable>
-<Range>0.2	8</Range>
-<Points>100</Points>
-<Constant>k	3.8107488855353</Constant>
-<Constant>xc	0.75773722480861</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#00ff00</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-<Function>
-<Type>0</Type>
-<Title>F1</Title>
-<Expression>1-exp(-k*(x-xc))</Expression>
+<Title>NichtlinearFit1</Title>
+<Expression>gauss_cdf(x-xc,sigma)</Expression>
 <Variable>x</Variable>
 <Range>0	8.2</Range>
 <Points>100</Points>
-<Constant>k	0.73457503787247</Constant>
-<Constant>xc	-1.4655523912926</Constant>
+<Constant>sigma	0.3627031884769</Constant>
+<Constant>xc	0.600076510361053</Constant>
 <Style>0</Style>
 <LineStyle>1</LineStyle>
 <Pen>
-	<Color>#0000a0</Color>
-	<Style>1</Style>
-	<Width>1</Width>
+	<Color>#88d992</Color>
+	<Style>0</Style>
+	<Width>2</Width>
 </Pen>
 <xAxis>2</xAxis>
 <yAxis>0</yAxis>
@@ -960,8 +943,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>1.9456384323641</x>
 <y>-1.0494037478705</y>
-<right>7.20480404551201</right>
-<bottom>-6.24531516183986</bottom>
+<right>1.04305043050431</right>
+<bottom>0.951377633711507</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -979,12 +962,41 @@ EnabledTickLabels	1	1	1	1
 <b>k</b> = 2,9882971779715e+00 +/- 5,0482186369724e-01
 <b>xc</b> = 2,8067671202412e-01 +/- 1,3028806273595e-01
 \l(2)%(2)
-\l(3)%(3)
+<b>Datensatz</b>: histodata_velocity_cumprob
+<b>Funktion</b>: gauss_cdf(x-xc,sigma)
+<b>Chi^2/doF</b> = 1,2053091932518e-04
+<b>R^2</b> = 0,9973934194635
+<b>sigma</b> = 3,6270318847690e-01 +/- 1,1461446988171e-02
+<b>xc</b> = 6,0007651036105e-01 +/- 7,8908695527199e-03
 </Text>
 <Font>Cantarell	11	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>5.7551020408163</x>
+<y>0.10102739726027</y>
+<right>7.94897959183673</right>
+<bottom>0.0102739726027397</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2) gauss_cdf fit (σ=0,362)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>255</Alpha>
 <Angle>0</Angle>
 <AutoUpdate>1</AutoUpdate>
 <TeXOutput>0</TeXOutput>
@@ -3793,6 +3805,77 @@ RMSE (Standardabweichung) = 0,00822437685635
 RSS (Summe der quadrierten Restwerte) = 0,001149886369479
 ---------------------------------------------------------------------------------------
 Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+
+[19.11.15 18:51	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: gauss_cdf(x-xc,sigma)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+sigma = 3,6269877856373e-01 +/- 1,1461358714577e-02
+xc = 6,0007804972231e-01 +/- 7,8908185571914e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2053092043159e-04
+R^2 = 0,9973934194395
+Angepasstes R^2 = 0,9971037993773
+RMSE (Standardabweichung) = 0,01097865749678
+RSS (Summe der quadrierten Restwerte) = 0,0022900874882
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[19.11.15 18:52	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: gauss_cdf(x-xc,sigma)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+sigma = 3,6270294785288e-01 +/- 1,1461442157624e-02
+xc = 6,0007659235959e-01 +/- 7,8908667699725e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2053091932882e-04
+R^2 = 0,9973934194634
+Angepasstes R^2 = 0,9971037994038
+RMSE (Standardabweichung) = 0,01097865744656
+RSS (Summe der quadrierten Restwerte) = 0,002290087467248
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[19.11.15 18:54	Diagramm: ''velocumdist'']
+Nichtlinearer Fit von Datensatz: histodata_velocity_cumprob, unter Verwendung der Funktion: gauss_cdf(x-xc,sigma)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+sigma = 3,6270318847690e-01 +/- 1,1461446988171e-02
+xc = 6,0007651036105e-01 +/- 7,8908695527199e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2053091932518e-04
+R^2 = 0,9973934194635
+Angepasstes R^2 = 0,9971037994039
+RMSE (Standardabweichung) = 0,01097865744639
+RSS (Summe der quadrierten Restwerte) = 0,002290087467178
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[19.11.15 19:05	Diagramm: ''velodist_rel'']
+Gauß-Fit von Datensatz: histodata_velocity_probability, unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e-01 bis x = 8,2000000000000e+00
+A (Fläche) = 3,9653896282617e-01 +/- 1,4676605589436e-02
+xc (Mitte) = 8,0146310763185e-01 +/- 1,3979742204978e-02
+w (Breite) = 7,4794521111289e-01 +/- 3,0259937270261e-02
+y0 (Offset) = 9,8857483555591e-04 +/- 3,5400443335284e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,0689950212570e-04
+R^2 = 0,986160017938
+Angepasstes R^2 = 0,9827000224226
+RMSE (Standardabweichung) = 0,01438400160337
+RSS (Summe der quadrierten Restwerte) = 0,003517291536137
+---------------------------------------------------------------------------------------
+Iterationen = 11
 Status = success
 ---------------------------------------------------------------------------------------
 </log>
