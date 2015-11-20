@@ -1,4 +1,6 @@
 \section{Data Analysis}
+
+	% TODO@Christian: What is the bin-width and how did you determine it? Decide for one(!) time form: present OR simple past!
     According to the data evaluation, we got $N = 204$ events. That means, we got 204 times a distance, a time and a velocity which are distributed. 
     \subsection{Data evaluation of velocity}
         We think, the velocity is a gaussian distribution. This assumption can be proven by a student's t-test. But we only have one set of data.
@@ -18,11 +20,32 @@
         The mean of the velocity $\overline v$, its standard deviation $\sigma_{\overline v}$ and the standard error of the mean velocity $\Delta \overline v$ can be calculated by a data analysis tool. We used an Origin like software called qtiplot, which calculates column statistics, which are not influenced by binning, because that are the measured raw data. These include the searched values.
         In general one can calculate these values as following:
         \begin{eqnarray*}
-            \overline v = N^{-1} \sum_{i = 1}^{N}v_i\ ,\ \sigma_{\overline v} = \sqrt{\sum_{i = 1}^{N} \frac{(v_i - \overline v)^2}{N}}\ , \ \Delta \overline v = \frac{\sigma_{\overline v}}{\sqrt{N}}
+            \overline v = N^{-1} \sum_{i = 1}^{N}v_i\ ,\ \sigma_{\overline v} = \sqrt{\sum_{i = 1}^{N} \frac{(v_i - \overline v)^2}{N-1}}\ , \ \Delta \overline v = \frac{\sigma_{\overline v}}{\sqrt{N}}
         \end{eqnarray*}
         So we get:
-        $$ \overline v = \unit[(0.81 \pm 0.05)]{\frac{\mu m}{s}}\ , \ \ \sigma_{\overline v} = 0.72 \unit{\frac{\mu m}{s}}$$
-        To minimize the error one easily take more measurements. According to the law of large numbers the measured mean velocity would vonverge to the expactation value. With an infinite number of measurements we would get the exact result. 
+        $$ \overline v = \unit[(0.87 \pm 0.05)]{\frac{\mu m}{s}}\ , \ \ \sigma_{\overline v} = 0.72 \unit{\frac{\mu m}{s}}$$
+        To minimize the error one could easily take more measurements. According to the law of large numbers the measured mean velocity would converge to the expactation value. With an infinite number of measurements we would get the exact result. 
         Also we could use software which marks the traces, which would create a unit law of marking. As a human being, one cannot see every trace and one can not mark every trace the way. This is caused by a diameter of the traces which is not infinite. The means, one could easily stretch the distance walked by the kinesin by marking from on edge to the diagonal opposite edge. An automization would avoid these errors. 
     
     \subsection{Data evaluation of run length}
+    	Now we are going to figure out what distance $d$ a motorprotein covers on a single microtubule before releasing itself. For that we also use the data acquired by the streamed films. One frame of the stream corresponds to $150\ \unit{ms}$. With that and the determined velocity $\overline v = \unit[(0.87 \pm 0.05)]{\mu m/s}$ we can calculate the minimal distance we can measure with our streaming-system (and also the minimal bin-size): $d_{min} = \overline{v} \cdot 1\ \unit{FRAME} = 0.12\ \unit{\mu m} \cong 0.2\ \unit{\mu m}$. Therefore all of the measured distances which are below that value cannot be reasonable and they will be ignored in our statistics - anyway they will appear as first bin in the histogram for the sake of completeness. We rounded the value of $d_{min}$ up because we want to choose a smooth bin-width. Finally we decided the bin width to be $d_{bin} = 0.4\ \unit{\mu m} \cong 2 \cdot {d_{min}}$. We estimated this using the \textbf{Square-root choice}\cite{wikiHisto} which says that the number of bins is $k = \lfloor\sqrt{N}\rfloor$ where $N = 204$ is the number of samples.\\
+    	Considering these facts we got the following results. At first the mean distance and its statistical error:
+    	\begin{equation*}
+    		\overline{d} = (1.1 \pm 0.1)\ \unit{\mu m}
+    	\end{equation*}
+    	The distribution of measured value is visualised by the following histogram:
+    	 \minipanf
+    	                \begin{center}
+    	                \includegraphics[scale=0.3]{pic/histo_runlength_rel.png}
+    	                \label{exp:histRun}
+    	                \caption{Probibility distribution of the measured run length.\\ The very first bin is ignored from the exponential fitting}
+    	                \end{center}
+    	 \minipend
+    	            
+    	 \minipanf
+    	                \begin{center}
+    	                \includegraphics[scale=0.3]{pic/cumulative_runlength.png}
+    	                \caption{Cumulative probability}
+    	                \end{center}
+    	 \minipend
+    	
