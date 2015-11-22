@@ -1,8 +1,21 @@
 \section{Experimental procedure}
-\subsection{Making of the Kinesin-1-stepping assay}
-% TODO: describe making of the specimen; create graphic that visualises the purpose of the used chemicals
+	\subsection{Making of the Kinesin-1-stepping assay}
+	% TODO: describe making of the specimen; create graphic that visualises the purpose of the used chemicals
+	
+		
+		We started the experiment with preparing the specimen that is visualised schematically in Figure \ref{exp:steppingAssay}. For that we got a hydrophobic object holder where several organic substances later will bind to. Two flow channels were formed by placing 3 stripes of some synthetic material on the slide that seal the channels under the coverslip after a short heating procedure. Then these channels were flooded by serveral chemicals. At first we filled in the \textit{BRB80} buffersolution that necessary to hold the pH-Value approximately constant. Then we put the \textit{Anti-$\beta$-tubulin antibodies} in the channel that bind the microtubules to the surface of the object holder. The experiment of our group unfortunately failed probably because of using a too thin antibody-solution in this step. For hindering proteins other than the microtubules to bind to the surface of the slide we now wash the channel with some blocker-substances: \textit{F127} and \textit{Casein}. Because microtubules are highly dynamic filaments we have to stabilise them some how. For this purpose we combine our BRB buffersolution with \textit{taxol} that prevents the depolymerisation of tubulin. So finally we can put the rhodamine-labeled \textit{microtubules} and the \textit{kinesin-1 motorproteins} that are dyed with GFP in the channel. The kinesin-solution is enriched with \textit{MgATP} that is the 'fuel' of the motorpretein's-motion. Additionally a \textit{glucose-based antifade-cocktail} is used to surpress the reaction of free-radicals created by strongly excited fluorophores with free-oxygen of about a factor 2. This is necessary to reduce the photobleaching and the damaging of the proteins.
+ 		\begin{figure}[h]
+ 			\centering
+ 		   	\captionsetup{justification=raggedright, margin =4cm}            
+ 		    	  \includegraphics[scale=0.3]{pic/steppingassay.png}
+ 		    \caption{Schematic scetch of the stepping assay. 1-Hydrophobic slide, 2-Anti-$\beta$-tubulin antibody, 3-MT, 4-Taxol stabilisator, 5-motor-protein, 6-ATP - 'fuel', 7-block substances (F127, Casein)}
+ 		   	\label{exp:steppingAssay} 
+ 		\end{figure}\\
+ 		Now we are ready for taking the movies of our stepping-assay.
+    	     	                 
+    	 
 
-\subsection{Stream acquisition}
+	\subsection{Stream acquisition}
         First the experimental supervisor placed the flow cell holder on the microscope stage. We used an oil objective which has to touch the bottom of the flow cell. The objective has a magnification of 100x and a numerical aperture of 1,46.  
         After the assay was fixed we used a Software called MetaMorph. We chose the camera button. We used a digital Camera by Andor which took greyscaled pictures. Its resolution is $\unit[2.6]{MPixel}$ with 512x512 pixels. The size of one pixel ist $\unit[256]{\mu m^2}$.
         According to the meta data of the movies and pictures the chosen additional magnification of the camera is 1.0x. This means, the pixel size is the original pixel size of the camera. If it had been 2.5x, we could have seen 2.5 times less, so a pixel would have been $A = \unit[256]{\mu m^2} / 2.5 = 102.4\ \unit{\mu m^2}$. 
