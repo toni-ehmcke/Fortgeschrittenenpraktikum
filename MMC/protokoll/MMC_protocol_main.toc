@@ -3,7 +3,9 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Introduction}{2}
 \contentsline {subsection}{\numberline {1.1}Kinesin-1: Cell's workhorses}{2}
-\contentsline {subsection}{\numberline {1.2}Fluorescence Microscopy}{3}
+\contentsline {subsection}{\numberline {1.2}Fluorescence Microscopy}{2}
+\contentsline {subsubsection}{\numberline {1.2.1}Flourescent markers}{3}
+\contentsline {subsubsection}{\numberline {1.2.2}Total internal reflection Flourescence Mircroscopy}{3}
 \contentsline {section}{\numberline {2}Experimental procedure}{3}
 \contentsline {subsection}{\numberline {2.1}Making of the Kinesin-1-stepping assay}{3}
 \contentsline {subsection}{\numberline {2.2}Stream acquisition}{4}
