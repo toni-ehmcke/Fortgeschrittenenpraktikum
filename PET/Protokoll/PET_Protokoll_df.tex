@@ -45,7 +45,7 @@ Bevor wir mit der Aufnahme der Messdaten beginnen, machen wir noch einige theore
         Die Berechnung und Darstellung erfolgte über ein selbst geschriebenes \texttt{python}-Skript, das den oben beschriebenen Algorithmus realisiert. Wir sehen, dass trotz der Einfachheit des Beispiels enorme Abweichungen zwischen Ausgangsverteilung und Rückprojektion entstehen: Bis auf den größten Peak bei $(x = 3,\ y = 1)$ alle Maxima leicht versetzt rückprojiziert wurden. Dies liegt zum einen an der Diskretisierung des Problems und zum anderen besitzt selbst die über das Fourier-Scheiben-Theorem durchgeführte Rücktransformation keine exakte Lösung, da ein divergentes Integral darin auftritt, das auf einen endlichen Integrationsbereich heruntergebrochen werden muss.\cite{PA} Der Ramp-Filter führt dazu, dass die Peaks schneller abfallen und somit besser lokalisiert werden können, was sich bei der späteren quantitativen Auswertung noch als nützlich erweisen wird.
 
 \subsection{Kalibriermessungen}
-Bevor wir die eigentlich Messdaten aufnehmen könnten, musste die Messapperatur kalibriert werden:
+Bevor die eigentlichen Messdaten aufgenommen werden können, muss die Messapperatur kalibriert werden:
     \subsubsection{Messung einer Quelle bekannter Aktivität bei mittiger Quellposition} \label{dft:kalib_mitte}
        Zunächst haben wir eine Quelle in mittigem Abstand zu den beiden Detektoren vermessen. Die Quelle hatte am 29.10.2015 eine Aktivitiät $A = \unit[1,02]{MBq}$.\\
        Daraus sollten die Energiefenster der beiden Detektoren sowie das Koinzidenzzeitfenster bestimmt werden. Die Energiepeaks werden um $\unit[511]{keV}$ erwartet, was einem
@@ -161,9 +161,11 @@ Bevor wir die eigentlich Messdaten aufnehmen könnten, musste die Messapperatur 
         \label{dft:kaliAB}
     Aus den Zeitdiagrammen, die auf den ersten Blick sehr ähnlich sind, kann man über einen Gauß-Fit die Peak-Positionen, das heißt, die Maxima, bestimmen.
     Diese wird verwendet, um die Laufzeitdifferenz und damit letztlich den Abstand zwischen den Detektoren A und B zu bestimmen.
-    Die Zeitpeaks liegen bei $ \Delta t_A = \unit[63,35]{ns}$ und $\Delta t_B = \unit[61,80]{ns}$. Mit der Formel $l = c\cdot \Delta T$
-    ergibt sich $l = \unit[(46,5\pm4,3)]{cm}$ Dieser Wert ist größer als der, der uns in der Aufgabenstellung verraten wurde und weicht um 20\% ab. Dies liegt daran, 
-    dass das Delay des Detektors A nicht bestimmt wurde. Rechnet man dieses heraus, kann man sicher auf den von 38,6cm gelangen.
+    Die Zeitpeaks liegen bei $ \Delta t_A = \unit[63,35]{ns}$ und $\Delta t_B = \unit[61,80]{ns}$. Um nun den Detektorabstand zu bestimmen müssen wir berücksichtigen, dass ein hardwareseitiges Delay $t_{HW}$ die Koinzidenzzeitmessungen beeinflusst. Dieses Delay würden wir mit zwei Photonen, die sich direkt vor den Detektoroberflächen befinden, ermitteln können, d.h. der Peak der Zeitmessung wäre bei $t_{HW}$. Verschieben wir nun die Quelle vor Detektor A, so ist dieser Peak um die Laufzeit des einen Photons zu Detektor B verschoben, d.h. $t_A = t_{HW} - D/c$. Analog ergibt sich für die Messung vor Detektor B der Peak bei $t_B=t_{HW} + D/c$. Durch Differenzbildung der Peakmitten eliminieren wir die Abhängigkeit von der Delayzeit: $\Delta T = t_B - t_A = 2D/c $. Somit erhalten wir für den Detektorabstand:
+    \begin{equation*}
+    	l = \frac{1}{2}\cdot c \cdot \Delta T = 23,25\ \unit{cm}
+    \end{equation*}
+    Dieser Wert ist kleiner als der in der Anleitung angegebene. Diese Art von Messung ist vermutlich nicht exakt genug, um den Detektorabstand hinreichend genau zu bestimmen.
 
         
     \subsubsection{Schwerpunktsdiagramme}
@@ -192,7 +194,7 @@ Bevor wir die eigentlich Messdaten aufnehmen könnten, musste die Messapperatur 
     Sehr schön sind in den Abbildungen \ref{dfp:SPDdetB} und \ref{dfp:SPDMitte} auch die Verzerrungen sichtbar, die durch die Projektion der kugelförmigen Ausbreitung der Strahlung auf eine ungekrümmte Ebene entstehen.
         
     \subsection{Tomografische Messungen}
-    Kommen wir nun zur eigentlichen Messung und der Auswertung der erhaltenen Daten:
+    Im Folgenden wird die eigentlich Datenerfassung und Auswertung beschrieben.
     	\subsubsection{Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}
     	        \textbf{Hauptversuch}\\
     	        
@@ -238,7 +240,7 @@ Bevor wir die eigentlich Messdaten aufnehmen könnten, musste die Messapperatur 
     	            
     	            \textbf{Untersuchung des Einflusses verschiedener Filter}\\
     	            
-    	            Wie man in der zuvorgehenden Rekonstruktion bereits gesehen hat, haben Filter einen Einfluss auf den Kontrast und die Lokalisierung der hellen Peaks in der Rückprojektion. Deshalb wurde in einer Offline-Nachbearbeitung die Anwendung verschiedenster Filter getestet:
+    	            Wie man in der zuvorgehenden Rekonstruktion bereits gesehen hat, haben Filter einen Einfluss auf den Kontrast und die Genauigkeit der Ortsbestimmung der hellen Peaks in der Rückprojektion. Deshalb wurde in einer Offline-Nachbearbeitung die Anwendung verschiedenster Filter getestet:
     	            \begin{center}
     	              \begin{longtable}{p{4.0cm}p{4.0cm}p{4.0cm}l}
     	                  \includegraphics[width=0.25\textwidth, height=0.15\textheight]{pic/Einzelfenster_Bilder/unbekannte_Quelle/unbek5_einf_prj.png}
@@ -358,7 +360,7 @@ Bevor wir die eigentlich Messdaten aufnehmen könnten, musste die Messapperatur 
  
               \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm}c} 
                   \multicolumn{2}{c}{\textbf{anisotrope Dichteverteilung}} & \multicolumn{2}{c}{\textbf{isotrope Dichteverteilung}}\endhead
-                  gefiltert & ungefiltert & gefiltert & ungefiltert \endfoot
+                  ungefiltert & gefiltert & ungefiltert & gefiltert\\
                   \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/inhomogene_Messung/inhomo1einf_prj.png}
                   & 
                   \includegraphics[width=.2\textwidth, height=0.125\textheight]{pic/Einzelfenster_Bilder/inhomogene_Messung/inhomo1gef_prj.png}
