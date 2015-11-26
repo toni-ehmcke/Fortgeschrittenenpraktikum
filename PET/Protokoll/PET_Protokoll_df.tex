@@ -47,7 +47,7 @@ Bevor wir mit der Aufnahme der Messdaten beginnen, machen wir noch einige theore
 \subsection{Kalibriermessungen}
 Bevor wir die eigentlich Messdaten aufnehmen könnten, musste die Messapperatur kalibriert werden:
     \subsubsection{Messung einer Quelle bekannter Aktivität bei mittiger Quellposition} \label{dft:kalib_mitte}
-       Zunächst haben wir eine Quelle in mittigem Abstand zu den beiden Detektoren vermessen. Die Quelle hatte am 29.10.2015 eine Aktivitiät $A = \unit[1,02]{MBq}$.\\
+       Zunächst haben wir eine Quelle in mittigem Abstand zu den beiden Detektoren vermessen. Die Quelle hatte am 29.10.2015 eine Aktivitiät $A = \unit[1,02 \pm 0,03]{MBq}$. (berechnet aus der gegebenen Aktivität $A(1.10.2014) = \unit[1,36]{MBq}$)\\
        Daraus sollten die Energiefenster der beiden Detektoren sowie das Koinzidenzzeitfenster bestimmt werden. Die Energiepeaks werden um $\unit[511]{keV}$ erwartet, was einem
        Kanal von 2402 für Detektor A und 1868 für Detektor B entspricht. Das Zeitfenster erwarten wir aufgrund technischer Effekte (bspw. Totzeit) und einer gewollten
        erhöhten Verzögerung im Bereich einiger zehn Nanosekunden.  
@@ -55,18 +55,23 @@ Bevor wir die eigentlich Messdaten aufnehmen könnten, musste die Messapperatur 
         
        \begin{longtable}{p{6cm}p{6cm}l}
                \minipanf 
+               1:\\
                    \includegraphics[width=1.2\textwidth, height=0.225\textheight]{pic/Efenster_DetA_M.png}
                    \label{dfd:EdetA_M}
                \minipend
                &
                \hspace{9mm}
                \minipanf 
+               2:\\
                    \includegraphics[width=1.2\textwidth, height=0.225\textheight]{pic/Efenster_DetB_M.png}
                    \label{dfd:EdetB_M}
                \minipend\\
                \multicolumn{2}{c}{\hspace{1.5cm}
-                   \includegraphics[width=0.7\textwidth, height=0.3\textheight]{pic/T_M_dia.png}
-                   \label{dfd:T_M}}\\                        
+                   \minipanf
+                       3:\\
+                       \includegraphics[width=0.7\textwidth, height=0.3\textheight]{pic/T_M_dia.png}
+                       \label{dfd:T_M}
+                   \minipend}                       
        \end{longtable}
        \captionof{table}{Kalibrationsmessung bei Quelle mittig zwischen den Detektoren A und B}
        \label{dft:kalim}
@@ -90,25 +95,22 @@ Bevor wir die eigentlich Messdaten aufnehmen könnten, musste die Messapperatur 
        Dann bestimmt man das FWHM und zieht es von den Maxmumpositionen ab. Damit ergeben sich die Fenster zu:
        $$ K_A \in \left[ 2217, 3101\right], K_B \in \left[ 1629, 2264 \right],  K_t \in \left[1252, 1351\right] $$ 
        $$ E_A \in \left[478 , 636\right] \unit{keV}, E_B \in \left[ 458, 598\right] \unit{keV},  \Delta t \in \left[60, 65\right]\unit{ns} $$ 
-       Daraus ergibt sich eine Koinzidenzauflösungszeit von $\tau = \unit[(4,77 \pm 0,02)]{ns}$, welche auf eine Abschätzung der zufälligen Koinzidenzen führt. Mithilfe der gegebenen Positronenemissionswahrscheinlichkeit
-       für $\unit[^{22}]{Na}$ können wir die Zahl der Zerfälle berechnen, die keine Positronen emittieren. Im schlimmsten Fall würden alle diese Zerfälle einen Beitrag zufälliger Koinzidenzen beisteuern, was 
-       zehn Prozent der gemessenen Ereignisse ausmacht. Bei $\unit[^{22}]{Na}$ bestehen diese restlichen Prozesse aus $\gamma\unit{-Quanten}$ mit einer Energie von 1275 keV. Diese kann man vor allem in den späteren
-       Messungen, die direkt an den Detektoren gemacht wurden, erkennen. (Siehe Abbildung \ref{dft:kaliAB}) Einen Großteil dieser Ereignisse schließen wir jedoch durch die Kalibrierung und die Setzung der Zeitfenster
-       aus, sodass der Einfluss keine 10\% mehr ausmacht. Deshalb ist die Zahl der zufälligen Koinzidenzen besser abschätzbar über die Standardabweichung im Zusammenhang mit dem Anteil der Prozesse, die beim Zerfall 
-       keine Positronen emittieren. Hierfür ergibt sich die Zahl der zufälligen Koinzidenzen zu $N = 147$.\\
+       Daraus ergibt sich eine Koinzidenzauflösungszeit von $\tau = \unit[(4,77 \pm 0,02)]{ns}$, welche auf eine Zahl für die zufälligen Koinzidenzen führt. 
        
        \textbf{Koinzidenznachweiseffektivität}\\
-       Mit diesen Informationen lassen sich nun die Koinzidenznachweiseffektivitätem der verwendeten Detektoren A und B berechnen. Gegeben sind zunächst folgende Formeln für die Zählrate wahrer Koinzidenzen:
+       Mit diesen Informationen lassen sich nun die Koinzidenznachweiseffektivitätem der verwendeten Detektoren A und B berechnen. Gegeben sind zunächst folgende Formeln für die Zählrate wahrer, zufälliger und aller Koinzidenzen:
        \begin{gather}
            \dot N_K = \left( \frac{\Omega _{min}}{2\pi} \right) A P_\beta \varepsilon_A \varepsilon_B
            \label{dff:NK}\\
            \dot N_Z = \left( \frac{2\tau A\Omega _{min}}{\pi} \right)\dot N_K
-           \label{dff:NZ}
+           \label{dff:NZ}\\
+           \dot N = \dot N_K + \dot N_Z
+           \label{dff:NG}
        \end{gather}
-       
+       Dabei ist in \ref{dff:NG} $\dot N$ gegeben durch die Gesamtzahl der Ereignisse $N=400000$ (vorgegeben) geteilt durch die Zeit $\tilde t_{A/B}$, die bis zum Erreichen dieser Zahl benötigt wurde. 
        Dabei sind $\varepsilon_{A/B}$ die Nachweiseffektivitäten der Detektoren, $P_\beta$ die Positronenemissionswahrscheinlichkeit und $\Omega_{min}$ der Raumwinkel des Detektors, der am weitesten von der Quelle entfernt
        ist. $\dot N_Z$ ist die Zählrate zufälliger Koinzidenzen. Setzt man die Gleichungen \ref{dff:NK} und \ref{dff:NZ} ineinander ein, erhält man folgende Gleichung für die Nachweiseffektivitäten:
-       $$ \varepsilon_A \varepsilon_B = \frac{\pi^2 \dot N_Z}{A^2 P_\beta \tau \Omega^2_{min}} \text{ mit } \Omega_{min} = \frac{4a}{\left(D-b\right)^2 } \text{ und } \dot N_Z = \frac{N_Z}{\tilde t}$$
+       $$ \varepsilon_A \varepsilon_B = \frac{\pi^2 \dot N_Z}{A^2 P_\beta \tau \Omega^2_{min}} \text{ mit } \Omega_{min} = \frac{4a^2}{\left(D-b\right)^2 } \text{ und } \dot N_{Z,A/B} = \frac{2\tau A \Omega N}{\left(\pi + 2\tau A \Omega\right) \tilde t_{A/B}} = \frac{N_Z}{\tilde t_{A/B}}$$
        Da die Nachweiseffektivität pro Detektor zu bestimmen ist, kann man $ \varepsilon_A \simeq \varepsilon_B $ annehmen und erhält:
        $$ \varepsilon_{A/B} = \sqrt{\frac{\pi^2 N_Z}{A^2 \Omega^2_{min} P_\beta \tau \tilde t_{A/B}}}$$ 
        Für den Fehler erhält man bei fehlerlos angenommenen b, D, und a folgendes:
@@ -116,7 +118,7 @@ Bevor wir die eigentlich Messdaten aufnehmen könnten, musste die Messapperatur 
        Die verwendeten Daten sind folgende:
        $$ D = \unit[386]{mm}, b = \unit[25]{mm}, a = \unit[54]{mm}, P_\beta = 0,90382 \pm 0,00021, \tilde t_B = \unit[(230 \pm 0,1)]{s} , \tilde t_A = \unit[(314\pm7)]{s}$$
        Damit erhalten wir für die Detektoren folgende Nachweiseffektivitäten:
-       $$ \varepsilon_A = \unit[(46\pm 3)]{\%}, \varepsilon_B = \unit[(54\pm 3)]{\%}$$
+       $$ \varepsilon_A = \unit[(69\pm 2)]{\%}, \varepsilon_B = \unit[(59\pm 2)]{\%}$$
        Diese Nachweiseffektivität ist für einen Versuchsplatz angemessen gut, im Vergleich zu in Krankenhäusern verwendeten Geräten, welche mit einer Effektivität von 80\% arbeiten.
 
     \subsubsection{Messung bei Positionen direkt an den Detektoren}
