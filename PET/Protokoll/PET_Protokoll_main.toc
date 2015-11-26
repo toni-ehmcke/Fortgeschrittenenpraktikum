@@ -9,7 +9,7 @@
 \contentsline {subsubsection}{\numberline {1.3.2}Messung mit einer Punktquelle, Phantom an-/isotroper Dichteverteilung}{2}
 \contentsline {section}{\numberline {2}Physikalische Grundlagen}{2}
 \contentsline {subsection}{\numberline {2.1}Grundkonzept eines PET-Scanners}{2}
-\contentsline {subsection}{\numberline {2.2}Koinzidenzmessungen}{3}
+\contentsline {subsection}{\numberline {2.2}Koinzidenzmessungen}{4}
 \contentsline {subsection}{\numberline {2.3}Detektoraufbau}{4}
 \contentsline {subsubsection}{\numberline {2.3.1}Szintillationsdetektoren}{4}
 \contentsline {subsubsection}{\numberline {2.3.2}Modifiziertes Anger-Prinzip}{4}
@@ -18,7 +18,7 @@
 \contentsline {subsection}{\numberline {3.2}Kalibriermessungen}{7}
 \contentsline {subsubsection}{\numberline {3.2.1}Messung einer Quelle bekannter Aktivit\IeC {\"a}t bei mittiger Quellposition}{7}
 \contentsline {subsubsection}{\numberline {3.2.2}Messung bei Positionen direkt an den Detektoren}{9}
-\contentsline {subsubsection}{\numberline {3.2.3}Schwerpunktsdiagramme}{10}
+\contentsline {subsubsection}{\numberline {3.2.3}Schwerpunktsdiagramme}{11}
 \contentsline {subsection}{\numberline {3.3}Tomografische Messungen}{11}
 \contentsline {subsubsection}{\numberline {3.3.1}Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}{11}
 \contentsline {subsubsection}{\numberline {3.3.2}Messung mit einer Punktquelle, Phantom an-/isotroper Dichteverteilung}{17}
