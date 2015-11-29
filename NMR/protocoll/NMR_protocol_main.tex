@@ -1,0 +1,44 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{ucs}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{shadethm}
+\usepackage{caption}
+\usepackage{tikz} 
+\usepackage{geometry}
+\usepackage{longtable}
+\usepackage{units}
+\usepackage{float}
+
+
+\geometry{
+    left=2cm,
+    right=2cm,
+    top=2cm,
+    bottom=2.8cm,
+    bindingoffset=5mm
+}
+
+\newcommand{\minipanf}{\begin{minipage}{\linewidth}}
+\newcommand{\minipend}{\end{minipage}}
+\newcommand{\abs}[1]{\ensuremath{\left\vert#1\right\vert}}
+
+\begin{document}
+
+\include{NMR_protocol_title} 	% Titelseite
+
+\tableofcontents
+\newpage 
+
+\input{NMR_protocol_intro}		% introduction: physical basics + task
+\input{NMR_protocol_exp}		% experimental procedure
+\input{NMR_protocol_analysis}	% data analysis
+\input{NMR_protocol_discussion}	% Auswertung bzw. Zusammenfassung
+\include{NMR_protocol_literature}
+
+\end{document}
