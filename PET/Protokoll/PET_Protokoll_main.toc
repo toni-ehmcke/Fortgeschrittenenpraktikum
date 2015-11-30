@@ -17,10 +17,10 @@
 \contentsline {subsection}{\numberline {3.1}Radon-Transformation als Rekonstruktionsverfahren: Ein Rechenbeispiel}{5}
 \contentsline {subsection}{\numberline {3.2}Kalibriermessungen}{7}
 \contentsline {subsubsection}{\numberline {3.2.1}Messung einer Quelle bekannter Aktivit\IeC {\"a}t bei mittiger Quellposition}{7}
-\contentsline {subsubsection}{\numberline {3.2.2}Messung bei Positionen direkt an den Detektoren}{9}
+\contentsline {subsubsection}{\numberline {3.2.2}Messung bei Positionen direkt an den Detektoren}{10}
 \contentsline {subsubsection}{\numberline {3.2.3}Schwerpunktsdiagramme}{11}
-\contentsline {subsection}{\numberline {3.3}Tomografische Messungen}{11}
-\contentsline {subsubsection}{\numberline {3.3.1}Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}{11}
+\contentsline {subsection}{\numberline {3.3}Tomografische Messungen}{12}
+\contentsline {subsubsection}{\numberline {3.3.1}Messung einer Quellkonfiguration, Phantom isotroper Dichteverteilung}{12}
 \contentsline {subsubsection}{\numberline {3.3.2}Messung mit einer Punktquelle, Phantom an-/isotroper Dichteverteilung}{17}
 \contentsline {section}{\numberline {4}Zusammenfassung}{19}
 \contentsline {section}{\numberline {5}Anhang}{20}
