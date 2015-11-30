@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	16
 <table>
 res_ts	512	4	20.11.15 21:26
-geometry	392	790	-1	-1	minimized	
+geometry	1176	820	-1	-1	minimized	
 header	frequency[X]	Real[Y]	Imag[Y]	magnitude[Y]
 ColWidth	75	100	100	100	
 <com>
@@ -533,7 +533,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/res_ts.
 </table>
 <table>
 res_fs	512	4	20.11.15 21:49
-geometry	196	790	-1	-1	minimized	
+geometry	980	820	-1	-1	minimized	
 header	frequency[X]	Real[Y]	Imag[Y]	magnitude[Y]
 ColWidth	100	100	100	411	
 <com>
@@ -1063,7 +1063,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/res_fs.
 </table>
 <table>
 ares_fs	512	4	20.11.15 22:20
-geometry	0	790	-1	-1	minimized	
+geometry	784	820	-1	-1	minimized	
 header	Real[Y]	Imag[Y]	frequency[X]	magnitude[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -1593,7 +1593,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/ares_fs
 </table>
 <table>
 ares_ts	115	4	20.11.15 22:20
-geometry	1568	820	-1	-1	minimized	
+geometry	588	820	-1	-1	minimized	
 header	Real[Y]	Imag[Y]	frequency[X]	mag[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -1726,7 +1726,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/ares_ts
 </table>
 <table>
 bres_fs	512	4	20.11.15 22:20
-geometry	1372	820	-1	-1	minimized	
+geometry	392	820	-1	-1	minimized	
 header	Real[Y]	Imag[Y]	frequency[X]	magnitude[Y]
 ColWidth	100	100	100	157	
 <com>
@@ -2256,7 +2256,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/bres_fs
 </table>
 <table>
 bres_ts	512	4	20.11.15 22:20
-geometry	1176	820	-1	-1	minimized	
+geometry	196	820	-1	-1	minimized	
 header	Real[Y]	Imag[Y]	frequency[X]	mag[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -2786,7 +2786,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/bres_ts
 </table>
 <table>
 t1	22	3	26.11.15 18:58
-geometry	588	790	445	647	minimized	
+geometry	0	820	-1	-1	minimized	
 header	X[X]	Y[Y]	Y-Fit[Y]
 ColWidth	100	100	100	
 <com>
@@ -2821,9 +2821,88 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/t1.txt	
 21	10000	30216.224549	31049.570631
 </data>
 </table>
+<table>
+t2	64	3	26.11.15 19:17
+geometry	0	0	445	780	
+header	X[X]	Y[Y]	Y-Fit[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14	0;0/14
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/t2.txt	2
+<data>
+0	50	26565.31833	23733.246687
+1	100	24213.06862	23613.129534
+2	150	23882.567722	23493.620916
+3	200	22355.482773	23374.716565
+4	250	22779.434255	23256.415061
+5	500	21644.001478	22673.826539
+6	750	20955.113934	22105.83145
+7	1000	17890.084544	17566.813492
+8	1250	18360.858858	17126.039176
+9	1500	17938.8183	16696.323743
+10	1750	16261.769799	16277.39133
+11	2000	15800.329902	15868.969549
+12	2250	15106.801117	15470.796447
+13	2500	14649.504087	15082.613547
+14	2750	14816.613682	14704.170484
+15	3000	14297.699745	14335.22385
+16	3250	13256.335278	13975.533713
+17	3500	13605.987653	13624.869415
+18	3750	12718.176009	13283.002613
+19	4000	11338.239193	12949.7154
+20	4250	10955.359693	12624.789866
+21	4500	11782.376543	12308.017375
+22	4750	11983.456304	11999.192767
+23	5000	11657.80391	11698.11668
+24	5250	11579.73998	11404.595546
+25	5500	10905.333007	11118.439272
+26	5750	10731.723301	10839.462405
+27	6000	10887.677668	10567.486446
+28	6250	10226.872934	10302.334052
+29	6500	9908.368635	10043.834838
+30	6750	9644.980301	9791.821894
+31	7000	9307.236163	9546.13179
+32	7250	10916.360291	9306.606888
+33	7500	9376.635484	9073.091871
+34	7750	9205.947263	8845.435476
+35	8000	9435.191837	8623.492239
+36	8250	9437.868403	8407.117273
+37	8500	8418.466428	8196.171488
+38	8750	8505.150557	7990.518689
+39	9000	9228.036682	7790.026161
+40	9250	6423.582256	7594.564086
+41	9500	6822.200378	7404.006123
+42	9750	8105.033745	7218.229989
+43	10000	5444.408875	7037.115137
+44	10250	6668.947518	8429.934432
+45	10500	5991.305868	8218.758321
+46	10750	7430.70387	8012.872755
+47	11000	8185.291443	7812.144797
+48	11250	7120.926906	7616.445061
+49	11500	8756.237834	7425.647719
+50	11750	5374.510303	7239.630493
+51	12000	8382.775972	7058.272531
+52	12250	7314.474691	6881.457955
+53	12500	5882.670482	6709.073022
+54	12750	7741.770857	6541.006117
+55	13000	5771.03327	6377.149186
+56	13250	5759.796003	6217.397013
+57	13500	6379.329902	6061.647228
+58	13750	7159.672199	5909.798528
+59	14000	6577.543995	5761.753874
+60	14250	5921.116871	5617.418006
+61	14500	6861.99949	5476.697794
+62	14750	6034.953935	5339.502599
+63	15000	5309.020719	5205.744624
+</data>
+</table>
 <multiLayer>
 resfreq_td	1	1	20.11.15 21:33
-geometry	980	820	1474	819	minimized	
+geometry	0	0	1474	819	active
 WindowLabel	intensity distribution of frequency variation in the time domain	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -2833,7 +2912,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1456	750
-<PageGeometry>0.00980392	0.0121951	2.8549	1.82927</PageGeometry>
+<PageGeometry>0.00341064	0.00653595	0.993179	0.980392</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -2870,7 +2949,7 @@ scale	0	-65000	65000	10000	14	5	0	0
 scale	1	-65000	65000	10000	14	5	0	0
 scale	2	0	512	50	12	5	0	0
 scale	3	0	512	50	12	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
+LabelsFormat	3	0	3	0	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
 MinorTicks	1	1	1	1
@@ -2888,10 +2967,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>438.79452054795</x>
-<y>65212.418300654</y>
-<right>41.9609022556391</right>
-<bottom>55796.4601769911</bottom>
+<x>444.24722662441</x>
+<y>65202.492211838</y>
+<right>512.405705229794</right>
+<bottom>44143.3021806854</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -2903,7 +2982,7 @@ EnabledTickLabels	1	1	1	1
 <Font>Cantarell	17	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
-<Alpha>0</Alpha>
+<Alpha>255</Alpha>
 <Angle>0</Angle>
 <AutoUpdate>1</AutoUpdate>
 <TeXOutput>0</TeXOutput>
@@ -2914,7 +2993,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 resfreq_fd	1	1	20.11.15 21:50
-geometry	784	820	1474	819	minimized	
+geometry	784	790	1474	819	minimized	
 WindowLabel	resonance intensity in fourier domain	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -2924,7 +3003,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1456	750
-<PageGeometry>0.00980392	0.0121951	2.8549	1.82927</PageGeometry>
+<PageGeometry>0.00341064	0.00653595	0.993179	0.980392</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -2961,7 +3040,7 @@ scale	0	-175000	175000	25000	15	5	0	0
 scale	1	-175000	175000	25000	15	5	0	0
 scale	2	-1250	1250	250	11	5	0	0
 scale	3	-1250	1250	250	11	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
+LabelsFormat	3	2	3	2	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
 MinorTicks	1	1	1	1
@@ -2979,10 +3058,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>889.40370668815</x>
-<y>175546.02184087</y>
-<right>-1082.82090699462</right>
-<bottom>154756.468797565</bottom>
+<x>888.7987012987</x>
+<y>175000</y>
+<right>1254.05844155844</right>
+<bottom>111760.124610592</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -2994,7 +3073,7 @@ EnabledTickLabels	1	1	1	1
 <Font>Cantarell	19	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
-<Alpha>0</Alpha>
+<Alpha>255</Alpha>
 <Angle>0</Angle>
 <AutoUpdate>1</AutoUpdate>
 <TeXOutput>0</TeXOutput>
@@ -3005,7 +3084,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 above_resfreq_fs	1	1	20.11.15 22:22
-geometry	588	820	1475	823	minimized	
+geometry	196	790	1475	823	minimized	
 WindowLabel	measurements a bit above the resonance frequency	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3015,7 +3094,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1457	751
-<PageGeometry>0.00980392	0.0121951	2.85686	1.83171</PageGeometry>
+<PageGeometry>0.00340832	0.00650195	0.993183	0.976593</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -3025,7 +3104,7 @@ PlotTitle		#000000	4228
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
 AxesTitles	frequency [<i>MHz</i>]	intensity			
 AxesTitleColors	#000000	#000000	#000000	#000000	
@@ -3052,7 +3131,7 @@ scale	0	-175000	175000	0	8	5	0	0
 scale	1	-175000	175000	0	8	5	0	0
 scale	2	-1200	1200	0	6	5	0	0
 scale	3	-1200	1200	0	6	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
+LabelsFormat	3	1	3	1	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
 MinorTicks	1	1	1	1
@@ -3096,7 +3175,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 above_resfreq_td	1	1	26.11.15 18:28
-geometry	392	820	1301	819	minimized	
+geometry	0	790	1301	819	minimized	
 WindowLabel	intensity a littlebit above the resonance frequence	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3106,7 +3185,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1276	743
-<PageGeometry>0.00980392	0.0121951	2.50196	1.8122</PageGeometry>
+<PageGeometry>0.00386698	0.00653595	0.986852	0.971242</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -3116,7 +3195,7 @@ PlotTitle		#000000	4228
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
 AxesTitles	time [<i>µs</i>]	intensity			
 AxesTitleColors	#000000	#000000	#000000	#000000	
@@ -3136,14 +3215,14 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	ares_ts_frequency	ares_ts_mag	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	511	1
+curve	ares_ts_frequency	ares_ts_mag	0	1	#0000ff	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	511	1
 curve	ares_ts_frequency	ares_ts_Imag	0	1	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	511	1
 curve	ares_ts_frequency	ares_ts_Real	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	511	1
 scale	0	-60000	60000	0	7	5	0	0
 scale	1	-60000	60000	0	7	5	0	0
 scale	2	0	110	0	7	5	0	0
 scale	3	0	110	0	7	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
+LabelsFormat	3	0	3	0	0	3	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
 MinorTicks	1	1	1	1
@@ -3187,7 +3266,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 below_resfreq_fs	1	1	26.11.15 18:36
-geometry	196	820	1324	818	minimized	
+geometry	588	790	1324	818	minimized	
 WindowLabel	a bit below the resonance frequency in fourier space 	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3197,7 +3276,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	4	4	1306	749
-<PageGeometry>0.00784314	0.0097561	2.56078	1.82683</PageGeometry>
+<PageGeometry>0.00303951	0.0052356	0.992401	0.980366</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -3207,7 +3286,7 @@ PlotTitle		#000000	4228
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
 AxesTitles	frequency [<i>MHz</i>]	intensity			
 AxesTitleColors	#000000	#000000	#000000	#000000	
@@ -3230,11 +3309,11 @@ CanvasBackground	#ffffff	0
 curve	bres_fs_frequency	bres_fs_magnitude	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	511	1
 curve	bres_fs_frequency	bres_fs_Imag	0	1	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	511	1
 curve	bres_fs_frequency	bres_fs_Real	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	511	1
-scale	0	-400000	500000	0	10	5	0	0
-scale	1	-400000	500000	0	10	5	0	0
+scale	0	-425000	425000	0	10	5	0	0
+scale	1	-425000	425000	0	10	5	0	0
 scale	2	-1200	1200	0	6	5	0	0
 scale	3	-1200	1200	0	6	5	0	0
-LabelsFormat	3	0	3	0	0	5	0	6
+LabelsFormat	3	1	3	1	0	5	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
 MinorTicks	1	1	1	1
@@ -3252,10 +3331,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>-1192.7051671733</x>
-<y>496819.78798587</y>
-<right>-964.948453608248</right>
-<bottom>456542.056074766</bottom>
+<x>-1192.8</x>
+<y>420840.13050571</y>
+<right>-760.8</right>
+<bottom>259991.843393148</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -3267,7 +3346,7 @@ EnabledTickLabels	1	1	1	1
 <Font>Cantarell	19	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
-<Alpha>0</Alpha>
+<Alpha>255</Alpha>
 <Angle>0</Angle>
 <AutoUpdate>1</AutoUpdate>
 <TeXOutput>0</TeXOutput>
@@ -3278,7 +3357,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 below_resfreq_ts	1	1	26.11.15 18:54
-geometry	0	820	1389	788	minimized	
+geometry	392	790	1389	788	minimized	
 WindowLabel	intensity a bit below the resonance frequency 	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3288,7 +3367,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1367	714
-<PageGeometry>0.00980392	0.0121951	2.68039	1.74146</PageGeometry>
+<PageGeometry>0.00362056	0.00681199	0.989862	0.972752</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -3298,7 +3377,7 @@ PlotTitle		#000000	4228
 Background	#ffffff	0
 Margin	0
 Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
 AxesTitles	time [<i>µs<\i>]	intensity			
 AxesTitleColors	#000000	#000000	#000000	#000000	
@@ -3318,14 +3397,14 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	bres_ts_frequency	bres_ts_mag	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	511	1
+curve	bres_ts_frequency	bres_ts_mag	0	1	#0000ff	0	1.5	7	0	#000000	#000000	0	#000000	14	1	2	0	0	511	1
 curve	bres_ts_frequency	bres_ts_Imag	0	1	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	511	1
 curve	bres_ts_frequency	bres_ts_Real	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	511	1
 scale	0	-150000	150000	0	7	5	0	0
 scale	1	-150000	150000	0	7	5	0	0
 scale	2	0	500	0	6	5	0	0
 scale	3	0	500	0	6	5	0	0
-LabelsFormat	3	0	3	0	0	6	0	6
+LabelsFormat	3	1	3	1	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
 MinorTicks	1	1	1	1
@@ -3343,10 +3422,10 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>420.5565529623</x>
-<y>149482.75862069</y>
-<right>43.0894308943089</right>
-<bottom>134236.45320197</bottom>
+<x>417.67441860465</x>
+<y>149486.30136986</y>
+<right>499.06976744186</right>
+<bottom>92979.4520547945</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -3358,7 +3437,7 @@ EnabledTickLabels	1	1	1	1
 <Font>Cantarell	18	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
-<Alpha>0</Alpha>
+<Alpha>255</Alpha>
 <Angle>0</Angle>
 <AutoUpdate>1</AutoUpdate>
 <TeXOutput>0</TeXOutput>
@@ -3369,7 +3448,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 t1_exponentialfit	1	1	26.11.15 18:59
-geometry	445	0	1475	788	active
+geometry	1568	820	1475	788	minimized	
 WindowLabel	spin-grid relaxation time	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3477,8 +3556,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>7793.991416309</x>
 <y>4770.0170357751</y>
-<right>9974.24892703862</right>
-<bottom>178.875638841567</bottom>
+<right>833.333333333333</right>
+<bottom>33169.9346405229</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -3498,88 +3577,9 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
-<table>
-t2	64	3	26.11.15 19:17
-geometry	0	0	445	780	
-header	X[X]	Y[Y]	Y-Fit[Y]
-ColWidth	100	100	100	
-<com>
-</com>
-ColType	0;0/14	0;0/14	0;0/14
-ReadOnlyColumn	0	0	0
-HiddenColumn	0	0	0
-Comments				
-WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/t2.txt	2
-<data>
-0	50	26565.31833	23733.246687
-1	100	24213.06862	23613.129534
-2	150	23882.567722	23493.620916
-3	200	22355.482773	23374.716565
-4	250	22779.434255	23256.415061
-5	500	21644.001478	22673.826539
-6	750	20955.113934	22105.83145
-7	1000	17890.084544	17566.813492
-8	1250	18360.858858	17126.039176
-9	1500	17938.8183	16696.323743
-10	1750	16261.769799	16277.39133
-11	2000	15800.329902	15868.969549
-12	2250	15106.801117	15470.796447
-13	2500	14649.504087	15082.613547
-14	2750	14816.613682	14704.170484
-15	3000	14297.699745	14335.22385
-16	3250	13256.335278	13975.533713
-17	3500	13605.987653	13624.869415
-18	3750	12718.176009	13283.002613
-19	4000	11338.239193	12949.7154
-20	4250	10955.359693	12624.789866
-21	4500	11782.376543	12308.017375
-22	4750	11983.456304	11999.192767
-23	5000	11657.80391	11698.11668
-24	5250	11579.73998	11404.595546
-25	5500	10905.333007	11118.439272
-26	5750	10731.723301	10839.462405
-27	6000	10887.677668	10567.486446
-28	6250	10226.872934	10302.334052
-29	6500	9908.368635	10043.834838
-30	6750	9644.980301	9791.821894
-31	7000	9307.236163	9546.13179
-32	7250	10916.360291	9306.606888
-33	7500	9376.635484	9073.091871
-34	7750	9205.947263	8845.435476
-35	8000	9435.191837	8623.492239
-36	8250	9437.868403	8407.117273
-37	8500	8418.466428	8196.171488
-38	8750	8505.150557	7990.518689
-39	9000	9228.036682	7790.026161
-40	9250	6423.582256	7594.564086
-41	9500	6822.200378	7404.006123
-42	9750	8105.033745	7218.229989
-43	10000	5444.408875	7037.115137
-44	10250	6668.947518	8429.934432
-45	10500	5991.305868	8218.758321
-46	10750	7430.70387	8012.872755
-47	11000	8185.291443	7812.144797
-48	11250	7120.926906	7616.445061
-49	11500	8756.237834	7425.647719
-50	11750	5374.510303	7239.630493
-51	12000	8382.775972	7058.272531
-52	12250	7314.474691	6881.457955
-53	12500	5882.670482	6709.073022
-54	12750	7741.770857	6541.006117
-55	13000	5771.03327	6377.149186
-56	13250	5759.796003	6217.397013
-57	13500	6379.329902	6061.647228
-58	13750	7159.672199	5909.798528
-59	14000	6577.543995	5761.753874
-60	14250	5921.116871	5617.418006
-61	14500	6861.99949	5476.697794
-62	14750	6034.953935	5339.502599
-63	15000	5309.020719	5205.744624
-</data>
-</table>
 <multiLayer>
 T2	1	1	26.11.15 19:17
-geometry	784	790	1475	779	minimized	
+geometry	1372	820	1475	779	minimized	
 WindowLabel	spin-spin relaxation time	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3589,7 +3589,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	4	5	1457	710
-<PageGeometry>0.00272665	0.00689655	0.993183	0.97931</PageGeometry>
+<PageGeometry>0.00784314	0.0121951	2.85686	1.73171</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -3666,8 +3666,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>10411.471321696</x>
 <y>29896.729776248</y>
-<right>14962.5935162095</right>
-<bottom>24216.8674698795</bottom>
+<right>1222.13681783244</right>
+<bottom>28413.2231404959</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -4050,4 +4050,5 @@ RSS (Summe der quadrierten Restwerte) = 58.840.172,5919
 Iterationen = 15
 Status = success
 ---------------------------------------------------------------------------------------
+
 </log>
