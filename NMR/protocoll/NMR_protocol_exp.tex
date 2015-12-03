@@ -4,7 +4,7 @@
     \textbf{\ref{task_1}}: Preparation of a radio frequency resonant circuit with the insertion of an iron powde probe in a cryostate\\
     \textbf{\ref{task_2}}: Find the nuclear spin resonance by varying the NMR-pulse frequency while recording a spectrum of the $^{57}$Fe nuclear spin ensemble and calculation of the local magnetic field\\
     \textbf{\ref{task_3}}: Optimization of the pulse sequence by recording a rotation angle curve\\
-    \textbf{\ref{task_4}}: Find the spin-spin- and spin-lattice relaxation constants $T_2 \text{and} T_1$.   
+    \textbf{\ref{task_4}}: Find the spin-spin- and spin-lattice relaxation constants $T_2 \text{ and } T_1$.   
 
 	\subsection{Preparation of a high frequency resonant circuit}
     \label{task_1}
@@ -17,8 +17,7 @@
     The rotation regulator (\ref{fig:sketch}.1) varies the space between the capacitor's plates (\ref{fig:sketch}.3) so one can tune the frequency of the solenoid (\ref{fig:sketch}.2).
     \subsection{Finding of the nuclear spin resonance by varying the pulse frequency}
     \label{task_2}
-    
-    After the preparation of the solenoid and the insertion of the probe into the cryostat one has to mention what the different paramters, the measurement software has do with the curve. The different parameters one could vary are $pw$, $\tau$, $rd$ and $ad$. 
+    After the preparation of the solenoid and the insertion of the probe into the cryostat one has to mention what the different paramters, the measurement software has, do with the curve. The different parameters one could vary are $pw$, $\tau$, $rd$ and $ad$. $pw$ makes the magnitude look more gaussian and gives it a bigger value by make the imaginary and real parts more oscillating the higher it is. Varying $\tau$ shows less oscillations and a lower magnitude the higher $\tau$ is. At least one can also vary the parameter $rd$. The higher is, the more oscillations can be found. One varies this parameters to better fit the magnitude to a gaussian. This means, one searches parameters with a low amount of oscillations, which also have not a big intensity. After the best parameters where found
         \begin{figure}[h]
             \subfigure[intensity below resonance frequency in time domain\label{beltd}]{\includegraphics[scale=0.225]{pic/below_resfreq_td.png}}
             \subfigure[intensity below resonance frequency in fourier space\label{belfs}]{\includegraphics[scale=0.225]{pic/below_resfreq_fs.png}}
@@ -34,14 +33,19 @@
     \label{task_3}
     
     \subsection{Finding of $T_1 \text{ and } T_2$}
-    \subsubsection{Spin-Lattice relaxation constant}
-    \begin{figure}[h]
-            \includegraphics[scale=0.3]{pic/T1.png}
-            \captionof{figure}{fit of a spin}
-    \end{figure}
-    \subsubsection{Spin-Spin relaxation constant}
-    \begin{figure}
-            \includegraphics[scale=0.3]{pic/T2.png}
-    \end{figure}
-    
     \label{task_4}
+        \subsubsection{Spin-Lattice relaxation constant}
+            \begin{figure}[h]
+                \centering
+                \includegraphics[scale=0.3]{pic/T1.png}
+                \caption{some test}
+                \label{T1}
+            \end{figure}
+        \subsubsection{Spin-Spin relaxation constant}
+            \begin{figure}
+                \centering
+                \includegraphics[scale=0.3]{pic/T2.png}
+                \caption{another test}
+                \label{T2}
+            \end{figure}
+    
