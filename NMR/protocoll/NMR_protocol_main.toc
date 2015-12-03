@@ -8,9 +8,7 @@
 \contentsline {section}{\numberline {2}Experimental procedure}{3}
 \contentsline {subsection}{\numberline {2.1}Preparation of a high frequency resonant circuit}{3}
 \contentsline {subsection}{\numberline {2.2}Finding of the nuclear spin resonance by varying the pulse frequency}{4}
-\contentsline {subsection}{\numberline {2.3}Optimization of the pulse sequence by recording a roation angle curve}{5}
-\contentsline {subsection}{\numberline {2.4}Finding of $T_1 \text { and } T_2$}{5}
-\contentsline {subsubsection}{\numberline {2.4.1}Spin-Lattice relaxation constant}{5}
-\contentsline {subsubsection}{\numberline {2.4.2}Spin-Spin relaxation constant}{5}
+\contentsline {subsection}{\numberline {2.3}Optimization of the pulse sequence by recording a rotation angle curve}{5}
+\contentsline {subsubsection}{\numberline {2.3.1}Determination of the relaxation constants $T_1$ and $T_2$}{5}
 \contentsline {section}{\numberline {3}Data Analysis}{5}
 \contentsline {section}{\numberline {4}Discussion and conclusions}{5}
