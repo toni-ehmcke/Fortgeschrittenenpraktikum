@@ -1,4 +1,27 @@
 \section{Introduction}
 	\subsection{Motivation}
-		\textit{Nuclear Magnetic Resonance} is a physical phenomenon that can be observed while placing an ensemble of nuclei into a static magnetic field and stimulate it with a high-frequent alterning field. A necessary condition for this effect is that the atoms of the sample have a \textit{nuclear spin} different from zero. It is the central concept that is used for \textit{NMR-Spectroscopy}, a standard methodology for the investigation of the structure and interaction of complex molecules and solid state bodies by measuring local magnetic fields, and the \textit{magnetic resonance tomography} which is an imaging technique used in clinical diagnistics for describing the morphilogic and physiologic build-up of tissues and organs. For all of those applications we need to find out some central parameters of particular physical compensation-processes, the so called \textit{relaxation times} $T_1$ and $T_2$. In the following experiment exactly those material-characteristic obserables are determined for an ensemble of $^57$Fe-nuclei. But at first some basic knowledge.
+		\textit{Nuclear Magnetic Resonance} is a physical phenomenon that can be observed while placing an ensemble of nuclei into a static magnetic field and stimulate it with a high-frequent alterning field. A necessary condition for this effect is that the atoms of the sample have a \textit{nuclear spin} different from zero. It is the central concept that is used for \textit{NMR-Spectroscopy}, a standard methodology for the investigation of the structure and interaction of complex molecules and solid state bodies by measuring local magnetic fields, and the \textit{magnetic resonance tomography} which is an imaging technique used in clinical diagnistics for describing the morphilogic and physiologic build-up of tissues and organs. For all of those applications some important parameters of particular physical compensation-processes, the so called \textit{relaxation times} $T_1$ and $T_2$ need to be quantified. In the following experiment exactly those material-characteristic observables are determined for an ensemble of $^{57}$Fe-nuclei. But at first some basic knowledge.
 	\subsection{Nuclear Zeeman-Effect}
+		Every quantum mechanic angular momentum - especially every spin - is correlated with a magnetic moment $\mu$ The proportionality factor is called the \textit{gyromagnetic ratio} $\gamma$. So the intrinsic magnetic momentum matching to the nuclear spin $\vec{\mathcal{I}}$ considered in the experiment is given by:
+			\begin{align}
+				&\vec{\mu} = \gamma \vec{\mathcal{I}} \label{eq:mu}\\
+				&\gamma  = g_I \frac{\mu_N}{\hbar} \overset{^{57}Fe}{=} 0.8661\cdot 10^{7}\ \unit{T^{-1}s^{-1}} \label{eq:gamma}
+			\end{align}
+		Where $\mu_N$ is the \textit{nuclear magneton} and $g_I$ is the Land\'{e}-factor which both are core-specific pa\-ra\-me\-ters. If those magnetic moments are placed in a static magnetic field $\vec{B} = (0,0,B)^T$ then the Hamiltonian of the system and its Eigenvalues to the Eigenstates of the spin-operator $\ket{I,m_I}$ are given by:
+			\begin{align}
+				&\mathcal{H} = - \vec{\mu} \vec{B} \overset{(\ref{eq:mu})}{=} - \gamma \mathcal{I}_zB \\
+				&\langle\mathcal{H}\rangle = \bra{I,m_I}\mathcal{H}\ket{I,m_I} = -\gamma B \bra{I,m_I}\mathcal{I}_z\ket{I,m_I} = -\gamma B \hbar m \equiv E_m
+			\end{align}
+		Where the Eigenvalues of the Spin-operator for given spin-quantumnumber $I$ and magnetic quantum number $m_I = -I,\dots,I$ were used. So the outer magnetic field annuls the $2I+1$-fold degeneration of the energystates. The nuclear spin-quantum-number of $^{57}Fe$ is I = 1/2 so there are two additional energystates with a energydifference:
+			\begin{equation}
+				\Delta E = \hbar \gamma B = \hbar \omega_L \label{eq:lamor}
+			\end{equation}
+		As equation (\ref{eq:lamor}) suggests, there may occur optical transitions between the terms which lead to an emission of photons with the angular frenquency $w_L$. One finds that this frequency is equivalent to the \textit{Larmor-Frequency} that describes the precession of a magnetic moment caused by the torsional moment $\vec{M}=\vec{\mu}\times\vec{B}$ in a magnetic field. The classical description of this process leads to the same result as quantum mechanics do. If we consider the ensemble of $N$ nuclei as canonical, then the number of spins in the state $\ket{s,m}$ in the thermodynamic equivilibrium is given by the Boltzman-statistics:
+			\begin{equation}
+				N(s,m) = N \cdot \frac{e^{-\frac{E_m}{k_BT}}}{Z} = N \cdot \frac{e^{\frac{\hbar \gamma B m}{k_BT}}}{Z}
+			\end{equation}
+		Where $Z = \text{const.}$ is the canonical partition function and T is the absolute temperature of the environment. This implies that the spins prefer to be polarised not uniformely but in the direction of the B-field so this leads to a mean magnetic moment $\langle\vec{\mu}\rangle \neq 0$. This leads to an oberservable macroscopic magnetisation in the volume $V$:
+			\begin{equation}
+				\vec{M} = \frac{d\vec{\mu}}{dV} \cong \frac{N}{V} \langle\vec{\mu}\rangle \neq 0
+			\end{equation}
+		These changes in magnetisation are used to induce voltages that can be measured.
