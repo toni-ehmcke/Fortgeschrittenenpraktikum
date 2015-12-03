@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	16
 <table>
 res_ts	512	4	20.11.15 21:26
-geometry	392	790	-1	-1	minimized	
+geometry	1372	820	-1	-1	minimized	
 header	frequency[X]	Real[Y]	Imag[Y]	magnitude[Y]
 ColWidth	75	100	100	100	
 <com>
@@ -533,7 +533,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/res_ts.
 </table>
 <table>
 res_fs	512	4	20.11.15 21:49
-geometry	196	790	-1	-1	minimized	
+geometry	1176	820	-1	-1	minimized	
 header	frequency[X]	Real[Y]	Imag[Y]	magnitude[Y]
 ColWidth	100	100	100	411	
 <com>
@@ -1063,7 +1063,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/res_fs.
 </table>
 <table>
 ares_fs	512	4	20.11.15 22:20
-geometry	0	790	-1	-1	minimized	
+geometry	980	820	-1	-1	minimized	
 header	Real[Y]	Imag[Y]	frequency[X]	magnitude[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -1593,7 +1593,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/ares_fs
 </table>
 <table>
 ares_ts	115	4	20.11.15 22:20
-geometry	1568	820	-1	-1	minimized	
+geometry	784	820	-1	-1	minimized	
 header	Real[Y]	Imag[Y]	frequency[X]	mag[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -1726,7 +1726,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/ares_ts
 </table>
 <table>
 bres_fs	512	4	20.11.15 22:20
-geometry	1372	820	-1	-1	minimized	
+geometry	588	820	-1	-1	minimized	
 header	Real[Y]	Imag[Y]	frequency[X]	magnitude[Y]
 ColWidth	100	100	100	157	
 <com>
@@ -2256,7 +2256,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/bres_fs
 </table>
 <table>
 bres_ts	512	4	20.11.15 22:20
-geometry	1176	820	-1	-1	minimized	
+geometry	392	820	-1	-1	minimized	
 header	Real[Y]	Imag[Y]	frequency[X]	mag[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -2786,7 +2786,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/bres_ts
 </table>
 <table>
 t1	22	3	26.11.15 18:58
-geometry	980	820	-1	-1	minimized	
+geometry	196	820	-1	-1	minimized	
 header	X[X]	Y[Y]	Y-Fit[Y]
 ColWidth	100	100	100	
 <com>
@@ -2902,7 +2902,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/t2.txt	
 </table>
 <multiLayer>
 resfreq_td	1	1	20.11.15 21:33
-geometry	0	0	1474	819	
+geometry	784	790	1474	819	minimized	
 WindowLabel	intensity distribution of frequency variation in the time domain	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -2924,7 +2924,7 @@ Margin	0
 Border	0	#000000
 grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	frequency [<i>MHz</i>]	intensity			
+AxesTitles	time [<i>µs</i>]	intensity			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	4	5124
 AxesTitleDistance	2	2	2	2
@@ -2993,7 +2993,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 resfreq_fd	1	1	20.11.15 21:50
-geometry	784	820	1474	819	minimized	
+geometry	1568	820	1474	819	minimized	
 WindowLabel	resonance intensity in fourier domain	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3003,7 +3003,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1456	750
-<PageGeometry>0.00980392	0.0121951	2.8549	1.82927</PageGeometry>
+<PageGeometry>0.00341064	0.00653595	0.993179	0.980392</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -3084,7 +3084,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 above_resfreq_fs	1	1	20.11.15 22:22
-geometry	588	820	1475	823	minimized	
+geometry	392	790	1475	823	minimized	
 WindowLabel	measurements a bit above the resonance frequency	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3094,7 +3094,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1457	751
-<PageGeometry>0.00980392	0.0121951	2.85686	1.83171</PageGeometry>
+<PageGeometry>0.00340832	0.00650195	0.993183	0.976593</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -3175,7 +3175,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 above_resfreq_td	1	1	26.11.15 18:28
-geometry	392	820	1301	819	minimized	
+geometry	588	790	1301	819	minimized	
 WindowLabel	intensity a littlebit above the resonance frequence	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3185,7 +3185,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1276	743
-<PageGeometry>0.00980392	0.0121951	2.50196	1.8122</PageGeometry>
+<PageGeometry>0.00386698	0.00653595	0.986852	0.971242</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -3266,7 +3266,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 below_resfreq_fs	1	1	26.11.15 18:36
-geometry	196	820	1324	818	minimized	
+geometry	0	820	1324	818	minimized	
 WindowLabel	a bit below the resonance frequency in fourier space 	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3357,7 +3357,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 below_resfreq_ts	1	1	26.11.15 18:54
-geometry	0	820	1389	788	minimized	
+geometry	0	0	1389	788	active
 WindowLabel	intensity a bit below the resonance frequency 	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3367,7 +3367,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1367	714
-<PageGeometry>0.00980392	0.0121951	2.68039	1.74146</PageGeometry>
+<PageGeometry>0.00362056	0.00681199	0.989862	0.972752</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -3379,7 +3379,7 @@ Margin	0
 Border	0	#000000
 grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	time [<i>µs<\i>]	intensity			
+AxesTitles	time [<i>µs</i>]	intensity			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	4	5124
 AxesTitleDistance	2	2	2	2
@@ -3448,7 +3448,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 t1_exponentialfit	1	1	26.11.15 18:59
-geometry	0	0	1475	788	active
+geometry	196	790	1475	788	minimized	
 WindowLabel	spin-grid relaxation time	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3556,7 +3556,7 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>7793.991416309</x>
 <y>4770.0170357751</y>
-<right>833.333333333333</right>
+<right>817.901234567901</right>
 <bottom>33169.9346405229</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
@@ -3579,7 +3579,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 T2	1	1	26.11.15 19:17
-geometry	588	790	1475	779	minimized	
+geometry	0	790	1475	779	minimized	
 WindowLabel	spin-spin relaxation time	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3589,7 +3589,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	4	5	1457	710
-<PageGeometry>0.00784314	0.0121951	2.85686	1.73171</PageGeometry>
+<PageGeometry>0.00272665	0.00689655	0.993183	0.97931</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -4050,6 +4050,7 @@ RSS (Summe der quadrierten Restwerte) = 58.840.172,5919
 Iterationen = 15
 Status = success
 ---------------------------------------------------------------------------------------
+
 
 
 </log>
