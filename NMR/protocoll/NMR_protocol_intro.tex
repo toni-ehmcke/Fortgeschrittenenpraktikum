@@ -26,5 +26,29 @@
 			\end{equation}
 		These changes in magnetisation are used to induce voltages that can be measured.
 		
-	\subsection{Nuclear Magnetic Resonance}
-		If the spins are just inside of a static magnetic field along the z-axis then they precess around this axis with an angular frequency of - $\omega_L$. In the next step an alterning magnetic field $\vec{B}_{RF} = B_{RF}\sin(\omega t)\vec{e}_x$ is applied to the spins additionally. If we consider \textit{resonance} of the Larmor-precession and the radio-frequency field, i.e. $w = w_L$, then we can rotate the magnetisation around the x-axis by an angle of $\alpha = \gamma B_{RF}t$ where t is the time the RF-field is applied.  
+	\subsection{Hahn-spinecho} \label{int:secHahn}
+		If the spins are just inside of a static magnetic field along the z-axis then they precess around this axis with an angular frequency of  $-\omega_L$. In the next step an alterning magnetic field $\vec{B}_{RF} = B_{RF}\sin(\omega t)\vec{e}_x$ is applied to the spins additionally. If we consider \textit{resonance} of the Larmor-precession and the radio-frequency field, i.e. $w = w_L$, then we can rotate the magnetisation around the x-axis by an angle of $\alpha = \gamma B_{RF}t$ where t is the time the RF-field is applied. With this effect we can now apply different \textit{magnetic resonance sequences} to investigate the interaction of the spins with each other and the external magnetic fields.\\
+		The first sequence is a really simple one: the $90 \unit{°}$-pulse where the spins are flipped in the xy-plane, i.e. $\vec{M} \perp B\vec{e}_z$. Because they now rotate around the z-axis in the laboratory system the periodic change of the magnetic field within the coil that is part of the HF-circuit leads to the induction of an alterning voltage with frequency $\omega_L$. Because the spin-moments interact with each other their angular frequency differs from spin to spin. This Dephasing leads to the decrease of the mean magnetisation in xy-plane and so the measured voltage fades away. This effec is called \textit{Free Induction Decay}. By applying an $180\unit{°}$-pulse after a time $\tau$ the spins rephase and the voltage increases again (\textit{Hahn-Spinecho}). Because of irreversible effects during de- and refocussing the polarisation decreases and the mean magnetisation in xy-plane and the measured voltage have a lower amplitude. The correlation between the dephasing time $\tau$ and the mean magnetisation in xy-plane can be described by an exponentially decaying function:
+		\begin{equation}
+			U_{ind}(\tau) \propto M_{xy}(\tau) = M_{xy}(\tau = 0) \cdot e^{-\frac{2\tau}{T_2}}
+		\end{equation} 
+		The decay of the reversible nuclear magnetisation is called \textit{spin-spin-relaxation} and the corresponding time constant is the \textit{spin-spin-relaxationtime} $T_2$. In the experiment it will be measured by variing $\tau$ and measuring the alterning voltage $U_{ind}$. Figure (\ref{int:t2}) depicts the Hahn-Spinecho.
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale = 0.4]{pic/intro_t2}
+			\caption{Hahn-Spinecho sequence for measuring $T_2$ relaxation time}
+			\label{int:t2}
+		\end{figure}
+	\subsection{Spin-Latice Relaxation}
+		Because the energy of an ensemble of spins is minimal when they are polarised longitudinally along the magnetic field $B\vec{e}_z$ they are into they will relax to this equivilibrium state when it is perturbed, e.g. by a 90°-pulse. After applying this pulse and waiting for a time $\Delta t$ the z-component of the mean magnetic moment $\langle \mu_z \rangle$ increases. After $Delta t$ a Hahn-Spin-echo sequence mentioned in section (\ref{int:secHahn}) is applied.  Because the measure signal of this sequence is proportional to the initial magnetisation we will induce an echo-voltage in the HF-coil that increases by waiting longer after the 90°-pulse such that more spins are relaxed back to the equivilibrium state. The dependency between $\Delta t$ and the measure signal can be described by:
+		\begin{equation}
+			U_{ind}(\Delta t) \propto M_{xy}(\Delta t) = M_{sat} \cdot [1-e^{\frac{\Delta t}{T_1}}]
+		\end{equation}
+		The relaxation of the longitudinal component of the magnetisation is called \textit{Spin-latice relaxation}. The occuring time constant $T_1$ is the \textit{Spin-latice-relaxation time} and corresponds to the time one has to wait between the pulses such that the magnetisation is approximately $63.21\ \unit{\%}$ of the saturation value. This parameter will be measured by variing $\Delta t$ and holding the time-constant of the Hahn-sequence $\tau$ constant. Figure (\ref{int:t1}) depicts the sequence.
+		
+		\begin{figure}[h]
+					\centering
+					\includegraphics[scale = 0.4]{pic/intro_t1}
+					\caption{MR-sequence for measuring the spin-latice relaxation time $T_1$}
+					\label{int:t1}
+		\end{figure}
