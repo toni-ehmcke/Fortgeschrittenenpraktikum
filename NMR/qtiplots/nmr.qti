@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	16
 <table>
 res_ts	512	4	20.11.15 21:26
-geometry	1176	820	-1	-1	minimized	
+geometry	196	790	-1	-1	minimized	
 header	frequency[X]	Real[Y]	Imag[Y]	magnitude[Y]
 ColWidth	75	100	100	100	
 <com>
@@ -533,7 +533,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/res_ts.
 </table>
 <table>
 res_fs	512	4	20.11.15 21:49
-geometry	980	820	-1	-1	minimized	
+geometry	0	790	-1	-1	minimized	
 header	frequency[X]	Real[Y]	Imag[Y]	magnitude[Y]
 ColWidth	100	100	100	411	
 <com>
@@ -1063,7 +1063,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/res_fs.
 </table>
 <table>
 ares_fs	512	4	20.11.15 22:20
-geometry	784	820	-1	-1	minimized	
+geometry	1568	820	-1	-1	minimized	
 header	Real[Y]	Imag[Y]	frequency[X]	magnitude[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -1593,7 +1593,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/ares_fs
 </table>
 <table>
 ares_ts	115	4	20.11.15 22:20
-geometry	588	820	-1	-1	minimized	
+geometry	1372	820	-1	-1	minimized	
 header	Real[Y]	Imag[Y]	frequency[X]	mag[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -1726,7 +1726,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/ares_ts
 </table>
 <table>
 bres_fs	512	4	20.11.15 22:20
-geometry	392	820	-1	-1	minimized	
+geometry	1176	820	-1	-1	minimized	
 header	Real[Y]	Imag[Y]	frequency[X]	magnitude[Y]
 ColWidth	100	100	100	157	
 <com>
@@ -2256,7 +2256,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/bres_fs
 </table>
 <table>
 bres_ts	512	4	20.11.15 22:20
-geometry	196	820	-1	-1	minimized	
+geometry	980	820	-1	-1	minimized	
 header	Real[Y]	Imag[Y]	frequency[X]	mag[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -2786,7 +2786,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/bres_ts
 </table>
 <table>
 t1	22	3	26.11.15 18:58
-geometry	0	820	-1	-1	minimized	
+geometry	784	820	-1	-1	minimized	
 header	X[X]	Y[Y]	Y-Fit[Y]
 ColWidth	100	100	100	
 <com>
@@ -2902,7 +2902,7 @@ WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/NMR/qtiplots/tables/t2.txt	
 </table>
 <multiLayer>
 resfreq_td	1	1	20.11.15 21:33
-geometry	0	0	1474	819	active
+geometry	588	820	1474	819	minimized	
 WindowLabel	intensity distribution of frequency variation in the time domain	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -2912,7 +2912,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1456	750
-<PageGeometry>0.00341064	0.00653595	0.993179	0.980392</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	2.8549	1.82927</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -2924,7 +2924,7 @@ Margin	0
 Border	0	#000000
 grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	frequency [<i>MHz</i>]	intensity			
+AxesTitles	time [<i>µs</i>]	intensity			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	4	5124
 AxesTitleDistance	2	2	2	2
@@ -2969,8 +2969,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>444.24722662441</x>
 <y>65202.492211838</y>
-<right>512.405705229794</right>
-<bottom>44143.3021806854</bottom>
+<right>41.9609022556391</right>
+<bottom>55796.4601769911</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -2993,7 +2993,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 resfreq_fd	1	1	20.11.15 21:50
-geometry	784	790	1474	819	minimized	
+geometry	392	820	1474	819	minimized	
 WindowLabel	resonance intensity in fourier domain	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3003,7 +3003,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1456	750
-<PageGeometry>0.00341064	0.00653595	0.993179	0.980392</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	2.8549	1.82927</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -3060,8 +3060,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>888.7987012987</x>
 <y>175000</y>
-<right>1254.05844155844</right>
-<bottom>111760.124610592</bottom>
+<right>-1082.82090699462</right>
+<bottom>154756.468797565</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -3084,7 +3084,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 above_resfreq_fs	1	1	20.11.15 22:22
-geometry	196	790	1475	823	minimized	
+geometry	196	820	1475	823	minimized	
 WindowLabel	measurements a bit above the resonance frequency	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3094,7 +3094,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1457	751
-<PageGeometry>0.00340832	0.00650195	0.993183	0.976593</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	2.85686	1.83171</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -3175,7 +3175,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 above_resfreq_td	1	1	26.11.15 18:28
-geometry	0	790	1301	819	minimized	
+geometry	0	820	1301	819	minimized	
 WindowLabel	intensity a littlebit above the resonance frequence	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3185,7 +3185,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	1276	743
-<PageGeometry>0.00386698	0.00653595	0.986852	0.971242</PageGeometry>
+<PageGeometry>0.00980392	0.0121951	2.50196	1.8122</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -3306,7 +3306,7 @@ AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	bres_fs_frequency	bres_fs_magnitude	0	1	#000000	0	1	7	0	#000000	#000000	0	#000000	14	1	2	0	0	511	1
+curve	bres_fs_frequency	bres_fs_magnitude	0	1	#0000ff	0	2	7	0	#000000	#000000	0	#000000	14	1	2	0	0	511	1
 curve	bres_fs_frequency	bres_fs_Imag	0	1	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	511	1
 curve	bres_fs_frequency	bres_fs_Real	0	1	#00ff00	0	1	7	0	#00ff00	#00ff00	0	#000000	14	1	2	0	0	511	1
 scale	0	-425000	425000	0	10	5	0	0
@@ -3333,8 +3333,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>-1192.8</x>
 <y>420840.13050571</y>
-<right>-760.8</right>
-<bottom>259991.843393148</bottom>
+<right>-964.948453608248</right>
+<bottom>364734.1211226</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -3379,7 +3379,7 @@ Margin	0
 Border	0	#000000
 grid	1	1	1	1	#808080	0	0.5	#a0a0a4	2	0.4	#808080	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	time [<i>µs<\i>]	intensity			
+AxesTitles	time [<i>µs</i>]	intensity			
 AxesTitleColors	#000000	#000000	#000000	#000000	
 AxesTitleAlignment	5124	5124	4	5124
 AxesTitleDistance	2	2	2	2
@@ -3424,8 +3424,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>417.67441860465</x>
 <y>149486.30136986</y>
-<right>499.06976744186</right>
-<bottom>92979.4520547945</bottom>
+<right>43.0894308943089</right>
+<bottom>134236.45320197</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -3448,7 +3448,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 t1_exponentialfit	1	1	26.11.15 18:59
-geometry	1568	820	1475	788	minimized	
+geometry	784	790	1475	788	minimized	
 WindowLabel	spin-grid relaxation time	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3470,9 +3470,9 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitles	τ [<i>µs</i>]	intensity			
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleAlignment	5124	5124	4	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
 TitleFont	Cantarell	22	75	0	0	0
@@ -3518,14 +3518,14 @@ curve	t1_X	t1_Y-Fit	0	1	#ff0000	0	1	7	0	#ff0000	#ff0000	0	#000000	14	1	2	0	0	21	
 <Variable>x</Variable>
 <Range>1	10000</Range>
 <Points>260</Points>
-<Constant>A	31049.6043464509</Constant>
-<Constant>T	728.187029140047</Constant>
+<Constant>A	31049.604346451</Constant>
+<Constant>T	728.18702914005</Constant>
 <Style>0</Style>
 <LineStyle>1</LineStyle>
 <Pen>
 	<Color>#0000ff</Color>
 	<Style>0</Style>
-	<Width>1</Width>
+	<Width>1.5</Width>
 </Pen>
 <xAxis>2</xAxis>
 <yAxis>0</yAxis>
@@ -3554,16 +3554,16 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>7793.991416309</x>
-<y>4770.0170357751</y>
-<right>833.333333333333</right>
-<bottom>33169.9346405229</bottom>
+<x>6650</x>
+<y>4710.3918228279</y>
+<right>9983.33333333333</right>
+<bottom>119.250425894378</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
 <Text>
 \l(1) intensity maxima
-\l(4) fit function
+\l(4) exponential growth, T<sub>1</sub>=728µs
 </Text>
 <Font>Cantarell	18	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
@@ -3579,7 +3579,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 T2	1	1	26.11.15 19:17
-geometry	1372	820	1475	779	minimized	
+geometry	980	790	1475	779	minimized	active
 WindowLabel	spin-spin relaxation time	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -3589,7 +3589,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	4	5	1457	710
-<PageGeometry>0.00784314	0.0121951	2.85686	1.73171</PageGeometry>
+<PageGeometry>0.00272665	0.00689655	0.993183	0.97931</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -3627,15 +3627,15 @@ curve	t2_X	t2_Y	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	63	1
 <Variable>x</Variable>
 <Range>0	15000</Range>
 <Points>260</Points>
-<Constant>A	17718.8696309157</Constant>
-<Constant>T2	7658.22465308743</Constant>
+<Constant>A	17718.869630916</Constant>
+<Constant>T2	7658.2246530874</Constant>
 <Constant>y0	6217.8300783383</Constant>
 <Style>0</Style>
 <LineStyle>1</LineStyle>
 <Pen>
 	<Color>#0000ff</Color>
 	<Style>0</Style>
-	<Width>1</Width>
+	<Width>1.5</Width>
 </Pen>
 <xAxis>2</xAxis>
 <yAxis>0</yAxis>
@@ -3664,16 +3664,16 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>10411.471321696</x>
-<y>29896.729776248</y>
-<right>1222.13681783244</right>
-<bottom>28413.2231404959</bottom>
+<x>10406.639004149</x>
+<y>29896.551724138</y>
+<right>14950.2074688797</right>
+<bottom>25913.7931034483</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
 <Text>
-\l(1)%(1)
-\l(2) exponential fit T<sub>2</sub> = 7700µs
+\l(1) intensity maxima
+\l(2) exponential fit T<sub>2</sub> = 7658µs
 </Text>
 <Font>Cantarell	18	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
@@ -4050,5 +4050,8 @@ RSS (Summe der quadrierten Restwerte) = 58.840.172,5919
 Iterationen = 15
 Status = success
 ---------------------------------------------------------------------------------------
+
+
+
 
 </log>

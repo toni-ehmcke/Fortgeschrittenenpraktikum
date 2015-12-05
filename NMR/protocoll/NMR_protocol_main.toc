@@ -4,9 +4,11 @@
 \contentsline {section}{\numberline {1}Introduction}{2}
 \contentsline {subsection}{\numberline {1.1}Motivation}{2}
 \contentsline {subsection}{\numberline {1.2}Nuclear Zeeman-Effect}{2}
+\contentsline {subsection}{\numberline {1.3}Nuclear Magnetic Resonance}{3}
 \contentsline {section}{\numberline {2}Experimental procedure}{3}
 \contentsline {subsection}{\numberline {2.1}Preparation of a high frequency resonant circuit}{3}
-\contentsline {subsection}{\numberline {2.2}}{3}
-\contentsline {subsection}{\numberline {2.3}}{3}
-\contentsline {section}{\numberline {3}Data Analysis}{3}
-\contentsline {section}{\numberline {4}Discussion and conclusions}{3}
+\contentsline {subsection}{\numberline {2.2}Finding of the nuclear spin resonance by varying the pulse frequency}{4}
+\contentsline {subsection}{\numberline {2.3}Optimization of the pulse sequence by recording a rotation angle curve}{5}
+\contentsline {subsubsection}{\numberline {2.3.1}Determination of the relaxation constants $T_1$ and $T_2$}{5}
+\contentsline {section}{\numberline {3}Data Analysis}{5}
+\contentsline {section}{\numberline {4}Discussion and conclusions}{5}

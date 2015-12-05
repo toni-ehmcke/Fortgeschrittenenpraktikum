@@ -7,21 +7,24 @@
 				&\vec{\mu} = \gamma \vec{\mathcal{I}} \label{eq:mu}\\
 				&\gamma  = g_I \frac{\mu_N}{\hbar} \overset{^{57}Fe}{=} 0.8661\cdot 10^{7}\ \unit{T^{-1}s^{-1}} \label{eq:gamma}
 			\end{align}
-		Where $\mu_N$ is the \textit{nuclear magneton} and $g_I$ is the Land\'{e}-factor which both are core-specific pa\-ra\-me\-ters. If those magnetic moments are placed in a static magnetic field $\vec{B} = (0,0,B)^T$ then the Hamiltonian of the system and its Eigenvalues to the Eigenstates of the spin-operator $\ket{I,m_I}$ are given by:
+		Where $\mu_N$ is the \textit{nuclear magneton} and $g_I$ is the Land\'{e}-factor which both are core-specific pa\-ra\-me\-ters. If those magnetic moments are placed in a static magnetic field $\vec{B} = B \vec{e}_z$ then the Hamiltonian of the system and its Eigenvalues to the Eigenstates of the spin-operator $\ket{I,m_I}$ are given by:
 			\begin{align}
 				&\mathcal{H} = - \vec{\mu} \vec{B} \overset{(\ref{eq:mu})}{=} - \gamma \mathcal{I}_zB \\
-				&\langle\mathcal{H}\rangle = \bra{I,m_I}\mathcal{H}\ket{I,m_I} = -\gamma B \bra{I,m_I}\mathcal{I}_z\ket{I,m_I} = -\gamma B \hbar m \equiv E_m
+				&\langle\mathcal{H}\rangle = \bra{I,m_I}\mathcal{H}\ket{I,m_I} = -\gamma B \bra{I,m_I}\mathcal{I}_z\ket{I,m_I} = -\gamma B \hbar m_I \equiv E_{m_I}
 			\end{align}
 		Where the Eigenvalues of the Spin-operator for given spin-quantumnumber $I$ and magnetic quantum number $m_I = -I,\dots,I$ were used. So the outer magnetic field annuls the $2I+1$-fold degeneration of the energystates. The nuclear spin-quantum-number of $^{57}Fe$ is I = 1/2 so there are two additional energystates with a energydifference:
 			\begin{equation}
 				\Delta E = \hbar \gamma B = \hbar \omega_L \label{eq:lamor}
 			\end{equation}
-		As equation (\ref{eq:lamor}) suggests, there may occur optical transitions between the terms which lead to an emission of photons with the angular frenquency $w_L$. One finds that this frequency is equivalent to the \textit{Larmor-Frequency} that describes the precession of a magnetic moment caused by the torsional moment $\vec{M}=\vec{\mu}\times\vec{B}$ in a magnetic field. The classical description of this process leads to the same result as quantum mechanics do. If we consider the ensemble of $N$ nuclei as canonical, then the number of spins in the state $\ket{s,m}$ in the thermodynamic equivilibrium is given by the Boltzman-statistics:
+		As equation (\ref{eq:lamor}) suggests, there may occur optical transitions between the terms which lead to an emission of photons with the angular frenquency $w_L$. One finds that this frequency is equivalent to the \textit{Larmor-Frequency} that describes the precession of a magnetic moment around the z-axis caused by the torsional moment $\vec{M}=\vec{\mu}\times\vec{B}$ in a magnetic field. The classical description of this process leads to the same result as quantum mechanics do. If we consider the ensemble of $N$ nuclei as canonical, then the number of spins in the state $\ket{s,m_I}$ in the thermodynamic equivilibrium is given by the Boltzman-statistics:
 			\begin{equation}
-				N(s,m) = N \cdot \frac{e^{-\frac{E_m}{k_BT}}}{Z} = N \cdot \frac{e^{\frac{\hbar \gamma B m}{k_BT}}}{Z}
+				N(m_I) = N \cdot \frac{e^{-\frac{E_{m_I}}{k_BT}}}{Z} = N \cdot \frac{e^{\frac{\hbar \gamma B m_I}{k_BT}}}{Z}
 			\end{equation}
 		Where $Z = \text{const.}$ is the canonical partition function and T is the absolute temperature of the environment. This implies that the spins prefer to be polarised not uniformely but in the direction of the B-field so this leads to a mean magnetic moment $\langle\vec{\mu}\rangle \neq 0$. This leads to an oberservable macroscopic magnetisation in the volume $V$:
 			\begin{equation}
 				\vec{M} = \frac{d\vec{\mu}}{dV} \cong \frac{N}{V} \langle\vec{\mu}\rangle \neq 0
 			\end{equation}
 		These changes in magnetisation are used to induce voltages that can be measured.
+		
+	\subsection{Nuclear Magnetic Resonance}
+		If the spins are just inside of a static magnetic field along the z-axis then they precess around this axis with an angular frequency of - $\omega_L$. In the next step an alterning magnetic field $\vec{B}_{RF} = B_{RF}\sin(\omega t)\vec{e}_x$ is applied to the spins additionally. If we consider \textit{resonance} of the Larmor-precession and the radio-frequency field, i.e. $w = w_L$, then we can rotate the magnetisation around the x-axis by an angle of $\alpha = \gamma B_{RF}t$ where t is the time the RF-field is applied.  
