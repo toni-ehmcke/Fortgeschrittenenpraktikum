@@ -42,7 +42,7 @@
 	\subsection{Spin-Latice Relaxation}
 		Because the energy of an ensemble of spins is minimal when they are polarised longitudinally along the magnetic field $B\vec{e}_z$ they are into they will relax to this equivilibrium state when it is perturbed, e.g. by a 90°-pulse. After applying this pulse and waiting for a time $\Delta t$ the z-component of the mean magnetic moment $\langle \mu_z \rangle$ increases. After $Delta t$ a Hahn-Spin-echo sequence mentioned in section (\ref{int:secHahn}) is applied.  Because the measure signal of this sequence is proportional to the initial magnetisation we will induce an echo-voltage in the HF-coil that increases by waiting longer after the 90°-pulse such that more spins are relaxed back to the equivilibrium state. The dependency between $\Delta t$ and the measure signal can be described by:
 		\begin{equation}
-			U_{ind}(\Delta t) \propto M_{xy}(\Delta t) = M_{sat} \cdot [1-e^{\frac{\Delta t}{T_1}}]
+			U_{ind}(\Delta t) \propto M_{xy}(\Delta t) = M_{sat} \cdot [1-e^{-\frac{\Delta t}{T_1}}]
 		\end{equation}
 		The relaxation of the longitudinal component of the magnetisation is called \textit{Spin-latice relaxation}. The occuring time constant $T_1$ is the \textit{Spin-latice-relaxation time} and corresponds to the time one has to wait between the pulses such that the magnetisation is approximately $63.21\ \unit{\%}$ of the saturation value. This parameter will be measured by variing $\Delta t$ and holding the time-constant of the Hahn-sequence $\tau$ constant. Figure (\ref{int:t1}) depicts the sequence.
 		
