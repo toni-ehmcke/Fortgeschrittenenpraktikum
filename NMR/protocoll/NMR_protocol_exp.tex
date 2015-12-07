@@ -15,6 +15,7 @@
            \label{fig:sketch}
     \end{center}
     The rotation regulator (\ref{fig:sketch}.1) varies the space between the capacitor's plates (\ref{fig:sketch}.3) so one can tune the frequency of the solenoid (\ref{fig:sketch}.2).
+    With an oscilloscope one finally can find the frequency between $42\unit{MHz}$ up to $48\unit{MHz}$. The value which was found here is $45.01\unit{MHz}$.
     \subsection{Finding of the nuclear spin resonance by varying the pulse frequency}
     \label{task_2}
     After the preparation of the solenoid and the insertion of the probe into the cryostat one has to mention what the different paramters built in the measurement-software do with the curves. The different parameters one could vary are $pw$, $\tau$, $rd$ and $ad$. $pw$ makes the magnitude look more gaussian and gives it a bigger value by make the imaginary and real parts more oscillating the higher it is. Varying $\tau$ shows less oscillations and a lower magnitude the higher $\tau$ is. At least one can also vary the parameter $rd$. The higher it is, the more oscillations can be found. These parameters are choosed such that the magnitude fits better to a gaussian. This means, one searches parameters with a low amount of oscillations, which also have not a big intensity. After the best parameters ($ pw=2\unit{\mu s},\ \tau = 60\unit{\mu s},\ rd = 15\unit{\mu s},\ ad=10\unit{\mu s} $) are found, one looks  at the behavior of the curve at the resonance frequency, a little bit below and a bit above as shown in the figures \ref{beltd} - \ref{abofs}.\\
@@ -27,12 +28,13 @@
             \subfigure[intensity below resonance frequency in fourier space\label{abofs}]{\includegraphics[scale=0.225]{pic/above_resfreq_fs.png}}
             \caption{Different spectra below, at and above the resonance frequency}
          \end{figure}
+         \ \\
      One can see that the number of oscillations in \ref{abotd} and \ref{beltd} is bigger than in \ref{restd}. In figure \ref{resfs} one recognizes a good gaussian peak.
-     With that information the frequency is found at $\omega_L = 45.47\unit{MHz}$. Using the $\gamma$-factor defined in (\ref{eq:gamma}) and the formula (\ref{eq:lamor}) one can calculate the magnetic field as $B_z = \omega_L/\gamma = 0.525\ \unit{T}$. This is a typical value for a magnetic flux density occuring in the bond of a solid state body.
+     With that information the frequency is found at $\omega_L = 45.47\unit{MHz}$ (It was also given by the tutor). Using the $\gamma$-factor defined in (\ref{eq:gamma}) and the formula (\ref{eq:lamor}) one can calculate the magnetic field as $B_z = \omega_L/\gamma = 0.525\ \unit{T}$. This is a typical value for a magnetic flux density occuring in the bond of a solid state body.
          
     \subsection{Optimization of the pulse sequence by recording a rotation angle curve}
     \label{task_3}
-    Now one can configure the time intevalls how long the measurement device should wait until it takes a measurement. In both cases, the spin-spin- and the spin-lattice-relaxation one get different times for $\tau$ aus one can see in the diagrams.
+    Now one can configure the time intevalls how long the measurement device should wait until it takes a measurement. In both cases, the spin-spin- and the spin-lattice-relaxation one get different times for $\tau$ as one can see in the diagrams.
     After this measurements the computer takes all magnitude maxima as data points one can analyze.
            \begin{figure}[h]
                \centering
@@ -42,14 +44,13 @@
            \end{figure}
     One can recognize that \ref{T1} looks like an exponential growth and \ref{T2} looks similar to an exponential decay. To determine the relaxation constants one uses this information to make fits.        
     \subsection{Determination of the relaxation constants $T_1$ and $T_2$}
+     \label{task_4}
     The following fit functions are used;
     \begin{gather}
         y(\tau) = A\cdot(1-e^{-\tau/T_1})\label{fit_T1}\\
         y(\tau) = y_0 + Ae^{-2\tau/T_2}\label{fit_T2}
     \end{gather}
-    With a tool called Qtiplot one makes a fit with these funktions a gets the blue line in \ref{T1} and \ref{T2}. The parameters for \ref{fit_T2} are: $A = 17720,\ y_0 = 6220$ and the spin-spin-relaxation constant $T_2 = 7628\unit{\mu s}$
+    With a tool called Qtiplot one makes a fit with these funktions a gets the blue line in \ref{T1} and \ref{T2}. The parameters for \ref{fit_T2} are: $A = 17700\pm400,\ y_0 = 6200\pm300$ and the spin-spin-relaxation constant $T_2 = (7600\pm300)\unit{\mu s}$
     The parameters for the spin-lattice-relaxation are:
-    $$ A = 31050,\ T_1 = 728\unit{\mu s} $$
-    
-    \label{task_4}
-    In 
+    $$ A = 31049.60435\pm0.00008,\ T_1 = (728.28187\pm0.00001)\unit{\mu s} $$
+ 
