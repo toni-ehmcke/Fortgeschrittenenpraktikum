@@ -3,27 +3,45 @@
 	% TODO@Christian: What is the bin-width and how did you determine it? Decide for one(!) time form: present OR simple past!
     According to the data evaluation, we got $N = 204$ events. That means, we got 204 times a distance, a time and a velocity which are distributed. 
     \subsection{Data evaluation of velocity}
-        We think, the velocity is a gaussian distribution. This assumption can be proven by a student's t-test. But we only have one set of data.
-        \begin{longtable}{p{8cm}p{8cm}}
-            \minipanf
-                A\\
-                \includegraphics[scale=0.3]{pic/velodist_rel}
-            \minipend
-            &
-            \minipanf
-                B\\
-                \includegraphics[scale=0.3]{pic/velocumdist}
-            \minipend
-        \end{longtable}
-        \captionof{figure}{\textbf{A:} Histogram of the relative velocity distribution. \textbf{B:} Histogram of the cululative velocity distribution}
-        \vspace{2mm}
         The mean of the velocity $\overline v$, its standard deviation $\sigma_{\overline v}$ and the standard error of the mean velocity $\Delta \overline v$ can be calculated by a data analysis tool. We used an Origin like software called qtiplot, which calculates column statistics, which are not influenced by binning, because that are the measured raw data. These include the searched values.
         In general one can calculate these values as following:
         \begin{eqnarray*}
-            \overline v = N^{-1} \sum_{i = 1}^{N}v_i\ ,\ \sigma_{\overline v} = \sqrt{\sum_{i = 1}^{N} \frac{(v_i - \overline v)^2}{N-1}}\ , \ \Delta \overline v = \frac{\sigma_{\overline v}}{\sqrt{N}}
+            \overline v = N^{-1} \sum_{i = 1}^{N}v_i\ ,\ \sigma_{v} = \sqrt{\sum_{i = 1}^{N} \frac{(v_i - \overline v)^2}{N-1}}\ , \ \Delta \overline v = \frac{\sigma_{v}}{\sqrt{N}}
         \end{eqnarray*}
         So we get:
-        $$ \overline v = \unit[(0.87 \pm 0.05)]{\frac{\mu m}{s}}\ , \ \ \sigma_{\overline v} = 0.72 \unit{\frac{\mu m}{s}}$$
+        $$ \overline v = \unit[(0.87 \pm 0.05)]{\mu m/s}\ , \ \ \sigma_{\overline v} = 0.72 \unit{\mu m/s}$$
+        To get a better idea of the distribution of the values we created a histogram. Because we assume the velocity-values to be gaussian distributed we estimated a senseful bin-width $w_{bin}$ with the help of \textit{Scott's normal reference rule}\cite{wikiHisto}:
+	    $$ w_{bin} = \frac{3.5 \cdot \sigma_v}{N} \cong 0.4\ \unit{\mu m/s}$$
+	    The fit function choosed to approximate the probability-density of the velocity $v$ is given by:
+	    \begin{align*}
+	    		&pdf(v,A,\mu, w) = \frac{A}{w}\cdot \sqrt{\frac{2}{\pi}}\cdot e^{-2\cdot\left(\frac{v-\mu}{w}\right)^2}\\
+	    		&A = 0.40\pm 0.01\\
+	    		&\mu = (0.80 \pm 0.01)\ \unit{\mu m/s}\\
+	    		&w = (0.75 \pm 0.03)\ \unit{\mu m/s}
+	    \end{align*}
+	    For fitting the cumulative distribution of the gaussian we used a built-in function that approximates the exact form:
+	    \begin{align*}
+		    &cdf(v,A,\mu,w) =\frac{A}{2}\cdot\left(1+\mathrm{erf}\left(\frac{\sqrt{2}\cdot(v-\mu)}{w}\right)\right)\\
+		    &A = 0.991 \pm 0.002\\
+		    &\mu = (0.595 \pm 0.006)\ \unit{\mu m/s}\\
+		    &w = (0.71 \pm 0.02)\ \unit{\mu m/s}
+	    \end{align*} 
+	    Figure (\ref{velodist}) shows the resulting histogram for the relative frequency and its cumulative distribution including all the fits
+        
+                \begin{longtable}{p{8cm}p{8cm}}
+                    \minipanf
+                        A\\
+                        \includegraphics[scale=0.3]{pic/velodist_rel}
+                    \minipend
+                    &
+                    \minipanf
+                        B\\
+                        \includegraphics[scale=0.3]{pic/velocumdist}
+                    \minipend
+                \end{longtable}
+                \captionof{figure}{\textbf{A:} Histogram of the relative velocity distribution. Bin-size: $0.4\ \unit{\mu m/s}$ \textbf{B:} Histogram of the corresponding cumulative velocity distribution}
+                \label{velodist}
+                \vspace{2mm}
         To minimize the error one could easily take more measurements. According to the law of large numbers the measured mean velocity would converge to the expactation value. With an infinite number of measurements we would get the exact result. 
         Also we could use software which marks the traces, which would create a unit law of marking. As a human being, one cannot see every trace and one can not mark every trace the way. This is caused by a diameter of the traces which is not infinite. The means, one could easily stretch the distance walked by the kinesin by marking from on edge to the diagonal opposite edge. An automization would avoid these errors. 
     
@@ -38,7 +56,7 @@
     	 	\centering
     	 	\captionsetup{justification=centering,margin=2cm}
     	 		\includegraphics[width = 0.8\textwidth, keepaspectratio]{pic/histo_runlength_rel.png}
-    	 	\caption{Probibility distribution of the measured run length.\\ The very first bin is ignored from the exponential fitting}
+    	 	\caption{Probibility distribution of the measured run length.\\ The very first bin is ignored from the exponential fitting.\\ Bin-size: $0.4\ \unit{\mu m}$}
     	 	\label{exp:histRunLength}
     	 \minipend\\
     	 \ \\   
