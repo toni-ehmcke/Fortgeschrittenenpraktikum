@@ -1,0 +1,32 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{ucs}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[german]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{shadethm}
+\usepackage{caption}
+\usepackage{tikz} 
+\usepackage{ziffer}
+\usepackage{units}
+\usepackage{multirow}
+
+\newcommand{\minipanf}{\begin{minipage}{\linewidth}}
+\newcommand{\minipend}{\end{minipage}}
+
+\begin{document}
+
+\include{RE_Protokoll_title} 	% Titelseite
+
+\tableofcontents
+\newpage 
+
+\input{RE_Protokoll_intro}		% Physikalischer Hintergrund
+\input{RE_Protokoll_experiment}			% Durchführung
+\input{RE_Protokoll_diskussion}		% Auswertung
+\include{RE_Protokoll_literatur}
+
+\end{document}
