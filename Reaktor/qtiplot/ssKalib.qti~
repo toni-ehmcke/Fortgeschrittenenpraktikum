@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	4
+<windows>	7
 <table>
 data_SSKL1	31	3	13.12.15 17:43
-geometry	40	168	617	487	
+geometry	392	606	-1	-1	minimized	
 header	z [digits][X]	d rho/ dz [$/digits][Y]	d rho[yEr]
 ColWidth	100	141	100	
 <com>
@@ -25,7 +25,7 @@ WindowLabel		2
 </table>
 <table>
 data_intSSKL1	30	3	13.12.15 18:38
-geometry	194	69	445	220	
+geometry	588	606	445	558	minimized	
 header	z[X]	rho[Y]	1[yEr]
 ColWidth	100	100	100	
 <com>
@@ -44,9 +44,26 @@ WindowLabel		2
 5	4000	0.3705	0.0066
 </data>
 </table>
+<table>
+Dosimetrie	2	7	15.12.15 18:43
+geometry	0	0	907	599	
+header	P[X]	OFn[Y]	OPTn[Y]	En[Y]	OFgamma[Y]	OPTgamma[Y]	Egamma[Y]
+ColWidth	100	135	115	54	131	119	46	
+<com>
+</com>
+ColType	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14
+ReadOnlyColumn	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0
+Comments	Leistung [W]	Reaktoroberfläche	Operationstisch	Ecke	Reaktoroberfläche	Operationstisch	Ecke	
+WindowLabel	Messungen der Neutronenflussdichte bei 1W und 2W an verschiedenen Orten	2
+<data>
+0	1	2.5	0.2	0.14	12	1.4	0.6
+1	2	4.3	0.6	0.13	27.5	2.5	0.5
+</data>
+</table>
 <multiLayer>
 diffSSKL1	1	1	13.12.15 19:06
-geometry	122	7	547	469	
+geometry	196	606	510	430	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -55,8 +72,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	529	406
-<PageGeometry>0.00927644	0.0118765	0.981447	0.964371</PageGeometry>
+ggeometry	16	9	1470	800
+<PageGeometry>0.0313725	0.0219512	2.88235	1.95122</PageGeometry>
 PlotTitle	differentielle Steuerstabkennlinie (Stab 1)	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -73,15 +90,15 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Noto Sans	11	75	0	0	0
-ScaleFont0	Noto Sans	9	75	0	0	0
-ScaleFont1	Noto Sans	9	75	0	0	0
-ScaleFont2	Noto Sans	9	75	0	0	0
-ScaleFont3	Noto Sans	9	75	0	0	0
-AxisFont0	Noto Sans	9	50	0	0	0
-AxisFont1	Noto Sans	9	50	0	0	0
-AxisFont2	Noto Sans	9	50	0	0	0
-AxisFont3	Noto Sans	9	50	0	0	0
+TitleFont	Noto Sans	35	75	0	0	0
+ScaleFont0	Noto Sans	28	75	0	0	0
+ScaleFont1	Noto Sans	28	75	0	0	0
+ScaleFont2	Noto Sans	28	75	0	0	0
+ScaleFont3	Noto Sans	28	75	0	0	0
+AxisFont0	Noto Sans	28	50	0	0	0
+AxisFont1	Noto Sans	28	50	0	0	0
+AxisFont2	Noto Sans	28	50	0	0	0
+AxisFont3	Noto Sans	28	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#212121	#212121	#212121	#212121
 AxesBaseline	0	0	0	0	
@@ -111,7 +128,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 intSSKL1	1	1	13.12.15 19:16
-geometry	maximized	active
+geometry	0	606	547	469	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -120,8 +137,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	8	5	802	543
-<PageGeometry>0.00980392	0.0088968	0.982843	0.966192</PageGeometry>
+ggeometry	5	4	530	407
+<PageGeometry>0.00980392	0.0097561	1.03922	0.992683</PageGeometry>
 PlotTitle	Integrale Steuerstabkennlinie (Stab 1)	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -138,15 +155,15 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Noto Sans	15	75	0	0	0
-ScaleFont0	Noto Sans	12	75	0	0	0
-ScaleFont1	Noto Sans	12	75	0	0	0
-ScaleFont2	Noto Sans	12	75	0	0	0
-ScaleFont3	Noto Sans	12	75	0	0	0
-AxisFont0	Noto Sans	12	50	0	0	0
-AxisFont1	Noto Sans	12	50	0	0	0
-AxisFont2	Noto Sans	12	50	0	0	0
-AxisFont3	Noto Sans	12	50	0	0	0
+TitleFont	Noto Sans	11	75	0	0	0
+ScaleFont0	Noto Sans	9	75	0	0	0
+ScaleFont1	Noto Sans	9	75	0	0	0
+ScaleFont2	Noto Sans	9	75	0	0	0
+ScaleFont3	Noto Sans	9	75	0	0	0
+AxisFont0	Noto Sans	9	50	0	0	0
+AxisFont1	Noto Sans	9	50	0	0	0
+AxisFont2	Noto Sans	9	50	0	0	0
+AxisFont3	Noto Sans	9	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#212121	#212121	#212121	#212121
 AxesBaseline	0	0	0	0	
@@ -174,4 +191,181 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
+<multiLayer>
+Grafik1	1	1	16.12.15 11:47
+geometry	907	0	1017	599	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	999	530
+<PageGeometry>0.0049554	0.00917431	0.990089	0.972477</PageGeometry>
+PlotTitle	Titel	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	16	75	0	0	0
+ScaleFont0	Cantarell	14	75	0	0	0
+ScaleFont1	Cantarell	14	75	0	0	0
+ScaleFont2	Cantarell	14	75	0	0	0
+ScaleFont3	Cantarell	14	75	0	0	0
+AxisFont0	Cantarell	14	50	0	0	0
+AxisFont1	Cantarell	14	50	0	0	0
+AxisFont2	Cantarell	14	50	0	0	0
+AxisFont3	Cantarell	14	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Dosimetrie_P	Dosimetrie_Egamma	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	1	1
+curve	Dosimetrie_P	Dosimetrie_OPTgamma	2	1	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	1	1
+curve	Dosimetrie_P	Dosimetrie_OFgamma	2	1	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	1	1
+curve	Dosimetrie_P	Dosimetrie_En	2	1	#0000ff	0	1	7	4	#0000ff	#0000ff	0	#000000	14	1	2	0	0	1	1
+curve	Dosimetrie_P	Dosimetrie_OPTn	2	1	#00ffff	0	1	7	5	#00ffff	#00ffff	0	#000000	14	1	2	0	0	1	1
+curve	Dosimetrie_P	Dosimetrie_OFn	2	1	#ff00ff	0	1	7	6	#ff00ff	#ff00ff	0	#000000	14	1	2	0	0	1	1
+scale	0	0	30	0	7	5	0	0
+scale	1	0	30	0	7	5	0	0
+scale	2	0	2	0	5	5	0	0
+scale	3	0	2	0	5	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>0.99054209919262</x>
+<y>29.067357512953</y>
+<right>0.252042007001167</right>
+<bottom>27.3484848484848</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+\l(3)%(3)
+\l(4)%(4)
+\l(5)%(5)
+\l(6)%(6)
+</Text>
+<Font>Cantarell	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Tabelle1	30	5	16.12.15 12:29
+geometry	794	292	740	519	
+header	d[X]	D/t-g[Y]	Dt-g2w[Y]	D/t-n[Y]	dt-n2w[Y]
+ColWidth	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments	Abstand					
+WindowLabel		2
+<data>
+0	0	12	27.5	2.5	4.3
+1	3	1.4	2.5	0.2	0.6
+2	7	0.6	0.5	0.14	0.13
+</data>
+</table>
 <open>1</open>
+<log>
+[16.12.15 12:39	Diagramm: ''Grafik2'']
+Nichtlinearer Fit von Datensatz: Tabelle1_dt-n2w, unter Verwendung der Funktion: k/(d0-x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 7,0000000000000e+00
+d0 = -4,8327489918553e-01 +/- inf
+k = 7,2799224189731e+00 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = inf
+R^2 = 1
+RSS (Summe der quadrierten Restwerte) = 1,697126386791e-19
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+[16.12.15 12:42	Diagramm: ''Grafik2'']
+Nichtlinearer Fit von Datensatz: Tabelle1_Dt-g2w, unter Verwendung der Funktion: k/(x-do)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 7,0000000000000e+00
+do = -2,3606797101294e-01 +/- inf
+k = 2,6180339855958e+01 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = inf
+R^2 = 1
+RSS (Summe der quadrierten Restwerte) = 4,923856080614e-17
+---------------------------------------------------------------------------------------
+Iterationen = 8
+Status = success
+---------------------------------------------------------------------------------------
+[16.12.15 12:44	Diagramm: ''Grafik2'']
+Nichtlinearer Fit von Datensatz: Tabelle1_Dt-g2w, unter Verwendung der Funktion: k/(x+d0)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 7,0000000000000e+00
+d0 = 2,3606797749979e-01 +/- inf
+k = 2,6180339887499e+01 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = inf
+R^2 = 1
+RSS (Summe der quadrierten Restwerte) = 1,972152263053e-31
+---------------------------------------------------------------------------------------
+Iterationen = 13
+Status = success
+---------------------------------------------------------------------------------------
+[16.12.15 12:45	Diagramm: ''Grafik2'']
+Nichtlinearer Fit von Datensatz: Tabelle1_dt-n2w, unter Verwendung der Funktion: k/(x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 7,0000000000000e+00
+k = 5,4316559226459e+00 +/- 1,7234891216648e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,7908944399678e-04
+R^2 = 0,9965677732549
+RMSE (Standardabweichung) = 0,01947021941316
+RSS (Summe der quadrierten Restwerte) = 0,0003790894439968
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+</log>
