@@ -1,8 +1,17 @@
 \section{Durchführung}
     \subsection{Reaktorstart}
     %TODO Was muss vor Inbetriebnahme beachtet werden? Welche Kontrollleuchten gibt es? Wie funktioniert die Steuerung? Wofür gibt es die Schlüssel? Ertönen Warnsignale und wenn ja, wann und warum? 
-    Vor der Inbetriebnahme des Reaktors sind mehrere sicherheitsrelevante Prüfungen an dosimetrischen und nicht-dosimetrischen Einrichtungen vorzunehmen. Es gibt Geräte, die auf Defekte am Reaktor und an der Messtechnik hinweisen. So werden über LEDs bestimmte Defekte angezeigt. Diese können ihrerseits ebenfalls defekt sein. Deshalb gibt es einen Schalter, der alle Lampen aktiviert, damit die Sicherheitsleuchten auf Funktionstüchtigkeit überprüft werden können. Sind alle funktionstüchtig, kann mit den Sicherheitskontrollen fortgefahren werden.
-    So prüft man weiter, ob alle Kontakte an den Steuerstäben, die jeweils die oberste und unterste Position der Steuerstäbe signalisieren, arbeiten, ob die Reakterschnellabschaltung (RESA) auch ordnungsgemäß funktioniert. Schritt für Schritt arbeitet man so alles ab.
-    
+    Vor der Inbetriebnahme des Reaktors sind mehrere sicherheitsrelevante Prüfungen an dosimetrischen und nicht-dosimetrischen Einrichtungen vorzunehmen. Dies beinhaltet auch die Prüfung von Warnleuchten und Signalgebern auf ihre Funktionalität. Wenn alle Leuchten funktionieren, kann man mit der Überprüfung fortfahren. So muss überprüft werden, ob das Warnsignal bei Erreichen der Grenzwerte bei Leistung (2,2W) und Periodendauer (20s) auch tatsächlich ertönen kann, ob die Reaktorschnellabschaltung (RESA) funktionsfähig ist und alle Signale, betreffend der Stab-, Kernhälften- (KH) und Anfahrneutronenquellenpositionen (ANQ) am Operatortisch ankommen. Man setzt nun den RESA-Schalter am PC zurück, fährt ANQ und untere KH sowie auch die Steuerstäbe in die unterste Endstellung.
+    \begin{center}
+        \begin{tabular}{l|c|c|c|c}
+                \textbf{Ort} & \multicolumn{2}{c|}{\textbf{bei 1\unit{W}}} & \multicolumn{2}{c}{\textbf{bei 2\unit{W}}} \\
+       \hline       & $\dot D_\gamma$ [\textit{$\mu Sv/h$}] & $\dot D_n$ [\textit{$\mu Sv/h$}]& $\dot D_\gamma$ [\textit{$\mu Sv/h$}]& $\dot D_n$ [\textit{$\mu Sv/h$}]\\
+       \hline   Reaktortankwand ($\approx \unit[0]{m}$) & 12 & 2,5 & 27,5 & 4,3 \\
+                Operatortisch ($\approx \unit[3]{m}$) & 1,4 & 0,2 & 2,5 & 0,6 \\
+                Ecke ($\approx \unit[6]{m}$) & 0,6 & 0,14 & 0,5 & 0,13 
+        \end{tabular}
+        \captionof{table}{Dosimetrische Messung von Neutronen und Photonen an verschiedenen Orten und mit unterschiedlichen Leistungen}
+        \label{dft:dosi}
+    \end{center}
     \subsection{Steuerstabkalibrierung}
 

@@ -46,7 +46,7 @@ WindowLabel		2
 </table>
 <table>
 Dosimetrie	2	7	15.12.15 18:43
-geometry	0	0	907	599	
+geometry	1176	622	907	599	minimized	active
 header	P[X]	OFn[Y]	OPTn[Y]	En[Y]	OFgamma[Y]	OPTgamma[Y]	Egamma[Y]
 ColWidth	100	135	115	54	131	119	46	
 <com>
@@ -59,24 +59,6 @@ WindowLabel	Messungen der Neutronenflussdichte bei 1W und 2W an verschiedenen Or
 <data>
 0	1	2.5	0.2	0.14	12	1.4	0.6
 1	2	4.3	0.6	0.13	27.5	2.5	0.5
-</data>
-</table>
-<table>
-Tabelle1	30	2	16.12.15 12:29
-geometry	900	44	740	519	
-header	d[X]	D/t-g[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/14	0;0/14
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments	Abstand		
-WindowLabel		2
-<data>
-0	1	15.5
-1	4	1.1
-2	7	0.1
 </data>
 </table>
 <multiLayer>
@@ -210,9 +192,9 @@ EnabledTickLabels	1	1	1	1
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 <multiLayer>
-Grafik1	1	1	19.12.15 18:15
-geometry	1365	42	535	491	active
-WindowLabel		2
+D_t_n	1	1	20.12.15 17:01
+geometry	784	622	800	600	minimized	
+WindowLabel	Neutronendosisleistung über die thermische Reaktorleistung	2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	400	300
@@ -220,9 +202,9 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	517	422
-<PageGeometry>0.00948767	0.0114416	0.981025	0.965675</PageGeometry>
-PlotTitle	Titel	#000000	4228
+ggeometry	7	6	779	527
+<PageGeometry>0.00883838	0.010989	0.983586	0.965201</PageGeometry>
+PlotTitle	Neutronendosisleistung über die Leistung an verschiedenen Orten	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
 <ScaleFonts>1</ScaleFonts>
@@ -233,49 +215,31 @@ Margin	0
 Border	0	#000000
 grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
 EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitles	thermische Reaktorleistung [<i>W</i> ]	Dosisleistung [<i>µSv/h</i>]			
 AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleAlignment	4	5124	4	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	13	75	0	0	0
-ScaleFont0	Cantarell	11	75	0	0	0
-ScaleFont1	Cantarell	11	75	0	0	0
-ScaleFont2	Cantarell	11	75	0	0	0
-ScaleFont3	Cantarell	11	75	0	0	0
-AxisFont0	Cantarell	11	50	0	0	0
-AxisFont1	Cantarell	11	50	0	0	0
-AxisFont2	Cantarell	11	50	0	0	0
-AxisFont3	Cantarell	11	50	0	0	0
+TitleFont	Cantarell	16	75	0	0	0
+ScaleFont0	Cantarell	14	75	0	0	0
+ScaleFont1	Cantarell	14	75	0	0	0
+ScaleFont2	Cantarell	14	75	0	0	0
+ScaleFont3	Cantarell	14	75	0	0	0
+AxisFont0	Cantarell	14	50	0	0	0
+AxisFont1	Cantarell	14	50	0	0	0
+AxisFont2	Cantarell	14	50	0	0	0
+AxisFont3	Cantarell	14	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
 CanvasBackground	#ffffff	0
-curve	Tabelle1_d	Tabelle1_D/t-g	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
-<Function>
-<Type>0</Type>
-<Title>NichtlinearFit1</Title>
-<Expression>c/x^2</Expression>
-<Variable>x</Variable>
-<Range>1	7</Range>
-<Points>260</Points>
-<Constant>c	15.5037719880423</Constant>
-<Style>0</Style>
-<LineStyle>1</LineStyle>
-<Pen>
-	<Color>#00ff00</Color>
-	<Style>0</Style>
-	<Width>1</Width>
-</Pen>
-<xAxis>2</xAxis>
-<yAxis>0</yAxis>
-<CurveType>0</CurveType>
-<Visible>1</Visible>
-</Function>
-scale	0	-2	16	0	10	5	0	0
-scale	1	-2	16	0	10	5	0	0
-scale	2	0	8	0	9	5	0	0
-scale	3	0	8	0	9	5	0	0
+curve	Dosimetrie_P	Dosimetrie_En	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	1	1
+curve	Dosimetrie_P	Dosimetrie_OPTn	2	1	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	1	1
+curve	Dosimetrie_P	Dosimetrie_OFn	2	1	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	1	1
+scale	0	0	5	0	6	5	0	0
+scale	1	0	5	0	6	5	0	0
+scale	2	1	2	0	12	5	0	0	0	0.98	3	0	0	1	1	0	2	1
+scale	3	1	2	0	12	5	0	0	0	0.98	3	0	0	1	1	0	2	1
 LabelsFormat	0	6	0	6	0	6	0	6
 AxisType	0	0	0	0	
 MajorTicks	1	1	1	1
@@ -294,18 +258,110 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>5.1528822055138</x>
-<y>16.060200668896</y>
-<right>13.4135338345865</right>
-<bottom>6.54849498327759</bottom>
+<x>20.97</x>
+<y>4.8298429319372</y>
+<right>1.58809520287561</right>
+<bottom>3.62565445026178</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
 <Text>
-\l(1)%(1)
-
+\l(1) Dosisleistung in Ecke (~6m)
+\l(2)Dosisleistung am %(2) (~3m)
+\l(3) Dosisleistung an %(3) (0m)
 </Text>
-<Font>Cantarell	11	50	0	0	0</Font>
+<Font>Cantarell	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+D_t_gamma	1	1	20.12.15 17:02
+geometry	980	622	802	600	minimized	
+WindowLabel	gamma-Dosisleistung über die thermische Reaktorleistung	2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	6	6	782	526
+<PageGeometry>0.00755668	0.010989	0.984887	0.96337</PageGeometry>
+PlotTitle	γ-Dosisleistung über die Leistung an verschiedenen Orten	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	thermische Reaktorleistung [<i>W</i> ]	Dosisleistung [<i>µSv/h</i>]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	16	75	0	0	0
+ScaleFont0	Cantarell	14	75	0	0	0
+ScaleFont1	Cantarell	14	75	0	0	0
+ScaleFont2	Cantarell	14	75	0	0	0
+ScaleFont3	Cantarell	14	75	0	0	0
+AxisFont0	Cantarell	14	50	0	0	0
+AxisFont1	Cantarell	14	50	0	0	0
+AxisFont2	Cantarell	14	50	0	0	0
+AxisFont3	Cantarell	14	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Dosimetrie_P	Dosimetrie_Egamma	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	1	1
+curve	Dosimetrie_P	Dosimetrie_OPTgamma	2	1	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	1	1
+curve	Dosimetrie_P	Dosimetrie_OFgamma	2	1	#00ff00	0	1	7	3	#00ff00	#00ff00	0	#000000	14	1	2	0	0	1	1
+scale	0	0	30	0	7	5	0	0
+scale	1	0	30	0	7	5	0	0
+scale	2	1	2	0	12	4	0	0	0	0.98	3	0	0.2	1	1	0	2	1
+scale	3	1	2	0	12	4	0	0	0	0.98	3	0	0.2	1	1	0	2	1
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>20.34</x>
+<y>28.979057591623</y>
+<right>1.61730165024555</right>
+<bottom>21.7539267015707</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) Dosisleistung in Ecke (~6m)
+\l(2)Dosisleistung am %(2) (~3m)
+\l(3) Dosisleistung an %(3) (0m)
+</Text>
+<Font>Cantarell	10	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -485,5 +541,40 @@ RSS (Summe der quadrierten Restwerte) = 0,06400944091571
 ---------------------------------------------------------------------------------------
 Iterationen = 2
 Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+
+[20.12.15 16:57	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D/t-g, unter Verwendung der Funktion: c/(1+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 7,0000000000000e+00
+c = 6,0931150228215e+01 +/- 4,4824207309332e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2928086279224e+00
+R^2 = 0,9825892176164
+Angepasstes R^2 = 0,9651784352328
+RMSE (Standardabweichung) = 1,137017426393
+RSS (Summe der quadrierten Restwerte) = 2,585617255845
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[20.12.15 16:58	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D/t-g, unter Verwendung der Funktion: c/(d+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 1,5514755414191e+01 +/- 3,7176713401434e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,3848950321584e-01
+R^2 = 0,9981349052359
+Angepasstes R^2 = 0,9962698104718
+RMSE (Standardabweichung) = 0,37214177838
+RSS (Summe der quadrierten Restwerte) = 0,2769790064317
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+d = 1 (Konstante)
 ---------------------------------------------------------------------------------------
 </log>
