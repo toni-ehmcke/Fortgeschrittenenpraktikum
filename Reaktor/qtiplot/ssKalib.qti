@@ -1,6 +1,6 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	7
+<windows>	9
 <table>
 data_SSKL1	31	3	13.12.15 17:43
 geometry	588	622	-1	-1	minimized	
@@ -46,7 +46,7 @@ WindowLabel		2
 </table>
 <table>
 Dosimetrie	2	7	15.12.15 18:43
-geometry	1176	622	907	599	minimized	active
+geometry	2	5	736	150	
 header	P[X]	OFn[Y]	OPTn[Y]	En[Y]	OFgamma[Y]	OPTgamma[Y]	Egamma[Y]
 ColWidth	100	135	115	54	131	119	46	
 <com>
@@ -193,7 +193,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 D_t_n	1	1	20.12.15 17:01
-geometry	784	622	800	600	minimized	
+geometry	980	622	800	600	minimized	
 WindowLabel	Neutronendosisleistung über die thermische Reaktorleistung	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -284,7 +284,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 D_t_gamma	1	1	20.12.15 17:02
-geometry	980	622	802	600	minimized	
+geometry	784	622	802	600	minimized	
 WindowLabel	gamma-Dosisleistung über die thermische Reaktorleistung	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -362,6 +362,154 @@ EnabledTickLabels	1	1	1	1
 \l(3) Dosisleistung an %(3) (0m)
 </Text>
 <Font>Cantarell	10	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+Tabelle1	3	3	20.12.15 21:23
+geometry	4	160	342	167	
+header	d[X]	D-t-1[Y]	D-t-2[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14	0;0/14
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments	Distanz von Reaktorwand	Dosisleistung bei 1W	Dosisleistung bei 2W	
+WindowLabel		2
+<data>
+0	0	2.5	4.3
+1	3	0.2	0.6
+2	6	0.14	0.13
+</data>
+</table>
+<multiLayer>
+Neutronendosisleistung	1	1	20.12.15 21:26
+geometry	1176	622	800	600	minimized	active
+WindowLabel	Dosisleistung in Abhängigkeit vom Abstand	2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	8	6	776	527
+<PageGeometry>0.010101	0.010989	0.979798	0.965201</PageGeometry>
+PlotTitle	Dosisleistung der Neutronenstrahlung an verschiedenen Orten bei unterschiedlichen thermischen Leistungen	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Abstand d [<i>m </i>]	Dosisleistung [<i>µSv/h</i>]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	4	5124	4	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	16	75	0	0	0
+ScaleFont0	Cantarell	14	75	0	0	0
+ScaleFont1	Cantarell	14	75	0	0	0
+ScaleFont2	Cantarell	14	75	0	0	0
+ScaleFont3	Cantarell	14	75	0	0	0
+AxisFont0	Cantarell	14	50	0	0	0
+AxisFont1	Cantarell	14	50	0	0	0
+AxisFont2	Cantarell	14	50	0	0	0
+AxisFont3	Cantarell	14	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Tabelle1_d	Tabelle1_D-t-2	1	0	#000000	0	1	7	1	#0000ff	#000000	0	#000000	14	1	2	0	0	2	1
+curve	Tabelle1_d	Tabelle1_D-t-1	1	0	#ff0000	0	1	7	2	#ff0000	#ff0000	0	#000000	14	1	2	0	0	2	1
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit1</Title>
+<Expression>c/(d+x)^2</Expression>
+<Variable>x</Variable>
+<Range>0	6</Range>
+<Points>260</Points>
+<Constant>c	4.32147244590556</Constant>
+<Constant>d	1</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#0000ff</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>NichtlinearFit2</Title>
+<Expression>c/(1+x)^2</Expression>
+<Variable>x</Variable>
+<Range>0	6</Range>
+<Points>260</Points>
+<Constant>c	2.50453069927094</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0	5	0	6	5	0	0
+scale	1	0	5	0	6	5	0	0
+scale	2	0	6	0	7	5	0	0
+scale	3	0	6	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>3.8362068965517</x>
+<y>4.9577464788732</y>
+<right>5.96551724137931</right>
+<bottom>4.04225352112676</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Cantarell	14	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -576,5 +724,104 @@ Iterationen = 2
 Status = cannot reach the specified tolerance in F
 ---------------------------------------------------------------------------------------
 d = 1 (Konstante)
+---------------------------------------------------------------------------------------
+[20.12.15 21:30	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D-t-2, unter Verwendung der Funktion: c/(d+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 4,3214724459063e+00 +/- 2,3512780440689e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,5524067450386e-02
+R^2 = 0,9893563407849
+Angepasstes R^2 = 0,9787126815697
+RMSE (Standardabweichung) = 0,2356354545699
+RSS (Summe der quadrierten Restwerte) = 0,1110481349008
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+d = 1 (Konstante)
+---------------------------------------------------------------------------------------
+[20.12.15 21:30	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D-t-2, unter Verwendung der Funktion: c/(d+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 4,0949563622117e+00 +/- inf
+d = -3,8754382427095e-01 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = inf
+R^2 = 1
+RSS (Summe der quadrierten Restwerte) = 4,759700911241e-22
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[20.12.15 21:30	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D-t-2, unter Verwendung der Funktion: c/(d+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 4,3214724459056e+00 +/- 2,3512780432627e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,5524067450386e-02
+R^2 = 0,9893563407849
+Angepasstes R^2 = 0,9787126815697
+RMSE (Standardabweichung) = 0,2356354545699
+RSS (Summe der quadrierten Restwerte) = 0,1110481349008
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+d = 1 (Konstante)
+---------------------------------------------------------------------------------------
+[20.12.15 21:40	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D-t-2, unter Verwendung der Funktion: c/(1+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 4,3214724459063e+00 +/- 2,3512780440689e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,5524067450386e-02
+R^2 = 0,9893563407849
+Angepasstes R^2 = 0,9787126815697
+RMSE (Standardabweichung) = 0,2356354545699
+RSS (Summe der quadrierten Restwerte) = 0,1110481349008
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+[20.12.15 21:40	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D-t-2, unter Verwendung der Funktion: c/(1+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 4,3214724459060e+00 +/- 2,3512780428603e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,5524067450386e-02
+R^2 = 0,9893563407849
+Angepasstes R^2 = 0,9787126815697
+RMSE (Standardabweichung) = 0,2356354545699
+RSS (Summe der quadrierten Restwerte) = 0,1110481349008
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[20.12.15 21:40	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D-t-1, unter Verwendung der Funktion: c/(1+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 2,5045306992709e+00 +/- 6,9887721405742e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,9054071435398e-03
+R^2 = 0,9972906286489
+Angepasstes R^2 = 0,9945812572978
+RMSE (Standardabweichung) = 0,07003861180477
+RSS (Summe der quadrierten Restwerte) = 0,00981081428708
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
 ---------------------------------------------------------------------------------------
 </log>

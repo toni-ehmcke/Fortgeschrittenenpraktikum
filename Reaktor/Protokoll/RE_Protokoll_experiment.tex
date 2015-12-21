@@ -1,7 +1,29 @@
 \section{Durchführung}
     \subsection{Reaktorstart}
-    %TODO Was muss vor Inbetriebnahme beachtet werden? Welche Kontrollleuchten gibt es? Wie funktioniert die Steuerung? Wofür gibt es die Schlüssel? Ertönen Warnsignale und wenn ja, wann und warum? 
-    Vor der Inbetriebnahme des Reaktors sind mehrere sicherheitsrelevante Prüfungen an dosimetrischen und nicht-dosimetrischen Einrichtungen vorzunehmen. Dies beinhaltet auch die Prüfung von Warnleuchten und Signalgebern auf ihre Funktionalität. Wenn alle Leuchten funktionieren, kann man mit der Überprüfung fortfahren. So muss überprüft werden, ob das Warnsignal bei Erreichen der Grenzwerte bei Leistung (2,2W) und Periodendauer (20s) auch tatsächlich ertönen kann, ob die Reaktorschnellabschaltung (RESA) funktionsfähig ist und alle Signale, betreffend der Stab-, Kernhälften- (KH) und Anfahrneutronenquellenpositionen (ANQ) am Operatortisch ankommen. Man setzt nun den RESA-Schalter am PC zurück, fährt ANQ und untere KH sowie auch die Steuerstäbe in die unterste Endstellung.
+    \underline{\textbf{Vor Inbetriebnahme}}  \\ 
+    Vor der Inbetriebnahme des Reaktors sind mehrere sicherheitsrelevante Prüfungen an dosimetrischen und nicht-dosimetrischen Einrichtungen vorzunehmen. Zu Beginn werden insbesondere die Anzeigen und Warnsignale auf ihre Funktionalität überprüft, da sie auf Grenzwertüberschreitungen und eine mögliche Reaktorschnellabschaltung hinweisen sollen. Nicht zuletzt wird darüber auch gewährleistet, dass die Messgeräte Signale geben,um als Reaktion darauf eine eventuelle Abschaltung des Reaktors zu verhindern.\\
+    Eine RESA findet unter verschiedenen Umständen statt. Zum einen ereignet sie sich bei einer Leistung von weniger als 0,25\unit{W}, da die Neutronenzählrate direkt Proportional zur Leistung sein soll, die statistischen Fehler allerdings bei geringen Leistungen zu groß werden. Einen Warnton erhält man bei 0,3\unit{W}. Zum anderen erfolgt eine RESA durch bei überhöhte Leistung bei 2,4\unit{W}. Einen Warnton erhält man ab 2,2\unit{W}.
+    Als Abschaltgrund gilt auch eine zu geringe Reaktorperiode. Während des Versuchs ist als Richtwert eine untere Grenze von 30\unit{s} einzuhalten. Eine Warnung ertönt bei 20\unit{s}, die RESA erfolgt bei 10\unit{s}.
+    Ein weiterer Grund für die RESA stellt die Temperatur des Moderators dar. Unterschreitet dieser 22\unit{°C} erfolgt hier eine Abschaltung.\\ \ \\
+    \underline{\textbf{Start}}\\
+    Ist man sich dieser Grenzwerte bewusst und hat man das akustische Signal gehört, kann fortgefahren werden. Man fährt die Anfahrneutronenquelle ein (ANQ) und beobachtet Änderungen in Leistung und Impulsraten (siehe Tablle \ref{df:ANQein}) . Danach wird überprüft, ob eine manuelle RESA möglich ist. Führt man diese durch, wird die untere Kernhälfte (uKH) abgeworfen. Dies geschieht auch immer genau dann, wenn die oben genannten Grenzwerte erreicht oder überschritten werden. 
+    Hat der Abwurf geklappt, kann mit dem Reaktorstart begonnen werden. Man beginnt damit, den RESA-Schalter mittels eines Schlüssels zurückzusetzen, fährt die ANQ in ihre untere Endstellung, fährt die uKH in ihre untere Endstellung. Die Steuerstäbe müssen in der oberen Endstellung stehen. Dies wird durch eine Anzeige, welche so aussieht wie das Schaltzeichen einer Glühlampe, markiert.
+    Sind diese Dinge gegeben, kann man den Antrieb der ANQ freigeben und sie in den Reaktor fahren. Sobald sie hineingefahren ist, herrscht ein Mindestneutronenfluss. Dieser ist durch zwei Softwareanzeigen ablesbar: 
+    \begin{center}
+    \begin{tabular}{l|c|c|c|c}
+             Softwareanzeige  & \multicolumn{2}{c|}{\textbf{PHI-WB1}} & \multicolumn{2}{c}{\textbf{PHI-WB2}}\\
+                              & Anfang & Endstellung & Anfang & Endstellung \\ 
+       \hline           P [mW]& 0,14   & 0,72        & 0,20   & 0,60        \\
+         Impulsrate [$s^{-1}$]& 0,3    & 7,5         & 0,4    & 6,3         
+    \end{tabular}
+    \captionof{table}{Änderung der Leistung und Impulsraten bei Einschub der ANQ}
+    \label{df:ANQein}
+    \end{center}
+    Wenn die uKH in ihrer oberen Endstellung angekommen ist, wird der Anlassschalter auf Ein gesetzt, was die Steuerstäbe einzeln ausfahrbereit macht. Diese werden nun einzeln ausgefahren, bis jeweils eine Reaktorperiode von $\approx$ 30\unit{s} erreicht wird.
+    Beim dritten Steuerstab wird nach Abklingen der prompten Neutronen die Verdopplungszeit $T_2$ mittels einer Stoppuhr gemessen. $T_2 = 39\unit{s}$ mit $P_1 = 0,7\unit{W}$ und $P_2 = 1,4\unit{W}$. Der Reaktor ist nun verzögert überkritisch und muss heruntergeregelt werden.\\ \ \\
+    \underline{\textbf{Reaktorbetrieb und Dosimetrie}}\\
+    Als kritische Leistung soll nun $P=1\unit{W}$ eingestellt werden. Ist dieser Wert erreicht, wird er konstant mithilfe der Nachkalibrierung des 3. Steuerstabs gehalten, währenddessen dosimetrische Messungen vorgenommen werden. Sind diese Messungen abgeschlossen werden sie bei einer Leistung von $P = 2\unit{W}$ an den gleichen Stellen wiederholt.
+    Als abschließende Steuerstabpositionen erhält man $x_{1\unit{W}} = 2238$ und $x_{2\unit{W}} = 2250$ bei einer konstanten Temperatur von 22,4\unit{°C}. Dies scheint verhältnismäßig konstant und mit der Temperatur des Moderators korelliert zu sein.
     \begin{center}
         \begin{tabular}{l|c|c|c|c}
                 \textbf{Ort} & \multicolumn{2}{c|}{\textbf{bei 1\unit{W}}} & \multicolumn{2}{c}{\textbf{bei 2\unit{W}}} \\
@@ -12,6 +34,22 @@
         \end{tabular}
         \captionof{table}{Dosimetrische Messung von Neutronen und Photonen an verschiedenen Orten und mit unterschiedlichen Leistungen}
         \label{dft:dosi}
+        \begin{figure}[H]
+            \subfigure[Dosisleistung von Neutronen\label{p:dosi_neu}]{\includegraphics[scale=0.35]{pic/neutronendosisleistung}}
+            \subfigure[$\gamma$-Dosisleistung\label{p:dosi_gamma}]{\includegraphics[scale=0.35]{pic/gamma_dosisleistung}}
+            \caption{Dosisleistungen bei verschiedenen Reaktorleistungen}
+            \label{df:dosi_g_n}                    
+        \end{figure}
     \end{center}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.5]{pic/Neutronendosisleistung_Abstand}
+            \caption{Dosisleistung der Neutronenstrahlung an verschiedenen Orten bei unterschiedlichen thermischen Leistungen}
+            \label{df:neu_abstand}
+        \end{figure}
+
+    \ \\    
+    Aus Tabelle \ref{dft:dosi} lässt sich für Neutronen das Abstandsquadratgesetz herleiten. Der direkt proportionale Zusammengang zwischen thermischer Reaktorleistung und der Dosisleistungen von Neutronen und 
+
     \subsection{Steuerstabkalibrierung}
 
