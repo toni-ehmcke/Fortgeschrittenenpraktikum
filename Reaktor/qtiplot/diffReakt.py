@@ -17,7 +17,7 @@ a = np.array([0.033, 0.219, 0.196, 0.395, 0.115, 0.042])
 # parameter, der Verhältnis aus mittlerer Lebensdauer der prompten Neutronen
 # und dem Anteil der verzögerten Neutronen ist (keine phys. Bedeutung)
 c = 0.0051 # in Sekunden
-dT_2 = 2.                                   # Fehler auf Verdopplungszeit in s
+dT_2 = 1.                                   # Fehler auf Verdopplungszeit in s
 dT_s = dT_2/np.log(2)                       # Fehler auf Reaktorperiode in s
 
 rho = np.zeros(5)                           # differentielle Reaktivität in $
@@ -26,5 +26,11 @@ for i in range(5):
     rho[i] = c/T_s[i] + np.sum(a/(1+zerfKonst*T_s[i]))
     drho[i] = (c/T_s[i]**2 + np.sum(a*zerfKonst/(1+zerfKonst*T_s[i])**2))*dT_s
 print rho, drho
+
+dIntRho = np.zeros(5)
+for i in range(5):
+    dIntRho[i] = np.sqrt(np.sum(drho[:i+1])**2)
+    print drho[:i+1]
+print dIntRho
 
 
