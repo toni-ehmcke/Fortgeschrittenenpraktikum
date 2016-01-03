@@ -1,0 +1,866 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	12
+<table>
+data_SSKL1	31	3	13.12.15 17:43
+geometry	73	391	617	487	
+header	z [digits][X]	d rho/ dz [$/digits][Y]	d rho[yEr]
+ColWidth	100	141	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	0	0	0
+1	413.5	0.0602	0.001
+2	1218	0.0755	0.0012
+3	1999	0.096	0.0021
+4	2817	0.0761	0.0013
+5	3622.5	0.0627	0.001
+6	4000	0	0
+</data>
+</table>
+<table>
+data_intSSKL1	30	3	13.12.15 18:38
+geometry	196	558	-1	-1	minimized	
+header	z[X]	rho[Y]	1[yEr]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	0	0	0
+1	827	0.0602	0.001
+2	1609	0.1357	0.0022
+3	2389	0.2317	0.0043
+4	3245	0.3078	0.0056
+5	4000	0.3705	0.0066
+</data>
+</table>
+<table>
+data_SSKL2	30	3	18.12.15 14:22
+geometry	314	246	445	220	
+header	z[X]	d rho /dz[Y]	D rho[yEr]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	0	0	0
+1	402	0.0627	0.001
+2	1365	0.0761	0.0013
+3	2276	0.096	0.0021
+4	2998.5	0.0755	0.0012
+5	3685.5	0.0602	0.001
+6	4000	0	0
+</data>
+</table>
+<table>
+data_intSSKL2	30	3	18.12.15 14:41
+geometry	371	0	445	220	
+header	z[X]	rho[Y]	drho[yEr]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel		2
+<data>
+0	0	0	0
+1	804	0.0627	0.001
+2	1926	0.1388	0.0022
+3	2626	0.2348	0.0043
+4	3371	0.3103	0.0056
+5	4000	0.3705	0.0066
+</data>
+</table>
+<table>
+data_intSSKL_all	30	9	18.12.15 14:46
+geometry	50	50	445	220	
+header	z1[X]	rho1[Y]	drho1[yEr]	z2[X]	rho2[Y]	drho2[yEr]	z3[X]	rho3[Y]	drho3[yEr]
+ColWidth	52	66	78	52	64	78	52	66	78	
+<com>
+<col nr="6">
+(col("z1") + col("z2"))/2
+</col>
+<col nr="7">
+(col("rho1") + col("rho2"))/2
+</col>
+<col nr="8">
+sqrt(col("drho1")^2 + col("drho2"))/2
+</col>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/2
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0
+Comments										
+WindowLabel		2
+<data>
+0	0	0	0	0	0	0	0	0	0
+1	827	0.0602	0.001	804	0.0627	0.001	815.5	0.06145	0.016
+2	1609	0.1357	0.001	1926	0.1388	0.001	1767.5	0.13725	0.016
+3	2389	0.2317	0.002	2626	0.2348	0.002	2507.5	0.23325	0.022
+4	3245	0.3078	0.003	3371	0.3103	0.003	3308	0.30905	0.027
+5	4000	0.3705	0.003	4000	0.3705	0.003	4000	0.3705	0.027
+</data>
+</table>
+<multiLayer>
+diffSSKL1	1	1	13.12.15 19:06
+geometry	0	0	510	430	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	493	368
+<PageGeometry>0.00996016	0.013089	0.982072	0.963351</PageGeometry>
+PlotTitle	Differentielle Steuerstabkennlinie (Stab 1)	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	z[digit]	d ρ / d z [$/digit]		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	10	75	0	0	0
+ScaleFont0	Noto Sans	8	75	0	0	0
+ScaleFont1	Noto Sans	8	75	0	0	0
+ScaleFont2	Noto Sans	8	75	0	0	0
+ScaleFont3	Noto Sans	8	75	0	0	0
+AxisFont0	Noto Sans	8	50	0	0	0
+AxisFont1	Noto Sans	8	50	0	0	0
+AxisFont2	Noto Sans	8	50	0	0	0
+AxisFont3	Noto Sans	8	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	data_SSKL1_z [digits]	data_SSKL1_d rho/ dz [$/digits]	2	1	#000000	0	1	5	9	#000000	#000000,0.179995	0	#000000	14	1	2	0	0	30	1
+ErrorBars	1	data_SSKL1_z [digits]	data_SSKL1_d rho/ dz [$/digits]	data_SSKL1_d rho	1	8	#000000	1	1	1	0
+scale	0	0	0.1	0	6	5	0	0
+scale	1	0	0.1	0	6	5	0	0
+scale	2	0	4000	0	5	5	0	0
+scale	3	0	4000	0	5	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+intSSKL1	1	1	13.12.15 19:16
+geometry	0	558	547	469	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	4	530	407
+<PageGeometry>0.00980392	0.0097561	1.03922	0.992683</PageGeometry>
+PlotTitle	Integrale Steuerstabkennlinie (Stab 1)	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	z [digit]	ρ [$]		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	11	75	0	0	0
+ScaleFont0	Noto Sans	9	75	0	0	0
+ScaleFont1	Noto Sans	9	75	0	0	0
+ScaleFont2	Noto Sans	9	75	0	0	0
+ScaleFont3	Noto Sans	9	75	0	0	0
+AxisFont0	Noto Sans	9	50	0	0	0
+AxisFont1	Noto Sans	9	50	0	0	0
+AxisFont2	Noto Sans	9	50	0	0	0
+AxisFont3	Noto Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	data_intSSKL1_z	data_intSSKL1_rho	2	1	#000000	0	1	7	9	#000000	#000000,0	0	#000000	14	1.5	2	0	0	29	1
+ErrorBars	1	data_intSSKL1_z	data_intSSKL1_rho	data_intSSKL1_1	1	8	#000000	1	1	1	0
+scale	0	0	0.4	0	9	5	0	0
+scale	1	0	0.4	0	9	5	0	0
+scale	2	0	4100	0	6	5	0	0
+scale	3	0	4100	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+diffSSKL2	1	1	18.12.15 14:33
+geometry	204	114	547	469	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	529	406
+<PageGeometry>0.00927644	0.0118765	0.981447	0.964371</PageGeometry>
+PlotTitle	Title	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	z [digit]	d ρ / dz [$/digit]		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	11	75	0	0	0
+ScaleFont0	Noto Sans	9	75	0	0	0
+ScaleFont1	Noto Sans	9	75	0	0	0
+ScaleFont2	Noto Sans	9	75	0	0	0
+ScaleFont3	Noto Sans	9	75	0	0	0
+AxisFont0	Noto Sans	9	50	0	0	0
+AxisFont1	Noto Sans	9	50	0	0	0
+AxisFont2	Noto Sans	9	50	0	0	0
+AxisFont3	Noto Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	data_SSKL2_z	data_SSKL2_d rho /dz	2	1	#000000	0	1	7	9	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	data_SSKL2_z	data_SSKL2_d rho /dz	data_SSKL2_D rho	1	8	#000000	1	1	1	0
+scale	0	0	0.1	0	6	5	0	0
+scale	1	0	0.1	0	6	5	0	0
+scale	2	0	4000	0	5	5	0	0
+scale	3	0	4000	0	5	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+intSSKL2	1	1	18.12.15 14:43
+geometry	109	66	547	469	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	529	406
+<PageGeometry>0.00927644	0.0118765	0.981447	0.964371</PageGeometry>
+PlotTitle	Integrale Steuerstabkennlinie (Stab 2)	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	z [digit]	ρ [$]		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	11	75	0	0	0
+ScaleFont0	Noto Sans	9	75	0	0	0
+ScaleFont1	Noto Sans	9	75	0	0	0
+ScaleFont2	Noto Sans	9	75	0	0	0
+ScaleFont3	Noto Sans	9	75	0	0	0
+AxisFont0	Noto Sans	9	50	0	0	0
+AxisFont1	Noto Sans	9	50	0	0	0
+AxisFont2	Noto Sans	9	50	0	0	0
+AxisFont3	Noto Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	data_intSSKL2_z	data_intSSKL2_rho	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	data_intSSKL2_z	data_intSSKL2_rho	data_intSSKL2_drho	1	8	#000000	1	1	1	0
+scale	0	0	0.4	0	9	5	0	0
+scale	1	0	0.4	0	9	5	0	0
+scale	2	0	4100	0	6	5	0	0
+scale	3	0	4100	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+intSSKL_all	1	1	18.12.15 14:56
+geometry	213	51	531	469	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	513	406
+<PageGeometry>0.00956023	0.0118765	0.98088	0.964371</PageGeometry>
+PlotTitle	Integrale Steuerstabkennlinie	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	z[digit]	ρ [$]		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	11	75	0	0	0
+ScaleFont0	Noto Sans	9	75	0	0	0
+ScaleFont1	Noto Sans	9	75	0	0	0
+ScaleFont2	Noto Sans	9	75	0	0	0
+ScaleFont3	Noto Sans	9	75	0	0	0
+AxisFont0	Noto Sans	9	50	0	0	0
+AxisFont1	Noto Sans	9	50	0	0	0
+AxisFont2	Noto Sans	9	50	0	0	0
+AxisFont3	Noto Sans	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	data_intSSKL_ges_z3	data_intSSKL_ges_rho3	2	1	#000000	1	1	7	9	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	data_intSSKL_ges_z2	data_intSSKL_ges_rho2	2	1	#ff0000	3	1	7	9	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+curve	data_intSSKL_ges_z1	data_intSSKL_ges_rho1	2	1	#00ff00	0	1	7	9	#00ff00	#00ff00	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	data_intSSKL_ges_z1	data_intSSKL_ges_rho1	data_intSSKL_ges_drho1	1	8	#00ff00	1	1	1	2
+ErrorBars	1	data_intSSKL_ges_z2	data_intSSKL_ges_rho2	data_intSSKL_ges_drho2	1	8	#ff0000	1	1	1	1
+ErrorBars	1	data_intSSKL_ges_z3	data_intSSKL_ges_rho3	data_intSSKL_ges_drho3	1	8	#000000	1	1	1	0
+scale	0	0	0.4	0	5	5	0	0
+scale	1	0	0.4	0	5	5	0	0
+scale	2	0	4100	0	6	5	0	0
+scale	3	0	4100	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+data_diffSSKL_all	30	6	29.12.15 18:36
+geometry	427	0	445	220	
+header	z1[X]	d rho1 / dz1[Y]	error 1[yEr]	z2[X]	d rho2 /dz2[Y]	error 2[yEr]
+ColWidth	100	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
+WindowLabel		2
+<data>
+0	0	0	0	0	0	0
+1	413.5	0.0602	0.001	402	0.0627	0.001
+2	1218	0.0755	0.001	1365	0.0761	0.001
+3	1999	0.096	0.001	2276	0.096	0.001
+4	2817	0.0761	0.001	2998.5	0.0755	0.001
+5	3622.5	0.0627	0.001	3685.5	0.0602	0.001
+6	4000	0	0	4000	0	0
+</data>
+</table>
+<multiLayer>
+diffSSKL_all	1	1	29.12.15 18:39
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	8	5	856	542
+<PageGeometry>0.00917431	0.0088968	0.981651	0.964413</PageGeometry>
+PlotTitle	Differentielle Steuerstabkennlinien	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	1	1	1	1	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	z [digit]	dρ/dz [$/digit]		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Noto Sans	15	75	0	0	0
+ScaleFont0	Noto Sans	12	75	0	0	0
+ScaleFont1	Noto Sans	12	75	0	0	0
+ScaleFont2	Noto Sans	12	75	0	0	0
+ScaleFont3	Noto Sans	12	75	0	0	0
+AxisFont0	Noto Sans	12	50	0	0	0
+AxisFont1	Noto Sans	12	50	0	0	0
+AxisFont2	Noto Sans	12	50	0	0	0
+AxisFont3	Noto Sans	12	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#212121	#212121	#212121	#212121
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	data_diffSSKL_all_z2	data_diffSSKL_all_d rho2 /dz2	2	1	#000000	1	1	7	9	#000000	#000000	0	#000000	14	1	2	0	0	29	1
+curve	data_diffSSKL_all_z1	data_diffSSKL_all_d rho1 / dz1	2	1	#ff0000	0	1	7	9	#ff0000	#ff0000	0	#000000	14	1	2	0	0	29	1
+ErrorBars	1	data_diffSSKL_all_z1	data_diffSSKL_all_d rho1 / dz1	data_diffSSKL_all_error 1	1	8	#ff0000	1	1	1	1
+ErrorBars	1	data_diffSSKL_all_z2	data_diffSSKL_all_d rho2 /dz2	data_diffSSKL_all_error 2	1	8	#000000	1	1	1	0
+scale	0	0	0.1	0	6	5	0	0
+scale	1	0	0.1	0	6	5	0	0
+scale	2	0	4100	0	6	5	0	0
+scale	3	0	4100	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>153.6023054755</x>
+<y>0.095912408759124</y>
+<right>1104.75504322767</right>
+<bottom>0.0792700729927007</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(2)%(2)
+</Text>
+<Font>Noto Sans	12	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[16.12.15 12:39	Diagramm: ''Grafik2'']
+Nichtlinearer Fit von Datensatz: Tabelle1_dt-n2w, unter Verwendung der Funktion: k/(d0-x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 7,0000000000000e+00
+d0 = -4,8327489918553e-01 +/- inf
+k = 7,2799224189731e+00 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = inf
+R^2 = 1
+RSS (Summe der quadrierten Restwerte) = 1,697126386791e-19
+---------------------------------------------------------------------------------------
+Iterationen = 5
+Status = success
+---------------------------------------------------------------------------------------
+[16.12.15 12:42	Diagramm: ''Grafik2'']
+Nichtlinearer Fit von Datensatz: Tabelle1_Dt-g2w, unter Verwendung der Funktion: k/(x-do)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 7,0000000000000e+00
+do = -2,3606797101294e-01 +/- inf
+k = 2,6180339855958e+01 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = inf
+R^2 = 1
+RSS (Summe der quadrierten Restwerte) = 4,923856080614e-17
+---------------------------------------------------------------------------------------
+Iterationen = 8
+Status = success
+---------------------------------------------------------------------------------------
+[16.12.15 12:44	Diagramm: ''Grafik2'']
+Nichtlinearer Fit von Datensatz: Tabelle1_Dt-g2w, unter Verwendung der Funktion: k/(x+d0)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 7,0000000000000e+00
+d0 = 2,3606797749979e-01 +/- inf
+k = 2,6180339887499e+01 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = inf
+R^2 = 1
+RSS (Summe der quadrierten Restwerte) = 1,972152263053e-31
+---------------------------------------------------------------------------------------
+Iterationen = 13
+Status = success
+---------------------------------------------------------------------------------------
+[16.12.15 12:45	Diagramm: ''Grafik2'']
+Nichtlinearer Fit von Datensatz: Tabelle1_dt-n2w, unter Verwendung der Funktion: k/(x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 7,0000000000000e+00
+k = 5,4316559226459e+00 +/- 1,7234891216648e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,7908944399678e-04
+R^2 = 0,9965677732549
+RMSE (Standardabweichung) = 0,01947021941316
+RSS (Summe der quadrierten Restwerte) = 0,0003790894439968
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+
+[19.12.15 18:16	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D/t-g, unter Verwendung der Funktion: c/x^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 9,5294117647059e+00 +/- 1,4823529424748e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,8823529411765e-02
+R^2 = 0,9423529411765
+RMSE (Standardabweichung) = 0,1697749375254
+RSS (Summe der quadrierten Restwerte) = 0,02882352941176
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+[19.12.15 18:18	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D/t-g, unter Verwendung der Funktion: c/(d+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 1,0360298854856e+15 +/- inf
+d = -4,1554017365758e+07 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = inf
+R^2 = -1,734503374262e-07
+RSS (Summe der quadrierten Restwerte) = 0,5000000867252
+---------------------------------------------------------------------------------------
+Iterationen = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[19.12.15 18:19	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D/t-g, unter Verwendung der Funktion: c/(d-x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 5,3130829150964e-01 +/- inf
+d = 3,6949874371066e+00 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = inf
+R^2 = 1
+RSS (Summe der quadrierten Restwerte) = 2,216003497775e-27
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[19.12.15 18:19	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D/t-g, unter Verwendung der Funktion: c/(d-x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 5,3130829150963e-01 +/- inf
+d = 3,6949874371066e+00 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = inf
+R^2 = 1
+RSS (Summe der quadrierten Restwerte) = 4,949639957075e-32
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[19.12.15 18:19	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D/t-g, unter Verwendung der Funktion: c/(x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 9,5294117647059e+00 +/- 1,4823529424748e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,8823529411765e-02
+R^2 = 0,9423529411765
+RMSE (Standardabweichung) = 0,1697749375254
+RSS (Summe der quadrierten Restwerte) = 0,02882352941176
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+[19.12.15 18:20	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D/t-g, unter Verwendung der Funktion: c/(x-d)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 5,3130829150964e-01 +/- inf
+d = 3,6949874371066e+00 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = inf
+R^2 = 1
+RSS (Summe der quadrierten Restwerte) = 2,216003497775e-27
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[19.12.15 18:21	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D/t-g, unter Verwendung der Funktion: c/x^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 7,0000000000000e+00
+c = 1,5503771988042e+01 +/- 1,7851321441028e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3,2004720457855e-02
+R^2 = 0,9995689793438
+Angepasstes R^2 = 0,9991379586876
+RMSE (Standardabweichung) = 0,1788986317943
+RSS (Summe der quadrierten Restwerte) = 0,06400944091571
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+
+[20.12.15 16:57	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D/t-g, unter Verwendung der Funktion: c/(1+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 1,0000000000000e+00 bis x = 7,0000000000000e+00
+c = 6,0931150228215e+01 +/- 4,4824207309332e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2928086279224e+00
+R^2 = 0,9825892176164
+Angepasstes R^2 = 0,9651784352328
+RMSE (Standardabweichung) = 1,137017426393
+RSS (Summe der quadrierten Restwerte) = 2,585617255845
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[20.12.15 16:58	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D/t-g, unter Verwendung der Funktion: c/(d+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 1,5514755414191e+01 +/- 3,7176713401434e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,3848950321584e-01
+R^2 = 0,9981349052359
+Angepasstes R^2 = 0,9962698104718
+RMSE (Standardabweichung) = 0,37214177838
+RSS (Summe der quadrierten Restwerte) = 0,2769790064317
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+d = 1 (Konstante)
+---------------------------------------------------------------------------------------
+[20.12.15 21:30	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D-t-2, unter Verwendung der Funktion: c/(d+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 4,3214724459063e+00 +/- 2,3512780440689e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,5524067450386e-02
+R^2 = 0,9893563407849
+Angepasstes R^2 = 0,9787126815697
+RMSE (Standardabweichung) = 0,2356354545699
+RSS (Summe der quadrierten Restwerte) = 0,1110481349008
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+d = 1 (Konstante)
+---------------------------------------------------------------------------------------
+[20.12.15 21:30	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D-t-2, unter Verwendung der Funktion: c/(d+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 3,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 4,0949563622117e+00 +/- inf
+d = -3,8754382427095e-01 +/- inf
+--------------------------------------------------------------------------------------
+Chi^2/doF = inf
+R^2 = 1
+RSS (Summe der quadrierten Restwerte) = 4,759700911241e-22
+---------------------------------------------------------------------------------------
+Iterationen = 6
+Status = success
+---------------------------------------------------------------------------------------
+[20.12.15 21:30	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D-t-2, unter Verwendung der Funktion: c/(d+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 4,3214724459056e+00 +/- 2,3512780432627e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,5524067450386e-02
+R^2 = 0,9893563407849
+Angepasstes R^2 = 0,9787126815697
+RMSE (Standardabweichung) = 0,2356354545699
+RSS (Summe der quadrierten Restwerte) = 0,1110481349008
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+d = 1 (Konstante)
+---------------------------------------------------------------------------------------
+[20.12.15 21:40	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D-t-2, unter Verwendung der Funktion: c/(1+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 4,3214724459063e+00 +/- 2,3512780440689e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,5524067450386e-02
+R^2 = 0,9893563407849
+Angepasstes R^2 = 0,9787126815697
+RMSE (Standardabweichung) = 0,2356354545699
+RSS (Summe der quadrierten Restwerte) = 0,1110481349008
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+[20.12.15 21:40	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D-t-2, unter Verwendung der Funktion: c/(1+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 4,3214724459060e+00 +/- 2,3512780428603e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,5524067450386e-02
+R^2 = 0,9893563407849
+Angepasstes R^2 = 0,9787126815697
+RMSE (Standardabweichung) = 0,2356354545699
+RSS (Summe der quadrierten Restwerte) = 0,1110481349008
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+[20.12.15 21:40	Diagramm: ''Grafik1'']
+Nichtlinearer Fit von Datensatz: Tabelle1_D-t-1, unter Verwendung der Funktion: c/(1+x)^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 0,0000000000000e+00 bis x = 6,0000000000000e+00
+c = 2,5045306992709e+00 +/- 6,9887721405742e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,9054071435398e-03
+R^2 = 0,9972906286489
+Angepasstes R^2 = 0,9945812572978
+RMSE (Standardabweichung) = 0,07003861180477
+RSS (Summe der quadrierten Restwerte) = 0,00981081428708
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = success
+---------------------------------------------------------------------------------------
+
+</log>

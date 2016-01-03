@@ -30,7 +30,6 @@ print rho, drho
 dIntRho = np.zeros(5)
 for i in range(5):
     dIntRho[i] = np.sqrt(np.sum(drho[:i+1])**2)
-    print drho[:i+1]
 print dIntRho
 
 
