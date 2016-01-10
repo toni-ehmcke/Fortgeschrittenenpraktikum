@@ -2,12 +2,8 @@
     \subsection{Reaktorstart}
     \underline{\textbf{Vor Inbetriebnahme}}  \\ 
     Vor der Inbetriebnahme des Reaktors sind mehrere sicherheitsrelevante Prüfungen an dosimetrischen und nicht-dosimetrischen Einrichtungen vorzunehmen. Zu Beginn werden insbesondere die Anzeigen und Warnsignale auf ihre Funktionalität überprüft, da sie auf Grenzwertüberschreitungen und eine mögliche Reaktorschnellabschaltung hinweisen sollen. Nicht zuletzt wird darüber auch gewährleistet, dass die Messgeräte Signale geben,um als Reaktion darauf eine eventuelle Abschaltung des Reaktors zu verhindern.\\
-    Eine RESA findet unter verschiedenen Umständen statt. Zum einen ereignet sie sich bei einer Leistung von weniger als 0,25\unit{W}, da die Neutronenzählrate direkt Proportional zur Leistung sein soll, die statistischen Fehler allerdings bei geringen Leistungen zu groß werden. Einen Warnton erhält man bei 0,3\unit{W}. Zum anderen erfolgt eine RESA durch bei überhöhte Leistung bei 2,4\unit{W}. Einen Warnton erhält man ab 2,2\unit{W}.
-    Als Abschaltgrund gilt auch eine zu geringe Reaktorperiode. Während des Versuchs ist als Richtwert eine untere Grenze von 30\unit{s} einzuhalten. Eine Warnung ertönt bei 20\unit{s}, die RESA erfolgt bei 10\unit{s}.
-    Ein weiterer Grund für die RESA stellt die Temperatur des Moderators dar. Unterschreitet dieser 22\unit{°C} erfolgt hier eine Abschaltung.\\ \ \\
-    \underline{\textbf{Start}}\\
-    Ist man sich dieser Grenzwerte bewusst und hat man das akustische Signal gehört, kann fortgefahren werden. Man fährt die Anfahrneutronenquelle ein (ANQ) und beobachtet Änderungen in Leistung und Impulsraten (siehe Tablle \ref{df:ANQein}) . Danach wird überprüft, ob eine manuelle RESA möglich ist. Führt man diese durch, wird die untere Kernhälfte (uKH) abgeworfen. Dies geschieht auch immer genau dann, wenn die oben genannten Grenzwerte erreicht oder überschritten werden. 
-    Hat der Abwurf geklappt, kann mit dem Reaktorstart begonnen werden. Man beginnt damit, den RESA-Schalter mittels eines Schlüssels zurückzusetzen, fährt die ANQ in ihre untere Endstellung, fährt die uKH in ihre untere Endstellung. Die Steuerstäbe müssen in der oberen Endstellung stehen. Dies wird durch eine Anzeige, welche so aussieht wie das Schaltzeichen einer Glühlampe, markiert.
+    Ist man sich dieser Grenzwerte bewusst und hat man das akustische Signal gehört, kann fortgefahren werden. Man fährt die Anfahrneutronenquelle ein (ANQ) und beobachtet Änderungen in Leistung und Impulsraten (siehe Tabelle \ref{df:ANQein}) . Danach wird überprüft, ob eine manuelle RESA möglich ist. Führt man diese durch, wird die untere Kernhälfte (uKH) abgeworfen. Dies geschieht auch immer genau dann, wenn die in der Einleitung genannten Grenzwerte erreicht oder überschritten werden. 
+    Hat der Abwurf geklappt, kann mit dem Reaktorstart begonnen werden. Man beginnt damit, den RESA-Schalter mittels eines Schlüssels zurückzusetzen, fährt die ANQ in ihre untere Endstellung, fährt die uKH in ihre untere Endstellung. Die Steuerstäbe müssen in der unteren Endstellung stehen. Dies wird durch eine Anzeige, welche so aussieht wie das Schaltzeichen einer Glühlampe, markiert.
     Sind diese Dinge gegeben, kann man den Antrieb der ANQ freigeben und sie in den Reaktor fahren. Sobald sie hineingefahren ist, herrscht ein Mindestneutronenfluss. Dieser ist durch zwei Softwareanzeigen ablesbar: 
     \begin{center}
     \begin{tabular}{l|c|c|c|c}
@@ -24,11 +20,13 @@
     \underline{\textbf{Reaktorbetrieb und Dosimetrie}}\\
     Als kritische Leistung soll nun $P=1\unit{W}$ eingestellt werden. Ist dieser Wert erreicht, wird er konstant mithilfe der Nachkalibrierung des 3. Steuerstabs gehalten, währenddessen dosimetrische Messungen vorgenommen werden. Schematisch läuft diese Regelung wie in Abbildung \ref{skizze_leistung}.
      Sind diese Messungen abgeschlossen werden sie bei einer Leistung von $P = 2\unit{W}$ an den gleichen Stellen wiederholt.
-    \begin{figure}
-        \includegraphics[scale=0.3]{pic/verhalten.png}
-        \caption{Schematisches Verhalten bei Leistungseinstellung durch Steuerstabverschiebung}
-        \label{skizze_leistung}
-    \end{figure}
+   	\begin{center}
+    	\begin{figure}
+            \includegraphics[scale=0.3]{pic/verhalten.png}
+       		 \caption{Schematisches Verhalten bei Leistungseinstellung durch Steuerstabverschiebung\cite{start}}
+      	 	 \label{skizze_leistung}
+   		 \end{figure}
+    \end{center}
     Als abschließende Steuerstabpositionen erhält man $x_{1\unit{W}} = 2238$ und $x_{2\unit{W}} = 2250$ bei einer konstanten Temperatur von 22,4\unit{°C}. Dies scheint verhältnismäßig konstant und mit der Temperatur des Moderators korreliert zu sein.
     Die dosimetrischen Messungen werden an den Standorten gemäß Abbildung \ref{skizze} vorgenommen und notiert. Bei den in Tabelle \ref{dft:dosi} angegebenen Abständen (geklammerte Werte in Spalte \glqq Ort \grqq) handelt es sich um grobe Schätzwerte. \\ \ \\
          \begin{tabular}{l|c|c|c|c}
@@ -46,7 +44,7 @@
     \begin{equation*}
         \dot D_P = \frac{c_P}{\left(r_{Tank} + d\right)^2}
     \end{equation*}
-    Dabei stellt $P$ die thermische Reaktorleistung dar, $r_Tank$ ist der Tankradius, $d$ der Abstand zum Tank undd $c_P$ ist eine Proportionalitätskonstante. Der Tankradius ist als $r_Tank = 1\unit{m}$ angenommen worden.
+    Dabei stellt $P$ die thermische Reaktorleistung dar, $r_{Tank}$ ist der Tankradius, $d$ der Abstand zum Tank und $c_P$ ist eine Proportionalitätskonstante. Der Tankradius ist als $r_{Tank} = 1\unit{m}$ angenommen worden.
     Aufgrund dieses Fits ergeben sich folgende Proportionalitätskonstanten:
     $$ c_{1W} = (4,3 \pm 0,2)\unit{\frac{\mu Sv m^2}{h}} \ , \ c_{2W} = (2,5 \pm 0,07)\unit{\frac{\mu Sv m^2}{h}} $$
     \begin{figure}
@@ -66,7 +64,7 @@
         \begin{figure}
             \subfigure[Dosisleistung von Neutronen\label{p:dosi_neu}]{\includegraphics[scale=0.35]{pic/neutronendosisleistung}}
             \subfigure[$\gamma$-Dosisleistung\label{p:dosi_gamma}]{\includegraphics[scale=0.35]{pic/gamma_dosisleistung}}
-            \caption{Dosisleistungen bei verschiedenen Reaktorleistungen}
+            \caption{Dosisleistungen bei verschiedenen Reaktorleistungen zu jeweils festem Abstand. grün - Reaktorwand, rot - Operatortisch, blau - Ecke}
             \label{df:dosi_g_n}                    
         \end{figure}
     Als nächstes wird die Zunahme der Dosisleistung von $\gamma$- und Neutronenstrahlung betrachtet. Für Neutronenstrahlung ist dies in Abbildung \ref{p:dosi_neu}, für $\gamma$-Strahlung in Abbildung \ref{p:dosi_gamma} dargestellt.
@@ -78,6 +76,45 @@
 
 
     \subsection{Steuerstabkalibrierung}
+    Es folgt nun die Aufnahme der differentiellen und integralen Steuerstabkennlinien. Ausgangspunkt dafür ist ein kritischer Zustand des Reaktors bei relativ geringer Leistung ($P = 0,3\ \unit{W}$), wobei Steuerstab 1 komplett in der Spaltzone verbleibt ($z_1 = 0$), der zweite Stab komplett ausgefahren ist ($z_2 = 4000\ \unit{digit}$) und der dritte Absorber für den kritischen Zustand bei $z_3 = 2924\ \unit{digit}$ sorgt. Anschließend wird dem Reaktor etwas Reaktivität zugeführt, in dem Stab 1 aus der Spaltzone gefahren wird ($z_1 = 827\ \unit{digit}$). Nachdem die Effekte der prompten Neutronen abgeklungen sind (nach etwa einer Minute) stellt sich eine stabile Verdopplungszeit $T_2$ ein, die mit einer gewöhnlichen Stoppuhr aufgenommen wird, indem man ausgehend von einem willkürlichen Leistungswert die Zeit bis zu dessen Verdopplung misst. Aufgrund der Reaktionszeit wird eine Messunsicherheit von $\Delta T_2 = 1\ \unit{s}$ angenommen. Die zugeführte differentielle Reaktivität $\Delta\rho_1\prime$ wird über die Beziehung $T_s = T_2 / \ln2$ und die Inhour-Gleichung (\ref{int:inhour}) bestimmt. Anschließend wird die verschobene Neutronenbilanz durch Verschieben von Steuerstab 2 wieder zum Gleichgewicht, d.h. dem kritischen Zustand, korrigiert (neue Position $z_2 = 3371\ \unit{digit}$). Dadurch kann auch gleichzeitig die differentielle Steuerstabkennlinie für diesen Steuerstab aufgenommen werden, indem man analoge Berechnungen vornimmt. Diese Prozedur wird wiederholt, bis Stab 1 komplett aus der Spaltzone ausgefahren ist und Stab 2 eingefahren ist. Dabei wurde festgestellt, dass am Ende trotz der Symmetrie des Reaktors kein exakt kritischer Zustand vorlag, sondern der dritte Stab am Ende noch um 122 Einheiten in die Spaltzone eingefahren werden musste. Daraus folgt, dass Stab 2 weniger Neutronen absorbiert als Stab 1. Die Tabelle(\ref{exp:dataDiffSSKL}) fasst die aufgenommenen Messwerte mit ihrer Messunsicherheit, die für die differentielle und integrale Steuerstabkennlinie von Stab 1 benötigt werden, zusammen. Für Stab 2 muss man die differentiellen Reaktivitätswerte 'von unten nach oben' über den entsprechenden Stabpositionen auftragen. Um die eigentliche differentielle Reaktivität $\mathrm{d}\rho_i\prime/\mathrm{d}z_i$ zu bestimmen, müsste man noch die ermittelten Reaktivitätsänderungen $\Delta\rho_i\prime$ durch die jeweils verschobene Strecke $\Delta z_i \cong 800\ \unit{digit}$ teilen. Dies würde den qualitativen Verlauf des Graphen allerdings nicht verändern. Da alle wichtigen Kenngrößen ohnehin aus der integralen Kennlinie ermittelt werden, wird die Verschiebungsstrecke später ohnehin wieder heranmultipliziert.\\
+    \begin{center}
+   
+    	\begin{tabular}{c|c|c|c|c|c}
+    	Zustand	&	$z_1\ [\unit{digit}]$	&	$z_2\ [\unit{digit}]$	&	$z_3\ [\unit{digit}]$	&	$T_2\ [\unit{s}]$	&	$T_s\ [\unit{s}]$\\
+    	\hline
+    	Kritisch	&	0		&	4.000	&	2.924	&	-	&	-	\\
+    	ÜK			&	827		&	4.000	&	2.924	&	127	&	183\\
+    	Kritisch	&	827		&	3.371	&	2.924	&	-	&	-\\
+    	ÜK			&	1.609	&	3.371	&	2.924	&	97	&	140\\
+    	Kritisch	&	1.609	&	2.626	&	2.924	&	-	&	-\\
+    	ÜK			&	2.389	&	2.626	&	2.924	&	72	&	140\\
+    	Kritisch	&	2.389	&	1.926	&	2.924	&	-	&	-\\
+    	ÜK			&	3.245	&	1.926	&	2.924	&	96	&	139\\
+    	Kritisch	&	3.245	&	804		&	2.924	&	-	&	-\\
+    	ÜK			&	4.000	&	804		&	2.924	&	121	&	175\\
+    	Kritisch	&	4.000	&	0		&	2.802	&	-	&	-	
+    	\end{tabular} \caption{Messung der Reaktorperiode $T_s$ durch Kompensationsmessung. (ÜK = verzögert überkritisch)}
+    	\hspace{3mm}
+    	
+    	\begin{tabular}{c|c|c|c|c|c} \label{exp:dataDiffSSKL}
+    	$z_1\ [\unit{digit}]$	&	$\Delta\rho_1\prime\ [\unit{\$}]$	&	$\Delta(\Delta\rho_1\prime)\ [\unit{\$}]$	&	$z_2\ [\unit{digit}]$	&	$\Delta\rho_2\prime\ [\unit{\$}]$	&	$\Delta(\Delta\rho_2\prime)\ [\unit{\$}]$\\
+    	\hline		
+    	0		&	0		&		0	&	0		&	0		&	0\\
+    	413,5	&	0,0602	&	0,001	&	402		&	0,0627	&	0,001\\
+    	1.218	&	0,0755	&	0,001	&	1.365	&	0,0761	&	0,001\\
+    	1.999	&	0,096	&	0,001	&	2.276	&	0,096	&	0,001\\
+    	2.817	&	0,0761	&	0,001	&	2.998,5	&	0,0755	&	0,001\\
+    	3.622,5	&	0,0627	&	0,001	&	3.685,5	&	0,0602	&	0,001\\
+    	4.000	&	0		&	0		&	4.000	&	0		&	0    	
+    	\end{tabular}\caption{Daten für die differentielle Steuerstabkennlinie.}	
+    \end{center}
+   
+    Dabei wurde zunächst nur die Verdopplungszeit als fehlerbehaftet angenommen, da andere Fehler nicht bekannt waren. Es wurden folgende Relation und die Angaben aus Abbildung \ref{int:datenInhour} verwendet:
+    	\begin{equation}
+    		\Delta(\Delta\rho_i\prime) = \abs{\frac{\partial\Delta\rho_i\prime}{\partial T_s}}\Delta T_s \overset{(\ref{int:inhour})}{=} 
+    		\frac{l^*}{\beta}\frac{1}{T_s^2}+\sum_{i = 1}^{6}  \frac{a_i \lambda_i}{(1+\lambda_i T_s)^2}
+    	\end{equation}
+    Abbildung \ref{exp:diffSSKL} zeigt das Ergebnis für beide differentielle Steuerstabkennlinien. Sie entsprechen für die geringe Anzahl an Messpunkten dem erwarteten Verlauf, d.h. dass die Steuerstäbe in den Mittelpositionen für $z \cong 2000\ \unit{digit}$ die größte Reaktivitätsveränderung hervorrufen.
 		\begin{figure}[hp]
 				\centering
 				\captionsetup{justification=centering}
@@ -88,16 +125,53 @@
 				Stab 1: rot durchgezogen, Stab 2: schwarz gestrichelt}
 				\label{exp:diffSSKL}
 		\end{figure}
+		\ \\
+		Im nächsten Schritt werden die integralen Steuerstabkennlinien bestimmt. Für den $i$-ten Datenpunkt der Kennlinie des $n$-ten Steuerstabes ($n \in \{1,2\}$) summieren wir über die eben aufgenommenen differentiellen Reaktivitäten.
+			\begin{align}
+				\rho_{n,i}\prime &= \sum_{j \leq i} \Delta \rho_{n,j}\prime\\
+				\Delta(\rho_{n,i}\prime) &= \sqrt{\sum_{j \leq i} \Delta(\Delta \rho_{n,j}\prime)^2}
+			\end{align}
+		
+		Der Graph für den dritten Steuerstab ergibt sich aufgrund von Symmetrie in erster Näherung als arithmetischer Mittelwert der beiden anderen.
+				\begin{align}
+					\rho_{3,i}\prime &= \frac{1}{2}(\rho_{1,i}\prime +  \rho_{2,i}\prime)\\
+					\Delta(\rho_{3,i}\prime) &= \frac{1}{2}\sqrt{(\rho_{1,i}\prime)^2 +  (\rho_{2,i}\prime)^2}
+				\end{align}
+		Mit diesem Vorgehen ergeben sich die folgenden integralen Steurstabkennlinien, welche in Abbildung \ref{exp:intSSKL} dargestellt sind.
+		\begin{center}
+			\begin{tabular}{c|c|c|c|c|c|c|c|c} \label{exp:dataIntSSKL}
+		    	$z_1\ [\unit{digit}]$	&	$ \rho_1\prime [\unit{\$}]$	&	$ \Delta\rho_1\prime [\unit{\$}]$	&	
+		    	$z_2\ [\unit{digit}]$	&	$ \rho_2\prime [\unit{\$}]$	&	$ \Delta \rho_2\prime [\unit{\$}]$	&
+		    	$z_3\ [\unit{digit}]$	&	$ \rho_3\prime [\unit{\$}]$	&	$ \Delta \rho_3\prime [\unit{\$}]$\\
+		    	\hline
+		    	0		&	0		&	0		&	0		&	0		&	0		&	0		&	0		&	0\\
+		    	827		&	0,0602	&	0,001	&	804		&	0,0627	&	0,001	&	815,5	&	0,06	&	0,02\\
+		    	1.609	&	0,1357	&	0,001	&	1.926	&	0,1388	&	0,001	&	1.767,5	&	0,14	&	0,02\\
+		    	2.389	&	0,2317	&	0,002	&	2.626	&	0,2348	&	0,002	&	2.507,5	&	0,23	&	0,02\\
+		    	3.245	&	0,3078	&	0,003	&	3.371	&	0,3103	&	0,003	&	3.308	&	0,31	&	0,03\\
+		    	4.000	&	0,3705	&	0,003	&	4.000	&	0,3705	&	0,003	&	4.000	&	0,37	&	0,03	
+		 	\end{tabular}\caption{Daten für die integrale Steuerstabkennlinie.}	
+		\end{center}	
 		
 		\begin{figure}[hp]
-						\centering
-						\captionsetup{justification=centering}
-						\scalebox{0.6}{
-							\input{pic/intSSKL_all}
-						}
-						\caption{Integrale Steuerstabkennlinie. \\
-						Stab 1: grün durchgezogen, Stab 2: rot punkt-strich, Stab 3: schwarz gestrichelt}
-						\label{exp:intSSKL}
+								\centering
+								\captionsetup{justification=centering}
+								\scalebox{0.6}{
+									\input{pic/intSSKL_all}
+								}
+								\caption{Integrale Steuerstabkennlinie. \\
+								Stab 1: grün durchgezogen, Stab 2: rot punkt-strich, Stab 3: schwarz gestrichelt}
+								\label{exp:intSSKL}
 		\end{figure}
-			
+		Ausgehend vom kritischen Zustand bei $(z_1,z_2,z_3) = (0, 4.000, 2.924)\ \unit{digit}$ ergeben sich die charakteristischen Reaktvitäten zu:
+		\begin{align*}
+			\rho_{max} &= \rho_{1,max} + \rho_{2,max} + \rho_{3,max} = (1,12 \pm 0,03)\ \unit{\$}\\
+			\rho_{\ddot{U}berschuss} &= \rho_{1,\ddot{U}berschuss} + \rho_{2,\ddot{U}berschuss} + \rho_{3,\ddot{U}berschuss}  = (0,64 \pm 0,03)\ \unit{\$}\\
+			\rho_{Abschalt} &= \rho_{max} - \rho_{\ddot{U}berschuss} = (0,48 \pm 0,04)\ \unit{\$}
+		\end{align*}
+		
+	\subsection{Bestimmung der Reaktivität einer Cadmium-Probe}
+	Im nächsten Teil des Experimentes wurde über einen Experimentierkanal eine Cadmiumprobe in die Spaltzone eingebracht, um zu untersuchen, welchen Einfluss dies auf die Neutronenbilanz hat. Dafür wurde der Reaktor zunächst in einen kritischen Zustand versetzt. Dabei waren die zugehörigen Steuerstabpositionen: $(z_1,z_2,z_3) = (2.406, 2.251, 2.513)\ \unit{digit}$. Nach Einführen der Probe befand sich der Reaktor in einem unterkritischen Zustand, weshalb die Reaktorleistung allmählich gefallen ist. Um dies auszugleichen, wurde dem Reaktor durch Ausfahren von Steuerstab 1 Reaktivität zugeführt bis er wieder kritisch war. Die neuen kritischen Stabpositionen ergeben sich zu:  $(z_1\prime,z_2\prime,z_3\prime) = (3.888, 2.251, 2.513)\ \unit{digit}$. Um die Reaktivität zu bestimmen, betrachten wir nun die Änderung der integralen Steuerstabkennlinie von Stab 1 unter Verschiebung von Position $z_1$ nach $z_1\prime$. Es ergibt sich: 
+	$$\rho_{Cd}\prime = \rho_1(z_1\prime)\prime - \rho_1(z_1)\prime = (0,13 \pm 0,02)\ \unit{\$}$$
+	Wobei aufgrund der begrenzten Ablesegenauigkeit $\Delta \rho_1(z_1\prime)\prime = \Delta \rho_1(z_1)\prime = 0,01\ \unit{\$}$ angenommen wurde.
 	
