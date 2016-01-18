@@ -27,8 +27,11 @@ def onMouseClick(event):
         print "tau_i =", x_i * T, " us"
         x_ip1 =  getNextIteration(x_i, t, counts, T, N, cMin, cMax)
         axHist.plot(x_i,0, ls='', marker='o')
+        axHist.set_title(r'Mittlere Lebensdauer von Myonen mit Exponentialfunktion $\tau =$' +
+                         str(round(x_i * T,2)) + r'$\pm$' + str(round(sigma_tau,2)) + r' $\mu s$')
         plt.draw()
         x_i = x_ip1
+        
         
 
 def f(x_i, t, counts, T, N, cMin, cMax):
@@ -80,12 +83,12 @@ global x_i
 x_i =  x_0  
 x = np.linspace(10e-9,1,100)        # sample points for plotting f
 
-fig = plt.figure("Pressure measurement", figsize=(15,8))
+fig = plt.figure("Mittlere Lebensdauer von Myonen", figsize=(15,8))
 axHist = fig.add_subplot(111)
-axHist.set_xlabel(r'$x$')
+axHist.set_xlabel(r'$x = \frac{\tau}{T}$')
 axHist.set_ylabel(r'$f(x)$')
 axHist.set_xlim([0, 1])
-axHist.set_title('Newton-Method')
+axHist.set_title(r'Mittlere Lebensdauer von Myonen mit Exponentialfunktion')
 axHist.plot(x, f(x, t, counts, T, N, cMin, cMax))
 axHist.plot(x, np.zeros(len(x)))
 
