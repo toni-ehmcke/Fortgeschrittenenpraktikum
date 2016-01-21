@@ -42,8 +42,8 @@
 		\begin{equation} 
 			\sigma_{\hat{\tau}} = \frac{1}{N}\sqrt{\sum\nolimits_{K=K_{min}}^{K_{max}} N_K\cdot \tau_K^2}
 		\end{equation}	
-	Die Abbildungen \ref{fig:LDexpZerf1} und \ref{fig:LDexpZerf2} visualisieren die graphische Lösung der impliziten Gleichung (\ref{eq:mastereq}). Die starke Abhängigkeit von den verwendeten Kanälen erklärt sich erst bei genauerem betrachten der Messdaten. Es stellt sich heraus, dass die Zählraten in den Kanälen 3 bis 15  mit einer Größenordnung $\mathcal{O}(10^3)$ zehnfach so groß sind, wie jene in den 'erwarteten Kanälen' (ab 40). Dies könnte durch zufällige Koinzidenzen ausgelöst werden, welche zum Beispiel durch Reaktion der Szintillatoren auf die uns natürlich umgebende Radioaktivität verursacht werden können.\\
-		\begin{figure}[hp]
+	Die Abbildungen \ref{fig:LDexpZerf1} und \ref{fig:LDexpZerf2} visualisieren die graphische Lösung der impliziten Gleichung (\ref{eq:mastereq}). Die starke Abhängigkeit von den verwendeten Kanälen erklärt sich erst bei genauerem betrachten der Messdaten. Es stellt sich heraus, dass die Zählraten in den Kanälen 3 bis 15  mit einer Größenordnung $\mathcal{O}(10^3)$ zehnfach so groß sind, wie jene in den 'erwarteten Kanälen' (ab 40). Dies könnte durch zufällige Koinzidenzen ausgelöst werden, welche zum Beispiel durch Reaktion der Szintillatoren auf die uns natürlich umgebende Radioaktivität verursacht werden können. Man sieht, dass der ermittelte Schätzwert der Kanäle 11 bis 200 nahezu mit dem Literaturwert $\tau_\mu = (2,19703 \pm 0.00004)\ \unit{\mu s}$\cite{PA} übereinstimmt, während die leicht verschobene Vergleichskonstellation um den Faktor 2 zu groß ist. Diese starke Abhängigkeit von den Kanälen soll durch Berücksichtigung des gebinnten Charakters der Messwerte in den nächsten beiden Kapiteln beseitigt werden. \\
+		\begin{figure}[Hp]
 		    \centering
 		    \captionsetup{justification=centering}
 		    \includegraphics[width=1.\linewidth]{pic/expZerf.pdf}
@@ -51,7 +51,7 @@
 			\label{fig:LDexpZerf1}
 		\end{figure}	
 		
-		\begin{figure}[hp]
+		\begin{figure}[Hp]
 			\centering
 			\captionsetup{justification=centering}
 		    \includegraphics[width=1.\linewidth]{pic/expZerf2.pdf}
@@ -59,8 +59,26 @@
 		    \label{fig:LDexpZerf2}
 		\end{figure}
 			
-	\subsection{Poissonverteilung}
-	%TODO
+	\subsection{Poissonverteilung}\label{sec:poisson}
+		Im Folgenden behandeln wir die Verteilung der gemessenen Zählraten als eine \textit{Poissonverteilung}, was unter Anbetracht der großen Zahl an Kanälen eine sinnvolle Annahme ist. Die Zählratenverteilung im $K$-ten Kanal wird durch den charakteristischen Parameter des Erwartungswertes $\lambda_K$ beschrieben. Erwartet man bei einem festen $\tau$ $\lambda_K(\tau)$ Einträge im Zeitkanal $K$, so wird die Wahrscheinlichkeit, tatsächlich $N_K$ Ereignisse gemessen zu haben beschrieben durch:
+			\begin{equation} \label{eq:poisson}
+				P(N_K|\lambda_K(\tau)) = \frac{\lambda_K^{N_K}}{N_K!}e^{-\lambda_K}
+			\end{equation}
+		Es werden nun diskrete gebinnte Zeiten $(t_K, t_K + \Delta t)$ mit $\Delta t = 1/24\ \unit{\mu s}$ und $K = K_{min},\dots,K_{max}$ zugelassen. Da die Verteilung in den einzelnen Kanälen immer noch mit einem exponentiellen Zerfallsgesetz beschrieben wird, in diesem Fall aber nicht über alle Zeiten $t_K$ integriert wird, ergibt sich eine von $\tau$ abhängige Normierungskonstante $N_0$.
+			\begin{equation}\label{eq:lamdbda}
+				\lambda_K(\tau,N_0(\tau)|t_K,\Delta t) \approx N_0(\tau)\cdot \frac{\Delta t}{\tau} \cdot e^{-(t_K+\Delta t/2)/\tau}
+			\end{equation} 
+			\begin{equation}
+				N_0(\tau) = \frac{N}{e^{-t_{Kmin}/\tau}-e^{-(t_{Kmax}+\Delta t)/\tau}}	
+			\end{equation} 
+			\begin{equation}\label{eq:N}
+				N = \sum_{K = K_{min}}^{K_{max}} N_K	
+			\end{equation} 
+		Die Anwendung des Maximum-Likelihood-Kalküls auf die Verteilung (\ref{eq:poisson}) führt auf die Minimierung der effektiven Likelihood-Funktion $-2\ln L$. in dieser Darstellung ist es besonders leicht, die Standardabweichung $\sigma_{\hat{\tau}}$ abzulesen. Dafür ermittelt man die Stelle, in der $-2 \ln L$ um eine Einheit gegenüber dem Minimum angestiegen ist. Daraus ergibt sich ein Minimierungsproblem für den einzigen Summanden der effektiven Likelihood-Funktion, der von $\tau$ abhängt:
+			\begin{align}
+				L_{\text{eff}}(\tau|N_{Kmin},\dots,N_{Kmax}) &:=  \sum_{K = K_{min}}^{K_{max}} -2 N_K \ln\lambda_K(\tau, N_0(\tau)|t_K,\Delta t)	
+			\end{align} 
+		Es wurden um einen Vergleich zur obigen Methode zu erhalten, die Kanäle $K_{min} = 20$ bis $K_{max} = 175$ verwendet. Abbildung \ref{fig:LDpoisson} zeigt das Ergebnis, welches bereits besser zu dem Literaturwert passt und zudem nur wenig von den verwendeten Kanälen abhängt.
 		\begin{figure}[hp]
 		      			\centering
 		      			\captionsetup{justification=centering}
@@ -68,14 +86,35 @@
 		      			\caption{Ermittlung der Lebensdauer durch Bestimmung des Minimums (grüner Punkt) der effektiven Likelihoodfunktion mit zugrundeliegender Poissonverteilung.}
 		      			\label{fig:LDpoisson}
 		\end{figure}
-   \subsection{Gaußverteilung}		
+   \subsection{Normalverteilung}	
+   Da die Poissonverteilung im Grenzfall $\lambda_K \gg 1$ in die \textit{Normalverteilung} übergehen sollte, werden nun jeweils benachbarte Kanäle zu einem zusammengefasst, sodass die Zählraten hinreichend groß sind. Nutzt man den arithmetischen Mittelwert der beiden Kanalmitten als neue Lebensdauer ergibt sich eine leicht kompliziertere Kanalkalibrierung:
+   		\begin{equation}
+   				\tau_K = K \cdot \Delta t - \frac{1}{48}\ \unit{\mu s}	
+   		\end{equation} 
+   Hierbei ist die neue Kanalbreite $\Delta t = 1/12\ \unit{\mu s}$. Die Wahrscheinlichkeitsdichtefunktion, die die Verteilung der im $K$-ten Kanal tatsächlich gemessenen Zählrate beschreibt, ergibt sich zu:
+   		\begin{equation}
+      			P(N_K|\mu_K(\tau),\sigma_K(\tau)) = \frac{1}{\sqrt{2\pi\sigma_K^2}}e^{-\frac{1}{2}\left(\frac{N_K- \mu_K}{\sigma_K}\right)^2}	
+      	\end{equation} 
+    Mit der Setzung $\mu_K = \lambda_K$ erhält man die gleichen Parameter wie in Abschnitt \ref{sec:poisson} in den Gleichungen (\ref{eq:lamdbda}) - (\ref{eq:N}). Für die Standardabweichung behält man die charakteristische Breite der Poissonverteilung $\sigma_K = \sqrt{\mu_K} \approx\sqrt{N_K}$.
+    Es ergibt sich erneut ein Minimierungsproblem für $-2\ln L$. Der einzige Term, der von $\tau$ abhängt und der somit graphisch minimiert werden muss, ist:
+    	\begin{equation}
+          	\chi^2(\tau|N_{Kmin},\dots,K_{Kmax}) := \sum_{K = K_{min}}^{K_{max}} \left(\frac{N_K - \mu_K(\tau)}{\sigma_K}\right)^2	
+         \end{equation}
+    Die Standardabweichung kann erneut leicht abgelesen werden, indem man sich um eine Einheit vom Minimum von $\chi^2$ wegbewegt. Dies kann damit erklärt werden, da $\chi^2$ bis auf einen Faktor $-1/2$ dem Exponenten der Gaußverteilung entspricht, mit dem die Verteilung von $\tau$ beschrieben wird. Da die Normalverteilung $N(\tau|\mu,\sigma)$ an ihren Wendepunkten $\tau = \mu \pm \sigma$ gerade um einen Faktor $1/\sqrt{e}$ abgefallen ist, ist die Funktion $-2 \ln N$ gerade um eine Einheit gegenüber dem Minimum gestiegen:
+    	\begin{equation}
+    	       \tilde{N}(\tau) := -2 \ln N(\tau) = \ln(2\pi\sigma^2)  + \left(\frac{\tau - \mu}{\sigma}\right)^2 \equiv \tilde{N}(\tau = \mu) + \tilde{\chi}^2(\tau)	
+    	\end{equation}
+    	\begin{equation}
+    	    	\tilde{N}(\tau = \mu \pm \sigma) - \tilde{N}(\tau = \mu) = \tilde{\chi}^2(\tau = \mu \pm \sigma) = 1 	
+    	 \end{equation}
+    Somit ist $\chi^2$ ein Maß für den Abfall der Gaußfunktion bezüglich des Maximums und ist im Wendepunkt genau 1. Abbildung \ref{fig:LDgauss} zeigt  das Ergebnis des Minimierungsproblems für die Kanäle $K_{min} = 20$ bis $K_{max} = 175$, sowie einen Vergleich zur Lösung des Problems ohne vorher die Kanäle zusammenzufassen. Es fällt auf, sich die Likelihood-Funktion zwar verändert, der Schätzwert allerdings fast unverändert ist. Das ist ein Anzeichen dafür, dass bereits vor dem Zusammenfassen der Kanäle die Näherungsbedingung $\lambda_K \gg 1$ hinreichend gut erfüllt war. Weiterhin wurde der in Abschnitt \ref{sec:poisson} ermittelte Wert nur wenig nach unten korrigiert. Da dieses Verfahren auch weniger sensitiv auf die Kanalauswahl reagiert, kann man auch dieses Ergebnis als vertrauenswürdig erachten.
    		\begin{figure}[hp]
       		   			\centering
       		   			\captionsetup{justification=centering}
       		   			\includegraphics[width=1.\linewidth]{pic/gauss.pdf}
       		   			\caption{Ermittlung der Lebensdauer durch Bestimmung des Minimums von $\chi^2(\tau)$. blauer Graph: $\chi^2$ mit zusammengefassten Kanälen, grüner Graph: ohne diese zusammenzufassen.}
-      		   			\label{fig:LDgauss}
-      		   			
+      		   			\label{fig:LDgauss}	
       	\end{figure}
+    
       		
       		
