@@ -10,6 +10,7 @@ Output: Estimation value for the mean lifetime
 
 import numpy as np
 from matplotlib import pyplot as plt
+import matplotlib
 
 def readFile(fn, startRow):
     """Read data from file fn. Returns an array with the data"""
@@ -66,11 +67,13 @@ def main():
     fig = plt.figure("Mittlere Lebensdauer von Myonen", figsize=(15,8))
     axHist = fig.add_subplot(111)
     axHist.set_xlabel(r'$\tau\ /\mu s$')
-    axHist.set_ylabel(r'$-2 \ln{L}$')
+    axHist.set_ylabel(r'$-2\ \ln{(L)}$')
     axHist.set_xlim([t[0], t[cMax-1]])
     axHist.set_title(r'Mittlere Lebendauer von Myonen mit Poissonverteilung $\tau = $' + str(round(tau_ew,3)) + 
-                        r'$\pm$'+ str(round(dTau,3)))
+                        r'$\pm$'+ str(round(dTau,3))+ r' $\mu s$')
     axHist.plot(tau, L_eff)
+    axHist.plot(tau_ew, L_min, ls='', marker='o')
+    matplotlib.rcParams.update({'font.size': 20})
     plt.show()
 
 if __name__ == '__main__':

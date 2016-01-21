@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="405.46582"
-   height="191.43469"
+   width="345.47"
+   height="181.42999"
    id="svg6578"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -180,7 +180,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.01"
-     inkscape:cx="166.9741"
+     inkscape:cx="-28.075405"
      inkscape:cy="61.044065"
      inkscape:document-units="px"
      inkscape:current-layer="g10003"
@@ -220,7 +220,7 @@
      inkscape:label="Ebene 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-108.9375,-401.97156)">
+     transform="translate(-108.9375,-411.97611)">
     <text
        xml:space="preserve"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -251,7 +251,7 @@
          inkscape:connector-curvature="0"
          id="path2987-7-2"
          d="m 150,532.36218 130,0 c 216.9249,0 101.59948,0 130,0"
-         style="fill:none;stroke:#000000;stroke-width:1.501;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-mid:url(#Arrow1Mend)" />
+         style="fill:none;stroke:#000000;stroke-width:1.50100005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-mid:url(#Arrow1Mend)" />
       <path
          sodipodi:nodetypes="ccc"
          inkscape:connector-curvature="0"
@@ -274,7 +274,7 @@
          inkscape:connector-curvature="0"
          id="path9756"
          d="m 280,502.36218 0,-70"
-         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12,1.5;stroke-dashoffset:0" />
+         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:12, 1.5;stroke-dashoffset:0" />
       <text
          sodipodi:linespacing="125%"
          id="text9758"
@@ -352,25 +352,6 @@
            x="410"
            id="tspan9760-3-9-2"
            sodipodi:role="line">$d$</tspan></text>
-      <path
-         d="m 150,527.36218 c 0,35.89851 -8.95431,65 -20,65 -11.04569,0 -20,-29.10149 -20,-65 0,-35.89851 8.95431,-65 20,-65 11.04569,0 20,29.10149 20,65 z"
-         sodipodi:ry="65"
-         sodipodi:rx="20"
-         sodipodi:cy="527.36218"
-         sodipodi:cx="130"
-         id="path9884"
-         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         sodipodi:type="arc" />
-      <path
-         transform="translate(-7.9207921,-0.99009901)"
-         d="m 460,532.36218 c 0,33.13709 -8.95431,60 -20,60 -11.04569,0 -20,-26.86291 -20,-60 0,-33.13708 8.95431,-60 20,-60 11.04569,0 20,26.86292 20,60 z"
-         sodipodi:ry="60"
-         sodipodi:rx="20"
-         sodipodi:cy="532.36218"
-         sodipodi:cx="440"
-         id="path9886"
-         style="fill:none;stroke:#000000;stroke-width:1.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
-         sodipodi:type="arc" />
       <g
          id="g9976">
         <text
@@ -454,12 +435,12 @@
            sodipodi:linespacing="125%"
            id="text9968"
            y="432.36218"
-           x="420"
+           x="390"
            style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
            xml:space="preserve"><tspan
              style="font-size:18px"
              y="432.36218"
-             x="420"
+             x="390"
              id="tspan9970"
              sodipodi:role="line">$\nu_\mu$</tspan></text>
       </g>

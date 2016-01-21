@@ -1,6 +1,81 @@
 \section{Auswertung}
+	Im Folgenden sei $\{N_{Kmin},\dots,N_{Kmax}\}$ die Menge der gemessenen Zählraten in den Kanälen $K_{min}$ bis $ K_{max}$. Es werden zum direkten Vergleich aller drei Methoden der Lebensdauerbestimmung die Kanäle $K = 20, \dots ,175$ verwendet. Hierbei hat jeder Kanal die Breite $\Delta t = 1/24\ \unit{\mu s}$ und es gibt kein Offset, wodurch sich die Kanalkalibrierung sehr einfach zu $\tau_K = K\cdot \Delta t$ ergibt. Die maximal messbare Zeit wird mit $T := t_{Kmax} = 7,292\ \unit{\mu s}$ bezeichnet. 
 	\subsection{Exponentielles Zerfallsgesetz}
-	Im Folgenden sei $\{N_{Kmin},\dots,N_{Kmax}\}$ die Menge der gemessenen Zählraten in den Kanälen $K_{min} = 11$ bis $ K_{max} = 200$.
-	
-	Gemessene Lebensdauer: $\tau_\mu = (2,17 \pm 0,02)\ \unit{\mu s}$
-   
+	Es wird nun ausgehend von der Stichprobe der $N = 39142$ gemessenen Lebensdauern $\{t_1,\dots,t_N\}$ ein \textit{Maximum-Likelihood-Schätzwert} für die mittlere Lebensdauer der Myonen $\hat{\tau}$ ermittelt werden. Ausgangspunkt dafür ist ein auf maximal $T$ beschränktes exponentielles Zerfallsgesetz mit der parameterabhängigen Wahrscheinlichkeitsdichte:
+		\begin{equation}
+			P(t_i|\tau) = \frac{1}{\tau}\cdot e^{-\frac{t_i}{\tau}} \cdot\frac{1}{1-e^{-\frac{\tau}{t_i}}}
+		\end{equation}
+	Zentrales Hilfsmittel zur Parameterschätzung ist die \textit{Likelihood-Funktion}, welche sich aufgrund der als statistisch unabhängig angenommenen Messungen als faktorisierte Wahrscheinlichkeitsdichte ergibt, in der Zufallsvariable und Schätzparameter die Rollen tauschen:
+		\begin{equation}
+			L(\tau|x_1,\dots,x_N) := \prod_{i = 1}^{N} P(t_i|\tau) 
+		\end{equation}
+	Diese gilt es nun zu maximieren. Da die Logarithmusfunktion auf ihrem gesamten Definitionsbereich streng monoton wachsend ist, ist es praktikabel die logarithmierte Likelihoodfunktion zu betrachten:
+		\begin{equation} \label{eq:maxLH}
+			0 \overset{!}{=} \frac{\mathrm{d}\ln L}{\mathrm{d} \tau}\bigg|_{\tau = \hat{\tau}}  
+		\end{equation}
+	Gleichung (\ref{eq:maxLH}) ergibt in unserem speziellen Fall eine implizite Gleichung für $\hat{\tau}$, welche sich mit den Setzungen $x := \hat{\tau}/T$ und $a_K := t_K/(T\cdot N)$ in der einheitenlosen Form (\ref{eq:mastereq}) darstellen lässt. Da tatsächlich keine Zeiten, sondern Zählraten in Kanälen gemessen werden, setzt man weiterhin $t_K = N_K \cdot \tau_K$.
+		\begin{equation} \label{eq:mastereq}
+					f(x|a_{Kmin},\dots,a_{Kmax}) := \sum_{K = K_{min}}^{K_{max}} a_K(N_K,\tau_K,N,T) + \frac{1}{1 + e^{\frac{1}{x}}} - x \overset{!}{=} 0  
+		\end{equation}
+	Somit muss nur noch die Nullstelle dieser Funktion $f$ bestimmt werden, um den Schätzwert zu erhalten. Da $f$ offenbar stetig differenzierbar ist, erweist sich das \textit{Newton-Verfahren} als sinnvolle Methode zur Nullstellenapproximation. Hierbei wird ausgehend von einem Startwert $x_0$, welcher nicht zu weit von der Nullstelle entfernt sein sollte, eine Linearisierung von $f$ vorgenommen und die Nullstelle der so gewonnenen Tangente als bessere Näherung für den gesuchten Nulldurchgang $a$ verwendet. Die $(n+1)$-te Iteration ergibt sich rekursiv zu:
+		\begin{equation} 
+			x_{n+1} := x_n - \frac{f(x_n)}{f'(x_n)}
+		\end{equation}
+	Da sich für alle $n\in \mathbb{N}$ und eine Konstante $\alpha\in \mathbb{R}$ die Abschätzung:
+		 \begin{equation} 
+		 			\alpha \abs{x_{n}-a}\leq (\alpha \abs{x_{n-1}-a})^2\leq \dots \leq (\alpha\abs{x_0-a})^{2^n}
+		 \end{equation}
+	ergibt, konvergiert dieses Verfahren im Idealfall \textit{quadratisch} gegen $a$, d.h. in jedem Schritt verdoppelt sich die Anzahl an korrekten Dezimalstellen. Somit findet man einen hinreichend exakt approximierten Schätzwert $a = \hat{\tau}/T$ innerhalb weniger Iterationen. Da, wie sich herausstellte, die Lösung dieser Gleichung stark von der Wahl der verwendeten Kanäle abhängig ist, werden im Folgenden die Resultate zweier Kanalkonstellationen in Tabelle \ref{table:resExp}  zusammengestellt.\\
+		\begin{table}[hp]
+			\centering
+			\begin{tabular}{c|c|c|c|c} 
+				$K_{min}$		&		$K_{max}$		&		$T/\mu s$		&		$a = \hat{\tau}/T$		&		$\hat{\tau}/\mu s$\\
+				\hline
+				$20$			&		$175$			&		$7,292$			&		$0,598 \pm 0,004$		&		$4,36 \pm 0,03$\\	
+				$11$			&		$200$			&		$8,333$			&		$0,260 \pm 0,002$		&		$2,17 \pm 0,02$		
+			\end{tabular}
+			\caption{Ermittelte Schätzwerte für unterschiedliche Messkanäle.}
+			\label{table:resExp} 
+		\end{table}
+	\ \\
+	Hierbei wurde mittels Fehlerfortpflanzung die Standardabweichung unter Ausnutzung der poissonverteilten Zählraten $\sigma_{Ni} = \sqrt{N_i}$ wie folgt bestimmt:
+		\begin{equation} 
+			\sigma_{\hat{\tau}} = \frac{1}{N}\sqrt{\sum\nolimits_{K=K_{min}}^{K_{max}} N_K\cdot \tau_K^2}
+		\end{equation}	
+	Die Abbildungen \ref{fig:LDexpZerf1} und \ref{fig:LDexpZerf2} visualisieren die graphische Lösung der impliziten Gleichung (\ref{eq:mastereq}). Die starke Abhängigkeit von den verwendeten Kanälen erklärt sich erst bei genauerem betrachten der Messdaten. Es stellt sich heraus, dass die Zählraten in den Kanälen 3 bis 15  mit einer Größenordnung $\mathcal{O}(10^3)$ zehnfach so groß sind, wie jene in den 'erwarteten Kanälen' (ab 40). Dies könnte durch zufällige Koinzidenzen ausgelöst werden, welche zum Beispiel durch Reaktion der Szintillatoren auf die uns natürlich umgebende Radioaktivität verursacht werden können.\\
+		\begin{figure}[hp]
+		    \centering
+		    \captionsetup{justification=centering}
+		    \includegraphics[width=1.\linewidth]{pic/expZerf.pdf}
+			\caption{Ermittlung der Lebensdauer durch Bestimmung der Nullstelle von $f$ (grüner Punkt) wobei die Kanäle 17 bis 175 genutzt worden.}
+			\label{fig:LDexpZerf1}
+		\end{figure}	
+		
+		\begin{figure}[hp]
+			\centering
+			\captionsetup{justification=centering}
+		    \includegraphics[width=1.\linewidth]{pic/expZerf2.pdf}
+		    \caption{Ermittlung der Lebensdauer durch Bestimmung der Nullstelle von $f$ (grüner Punkt) wobei die Kanäle 11 bis 200 genutzt worden.}
+		    \label{fig:LDexpZerf2}
+		\end{figure}
+			
+	\subsection{Poissonverteilung}
+	%TODO
+		\begin{figure}[hp]
+		      			\centering
+		      			\captionsetup{justification=centering}
+		      			\includegraphics[width=1.\linewidth]{pic/poisson.pdf}
+		      			\caption{Ermittlung der Lebensdauer durch Bestimmung des Minimums (grüner Punkt) der effektiven Likelihoodfunktion mit zugrundeliegender Poissonverteilung.}
+		      			\label{fig:LDpoisson}
+		\end{figure}
+   \subsection{Gaußverteilung}		
+   		\begin{figure}[hp]
+      		   			\centering
+      		   			\captionsetup{justification=centering}
+      		   			\includegraphics[width=1.\linewidth]{pic/gauss.pdf}
+      		   			\caption{Ermittlung der Lebensdauer durch Bestimmung des Minimums von $\chi^2(\tau)$. blauer Graph: $\chi^2$ mit zusammengefassten Kanälen, grüner Graph: ohne diese zusammenzufassen.}
+      		   			\label{fig:LDgauss}
+      		   			
+      	\end{figure}
+      		
+      		

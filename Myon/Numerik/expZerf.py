@@ -9,6 +9,7 @@ Output: Estimation value for the mean lifetime
 """
 
 import numpy as np
+import matplotlib
 from matplotlib import pyplot as plt
 
 def readFile(fn, startRow):
@@ -91,6 +92,7 @@ axHist.set_xlim([0, 1])
 axHist.set_title(r'Mittlere Lebensdauer von Myonen mit Exponentialfunktion')
 axHist.plot(x, f(x, t, counts, T, N, cMin, cMax))
 axHist.plot(x, np.zeros(len(x)))
+matplotlib.rcParams.update({'font.size': 20})
 
 plt.connect('button_press_event', onMouseClick)
 plt.show()

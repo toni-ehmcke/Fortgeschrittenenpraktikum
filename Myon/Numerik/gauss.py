@@ -9,6 +9,7 @@ Output: Estimation value for the mean lifetime
 """
 
 import numpy as np
+import matplotlib
 from matplotlib import pyplot as plt
 
 def readFile(fn, startRow):
@@ -99,15 +100,18 @@ def main():
     fig = plt.figure("Mittlere Lebensdauer von Myonen", figsize=(15,8))
     axHist = fig.add_subplot(111)
     axHist.set_xlabel(r'$\tau\ /\mu s$')
-    axHist.set_ylabel(r'$-2 \ln{L}$')
+    axHist.set_ylabel(r'$-2\ \ln{(L)}$')
     axHist.set_xlim([t_gauss[0], t_gauss[cMax_gauss-1]])
     axHist.set_title(r'Mittlere Lebensdauer von Myonen mit Gaussverteilung')
     axHist.plot(tau_gauss, L_eff_gauss)
     axHist.plot(tau, L_eff)
     axHist.text(3, 200000, r'Mittlere Lebensdauer mit kombinierten Kanaelen $\tau_k = $'
-                            + str(round(tau_ew_gauss,2)) + r'$\pm$'+ str(round(dTau_gauss,2)))
+                            + str(round(tau_ew_gauss,2)) + r'$\pm$'+ str(round(dTau_gauss,2))+ r' $\mu s$')
     axHist.text(3, 220000, r'Mittlere Lebensdauer ohne kombinierte Kanaele $\tau = $' 
-                        + str(round(tau_ew,2)) + r'$\pm$'+ str(round(dTau,2)))
+                        + str(round(tau_ew,2)) + r'$\pm$'+ str(round(dTau,2))+ r' $\mu s$')
+    matplotlib.rcParams.update({'font.size': 20})
+    axHist.plot(tau_ew, L_min, ls='', marker='o')
+    axHist.plot(tau_ew_gauss, L_min_gauss, ls='', marker='o')
     plt.show()
 
 if __name__ == '__main__':
