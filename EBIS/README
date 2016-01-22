@@ -1,0 +1,15 @@
+Syntax der Übersichtsspektren:
+Dateiname: Übersichtsspektrum<DRUCK p / mbar>_CORRECT
+Datnsyntax
+Magnetstrom I_mag / A		Magnetfeld B /mT	integrierte Ladung nach dem Ablenkmagneten Q / fC
+
+TODO: Peaks identifizieren, mit quadratischem Fit m/q(B) überprüfen, Abhängigkeit vom Druck, Fremdteilchen identifizieren
+
+Syntax der Zeitentwicklungs-Spektren = Abhängigkeit der gemessenen Ladung von der Ionisationszeit:
+Dateiname: Ar <Ladung q / e> +sz <STEPSIZE / ms> z <Zyklen = Anzahl an Fallenöffnungspulsen>
+Datensyntax:
+Ionisationszeit t_ion / ms	Ionisationszeit t_ion / ms	integrierte Ladung Q/fC	
+
+TODO: 'schmale' Kurven von q = 8 - 11 e und 'breite' Kurven in jeweils eine Graphik plotten	
+
+

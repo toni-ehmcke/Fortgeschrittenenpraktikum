@@ -63,8 +63,8 @@ data = readFile(fn, startRow)       # array with measuredata
 cNr = data[:,0]                     # channelnumbers
 cWdth = 1./24                       # channelwidth in us
 t = cNr * cWdth                     # measureable lifetimes
-cMin = 20                         # lower bond for channels
-cMax = 175                          # upper bond for channels
+cMin = 17                         # lower bond for channels
+cMax = 175                         # upper bond for channels
 counts =  data[:,1]                 # counts per channel
 countErr = np.sqrt(counts)          # error on the counts
 
