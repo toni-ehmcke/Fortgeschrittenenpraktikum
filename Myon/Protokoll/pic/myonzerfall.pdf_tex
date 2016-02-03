@@ -49,7 +49,7 @@
   \global\let\svgscale\undefined%
   \makeatother%
   \begin{picture}(1,0.65589885)%
-    \put(0,0){\includegraphics[width=\unitlength]{pic/myonenzerf.pdf}}%
+%%    \put(0,0){\includegraphics[width=\unitlength]{pic/myonenzerf.pdf}}%
     \put(0.76,0.06){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.5\unitlength}\raggedright \huge{$\bar{\nu}_\mu$}\end{minipage}}}%
     \put(0.05,0.35302663){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.22031265\unitlength}\raggedright \huge{$\mu^+$}\end{minipage}}}%
     \put(0.76,0.35302663){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.25848182\unitlength}\raggedright \huge{$\bar{\nu}_e$}\end{minipage}}}%
