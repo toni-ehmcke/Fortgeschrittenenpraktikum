@@ -7,7 +7,28 @@
             Nun erfolgt die Evaluierung der Messdauer. Dafür muss zunächst über den relativen Fehler ermittelt werden, wie viele Counts gemessen werden sollen. 
             $$ \frac{\Delta N}{N} = N^{-\frac{1}{2}} \leq 3\unit{\%}$$
             Da die Counts poisson-verteilt sind, erhält man für $\Delta N = \sqrt{N}$. Die Zahl der zu messenden Ereignisse (Counts) ergibt sich über diese Rechnung zu 1112. Nun wählt man im Messprogramm die Option ab, die Messung nach einer bestimmten Zeit anzuhalten und misst solange, bis Counter 1 ungefähr den errechneten Wert erreicht, wobei zu beachten ist, dass der gemessene Wert größer ist, um den relativen Fehler unterhalb der $3\unit{\%}$ zu halten. Diese Gruppe hat für einen Counter-Wert von 1122 eine Messdauer $t_{Mess} = 117\unit{s}$ gemessen. Diese Zeit wird für die Aufnahme der Kennlinie benötigt.
-            Für die Aufnahme der Kennlinie des PM3 wird die Spannung $U_{3,HV}$ in $50\unit{V}$-Schritten von $1800\unit{V}$ bis $2400\unit{V}$ variiert. Die Stufen werden $t_{Mess}$ lange gemessen. 
+            Für die Aufnahme der Kennlinie des PM3 wird die Spannung $U_{3,HV}$ in $50\unit{V}$-Schritten von $1800\unit{V}$ bis $2400\unit{V}$ variiert. Die Stufen werden $t_{Mess}$ lange gemessen. Die Messdaten können in Tablle \ref{ente} nachgeschlagen werden. 
+            \begin{figure}
+                \centering
+                \begin{tabular}{c|c|c}[htbp]
+                    $U_{3,HV} \unit{V}$ & N(Signal 1·2·3) & N(Signal 3)  \\ 
+                    \hline  1800 &  172 &   452\\
+                    1850 &  290 &   804\\
+                    1900 &  464 &  1412\\
+                    1950 &  637 &  2231\\
+                    2000 &  899 &  3319\\
+                    2050 &  984 &  5218\\
+                    2100 & 1137 &  7587\\
+                    2150 & 1300 & 10836\\
+                    2200 & 1294 & 14539\\
+                    2250 & 1350 & 19928\\
+                    2300 & 1360 & 26873\\
+                    2350 & 1466 & 38098\\
+                    2400 & 1415 & 53476\\
+                \end{tabular} 
+                \caption{Messdaten für die Aufnahme der Kennlinien}
+                \label{ente}
+            \end{figure}
             \begin{figure}[htbp]
                 \subfigure[Kennlinie des PM3 mit Signal $N_{1·2·3}$\label{n123}]{\includegraphics[scale=0.225]{pic/n123u3th}}
                 \subfigure[Kennlinie des Signals $N_3$\label{n3}]{\includegraphics[scale=0.225]{pic/n3u3th}}
@@ -17,7 +38,78 @@
             Die Unterschiede rühren vorallem daher, dass in \ref{n123} eine Triplezählrate vorliegt, für die Signale von allen Photomultipliern notwendig sind, um einen Count zu zählen. Es werden nur Signale gezählt, die in das Koinzidenzzeitfenster fallen und den Detektor in einer bestimmten, oben genannten Reihenfolge durchlaufen. In \ref{n3} handelt es sich um eine Singlezählrate, die nur den Photomultiplier 3 misst, dessen Hochspannung man verändert. Es wird kein Koinzidenzzeitfenster beachtet und es werden alle ankommenden Signale, bis auf das Signalrauschen, welches durch einen Diskriminator herausgefiltert wird, gemessen. Mit den steigenden Spannungen werden aus den im PM verbauten Dynoden mehr Elektronen herausgeschlagen. Damit steigt die Vervielfachung erheblich.\\
             Aus \ref{n123} kann man die Schwellspannung $U_{3,Schwell} = 2250\unit{V}$ ablesen. Sie wird als Optimierungsparamter im Hauptversuch benötigt.
         \subsubsection{Messung von Myon-Pulsen}
+            Nun sollen mithilfe eines Oszilloskops Myon-Pulse gemessen werden. Dafür legt man die drei Signale aus den Photomultipliern, sowie das Signal ($1\cdot 2 \cdot 3$) das Oszilloskop bei Hochspannung von: $$ U_{1/2,HV} = 2300;\ U_{3,HV} = 2100 $$. Die Diskriminatorschwellen liegen bei: $$ U_{1,D} = 200\unit{mV};\ U_{2,D} = 200,5\unit{mV};\ U_{3,D} = 200,6\unit{mV} $$. Nun werden je PM 50 Pulse aufgenommen. Die Ergebnisse dessen sind in Tabelle \ref{pulses} nachlesbar. Daraus kann man Minima, Maxima und Mittelwerte für den jeweiligen PM bestimmen ().
+            \begin{figure}[htbp]
+                \centering
+                \begin{tabular}{c||c|c|c|c}
+                                                & PM1   & PM2   & PM3 & 1·2·3\\
+                       \hline $\overline U_{n}  [\unit{V}]$  & 0,990 & 0,703 & 0,878 & 0,857\\
+                                       $U_{n,min} [\unit{V}]$& 0,260 & 0,260 & 0,320 & 0,280\\
+                                       $U_{n,max} [\unit{V}]$& 4,240 & 2,840 & 2,880 & 3,320\\ 
+                \end{tabular}
+                \caption{Tabelle mit Minimum, Maximum und Mittelwerten}
+            \end{figure}
+            \begin{figure}[htbp]
+               % \begin{minipage}[t]{0.5\textheight}
+               \tiny\centering
+                    \begin{tabular}{c|c|c}
+                         Spannung $U_{PM1} [\unit{V}]$ & Spannung $U_{PM2} [\unit{V}]$ & Spannung $U_{PM3} [\unit{V}]$ \\ 
+                   \hline       0,260 & 0,492 & 1,320\\
+                                0,380 & 0,536 & 0,320\\
+                                0,400 & 1,030 & 0,440\\
+                                0,680 & 0,320 & 0,960\\
+                                0,620 & 1,360 & 0,800\\
+                                4,240 & 1,120 & 1,240\\
+                                0,440 & 0,460 & 0,640\\
+                                0,840 & 0,520 & 1,640\\
+                                1,320 & 0,320 & 0,440\\
+                                1,080 & 0,840 & 1,280\\
+                                1,760 &	0,760 & 0,720\\
+                                0,296 & 1,380 & 0,840\\
+                                1,480 & 0,660 & 0,720\\
+                                0,640 & 1,140 & 0,720\\
+                                2,000 & 0,360 & 0,720\\
+                                0,420 & 0,300 & 0,320\\
+                                0,940 & 0,920 & 0,440\\
+                                0,440 & 0,860 & 0,620\\
+                                0,500 & 0,408 & 0,464\\
+                                0,920 & 0,340 & 0,620\\
+                                0,640 & 0,260 & 1,600\\
+                                0,420 & 0,260 & 0,320\\
+                                0,460 & 0,500 & 0,660\\
+                                0,580 & 0,300 & 0,600\\
+                                0,540 & 0,560 & 0,440\\
+                                2,080 & 0,280 & 1,480\\
+                                0,680 & 1,360 & 0,920\\
+                                0,740 & 0,340 & 1,520\\
+                                0,360 & 0,800 & 0,380\\
+                                4,240 & 2,840 & 1,880\\
+                                0,480 & 1,020 & 0,520\\
+                                1,760 & 0,320 & 0,720\\
+                                1,880 & 0,520 & 1,180\\
+                                1,640 & 1,440 & 1,840\\
+                                0,360 & 0,640 & 0,680\\
+                                0,720 & 0,500 & 0,640\\
+                                0,480 & 0,420 & 0,520\\
+                                0,520 & 0,940 & 0,680\\
+                                0,440 & 1,240 & 0,480\\
+                                0,960 & 0,280 & 0,660\\
+                                1,020 & 1,700 & 0,840\\
+                                0,288 & 0,500 & 0,360\\
+                                1,560 & 0,480 & 0,680\\
+                                1,520 & 0,620 & 0,560\\
+                                0,360 & 0,480 & 0,360\\
+                                1,260 & 0,320 & 0,380\\
+                                1,340 & 0,440 & 1,680\\
+                                0,660 & 0,600 & 0,680\\
+                                0,760 & 0,440 & 2,880\\
+                                1,100 & 0,620 & 2,480\\
+                    \end{tabular}
+               % \end{minipage}
+                \caption{Messdaten der Myon-Pulsmessung}
+                \label{pulses} 
+            \end{figure}
     \subsection{Hauptversuch}
         Für diesen Versuchsteil benötigt man die Schwellspannungen der einzelnen Photomultiplier. $$ U_{1,Schwell} = 2400\unit{V};\ U_{2,Schwell} = 2400\unit{V};\ U_{3,Schwell} = 2250\unit{V} $$. Die Schwellspannung von PM1 und PM2 wurden von Gruppe A ermittelt und an alle Gruppen weitergegeben. Sie sind durch Ablesen von den Kennlinien-Diagrammen (vgl. Abb. \ref{n123}) mit Fehlern behaftet, die das Experiment nachhaltig beeinflussen können.
-        Interessant sind die Diskriminatorspannungen $U_{n,D}$ der PM, da sie das Signalrauschen unterdrücken sollen. Sie liegen bei: $$ U_{1,D} = 200\unit{mV};\ U_{2,D} = 200,5\unit{mV};\ U_{3,D} = 200,6\unit{mV} $$
+        Die Diskriminatorschwellen sind auf die gleichen Werte eingstellt wie zuvor bei der Myon-Pulsmessung.
         Die Messdauer beträgt 5 Tage, das heißt $t_{Mess} = 5\cdot24\cdot60\cdot60\unit{s} = 432000\unit{s}$

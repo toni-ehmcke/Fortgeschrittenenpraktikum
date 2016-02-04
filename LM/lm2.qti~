@@ -1,40 +1,46 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	8
+<windows>	9
 <table>
-Kennlinie-der-Signale-N123-und-N3	13	3	25.01.16 14:15
-geometry	0	1	378	367	
-header	U3TH[X]	N123[Y]	N3[Y]
-ColWidth	127	103	100	
+Kennlinie-der-Signale-N123-und-N3	13	5	25.01.16 14:15
+geometry	588	820	833	367	minimized	
+header	U3TH[X]	N123[Y]	N3[Y]	1[yEr]	2[yEr]
+ColWidth	127	103	100	147	230	
 <com>
 <col nr="0">
 (1800 + (i-1)*50)/1000
 </col>
+<col nr="3">
+sqrt(col("N123"))
+</col>
+<col nr="4">
+sqrt(col("N3"))
+</col>
 </com>
-ColType	0;0/14	0;0/14	0;0/14
-ReadOnlyColumn	0	0	0
-HiddenColumn	0	0	0
-Comments	Spannung 3 [mV]	Signal 1·2·3, Zahl	Signal 3, Zahl	
+ColType	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments	Spannung 3 [mV]	Signal 1·2·3, Zahl	Signal 3, Zahl			
 WindowLabel	Counter 1 und 2 bei Messzeit = 117	2
 <data>
-0	1.8	172	452
-1	1.85	290	804
-2	1.9	464	1412
-3	1.95	637	2231
-4	2	899	3319
-5	2.05	984	5218
-6	2.1	1137	7587
-7	2.15	1300	10836
-8	2.2	1294	14539
-9	2.25	1350	19928
-10	2.3	1360	26873
-11	2.35	1466	38098
-12	2.4	1415	53476
+0	1.8	172	452	13.114877048604	21.260291625469
+1	1.85	290	804	17.029386365926	28.354893757516
+2	1.9	464	1412	21.540659228538	37.576588456112
+3	1.95	637	2231	25.238858928248	47.233462714478
+4	2	899	3319	29.98332870113	57.610762883336
+5	2.05	984	5218	31.368774282716	72.235725233433
+6	2.1	1137	7587	33.719430600175	87.103386845748
+7	2.15	1300	10836	36.05551275464	104.09610943738
+8	2.2	1294	14539	35.97221149721	120.57777573002
+9	2.25	1350	19928	36.742346141748	141.16656828017
+10	2.3	1360	26873	36.878177829172	163.92986305125
+11	2.35	1466	38098	38.288379438153	195.187089737
+12	2.4	1415	53476	37.616485747608	231.24878378059
 </data>
 </table>
 <table>
 Myon-Pulse	50	6	26.01.16 15:51
-geometry	784	820	-1	-1	minimized	
+geometry	1176	820	748	581	minimized	
 header	PM1[Y]	PM2[Y]	PM3[Y]	PM1V[Y]	PM2V[Y]	PM3V[Y]
 ColWidth	100	100	100	100	100	100	
 <com>
@@ -108,7 +114,7 @@ WindowLabel	Messung von Myon-Pulsen  	2
 </table>
 <table>
 Einteilungen1	10	4	31.01.16 20:44
-geometry	588	820	-1	-1	minimized	
+geometry	392	820	-1	-1	minimized	
 header	Einteilungen[X]	Anzahl[Y]	Summe[Y]	Prozent[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -133,7 +139,7 @@ WindowLabel	Histogramm und Wahrscheinlichkeiten für Myon-Pulse_PM1V	2
 </table>
 <multiLayer>
 PM2	1	1	31.01.16 21:19
-geometry	392	820	830	645	minimized	
+geometry	196	820	830	645	minimized	
 WindowLabel	Myon-Pulsmessung	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -243,7 +249,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 PM3	1	1	01.02.16 15:24
-geometry	196	820	835	635	minimized	
+geometry	1372	820	835	635	minimized	
 WindowLabel	Myon-Pulsmessung an Photomultiplyer 3	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -527,6 +533,7 @@ curve	Kennlinie-der-Signale-N123-und-N3_U3TH	Kennlinie-der-Signale-N123-und-N3_N
 <CurveType>0</CurveType>
 <Visible>1</Visible>
 </Function>
+ErrorBars	1	Kennlinie-der-Signale-N123-und-N3_U3TH	Kennlinie-der-Signale-N123-und-N3_N123	Kennlinie-der-Signale-N123-und-N3_1	1	8	#000000	1	1	1	0
 scale	0	0	1600	0	9	5	0	0
 scale	1	0	1600	0	9	5	0	0
 scale	2	1.8	2.4	0	7	5	0	0
@@ -573,7 +580,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 n3	1	1	01.02.16 20:13
-geometry	0	0	1175	819	active
+geometry	784	820	1175	819	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -636,6 +643,7 @@ curve	Kennlinie-der-Signale-N123-und-N3_U3TH	Kennlinie-der-Signale-N123-und-N3_N
 <CurveType>0</CurveType>
 <Visible>1</Visible>
 </Function>
+ErrorBars	1	Kennlinie-der-Signale-N123-und-N3_U3TH	Kennlinie-der-Signale-N123-und-N3_N3	Kennlinie-der-Signale-N123-und-N3_2	1	8	#000000	1	1	1	0
 scale	0	0	60000	0	7	5	0	0
 scale	1	0	60000	0	7	5	0	0
 scale	2	1.8	2.4	0	7	5	0	0
@@ -680,6 +688,21 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
+<TableStatistics>
+Tabelle1	Myon-Pulse	col	04.02.16 17:20
+Targets	3	4	5
+ColStatType	2	3	5	6	7	8	9	10	11	12	13	14	15
+geometry	803	68	1062	167	active
+header	Col[X]	Zeilen[Y]	Mittel[Y]	Standardabweichung[Y]	Standardfehler[yEr]	Varianz[Y]	Summe[Y]	iMax[Y]	Max[Y]	iMin[Y]	Min[Y]	N[Y]	Mittelwert[Y]
+ColWidth	53	8	81	165	169	152	107	8	142	8	114	8	8	
+<com>
+</com>
+ColType	0;0/14	1;0/13	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
+Comments	Beinhaltete Spalten	Beinhaltete Zeilen	Mittel	Standardabweichung	Standardfehler	Varianz	Summe	Index des Maximumwerts	Maximumwert	Index des Minimumwerts	Minimumwert	Anzahl an Punkten	Mittelwert	
+WindowLabel	Spaltenstatistik von Myon-Pulse	2
+</TableStatistics>
 <open>1</open>
 <log>
 [26.01.16 16:26	Diagramm: ''Grafik1'']
@@ -3822,6 +3845,7 @@ RSS (Summe der quadrierten Restwerte) = 12.034,20119899
 Iterationen = 186
 Status = success
 ---------------------------------------------------------------------------------------
+
 
 
 </log>
