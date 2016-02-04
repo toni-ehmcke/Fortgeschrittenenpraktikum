@@ -573,7 +573,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 n3	1	1	01.02.16 20:13
-geometry	1176	820	1175	819	minimized	active
+geometry	0	0	1175	819	active
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
