@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	9
 <table>
 Kennlinie-der-Signale-N123-und-N3	13	5	25.01.16 14:15
-geometry	588	820	833	367	minimized	
+geometry	588	163	-1	-1	minimized	
 header	U3TH[X]	N123[Y]	N3[Y]	1[yEr]	2[yEr]
 ColWidth	127	103	100	147	230	
 <com>
@@ -40,7 +40,7 @@ WindowLabel	Counter 1 und 2 bei Messzeit = 117	2
 </table>
 <table>
 Myon-Pulse	50	6	26.01.16 15:51
-geometry	1176	820	748	581	minimized	
+geometry	392	163	-1	-1	minimized	
 header	PM1[Y]	PM2[Y]	PM3[Y]	PM1V[Y]	PM2V[Y]	PM3V[Y]
 ColWidth	100	100	100	100	100	100	
 <com>
@@ -114,7 +114,7 @@ WindowLabel	Messung von Myon-Pulsen  	2
 </table>
 <table>
 Einteilungen1	10	4	31.01.16 20:44
-geometry	392	820	-1	-1	minimized	
+geometry	196	163	-1	-1	minimized	
 header	Einteilungen[X]	Anzahl[Y]	Summe[Y]	Prozent[Y]
 ColWidth	100	100	100	100	
 <com>
@@ -137,9 +137,24 @@ WindowLabel	Histogramm und Wahrscheinlichkeiten für Myon-Pulse_PM1V	2
 9	4.5	0	50	100
 </data>
 </table>
+<TableStatistics>
+Myon-Pulse-ColStats	Myon-Pulse	col	04.02.16 17:20
+Targets	3	4	5
+ColStatType	2	3	5	6	7	8	9	10	11	12	13	14	15
+geometry	980	163	1062	167	minimized	
+header	Col[X]	Zeilen[Y]	Mittel[Y]	Standardabweichung[Y]	Standardfehler[yEr]	Varianz[Y]	Summe[Y]	iMax[Y]	Max[Y]	iMin[Y]	Min[Y]	N[Y]	Mittelwert[Y]
+ColWidth	53	8	81	165	169	152	107	8	142	8	114	8	8	
+<com>
+</com>
+ColType	0;0/14	1;0/13	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
+Comments	Beinhaltete Spalten	Beinhaltete Zeilen	Mittel	Standardabweichung	Standardfehler	Varianz	Summe	Index des Maximumwerts	Maximumwert	Index des Minimumwerts	Minimumwert	Anzahl an Punkten	Mittelwert	
+WindowLabel	Spaltenstatistik von Myon-Pulse	2
+</TableStatistics>
 <multiLayer>
 PM2	1	1	31.01.16 21:19
-geometry	196	820	830	645	minimized	
+geometry	1176	163	830	645	minimized	
 WindowLabel	Myon-Pulsmessung	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -149,7 +164,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	812	576
-<PageGeometry>0.00980392	0.0121951	1.59216	1.40488</PageGeometry>
+<PageGeometry>0.00608273	0.00846024	0.987835	0.974619</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -249,7 +264,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 PM3	1	1	01.02.16 15:24
-geometry	1372	820	835	635	minimized	
+geometry	0	0	835	635	active
 WindowLabel	Myon-Pulsmessung an Photomultiplyer 3	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -259,7 +274,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	817	566
-<PageGeometry>0.00980392	0.0121951	1.60196	1.38049</PageGeometry>
+<PageGeometry>0.00604595	0.00860585	0.987908	0.974182</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -298,8 +313,8 @@ curve	-	Myon-Pulse_PM3V	9	1	#000000	0	1	3	0	#000000	#000000	1	#000000	4	0	0	0	0.
 <Range>0	5</Range>
 <Points>500</Points>
 <Constant>A	62.761752912972</Constant>
-<Constant>B	0.418519374584638</Constant>
-<Constant>C	0.143834921262837</Constant>
+<Constant>B	0.41851937458464</Constant>
+<Constant>C	0.14383492126284</Constant>
 <Style>0</Style>
 <LineStyle>1</LineStyle>
 <Pen>
@@ -359,7 +374,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 PM1	1	1	01.02.16 15:44
-geometry	0	820	829	651	minimized	
+geometry	0	0	829	651	
 WindowLabel	Myon-Pulse an PM1	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -369,7 +384,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	811	583
-<PageGeometry>0.00980392	0.0121951	1.5902	1.42195</PageGeometry>
+<PageGeometry>0.00609013	0.00837521	0.98782	0.976549</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -407,9 +422,9 @@ curve	-	Myon-Pulse_PM1V	9	1	#000000	0	1	3	0	#000000	#000000	1	#000000	4	0	0	0	0.
 <Variable>x</Variable>
 <Range>0	5</Range>
 <Points>500</Points>
-<Constant>A	43.6820703868614</Constant>
-<Constant>B	0.292702448291665</Constant>
-<Constant>C	0.257609907061715</Constant>
+<Constant>A	43.682070386861</Constant>
+<Constant>B	0.29270244829166</Constant>
+<Constant>C	0.25760990706171</Constant>
 <Style>0</Style>
 <LineStyle>1</LineStyle>
 <Pen>
@@ -469,7 +484,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 n123	1	1	01.02.16 16:21
-geometry	980	820	1176	818	minimized	
+geometry	0	163	1176	818	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -479,7 +494,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	3	-2	1156	761
-<PageGeometry>0.00256849	-0.0026178	0.989726	0.996073</PageGeometry>
+<PageGeometry>0.00588235	-0.00487805	2.26667	1.8561</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -580,7 +595,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 n3	1	1	01.02.16 20:13
-geometry	784	820	1175	819	minimized	
+geometry	784	163	1175	819	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -590,7 +605,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	9	5	1150	742
-<PageGeometry>0.00771208	0.00653595	0.985433	0.969935</PageGeometry>
+<PageGeometry>0.0176471	0.0121951	2.2549	1.80976</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -688,21 +703,6 @@ EnabledTickLabels	1	1	1	1
 <LinkXAxes>0</LinkXAxes>
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
-<TableStatistics>
-Tabelle1	Myon-Pulse	col	04.02.16 17:20
-Targets	3	4	5
-ColStatType	2	3	5	6	7	8	9	10	11	12	13	14	15
-geometry	803	68	1062	167	active
-header	Col[X]	Zeilen[Y]	Mittel[Y]	Standardabweichung[Y]	Standardfehler[yEr]	Varianz[Y]	Summe[Y]	iMax[Y]	Max[Y]	iMin[Y]	Min[Y]	N[Y]	Mittelwert[Y]
-ColWidth	53	8	81	165	169	152	107	8	142	8	114	8	8	
-<com>
-</com>
-ColType	0;0/14	1;0/13	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14
-ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
-HiddenColumn	0	0	0	0	0	0	0	0	0	0	0	0	0
-Comments	Beinhaltete Spalten	Beinhaltete Zeilen	Mittel	Standardabweichung	Standardfehler	Varianz	Summe	Index des Maximumwerts	Maximumwert	Index des Minimumwerts	Minimumwert	Anzahl an Punkten	Mittelwert	
-WindowLabel	Spaltenstatistik von Myon-Pulse	2
-</TableStatistics>
 <open>1</open>
 <log>
 [26.01.16 16:26	Diagramm: ''Grafik1'']
@@ -3845,6 +3845,7 @@ RSS (Summe der quadrierten Restwerte) = 12.034,20119899
 Iterationen = 186
 Status = success
 ---------------------------------------------------------------------------------------
+
 
 
 
