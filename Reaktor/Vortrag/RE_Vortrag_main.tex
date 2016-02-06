@@ -1,12 +1,13 @@
 \documentclass[10pt]{beamer}
 \usetheme{Dresden}
-\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{navigation symbols}{} % remove navigation bar in the lower right corner
 
 
 %\documentclass[ddcfooter]{tudbeamer}
 \usepackage[utf8]{inputenc}
 \usepackage[german]{babel}
 
+\newcommand{\vtiny}{\fontsize{6pt}{30pt}\selectfont} % write source in the lower right corner
 
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -16,6 +17,10 @@
 \usepackage{tikz} 
 \usepackage{ziffer}
 \usepackage{units}
+\usepackage{hyperref}
+\usepackage{ wasysym } % use symbol for 'cent'
+
+\usepackage{xmpmulti} %include gifs
 
 \setbeamertemplate{caption}[numbered]
 
@@ -32,38 +37,275 @@
 \section{Einführung}
 	\begin{frame}{Warum wir nukleare Kräfte freisetzen wollen}
 		\begin{itemize}
-		\item<1-> Betrachte eine Masse von $m_U = 1\ \unit{g}$ des Uran-Nuklids $^{235}$U.\\
-		\item<2-> Zahl der Atome in dieser Masse $N_{Atom} = \frac{m_U\cdot N_A}{M_{mol}} = 2,562 \cdot 10^{21}$
-		\item<3-> Pro Kernspaltung freiwerdende Wärme $Q \approx 200\ \unit{MeV}$
-		\item<4-> Summa summarum ergibt das eine maximale Energieabgabe von $Q_{ges}=N_{Atom}\cdot Q = 0,997\ \unit{MWd}$ 
-		\item<5-> Spalten von $m_U = 1\ \unit{g}$ Uran-235 entspricht somit dem Verbrennen von $m_{BB} =4,39\ \unit{t}$ Braunkohlebriketts 
+		\item Betrachte eine Masse von $m_U = 1\ \unit{g}$ des Uran-Nuklids $^{235}$U.\\
+		\item Zahl der Atome in dieser Masse $N_{Atom} = \frac{m_U\cdot N_A}{M_{mol}} = 2,562 \cdot 10^{21}$
+		\item Pro Kernspaltung freiwerdende Wärme $Q \approx 200\ \unit{MeV}$
+		\item Summa summarum ergibt das eine maximale Energieabgabe von $Q_{ges}=N_{Atom}\cdot Q = 0,997\ \unit{MWd}$ 
+		\item Spalten von $m_U = 1\ \unit{g}$ Uran-235 entspricht somit dem Verbrennen von $m_{BB} =4,39\ \unit{t}$ Braunkohlebriketts 
 		\end{itemize}
 	\end{frame}
 
 \section{Ausbildungskernreaktor AKR-2} 
 	\subsection{Aufbau und Maßnahmen zur nuklearen Sicherheit}
-	\begin{frame}{}
-			\begin{figure}[ht]
-				\centering
-				\includegraphics[width=0.7\textwidth]{pic/akr2.png}\\
-				\text{\tiny{Quelle: TUD Institut für Energietechnik. \textit{AKR-2 Bau und Inbetriebnahme}, Dresden. Juli 2005}}
-			\end{figure}	
-	\end{frame}
-
-	\begin{frame}{AKR-2: Aufbau und Maßnahmen zur nuklearen Sicherheit}
-		\begin{figure}[ht]
-			\centering
-			\includegraphics[width=0.5\textwidth]{pic/Vertikalquerschnitt_Reaktor.pdf}\\
-			\text{\tiny{Quelle: TUD Institut für Energietechnik. \textit{AKR-2 Bau und Inbetriebnahme}, Dresden. Juli 2005}}
-		\end{figure}	
-	\end{frame}
+		\begin{frame}{}
+				\begin{figure}[ht]
+					\centering
+					\includegraphics[width=0.7\textwidth]{pic/akr2.png}\\
+					\text{\tiny{Quelle: TUD Institut für Energietechnik. \textit{AKR-2 Bau und Inbetriebnahme}, Dresden. Juli 2005}}
+				\end{figure}	
+		\end{frame}
 	
-	\begin{frame}{AKR-2: Aufbau und Maßnahmen zur nuklearen Sicherheit}
+		\begin{frame}{AKR-2: Aufbau (Querschnitt)}
 			\begin{figure}[ht]
 				\centering
-				\includegraphics[width=0.5\textwidth]{pic/Horizontalquerschnitt_Reaktor}\\
+				\includegraphics[width=0.5\textwidth]{pic/Vertikalquerschnitt_Reaktor.pdf}\\
 				\text{\tiny{Quelle: TUD Institut für Energietechnik. \textit{AKR-2 Bau und Inbetriebnahme}, Dresden. Juli 2005}}
 			\end{figure}	
-	\end{frame}
+		\end{frame}
+		
+		\begin{frame}{AKR-2: Aufbau (Azimutalebene)}
+				\begin{figure}[ht]
+					\centering
+					\includegraphics[width=0.5\textwidth]{pic/Horizontalquerschnitt_Reaktor}\\
+					\text{\tiny{Quelle: TUD Institut für Energietechnik. \textit{AKR-2 Bau und Inbetriebnahme}, Dresden. Juli 2005}}
+				\end{figure}	
+		\end{frame}
+		
+		\begin{frame}{AKR-2: Maßnahmen zur nuklearen Sicherheit}
+				\begin{itemize}
+				\item Unterdruck im Reaktortank\\
+				\item Paraffin und Barytbeton für biologische Abschirmung
+				\item Spaltzone in zwei Hälften geteilt
+				\item mehrfach redundantes RESA-System, welches auslöst falls
+					\begin{itemize}
+						\item $P_{Reaktor} \notin [0,25;2,4]\ \unit{W}$
+						\item Reaktorperiode $T_s < 10\ \unit{s}$ bzw. $T_2 < 7\ \unit{s}$
+						\item Temperaturmessung $T < 18\ \unit{^\circ C}$
+						\item Druckmessung $p > p_{max}$
+						\item Fehlermeldung oder Ausfall im System
+					\end{itemize}
+				\end{itemize}		
+		\end{frame}
+		
+		\begin{frame}{Dosimetrische Messungen}
+		Gemessen wurde die mit Strahlungsart gewichtete Dosisleistung an verschie\-denen Orten und bei verschiedenen Leistungen im kritischen Reaktorzustand der Neutronen- und $\gamma$-Strahlung:\\
+			\begin{table}
+				\begin{tabular}{l|c|c|c|c}
+			                \textbf{Ort} & \multicolumn{2}{c|}{\textbf{bei 1\unit{W}}} & \multicolumn{2}{c}{\textbf{bei 2\unit{W}}} \\
+			                \hline       & $\dot D_\gamma$ [\textit{$\frac{\mu Sv}{h}$}] & $\dot D_n$ [\textit{$\frac{\mu Sv}{h}$}]& $\dot D_\gamma$ [\textit{$\frac{\mu Sv}{h}$}]& $\dot D_n$ [\textit{$\frac{\mu Sv}{h}$}]\\
+			                \hline   Reaktortankwand ($\approx \unit[0]{m}$) & 12 & 2,5 & 27,5 & 4,3 \\
+			                Operatortisch ($\approx \unit[3]{m}$) & 1,4 & 0,2 & 2,5 & 0,6 \\
+			                Ecke ($\approx \unit[6]{m}$) & 0,6 & 0,14 & 0,5 & 0,13 
+			 	\end{tabular}
+			\end{table}
+		\end{frame}
+	
+\section{Theoretische Grundlagen zum Kernreaktor}
+	\subsection{Kernspaltung}
+		\begin{frame}{Wirkungsquerschnitt für Neutroneneinfang}
+			\begin{columns}
+				\begin{column}[c]{0.6\linewidth}
+					\begin{itemize}
+						\item Spaltbarriere von $^{238}$U: $E_B^{238} = 5,7\ \unit{MeV}$
+						\item Änderung der Bindungsenergie $\Delta B^{238} = 4,9\ \unit{MeV} < E_B^{238}$ \\
+						$\rightarrow$ \glqq schnelle\grqq\ Neutronen notwendig
+						\item Spaltbarriere von $^{235}$U: $E_B^{235} = 6,2\ \unit{MeV}$
+						\item Änderung der Bindungsenergie $\Delta B^{235} = 6,5\ \unit{MeV} > E_B^{238}$\\ 
+						$\rightarrow$ thermische Neutronen genügen
+					\end{itemize}
+				\end{column}
+				
+				\begin{column}[c]{0.4\linewidth}
+					\begin{figure}[ht]
+						\centering
+						\includegraphics[width=\linewidth]{pic/Wirkungsquerschnitt_Uran}\\
+						\tiny{Quelle: A. Ganczarczyk: \textit{Physikalische Grundlagen der Energieumwandlung}. \texttt{https://www.uni-due.de}. Duisburg, 01/2006, zuletzt geöffnet: 10.01.2016}
+					\end{figure}
+				\end{column}
+			\end{columns}	
+		\end{frame}
+		
+		\subsection{Reaktorkinetische Grundlagen}
+				\begin{frame}{Reaktorkinetische Grundbegriffe}
+					\begin{itemize}
+						\item Entscheidend für den Zustand eines Reaktors ist die Bilanz der zwischen den Spaltprozessen entstandenen und vernichteten Neutronen
+						\item Definiere den \textbf{Multiplikationsfaktor}
+							\begin{equation*}
+								k := \frac{N(t + l)}{N(t)} = \frac{N_{erzeugt}}{N_{absorbiert} + N_{leck}}
+							\end{equation*}		
+						\item sowie die relative Abweichung vom kritischen Zustand ($k=1$), die \textbf{Reaktivität}:
+							\begin{equation*}
+								\rho := \frac{k-1}{k}
+							\end{equation*}
+						\item Als Messgröße wird die \textbf{Reaktorperiode} $T_s$, die der Zeit entspricht, in der die Neutronendichte um den $e$-ten Teil zugenommen hat, genutzt.
+					\end{itemize}	
+		\end{frame}
+		
+		\begin{frame}{Neutroneninduzierte Spaltung von $^{235}$U und prompte Neutronen}
+			\begin{figure}[ht]
+				\centering
+				\includegraphics[width=0.5\textwidth]{pic/Kernspaltung}\\
+				\tiny{Quelle: \url{https://de.wikipedia.org/wiki/Kernspaltung}, zuletzt geöffnet: 28.01.16}
+			\end{figure}
+			\textbf{Problem}: Ein Reaktionszyklus findet auf einer Zeitskala von $l_p = 10^{-4}\ \unit{s}$\\
+			$\rightarrow$ Kettenreaktion nicht kontrollierbar
+		\end{frame}
+		
+		\begin{frame}{Wie man die Reaktion dennoch Steuern kann: Verzögerte Neutronen}
+			\begin{itemize}
+				\item Tochterkerne zerfallen weiter, wobei höher angeregte Tochterkerne höherer Generation entstehen können
+				\item Abregung durch Emission von \textbf{verzögerten Neutronen}
+				\item Lebensdauer (Zeitskala) dieser Neutronen wird durch HWZ der Mutterkerne im Mittel zu $l_v = 13\ \unit{s}$
+				\item Diese machen einen Anteil von $\beta = 0,64\ \unit{\%}$ aus
+				\item Effektive Lebensdauer $l_{eff} = \beta \cdot l_v + (1-\beta) \cdot l_p = 0.083\ \unit{s}$\\
+				$\rightarrow$ \textbf{Reaktion wird erst durch verzögerte Neutronen kontrollierbar}
+			\end{itemize}	
+		\end{frame}
+		
+		\begin{frame}{Zeitverhalten eines verzögert überkritischen Reaktors}
+				\begin{columns}
+						\begin{column}[c]{0.6\linewidth}
+							\begin{itemize}
+								\item Lösung der \textbf{reaktorkinetischen Gleichungen} für eine zur Zeit $t=0$ zugeführte Reaktivität $\rho(t) = \rho_0\cdot \Theta(t)$:
+								\begin{equation*}
+								 \footnotesize{
+									N(t)= N(0) \left[ c_1 e^{\frac{\lambda \cdot \rho_0}{\beta - \rho_0}\cdot t} - c_2 e^{-k\frac{\beta - \rho_0}{l_p} \cdot t} \right]
+									}
+								\end{equation*}
+								\item Falls $0 < \rho_0 < \beta$, klingt der zweite Summand schnell ab und mit $T_s = (\beta - \rho_0)/\lambda\cdot \rho_0$ erhält man die im Experiment genutzte Beziehung $P(t) \propto N(t)\propto e^{t/T_s} = 2^{t/T_2}$
+							\end{itemize}
+						\end{column}
+									
+						\begin{column}[c]{0.4\linewidth}
+							\begin{figure}[ht]
+								\centering
+								\includegraphics[width=\textwidth]{pic/Leistungsaenderung.pdf}\\
+								\tiny{Quelle: Technische Universität Dresden,  Institut für Energietechnik Ausbildungskernreaktor: \textit{Reaktorpraktikum Versuch "Reaktorstart"}. Dresden, 05/2011}
+							\end{figure}
+						\end{column}
+	     		\end{columns}	
+		\end{frame}
+		
+		\begin{frame}{Wie man Reaktivität misst: Die Inhour-Gleichung}
+					\begin{itemize}
+						\item setzt man bestimmte Lösungen der reaktorkinetischen Gleichungen in die DGl ein, erhält man die Inhour-Gleichung:
+							\begin{equation*}
+								\rho\prime = \frac{\rho}{\beta} = \frac{l_p}{k\cdot\beta \cdot T_s}+ \sum_{i=1}^{6} \frac{a_i}{1 + \lambda_i\cdot T_s}
+							\end{equation*}
+						\item diese liefert bei Messung der Verdopplungszeit (oder stabilen Reaktorperiode) die zugeführte Reaktivität nach Verlassen des kritischen Zustandes
+						\item als Einheit von $\rho\prime$ definiert man $[\rho\prime] = 1\ \unit{\$} = 100\ \unit{\cent}$
+						\item solange $\rho\prime < 1$, befindet sich der Reaktor nicht im prompt überkritischen Zustand, welcher dringendst zu vermeiden ist 
+					\end{itemize}	
+		\end{frame}
 
+\section{Steuerstabkalibrierung}
+	\subsection{Differentielle und integrale Steuerstabkennlinie}
+	
+		\begin{frame}{Neutronenflussdichte}
+			\begin{columns}
+				\begin{column}[c]{0.6\linewidth}
+					\begin{itemize}
+						\item Ziel: Ermitteln des Einflusses der Steuer- und Regeleinrichtungen auf die Neutronenbilanz (Reaktivität)
+						\item Annahme: Da Spaltzone zylindersymmetrisch, betrachte die Neutronenflussdichte $\Phi(z)$ ebenfalls als axialsymmetrisch
+						\item Ein möglicher analytischer Ausdruck, um die Verteilung einer Spaltzone der Länge $H$ zu modellieren ist:
+							\begin{equation*}
+								\Phi(z) = \Phi_{max} \cdot \sin\left(\frac{\pi\cdot z}{H}\right)
+							\end{equation*}
+					\end{itemize}	
+				\end{column}
+												
+				\begin{column}[c]{0.4\linewidth}
+					\begin{figure}[ht]
+						\centering
+						\includegraphics[width=\textwidth]{pic/NeutrFlDichte}\\
+						\tiny{Quelle: Technische Universität Dresden,  Institut für Energietechnik Ausbildungskernreaktor: \textit{Reaktorpraktikum Versuch \glqq Steuerstabkalibrierung\grqq}. Dresden, 05/2011}
+					\end{figure}
+				\end{column}
+     		\end{columns}
+ 		\end{frame}
+ 		
+ 		\begin{frame}{Steuerstabkennlinien}
+ 			\begin{itemize}
+ 			 	\item Verschiebung des Steuerstabes um $dz$ ergibt die \textbf{differentielle Steuerstabkennlinie}:
+ 			 		\begin{equation*}
+ 			 			\mathrm{d}\rho \propto - \sigma_{abs} \cdot \Phi^2(z) \cdot \mathrm{d}z
+ 			 		\end{equation*}
+ 			 	\item Integration über eine endliche Länge z liefert die \textbf{integrale Steuerstabkennlinie}:
+ 			 		$$\frac{\rho(z)}{\rho_{max}} = \frac{z}{H} - \frac{1}{2\pi} \sin{\left(\frac{2\pi z}{H}\right)}$$
+ 			\end{itemize}
+ 			\begin{figure}
+ 			 	\includegraphics[width=0.6\linewidth]{pic/sskl}\\
+ 			 	\tiny{Quelle: Technische Universität Dresden,  Institut für Energietechnik Ausbildungskernreaktor: \textit{Reaktorpraktikum Versuch \glqq Steuerstabkalibrierung\grqq}. Dresden, 05/2011}
+ 			 \end{figure}
+ 		\end{frame}
+ 		
+ 		\begin{frame}{Messung: Kompensationsverfahren}
+ 			\begin{table}
+ 				\begin{tabular}{c|c|c|c|c|c}
+ 				    	Zustand	&	$z_1\ [\unit{digit}]$	&	$z_2\ [\unit{digit}]$	&	$z_3\ [\unit{digit}]$	&	$T_2\ [\unit{s}]$	&	$T_s\ [\unit{s}]$\\
+ 				    	\hline
+ 				    	Kritisch	&	0		&	4.000	&	2.924	&	-	&	-	\\
+ 				    	ÜK			&	827		&	4.000	&	2.924	&	127	&	183\\
+ 				    	Kritisch	&	827		&	3.371	&	2.924	&	-	&	-\\
+ 				    	ÜK			&	1.609	&	3.371	&	2.924	&	97	&	140\\
+ 				    	Kritisch	&	1.609	&	2.626	&	2.924	&	-	&	-\\
+ 				    	ÜK			&	2.389	&	2.626	&	2.924	&	72	&	104\\
+ 				    	Kritisch	&	2.389	&	1.926	&	2.924	&	-	&	-\\
+ 				    	ÜK			&	3.245	&	1.926	&	2.924	&	96	&	139\\
+ 				    	Kritisch	&	3.245	&	804		&	2.924	&	-	&	-\\
+ 				    	ÜK			&	4.000	&	804		&	2.924	&	121	&	175\\
+ 				    	Kritisch	&	4.000	&	0		&	2.802	&	-	&	-	
+ 				    	\end{tabular}
+ 			\end{table}	
+ 		\end{frame}
+ 		
+ 		\begin{frame}{Messergebnis: differentielle Steuerstabkennlinie}
+ 			\begin{figure}[hp]
+ 		 		\centering
+ 				\scalebox{0.4}{
+ 				\input{pic/diffSSKL_all}
+ 				}
+ 			\end{figure}
+ 		\end{frame}
+ 		
+ 		\begin{frame}{Messergebnis: integrale Steuerstabkennlinie}
+ 		 	\begin{figure}[hp]
+ 		 		\centering
+ 		 		\scalebox{0.4}{
+ 		 		\input{pic/intSSKL_all}
+ 		 		}
+ 		 	\end{figure}
+ 		\end{frame}
+ 		
+ 		\begin{frame}{Charakteristische Reaktivitätswerte für den AKR-2}
+ 			\begin{itemize}
+ 				\item maximale Reaktivität aller 3 Stäbe:
+ 				 $$\rho_{max} = \rho_{1,max} + \rho_{2,max} + \rho_{3,max} = (1,12 \pm 0,03)\ \unit{\$}$$
+ 				\item Überschussreaktität aller Stäbe:
+ 				$$\rho_{\ddot{U}berschuss} = \rho_{1,\ddot{U}berschuss} + \rho_{2,\ddot{U}berschuss} + \rho_{3,\ddot{U}berschuss}  = (0,64 \pm 0,03)\ \unit{\$}$$
+ 				\item Abschaltreaktivität:
+ 				$$\rho_{Abschalt} = \rho_{max} - \rho_{\ddot{U}berschuss} = (0,48 \pm 0,04)\ \unit{\$}$$
+ 			\end{itemize}
+ 		\end{frame}
+ 		
+ 		\begin{frame}{Bestimmung der Reaktivität einer Cadmium-Probe}
+ 			\begin{itemize}
+ 				\item ausgehend vom kritischen Zustand $(z_1,z_2,z_3) = (2.406, 2.251, 2.513)\ \unit{digit}$ wird Probe in Experimentierkanal eingebracht
+ 				\item unterkritischer Zustand wird durch Ausfahren von Stab 1 kompensiert
+ 				\item neuer kritischer Zustand $(z_1\prime,z_2\prime,z_3\prime) = (3.888, 2.251, 2.513)\ \unit{digit}$
+ 				\item Reaktivität  der Probe ergibt sich aus integraler Steuerstabkennlinie:
+ 					$$\rho_{Cd}\prime = \rho_1\prime(z_1\prime) - \rho_1\prime(z_1) = (0,13 \pm 0,02)\ \unit{\$}$$
+ 			\end{itemize}
+ 		\end{frame}
+ \section{Disussion}
+ 	\begin{frame}{Diskussion}
+ 		\begin{itemize}
+	 		\item die vorliegenden (biologischen) Strahlenschutzmaßnahmen genügen den geforderten Grenzwerten
+	 		\item Dosisleistung skaliert in etwa linear mit der Reaktorleistung\\
+	 		$\rightarrow$ Leistungs-Reaktoren müssen noch stärker geschirmt werden
+	 		\item Abstandsquadratsgesetz wurde bestätigt (so gut das mit so wenigen Messwerten möglich war)
+	 		\item da $\rho_{\ddot{U}berschuss} < 1\ \unit{\$}$, besteht weder bei technischen noch bei personellen Fehlern die Möglichkeit, den Reaktor aus dem kritischen in einen prompt überkritischen Zustand zu versetzen
+ 		\end{itemize}
+ 	\end{frame}
+ 
 \end{document}
