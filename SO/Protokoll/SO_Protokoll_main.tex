@@ -1,0 +1,38 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{ucs}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage[german]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{shadethm}
+\usepackage{caption}
+\usepackage{tikz} 
+\usepackage{ziffer}
+\usepackage{units}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{braket}
+
+\newcommand{\minipanf}{\begin{minipage}{\linewidth}}
+\newcommand{\minipend}{\end{minipage}}
+\newcommand{\abs}[1]{\ensuremath{\left\vert#1\right\vert}}
+
+\begin{document}
+
+\include{SO_title} 	% Titelseite
+
+\tableofcontents
+\newpage 
+
+\input{SO_Protokoll_intro}			% Physikalischer Hintergrund
+\input{SO_Protokoll_experiment}		% Durchführung
+\input{SO_Protokoll_ausw}			% Auswertung
+\input{SO_Protokoll_diskussion}		% Diskussion
+\include{SO_Protokoll_literatur}
+
+\end{document}
