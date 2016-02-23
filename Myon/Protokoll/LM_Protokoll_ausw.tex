@@ -25,14 +25,14 @@
 		 \begin{equation} 
 		 			\alpha \abs{x_{n}-a}\leq (\alpha \abs{x_{n-1}-a})^2\leq \dots \leq (\alpha\abs{x_0-a})^{2^n}
 		 \end{equation}
-	ergibt, konvergiert dieses Verfahren im Idealfall \textit{quadratisch} gegen $a$, d.h. in jedem Schritt verdoppelt sich die Anzahl an korrekten Dezimalstellen. Somit findet man einen hinreichend exakt approximierten Schätzwert $a = \hat{\tau}/T$ innerhalb weniger Iterationen. Da, wie sich herausstellte, die Lösung dieser Gleichung stark von der Wahl der verwendeten Kanäle abhängig ist, werden im Folgenden die Resultate zweier Kanalkonstellationen in Tabelle \ref{table:resExp}  zusammengestellt.\\
+	ergibt, konvergiert dieses Verfahren im Idealfall \textit{quadratisch} gegen $a$, d.h. in jedem Schritt verdoppelt sich die Anzahl an korrekten Dezimalstellen. Somit findet man einen hinreichend exakt approximierten Schätzwert $a = \hat{\tau}/T$ innerhalb weniger Iterationen. Um einen korrekten Schätzwert für die mittlere Lebensdauer zu erhalten, muss man die Zeit, die dem geringsten Kanal entspricht, noch von der ermittelten Nullstelle subtrahieren. Da, wie sich herausstellte, die Lösung dieser Gleichung stark von der Wahl der verwendeten Kanäle abhängig ist, werden im Folgenden die Resultate zweier Kanalkonstellationen in Tabelle \ref{table:resExp}  zusammengestellt.\\
 		\begin{table}[hp]
 			\centering
 			\begin{tabular}{c|c|c|c|c} 
 				$K_{min}$		&		$K_{max}$		&		$T/\mu s$		&		$a = \hat{\tau}/T$		&		$\hat{\tau}/\mu s$\\
 				\hline
-				$20$			&		$175$			&		$7,292$			&		$0,598 \pm 0,004$		&		$4,36 \pm 0,03$\\	
-				$11$			&		$200$			&		$8,333$			&		$0,260 \pm 0,002$		&		$2,17 \pm 0,02$		
+				$20$			&		$175$			&		$7,292$			&		$0,483 \pm 0,004$		&		$3,52 \pm 0,03$\\	
+				$13$			&		$200$			&		$8,333$			&		$0,252 \pm 0,002$		&		$2,10 \pm 0,02$		
 			\end{tabular}
 			\caption{Ermittelte Schätzwerte für unterschiedliche Messkanäle.}
 			\label{table:resExp} 
@@ -43,19 +43,19 @@
 			\sigma_{\hat{\tau}} = \frac{1}{N}\sqrt{\sum\nolimits_{K=K_{min}}^{K_{max}} N_K\cdot \tau_K^2}
 		\end{equation}	
 	Die Abbildungen \ref{fig:LDexpZerf1} und \ref{fig:LDexpZerf2} visualisieren die graphische Lösung der impliziten Gleichung (\ref{eq:mastereq}). Die starke Abhängigkeit von den verwendeten Kanälen erklärt sich erst bei genauerem betrachten der Messdaten. Es stellt sich heraus, dass die Zählraten in den Kanälen 3 bis 15  mit einer Größenordnung $\mathcal{O}(10^3)$ zehnfach so groß sind, wie jene in den 'erwarteten Kanälen' (ab 40). Dies könnte durch zufällige Koinzidenzen ausgelöst werden, welche zum Beispiel durch Reaktion der Szintillatoren auf die uns natürlich umgebende Radioaktivität verursacht werden können. Man sieht, dass der ermittelte Schätzwert der Kanäle 11 bis 200 nahezu mit dem Literaturwert (\ref{eq:lit}) übereinstimmt, während die leicht verschobene Vergleichskonstellation um den Faktor 2 zu groß ist. Diese starke Abhängigkeit von den Kanälen soll durch Berücksichtigung des gebinnten Charakters der Messwerte in den nächsten beiden Kapiteln beseitigt werden. \\
-		\begin{figure}[Hp]
+		\begin{figure}[ht]
 		    \centering
 		    \captionsetup{justification=centering}
 		    \includegraphics[width=1.\linewidth]{pic/expZerf.pdf}
-			\caption{Ermittlung der Lebensdauer durch Bestimmung der Nullstelle von $f$ (grüner Punkt) wobei die Kanäle 17 bis 175 genutzt worden.}
+			\caption{Ermittlung der Lebensdauer durch Bestimmung der Nullstelle von $f$ (grüner Punkt) wobei die Kanäle 20 bis 175 genutzt worden.}
 			\label{fig:LDexpZerf1}
 		\end{figure}	
 		
-		\begin{figure}[Hp]
+		\begin{figure}[ht]
 			\centering
 			\captionsetup{justification=centering}
 		    \includegraphics[width=1.\linewidth]{pic/expZerf2.pdf}
-		    \caption{Ermittlung der Lebensdauer durch Bestimmung der Nullstelle von $f$ (grüner Punkt) wobei die Kanäle 11 bis 200 genutzt worden.}
+		    \caption{Ermittlung der Lebensdauer durch Bestimmung der Nullstelle von $f$ (grüner Punkt) wobei die Kanäle 13 bis 200 genutzt worden.}
 		    \label{fig:LDexpZerf2}
 		\end{figure}
 			
@@ -79,7 +79,7 @@
 				L_{\text{eff}}(\tau|N_{Kmin},\dots,N_{Kmax}) &:=  \sum_{K = K_{min}}^{K_{max}} -2 N_K \ln\lambda_K(\tau, N_0(\tau)|t_K,\Delta t)	
 			\end{align} 
 		Es wurden um einen Vergleich zur obigen Methode zu erhalten, die Kanäle $K_{min} = 20$ bis $K_{max} = 175$ verwendet. Abbildung \ref{fig:LDpoisson} zeigt das Ergebnis, welches bereits besser zu dem Literaturwert passt und zudem nur wenig von den verwendeten Kanälen abhängt.
-		\begin{figure}[hp]
+		\begin{figure}[ht]
 		      			\centering
 		      			\captionsetup{justification=centering}
 		      			\includegraphics[width=1.\linewidth]{pic/poisson.pdf}
@@ -108,7 +108,7 @@
     	    	\tilde{N}(\tau = \mu \pm \sigma) - \tilde{N}(\tau = \mu) = \tilde{\chi}^2(\tau = \mu \pm \sigma) = 1 	
     	 \end{equation}
     Somit ist $\chi^2$ ein Maß für den Abfall der Gaußfunktion bezüglich des Maximums und ist im Wendepunkt genau 1. Abbildung \ref{fig:LDgauss} zeigt  das Ergebnis des Minimierungsproblems für die Kanäle $K_{min} = 20$ bis $K_{max} = 175$, sowie einen Vergleich zur Lösung des Problems ohne vorher die Kanäle zusammenzufassen. Es fällt auf, sich die Likelihood-Funktion zwar verändert, der Schätzwert allerdings fast unverändert ist. Das ist ein Anzeichen dafür, dass bereits vor dem Zusammenfassen der Kanäle die Näherungsbedingung $\lambda_K \gg 1$ hinreichend gut erfüllt war. Weiterhin wurde der in Abschnitt \ref{sec:poisson} ermittelte Wert nur wenig nach unten korrigiert. Da dieses Verfahren auch weniger sensitiv auf die Kanalauswahl reagiert, kann man auch dieses Ergebnis als vertrauenswürdig erachten.
-   		\begin{figure}[hp]
+   		\begin{figure}[ht]
       		   			\centering
       		   			\captionsetup{justification=centering}
       		   			\includegraphics[width=1.\linewidth]{pic/gauss.pdf}

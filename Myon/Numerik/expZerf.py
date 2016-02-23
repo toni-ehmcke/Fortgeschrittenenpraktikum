@@ -25,11 +25,11 @@ def onMouseClick(event):
     if  event.button == 1 and event.inaxes == axHist and mode == '':            
         global x_i   
         print "x_i = ", x_i
-        print "tau_i =", x_i * T, " us"
+        print "tau_i =", x_i * T - t[cMin-1], " us"
         x_ip1 =  getNextIteration(x_i, t, counts, T, N, cMin, cMax)
         axHist.plot(x_i,0, ls='', marker='o')
         axHist.set_title(r'Mittlere Lebensdauer von Myonen mit Exponentialfunktion $\tau =$' +
-                         str(round(x_i * T,2)) + r'$\pm$' + str(round(sigma_tau,2)) + r' $\mu s$')
+                         str(round(x_i * T - t[cMin-1],2)) + r'$\pm$' + str(round(sigma_tau,2)) + r' $\mu s$')
         plt.draw()
         x_i = x_ip1
         
@@ -49,7 +49,7 @@ def Df(x_i):
         derivative of f with respect to x
     """
     funcVal =  np.e**(1./x_i)/(x_i**2 * (np.e**(1./x_i) - 1)**2) - 1
-    return np.e**(1./x_i)/(x_i**2 * (np.e**(1./x_i) - 1)**2) - 1
+    return funcVal
 
 def getNextIteration(x_i, t, counts, T, N, cMin, cMax):
     """ This function calculates the next fixpoint-iteration."""
@@ -63,12 +63,12 @@ data = readFile(fn, startRow)       # array with measuredata
 cNr = data[:,0]                     # channelnumbers
 cWdth = 1./24                       # channelwidth in us
 t = cNr * cWdth                     # measureable lifetimes
-cMin = 17                         # lower bond for channels
+cMin = 20                         # lower bond for channels
 cMax = 175                         # upper bond for channels
 counts =  data[:,1]                 # counts per channel
 countErr = np.sqrt(counts)          # error on the counts
 
-print t[8]
+
 
 
 
@@ -82,7 +82,7 @@ print sigma_tau
 x_0 = 0.2                           # start value of the iteration 
 global x_i
 x_i =  x_0  
-x = np.linspace(10e-9,1,100)        # sample points for plotting f
+x = np.linspace(10e-9,1,1000)        # sample points for plotting f
 
 fig = plt.figure("Mittlere Lebensdauer von Myonen", figsize=(15,8))
 axHist = fig.add_subplot(111)
