@@ -12,15 +12,33 @@
 		\caption{Schätzwerte für die mittlere Lebensdauer der Myonen.}
 		\label{tab:results}
 	\end{table}
-	Man beobachtet, dass die Ergebnisse für die Poisson- und die Normalverteilung sehr gut zum Literaturwert (\ref{eq:lit}) passen. Das exponentielle Zerfallsgesetz kommt nur mit einer anderen Kanalkonstellation an dieses Ergebnis heran, weshalb diese Methode nicht die optimale Wahl zur Schätzung dieses Parameters ist. Die Genauigkeit des Ergebnisses wird vor allem durch zufällige Koinzidenzen begrenzt. Der $\mu^-$-Einfang sollte dafür keine große Rolle spielen, da die dabei entstehenden Zerfallsprodukte kein Stoppsignal $2 \cdot \bar{3}$ oder $\bar{2} \cdot 3$ auslösen. Es sei denn, sie treten gemeinsam mit einer zufälligen Koinzidenz auf. Man könnte die Messung verbessern, indem man die Detektoren besser von der natürlich auftretenden Strahlung abschirmt. Zur exakteren Bestimmung der Lebensdauer könnte man Myonen durch Pion-Erzeugung an einem Teilchenbeschleuniger beobachten und vermessen.
+	Man beobachtet, dass die Ergebnisse für die Poisson- und die Normalverteilung sehr gut zum Literaturwert (\ref{eq:lit}) passen. Das exponentielle Zerfallsgesetz kommt nur mit einer anderen Kanalkonstellation an dieses Ergebnis heran, weshalb diese Methode nicht die optimale Wahl zur Schätzung dieses Parameters ist. Die Genauigkeit des Ergebnisses wird vor allem durch zufällige Koinzidenzen und den $\mu^-$-Einfang begrenzt, welche die enorm hohen Zählraten in den Kanälen geringer Lebensdauer erzeugen. Man könnte die Messung verbessern, indem man die Detektoren besser von der natürlich auftretenden Strahlung abschirmt. Zur exakteren Bestimmung der Lebensdauer könnte man Myonen durch Pion-Erzeugung an einem Teilchenbeschleuniger beobachten und vermessen.
 	
 
 \newpage
 \section{Anhang}
+\subsection{Messprotokoll}
 In diesem Abschnitt befindet sich das handschriftlich erstellte Messprotokoll mitsamt der uns gegebenen Aufgabenstellung.\\
-\begin{figure}[htbp]
-    \subfigure[Aufgabenstellung]{\includegraphics[scale=0.6]{pic/aufgabe.jpg}}
-    \subfigure[S1, handschrftl. MP]{\includegraphics[scale=0.12]{pic/mess1.png}}
-    \centering \subfigure[S2, handschiftl. MP]{\includegraphics[scale=0.10]{pic/mess2.png}}
-    \caption{Messprotokollseiten}
-\end{figure}
+	\begin{figure}[ht]
+					\centering
+					\includegraphics[width = 1.\linewidth]{pic/aufgabe.jpg}
+					\caption{Aufgabenstellung}
+	\end{figure}
+	\begin{figure}[ht]
+						\centering
+						\includegraphics[width = 1.\linewidth]{pic/mess1.png}
+						\caption{Messprotokoll Teil 1}
+	\end{figure}
+	\begin{figure}[ht]
+						\centering
+						\includegraphics[width = 1.\linewidth]{pic/mess2.png}
+						\caption{Messprotokoll Teil 2}
+	\end{figure}
+\subsection{Quellcode}
+An dieser Stelle befindet sich der \texttt{python}-Quellcode, der zur Berechnung der im Protokoll aufgeführten Daten verwendet wurde.
+\lstinputlisting[caption = Code zur Nullstellenbestimmung beim exponentiellen Zerfallsgesetz]{code/expZerf.py}
+\lstinputlisting[caption = Code zur Maximum-Likelihood-Methode mit Poissonverteilung]{code/poisson.py}
+\lstinputlisting[caption = Code zur Maximum-Likelihood-Methode mit Normalverteilung]{code/gauss.py}
+
+
+
