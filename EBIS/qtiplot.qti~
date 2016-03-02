@@ -1,0 +1,1809 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	24
+<table>
+Ar85msz10	39	2	01.03.16 18:14
+geometry	196	774	445	220	minimized	
+header	Ionisationszeit1[X]	Ladung[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Ar8+5msz10	2
+<data>
+0	200	1776
+1	195	1474
+2	190	1861
+3	185	1585
+4	180	1785
+5	175	1849
+6	170	1763
+7	165	1683
+8	160	1687
+9	155	1552
+10	150	1728
+11	145	1786
+12	140	1853
+13	135	1858
+14	130	2168
+15	125	1776
+16	120	1655
+17	115	1600
+18	110	1923
+19	105	1760
+20	100	1908
+21	95	1776
+22	90	1874
+23	85	2076
+24	80	2009
+25	75	1764
+26	70	2541
+27	65	2448
+28	60	4513
+29	55	4297
+30	50	9272
+31	45	8635
+32	40	22083
+33	35	20654
+34	30	42429
+35	25	37842
+36	20	44894
+37	15	41797
+38	10	19873
+</data>
+</table>
+<table>
+Ar9sz5z10	39	2	01.03.16 18:14
+geometry	392	774	445	220	minimized	
+header	Ionisationszeit[X]	Ladung[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Ar9+sz5z10	2
+<data>
+0	200	1350
+1	195	1330
+2	190	1380
+3	185	1320
+4	180	1610
+5	175	1370
+6	170	1410
+7	165	1420
+8	160	1510
+9	155	1530
+10	150	1470
+11	145	1440
+12	140	1610
+13	135	1580
+14	130	1540
+15	125	1820
+16	120	1960
+17	115	1640
+18	110	1970
+19	105	1780
+20	100	1970
+21	95	1690
+22	90	2640
+23	85	2690
+24	80	4310
+25	75	3810
+26	70	7080
+27	65	6880
+28	60	13620
+29	55	12820
+30	50	22500
+31	45	20810
+32	40	32510
+33	35	28780
+34	30	29290
+35	25	28620
+36	20	23040
+37	15	19990
+38	10	9800
+</data>
+</table>
+<table>
+Ar10sz5z10	39	2	01.03.16 18:14
+geometry	588	774	445	220	minimized	
+header	Ionisationszeit[X]	Ladung[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Ar10+sz5z10	2
+<data>
+0	200	7410
+1	195	1810
+2	190	1950
+3	185	1810
+4	180	1820
+5	175	2030
+6	170	2170
+7	165	2060
+8	160	2180
+9	155	2000
+10	150	2350
+11	145	2330
+12	140	2660
+13	135	2550
+14	130	3300
+15	125	2980
+16	120	4390
+17	115	3950
+18	110	5920
+19	105	5670
+20	100	8530
+21	95	8560
+22	90	12580
+23	85	12860
+24	80	18440
+25	75	17550
+26	70	26920
+27	65	25010
+28	60	35990
+29	55	32360
+30	50	41410
+31	45	40810
+32	40	44210
+33	35	40750
+34	30	34630
+35	25	28700
+36	20	21340
+37	15	18910
+38	10	9560
+</data>
+</table>
+<table>
+Ar11sz5z10	49	2	01.03.16 18:14
+geometry	784	774	445	220	minimized	
+header	Ionisationszeit[X]	Ladung[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Ar11+sz5z10	2
+<data>
+0	250	770
+1	245	850
+2	240	1020
+3	235	970
+4	230	1230
+5	225	1060
+6	220	1340
+7	215	1280
+8	210	1470
+9	205	1570
+10	200	1960
+11	195	2070
+12	190	2570
+13	185	2470
+14	180	3570
+15	175	3290
+16	170	4060
+17	165	4160
+18	160	5870
+19	155	5570
+20	150	7260
+21	145	7360
+22	140	9790
+23	135	9340
+24	130	12910
+25	125	11880
+26	120	17350
+27	115	15470
+28	110	22400
+29	105	21550
+30	100	29180
+31	95	26590
+32	90	36810
+33	85	33010
+34	80	42680
+35	75	36810
+36	70	48130
+37	65	48080
+38	60	48550
+39	55	45860
+40	50	47310
+41	45	46270
+42	40	36600
+43	35	32870
+44	30	21200
+45	25	19100
+46	20	8220
+47	15	6710
+48	10	2390
+</data>
+</table>
+<table>
+Ar12sz10z10	40	2	01.03.16 18:14
+geometry	1176	774	445	220	minimized	
+header	Ionisationszeit[X]	Ladung[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Ar12+sz10z10	2
+<data>
+0	400	680
+1	390	960
+2	380	1120
+3	370	1220
+4	360	1250
+5	350	1590
+6	340	1660
+7	330	1670
+8	320	1980
+9	310	2160
+10	300	2330
+11	290	2610
+12	280	3020
+13	270	3690
+14	260	4080
+15	250	5050
+16	240	5770
+17	230	6770
+18	220	8070
+19	210	9870
+20	200	11810
+21	190	13890
+22	180	16730
+23	170	19930
+24	160	23470
+25	150	27350
+26	140	31860
+27	130	36670
+28	120	41140
+29	110	45380
+30	100	47880
+31	90	50470
+32	80	49760
+33	70	45410
+34	60	37270
+35	50	27300
+36	40	16680
+37	30	8270
+38	20	3700
+39	10	1560
+</data>
+</table>
+<table>
+Ar13sz10z10	50	2	01.03.16 18:14
+geometry	1372	774	445	220	minimized	
+header	Ionisationszeit[X]	Ladung[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Ar13+sz10z10	2
+<data>
+0	500	3520
+1	490	3770
+2	480	3770
+3	470	4060
+4	460	4420
+5	450	4420
+6	440	4700
+7	430	4940
+8	420	4910
+9	410	5370
+10	400	5870
+11	390	6260
+12	380	6620
+13	370	6960
+14	360	7580
+15	350	8150
+16	340	8860
+17	330	9620
+18	320	10470
+19	310	11400
+20	300	12820
+21	290	13790
+22	280	15290
+23	270	17020
+24	260	18870
+25	250	20660
+26	240	22650
+27	230	25290
+28	220	27760
+29	210	30620
+30	200	33550
+31	190	36440
+32	180	39540
+33	170	41600
+34	160	44870
+35	150	46840
+36	140	48140
+37	130	48530
+38	120	47870
+39	110	46080
+40	100	42910
+41	90	38050
+42	80	31820
+43	70	24780
+44	60	17270
+45	50	11110
+46	40	6330
+47	30	3210
+48	20	1600
+49	10	760
+</data>
+</table>
+<table>
+Ar14sz20z7	50	2	01.03.16 18:14
+geometry	196	744	445	220	minimized	
+header	Ionisationszeit[X]	Ladung[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Ar14+sz20z7	2
+<data>
+0	1000	4351
+1	980	4632
+2	960	4634
+3	940	4731
+4	920	4807
+5	900	4863
+6	880	5162
+7	860	5075
+8	840	5278
+9	820	5316
+10	800	5466
+11	780	5671
+12	760	5818
+13	740	6082
+14	720	6152
+15	700	6559
+16	680	6713
+17	660	7134
+18	640	7352
+19	620	7570
+20	600	7945
+21	580	8397
+22	560	8716
+23	540	9371
+24	520	10177
+25	500	10728
+26	480	11133
+27	460	12554
+28	440	13051
+29	420	14512
+30	400	15971
+31	380	17379
+32	360	18981
+33	340	20744
+34	320	22975
+35	300	25159
+36	280	27308
+37	260	28583
+38	240	31344
+39	220	33234
+40	200	33803
+41	180	33340
+42	160	31298
+43	140	27615
+44	120	21946
+45	100	15515
+46	80	8911
+47	60	3937
+48	40	1389
+49	20	126
+</data>
+</table>
+<table>
+Ar15sz20z7	50	2	01.03.16 18:14
+geometry	392	744	445	220	minimized	
+header	Ionisationszeit[X]	Ladung[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Ar15+sz20z7	2
+<data>
+0	1000	14207
+1	980	14405
+2	960	14800
+3	940	14930
+4	920	15326
+5	900	15615
+6	880	15951
+7	860	16190
+8	840	16776
+9	820	17143
+10	800	17473
+11	780	18035
+12	760	18158
+13	740	18741
+14	720	19296
+15	700	19883
+16	680	20340
+17	660	21121
+18	640	21463
+19	620	22146
+20	600	22773
+21	580	22775
+22	560	23644
+23	540	25107
+24	520	25878
+25	500	26880
+26	480	27420
+27	460	27989
+28	440	29263
+29	420	30187
+30	400	30919
+31	380	31289
+32	360	32176
+33	340	32522
+34	320	32548
+35	300	32470
+36	280	31985
+37	260	30549
+38	240	29246
+39	220	26312
+40	200	24131
+41	180	20579
+42	160	16637
+43	140	12643
+44	120	8545
+45	100	5042
+46	80	2613
+47	60	1511
+48	40	2175
+49	20	1876
+</data>
+</table>
+<table>
+Ar16sz25z5	60	2	01.03.16 18:14
+geometry	0	744	446	220	minimized	
+header	Ionisationszeit[X]	Ladung[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Ar16+sz25z5	2
+<data>
+0	1500	12146
+1	1475	12032
+2	1450	12468
+3	1425	12732
+4	1400	13227
+5	1375	13491
+6	1350	13837
+7	1325	13839
+8	1300	13565
+9	1275	14507
+10	1250	14957
+11	1225	14966
+12	1200	15382
+13	1175	15612
+14	1150	16301
+15	1125	16520
+16	1100	16861
+17	1075	17101
+18	1050	17482
+19	1025	14356
+20	1000	18382
+21	975	18503
+22	950	18943
+23	925	19334
+24	900	19838
+25	875	20017
+26	850	20536
+27	825	20990
+28	800	21303
+29	775	21646
+30	750	22198
+31	725	22487
+32	700	22751
+33	675	23434
+34	650	23800
+35	625	23797
+36	600	24184
+37	575	24070
+38	550	23935
+39	525	24056
+40	500	23653
+41	475	23270
+42	450	22832
+43	425	22172
+44	400	21282
+45	375	20541
+46	350	18896
+47	325	17549
+48	300	15644
+49	275	14084
+50	250	11440
+51	225	9669
+52	200	7207
+53	175	5538
+54	150	3493
+55	125	1697
+56	100	890
+57	75	638
+58	50	184
+59	25	30
+</data>
+</table>
+<table>
+Ar17sz50z5	40	2	01.03.16 18:46
+geometry	1568	774	445	220	minimized	
+header	Ionisationszeit[X]	Ladung[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel	Ar17+sz50z5	2
+<data>
+0	2000	2939
+1	1950	2927
+2	1900	3272
+3	1850	3267
+4	1800	3429
+5	1750	3738
+6	1700	3810
+7	1650	3800
+8	1600	4054
+9	1550	4330
+10	1500	4319
+11	1450	4547
+12	1400	4848
+13	1350	4852
+14	1300	5028
+15	1250	4917
+16	1200	5122
+17	1150	5590
+18	1100	5710
+19	1050	5650
+20	1000	5530
+21	950	5900
+22	900	5750
+23	850	5810
+24	800	5550
+25	750	5470
+26	700	5130
+27	650	4890
+28	600	4750
+29	550	4040
+30	500	3590
+31	450	3120
+32	400	2700
+33	350	1820
+34	300	1250
+35	250	710
+36	200	360
+37	150	40
+38	100	200
+39	50	-60
+</data>
+</table>
+<multiLayer>
+Ar8-5msz10	1	1	01.03.16 19:04
+geometry	0	804	525	396	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	327
+<PageGeometry>0.00967118	0.0146199	0.980658	0.95614</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	9	50	0	0	0
+ScaleFont0	Cantarell	9	75	0	0	0
+ScaleFont1	Cantarell	9	75	0	0	0
+ScaleFont2	Cantarell	9	75	0	0	0
+ScaleFont3	Cantarell	9	75	0	0	0
+AxisFont0	Cantarell	9	50	0	0	0
+AxisFont1	Cantarell	9	50	0	0	0
+AxisFont2	Cantarell	9	50	0	0	0
+AxisFont3	Cantarell	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar85msz10_Ionisationszeit1	Ar85msz10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	38	1
+scale	0	0	50000	0	6	5	0	0
+scale	1	0	50000	0	6	5	0	0
+scale	2	0	250	0	6	5	0	0
+scale	3	0	250	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>197.99498746867</x>
+<y>49331.10367893</y>
+<right>241.854636591479</right>
+<bottom>43979.9331103679</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar9-sz5z10	1	1	01.03.16 19:04
+geometry	392	804	477	395	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	459	326
+<PageGeometry>0.010661	0.0146628	0.978678	0.956012</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	9	50	0	0	0
+ScaleFont0	Cantarell	9	75	0	0	0
+ScaleFont1	Cantarell	9	75	0	0	0
+ScaleFont2	Cantarell	9	75	0	0	0
+ScaleFont3	Cantarell	9	75	0	0	0
+AxisFont0	Cantarell	9	50	0	0	0
+AxisFont1	Cantarell	9	50	0	0	0
+AxisFont2	Cantarell	9	50	0	0	0
+AxisFont3	Cantarell	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar9sz5z10_Ionisationszeit	Ar9sz5z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	38	1
+scale	0	0	35000	0	8	5	0	0
+scale	1	0	35000	0	8	5	0	0
+scale	2	0	250	0	6	5	0	0
+scale	3	0	250	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>6.265664160401</x>
+<y>33829.431438127</y>
+<right>68.2957393483709</right>
+<bottom>30434.7826086957</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar10-sz5z10	1	1	01.03.16 19:04
+geometry	196	804	525	375	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	306
+<PageGeometry>0.00967118	0.0155763	0.980658	0.953271</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	9	50	0	0	0
+ScaleFont0	Cantarell	9	75	0	0	0
+ScaleFont1	Cantarell	9	75	0	0	0
+ScaleFont2	Cantarell	9	75	0	0	0
+ScaleFont3	Cantarell	9	75	0	0	0
+AxisFont0	Cantarell	9	50	0	0	0
+AxisFont1	Cantarell	9	50	0	0	0
+AxisFont2	Cantarell	9	50	0	0	0
+AxisFont3	Cantarell	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar10sz5z10_Ionisationszeit	Ar10sz5z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	38	1
+scale	0	0	50000	0	6	5	0	0
+scale	1	0	50000	0	6	5	0	0
+scale	2	0	250	0	6	5	0	0
+scale	3	0	250	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>6.265664160401</x>
+<y>48327.759197324</y>
+<right>68.2957393483709</right>
+<bottom>43478.2608695652</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar11-sz5z10	1	1	01.03.16 19:04
+geometry	588	804	595	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	577	392
+<PageGeometry>0.00851789	0.012285	0.982964	0.963145</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar11sz5z10_Ionisationszeit	Ar11sz5z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	48	1
+scale	0	0	50000	0	6	5	0	0
+scale	1	0	50000	0	6	5	0	0
+scale	2	0	300	0	7	5	0	0
+scale	3	0	300	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>7.5187969924812</x>
+<y>48327.759197324</y>
+<right>81.9548872180451</right>
+<bottom>43478.2608695652</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar12-sz10z10	1	1	01.03.16 19:05
+geometry	784	804	595	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	577	392
+<PageGeometry>0.00851789	0.012285	0.982964	0.963145</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar12sz10z10_Ionisationszeit	Ar12sz10z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	39	1
+scale	0	0	60000	0	7	5	0	0
+scale	1	0	60000	0	7	5	0	0
+scale	2	0	450	0	10	5	0	0
+scale	3	0	450	0	10	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>11.278195488722</x>
+<y>57993.311036789</y>
+<right>122.932330827068</right>
+<bottom>52173.9130434783</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar13-sz10z10	1	1	01.03.16 19:05
+geometry	980	804	595	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	577	392
+<PageGeometry>0.00851789	0.012285	0.982964	0.963145</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar13sz10z10_Ionisationszeit	Ar13sz10z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	49	1
+scale	0	0	50000	0	6	5	0	0
+scale	1	0	50000	0	6	5	0	0
+scale	2	0	600	0	7	5	0	0
+scale	3	0	600	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>15.037593984962</x>
+<y>48327.759197324</y>
+<right>163.90977443609</right>
+<bottom>43478.2608695652</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar14-sz20z7	1	1	01.03.16 19:05
+geometry	1176	804	601	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	583	392
+<PageGeometry>0.0084317	0.012285	0.983137	0.963145</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar14sz20z7_Ionisationszeit	Ar14sz20z7_Ladung	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	49	1
+scale	0	-5000	35000	0	9	5	0	0
+scale	1	-5000	35000	0	9	5	0	0
+scale	2	0	1200	0	7	5	0	0
+scale	3	0	1200	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>30.075187969925</x>
+<y>33662.20735786</y>
+<right>327.81954887218</right>
+<bottom>29782.6086956522</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar15-sz20z7	1	1	01.03.16 19:05
+geometry	1372	804	595	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	577	392
+<PageGeometry>0.00851789	0.012285	0.982964	0.963145</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar15sz20z7_Ionisationszeit	Ar15sz20z7_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	49	1
+scale	0	0	35000	0	8	5	0	0
+scale	1	0	35000	0	8	5	0	0
+scale	2	0	1200	0	7	5	0	0
+scale	3	0	1200	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>30.075187969925</x>
+<y>33829.431438127</y>
+<right>327.81954887218</right>
+<bottom>30434.7826086957</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar16-sz25z5	1	1	01.03.16 19:06
+geometry	1568	804	601	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	583	392
+<PageGeometry>0.0084317	0.012285	0.983137	0.963145</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar16sz25z5_Ionisationszeit	Ar16sz25z5_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	59	1
+scale	0	-5000	25000	0	7	5	0	0
+scale	1	-5000	25000	0	7	5	0	0
+scale	2	0	1600	0	9	5	0	0
+scale	3	0	1600	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>40.100250626566</x>
+<y>23996.655518395</y>
+<right>437.092731829574</right>
+<bottom>21086.9565217391</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar17-sz50z5	1	1	01.03.16 19:06
+geometry	0	774	601	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	583	392
+<PageGeometry>0.0084317	0.012285	0.983137	0.963145</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar17sz50z5_Ionisationszeit	Ar17sz50z5_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	39	1
+scale	0	-1000	6000	0	8	5	0	0
+scale	1	-1000	6000	0	8	5	0	0
+scale	2	0	2500	0	6	5	0	0
+scale	3	0	2500	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>62.65664160401</x>
+<y>5765.8862876254</y>
+<right>682.957393483709</right>
+<bottom>5086.95652173913</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+schmale-sz5z10	49	5	02.03.16 18:10
+geometry	980	774	648	757	minimized	
+header	Ionisationszeit[X]	Ar8[Y]	Ar9[Y]	Ar10[Y]	Ar11[Y]
+ColWidth	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14
+ReadOnlyColumn	0	0	0	0	0
+HiddenColumn	0	0	0	0	0
+Comments						
+WindowLabel	Stepsize 5ms, Minimumzeit 10ms, Ar8 bis Ar11, "schmale Peaks"	2
+<data>
+0	200	1776	1350	7410	770
+1	195	1474	1330	1810	850
+2	190	1861	1380	1950	1020
+3	185	1585	1320	1810	970
+4	180	1785	1610	1820	1230
+5	175	1849	1370	2030	1060
+6	170	1763	1410	2170	1340
+7	165	1683	1420	2060	1280
+8	160	1687	1510	2180	1470
+9	155	1552	1530	2000	1570
+10	150	1728	1470	2350	1960
+11	145	1786	1440	2330	2070
+12	140	1853	1610	2660	2570
+13	135	1858	1580	2550	2470
+14	130	2168	1540	3300	3570
+15	125	1776	1820	2980	3290
+16	120	1655	1960	4390	4060
+17	115	1600	1640	3950	4160
+18	110	1923	1970	5920	5870
+19	105	1760	1780	5670	5570
+20	100	1908	1970	8530	7260
+21	95	1776	1690	8560	7360
+22	90	1874	2640	12580	9790
+23	85	2076	2690	12860	9340
+24	80	2009	4310	18440	12910
+25	75	1764	3810	17550	11880
+26	70	2541	7080	26920	17350
+27	65	2448	6880	25010	15470
+28	60	4513	13620	35990	22400
+29	55	4297	12820	32360	21550
+30	50	9272	22500	41410	29180
+31	45	8635	20810	40810	26590
+32	40	22083	32510	44210	36810
+33	35	20654	28780	40750	33010
+34	30	42429	29290	34630	42680
+35	25	37842	28620	28700	36810
+36	20	44894	23040	21340	48130
+37	15	41797	19990	18910	48080
+38	10	19873	9800	9560	48550
+39					45860
+40					47310
+41					46270
+42					36600
+43					32870
+44					21200
+45					19100
+46					8220
+47					6710
+48					2390
+</data>
+</table>
+<multiLayer>
+schmalePeaks	1	1	02.03.16 18:13
+geometry	-2	-1	1023	821	active
+WindowLabel	Peaks der Zeitentwicklungen von Argon8+ bis Argon 11+	2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	1005	751
+<PageGeometry>0.00492611	0.0065189	0.990148	0.97914</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X) [<i>ms</i>]	integrierte Ladung [<i>fC</i>]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	21	50	0	0	0
+ScaleFont0	Cantarell	21	75	0	0	0
+ScaleFont1	Cantarell	21	75	0	0	0
+ScaleFont2	Cantarell	21	75	0	0	0
+ScaleFont3	Cantarell	21	75	0	0	0
+AxisFont0	Cantarell	21	50	0	0	0
+AxisFont1	Cantarell	21	50	0	0	0
+AxisFont2	Cantarell	21	50	0	0	0
+AxisFont3	Cantarell	21	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	schmale-sz5z10_Ionisationszeit	schmale-sz5z10_Ar11	2	1	#000000	0	1	3	1	#000000	#000000	0	#000000	14	1	2	0	0	48	1
+curve	schmale-sz5z10_Ionisationszeit	schmale-sz5z10_Ar10	2	1	#ff0000	0	1	3	1	#ff0000	#ff0000	0	#000000	14	1	2	0	0	48	1
+curve	schmale-sz5z10_Ionisationszeit	schmale-sz5z10_Ar9	2	1	#00ff00	0	1	3	1	#00ff00	#00ff00	0	#000000	14	1	2	0	0	48	1
+curve	schmale-sz5z10_Ionisationszeit	schmale-sz5z10_Ar8	2	1	#0000ff	0	1	3	1	#0000ff	#0000ff	0	#000000	14	1	2	0	0	48	1
+scale	0	0	50000	0	6	5	0	0
+scale	1	0	50000	0	6	5	0	0
+scale	2	10	200	0	4	5	0	0
+scale	3	10	200	0	4	5	0	0
+LabelsFormat	5	0	5	0	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>156.33064516129</x>
+<y>49752.883031301</y>
+<right>198.978494623656</right>
+<bottom>35996.705107084</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) Ar-11+
+\l(2) Ar-10+
+\l(3) Ar-9+
+\l(4) Ar-8+
+</Text>
+<Font>Cantarell	21	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+breite-peaks	60	11	02.03.16 18:20
+geometry	588	744	759	220	minimized	
+header	t-ion1[X]	Ar12[Y]	t-ion2[X]	Ar13[Y]	t-ion3[X]	Ar14[Y]	Ar15[Y]	t-ion4[X]	Ar16[Y]	t-ion5[X]	Ar17[Y]
+ColWidth	100	100	100	100	100	100	100	100	100	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14
+ReadOnlyColumn	0	0	0	0	0	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0	0	0	0	0	0
+Comments												
+WindowLabel		2
+<data>
+0	400	680	500	3520	1000	4351	14207	1500	12146	2000	2939
+1	390	960	490	3770	980	4632	14405	1475	12032	1950	2927
+2	380	1120	480	3770	960	4634	14800	1450	12468	1900	3272
+3	370	1220	470	4060	940	4731	14930	1425	12732	1850	3267
+4	360	1250	460	4420	920	4807	15326	1400	13227	1800	3429
+5	350	1590	450	4420	900	4863	15615	1375	13491	1750	3738
+6	340	1660	440	4700	880	5162	15951	1350	13837	1700	3810
+7	330	1670	430	4940	860	5075	16190	1325	13839	1650	3800
+8	320	1980	420	4910	840	5278	16776	1300	13565	1600	4054
+9	310	2160	410	5370	820	5316	17143	1275	14507	1550	4330
+10	300	2330	400	5870	800	5466	17473	1250	14957	1500	4319
+11	290	2610	390	6260	780	5671	18035	1225	14966	1450	4547
+12	280	3020	380	6620	760	5818	18158	1200	15382	1400	4848
+13	270	3690	370	6960	740	6082	18741	1175	15612	1350	4852
+14	260	4080	360	7580	720	6152	19296	1150	16301	1300	5028
+15	250	5050	350	8150	700	6559	19883	1125	16520	1250	4917
+16	240	5770	340	8860	680	6713	20340	1100	16861	1200	5122
+17	230	6770	330	9620	660	7134	21121	1075	17101	1150	5590
+18	220	8070	320	10470	640	7352	21463	1050	17482	1100	5710
+19	210	9870	310	11400	620	7570	22146	1025	14356	1050	5650
+20	200	11810	300	12820	600	7945	22773	1000	18382	1000	5530
+21	190	13890	290	13790	580	8397	22775	975	18503	950	5900
+22	180	16730	280	15290	560	8716	23644	950	18943	900	5750
+23	170	19930	270	17020	540	9371	25107	925	19334	850	5810
+24	160	23470	260	18870	520	10177	25878	900	19838	800	5550
+25	150	27350	250	20660	500	10728	26880	875	20017	750	5470
+26	140	31860	240	22650	480	11133	27420	850	20536	700	5130
+27	130	36670	230	25290	460	12554	27989	825	20990	650	4890
+28	120	41140	220	27760	440	13051	29263	800	21303	600	4750
+29	110	45380	210	30620	420	14512	30187	775	21646	550	4040
+30	100	47880	200	33550	400	15971	30919	750	22198	500	3590
+31	90	50470	190	36440	380	17379	31289	725	22487	450	3120
+32	80	49760	180	39540	360	18981	32176	700	22751	400	2700
+33	70	45410	170	41600	340	20744	32522	675	23434	350	1820
+34	60	37270	160	44870	320	22975	32548	650	23800	300	1250
+35	50	27300	150	46840	300	25159	32470	625	23797	250	710
+36	40	16680	140	48140	280	27308	31985	600	24184	200	360
+37	30	8270	130	48530	260	28583	30549	575	24070	150	40
+38	20	3700	120	47870	240	31344	29246	550	23935	100	200
+39	10	1560	110	46080	220	33234	26312	525	24056	50	-60
+40			100	42910	200	33803	24131	500	23653		
+41			90	38050	180	33340	20579	475	23270		
+42			80	31820	160	31298	16637	450	22832		
+43			70	24780	140	27615	12643	425	22172		
+44			60	17270	120	21946	8545	400	21282		
+45			50	11110	100	15515	5042	375	20541		
+46			40	6330	80	8911	2613	350	18896		
+47			30	3210	60	3937	1511	325	17549		
+48			20	1600	40	1389	2175	300	15644		
+49			10	760	20	126	1876	275	14084		
+50								250	11440		
+51								225	9669		
+52								200	7207		
+53								175	5538		
+54								150	3493		
+55								125	1697		
+56								100	890		
+57								75	638		
+58								50	184		
+59								25	30		
+</data>
+</table>
+<multiLayer>
+breitePeaks	1	1	02.03.16 18:25
+geometry	1021	0	962	772	
+WindowLabel	Ar12 bis Ar17	2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	941	702
+<PageGeometry>0.00524109	0.00696379	0.986373	0.977716</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Ionisationszeit [<i>ms</i>]	integrierte Ladung [<i>fC</i>]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	19	50	0	0	0
+ScaleFont0	Cantarell	19	75	0	0	0
+ScaleFont1	Cantarell	19	75	0	0	0
+ScaleFont2	Cantarell	19	75	0	0	0
+ScaleFont3	Cantarell	19	75	0	0	0
+AxisFont0	Cantarell	19	50	0	0	0
+AxisFont1	Cantarell	19	50	0	0	0
+AxisFont2	Cantarell	19	50	0	0	0
+AxisFont3	Cantarell	19	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	breite-peaks_t-ion5	breite-peaks_Ar17	2	1	#000000	0	1	3	1	#000000	#000000	0	#000000	14	1	2	0	0	59	1
+curve	breite-peaks_t-ion4	breite-peaks_Ar16	2	1	#ff0000	0	1	3	1	#ff0000	#ff0000	0	#000000	14	1	2	0	0	59	1
+curve	breite-peaks_t-ion3	breite-peaks_Ar15	2	1	#00ff00	0	1	3	1	#00ff00	#00ff00	0	#000000	14	1	2	0	0	59	1
+curve	breite-peaks_t-ion3	breite-peaks_Ar14	2	1	#0000ff	0	1	3	1	#0000ff	#0000ff	0	#000000	14	1	2	0	0	59	1
+curve	breite-peaks_t-ion2	breite-peaks_Ar13	2	1	#00ffff	0	1	3	1	#00ffff	#00ffff	0	#000000	14	1	2	0	0	59	1
+curve	breite-peaks_t-ion1	breite-peaks_Ar12	2	1	#ff00ff	0	1	3	1	#ff00ff	#ff00ff	0	#000000	14	1	2	0	0	59	1
+scale	0	0	60000	0	7	5	0	0
+scale	1	0	60000	0	7	5	0	0
+scale	2	0	2000	0	5	5	0	0
+scale	3	0	2000	0	5	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>1655.4054054054</x>
+<y>59787.234042553</y>
+<right>1997.74774774775</right>
+<bottom>36276.5957446808</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) Ar17+
+\l(2) Ar16+
+\l(3) Ar15+
+\l(4) Ar14+
+\l(5) Ar13+
+\l(6) Ar12+
+</Text>
+<Font>Cantarell	19	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
