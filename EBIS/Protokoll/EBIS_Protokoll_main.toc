@@ -1,7 +1,8 @@
 \select@language {german}
 \contentsline {section}{\numberline {1}Einf\IeC {\"u}hrung und Grundlagen}{2}{section.1}
 \contentsline {subsection}{\numberline {1.1}Elektrisch geladene Teilchen in einem homogenen Magnetfeld}{2}{subsection.1.1}
-\contentsline {section}{\numberline {2}Versuchsdurchf\IeC {\"u}hrung}{2}{section.2}
-\contentsline {section}{\numberline {3}Auswertung}{2}{section.3}
-\contentsline {section}{\numberline {4}Diskussion und Zusammenfassung}{2}{section.4}
-\contentsline {section}{\numberline {5}Quellenverzeichnis}{3}{section.5}
+\contentsline {section}{\numberline {2}Versuchsdurchf\IeC {\"u}hrung und Auswertung}{2}{section.2}
+\contentsline {subsection}{\numberline {2.1}Einstellen der Betriebsparameter}{2}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Aufnahme und Analyse eines \IeC {\"U}bersichtsspektrums}{3}{subsection.2.2}
+\contentsline {section}{\numberline {3}Auswertung}{4}{section.3}
+\contentsline {section}{\numberline {4}Diskussion und Zusammenfassung}{4}{section.4}
