@@ -2,7 +2,7 @@
 	
 	Bevor der eigentliche Versuch besprochen wird, sollen noch einige Grundlagen erörtert werden.
 \subsection{Reflexion und Transmission an Grenzflächen} \label{sec:fresnel}
-	Trifft elektromagnetische Strahlung auf eine ladungs- und stromfreie Grenzfläche, so erfüllen die elektrischen und magnetischen Felder, die die Welle beschreiben, bestimmte Stetigkeitsbedingungen und es treten Reflexions- und Transmissionseffekte auf. Im Allgemeinen muss man dabei eine Fallunterscheidung vornehmen, die die parallel und senkrecht zur Oberfläche polarisieren Anteile der einfallenden Welle voneinander trennt. Im vorliegenden Experiment wird allerdings ein Lichtstrahl (mit Amplitude $E_0$) betrachtet, der senkrecht von Luft (Brechungsindex $n_{Luft} = \unit[1,000292]{} \simeq 1$) in ein optisch dichteres Medium mit Brechungsindex $n$ propagiert. Die Amplitudenverhältnisse der dabei auftretenden partiellen Grenzflächeneffekte werden durch die \textit{Reflexions- und Transmissionkoeffizienten} beschrieben:
+	Trifft elektromagnetische Strahlung auf eine ladungs- und stromfreie Grenzfläche, so erfüllen die elektrischen und magnetischen Felder, die die Welle beschreiben, bestimmte Stetigkeitsbedingungen und es treten Reflexions- und Transmissionseffekte auf. Im Allgemeinen muss man dabei eine Fallunterscheidung vornehmen, die die parallel und senkrecht zur Oberfläche polarisieren Anteile der einfallenden Welle voneinander trennt. Im vorliegenden Experiment wird allerdings ein Lichtstrahl (mit Amplitude $E_0$) betrachtet, der senkrecht von Luft (Brechungsindex $n_{Luft} = \unit[1,000292]{} \simeq 1$) in ein optisch dichteres Medium mit Brechungsindex $n$ propagiert. Dabei verhalten sich parallel und senkrecht polarisierte Komponenten - bis auf Phasenfaktoren, die bei einer Intensitätsmessung ohnehin verloren gehen - äquivalent, weshalb die Fallunterscheidung entfällt. Die Amplitudenverhältnisse der dabei auftretenden partiellen Grenzflächeneffekte werden durch die \textit{Reflexions- und Transmissionkoeffizienten} beschrieben:
 	\begin{align}
 		&r_s \equiv r := \frac{E_r}{E_0} = \frac{n_{Luft} - n}{n_{Luft} + n} \simeq \frac{1 - n}{1 + n}, \label{eq:r_s}\\
 		&t_s \equiv t := \frac{E_t}{E_0} = \frac{2n_{Luft}}{n_{Luft} + n} \simeq \frac{2}{1 + n}. \label{eq:t_s} 
@@ -15,10 +15,9 @@
 	Da mit den vorliegenden Detektoren nur Intensitäten $I = \vec{\abs{E}}^2$ gemessen werden und somit Phaseninformationen verloren gehen, definiert man den sogenannten \textit{Reflexions- und Transmissionsgrad} als Verhältnis der reflektierten/transmittierten Leistung des elektrischen Feldes zu der des einfallendes Feldes. Im vorliegenden Spe\-zial\-fall senkrechtem Einfalls (s.E.) ergeben sich diese zu:
 	\begin{align}
 		&R := \frac{P_r}{P_e} = \abs{\frac{E_r}{E_0}}^2 = \frac{I_r}{I_0} = r^2 \overset{(\ref{eq:r_s})}{=} \frac{(n-1)^2}{(n+1)^2} = R^\prime, \label{eq:R}\\
-		&T := \frac{P_t}{P_e} \overset{s.E.}{=} \abs{\frac{E_t}{E_0}}^2 = \frac{I_t}{I_0} = t^2 \overset{(\ref{eq:t_s})}{=} \frac{4}{(n+1)^2} = \frac{1}{n^2}T^\prime, \label{eq:T}\\
-		&1 = T + R. \label{eq:ohneAbs}
+		&T := \frac{P_t}{P_e} \overset{s.E.}{=} \abs{\frac{E_t}{E_0}}^2 = \frac{I_t}{I_0} = t^2 \overset{(\ref{eq:t_s})}{=} \frac{4}{(n+1)^2} = \frac{1}{n^2}T^\prime, \label{eq:T}
 	\end{align}
-	Diese vier Größen werden im Experiment durch Vergleich der Intensität des Probestrahls mit einem Referenzstrahl, welcher kein Medium durchläuft, aber sonst den gleichen Weg passiert, ermittelt. Gleichung (\ref{eq:ohneAbs}) gilt dabei nur für eine ideale Grenzfläche ohne Absorption.\\
+	Diese vier Größen werden im Experiment durch Vergleich der Intensität des Probestrahls mit einem Referenzstrahl, welcher kein Medium durchläuft, aber sonst den gleichen Weg passiert, ermittelt.\\
 	Im ersten Teil des Versuches wird der Brechungsindex $n$ einer Glasprobe ermittelt werden. Dafür wird nun ein funktionaler Zusammenhang $n = n(R, R', T, T')$ gesucht. Dafür wird ein auf das Glas senkrecht einfallender Strahl mit Intensität $I_0$ betrachtet. Trifft dieser auf die Grenzfläche, wird ein Teil reflektiert ($I_r \overset{(\ref{eq:R})}{=} R I_0$) und ein Teil transmittiert ($I_t \overset{(\ref{eq:T})}{=} T I_0$). Anschließend tritt dies erneut an der Grenzfläche Glas-Luft auf, d.h. ein Teil des vorher transmittierten Strahles wird reflektiert ($I = T R^\prime I_0$) oder es verlässt das Medium ($I = T T^\prime I_0$). Dieser Vorgang wiederholt sich unendlich oft und wird in Abbildung \ref{fig:brechungsindex} skizziert.
 	\begin{figure}[ht]
 		\centering
@@ -34,7 +33,7 @@
 	Unter Verwendung der Gleichungen (\ref{eq:R}) und (\ref{eq:T}) und der geometrischen Reihe ergibt sich das gemessene gesamte Reflexions- und Transmissionsvermögen zu:
 	\begin{align}
 			&T_{ges}(n) = T\cdot T^\prime \cdot \frac{1}{1 - R^2} = \frac{2n}{n^2 + 1},\\
-			&R_{ges}(n) = R\cdot \left(1 + T\cdot T^\prime \cdot \frac{1}{1 - R^2}\right) = R (1 + T_{ges}) = \frac{(n-1)^2}{(n^2+1)},\\
+			&R_{ges}(n) = R\cdot \left(1 + T\cdot T^\prime \cdot \frac{1}{1 - R^2}\right) = R (1 + T_{ges}) = \frac{(n-1)^2}{n^2+1},\\
 			&T_{ges} + R_{ges} = 1.
 	\end{align}
 	Daraus erhält man durch Lösen der sich ergebenden quadratischen Gleichung den Brechungsindex:
