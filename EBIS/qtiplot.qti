@@ -1,9 +1,9 @@
 QtiPlot 0.9.8 project file
 <scripting-lang>	muParser
-<windows>	24
+<windows>	29
 <table>
 Ar85msz10	39	2	01.03.16 18:14
-geometry	196	774	445	220	minimized	
+geometry	0	760	-1	-1	minimized	
 header	Ionisationszeit1[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -57,7 +57,7 @@ WindowLabel	Ar8+5msz10	2
 </table>
 <table>
 Ar9sz5z10	39	2	01.03.16 18:14
-geometry	392	774	445	220	minimized	
+geometry	1568	790	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -111,7 +111,7 @@ WindowLabel	Ar9+sz5z10	2
 </table>
 <table>
 Ar10sz5z10	39	2	01.03.16 18:14
-geometry	588	774	445	220	minimized	
+geometry	1372	790	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -165,7 +165,7 @@ WindowLabel	Ar10+sz5z10	2
 </table>
 <table>
 Ar11sz5z10	49	2	01.03.16 18:14
-geometry	784	774	445	220	minimized	
+geometry	392	760	445	220	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -229,7 +229,7 @@ WindowLabel	Ar11+sz5z10	2
 </table>
 <table>
 Ar12sz10z10	40	2	01.03.16 18:14
-geometry	1176	774	445	220	minimized	
+geometry	1176	790	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -284,7 +284,7 @@ WindowLabel	Ar12+sz10z10	2
 </table>
 <table>
 Ar13sz10z10	50	2	01.03.16 18:14
-geometry	1372	774	445	220	minimized	
+geometry	980	790	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -349,7 +349,7 @@ WindowLabel	Ar13+sz10z10	2
 </table>
 <table>
 Ar14sz20z7	50	2	01.03.16 18:14
-geometry	196	744	445	220	minimized	
+geometry	784	790	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -414,7 +414,7 @@ WindowLabel	Ar14+sz20z7	2
 </table>
 <table>
 Ar15sz20z7	50	2	01.03.16 18:14
-geometry	392	744	445	220	minimized	
+geometry	588	790	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -479,7 +479,7 @@ WindowLabel	Ar15+sz20z7	2
 </table>
 <table>
 Ar16sz25z5	60	2	01.03.16 18:14
-geometry	0	744	446	220	minimized	
+geometry	392	790	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -554,7 +554,7 @@ WindowLabel	Ar16+sz25z5	2
 </table>
 <table>
 Ar17sz50z5	40	2	01.03.16 18:46
-geometry	1568	774	445	220	minimized	
+geometry	196	790	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -607,1036 +607,73 @@ WindowLabel	Ar17+sz50z5	2
 39	50	-60
 </data>
 </table>
-<multiLayer>
-Ar8-5msz10	1	1	01.03.16 19:04
-geometry	0	804	525	396	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	507	327
-<PageGeometry>0.00967118	0.0146199	0.980658	0.95614</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>0</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	9	50	0	0	0
-ScaleFont0	Cantarell	9	75	0	0	0
-ScaleFont1	Cantarell	9	75	0	0	0
-ScaleFont2	Cantarell	9	75	0	0	0
-ScaleFont3	Cantarell	9	75	0	0	0
-AxisFont0	Cantarell	9	50	0	0	0
-AxisFont1	Cantarell	9	50	0	0	0
-AxisFont2	Cantarell	9	50	0	0	0
-AxisFont3	Cantarell	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Ar85msz10_Ionisationszeit1	Ar85msz10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	38	1
-scale	0	0	50000	0	6	5	0	0
-scale	1	0	50000	0	6	5	0	0
-scale	2	0	250	0	6	5	0	0
-scale	3	0	250	0	6	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>197.99498746867</x>
-<y>49331.10367893</y>
-<right>241.854636591479</right>
-<bottom>43979.9331103679</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1,@L)
-</Text>
-<Font>Cantarell	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-Ar9-sz5z10	1	1	01.03.16 19:04
-geometry	392	804	477	395	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	459	326
-<PageGeometry>0.010661	0.0146628	0.978678	0.956012</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>0</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	9	50	0	0	0
-ScaleFont0	Cantarell	9	75	0	0	0
-ScaleFont1	Cantarell	9	75	0	0	0
-ScaleFont2	Cantarell	9	75	0	0	0
-ScaleFont3	Cantarell	9	75	0	0	0
-AxisFont0	Cantarell	9	50	0	0	0
-AxisFont1	Cantarell	9	50	0	0	0
-AxisFont2	Cantarell	9	50	0	0	0
-AxisFont3	Cantarell	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Ar9sz5z10_Ionisationszeit	Ar9sz5z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	38	1
-scale	0	0	35000	0	8	5	0	0
-scale	1	0	35000	0	8	5	0	0
-scale	2	0	250	0	6	5	0	0
-scale	3	0	250	0	6	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>6.265664160401</x>
-<y>33829.431438127</y>
-<right>68.2957393483709</right>
-<bottom>30434.7826086957</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1,@L)
-</Text>
-<Font>Cantarell	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-Ar10-sz5z10	1	1	01.03.16 19:04
-geometry	196	804	525	375	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	507	306
-<PageGeometry>0.00967118	0.0155763	0.980658	0.953271</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>0</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	9	50	0	0	0
-ScaleFont0	Cantarell	9	75	0	0	0
-ScaleFont1	Cantarell	9	75	0	0	0
-ScaleFont2	Cantarell	9	75	0	0	0
-ScaleFont3	Cantarell	9	75	0	0	0
-AxisFont0	Cantarell	9	50	0	0	0
-AxisFont1	Cantarell	9	50	0	0	0
-AxisFont2	Cantarell	9	50	0	0	0
-AxisFont3	Cantarell	9	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Ar10sz5z10_Ionisationszeit	Ar10sz5z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	38	1
-scale	0	0	50000	0	6	5	0	0
-scale	1	0	50000	0	6	5	0	0
-scale	2	0	250	0	6	5	0	0
-scale	3	0	250	0	6	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>6.265664160401</x>
-<y>48327.759197324</y>
-<right>68.2957393483709</right>
-<bottom>43478.2608695652</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1,@L)
-</Text>
-<Font>Cantarell	9	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-Ar11-sz5z10	1	1	01.03.16 19:04
-geometry	588	804	595	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	577	392
-<PageGeometry>0.00851789	0.012285	0.982964	0.963145</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>0</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	11	50	0	0	0
-ScaleFont0	Cantarell	11	75	0	0	0
-ScaleFont1	Cantarell	11	75	0	0	0
-ScaleFont2	Cantarell	11	75	0	0	0
-ScaleFont3	Cantarell	11	75	0	0	0
-AxisFont0	Cantarell	11	50	0	0	0
-AxisFont1	Cantarell	11	50	0	0	0
-AxisFont2	Cantarell	11	50	0	0	0
-AxisFont3	Cantarell	11	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Ar11sz5z10_Ionisationszeit	Ar11sz5z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	48	1
-scale	0	0	50000	0	6	5	0	0
-scale	1	0	50000	0	6	5	0	0
-scale	2	0	300	0	7	5	0	0
-scale	3	0	300	0	7	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>7.5187969924812</x>
-<y>48327.759197324</y>
-<right>81.9548872180451</right>
-<bottom>43478.2608695652</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1,@L)
-</Text>
-<Font>Cantarell	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-Ar12-sz10z10	1	1	01.03.16 19:05
-geometry	784	804	595	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	577	392
-<PageGeometry>0.00851789	0.012285	0.982964	0.963145</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>0</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	11	50	0	0	0
-ScaleFont0	Cantarell	11	75	0	0	0
-ScaleFont1	Cantarell	11	75	0	0	0
-ScaleFont2	Cantarell	11	75	0	0	0
-ScaleFont3	Cantarell	11	75	0	0	0
-AxisFont0	Cantarell	11	50	0	0	0
-AxisFont1	Cantarell	11	50	0	0	0
-AxisFont2	Cantarell	11	50	0	0	0
-AxisFont3	Cantarell	11	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Ar12sz10z10_Ionisationszeit	Ar12sz10z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	39	1
-scale	0	0	60000	0	7	5	0	0
-scale	1	0	60000	0	7	5	0	0
-scale	2	0	450	0	10	5	0	0
-scale	3	0	450	0	10	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>11.278195488722</x>
-<y>57993.311036789</y>
-<right>122.932330827068</right>
-<bottom>52173.9130434783</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1,@L)
-</Text>
-<Font>Cantarell	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-Ar13-sz10z10	1	1	01.03.16 19:05
-geometry	980	804	595	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	577	392
-<PageGeometry>0.00851789	0.012285	0.982964	0.963145</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>0</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	11	50	0	0	0
-ScaleFont0	Cantarell	11	75	0	0	0
-ScaleFont1	Cantarell	11	75	0	0	0
-ScaleFont2	Cantarell	11	75	0	0	0
-ScaleFont3	Cantarell	11	75	0	0	0
-AxisFont0	Cantarell	11	50	0	0	0
-AxisFont1	Cantarell	11	50	0	0	0
-AxisFont2	Cantarell	11	50	0	0	0
-AxisFont3	Cantarell	11	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Ar13sz10z10_Ionisationszeit	Ar13sz10z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	49	1
-scale	0	0	50000	0	6	5	0	0
-scale	1	0	50000	0	6	5	0	0
-scale	2	0	600	0	7	5	0	0
-scale	3	0	600	0	7	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>15.037593984962</x>
-<y>48327.759197324</y>
-<right>163.90977443609</right>
-<bottom>43478.2608695652</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1,@L)
-</Text>
-<Font>Cantarell	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-Ar14-sz20z7	1	1	01.03.16 19:05
-geometry	1176	804	601	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	583	392
-<PageGeometry>0.0084317	0.012285	0.983137	0.963145</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>0</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	11	50	0	0	0
-ScaleFont0	Cantarell	11	75	0	0	0
-ScaleFont1	Cantarell	11	75	0	0	0
-ScaleFont2	Cantarell	11	75	0	0	0
-ScaleFont3	Cantarell	11	75	0	0	0
-AxisFont0	Cantarell	11	50	0	0	0
-AxisFont1	Cantarell	11	50	0	0	0
-AxisFont2	Cantarell	11	50	0	0	0
-AxisFont3	Cantarell	11	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Ar14sz20z7_Ionisationszeit	Ar14sz20z7_Ladung	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	49	1
-scale	0	-5000	35000	0	9	5	0	0
-scale	1	-5000	35000	0	9	5	0	0
-scale	2	0	1200	0	7	5	0	0
-scale	3	0	1200	0	7	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>30.075187969925</x>
-<y>33662.20735786</y>
-<right>327.81954887218</right>
-<bottom>29782.6086956522</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1,@L)
-</Text>
-<Font>Cantarell	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-Ar15-sz20z7	1	1	01.03.16 19:05
-geometry	1372	804	595	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	577	392
-<PageGeometry>0.00851789	0.012285	0.982964	0.963145</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>0</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	11	50	0	0	0
-ScaleFont0	Cantarell	11	75	0	0	0
-ScaleFont1	Cantarell	11	75	0	0	0
-ScaleFont2	Cantarell	11	75	0	0	0
-ScaleFont3	Cantarell	11	75	0	0	0
-AxisFont0	Cantarell	11	50	0	0	0
-AxisFont1	Cantarell	11	50	0	0	0
-AxisFont2	Cantarell	11	50	0	0	0
-AxisFont3	Cantarell	11	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Ar15sz20z7_Ionisationszeit	Ar15sz20z7_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	49	1
-scale	0	0	35000	0	8	5	0	0
-scale	1	0	35000	0	8	5	0	0
-scale	2	0	1200	0	7	5	0	0
-scale	3	0	1200	0	7	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>30.075187969925</x>
-<y>33829.431438127</y>
-<right>327.81954887218</right>
-<bottom>30434.7826086957</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1,@L)
-</Text>
-<Font>Cantarell	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-Ar16-sz25z5	1	1	01.03.16 19:06
-geometry	1568	804	601	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	583	392
-<PageGeometry>0.0084317	0.012285	0.983137	0.963145</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>0</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	11	50	0	0	0
-ScaleFont0	Cantarell	11	75	0	0	0
-ScaleFont1	Cantarell	11	75	0	0	0
-ScaleFont2	Cantarell	11	75	0	0	0
-ScaleFont3	Cantarell	11	75	0	0	0
-AxisFont0	Cantarell	11	50	0	0	0
-AxisFont1	Cantarell	11	50	0	0	0
-AxisFont2	Cantarell	11	50	0	0	0
-AxisFont3	Cantarell	11	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Ar16sz25z5_Ionisationszeit	Ar16sz25z5_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	59	1
-scale	0	-5000	25000	0	7	5	0	0
-scale	1	-5000	25000	0	7	5	0	0
-scale	2	0	1600	0	9	5	0	0
-scale	3	0	1600	0	9	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>40.100250626566</x>
-<y>23996.655518395</y>
-<right>437.092731829574</right>
-<bottom>21086.9565217391</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1,@L)
-</Text>
-<Font>Cantarell	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
-<multiLayer>
-Ar17-sz50z5	1	1	01.03.16 19:06
-geometry	0	774	601	461	minimized	
-WindowLabel		2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	583	392
-<PageGeometry>0.0084317	0.012285	0.983137	0.963145</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>0</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X)	%(?Y)		%(?Y)	
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	11	50	0	0	0
-ScaleFont0	Cantarell	11	75	0	0	0
-ScaleFont1	Cantarell	11	75	0	0	0
-ScaleFont2	Cantarell	11	75	0	0	0
-ScaleFont3	Cantarell	11	75	0	0	0
-AxisFont0	Cantarell	11	50	0	0	0
-AxisFont1	Cantarell	11	50	0	0	0
-AxisFont2	Cantarell	11	50	0	0	0
-AxisFont3	Cantarell	11	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	Ar17sz50z5_Ionisationszeit	Ar17sz50z5_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	39	1
-scale	0	-1000	6000	0	8	5	0	0
-scale	1	-1000	6000	0	8	5	0	0
-scale	2	0	2500	0	6	5	0	0
-scale	3	0	2500	0	6	5	0	0
-LabelsFormat	0	6	0	6	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>62.65664160401</x>
-<y>5765.8862876254</y>
-<right>682.957393483709</right>
-<bottom>5086.95652173913</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1)%(1,@L)
-</Text>
-<Font>Cantarell	11	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
 <table>
-schmale-sz5z10	49	5	02.03.16 18:10
-geometry	980	774	648	757	minimized	
-header	Ionisationszeit[X]	Ar8[Y]	Ar9[Y]	Ar10[Y]	Ar11[Y]
-ColWidth	100	100	100	100	100	
+schmale-sz5z10	49	6	02.03.16 18:10
+geometry	1372	760	677	375	minimized	
+header	Ionisationszeit[X]	Ar8[Y]	Ar9[Y]	Ar10[Y]	1[X]	Ar11[Y]
+ColWidth	100	100	100	100	100	100	
 <com>
 </com>
-ColType	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14
-ReadOnlyColumn	0	0	0	0	0
-HiddenColumn	0	0	0	0	0
-Comments						
+ColType	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14	0;0/14
+ReadOnlyColumn	0	0	0	0	0	0
+HiddenColumn	0	0	0	0	0	0
+Comments							
 WindowLabel	Stepsize 5ms, Minimumzeit 10ms, Ar8 bis Ar11, "schmale Peaks"	2
 <data>
-0	200	1776	1350	7410	770
-1	195	1474	1330	1810	850
-2	190	1861	1380	1950	1020
-3	185	1585	1320	1810	970
-4	180	1785	1610	1820	1230
-5	175	1849	1370	2030	1060
-6	170	1763	1410	2170	1340
-7	165	1683	1420	2060	1280
-8	160	1687	1510	2180	1470
-9	155	1552	1530	2000	1570
-10	150	1728	1470	2350	1960
-11	145	1786	1440	2330	2070
-12	140	1853	1610	2660	2570
-13	135	1858	1580	2550	2470
-14	130	2168	1540	3300	3570
-15	125	1776	1820	2980	3290
-16	120	1655	1960	4390	4060
-17	115	1600	1640	3950	4160
-18	110	1923	1970	5920	5870
-19	105	1760	1780	5670	5570
-20	100	1908	1970	8530	7260
-21	95	1776	1690	8560	7360
-22	90	1874	2640	12580	9790
-23	85	2076	2690	12860	9340
-24	80	2009	4310	18440	12910
-25	75	1764	3810	17550	11880
-26	70	2541	7080	26920	17350
-27	65	2448	6880	25010	15470
-28	60	4513	13620	35990	22400
-29	55	4297	12820	32360	21550
-30	50	9272	22500	41410	29180
-31	45	8635	20810	40810	26590
-32	40	22083	32510	44210	36810
-33	35	20654	28780	40750	33010
-34	30	42429	29290	34630	42680
-35	25	37842	28620	28700	36810
-36	20	44894	23040	21340	48130
-37	15	41797	19990	18910	48080
-38	10	19873	9800	9560	48550
-39					45860
-40					47310
-41					46270
-42					36600
-43					32870
-44					21200
-45					19100
-46					8220
-47					6710
-48					2390
+0	200	1776	1350	7410	250	770
+1	195	1474	1330	1810	245	850
+2	190	1861	1380	1950	240	1020
+3	185	1585	1320	1810	235	970
+4	180	1785	1610	1820	230	1230
+5	175	1849	1370	2030	225	1060
+6	170	1763	1410	2170	220	1340
+7	165	1683	1420	2060	215	1280
+8	160	1687	1510	2180	210	1470
+9	155	1552	1530	2000	205	1570
+10	150	1728	1470	2350	200	1960
+11	145	1786	1440	2330	195	2070
+12	140	1853	1610	2660	190	2570
+13	135	1858	1580	2550	185	2470
+14	130	2168	1540	3300	180	3570
+15	125	1776	1820	2980	175	3290
+16	120	1655	1960	4390	170	4060
+17	115	1600	1640	3950	165	4160
+18	110	1923	1970	5920	160	5870
+19	105	1760	1780	5670	155	5570
+20	100	1908	1970	8530	150	7260
+21	95	1776	1690	8560	145	7360
+22	90	1874	2640	12580	140	9790
+23	85	2076	2690	12860	135	9340
+24	80	2009	4310	18440	130	12910
+25	75	1764	3810	17550	125	11880
+26	70	2541	7080	26920	120	17350
+27	65	2448	6880	25010	115	15470
+28	60	4513	13620	35990	110	22400
+29	55	4297	12820	32360	105	21550
+30	50	9272	22500	41410	100	29180
+31	45	8635	20810	40810	95	26590
+32	40	22083	32510	44210	90	36810
+33	35	20654	28780	40750	85	33010
+34	30	42429	29290	34630	80	42680
+35	25	37842	28620	28700	75	36810
+36	20	44894	23040	21340	70	48130
+37	15	41797	19990	18910	65	48080
+38	10	19873	9800	9560	60	48550
+39					55	45860
+40					50	47310
+41					45	46270
+42					40	36600
+43					35	32870
+44					30	21200
+45					25	19100
+46					20	8220
+47					15	6710
+48					10	2390
 </data>
 </table>
-<multiLayer>
-schmalePeaks	1	1	02.03.16 18:13
-geometry	784	744	1023	821	minimized	
-WindowLabel	Peaks der Zeitentwicklungen von Argon8+ bis Argon 11+	2
-Margins	5	5	5	5
-Spacing	5	5
-LayerCanvasSize	400	300
-Alignement	0	0
-<AlignPolicy>0</AlignPolicy>
-<CommonAxes>0</CommonAxes>
-<graph>
-ggeometry	5	5	1005	751
-<PageGeometry>0.00492611	0.0065189	0.990148	0.97914</PageGeometry>
-PlotTitle		#000000	4228
-<Antialiasing>0</Antialiasing>
-<Autoscaling>0</Autoscaling>
-<ScaleFonts>1</ScaleFonts>
-<GridOnTop>0</GridOnTop>
-<MissingDataGap>1</MissingDataGap>
-Background	#ffffff	0
-Margin	0
-Border	0	#000000
-grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
-EnabledAxes	1	1	1	1	
-AxesTitles	%(?X) [<i>ms</i>]	integrierte Ladung [<i>fC</i>]			
-AxesTitleColors	#000000	#000000	#000000	#000000	
-AxesTitleAlignment	5124	5124	5124	5124
-AxesTitleDistance	2	2	2	2
-InvertedTitle	0	0	0	0
-TitleFont	Cantarell	21	50	0	0	0
-ScaleFont0	Cantarell	21	75	0	0	0
-ScaleFont1	Cantarell	21	75	0	0	0
-ScaleFont2	Cantarell	21	75	0	0	0
-ScaleFont3	Cantarell	21	75	0	0	0
-AxisFont0	Cantarell	21	50	0	0	0
-AxisFont1	Cantarell	21	50	0	0	0
-AxisFont2	Cantarell	21	50	0	0	0
-AxisFont3	Cantarell	21	50	0	0	0
-AxesColors	#000000	#000000	#000000	#000000
-AxesNumberColors	#333333	#333333	#333333	#333333
-AxesBaseline	0	0	0	0	
-CanvasBackground	#ffffff	0
-curve	schmale-sz5z10_Ionisationszeit	schmale-sz5z10_Ar11	2	1	#000000	0	1	3	1	#000000	#000000	0	#000000	14	1	2	0	0	48	1
-curve	schmale-sz5z10_Ionisationszeit	schmale-sz5z10_Ar10	2	1	#ff0000	0	1	3	1	#ff0000	#ff0000	0	#000000	14	1	2	0	0	48	1
-curve	schmale-sz5z10_Ionisationszeit	schmale-sz5z10_Ar9	2	1	#00ff00	0	1	3	1	#00ff00	#00ff00	0	#000000	14	1	2	0	0	48	1
-curve	schmale-sz5z10_Ionisationszeit	schmale-sz5z10_Ar8	2	1	#0000ff	0	1	3	1	#0000ff	#0000ff	0	#000000	14	1	2	0	0	48	1
-scale	0	0	50000	0	6	5	0	0
-scale	1	0	50000	0	6	5	0	0
-scale	2	10	200	0	4	5	0	0
-scale	3	10	200	0	4	5	0	0
-LabelsFormat	5	0	5	0	0	6	0	6
-AxisType	0	0	0	0	
-MajorTicks	1	1	1	1
-MinorTicks	1	1	1	1
-TicksLength	5	9
-DrawAxesBackbone	1	1	1	1	1
-AxesLineWidth	1
-LabelsRotation	0	0	0	0
-LabelsPrefix				
-LabelsSuffix				
-TickLabelsSpace	4	4	4	4
-ShowTicksPolicy	0	0	0	0
-EnabledTickLabels	1	1	1	1
-<Legend>
-<Frame>1</Frame>
-<Color>#000000</Color>
-<FrameWidth>1</FrameWidth>
-<LineStyle>0</LineStyle>
-<x>156.33064516129</x>
-<y>49752.883031301</y>
-<right>198.978494623656</right>
-<bottom>35996.705107084</bottom>
-<attachTo>1</attachTo>
-<onTop>1</onTop>
-<visible>1</visible>
-<Text>
-\l(1) Ar-11+
-\l(2) Ar-10+
-\l(3) Ar-9+
-\l(4) Ar-8+
-</Text>
-<Font>Cantarell	21	50	0	0	0</Font>
-<TextColor>#000000</TextColor>
-<Background>#ffffff</Background>
-<Alpha>0</Alpha>
-<Angle>0</Angle>
-<AutoUpdate>1</AutoUpdate>
-<TeXOutput>0</TeXOutput>
-</Legend>
-</graph>
-<LinkXAxes>0</LinkXAxes>
-<ScaleLayers>1</ScaleLayers>
-</multiLayer>
 <table>
 breite-peaks	60	11	02.03.16 18:20
-geometry	588	744	759	220	minimized	
+geometry	196	760	1224	646	minimized	
 header	t-ion1[X]	Ar12[Y]	t-ion2[X]	Ar13[Y]	t-ion3[X]	Ar14[Y]	Ar15[Y]	t-ion4[X]	Ar16[Y]	t-ion5[X]	Ar17[Y]
 ColWidth	100	100	100	100	100	100	100	100	100	100	100	
 <com>
@@ -1710,8 +747,971 @@ WindowLabel		2
 </data>
 </table>
 <multiLayer>
+Ar8-5msz10	1	1	01.03.16 19:04
+geometry	0	790	525	396	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	327
+<PageGeometry>0.00996016	0.0132979	1.00996	0.869681</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	9	50	0	0	0
+ScaleFont0	Cantarell	9	75	0	0	0
+ScaleFont1	Cantarell	9	75	0	0	0
+ScaleFont2	Cantarell	9	75	0	0	0
+ScaleFont3	Cantarell	9	75	0	0	0
+AxisFont0	Cantarell	9	50	0	0	0
+AxisFont1	Cantarell	9	50	0	0	0
+AxisFont2	Cantarell	9	50	0	0	0
+AxisFont3	Cantarell	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar85msz10_Ionisationszeit1	Ar85msz10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	38	1
+scale	0	0	50000	0	6	5	0	0
+scale	1	0	50000	0	6	5	0	0
+scale	2	0	250	0	6	5	0	0
+scale	3	0	250	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>197.99498746867</x>
+<y>49331.10367893</y>
+<right>76.1772853185596</right>
+<bottom>41596.6386554622</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar9-sz5z10	1	1	01.03.16 19:04
+geometry	1568	820	477	395	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	459	326
+<PageGeometry>0.00996016	0.0132979	0.914343	0.867021</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	9	50	0	0	0
+ScaleFont0	Cantarell	9	75	0	0	0
+ScaleFont1	Cantarell	9	75	0	0	0
+ScaleFont2	Cantarell	9	75	0	0	0
+ScaleFont3	Cantarell	9	75	0	0	0
+AxisFont0	Cantarell	9	50	0	0	0
+AxisFont1	Cantarell	9	50	0	0	0
+AxisFont2	Cantarell	9	50	0	0	0
+AxisFont3	Cantarell	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar9sz5z10_Ionisationszeit	Ar9sz5z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	38	1
+scale	0	0	35000	0	8	5	0	0
+scale	1	0	35000	0	8	5	0	0
+scale	2	0	250	0	6	5	0	0
+scale	3	0	250	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>6.265664160401</x>
+<y>33829.431438127</y>
+<right>87.8594249201278</right>
+<bottom>29092.8270042194</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar10-sz5z10	1	1	01.03.16 19:04
+geometry	1372	820	525	375	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	507	306
+<PageGeometry>0.00996016	0.0132979	1.00996	0.81383</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	9	50	0	0	0
+ScaleFont0	Cantarell	9	75	0	0	0
+ScaleFont1	Cantarell	9	75	0	0	0
+ScaleFont2	Cantarell	9	75	0	0	0
+ScaleFont3	Cantarell	9	75	0	0	0
+AxisFont0	Cantarell	9	50	0	0	0
+AxisFont1	Cantarell	9	50	0	0	0
+AxisFont2	Cantarell	9	50	0	0	0
+AxisFont3	Cantarell	9	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar10sz5z10_Ionisationszeit	Ar10sz5z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	38	1
+scale	0	0	50000	0	6	5	0	0
+scale	1	0	50000	0	6	5	0	0
+scale	2	0	250	0	6	5	0	0
+scale	3	0	250	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>6.265664160401</x>
+<y>48327.759197324</y>
+<right>76.1772853185596</right>
+<bottom>40783.4101382488</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	9	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar11-sz5z10	1	1	01.03.16 19:04
+geometry	1176	820	595	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	577	392
+<PageGeometry>0.00996016	0.0132979	1.1494	1.04255</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar11sz5z10_Ionisationszeit	Ar11sz5z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	48	1
+scale	0	0	50000	0	6	5	0	0
+scale	1	0	50000	0	6	5	0	0
+scale	2	0	300	0	7	5	0	0
+scale	3	0	300	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>7.5187969924812</x>
+<y>48327.759197324</y>
+<right>76.5807962529274</right>
+<bottom>43645.4849498328</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar12-sz10z10	1	1	01.03.16 19:05
+geometry	980	820	595	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	577	392
+<PageGeometry>0.00996016	0.0132979	1.1494	1.04255</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar12sz10z10_Ionisationszeit	Ar12sz10z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	39	1
+scale	0	0	60000	0	7	5	0	0
+scale	1	0	60000	0	7	5	0	0
+scale	2	0	450	0	10	5	0	0
+scale	3	0	450	0	10	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>11.278195488722</x>
+<y>57993.311036789</y>
+<right>114.871194379391</right>
+<bottom>52374.5819397993</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar13-sz10z10	1	1	01.03.16 19:05
+geometry	784	820	595	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	577	392
+<PageGeometry>0.00996016	0.0132979	1.1494	1.04255</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar13sz10z10_Ionisationszeit	Ar13sz10z10_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	49	1
+scale	0	0	50000	0	6	5	0	0
+scale	1	0	50000	0	6	5	0	0
+scale	2	0	600	0	7	5	0	0
+scale	3	0	600	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>15.037593984962</x>
+<y>48327.759197324</y>
+<right>153.161592505855</right>
+<bottom>43645.4849498328</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar14-sz20z7	1	1	01.03.16 19:05
+geometry	588	820	601	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	583	392
+<PageGeometry>0.00996016	0.0132979	1.16135	1.04255</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar14sz20z7_Ionisationszeit	Ar14sz20z7_Ladung	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	49	1
+scale	0	-5000	35000	0	9	5	0	0
+scale	1	-5000	35000	0	9	5	0	0
+scale	2	0	1200	0	7	5	0	0
+scale	3	0	1200	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>30.075187969925</x>
+<y>33662.20735786</y>
+<right>307.042253521127</right>
+<bottom>29916.3879598662</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar15-sz20z7	1	1	01.03.16 19:05
+geometry	392	820	595	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	577	392
+<PageGeometry>0.00996016	0.0132979	1.1494	1.04255</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar15sz20z7_Ionisationszeit	Ar15sz20z7_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	49	1
+scale	0	0	35000	0	8	5	0	0
+scale	1	0	35000	0	8	5	0	0
+scale	2	0	1200	0	7	5	0	0
+scale	3	0	1200	0	7	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>30.075187969925</x>
+<y>33829.431438127</y>
+<right>311.428571428571</right>
+<bottom>30551.8394648829</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar16-sz25z5	1	1	01.03.16 19:06
+geometry	196	820	601	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	583	392
+<PageGeometry>0.00996016	0.0132979	1.16135	1.04255</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar16sz25z5_Ionisationszeit	Ar16sz25z5_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	59	1
+scale	0	-5000	25000	0	7	5	0	0
+scale	1	-5000	25000	0	7	5	0	0
+scale	2	0	1600	0	9	5	0	0
+scale	3	0	1600	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>40.100250626566</x>
+<y>23996.655518395</y>
+<right>409.389671361502</right>
+<bottom>21187.2909698997</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Ar17-sz50z5	1	1	01.03.16 19:06
+geometry	0	820	601	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	583	392
+<PageGeometry>0.00996016	0.0132979	1.16135	1.04255</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Ar17sz50z5_Ionisationszeit	Ar17sz50z5_Ladung	2	1	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	39	1
+scale	0	-1000	6000	0	8	5	0	0
+scale	1	-1000	6000	0	8	5	0	0
+scale	2	0	2500	0	6	5	0	0
+scale	3	0	2500	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>62.65664160401</x>
+<y>5765.8862876254</y>
+<right>639.671361502347</right>
+<bottom>5110.36789297659</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1,@L)
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+schmalePeaks	1	1	02.03.16 18:13
+geometry	980	760	1920	850	minimized	
+WindowLabel	Peaks der Zeitentwicklungen von Argon8+ bis Argon 11+	2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	6	5	1906	816
+<PageGeometry>0.003125	0.0060241	0.992708	0.983133</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X) [<i>ms</i>]	integrierte Ladung [<i>fC </i>]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	23	50	0	0	0
+ScaleFont0	Cantarell	23	75	0	0	0
+ScaleFont1	Cantarell	23	75	0	0	0
+ScaleFont2	Cantarell	23	75	0	0	0
+ScaleFont3	Cantarell	23	75	0	0	0
+AxisFont0	Cantarell	23	50	0	0	0
+AxisFont1	Cantarell	23	50	0	0	0
+AxisFont2	Cantarell	23	50	0	0	0
+AxisFont3	Cantarell	23	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	schmale-sz5z10_1	schmale-sz5z10_Ar11	2	1	#000000	0	1	3	1	#000000	#000000	0	#000000	14	1	2	0	0	48	1
+curve	schmale-sz5z10_Ionisationszeit	schmale-sz5z10_Ar10	2	1	#ff0000	0	1	3	1	#ff0000	#ff0000	0	#000000	14	1	2	0	1	48	1
+curve	schmale-sz5z10_Ionisationszeit	schmale-sz5z10_Ar9	2	1	#00ff00	0	1	3	1	#00ff00	#00ff00	0	#000000	14	1	2	0	0	48	1
+curve	schmale-sz5z10_Ionisationszeit	schmale-sz5z10_Ar8	2	1	#0000ff	0	1	3	1	#0000ff	#0000ff	0	#000000	14	1	2	0	0	48	1
+scale	0	0	50000	0	6	5	0	0
+scale	1	0	50000	0	6	5	0	0
+scale	2	10	250	0	3	5	0	0
+scale	3	10	250	0	3	5	0	0
+LabelsFormat	5	0	5	0	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>209.54372623574</x>
+<y>49917.081260365</y>
+<right>249.087452471483</right>
+<bottom>36069.6517412935</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) Ar<sup>11+</sup>
+\l(2) Ar<sup>10+</sup>
+\l(3) Ar<sup>9+</sup>
+\l(4) Ar<sup>8+</sup>
+</Text>
+<Font>Cantarell	23	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
 breitePeaks	1	1	02.03.16 18:25
-geometry	747	0	1236	772	active
+geometry	784	760	1920	850	minimized	
 WindowLabel	Ar12 bis Ar17	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1720,8 +1720,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	5	5	1215	702
-<PageGeometry>0.00407166	0.00696379	0.989414	0.977716</PageGeometry>
+ggeometry	11	6	1899	810
+<PageGeometry>0.00572917	0.00722892	0.989062	0.975904</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -1738,15 +1738,15 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	19	50	0	0	0
-ScaleFont0	Cantarell	19	75	0	0	0
-ScaleFont1	Cantarell	19	75	0	0	0
-ScaleFont2	Cantarell	19	75	0	0	0
-ScaleFont3	Cantarell	19	75	0	0	0
-AxisFont0	Cantarell	19	50	0	0	0
-AxisFont1	Cantarell	19	50	0	0	0
-AxisFont2	Cantarell	19	50	0	0	0
-AxisFont3	Cantarell	19	50	0	0	0
+TitleFont	Cantarell	22	50	0	0	0
+ScaleFont0	Cantarell	22	75	0	0	0
+ScaleFont1	Cantarell	22	75	0	0	0
+ScaleFont2	Cantarell	22	75	0	0	0
+ScaleFont3	Cantarell	22	75	0	0	0
+AxisFont0	Cantarell	22	50	0	0	0
+AxisFont1	Cantarell	22	50	0	0	0
+AxisFont2	Cantarell	22	50	0	0	0
+AxisFont3	Cantarell	22	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
@@ -1779,22 +1779,399 @@ EnabledTickLabels	1	1	1	1
 <Color>#000000</Color>
 <FrameWidth>1</FrameWidth>
 <LineStyle>0</LineStyle>
-<x>1683.2298136646</x>
-<y>59680.85106383</y>
-<right>1989.64803312629</right>
-<bottom>36170.2127659574</bottom>
+<x>1831.4883148831</x>
+<y>59726.858877086</y>
+<right>1996.30996309963</right>
+<bottom>36327.7693474962</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
 <Text>
-\l(1) Ar17+
-\l(2) Ar16+
-\l(3) Ar15+
-\l(4) Ar14+
-\l(5) Ar13+
-\l(6) Ar12+
+\l(1) Ar<sup>17+</sup>
+\l(2) Ar<sup>16+</sup>
+\l(3) Ar<sup>15+</sup>
+\l(4) Ar<sup>14+</sup>
+\l(5) Ar<sup>13+</sup>
+\l(6) Ar<sup>12+</sup>
 </Text>
-<Font>Cantarell	19	50	0	0	0</Font>
+<Font>Cantarell	23	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+breiteMaxima	1	1	02.03.16 21:01
+geometry	588	760	595	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	577	392
+<PageGeometry>0.00851789	0.012285	0.982964	0.963145</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X) [<i>ms </i>]	integrierte Ladung [<i>fC </i>]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+scale	0	0	60000	0	7	5	0	0
+scale	1	0	60000	0	7	5	0	0
+scale	2	0	1000	0	6	5	0	0
+scale	3	0	1000	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+schmalePeaks-Maxima	1	1	02.03.16 21:13
+geometry	1176	760	619	461	minimized	
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	601	392
+<PageGeometry>0.00818331	0.012285	0.983633	0.963145</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+scale	0	-10000	50000	0	7	5	0	0
+scale	1	-10000	50000	0	7	5	0	0
+scale	2	5	45	0	9	5	0	0
+scale	3	5	45	0	9	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>26.553884711779</x>
+<y>4247.491638796</y>
+<right>42.9949874686717</right>
+<bottom>-2173.91304347826</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<table>
+MaximaAllerPeaks	30	2	02.03.16 21:16
+geometry	1568	760	445	379	minimized	
+header	Ionisationszeit[X]	Ladung[Y]
+ColWidth	100	100	
+<com>
+</com>
+ColType	0;0/14	0;0/14
+ReadOnlyColumn	0	0
+HiddenColumn	0	0
+Comments			
+WindowLabel		2
+<data>
+0	20	44894
+1	35	34630
+2	40	32510
+3	60	48550
+4	90	50470
+5	130	48530
+6	200	33803
+7	320	32548
+8	600	24184
+9	950	5900
+</data>
+</table>
+<table>
+maxima	10	3	03.03.16 12:40
+geometry	0	730	620	414	minimized	
+header	1[X]	2[X]	3[Y]
+ColWidth	122	46	148	
+<com>
+</com>
+ColType	0;0/14	0;0/14	0;0/14
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/EBIS/Christians_Auswertung/Zeitentwicklungen/maxima.txt	2
+<data>
+0	0	20	0.14585113399
+1	0	40	0.106979499161
+2	0	40	0.0818006883026
+3	0	60	0.0607763854637
+4	0	90	0.0811310442387
+5	0	130	0.0515322700533
+6	0	200	0.0528578219506
+7	0	320	0.0319197240711
+8	0	600	0.0250275536974
+9	0	950	0.0386381050302
+</data>
+</table>
+<multiLayer>
+MaximaFit	1	1	03.03.16 12:41
+geometry	maximized	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	10	7	1898	806
+<PageGeometry>0.00520833	0.00843373	0.988542	0.971084</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Ionisationszeit [<i>ms </i>]	Maximumanteil [<i>% </i>]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	22	50	0	0	0
+ScaleFont0	Cantarell	22	75	0	0	0
+ScaleFont1	Cantarell	22	75	0	0	0
+ScaleFont2	Cantarell	22	75	0	0	0
+ScaleFont3	Cantarell	22	75	0	0	0
+AxisFont0	Cantarell	22	50	0	0	0
+AxisFont1	Cantarell	22	50	0	0	0
+AxisFont2	Cantarell	22	50	0	0	0
+AxisFont3	Cantarell	22	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	maxima_2	maxima_3	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	9	1
+<Function>
+<Type>0</Type>
+<Title>LorentzFit1</Title>
+<Expression>y0+2*A/PI*w/(4*(x-xc)^2+w^2)</Expression>
+<Variable>x</Variable>
+<Range>20	950</Range>
+<Points>500</Points>
+<Constant>A	18079.4040307693</Constant>
+<Constant>w	0.145992944531094</Constant>
+<Constant>xc	-42.7065286859712</Constant>
+<Constant>y0	0.0357325759064747</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>GaußFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>20	950</Range>
+<Points>500</Points>
+<Constant>A	3.90110525795244e+19</Constant>
+<Constant>w	735.942613079859</Constant>
+<Constant>xc	-3295.87746492183</Constant>
+<Constant>y0	0.0395724586749683</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>0</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>BoltzmannFit1</Title>
+<Expression>A2+(A1-A2)/(1+exp((x-x0)/dx))</Expression>
+<Variable>x</Variable>
+<Range>20	950</Range>
+<Points>500</Points>
+<Constant>A1	0.0250275536974</Constant>
+<Constant>A2	0.14585113399</Constant>
+<Constant>dx	1</Constant>
+<Constant>x0	130</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>0</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>PolynomFit1</Title>
+<Expression>a0+a1*x+a2*x^2</Expression>
+<Variable>x</Variable>
+<Range>20	950</Range>
+<Points>500</Points>
+<Constant>a0	0.10869292421287</Constant>
+<Constant>a1	-0.00032794335662269</Constant>
+<Constant>a2	2.7349955295766e-07</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>0</Visible>
+</Function>
+scale	0	0	0.16	0	9	5	0	0
+scale	1	0	0.16	0	9	5	0	0
+scale	2	20	950	100	10	5	0	0
+scale	3	20	950	100	10	5	0	0
+LabelsFormat	5	1	5	1	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>663.54972375691</x>
+<y>0.15924705882353</y>
+<right>948.71546961326</right>
+<bottom>0.144188235294118</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) relative Maxima)
+</Text>
+<Font>Cantarell	22	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -1807,3 +2184,299 @@ EnabledTickLabels	1	1	1	1
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 <open>1</open>
+<log>
+[03.03.16 12:43	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A (Amplitude) = 1,6162170713866e-01 +/- 4,2937166848046e-02
+t (e-folding time) = 4,0575248616797e+01 +/- 1,4358618140393e+01
+y0 (Offset) = 3,9495903910610e-02 +/- 7,6397166807492e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,4302082024455e-04
+R^2 = 0,8639634006379
+Angepasstes R^2 = 0,7959451009568
+RMSE (Standardabweichung) = 0,01558912506347
+RSS (Summe der quadrierten Restwerte) = 0,001701145741712
+---------------------------------------------------------------------------------------
+Iterationen = 71
+Status = success
+---------------------------------------------------------------------------------------
+[03.03.16 12:44	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A (Amplitude) = 1,6161698488355e-01 +/- 4,2934985904236e-02
+t (e-folding time) = 4,0577162272465e+01 +/- 1,4359445917425e+01
+y0 (Offset) = 3,9495366966158e-02 +/- 7,6398065845936e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,4302081929041e-04
+R^2 = 0,863963401172
+Angepasstes R^2 = 0,795945101758
+RMSE (Standardabweichung) = 0,01558912503287
+RSS (Summe der quadrierten Restwerte) = 0,001701145735033
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[03.03.16 12:44	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A (Amplitude) = 1,6161440018100e-01 +/- 4,2933792288587e-02
+t (e-folding time) = 4,0578209715861e+01 +/- 1,4359899029748e+01
+y0 (Offset) = 3,9495073078311e-02 +/- 7,6398557968409e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,4302081900458e-04
+R^2 = 0,863963401332
+Angepasstes R^2 = 0,795945101998
+RMSE (Standardabweichung) = 0,0155891250237
+RSS (Summe der quadrierten Restwerte) = 0,001701145733032
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
+[03.03.16 12:49	Diagramm: ''MaximaFit'']
+Nichtlinearer Fit von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A = -1,5612515185723e+01 +/- 0,0000000000000e+00
+t = 2,7195056691881e-02 +/- 2,9959086523238e+23
+y0 = 9,9999995638032e-01 +/- 1,0192191673879e+15
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2436061348283e+00
+R^2 = -695,1376780709
+Angepasstes R^2 = -1.043,206517106
+RMSE (Standardabweichung) = 1,115170899382
+RSS (Summe der quadrierten Restwerte) = 8,705242943798
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[03.03.16 12:49	Diagramm: ''MaximaFit'']
+Nichtlinearer Fit von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A = -1,5612515185720e+01 +/- 0,0000000000000e+00
+t = 2,7195056691880e-02 +/- 2,9959086523237e+23
+y0 = 9,9999995638030e-01 +/- 1,0192191675765e+15
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2436061348283e+00
+R^2 = -695,1376780709
+Angepasstes R^2 = -1.043,206517106
+RMSE (Standardabweichung) = 1,115170899382
+RSS (Summe der quadrierten Restwerte) = 8,705242943798
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[03.03.16 12:49	Diagramm: ''MaximaFit'']
+Nichtlinearer Fit von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A = -1,5612515185720e+01 +/- 0,0000000000000e+00
+t = 2,7195056691880e-02 +/- 2,9959086523237e+23
+y0 = 9,9999995638030e-01 +/- 1,0192191675765e+15
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2436061348283e+00
+R^2 = -695,1376780709
+Angepasstes R^2 = -1.043,206517106
+RMSE (Standardabweichung) = 1,115170899382
+RSS (Summe der quadrierten Restwerte) = 8,705242943798
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[03.03.16 12:50	Diagramm: ''MaximaFit'']
+Nichtlinearer Fit von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A = -1,5612515185720e+01 +/- 0,0000000000000e+00
+t = 2,7195056691880e-02 +/- 2,9959086523237e+23
+y0 = 9,9999995638030e-01 +/- 1,0192191675765e+15
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2436061348283e+00
+R^2 = -695,1376780709
+Angepasstes R^2 = -1.043,206517106
+RMSE (Standardabweichung) = 1,115170899382
+RSS (Summe der quadrierten Restwerte) = 8,705242943798
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[03.03.16 12:50	Diagramm: ''MaximaFit'']
+Nichtlinearer Fit von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A = -1,5612515185720e+01 +/- 4,9924136379903e+26
+t = 2,7195056691880e-02 +/- 8,6961626809908e+23
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,7177405713990e-03
+R^2 = -2,657873463964
+Angepasstes R^2 = -3,702980167954
+RMSE (Standardabweichung) = 0,07561574288069
+RSS (Summe der quadrierten Restwerte) = 0,04574192457119
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+y0 = 0,01 (Konstante)
+---------------------------------------------------------------------------------------
+[03.03.16 12:50	Diagramm: ''MaximaFit'']
+Nichtlinearer Fit von Datensatz: maxima_3, unter Verwendung der Funktion: A1*exp(-x/t1)+A2*exp(-x/t2)+y0
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A1 = -1,1333214811709e+03 +/- 8,8933016073514e+38
+A2 = -1,1333214781774e+03 +/- 8,8933015838635e+38
+t1 = 1,0473806211615e+00 +/- 2,4877797907566e+34
+t2 = 1,0473806216558e+00 +/- 2,4877797919297e+34
+y0 = 6,7651422601591e-02 +/- 5,1943026620840e+14
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,5013730335703e-03
+R^2 = -0,0001444111443789
+Angepasstes R^2 = -1,250324925075
+RMSE (Standardabweichung) = 0,050013728451
+RSS (Summe der quadrierten Restwerte) = 0,01250686516785
+---------------------------------------------------------------------------------------
+Iterationen = 27
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[03.03.16 12:51	Diagramm: ''MaximaFit'']
+Nichtlinearer Fit von Datensatz: maxima_3, unter Verwendung der Funktion: A1*exp(-x/t1)+A2*exp(-x/t2)+A3*exp(-x/t3)+y0
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A1 = 1,0000000000000e+00 +/- 0,0000000000000e+00
+A2 = 1,0000000000000e+00 +/- 0,0000000000000e+00
+A3 = 1,0000000000000e+00 +/- 0,0000000000000e+00
+t1 = 1,0000000000000e+00 +/- 4,4586166611530e+23
+t2 = 1,0000000000000e+00 +/- 1,7527107609687e+39
+t3 = 1,0000000000000e+00 +/- 1,7527107609687e+39
+y0 = 1,0000000000000e+00 +/- 5,6781725550089e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,9017479225788e+00
+R^2 = -695,1377439593
+Angepasstes R^2 = -3.131,619847817
+RMSE (Standardabweichung) = 1,703451767024
+RSS (Summe der quadrierten Restwerte) = 8,705243767736
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[03.03.16 12:51	Diagramm: ''MaximaFit'']
+Nichtlinearer Fit von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*exp(x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 4,0000000000000e+01 bis x = 9,5000000000000e+02
+A = 1,0000000000000e+00 +/- 0,0000000000000e+00
+t = 1,0000000000000e+00 +/- 0,0000000000000e+00
+y0 = 1,0000000000000e+00 +/- 0,0000000000000e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4,4405669515794e+277
+R^2 = nan
+Angepasstes R^2 = nan
+RMSE (Standardabweichung) = nan
+RSS (Summe der quadrierten Restwerte) = nan
+---------------------------------------------------------------------------------------
+Iterationen = 0
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[03.03.16 12:52	Diagramm: ''MaximaFit'']
+Nichtlinearer Fit von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A = -1,5612515185723e+01 +/- 0,0000000000000e+00
+t = 2,7195056691881e-02 +/- 2,9959086523238e+23
+y0 = 9,9999995638032e-01 +/- 1,0192191673879e+15
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2436061348283e+00
+R^2 = -695,1376780709
+Angepasstes R^2 = -1.043,206517106
+RMSE (Standardabweichung) = 1,115170899382
+RSS (Summe der quadrierten Restwerte) = 8,705242943798
+---------------------------------------------------------------------------------------
+Iterationen = 2
+Status = singularity or extremely bad function behavior detected
+---------------------------------------------------------------------------------------
+[03.03.16 12:52	Diagramm: ''MaximaFit'']
+Lorentz-Fit von Datensatz: maxima_3, unter Verwendung der Funktion: y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A (Fläche) = 1,8079404030769e+04 +/- 2,7507726288724e+10
+xc (Mitte) = -4,2706528685971e+01 +/- 2,1774654193497e+02
+w (Breite) = 1,4599294453109e-01 +/- 2,2212714401046e+05
+y0 (Offset) = 3,5732575906475e-02 +/- 1,0270728212680e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,2017313305262e-04
+R^2 = 0,8943596534137
+Angepasstes R^2 = 0,8098473761446
+RMSE (Standardabweichung) = 0,01483823214041
+RSS (Summe der quadrierten Restwerte) = 0,001321038798316
+---------------------------------------------------------------------------------------
+Iterationen = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[03.03.16 12:52	Diagramm: ''MaximaFit'']
+Gauß-Fit von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A (Fläche) = 3,9011052579524e+19 +/- 1,2040747860354e+23
+xc (Mitte) = -3,2958774649218e+03 +/- 2,4747883780052e+05
+w (Breite) = 7,3594261307986e+02 +/- 2,7291308406893e+04
+y0 (Offset) = 3,9572458674968e-02 +/- 9,3292196654702e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,8566125030175e-04
+R^2 = 0,8629380748243
+Angepasstes R^2 = 0,7532885346837
+RMSE (Standardabweichung) = 0,0169015162131
+RSS (Summe der quadrierten Restwerte) = 0,001713967501811
+---------------------------------------------------------------------------------------
+Iterationen = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[03.03.16 12:53	Diagramm: ''MaximaFit'']
+Boltzmann (Sigmoidal) Fit von Datensatz: maxima_3, unter Verwendung der Funktion: A2+(A1-A2)/(1+exp((x-x0)/dx))
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+A1 (Anfangswert) = 2,5027553697400e-02 +/- nan
+A2 (Endwert) = 1,4585113399000e-01 +/- nan
+x0 (Zentrum) = 1,3000000000000e+02 +/- nan
+dx (Zeitkonstante) = 1,0000000000000e+00 +/- nan
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,2972335232186e-02
+R^2 = -5,224201704186
+Angepasstes R^2 = -10,20356306754
+RMSE (Standardabweichung) = 0,1138961598658
+RSS (Summe der quadrierten Restwerte) = 0,07783401139311
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = iteration is not making progress towards solution
+---------------------------------------------------------------------------------------
+[03.03.16 12:53	Diagramm: ''MaximaFit'']
+Polynom-Fit von Datensatz: maxima_3, unter Verwendung der Funktion: a0+a1*x+a2*x^2
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 2,0000000000000e+01 bis x = 9,5000000000000e+02
+a0 = 1,0869292421287e-01 +/- 1,2585864169565e-02
+a1 = -3,2794335662269e-04 +/- 9,7087112172926e-05
+a2 = 2,7349955295766e-07 +/- 1,0255205998261e-07
+--------------------------------------------------------------------------------------
+Chi^2/doF = 5,2701096796925e-04
+R^2 = 0,7049932600963
+Angepasstes R^2 = 0,5574898901444
+RMSE (Standardabweichung) = 0,02295671945138
+RSS (Summe der quadrierten Restwerte) = 0,003689076775785
+---------------------------------------------------------------------------------------
+</log>

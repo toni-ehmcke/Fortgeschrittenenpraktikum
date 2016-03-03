@@ -1,0 +1,12 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+import numpy as np
+import sys
+
+data = np.loadtxt(sys.argv[1])
+
+sum = 0
+for i in range(0, 39):
+	print(data[i, 1], data[i, 2])
+	sum += data[i,2]
