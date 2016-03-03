@@ -1,0 +1,14 @@
+\section{Einführung und Grundlagen}
+	\subsection{Elektrisch geladene Teilchen in einem homogenen Magnetfeld}
+		Um später die verschiedenen elektrisch geladenen Argonionen voneinander trennen zu können, ist im Niederenergiestrahlkanal ein 90°-Dipol-Magnet verbaut, der ein homogones Magnetfeld erzeugt und die Ionen auf eine Kreisbahn zwingt. Im Folgenden soll die Dynamik dieser Bewegung erörtert werden.\\
+		Betrachte dafür ein elektrisch geladenes Teilchen mit Ladung $Q = q\cdot e$ und Masse $m$. Es wurde vorher von einem elektrischen Feld mit einer Spannung $U_B$ auf die Geschwindigkeit $\vec{v}(t=0)=v\vec{e}_x$ beschleunigt und befinde sich anschließend in einem homogenen Magnetfeld $\vec{B} = B \vec{e}_z$. In diesem erfährt es die \textit{Lorentzkraft}:
+		\begin{equation}\label{eq:lorentz}
+			\vec{F}_L(t) = Q\cdot\vec{v}(t)\times\vec{B} = QB(-v_x(t) \vec{e}_x + v_y(t)\vec{e}_y) = m\cdot \dot{\vec{v}}(t) \perp \vec{v}(t).
+		\end{equation}
+		Die z-Komponente ändert sich dabei nicht, somit findet die Bewegung o.B.d.A. in der x-y-Ebene statt. Da die Kraft zusätzlich zu jedem Zeitpunkt $t$ senkrecht zu der Geschwindigkeit ist, entsteht eine Bewegung auf einer Kreisbahn, deren Radius $R$ durch das Kräftegleichgewicht zwischen Lorentzkraft (\ref{eq:lorentz}) und der Zentrifugalkraft(\ref{eq:zentrifugal}) bestimmt wird:
+		\begin{align}
+			&\vec{F}_Z = - \frac{m\cdot v^2}{R}\cdot \frac{\vec{F}_L}{|\vec{F}_L|} \overset{!}{=} - \vec{F}_L \label{eq:zentrifugal}\\
+			&\Rightarrow R = \frac{mv}{QB} = \sqrt{\frac{2U_Bm}{QB^2}}\label{eq:radius}
+		\end{align}
+		Wobei (\ref{eq:radius}) aus der Ersetzung der Geschwindigkeit durch die Beschleunigungspannung $U_BQ = mv^2/2$ erfolgte. Im Experiment ist der Radius $R = \unit[461]{mm}$ des Dipolmagneten vorgegeben, somit können durch Variation der Magnetflussdichte $B$ Teilchen einer bestimmten spezifischen Ladung $Q/m$ ausgefiltert werden. Dies wird später außerdem dazu genutzt, um Fremdionen im Übersichtsspektrum bei niedrigen Drücken identifizieren zu können, wobei die Zuordnung durch die Verhältnisbildung Masse zu Ladung nicht unbedingt eindeutig ist.
+		 
