@@ -7,8 +7,34 @@
     Es folgt die Aufnahme eine Übersichtsspektrums der Ionen Ar$^{8+}$ bis Ar$^{18+}$ bei einer gegebenen, festen Ionisationszeit und einem mittleren Arbeitsdruck.
     Mit dem gleichen mittleren Druck wird die Zeitentwicklung der Ionenisationszustände 8+ bis 17+ aufgenommen.
     Danach erfolgt die Messung der Übersichtsspektren bei höherem und niedrigeren Arbeitsdrücken.
-    \subsection{Aufbau und Funktionsweise des EBIS-A}
     
+    \subsection{Aufbau und Funktionsweise des Versuchsplatzes}
+        Der Versuch findet an der Microbeam Facility (MBF) statt. Diese ist in Abbildung \ref{aufb} als Draufsicht dargestellt. Sie besteht aus der Electron Beam Ion Source - A (EBIS-A), einer Einzellinse, mehreren Deflektoren, zwei Faraday Cups sowie der Targetkammer. 
+        \begin{figure}[htbp]
+            \includegraphics[scale=.8]{pic/aufbau.png}
+            \caption{Schematischer Aufbau der MBF, Draufsicht \cite{PA}}
+            \label{aufb}
+        \end{figure}
+        Im Folgenden soll die Funktionsweise der ionenoptischen Komponenten und der EBIS-A kurz erklärt werden.
+        Targetkammer wird im Versuch nicht verwendet.
+        \subsubsection{Elektronenstrahlionenquelle A}
+            In der EBIS-A wird durch eine Elektronen stark emittierende Glühkathode in Zusammenarbeit mit elektrischen Feldern ein Elektronenstrahl erzeugt. Ein äußeres Magnetfeld verdichtet diesen. Der Strahl ionisiert primär neutrale Atome durch Stoßionisation bis sich zwischen Rekombinations- und Ionisationsprozessen ein Gleichgewicht einstellt. Für hohe Ladungszustände müssen die Ionen möglichst lange im Bereich des Elektronenstrahls verweilen. Um dies zu erreichen, besteht zentral aus einer Kombination von Driftröhren, welche eine Zusammenstellung dreier konzentrischer Ringelelektroden sind. 
+       \subsubsection{Einzellinse}
+           In Abbildung \ref{lense} ist eine Einzelne dargestellt. Sie dient der Fokussierung des Ionenstrahls und ist eine elektrostatische Linse. Sie besteht aus drei zylindrischen Segmenten, wobei das Mittle ein stark negatives Potential besitzt und die beiden anderen auf Erdpotential liegen. Diese Konfiguration erzeugt gekrümmte Äquipotentialflächen, was analog zu einer optischen Linse der Fokussierung entspricht. 
+           Variiert man das Potential, das heißt, die anliegende Spannung, so kann die Brennweite justiert werden, was einen Fokus auf die Brennebene ermöglicht.
+        \subsubsection{Deflektoren}
+            Deflektoren sind schräg eingeschnittene Zylinder, deren Radius orthogonal zur Strahlrichtung steht. Sie liegen parallel zum Strahlkanal und lenken den Ionenstrahl durch elektrostatische Felder ab. Sie sind im Grunde genommen Kondensatoren, welche schiefe und achsenferne Strahlen in Richtung der Strahlachse ablenken können und sich praktisch gut dem zylindrischen Design des Niederenergiestrahlkanals einpassen. In Abbildung \ref{defl} sind zwei Deflektoren (vertikaler und horizontaler) samt ihrer Lage zur Straglrichtung skizziert.
+        \subsubsection{Faradaycup}
+            Die Faradaycups messen die extrahierten Ionen. Sie sind elektrisch isolierte Metallbecher, welche in den Ionenstrahl gefahren werden, um die Ionen aufzufangen. Ausgelesen wird die eingefallene Ladung über ein Elektrometer oder einen kalibrierten Widerstand. Hierbei können durch Auftreffen von Ionen auf die Becheroberfläche Sekundärelektronen freigesetzt werden, welche die Messergebnisse verfälschen. Um das zu verhindern, wird häufig ein weiteres elektrisches Feld eingesetzt, welches die Elektronen daran hindert, den Becher zu verlassen.  \\
+            In Abbildung \ref{cup} ist ein Faradaycup skizziert. 
+           
+        \begin{figure}[htbp]
+            \centering
+              \subfigure[Skizze eines Deflektors\label{defl}]{\includegraphics[scale=.35]{pic/deflektor.png}}
+              \subfigure[Skizze eines Faradaycups\label{cup}]{\includegraphics[scale=0.35]{pic/faradaycup.png}}
+              \subfigure[Skizze und Schema einer Einzellinse\label{lense}]{\includegraphics[scale=0.35]{pic/linse.png}}   \caption{Einige Bestandteile der MBS \cite{PA}}
+              \label{teile}         
+        \end{figure}
 	\subsection{Elektrisch geladene Teilchen in einem homogenen Mag\-net\-feld}
 		Um später die verschiedenen elektrisch geladenen Argonionen voneinander trennen zu können, ist im Niederenergiestrahlkanal ein 90°-Dipol-Magnet verbaut, der ein homogones Magnetfeld erzeugt und die Ionen auf eine Kreisbahn zwingt. Im Folgenden soll die Dynamik dieser Bewegung erörtert werden.\\
 		Betrachte dafür ein elektrisch geladenes Teilchen mit Ladung $Q = q\cdot e$ und Masse $m$. Es wurde vorher von einem elektrischen Feld mit einer Spannung $U_B$ auf die Geschwindigkeit $\vec{v}(t=0)=v\vec{e}_x$ beschleunigt und befinde sich anschließend in einem homogenen Magnetfeld $\vec{B} = B \vec{e}_z$. In diesem erfährt es die \textit{Lorentzkraft}:
