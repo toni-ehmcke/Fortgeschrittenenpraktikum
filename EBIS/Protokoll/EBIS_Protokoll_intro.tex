@@ -1,4 +1,5 @@
 \section{Einführung und Grundlagen}
+	%TODO@Christian: Aufgabenstellung + EBIS Aufbau und Funktionsweise
 	\subsection{Elektrisch geladene Teilchen in einem homogenen Mag\-net\-feld}
 		Um später die verschiedenen elektrisch geladenen Argonionen voneinander trennen zu können, ist im Niederenergiestrahlkanal ein 90°-Dipol-Magnet verbaut, der ein homogones Magnetfeld erzeugt und die Ionen auf eine Kreisbahn zwingt. Im Folgenden soll die Dynamik dieser Bewegung erörtert werden.\\
 		Betrachte dafür ein elektrisch geladenes Teilchen mit Ladung $Q = q\cdot e$ und Masse $m$. Es wurde vorher von einem elektrischen Feld mit einer Spannung $U_B$ auf die Geschwindigkeit $\vec{v}(t=0)=v\vec{e}_x$ beschleunigt und befinde sich anschließend in einem homogenen Magnetfeld $\vec{B} = B \vec{e}_z$. In diesem erfährt es die \textit{Lorentzkraft}:
@@ -11,3 +12,24 @@
 			&\Rightarrow R = \frac{mv}{QB} = \sqrt{\frac{2U_Bm}{QB^2}}\label{eq:radius}
 		\end{align}
 		Wobei (\ref{eq:radius}) aus der Ersetzung der Geschwindigkeit durch die Beschleunigungspannung $U_BQ = mv^2/2$ erfolgte. Im Experiment ist der Radius $R = \unit[461]{mm}$ des Dipolmagneten vorgegeben, somit können durch Variation der Magnetflussdichte $B$ Teilchen einer bestimmten spezifischen Ladung $Q/m$ ausgefiltert werden. Dies wird später außerdem dazu genutzt, um Fremdionen im Übersichtsspektrum bei niedrigen Drücken identifizieren zu können, wobei die Zuordnung durch die Verhältnisbildung Masse zu Ladung nicht unbedingt eindeutig ist.
+	
+	\subsection{Wechselwirkungsprozesse von Ionen} \label{sec:ww}
+		Trifft der Elektronenstrahl der EBIS auf die im Potentialtopf gebundenen neutralen Atome, beginnt die sukzessive Ionisation dieser bis sich in der Quelle ein stationärer Zustand zwischen Ionisations- und Rekombinationsprozessen einstellt. Um diesen Vorgang besser zu verstehen, sollen im Folgenden Abschnitt kurz die wichtigsten physikalischen Effekte diskutiert werden.\\
+		Der in der Ionenquelle dominante \textbf{Ionisationsvorgang}, ist die sogenannte \textbf{Elektronenstoßionisation}. Dabei wird ein Elektron des Atoms oder Ions aus der Atomhülle durch Zusammenstoß mit einem Elektron des Kathodenstrahls herausgelöst. Die kinetische Energie des Strahlelektrons muss dabei größer sein als die Ionisationsenergie des Atoms.
+		\begin{equation}
+			\text{X}^{q+} + e^{-} \rightarrow \text{X}^{(q+1)+} + 2e^{-}
+		\end{equation}
+		Der \textbf{Augerprozess} stellt einen mehrstufigen Ionisationsvorgang dar. Dabei wird ein Atom durch einen Elektronenstoß in einen metastabilen angeregten Zustand versetzt und kehrt unter Aussendung eines sogenannten Augerelektrons eines äußeren Orbitals in den Grundzustand zurück.
+		\begin{equation}
+					\text{X}^{q+} + e^{-} \rightarrow (\text{X}^{q+})^* + e^{-} \rightarrow \text{X}^{(q+1)+} + 2e^{-}
+		\end{equation}
+		Prozesse, die der Erhöhung der Ladungszustände von Ionen entgegenwirken, nennt man \textbf{Rekombinationsvorgänge}. Der in der Quelle dominante Prozess dieser Art ist die \textbf{strahlende Rekombination}. Dabei wird ein Elektron aus dem Elektronenstrahl in der Hülle eines Ions eingefangen. Die dabei freiwerdende Bindungsenergie und überschüssige kinetische Energie des Elektrons wird in Form eines Photons emittiert.
+		\begin{equation}
+			\text{X}^{q+} + e^{-} \rightarrow \text{X}^{(q-1)+} + \hbar\omega
+		\end{equation}
+		Neben den Wechselwirkungen der Elektronen des Kathodenstrahles mit den Atomen in der Falle kommt es auch zu Interaktionen der Ionen untereinander. Ein Prozess dieser Art ist der \textbf{Ladungsaustausch}, der besonders hoch ionisierte Teilchen bei Zusammenstößen in niedrigere Ladungszustände versetzt. Dabei findet für $q<p$ folgende Reaktion statt:
+		\begin{equation}
+			X^{q} + X^{p} \rightarrow X^{q+1} + X^{p-1}.
+		\end{equation}
+		Der Wirkungsquerschnitt für diesen Prozess ist proportional zur Energie der Ionen und nimmt somit für hohe Arbeitsdrücke zu. Will man besonders hohe Ionisationszustände erreichen, ist es somit notwendig, den Druck so gering wie möglich zu halten.\cite{PA}
+		
