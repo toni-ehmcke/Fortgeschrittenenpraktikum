@@ -86,16 +86,39 @@
 		Das heißt, es befindet sich tatsächlich noch ein signifikanter Anteil an Fremdatomen im Strahlkanal, der mit den untersuchten Ionen wechselwirkt.
 		
 	\subsection{Einfluss der Ionisationszeit auf die Ladungszustandsverteilung und Erzeugung}
-        Um den Einfluss der Ionisationszeit $t_{Ionisation}$ auf auf die Erzeugung von Ladung zu untersuchen, hält man Druck und Ladungszustand jeweils konstant und variiert lediglich die Ionisationszeit. In den folgenden Diagrammen wurde auch die Schrittweite und die minimale sowie die maximale Ionisationszeit variiert. Dies hat vor allem im direkten Vergleich der Abbildungen \ref{timed} Effekte auf die Güte und natürlich auf die Dauer der Messungen. Die zackige Struktur in Abbildung \ref{timeds} resultiert aus Messfehlern, die durch die Messelektronik verursacht werden, wenn diese zwischen verschiedenen Messbereichen hin- und herschaltet. Es kann auch an einer mangelhaften Übergabe der Einstellung der Ionisationszeit an die Steuereinheit liegen. Diese Zackenstruktur ist demnach kein physikalisches Phänomen, sondern kann durch eine Optimierung - wie später in für die Aufnahme der Zeitentwicklungen in Abbildung \ref{timedw} geschehen - vermieden werden.
-        \begin{figure}[htbp]
+        Um den Einfluss der Ionisationszeit $t_{Ionisation}$ auf auf die Erzeugung von Ladung zu untersuchen, hält man Druck und Ladungszustand jeweils konstant und variiert lediglich die Ionisationszeit. In den folgenden Diagrammen wurde auch die Schrittweite und die minimale sowie die maximale Ionisationszeit variiert, was in Tabelle \ref{zeit} ablesbar ist. Dies hat vor allem im direkten Vergleich der Abbildungen \ref{timed} Effekte auf die Güte und natürlich auf die Dauer der Messungen. Die zackige Struktur in Abbildung \ref{timeds} resultiert aus Messfehlern, die durch die Messelektronik verursacht werden, wenn diese zwischen verschiedenen Messbereichen hin- und herschaltet. Es kann auch an einer mangelhaften Übergabe der Einstellung der Ionisationszeit vom LabView-Prgramm an die Steuereinheit liegen. Diese Zackenstruktur ist demnach kein physikalisches Phänomen, sondern kann durch eine Optimierung - wie später für die Aufnahme der Zeitentwicklungen in Abbildung \ref{timedw} geschehen - vermieden werden.
+        \begin{table}
+                    \begin{tabular}{c|c|c|c|c|c|c}
+                            \textbf{Q} & \label{B} [mT] & \textbf{t$_\text{start}$} [ms] & \textbf{t$_\text{stop}$} [ms] & \textbf{Stepsize} [ms] & \textbf{Zyklen} & \textbf{Falle auf} \\ 
+                    \hline 8+ & 75,52 & 200 & 10 & 5 & 10 & 20 \\ 
+                           9+ & 71,14 & 200 & 10 & 5 & 10 & 20 \\ 
+                          10+ & 67,52 & 200 & 10 & 5 & 10 & 20 \\ 
+                          11+ & 64,42 & 250 & 10 & 5 & 10 & 20 \\ 
+                          12+ & 61,67 & 400 & 10 & 10 & 10 & 20 \\ 
+                          13+ & 59,23 & 500 & 10 & 10 & 10 & 20 \\ 
+                          14+ & 57,09 & 1000 & 20 & 20 & 7 & 20 \\ 
+                          15+ & 55,15 & 1000 & 20 & 20 & 7 & 20 \\ 
+                          16+ & 53,39 & 1500 & 25 & 25 & 5 & 20 \\ 
+                          17+ & 51,81 & 2000 & 50 & 50 & 5 & 20
+                \end{tabular} 
+                \caption{Einstellungen zur Aufnahme der Kurven in Abbildung \ref{timed}}      
+                \label{zeit}
+        \end{table}
+        Der Druck wurde konstant bei $p = 2\cdot10^{-8}\unit{mbar}$ gehalten.                   
+        \begin{figure}
             \subfigure[Peaks der Zustände 8+ bis 11+\label{timeds}]{\includegraphics[scale=0.25]{pic/schmalePeaks.png}}
             \subfigure[Peaks der Zustände 12+ bis 17+\label{timedw}]{\includegraphics[scale=0.25]{pic/breitePeaks.png}}
             \caption{Einfluss der Ionisationszeit auf die Erzeugung von Ladung verschiedener Ladungszustände}
             \label{timed}
         \end{figure}
-        Es ist qualitativ auffällig, dass jede Ionisationsstufe über einen mehr oder weniger ausgeprägten Peak verfügt, der ein Maximum ist. Die Messkurven verlaufen asymmetrisch und steigen links der Maxima wesentlich steiler an als sie rechts fallen. Besonders die niedrigen Ionisationsstufen Ar$^{8+}$ bis Ar$^{10+}$ und Ar$^{12+}$ zeigen rechts der Maxima gut erkennbar konstantes Verhalten. 
+        Es ist qualitativ auffällig, dass jede Ionisationsstufe über einen mehr oder weniger ausgeprägten Peak verfügt. Die Messkurven verlaufen asymmetrisch und steigen links der Maxima wesentlich steiler an als sie rechts fallen. Besonders die niedrigen Ionisationsstufen Ar$^{8+}$ bis Ar$^{10+}$ und Ar$^{12+}$ zeigen rechts der Maxima gut erkennbar nahezu konstantes Verhalten in einiger Entfernung zum Peak. Das bedeutet, das sich mit steigender Ionisationszeit ein Gleichgewicht zwischen Rekombination und Ionisation einstellt.\\
+        Qualitativ ist in Abbildung \ref{timed} auch erkennbar, dass die Maxima mit Zunahme der Ionisierung kleiner werden. Ebenso werden die Abstände zwischen den Peaks größer. Diese beiden Beobachtungen sind in Abbildung \ref{maxrel} zusammengetragen dargestellt.\\
+        \begin{figure}
             \includegraphics[scale=0.25]{pic/MaximaFit_relativ.png}
             \caption{Zeitliche Entwicklung der Ladungszustandsverteilung (Maximum der Zustände)}
+            \label{maxrel}
         \end{figure} 
+        Hierbei ist anzumerken, dass die Ionisationsstufe mit der Ionisationszeit steigt. Aufgetragen wurden die Maxima der in Abbildung \ref{timed} dargestellten Graphen. Da die Messungen jedoch alle unter verschiedenen Bedingungen stattfanden, insbesondere da die Zyklenzahl verändert wurde, muss man die Höhe der Maxima normieren. In diesem Fall geschah dies relativ. Jedes Maximum ist geteilt durch die pro Ion für alle Ionisationszeiten gemessene Gesamtladung und aufgetragen worden. Daraus entsteht der hier erkennbare exponentielle Abfall mit einem Ausreißer.
+        Dieses verhalten ist wiederum mit der steigenden Neigung der Ionen höherer Ordnung zur Rekombination erklärbar. Es dauert ebenfalls länger, höhere Ionisationsstufen herzustellen, wodurch die steigenden Ionisationszeiten für die Maxima erklärt werden können. 
         
         
