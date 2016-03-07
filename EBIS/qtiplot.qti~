@@ -3,7 +3,7 @@ QtiPlot 0.9.8 project file
 <windows>	28
 <table>
 Ar85msz10	39	2	01.03.16 18:14
-geometry	1176	760	-1	-1	minimized	
+geometry	980	562	-1	-1	minimized	
 header	Ionisationszeit1[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -57,7 +57,7 @@ WindowLabel	Ar8+5msz10	2
 </table>
 <table>
 Ar9sz5z10	39	2	01.03.16 18:14
-geometry	980	760	-1	-1	minimized	
+geometry	784	562	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -111,7 +111,7 @@ WindowLabel	Ar9+sz5z10	2
 </table>
 <table>
 Ar10sz5z10	39	2	01.03.16 18:14
-geometry	784	760	-1	-1	minimized	
+geometry	588	562	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -165,7 +165,7 @@ WindowLabel	Ar10+sz5z10	2
 </table>
 <table>
 Ar11sz5z10	49	2	01.03.16 18:14
-geometry	588	760	-1	-1	minimized	
+geometry	392	562	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -229,7 +229,7 @@ WindowLabel	Ar11+sz5z10	2
 </table>
 <table>
 Ar12sz10z10	40	2	01.03.16 18:14
-geometry	392	760	-1	-1	minimized	
+geometry	196	562	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -284,7 +284,7 @@ WindowLabel	Ar12+sz10z10	2
 </table>
 <table>
 Ar13sz10z10	50	2	01.03.16 18:14
-geometry	196	760	-1	-1	minimized	
+geometry	0	562	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -349,7 +349,7 @@ WindowLabel	Ar13+sz10z10	2
 </table>
 <table>
 Ar14sz20z7	50	2	01.03.16 18:14
-geometry	0	760	-1	-1	minimized	
+geometry	1568	592	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -414,7 +414,7 @@ WindowLabel	Ar14+sz20z7	2
 </table>
 <table>
 Ar15sz20z7	50	2	01.03.16 18:14
-geometry	1568	790	-1	-1	minimized	
+geometry	1372	592	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -479,7 +479,7 @@ WindowLabel	Ar15+sz20z7	2
 </table>
 <table>
 Ar16sz25z5	60	2	01.03.16 18:14
-geometry	1372	790	-1	-1	minimized	
+geometry	1176	592	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -554,7 +554,7 @@ WindowLabel	Ar16+sz25z5	2
 </table>
 <table>
 Ar17sz50z5	40	2	01.03.16 18:46
-geometry	1176	790	-1	-1	minimized	
+geometry	980	592	-1	-1	minimized	
 header	Ionisationszeit[X]	Ladung[Y]
 ColWidth	100	100	
 <com>
@@ -609,7 +609,7 @@ WindowLabel	Ar17+sz50z5	2
 </table>
 <table>
 schmale-sz5z10	49	6	02.03.16 18:10
-geometry	980	790	-1	-1	minimized	
+geometry	784	592	-1	-1	minimized	
 header	Ionisationszeit[X]	Ar8[Y]	Ar9[Y]	Ar10[Y]	1[X]	Ar11[Y]
 ColWidth	100	100	100	100	100	100	
 <com>
@@ -673,7 +673,7 @@ WindowLabel	Stepsize 5ms, Minimumzeit 10ms, Ar8 bis Ar11, "schmale Peaks"	2
 </table>
 <table>
 breite-peaks	60	11	02.03.16 18:20
-geometry	784	790	-1	-1	minimized	
+geometry	588	592	-1	-1	minimized	
 header	t-ion1[X]	Ar12[Y]	t-ion2[X]	Ar13[Y]	t-ion3[X]	Ar14[Y]	Ar15[Y]	t-ion4[X]	Ar16[Y]	t-ion5[X]	Ar17[Y]
 ColWidth	100	100	100	100	100	100	100	100	100	100	100	
 <com>
@@ -747,36 +747,14 @@ WindowLabel		2
 </data>
 </table>
 <table>
-MaximaAllerPeaks	30	2	02.03.16 21:16
-geometry	588	790	-1	-1	minimized	
-header	Ionisationszeit[X]	Ladung[Y]
-ColWidth	100	100	
-<com>
-</com>
-ColType	0;0/14	0;0/14
-ReadOnlyColumn	0	0
-HiddenColumn	0	0
-Comments			
-WindowLabel		2
-<data>
-0	20	44894
-1	35	34630
-2	40	32510
-3	60	48550
-4	90	50470
-5	130	48530
-6	200	33803
-7	320	32548
-8	600	24184
-9	950	5900
-</data>
-</table>
-<table>
 maxima	10	3	03.03.16 12:40
-geometry	392	790	-1	-1	minimized	
-header	1[X]	2[X]	3[Y]
-ColWidth	122	46	148	
+geometry	50	50	445	514	
+header	1[X]	3[Y]	2[X]
+ColWidth	122	148	46	
 <com>
+<col nr="0">
+7+i
+</col>
 </com>
 ColType	0;0/14	0;0/14	0;0/14
 ReadOnlyColumn	0	0	0
@@ -784,21 +762,21 @@ HiddenColumn	0	0	0
 Comments				
 WindowLabel	/home/csiegel/Fortgeschrittenenpraktikum/EBIS/Christians_Auswertung/Zeitentwicklungen/maxima.txt	2
 <data>
-0	0	20	0.14585113399
-1	0	40	0.106979499161
-2	0	40	0.0818006883026
-3	0	60	0.0607763854637
-4	0	90	0.0811310442387
-5	0	130	0.0515322700533
-6	0	200	0.0528578219506
-7	0	320	0.0319197240711
-8	0	600	0.0250275536974
-9	0	950	0.0386381050302
+0	8	0.14585113399	20
+1	9	0.106979499161	40
+2	10	0.0818006883026	40
+3	11	0.0607763854637	60
+4	12	0.0811310442387	90
+5	13	0.0515322700533	130
+6	14	0.0528578219506	200
+7	15	0.0319197240711	320
+8	16	0.0250275536974	600
+9	17	0.0386381050302	950
 </data>
 </table>
 <multiLayer>
 Ar8-5msz10	1	1	01.03.16 19:04
-geometry	196	790	525	396	minimized	
+geometry	392	592	525	396	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -885,7 +863,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Ar9-sz5z10	1	1	01.03.16 19:04
-geometry	0	790	477	395	minimized	
+geometry	196	592	477	395	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -972,7 +950,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Ar10-sz5z10	1	1	01.03.16 19:04
-geometry	1568	820	525	375	minimized	
+geometry	0	592	525	375	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1059,7 +1037,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Ar11-sz5z10	1	1	01.03.16 19:04
-geometry	1372	820	595	461	minimized	
+geometry	1568	622	595	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1146,7 +1124,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Ar12-sz10z10	1	1	01.03.16 19:05
-geometry	1176	820	595	461	minimized	
+geometry	1372	622	595	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1233,7 +1211,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Ar13-sz10z10	1	1	01.03.16 19:05
-geometry	980	820	595	461	minimized	
+geometry	1176	622	595	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1320,7 +1298,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Ar14-sz20z7	1	1	01.03.16 19:05
-geometry	784	820	601	461	minimized	
+geometry	980	622	601	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1407,7 +1385,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Ar15-sz20z7	1	1	01.03.16 19:05
-geometry	588	820	595	461	minimized	
+geometry	784	622	595	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1494,7 +1472,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Ar16-sz25z5	1	1	01.03.16 19:06
-geometry	392	820	601	461	minimized	
+geometry	588	622	601	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1581,7 +1559,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 Ar17-sz50z5	1	1	01.03.16 19:06
-geometry	196	820	601	461	minimized	
+geometry	392	622	601	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1668,7 +1646,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 schmalePeaks	1	1	02.03.16 18:13
-geometry	1568	760	1920	850	minimized	
+geometry	196	622	1920	850	minimized	
 WindowLabel	Peaks der Zeitentwicklungen von Argon8+ bis Argon 11+	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1678,7 +1656,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	6	-8	1909	837
-<PageGeometry>0.003125	-0.00963855	0.994271	1.00843</PageGeometry>
+<PageGeometry>0.0117647	-0.0195122	3.74314	2.04146</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -1737,7 +1715,7 @@ EnabledTickLabels	1	1	1	1
 <x>229.60502692998</x>
 <y>49770.992366412</y>
 <right>25.3967360720315</right>
-<bottom>48179.2717086835</bottom>
+<bottom>47939.5604395604</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -1761,7 +1739,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 breitePeaks	1	1	02.03.16 18:25
-geometry	maximized	active
+geometry	1176	562	1920	850	minimized	
 WindowLabel	Ar12 bis Ar17	2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1770,8 +1748,8 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
-ggeometry	11	6	1906	826
-<PageGeometry>0.00572917	0.00722892	0.992708	0.995181</PageGeometry>
+ggeometry	11	6	1907	826
+<PageGeometry>0.00572917	0.00722892	0.993229	0.995181</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -1788,15 +1766,15 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	5124	5124	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
-TitleFont	Cantarell	24	50	0	0	0
-ScaleFont0	Cantarell	24	75	0	0	0
-ScaleFont1	Cantarell	24	75	0	0	0
-ScaleFont2	Cantarell	24	75	0	0	0
-ScaleFont3	Cantarell	24	75	0	0	0
-AxisFont0	Cantarell	20	50	0	0	0
-AxisFont1	Cantarell	20	50	0	0	0
-AxisFont2	Cantarell	20	50	0	0	0
-AxisFont3	Cantarell	21	50	0	0	0
+TitleFont	Cantarell	36	50	0	0	0
+ScaleFont0	Cantarell	36	75	0	0	0
+ScaleFont1	Cantarell	36	75	0	0	0
+ScaleFont2	Cantarell	36	75	0	0	0
+ScaleFont3	Cantarell	36	75	0	0	0
+AxisFont0	Cantarell	30	50	0	0	0
+AxisFont1	Cantarell	30	50	0	0	0
+AxisFont2	Cantarell	30	50	0	0	0
+AxisFont3	Cantarell	31	50	0	0	0
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#333333	#333333	#333333	#333333
 AxesBaseline	0	0	0	0	
@@ -1831,8 +1809,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>1833.2347723241</x>
 <y>59907.120743034</y>
-<right>1997.63453577765</right>
-<bottom>34365.3250773994</bottom>
+<right>120.866590649943</right>
+<bottom>57489.539748954</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -1844,7 +1822,7 @@ EnabledTickLabels	1	1	1	1
 \l(5) Ar<sup>13+</sup>
 \l(6) Ar<sup>12+</sup>
 </Text>
-<Font>Cantarell	25	50	0	0	0</Font>
+<Font>Cantarell	37	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -1858,7 +1836,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 breiteMaxima	1	1	02.03.16 21:01
-geometry	0	820	595	461	minimized	
+geometry	0	622	595	461	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1921,7 +1899,7 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 MaximaFit	1	1	03.03.16 12:41
-geometry	1372	760	1920	850	minimized	
+geometry	1372	562	1920	850	minimized	
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1931,7 +1909,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	11	7	1897	806
-<PageGeometry>0.00572917	0.00843373	0.988021	0.971084</PageGeometry>
+<PageGeometry>0.00575314	0.00879397	0.992155	1.01256</PageGeometry>
 PlotTitle		#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>0</Autoscaling>
@@ -2083,8 +2061,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>775.5581127733</x>
 <y>0.1597503900156</y>
-<right>948.929804372842</right>
-<bottom>0.145273010920437</bottom>
+<right>80.4791785510553</right>
+<bottom>0.153113342898135</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -2092,6 +2070,159 @@ EnabledTickLabels	1	1	1	1
 \l(1) relative Maxima)
 </Text>
 <Font>Cantarell	25	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<multiLayer>
+Grafik1	1	1	05.03.16 01:28
+geometry	495	0	1060	461	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	1042	392
+<PageGeometry>0.00475285	0.012285	0.990494	0.963145</PageGeometry>
+PlotTitle		#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>0</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	Ionisationsstufe n+	Anteil [%]			
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Cantarell	11	50	0	0	0
+ScaleFont0	Cantarell	11	75	0	0	0
+ScaleFont1	Cantarell	11	75	0	0	0
+ScaleFont2	Cantarell	11	75	0	0	0
+ScaleFont3	Cantarell	11	75	0	0	0
+AxisFont0	Cantarell	11	50	0	0	0
+AxisFont1	Cantarell	11	50	0	0	0
+AxisFont2	Cantarell	11	50	0	0	0
+AxisFont3	Cantarell	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#333333	#333333	#333333	#333333
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	maxima_1	maxima_3	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	9	1
+<Function>
+<Type>0</Type>
+<Title>LinearFit1</Title>
+<Expression>A*x+B</Expression>
+<Variable>x</Variable>
+<Range>8	17</Range>
+<Points>2</Points>
+<Constant>A	-0.0111596373622158</Constant>
+<Constant>B	0.207146889623557</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>0</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>ExpDecay1Fit1</Title>
+<Expression>y0+A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>8	17.09</Range>
+<Points>500</Points>
+<Constant>A	1.39608803908341</Constant>
+<Constant>t	3.2017971690796</Constant>
+<Constant>y0	0.026754744332921</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#0000ff</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>0</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>ExpDecay1Fit2</Title>
+<Expression>y0+A*exp(-x/t)</Expression>
+<Variable>x</Variable>
+<Range>8	17.09</Range>
+<Points>500</Points>
+<Constant>A	1.39607449389835</Constant>
+<Constant>t	3.20181044709741</Constant>
+<Constant>y0	0.0267545973963875</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#0000ff</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	0.02	0.16	0	8	5	0	0
+scale	1	0.02	0.16	0	8	5	0	0
+scale	2	8	17	0	6	5	0	0
+scale	3	8	17	0	6	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>14.548108108108</x>
+<y>0.15953177257525</y>
+<right>16.9902702702703</right>
+<bottom>0.124882943143813</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1) Ladungszustandsverteilung
+\l(3) Exponentieller Abfall
+</Text>
+<Font>Cantarell	11	50	0	0	0</Font>
 <TextColor>#000000</TextColor>
 <Background>#ffffff</Background>
 <Alpha>0</Alpha>
@@ -2401,4 +2532,85 @@ RSS (Summe der quadrierten Restwerte) = 0,003689076775785
 ---------------------------------------------------------------------------------------
 
 
+
+[05.03.16 01:26	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: maxima_3, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 8,0000000000000e+00 bis x = 1,7000000000000e+01
+B (y-intercept) = 2,0714688962356e-01 +/- 2,3579415311475e-02
+A (slope) = -1,1159637362216e-02 +/- 1,8384426249668e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,7883938103683e-04
+R^2 = 0,8216149963668
+Angepasstes R^2 = 0,7706478524716
+RMSE (Standardabweichung) = 0,01669848439341
+RSS (Summe der quadrierten Restwerte) = 0,002230715048295
+---------------------------------------------------------------------------------------
+[05.03.16 01:27	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 8,0000000000000e+00 bis x = 1,7000000000000e+01
+A (Amplitude) = 1,3960880390834e+00 +/- 1,1109964236995e+00
+t (e-folding time) = 3,2017971690796e+00 +/- 1,0787028979644e+00
+y0 (Offset) = 2,6754744332921e-02 +/- 1,3236366910043e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,3375531152816e-04
+R^2 = 0,9251273297958
+Angepasstes R^2 = 0,8876909946938
+RMSE (Standardabweichung) = 0,01156526314133
+RSS (Summe der quadrierten Restwerte) = 0,0009362871806971
+---------------------------------------------------------------------------------------
+Iterationen = 12
+Status = success
+---------------------------------------------------------------------------------------
+[05.03.16 01:31	Diagramm: ''Grafik1'']
+Lineare Regression von Datensatz: maxima_3, unter Verwendung der Funktion: A*x+B
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Von x = 8,0000000000000e+00 bis x = 1,7000000000000e+01
+B (y-intercept) = 2,0714688962356e-01 +/- 2,3579415311475e-02
+A (slope) = -1,1159637362216e-02 +/- 1,8384426249668e-03
+--------------------------------------------------------------------------------------
+Chi^2/doF = 2,7883938103683e-04
+R^2 = 0,8216149963668
+Angepasstes R^2 = 0,7706478524716
+RMSE (Standardabweichung) = 0,01669848439341
+RSS (Summe der quadrierten Restwerte) = 0,002230715048295
+---------------------------------------------------------------------------------------
+[05.03.16 01:32	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 8,0000000000000e+00 bis x = 1,7000000000000e+01
+A (Amplitude) = 1,3960880390834e+00 +/- 1,1109964236995e+00
+t (e-folding time) = 3,2017971690796e+00 +/- 1,0787028979644e+00
+y0 (Offset) = 2,6754744332921e-02 +/- 1,3236366910043e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,3375531152816e-04
+R^2 = 0,9251273297958
+Angepasstes R^2 = 0,8876909946938
+RMSE (Standardabweichung) = 0,01156526314133
+RSS (Summe der quadrierten Restwerte) = 0,0009362871806971
+---------------------------------------------------------------------------------------
+Iterationen = 12
+Status = success
+---------------------------------------------------------------------------------------
+[05.03.16 01:32	Diagramm: ''Grafik1'']
+Exponentielles Abklingen von Datensatz: maxima_3, unter Verwendung der Funktion: y0+A*exp(-x/t)
+Gewichtungsmethode: Keine Gewichtung (alle w_i = 1)
+Skalierter Levenberg-Marquardt Algorithmus mit Tolleranz = 0,0001
+Von x = 8,0000000000000e+00 bis x = 1,7000000000000e+01
+A (Amplitude) = 1,3960744938984e+00 +/- 1,1109828807014e+00
+t (e-folding time) = 3,2018104470974e+00 +/- 1,0787101649072e+00
+y0 (Offset) = 2,6754597396388e-02 +/- 1,3236449411611e-02
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1,3375531152480e-04
+R^2 = 0,9251273297977
+Angepasstes R^2 = 0,8876909946966
+RMSE (Standardabweichung) = 0,01156526314118
+RSS (Summe der quadrierten Restwerte) = 0,0009362871806736
+---------------------------------------------------------------------------------------
+Iterationen = 1
+Status = success
+---------------------------------------------------------------------------------------
 </log>
