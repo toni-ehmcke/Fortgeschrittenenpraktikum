@@ -1182,7 +1182,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	529	405
-<PageGeometry>0.00927644	0.0118765	0.981447	0.961995</PageGeometry>
+<PageGeometry>0.00927644	0.0120482	0.981447	0.975904</PageGeometry>
 PlotTitle	 	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -1237,8 +1237,8 @@ EnabledTickLabels	1	1	1	1
 <LineStyle>0</LineStyle>
 <x>217.54385964912</x>
 <y>966.55518394649</y>
-<right>433.858267716535</right>
-<bottom>2.58477508650519</bottom>
+<right>436.968085106383</right>
+<bottom>2.58163265306122</bottom>
 <attachTo>1</attachTo>
 <onTop>1</onTop>
 <visible>1</visible>
@@ -1269,7 +1269,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	5	5	501	405
-<PageGeometry>0.00978474	0.0118765	0.980431	0.961995</PageGeometry>
+<PageGeometry>0.00978474	0.0120482	0.980431	0.975904</PageGeometry>
 PlotTitle	 	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -1323,7 +1323,11 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 A_glas	1	1	29.02.16 17:20
+<<<<<<< HEAD
+geometry	196	820	527	469	minimized	
+=======
 geometry	0	0	527	469	
+>>>>>>> 5407e57d76eb2420d4724cacf541e0c2bf19100a
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1332,8 +1336,13 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
+<<<<<<< HEAD
+ggeometry	5	5	509	406
+<PageGeometry>0.00980392	0.0121951	0.998039	0.990244</PageGeometry>
+=======
 ggeometry	5	5	509	405
 <PageGeometry>0.00963391	0.0118765	0.980732	0.961995</PageGeometry>
+>>>>>>> 5407e57d76eb2420d4724cacf541e0c2bf19100a
 PlotTitle	 	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -1387,7 +1396,11 @@ EnabledTickLabels	1	1	1	1
 </multiLayer>
 <multiLayer>
 R_T_glas	1	1	29.02.16 19:31
+<<<<<<< HEAD
+geometry	0	820	527	469	minimized	
+=======
 geometry	0	0	527	469	
+>>>>>>> 5407e57d76eb2420d4724cacf541e0c2bf19100a
 WindowLabel		2
 Margins	5	5	5	5
 Spacing	5	5
@@ -1397,7 +1410,7 @@ Alignement	0	0
 <CommonAxes>0</CommonAxes>
 <graph>
 ggeometry	3	4	513	413
-<PageGeometry>0.00578035	0.00950119	0.988439	0.980998</PageGeometry>
+<PageGeometry>0.00588235	0.0097561	1.00588	1.00732</PageGeometry>
 PlotTitle	 	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -1461,8 +1474,13 @@ Alignement	0	0
 <AlignPolicy>0</AlignPolicy>
 <CommonAxes>0</CommonAxes>
 <graph>
+<<<<<<< HEAD
+ggeometry	14	10	1468	800
+<PageGeometry>0.00934579	0.0120482	0.979973	0.963855</PageGeometry>
+=======
 ggeometry	5	5	492	368
 <PageGeometry>0.00996016	0.013089	0.98008	0.963351</PageGeometry>
+>>>>>>> 5407e57d76eb2420d4724cacf541e0c2bf19100a
 PlotTitle	 	#000000	4228
 <Antialiasing>0</Antialiasing>
 <Autoscaling>1</Autoscaling>
@@ -1479,6 +1497,17 @@ AxesTitleColors	#000000	#000000	#000000	#000000
 AxesTitleAlignment	5124	5124	4	5124
 AxesTitleDistance	2	2	2	2
 InvertedTitle	0	0	0	0
+<<<<<<< HEAD
+TitleFont	Noto Sans	21	75	0	0	0
+ScaleFont0	Noto Sans	18	75	0	0	0
+ScaleFont1	Noto Sans	18	75	0	0	0
+ScaleFont2	Noto Sans	18	75	0	0	0
+ScaleFont3	Noto Sans	18	75	0	0	0
+AxisFont0	Noto Sans	18	50	0	0	0
+AxisFont1	Noto Sans	18	50	0	0	0
+AxisFont2	Noto Sans	18	50	0	0	0
+AxisFont3	Noto Sans	18	50	0	0	0
+=======
 TitleFont	Noto Sans	10	75	0	0	0
 ScaleFont0	Noto Sans	8	75	0	0	0
 ScaleFont1	Noto Sans	8	75	0	0	0
@@ -1488,6 +1517,7 @@ AxisFont0	Noto Sans	8	50	0	0	0
 AxisFont1	Noto Sans	8	50	0	0	0
 AxisFont2	Noto Sans	8	50	0	0	0
 AxisFont3	Noto Sans	8	50	0	0	0
+>>>>>>> 5407e57d76eb2420d4724cacf541e0c2bf19100a
 AxesColors	#000000	#000000	#000000	#000000
 AxesNumberColors	#212121	#212121	#212121	#212121
 AxesBaseline	0	0	0	0	

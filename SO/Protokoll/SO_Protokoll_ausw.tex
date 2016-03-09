@@ -1,10 +1,10 @@
 \section{Auswertung}
 \subsection{Ermitteln des Brechungsindex einer Glasprobe}
-	Nach der in Abschnitt (\ref{sec:shimadzu}) beschriebenen Messung des spektralen Transmissions- und Reflexionsvermögens im Wellenlängenbereich von $\lambda = 250\dots800\ \unit{nm}$ ergeben sich die in Abbildung \ref{fig:R_T_glas} dargestellten Spektren.
+	Nach der in Abschnitt \ref{sec:shimadzu} beschriebenen Messung des spektralen Transmissions- und Reflexionsvermögens einer vorgegebenen (Quarz-)Glasprobe im Wellenlängenbereich von $\lambda = 250\dots800\ \unit{nm}$ ergeben sich die in Abbildung \ref{fig:R_T_glas} dargestellten Spektren.
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[width=\linewidth]{pic/R_T_glas.pdf}
-		\caption{Spektrales Transmissions- (rot), Reflexions- (grün) und Absorptionsvermögen (schwarz) einer Glasprobe}
+		\caption{Spektrales Transmissions- (rot), Reflexions- (grün) und Absorptionsvermögen (schwarz) einer Glasprobe. Aufgetragen ist das Verhältnis der Intensität des Probestrahles $I_{out}$ zu der des Referenzstrahles $I_{in}$ in Abhänigkeit der Wellenlänge des Strahles $\lambda$.}
 		\label{fig:R_T_glas}
 	\end{figure}
 	Dabei wurde angenommen, dass das Absorptionsvermögen durch $A = 1 - R - T$ gegeben ist. Man sieht deutlich, dass das Glas wie ein Kantenfilter wirkt, welcher elektromagnetische Wellen unterhalb einer Wellenlänge von $\unit[300]{nm}$ absorbiert. Im sichtbaren Bereich von etwa 400 bis $\unit[800]{nm}$ ist das Glas hauptsächlich transparent, da das Transmissionsvermögen etwa $\unit[90]{\%}$ beträgt.\\
@@ -22,3 +22,21 @@
 	Hierbei steht die Fehlerangabe für die Standardabweichung der aufgenommenen Messpunkte um den Mittelwert.\\
 	Für Wellenlängen unterhalb  von $\unit[400]{nm}$ ist es nicht sinnvoll den Brechungsindex mit der oben angegebenen Methode zu berechnen, da Absorptionseffekte immer signifikanter werden. Um dies noch besser zu berücksichtigen müsste man den Brechungsindex als komplexe Größe auffassen, d.h. $n \rightarrow N := n(1 + \kappa) \in \mathbb{C}$.
 	
+\subsection{Transmissions- und Reflexionsvermögen verschiedener Filter}
+	Im Folgenden sollen die Ergebnisse der in Abschnitt \ref{sec:shimadzu} beschriebenen Messungen des spektralen Transmissions- und Reflexionsvermögens diverser Proben qualitativ diskutiert werden.
+	\subsubsection{Farbstoffaufdampfschicht} \label{sec:organisch}
+		Es wurde eine Glasplatte untersucht, auf die eine dünne Schicht eines lumineszierenden organischen Stoffgemisches aufgedampft wurde. Diese Schicht besteht zu 2\% aus Dichlormethan (DCM), einer organischen Substanz, die man häufig als Lösungsmittel für Harze, Fette und Kunststoffe verwendet\cite{dcm}, und zu 18 \% aus Aluminium-tris(8-hydroxychinolin) (Alq3), einer orange fluoreszierenden Komplexverbindung, welche zum Bau von organischen Leuchtdioden (OLED) verwendet wird.  Abbildung \ref{fig:TRA_organisch} zeigt das spektrale Verhalten der Messung in Transmission und Reflexion, sowie das Absorptionsverhalten. Man erkennt, dass die Absorption für Licht im UV-Bereich stark zunimmt, was dem typischen Verhalten einer Glasplatte, auf die das Substrat aufgebracht ist, entspricht (vergleiche Abbildung \ref{fig:R_T_glas}). Man erkennt mehrere Peaks zum einen im Bereich von etwa $\unit[400]{nm}$, welche mit dem Absorptionsverhalten von Alq3 erklärt werden können und in der Umgebung von etwa \unit[500]{nm}, die dem DCM zugeordnet werden können.\\
+		\begin{figure}[htb]
+			\centering
+			\includegraphics[width=0.75\linewidth]{pic/TRA_organisch.pdf}
+			\caption{Spektrales Transmissions- (grün), Reflexions- (blau) und Absorptionsvermögen (rot) der Farbstoffaufdampfschicht. Aufgetragen ist das Verhältnis der Intensität des Probestrahles $I_{out}$ zu der des Referenzstrahles $I_{in}$ in Abhänigkeit der Wellenlänge des Strahles $\lambda$.}
+			\label{fig:TRA_organisch}
+		\end{figure} 
+		Das Fluoreszenzverhalten dieser Probe wurde mit der in Abschnitt \ref{sec:fluoromax} beschriebenen Messmethode weiter untersucht. Dafür wurde die Probe mit 280, 400 und \unit[500]{nm} angeregt und es wurde die spektrale Intensität des emittierten Fluoreszenzlichtes gemessen. Diese speziellen Wellenlängen wurden gewählt, da bei diesen besonders starke Absorption zu erwarten ist. Abbildung \ref{fig:flouromax_emission} veranschaulicht die Ergebnisse der Messung.
+		\begin{figure}[htb]
+			\centering
+			\includegraphics[width=0.75\linewidth]{pic/flouromax_emission.pdf}
+			\caption{Emissionsspektrum der Farbaufdampfschicht unter Bestrahlung mit \unit[280]{nm} (grün), \unit[400]{nm} (rot), \unit[500]{nm} (blau). Dargestellt ist die emittierte Intensität des Fluoreszenzlichtes $I$ in Einheiten der Detektorzählimpulse pro Zeitheiten als Funktion der Wellenlänge $\lambda$.}
+			\label{fig:flouromax_emission}
+		\end{figure}
+		Man sieht deutlich, dass in allen drei Fällen ein Intensitätspeak bei \unit[600]{nm} entsteht, welcher das orangefarbene Fluoreszenzlicht erklärt. Das offensichtlich größte Maximum entsteht, wenn man direkt mit \unit[400]{nm} die Alq3-Moleküle in einen höheren Anregungszustand versetzt, welche bei Abregung dann Photonen der entsprechenden Wellenlänge emittieren. Mit \unit[280]{nm} regt man hauptsächlich das Glasgitter an. Dieses gibt die Anregung zum Beispiel in Form von Gitterschwingungen (Phononen) an Alq3 weiter, welches dann fluoresziert. Der resultierende Peak ist allerdings sehr klein im Vergleich zur direkten Anregung. Bei \unit[500]{nm} wird Dichlormethan besonders häufig angeregt. Auf organische Moleküle wie DCM wirkt sich eine Anregung auf den Schwinguns- und Rotationszustand aus, wodurch auch hier Energie an Alq3 weitergegeben werden kann. 

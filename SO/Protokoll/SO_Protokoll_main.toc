@@ -4,7 +4,8 @@
 \contentsline {section}{\numberline {2}Versuchsdurchf\IeC {\"u}hrung}{4}{section.2}
 \contentsline {subsection}{\numberline {2.1}Messung spektraler Transparenz und Reflexion}{4}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Lumineszenzspektrometrie}{4}{subsection.2.2}
-\contentsline {section}{\numberline {3}Auswertung}{4}{section.3}
-\contentsline {subsection}{\numberline {3.1}Ermitteln des Brechungsindex einer Glasprobe}{4}{subsection.3.1}
-\contentsline {section}{\numberline {4}Diskussion und Zusammenfassung}{6}{section.4}
-\contentsline {section}{\numberline {5}Quellenverzeichnis}{7}{section.5}
+\contentsline {section}{\numberline {3}Auswertung}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Ermitteln des Brechungsindex einer Glasprobe}{5}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Transmissions- und Reflexionsverm\IeC {\"o}gen verschiedener Filter}{7}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Farbstoffaufdampfschicht}{7}{subsubsection.3.2.1}
+\contentsline {section}{\numberline {4}Diskussion und Zusammenfassung}{9}{section.4}
