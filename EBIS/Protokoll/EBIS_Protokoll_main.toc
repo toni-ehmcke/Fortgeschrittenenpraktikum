@@ -13,4 +13,5 @@
 \contentsline {subsection}{\numberline {2.2}Aufnahme und Analyse eines \IeC {\"U}bersichtsspektrums}{7}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Einfluss des Drucks auf die Ionenzust\IeC {\"a}nde im Strahlkanal}{7}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Einfluss der Ionisationszeit auf die Ladungszustandsverteilung und Erzeugung}{10}{subsection.2.4}
-\contentsline {section}{\numberline {3}Diskussion und Zusammenfassung}{13}{section.3}
+\contentsline {section}{\numberline {3}Diskussion und Zusammenfassung}{14}{section.3}
+\contentsline {section}{\numberline {4}Anhang}{16}{section.4}
