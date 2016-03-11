@@ -1,8 +1,34 @@
 \section{Versuchsdurchführung}
 	\subsection{Messung spektraler Transparenz und Reflexion} \label{sec:shimadzu}
-    	Die Messungen zu Transmissions- und Reflexionsgrad erfolgen Schubweise, da für die verschiedenen Proben unterschiedliche Wellenlängenbereiche interessant sind. Für jeden Bereich muss eine Normierungskurve aufgenommen werden, die feststellt, was $ 100\unit{\%} $ Reflexions- bzw. Transmissionsgrad sind.
-        
+    	Die Messungen zu Transmissions- und Reflexionsgrad erfolgen Schubweise, da für die verschiedenen Proben unterschiedliche Wellenlängenbereiche interessant sind. Für jeden Bereich muss eine Kalibrierung vorgenommen werden, die feststellt, was $ 100\unit{\%} $ Reflexions- bzw. Transmissionsgrad sind. Das bedeutet, Proben- und Referenzstrahl werden verglichen und innerhalb der Auswertungsoftware wird um einen entsprechenden Faktor auf die $100\unit{\%}$ korrigiert. 
+        Zunächst müssen die Parameter der Messung eingegeben werden. Das sind der Wellenlängenbereich, die Schrittweite zwischen den Wellenlängen und die Messdauer auf einer Wellenlänge, sowie die Wellenlängen, an denen die Lichtquelle zu wechseln ist. Ist dies eingestellt, wird die Kalibrierung vorgenommen. Danach kann mit dem Einsetzen der Probe im Probenstrahlgang begonnen werden. Hierbei ist darauf zu achten, dass während der Messungen die Probenräume geschlossen gehalten müssen, da ansonsten Umgebungslicht die Messung beeinflussen würde.\\
+        Nun setzt man nacheinander die gewünschten Proben ein, bis ein Wechsel des Wellenlängenbereichs notwendig wird.\\
+        Die Intervalle der Messungen wurden in Schritten von jeweils $1\unit{nm}$ für die Transmissionsgrade und $2\unit{nm}$ für die Messung der Relfexionsgrade abgetastet. Der Lampenwechsel findet an den Wellenlängen $285\unit{nm} \text{ und } 885\unit{nm}$ statt.
+        Es wurden folgende Farbfilter verwendet:
+        \begin{table}
+            \centering
+            \begin{tabular}{c|c}
+                     \textbf{Farbfilter} & \textbf{Farbe} \\ 
+            \hline F0246 & blau \\ 
+                   F0907 & gelb \\
+                   F0956 & orange \\
+                   F0957 & rot  \\
+            \end{tabular} 
+        \end{table}
+        Gemessen werden diese Filter in einem Intervall von $350\unit{nm}$ bis $800\unit{nm}$ für die Transmission. Die Reflexion wird ab $250\unit{nm}$ gemessen.
+        Für die Glasprobe, den Metallinterferenzfilter und die organische Probe werden als untere Intervallgrenze $250\unit{nm}$ festgesetzt. Für die Messung an einem Stück eines Visiers eines Feuerwehrhelms wird die obere Intervallgrenze verschoben auf $1300\unit{nm}$. Für die entsprechende unbeschichtete Probe wird der Infrarotbereich von $900\unit{nm}$ bis $1500\unit{nm}$ gemessen.
         %TODO: Kurze Beschreibung der Durchführung am SHIMADZU3100 (da reichen ein paar wenige Sätze)
 	
-	\subsection{Lumineszenzspektrometrie}
+	\subsection{Lumineszenzspektrometrie} \label{sec:fluoromax}
 	%TODO Kurze Beschreibung der Messung am FLOUROMAX. Besonders  Bragg-Bedingung am Eingangsfilter diskutieren.
+	Die Messung der spektralen Verteilung des emittierten Fluoreszenzlichtes einer Probe wird im FLOUROMAX-Lumineszenzspektrometer vorgenommen. Dabei wird eine Probe mit einer ausgewählten Wellenlänge angeregt und es wird mit einem Detektor die Intensitätsverteilung des emittierten Lichtes gemessen. Zum Ausfiltern der entsprechenden Wellenlängen (sowohl des einfallenden, als auch des ausfallenden Lichtes) werden 2 Monochromatoren verwendet. Diese bestehen aus optischen Gittern mit Gitterkonstante $d$, die in einem bestimmten Winkel $\theta$ platziert werden, so dass die gewünschte konstruktive Interferenzbedinung für $m \in \mathbb{Z}$ erfüllt ist:
+	\begin{equation} \label{eq:gitter}
+		m \cdot \lambda \overset{!}{=} d \cdot \sin\theta.
+	\end{equation}
+	Zu Beginn wurde die Funktionstüchtigkeit des Monochromators überprüft, indem bei geöffneter Klappe ein weißes Blatt Papier in den Strahlengang gehalten wurde und anhand der Farbe die Richtigkeit der herausgefilterten Wellenlänge geprüft wurde. Dabei fällt auf, dass bereits im normalerweise für das menschliche Auge nicht sichtbare UV-Bereich ein grün-blauer, und somit langwelligerer, Lichtfleck erscheint. Dies kann mit der freien Wahl von $m$ in Gleichung (\ref{eq:gitter}) bei konstanter rechter Seite erklärt werden. Dieses Phänomen trat insbesondere auch bei der Messung des Emissionsspektrums der in Abschnitt \ref{sec:organisch} beschriebenen Farbstoffaufdampfschicht unter Bestrahlung mit Licht der Wellenlänge \unit[280]{nm} auf. Der rote Graph in Abbildung \ref{fig:flouromax_filter} zeigt einen deutlichen Peak bei $\lambda = \unit[560]{nm} = 2\cdot \unit[280]{nm}$. Der Monochromator am Eingang der Messkammer lässt wegen \eqref{eq:gitter} sowohl \unit[280]{nm} als auch \unit[560]{nm} konstruktiv interferieren, wodurch am Ausgang nach entsprechender Transmission durch die Probe der störende Peak entsteht. Diese kann beseitigt werden, indem man am Eingang einen Kantenfilter (Bezeichnung: WG320) verwendet, der Wellenlängen unterhalb einer gewissen Grenzwellenlänge absorbiert. Das so korrigierte Spektrum entspricht dem blauen Graph in Abbildung \ref{fig:flouromax_filter}. Da der Filter auch ein gewisses Absorptionsvermögen in anderen Wellenlängenbereichen hat entsteht weiterhin eine leichte Abschwächung des Signals.
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{pic/flouromax_filter}
+		\caption{Emissionsspektrum der Farbstoffaufdampfschicht ohne (rot) und mit geeignetem Filter (blau).}
+		\label{fig:flouromax_filter}
+	\end{figure}

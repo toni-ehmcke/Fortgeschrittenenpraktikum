@@ -44,11 +44,27 @@
 \subsection{Aufbau der Versuchsanordnungen}
     Während des Praktikums werden verschiedene Versuchsaufbauten verwendet, um jeweils den Transmissions- und Reflexionsgrade verschiedener Materialien sowie die Anregungswellenlänge einer organischen, fluoreszierenden Probe zu ermitteln.
     \subsubsection{Shimadzu 3100}
-        Für die Aufnahme der Reflexions- und Transmissionsgrade werden zwei verschiedene Aufbauten eines Gerätes, dem Shimadzu 3100, verwendet. Dieses Gerät erzeugt mithilfe einer Halogen- und einer Deuteriumlampe Licht verschiedener Wellenlängen, wobei die einzelnen Wellenlängen mithilfe optischer Gitter anstelle von Prismen realisiert werden. Im Gegensatz zur Verwendung eines Prismas hängt die Beugung über das Gitter nicht direkt von der Wellenlänge ab und es entstehen auch weniger Unsicherheiten aufgrund der Unabhängigkeit von der Brechzahl. In Abbildung \ref{aufb:transmiss} ist der Transmissionsaufbau zu sehen. 
-        \textbf{Anordnung zur Messung der Transmission}
+        Für die Aufnahme der Reflexions- und Transmissionsgrade werden zwei verschiedene Aufbauten eines Gerätes, dem Shimadzu 3100, verwendet. Dieses Gerät erzeugt mithilfe einer Halogen- (WI) und einer Deuteriumlampe (D$_2$) Licht verschiedener Wellenlängen, wobei die einzelnen Wellenlängen mithilfe optischer Gitter anstelle von Prismen voneinander getrennt werden. Im Gegensatz zur Verwendung eines Prismas hängt die Beugung über das Gitter nicht direkt von der Wellenlänge ab und es entstehen auch weniger Unsicherheiten aufgrund der Unabhängigkeit von der Brechzahl. Des Weiteren entfällt die Absorption von Licht im Glas, was niedrigere Intensitäten und mit der daraus folgenden geringeren Lichtausbeute auch größere Fehler vermeidet. In Abbildung \ref{aufb:transmiss} ist der Transmissionsaufbau zu sehen. 
+        \textbf{Anordnung zur Messung der Transmission}\\
             \begin{figure}
                 \includegraphics[scale=0.15]{pic/transmiss_aufbau.png}
                 \caption{Aufbau zur Transmissionsmessung}
                 \label{aufb:transmiss}
             \end{figure}
+            Für die verschiedenen Wellenlängenbereiche sind ein Photomulitplier (PM) und eine Blei(II)-Sulfid-Zelle (PbS) als Detektoren und unterschiedliche Lampentypen verwendet. Das Gerät schaltet beim Übergang selbstständig von einem Wellenlängenbereich in den anderen um, wodurch im Umschaltbereich eine starke Fluktuation der Messung beobachtbar ist. (vgl. Abbildungen zu Transmissions- und Reflexionsgrade im Abschnitt \ref{sec:shimadzu})
+            Diese Umschaltungen finden in den Wellenlängenbereichen um $250\unit{nm}$ und $850\unit{nm}$ statt und werden durch die Messbereiche der verwendeten Detektoren bestimmt. 
+            Das Licht der Lampen WI und D$_2$ wird durch ein System von Spalten, Gittern und einen Filter geleitet und danach über Spiegel aufgespalten. Die Aufspaltung dient dem Erhalt eines Referenz- und eines Probenstrahls. \\
+        \textbf{Anordnung zur Messung der Reflexion}\\
+            Der Aufbau zur Messung der Reflexion ist bis zur Probenkammer identisch dem Aufbau zu Messung der Transmission. In die Probenkammer wird ein System aus Spiegeln eingesetzt, um die Strahlen in eine nebenstehende andere Kammer umzulenken. Dort ist ein weiteres System von Spiegeln angeordnet, welches den Referenzstrahl misst und über weitere Spiegel den Probenstrahl auf die Probe lenkt. Die Probe reflektiert daraufhin einen Teil des Probenstrahls, welcher über Spiegel zu den Detektoren gelenkt wird.\\
+            In beiden Fällen muss vor jeder Messung eine Kalibrierung vorgenommen werden, die das Verhältnis von Proben- und Referenzstrahl ohne eingesetzte Probe feststellt. Damit wird auf die $100\unit{\%}$ Transmission bzw. Reflexion normiert.
     \subsubsection{Fluoromax}
+        Das Fluorimax-Gerät besteht aus einer Lampe, die weißes Licht emittiert, zwei optischen Gittern, einer Probenkammer, einem System aus Spiegeln und Photodetektoren.\\
+        Das erste optische Gitter lässt sich so drehen, dass entsprechend nur Licht einer bestimmten, voreinstellbaren Wellenlänge durchgelassen wird. Dieses Licht entspricht dem Anregungslicht. Die Einstellung der Anregungswellenlänge geschieht über die Drehung des Gitters vor der Probe. Ein weiteres drehbares Gitter befindet sich hinter der Probe und dient der Abtastung der einzelnen Wellenlängen durch Drehung. Aufgrund der Bragg-Bedingungen:
+        \begin{align}
+             n\cdot \lambda = 2d \cdot \sin(\alpha)
+             \label{bragg1}
+        \end{align}
+        mit Wellenlänge $\lambda$, Gitterabstand $d$, Ordnung $n$ und dem Drehwinkel $\alpha$
+        kann es passieren, dass ganzzahlige Vielfache der Wellenlänge bei fester Gitterkonstante und festem Winkel unerwünscht konstruktiv interferieren und das Messergebnis erheblich beeinflussen. (vgl. Abbildung \ref{fig:flouromax_filter} in Abschnitt \ref{sec:fluoromax}) Um das einfallende Licht Erregungslicht aus der Messung herauszufiltern wird zwischen Probe und dem optischen Gitter ein Filter eingebracht, der die Erregerwellenlänge absorbiert. 
+\subsection{Floureszenz}
+    Fluoreszenz beschreibt die spontane Emission von Licht nach Anregung eines physikalischen Systems. Dabei erfolgt die Emission durch einen Übergang zwischen zwei Zuständen gleicher Spins von einem höheren in einen niedrigeren. Die Zustände sind sehr kurzlebig, wodurch die Fluoreszenz schnell abklingt. Die Anregungswellenlänge ist dabei meist kleiner als die Wellenlänge des emittierten Lichtes. Ein fluoreszierendes System nennt man Fluorophor.
