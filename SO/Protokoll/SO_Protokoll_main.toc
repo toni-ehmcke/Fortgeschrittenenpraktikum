@@ -1,10 +1,13 @@
 \select@language {german}
 \contentsline {section}{\numberline {1}Einf\IeC {\"u}hrung und Grundlagen}{2}{section.1}
 \contentsline {subsection}{\numberline {1.1}Reflexion und Transmission an Grenzfl\IeC {\"a}chen}{2}{subsection.1.1}
-\contentsline {section}{\numberline {2}Versuchsdurchf\IeC {\"u}hrung}{4}{section.2}
-\contentsline {subsection}{\numberline {2.1}Messung spektraler Transparenz und Reflexion}{4}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Lumineszenzspektrometrie}{4}{subsection.2.2}
-\contentsline {section}{\numberline {3}Auswertung}{4}{section.3}
-\contentsline {subsection}{\numberline {3.1}Ermitteln des Brechungsindex einer Glasprobe}{4}{subsection.3.1}
-\contentsline {section}{\numberline {4}Diskussion und Zusammenfassung}{6}{section.4}
-\contentsline {section}{\numberline {5}Quellenverzeichnis}{7}{section.5}
+\contentsline {subsection}{\numberline {1.2}Aufbau der Versuchsanordnungen}{4}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}Shimadzu 3100}{4}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}Fluoromax}{5}{subsubsection.1.2.2}
+\contentsline {section}{\numberline {2}Versuchsdurchf\IeC {\"u}hrung}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Messung spektraler Transparenz und Reflexion}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Lumineszenzspektrometrie}{5}{subsection.2.2}
+\contentsline {section}{\numberline {3}Auswertung}{5}{section.3}
+\contentsline {subsection}{\numberline {3.1}Ermitteln des Brechungsindex einer Glasprobe}{5}{subsection.3.1}
+\contentsline {section}{\numberline {4}Diskussion und Zusammenfassung}{7}{section.4}
+\contentsline {section}{\numberline {5}Quellenverzeichnis}{8}{section.5}

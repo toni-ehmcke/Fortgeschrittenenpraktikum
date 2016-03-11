@@ -4572,9 +4572,9 @@ EnabledTickLabels	1	1	1	1
 <ScaleLayers>1</ScaleLayers>
 </multiLayer>
 <multiLayer>
-Grafik1	1	1	07.03.16 22:32
+ARTorganisch_complete	1	1	07.03.16 22:32
 geometry	maximized	active
-WindowLabel		2
+WindowLabel	Transmissions-, Reflexions- und Absorptionsgrad der organischen Probe in einem Diagramm	2
 Margins	5	5	5	5
 Spacing	5	5
 LayerCanvasSize	400	300
